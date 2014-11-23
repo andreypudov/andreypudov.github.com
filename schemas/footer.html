@@ -1,0 +1,38 @@
+<div class='container'>
+    <footer>
+        <ui:insert name='footer-divider'>
+            <hr class='footer-divider' />
+        </ui:insert>
+        
+        <ul class='piped-links pull-right'>
+            <li class='first piped-links-short'><h:link value='About' outcome='about' /></li>
+            <li class='first piped-links-long'><h:link value='About Andrey Pudov' outcome='about' /></li>
+            <li><h:link value='Contact Us' outcome='contact' /></li>
+        </ul>
+        
+        <ul class="piped-links">
+            <p class='piped-links-long'>Copyright &#169; 2014 Andrey Pudov. All rights reserved.</p>
+            <li class='first'><h:link value='Terms of Use' outcome='legal' /></li>
+            <li><h:link value='Privacy Policy' outcome='privacy' /></li>
+        </ul>
+        
+        <p class='piped-links-short'>&#169; 2014 Andrey Pudov. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src='~/libraries/jquery/jquery-1.11.0.min.js'></script>
+    <!-- <script src='${request.contextPath}/resources/libraries/jquery/jquery.validate.min.js'></script> -->
+    
+    <!-- <script src='${request.contextPath}/resources/libraries/bootstrap/js/bootstrap.min.js'></script> -->
+    
+    <script src='~/libraries/bootstrap/js/collapse.js' ></script>
+    <script src='~/libraries/bootstrap/js/dropdown.js' ></script>
+    <script src='~/libraries/bootstrap/js/transition.js' ></script>
+    
+    <!-- web page specific scripts and styles declaration -->
+    <ui:insert name='page-scripts' />
+
+    <!-- common on init functions -->
+    <script src='~/scripts/init.js'></script>
+</div>
