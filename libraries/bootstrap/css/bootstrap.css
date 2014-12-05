@@ -4936,7 +4936,11 @@ body {
 .navbar-wrapper .container {
   padding-left: 0;
   padding-right: 0;
-  width: 624px;
+}
+@media (min-width: 768px) {
+  .navbar-wrapper .container {
+    width: 624px;
+  }
 }
 .navbar-wrapper .navbar {
   padding-left: 0;
