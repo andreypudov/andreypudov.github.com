@@ -28,6 +28,11 @@ exec scala "$0" "$@"
  * THE SOFTWARE.
  */
 
+import sys.process._
+import scala.language.postfixOps
+
+import java.io.File
+
 /**
  * Compiles webite content and photo albums.
  *
@@ -37,6 +42,44 @@ exec scala "$0" "$@"
  * %date      12:10:00 PM, Nov 28, 2014
  */
 object Compile {
+  val ALBUMS_SOURCE_LOCATION  = "/Users/andrey/Pictures/Albums"
+
+  val ALBUMS_LOCATION         = "albums"
+  val LIBRARIES_LOCATION      = "libraries"
+  val SOURCE_LOCATION         = "source"
+
+  val BOOTSTRAP_LOCATION      = LIBRARIES_LOCATION + "/bootstrap"
+  val BOOTSTRAP_LESS_LOCATION = BOOTSTRAP_LOCATION + "/less/bootstrap.less"
+  val BOOTSTRAP_CSS_LOCATION  = BOOTSTRAP_LOCATION + "/css/bootstrap.css"
+
+  def compileStylesheet() {
+    print("Compile style sheets...\t\t")
+
+    val status = (("lessc " + BOOTSTRAP_LESS_LOCATION) #> new File(BOOTSTRAP_CSS_LOCATION)).!
+    if (status != 0) {
+      println("[FAILED]")
+      sys.exit(status)
+    }
+
+    println("[SUCCES]")
+  }
+
+  def compileImages() {
+    print("Compile photo albums...\t\t")
+
+    (new File(ALBUMS_SOURCE_LOCATION)).listFiles().foreach(album =>
+      album match {
+        case album if (album.isDirectory()) => {
+          println(album)
+        }
+      }
+    )
+
+    println("[SUCCESS]")
+  }
+
   def main(args: Array[String]) {
+    compileStylesheet()
+    //compileImages()
   }
 }

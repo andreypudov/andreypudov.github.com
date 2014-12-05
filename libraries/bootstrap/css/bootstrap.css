@@ -4936,6 +4936,7 @@ body {
 .navbar-wrapper .container {
   padding-left: 0;
   padding-right: 0;
+  width: 624px;
 }
 .navbar-wrapper .navbar {
   padding-left: 0;
@@ -5459,6 +5460,15 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5d5d5d', endColorstr='#ff545454', GradientType=0);
   /* IE6-8 */
 
+}
+.navbar-nav > li:last-child {
+  border-radius: 0px 4px 4px 0px;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li:last-child > a:hover,
+  .navbar-nav > li:last-child > a:focus {
+    border-radius: 0px 4px 4px 0px;
+  }
 }
 .navbar-toggle {
   margin-top: 0px;
