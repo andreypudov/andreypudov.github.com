@@ -31,7 +31,11 @@ exec scala "$0" "$@"
 import sys.process._
 import scala.language.postfixOps
 
+import java.awt.geom.AffineTransform
+import java.awt.image.AffineTransformOp
+import java.awt.image.BufferedImage
 import java.io.File
+import javax.imageio.ImageIO
 
 /**
  * Compiles webite content and photo albums.
@@ -52,6 +56,9 @@ object Compile {
   val BOOTSTRAP_LESS_LOCATION = BOOTSTRAP_LOCATION + "/less/bootstrap.less"
   val BOOTSTRAP_CSS_LOCATION  = BOOTSTRAP_LOCATION + "/css/bootstrap.css"
 
+  val PHOTOGRAPHY_NAMES = Array("jpg", "jpeg")
+  val IGNORE_NAMES      = Array("iPod Photo Cache", ".DS_Store")
+
   def compileStylesheet() {
     print("Compile style sheets...\t\t")
 
@@ -68,10 +75,49 @@ object Compile {
     print("Compile photo albums...\t\t")
 
     (new File(ALBUMS_SOURCE_LOCATION)).listFiles().foreach(album =>
-      album match {
-        case album if (album.isDirectory()) => {
-          println(album)
-        }
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+        var directory = new File(ALBUMS_LOCATION + File.separator + album.getName())
+        if ((directory.exists() == false) || (directory.isDirectory() == false)) {
+          directory.delete()
+          directory.mkdir()
+
+          var photographyIndex = 0
+
+          album.listFiles().foreach(photography =>
+            {
+              var extension = ""
+              var index     = photography.getName().lastIndexOf('.')
+              if (index > 0) {
+                extension = photography.getName().substring(index + 1).toLowerCase()
+              }
+
+              if (photography.isFile() && PHOTOGRAPHY_NAMES.contains(extension)) {
+                val image = ImageIO.read(photography)
+
+                val width  = 640
+                val height = 480
+
+                val imageWidth  = image.getWidth()
+                val imageHeight = image.getHeight()
+
+                val scaleX = width.toDouble  / imageWidth
+                val scaleY = height.toDouble / imageHeight
+
+                val scaleTransform  = AffineTransform.getScaleInstance(scaleX, scaleY)
+                val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
+
+                val newImage = bilinearScaleOp.filter(image, new BufferedImage(width, height, image.getType()))
+
+                photographyIndex = photographyIndex + 1
+                ImageIO.write(newImage, "jpg", 
+                  new File(directory.getAbsolutePath() 
+                    + File.separator + (photographyIndex).toString().toUpperCase()
+                    +  "_" + album.getName() + ".JPG"))
+                sys.exit
+              }
+            }
+          )
+        } 
       }
     )
 
@@ -79,7 +125,7 @@ object Compile {
   }
 
   def main(args: Array[String]) {
-    compileStylesheet()
-    //compileImages()
+    //compileStylesheet()
+    compileImages()
   }
 }
