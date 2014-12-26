@@ -30,12 +30,15 @@ exec scala "$0" "$@"
 
 import sys.process._
 import scala.language.postfixOps
+import scala.io.Source
 
 import java.awt.geom.AffineTransform
 import java.awt.image.AffineTransformOp
 import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
+import java.nio.file.{Paths, Files}
+import java.nio.charset.StandardCharsets
 
 /**
  * Compiles webite content and photo albums.
@@ -50,6 +53,7 @@ object Compile {
 
   val ALBUMS_LOCATION         = "albums"
   val LIBRARIES_LOCATION      = "libraries"
+  val SCHEMAS_LOCATION        = "schemas"
   val SOURCE_LOCATION         = "source"
 
   val BOOTSTRAP_LOCATION      = LIBRARIES_LOCATION + "/bootstrap"
@@ -135,8 +139,59 @@ object Compile {
     println("[SUCCESS]")
   }
 
+  def compileSchemas() {
+    print("Compile schemas...\t\t")
+
+    val layout  = Source.fromFile(SCHEMAS_LOCATION + File.separator + "layout.html").mkString
+    val header  = Source.fromFile(SCHEMAS_LOCATION + File.separator + "header.html").mkString
+    val content = Source.fromFile(SCHEMAS_LOCATION + File.separator + "content.html").mkString
+    val footer  = Source.fromFile(SCHEMAS_LOCATION + File.separator + "footer.html").mkString
+
+    (new File(SOURCE_LOCATION)).listFiles().foreach(source =>
+      if ((IGNORE_NAMES.contains(source.getName()) == false)) {
+        val text = Source.fromFile(source).mkString
+
+        var _index   = 0
+        var _layout  = layout
+        var _title   = "<title>Andrey Pudov</title>"
+        var _header  = header
+        var _content = content
+        var _footer  = footer
+
+        _index = text.indexOf("<define name='title'>")
+        if (_index >= 0) {
+          _title = text.substring(_index, text.indexOf("</define>", _index)).trim()
+        }
+
+        _index = text.indexOf("<define name='header'>")
+        if (_index >= 0) {
+          _header = text.substring(_index, text.indexOf("</define>", _index)).trim()
+        }
+
+        _index = text.indexOf("<define name='content'>")
+        if (_index >= 0) {
+          _content = text.substring(_index, text.indexOf("</define>", _index)).trim()
+        }
+
+        _index = text.indexOf("<define name='footer'>")
+        if (_index >= 0) {
+          _footer = text.substring(_index, text.indexOf("</define>", _index)).trim()
+        }
+        
+        _layout = _layout.replaceFirst("<insert name='title' />",   _title)
+        _layout = _layout.replaceFirst("<insert name='header' />",  _header)
+        _layout = _layout.replaceFirst("<insert name='content' />", _content)
+        _layout = _layout.replaceFirst("<insert name='footer' />",  _footer)
+
+        Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
+    })
+
+    println("[SUCCES]")
+  }
+
   def main(args: Array[String]) {
     //compileStylesheet()
-    compileImages()
+    //compileImages()
+    compileSchemas()
   }
 }

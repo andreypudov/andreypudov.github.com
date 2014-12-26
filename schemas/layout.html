@@ -27,10 +27,8 @@
 <html xmlns='http://www.w3.org/1999/xhtml'
       xmlns:h='http://java.sun.com/jsf/html'
       xmlns:ui='http://java.sun.com/jsf/facelets'>
-    <h:head>
-        <ui:insert name='title'>
-            <title>Andrey Pudov</title>
-        </ui:insert>
+    <head>
+        <insert name='title' />
         
         <meta charset='utf-8' />
         <meta http-equiv='X-UA-Compatible' content='IE=edge' />
@@ -42,31 +40,25 @@
         <link rel='shortcut icon' href='${request.contextPath}/resources/images/favicon.png' />
             
         <!-- bootstrap core style sheet -->
-        <link href='~/libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
+        <link href='libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
         
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
             <script src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js'></script>
         <![endif]-->
-    </h:head>
-    <h:body>
+    </head>
+    <body>
         <div id='page'>
             <div id='header'>
-                <ui:insert name='header'>
-                    <ui:include src='header.xhtml' />
-                </ui:insert>
+                <insert name='header' />
             </div>
             <div id='content'>
-                <ui:insert name='content'>
-                    <ui:include src='content.xhtml' />
-                </ui:insert>
+                <insert name='content' />
             </div>
-            <div id="footer">
-                <ui:insert name='footer'>
-                    <ui:include src='footer.xhtml' />
-                </ui:insert>
+            <div id='footer'>
+                <insert name='footer' />                 
             </div>
         </div>
-    </h:body>
+    </body>
 </html>
