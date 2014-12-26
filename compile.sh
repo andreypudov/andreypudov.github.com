@@ -92,28 +92,39 @@ object Compile {
               }
 
               if (photography.isFile() && PHOTOGRAPHY_NAMES.contains(extension)) {
-                val image = ImageIO.read(photography)
+                def convert(image: File, _width: Int, _height: Int, prefix: String, index: Int) {
+                  val image = ImageIO.read(photography)
 
-                val width  = 640
-                val height = 480
+                  /* calculate image width */
+                  var width  = 0
+                  var height = 0
+                  var scale  = 0.0
+                  if (image.getWidth() > image.getHeight()) {
+                    scale  = _width.toDouble / image.getWidth()
+                    width  = _width
+                    height = (image.getHeight() * scale).toInt
+                  } else {
+                    scale  = _width.toDouble / image.getHeight()
+                    width  = (image.getWidth() * scale).toInt
+                    height = _width
+                  }
 
-                val imageWidth  = image.getWidth()
-                val imageHeight = image.getHeight()
+                  val scaleTransform  = AffineTransform.getScaleInstance(scale, scale)
+                  val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
+                  val newImage        = bilinearScaleOp.filter(image, 
+                    new BufferedImage(width, height, image.getType()))
 
-                val scaleX = width.toDouble  / imageWidth
-                val scaleY = height.toDouble / imageHeight
-
-                val scaleTransform  = AffineTransform.getScaleInstance(scaleX, scaleY)
-                val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
-
-                val newImage = bilinearScaleOp.filter(image, new BufferedImage(width, height, image.getType()))
+                  ImageIO.write(newImage, "jpg", 
+                    new File(directory.getAbsolutePath() 
+                      + File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg"))
+                }
 
                 photographyIndex = photographyIndex + 1
-                ImageIO.write(newImage, "jpg", 
-                  new File(directory.getAbsolutePath() 
-                    + File.separator + (photographyIndex).toString().toUpperCase()
-                    +  "_" + album.getName() + ".JPG"))
-                sys.exit
+
+                /* save each image with different sizes */
+                convert(photography, 800,  600,  "small",  photographyIndex)
+                convert(photography, 1024, 768,  "medium", photographyIndex)
+                convert(photography, 2048, 1356, "large",  photographyIndex)
               }
             }
           )
