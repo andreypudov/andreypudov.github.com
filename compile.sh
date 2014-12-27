@@ -45,7 +45,7 @@ import java.nio.charset.StandardCharsets
  *
  * @author    Andrey Pudov        <mail@andreypudov.com>
  * @version   0.00.00
- * %name      Compile.scala
+ * %name      compile.scala
  * %date      12:10:00 PM, Nov 28, 2014
  */
 object Compile {
