@@ -157,6 +157,7 @@ object Compile {
         var _header  = header
         var _content = content
         var _footer  = footer
+        var _scripts = ""
 
         _index = text.indexOf("<define name='title'>")
         if (_index >= 0) {
@@ -177,7 +178,13 @@ object Compile {
         if (_index >= 0) {
           _footer = text.substring(_index, text.indexOf("</define>", _index)).trim()
         }
-        
+
+        _index = text.indexOf("<define name='page-scripts'>")
+        if (_index >= 0) {
+          _scripts = text.substring(_index, text.indexOf("</define>", _index)).trim()
+        }
+
+        _footer = _footer.replaceFirst("<insert name='title' />",   _scripts)
         _layout = _layout.replaceFirst("<insert name='title' />",   _title)
         _layout = _layout.replaceFirst("<insert name='header' />",  _header)
         _layout = _layout.replaceFirst("<insert name='content' />", _content)
@@ -190,7 +197,7 @@ object Compile {
   }
 
   def main(args: Array[String]) {
-    //compileStylesheet()
+    compileStylesheet()
     //compileImages()
     compileSchemas()
   }
