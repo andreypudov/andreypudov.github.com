@@ -220,7 +220,7 @@ object Compile {
        sys.exit(status)
      }
 
-     status = ("git commit -m \"Automatic website publishing.\"").!
+     status = Process(Seq("git", "commit", "-m", "Automatic webite publishing.")).!
      if (status != 0) {
        println("[FAILED]")
        sys.exit(status)
