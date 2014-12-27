@@ -4868,6 +4868,206 @@ footer .piped-links-long {
 .invisible-group {
   display: none;
 }
+.curriculum-vitae {
+  margin-left: -15px;
+}
+.curriculum-vitae > .box {
+  margin-bottom: 15px;
+}
+.curriculum-vitae > .box #education {
+  margin-top: 20px;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+.curriculum-vitae > .box #education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 25px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #ec7263;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(7%, #ec7263), color-stop(89%, #ec7263), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+.curriculum-vitae > .box #education > li {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+.curriculum-vitae > .box #education > li > .year {
+  width: 10%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+.curriculum-vitae > .box #education > li > .description {
+  width: 87%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px solid #ddd;
+}
+.curriculum-vitae > .box #education > li > .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+.curriculum-vitae > .box #education > li > .description > h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+.curriculum-vitae > .box #education > li > .description > p {
+  margin-top: 5px;
+  padding: 0;
+}
+.curriculum-vitae > .box .job {
+  margin-bottom: 15px;
+}
+.curriculum-vitae > .box .job .where {
+  font-weight: bold;
+}
+.curriculum-vitae > .box .job .year {
+  opacity: 0.7;
+}
+.curriculum-vitae > .box .job .profession {
+  font-weight: bold;
+}
+.curriculum-vitae > .box .job .description {
+  line-height: 1.5em;
+}
+.curriculum-vitae .contact-item {
+  width: 100%;
+  float: left;
+}
+.curriculum-vitae .contact-item > .icon {
+  padding: 10px;
+  opacity: 0.2;
+}
+.curriculum-vitae .contact-item > .icon > .fa {
+  font-size: 1.6em;
+}
+.curriculum-vitae .contact-item > .title {
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.curriculum-vitae .contact-item > .title.only {
+  margin-top: 10px;
+}
+.curriculum-vitae .contact-item > .description {
+  width: calc(100% - 55px);
+  opacity: 0.7;
+  line-height: 8px;
+}
+.curriculum-vitae .skills > .item-skills {
+  height: 30px;
+  background: #a6a6a6;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+.curriculum-vitae .skills > .skills-legend {
+  margin-top: 20px;
+  opacity: 0.8;
+}
+.curriculum-vitae .skills > .skills-legend:before {
+  width: 100%;
+  height: 1px;
+  position: relative;
+  content: ' ';
+  display: block;
+  margin-bottom: -13px;
+  background: #c6c6c6;
+}
+.curriculum-vitae .skills > .skills-legend .legend:before {
+  width: 1px;
+  height: 12px;
+  position: relative;
+  content: ' ';
+  display: block;
+  margin: auto;
+  margin-bottom: 2px;
+  background: #c6c6c6;
+}
+.curriculum-vitae .skills > .skills-legend > .legend-left.legend:before {
+  margin-left: 0;
+}
+.curriculum-vitae .skills > .skills-legend > .legend-left:nth-child(2) > span {
+  margin-left: -25px;
+}
+.curriculum-vitae .skills > .skills-legend .legend-right {
+  text-align: right;
+}
+.curriculum-vitae .skills > .skills-legend .legend-right.legend:before {
+  margin-right: 0;
+}
+.curriculum-vitae .skills > .skills-legend .legend-right:nth-child(3) > span {
+  margin-right: -20px;
+}
+.curriculum-vitae .skills > .skills-legend > div {
+  width: 25%;
+  display: inline-block;
+  color: #a9a9a9;
+  float: left;
+}
+.curriculum-vitae #language-skills > .skill {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.curriculum-vitae #language-skills > .skill > .icons {
+  width: 111px;
+  height: 14px;
+  background: url('andreypudov/../../../../images/star-grey.png') no-repeat;
+}
+.curriculum-vitae #language-skills > .skill > .icons > .icons-red {
+  width: 80%;
+  height: 14px;
+  background: url('andreypudov/../../../../images/star-red.png') no-repeat;
+}
+.curriculum-vitae .hobby {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #a6a6a6;
+  position: relative;
+}
+.curriculum-vitae .hobby:before {
+  content: "\f004";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
 .btn-container {
   padding: 0px;
 }

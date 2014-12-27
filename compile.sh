@@ -154,6 +154,7 @@ object Compile {
         var _index   = 0
         var _layout  = layout
         var _title   = "<title>Andrey Pudov</title>"
+        var _styles  = ""
         var _header  = header
         var _content = content
         var _footer  = footer
@@ -164,6 +165,12 @@ object Compile {
         _index = text.indexOf(_block)
         if (_index >= 0) {
           _title = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
+        }
+
+        _block = "<define name='styles'>"
+        _index = text.indexOf(_block)
+        if (_index >= 0) {
+          _styles = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
         _block = "<define name='header'>"
@@ -193,6 +200,7 @@ object Compile {
         _footer = _footer.replace("<insert name='scripts' />", _scripts)
 
         _layout = _layout.replace("<insert name='title' />",   _title)
+        _layout = _layout.replace("<insert name='styles' />",  _styles)
         _layout = _layout.replace("<insert name='header' />",  _header)
         _layout = _layout.replace("<insert name='content' />", _content)
         _layout = _layout.replace("<insert name='footer' />",  _footer)
