@@ -158,37 +158,44 @@ object Compile {
         var _content = content
         var _footer  = footer
         var _scripts = ""
+        var _block   = ""
 
-        _index = text.indexOf("<define name='title'>")
+        _block = "<define name='title'>"
+        _index = text.indexOf(_block)
         if (_index >= 0) {
-          _title = text.substring(_index, text.indexOf("</define>", _index)).trim()
+          _title = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
-        _index = text.indexOf("<define name='header'>")
+        _block = "<define name='header'>"
+        _index = text.indexOf(_block)
         if (_index >= 0) {
-          _header = text.substring(_index, text.indexOf("</define>", _index)).trim()
+          _header = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
-        _index = text.indexOf("<define name='content'>")
+        _block = "<define name='content'>"
+        _index = text.indexOf(_block)
         if (_index >= 0) {
-          _content = text.substring(_index, text.indexOf("</define>", _index)).trim()
+          _content = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
-        _index = text.indexOf("<define name='footer'>")
+        _block = "<define name='footer'>"
+        _index = text.indexOf(_block)
         if (_index >= 0) {
-          _footer = text.substring(_index, text.indexOf("</define>", _index)).trim()
+          _footer = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
-        _index = text.indexOf("<define name='page-scripts'>")
+        _block = "<define name='scripts'>"
+        _index = text.indexOf(_block)
         if (_index >= 0) {
-          _scripts = text.substring(_index, text.indexOf("</define>", _index)).trim()
+          _scripts = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
-        _footer = _footer.replaceFirst("<insert name='title' />",   _scripts)
-        _layout = _layout.replaceFirst("<insert name='title' />",   _title)
-        _layout = _layout.replaceFirst("<insert name='header' />",  _header)
-        _layout = _layout.replaceFirst("<insert name='content' />", _content)
-        _layout = _layout.replaceFirst("<insert name='footer' />",  _footer)
+        _footer = _footer.replace("<insert name='scripts' />", _scripts)
+
+        _layout = _layout.replace("<insert name='title' />",   _title)
+        _layout = _layout.replace("<insert name='header' />",  _header)
+        _layout = _layout.replace("<insert name='content' />", _content)
+        _layout = _layout.replace("<insert name='footer' />",  _footer)
 
         Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
     })

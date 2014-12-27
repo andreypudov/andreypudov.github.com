@@ -4844,7 +4844,7 @@ footer .piped-links-long {
 }
 @media (min-width: 768px) {
   .contact-form-background {
-    background-image: url('andreypudov/resources/images/contact-form-background.png');
+    background-image: url('andreypudov/../../../../images/contact-form-background.png');
     background-repeat: no-repeat;
     background-position: -50px -10px;
     background-size: 52%;
