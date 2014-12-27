@@ -211,9 +211,35 @@ object Compile {
     println("[SUCCES]")
   }
 
+   def publish() {
+     print("Publishing website...\t\t")
+
+     var status = ("git add --all .").!
+     if (status != 0) {
+       println("[FAILED]")
+       sys.exit(status)
+     }
+
+     status = ("git commit -m \"Automatic website publishing.\"").!
+     if (status != 0) {
+       println("[FAILED]")
+       sys.exit(status)
+     }
+
+     status = ("git push").!
+     if (status != 0) {
+       println("[FAILED]")
+       sys.exit(status)
+     }
+
+     println("[SUCCES]")
+   }
+
   def main(args: Array[String]) {
     compileStylesheet()
     //compileImages()
     compileSchemas()
+
+    publish()
   }
 }
