@@ -11,22 +11,15 @@
             list-style: none;
 
             &:before {                
-                width:      5px;
+                width:      2px;
                 height:     100%;
                 position:   absolute;
                 left:       25px;
                 top:        0;
                 content:    ' ';
                 display:    block;
-                
-                background: #ec7263;
-                background: -moz-linear-gradient(top,  #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#ec7263), color-stop(89%,#ec7263), color-stop(100%,#ffffff));
-                background: -webkit-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-                background: -o-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-                background: -ms-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-                background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-                filter:     progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+
+                #gradient > .vertical-three-colors(@start-color: #ffffff; @mid-color: #a6a6a6; @color-stop: 80%; @end-color: #ffffff);              
             }
 
             > li {
@@ -46,7 +39,7 @@
                 > .description {
                     width:         87%;
                     display:       inline-block;
-                    background:    #eee;
+                    background:    #f2f2f2;
                     margin-bottom: 10px;
                     position:      relative;
                     padding:       10px 10px 0 10px;
@@ -106,36 +99,43 @@
         width: 100%;
         float: left;
 
-        > .icon {
-            padding:       10px;
-            opacity:       0.2;
+        > a {
+            color: inherit;
 
-            > .fa {
-                font-size: 1.6em;
+            &:hover {
+                color: inherit;
             }
-        }
+            
+            > .icon {
+                padding:       10px;
+                opacity:       0.2;
 
-        > .title {
-            width:       ~'calc(100% - 55px)';
-            font-weight: 700;
-            opacity:     0.9;
-
-            &.only {
-                margin-top: 10px;
+                > .fa {
+                    font-size: 1.6em;
+                }
             }
-        }
 
-        > .description {
-            width:       ~'calc(100% - 55px)';
-            opacity:     0.7;
-            line-height: 8px;
+            > .title {
+                width:       ~'calc(100% - 55px)';
+                font-weight: 700;
+                opacity:     0.9;
+
+                &.only {
+                    margin-top: 10px;
+                }
+            }
+
+            > .description {
+                width:       ~'calc(100% - 55px)';
+                opacity:     0.7;
+                line-height: 8px;
+            }
         }
     }
 
     .skills {
         > .item-skills {
             height:        30px;
-            background:    #a6a6a6;
             color:         #fff;
             padding:       5px 10px;
             margin-bottom: 5px;
@@ -143,6 +143,8 @@
             overflow:      hidden;
             text-overflow: ellipsis;
             font-weight:   600;
+
+            #gradient > .horizontal(@start-color: #a6a6a6; @end-color: #ffffff; @start-percent: 0%; @end-percent: 100%);
         }
 
         > .skills-legend {
