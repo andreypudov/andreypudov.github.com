@@ -240,6 +240,6 @@ object Compile {
     //compileImages()
     compileSchemas()
 
-    publish()
+    //publish()
   }
 }

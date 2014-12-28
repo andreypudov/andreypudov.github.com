@@ -5105,6 +5105,16 @@ footer .piped-links-long {
   cursor: inherit;
   display: block;
 }
+.btn-transparent {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.btn-transparent:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: white;
+  color: white;
+}
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
