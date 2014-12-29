@@ -35,10 +35,11 @@ import scala.io.Source
 import java.awt.geom.AffineTransform
 import java.awt.image.AffineTransformOp
 import java.awt.image.BufferedImage
-import java.io.File
+import java.io.{File, FileInputStream, FileNotFoundException}
 import javax.imageio.ImageIO
 import java.nio.file.{Paths, Files}
 import java.nio.charset.StandardCharsets
+import java.util.Properties
 
 /**
  * Compiles webite content and photo albums.
@@ -55,6 +56,7 @@ object Compile {
   val LIBRARIES_LOCATION      = "libraries"
   val SCHEMAS_LOCATION        = "schemas"
   val SOURCE_LOCATION         = "source"
+  val METADATA_LOCATION       = "source/metadata"
 
   val BOOTSTRAP_LOCATION      = LIBRARIES_LOCATION + "/bootstrap"
   val BOOTSTRAP_LESS_LOCATION = BOOTSTRAP_LOCATION + "/less/bootstrap.less"
@@ -62,6 +64,18 @@ object Compile {
 
   val PHOTOGRAPHY_NAMES = Array("jpg", "jpeg")
   val IGNORE_NAMES      = Array("iPod Photo Cache", ".DS_Store")
+
+  class Album {
+    var name: String = ""
+
+    def getName(): String = {
+      return name;
+    }
+
+    def setName(name: String) {
+      this.name = name
+    }
+  }
 
   def compileStylesheet() {
     print("Compile style sheets...\t\t")
@@ -148,7 +162,7 @@ object Compile {
     val footer  = Source.fromFile(SCHEMAS_LOCATION + File.separator + "footer.html").mkString
 
     (new File(SOURCE_LOCATION)).listFiles().foreach(source =>
-      if ((IGNORE_NAMES.contains(source.getName()) == false)) {
+      if (source.isFile() && (IGNORE_NAMES.contains(source.getName()) == false)) {
         val text = Source.fromFile(source).mkString
 
         var _index   = 0
@@ -234,6 +248,7 @@ object Compile {
           "var name    = 'Early Winter';\n"  +
           "var gallery = blueimp.Gallery(\n" +
           "  [\n"
+        val metadata = getAlbumMetadata(album.getName())
 
         if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
           val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
@@ -242,7 +257,7 @@ object Compile {
           photographs.foreach(photograph => {
             script = script                                         +
               "    {\n"                                             +
-              "       title:     name,\n"                           +
+              "       title:     '" + metadata.getName() + "',\n"   +
               "       href:      '" + photograph + "_large.jpg',\n" +
               "       type:      'image/jpeg',\n"                   +
               "       thumbnail: '" + photograph + "_small.jpg'\n"  +
@@ -324,11 +339,33 @@ object Compile {
     println("[SUCCESS]")
   }
 
+  def getAlbumMetadata(name: String): Album = {
+    val album = new Album()
+    val meta  = new File(METADATA_LOCATION + File.separator + name)
+
+    if (meta.exists()) {
+      val properties = new Properties()
+
+      try {
+        properties.loadFromXML(new FileInputStream(meta))
+
+        album.setName(properties.getProperty("name", ""))
+      } catch {
+        case e: FileNotFoundException => {
+          println("[FAILURE]")
+          sys.exit()
+        }
+      }
+    }
+
+    return album
+  }
+
   def main(args: Array[String]) {
     //clean()
 
-    compileStylesheet()
-    compileAlbums()
+    //compileStylesheet()
+    //compileAlbums()
     compileSchemas()
 
     createAlbumsContents()
