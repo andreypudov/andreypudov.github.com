@@ -41,7 +41,7 @@
     <link href='libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
 
     <!-- web page specific styles declaration -->
-    <link href="libraries/blueimp-gallery/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link href='libraries/blueimp-gallery/css/blueimp-gallery.min.css' rel='stylesheet'>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -85,14 +85,25 @@
             <h1>Albums</h1>
           </div>
 
-          <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
-            <div class="slides"></div>
-            <h3 class="title"></h3>
-            <a class="prev">‹</a>
-            <a class="next">›</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
-          </div>
+          <div id='blueimp-gallery-carousel-1' class='blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel'>
+	<div class='slides'></div>
+	<h3 class='title'></h3>
+	<a class='prev'>‹</a>
+	<a class='next'>›</a>
+	<a class='play-pause'></a>
+	<ol class='indicator'></ol>
+</div>
+
+<div id='blueimp-gallery-carousel-2' class='blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel'>
+	<div class='slides'></div>
+	<h3 class='title'></h3>
+	<a class='prev'>‹</a>
+	<a class='next'>›</a>
+	<a class='play-pause'></a>
+	<ol class='indicator'></ol>
+</div>
+
+
         </div>
         </div>
         <div id='footer'>
@@ -127,35 +138,432 @@
     <script src='libraries/bootstrap/js/transition.js' ></script>
     
     <!-- web page specific scripts declaration -->
-    <script src="libraries/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+    <script src='libraries/blueimp-gallery/js/blueimp-gallery.min.js'></script>
 
         <script>
-          var gallery = blueimp.Gallery(
-            [
-              {
-                title:     'Banana',
-                href:      'albums/2014-10-19/001_2014-10-19_large.jpg',
-                type:      'image/jpeg',
-                thumbnail: 'albums/2014-10-19/001_2014-10-19_small.jpg'
-              },
-              {
-                title: 'Apple',
-                href: 'albums/2014-10-19/002_2014-10-19_large.jpg',
-                type: 'image/jpeg',
-                thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
-              },
-              {
-                title: 'Apple',
-                href: 'albums/2014-10-19/002_2014-10-19_large.jpg',
-                type: 'image/jpeg',
-                thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
-              }
-            ],
-            {
-              container: '#blueimp-gallery-carousel',
-              carousel:  true
-            }
-          );
+          var name    = 'Early Winter';
+var gallery = blueimp.Gallery(
+  [
+    {
+       title:     name,
+       href:      'albums/2014-10-19/001_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/001_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/002_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/003_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/003_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/004_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/004_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/005_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/005_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/006_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/006_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/007_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/007_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/008_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/008_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/009_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/009_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/010_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/010_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/011_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/011_2014-10-19_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-10-19/012_2014-10-19_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-10-19/012_2014-10-19_small.jpg'
+    },
+  ],
+  {
+    container: '#blueimp-gallery-carousel-1',
+    carousel:  true
+  }
+);
+
+var name    = 'Early Winter';
+var gallery = blueimp.Gallery(
+  [
+    {
+       title:     name,
+       href:      'albums/2014-05-10/001_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/001_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/002_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/002_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/003_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/003_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/004_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/004_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/005_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/005_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/006_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/006_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/007_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/007_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/008_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/008_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/009_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/009_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/010_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/010_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/011_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/011_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/012_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/012_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/013_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/013_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/014_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/014_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/015_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/015_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/016_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/016_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/017_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/017_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/018_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/018_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/019_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/019_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/020_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/020_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/021_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/021_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/022_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/022_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/023_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/023_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/024_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/024_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/025_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/025_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/026_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/026_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/027_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/027_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/028_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/028_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/029_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/029_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/030_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/030_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/031_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/031_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/032_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/032_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/033_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/033_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/034_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/034_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/035_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/035_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/036_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/036_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/037_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/037_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/038_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/038_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/039_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/039_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/040_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/040_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/041_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/041_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/042_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/042_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/043_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/043_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/044_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/044_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/045_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/045_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/046_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/046_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/047_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/047_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/048_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/048_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/049_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/049_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/050_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/050_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/051_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/051_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/052_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/052_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/053_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/053_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/054_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/054_2014-05-10_small.jpg'
+    },
+    {
+       title:     name,
+       href:      'albums/2014-05-10/055_2014-05-10_large.jpg',
+       type:      'image/jpeg',
+       thumbnail: 'albums/2014-05-10/055_2014-05-10_small.jpg'
+    },
+  ],
+  {
+    container: '#blueimp-gallery-carousel-2',
+    carousel:  true
+  }
+);
+
+
         </script>
 
     <!-- common on init functions -->

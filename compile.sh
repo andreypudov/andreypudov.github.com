@@ -211,6 +211,68 @@ object Compile {
     println("[SUCCESS]")
   }
 
+  def createAlbumsContents() {
+    print("Creating albums content...\t")
+
+    val albums  = new File("albums.html")
+    var content = Source.fromFile(albums).mkString
+
+    var photographyIndex = 0
+
+    (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+        photographyIndex = photographyIndex + 1
+        val control = "<div id='blueimp-gallery-carousel-" + photographyIndex + "' class='blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel'>\n" +
+          "\t<div class='slides'></div>\n"  +
+          "\t<h3 class='title'></h3>\n"     +
+          "\t<a class='prev'>‹</a>\n"       +
+          "\t<a class='next'>›</a>\n"       +
+          "\t<a class='play-pause'></a>\n"  +
+          "\t<ol class='indicator'></ol>\n" +
+          "</div>\n"
+        var script = ""                    +
+          "var name    = 'Early Winter';\n"  +
+          "var gallery = blueimp.Gallery(\n" +
+          "  [\n"
+
+        if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+          val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
+            file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
+
+          photographs.foreach(photograph => {
+            script = script                                         +
+              "    {\n"                                             +
+              "       title:     name,\n"                           +
+              "       href:      '" + photograph + "_large.jpg',\n" +
+              "       type:      'image/jpeg',\n"                   +
+              "       thumbnail: '" + photograph + "_small.jpg'\n"  +
+              "    },\n"
+          })          
+        }
+
+        script = script                                                            +
+          "  ],\n"                                                                 +
+          "  {\n"                                                                  +
+          "    container: '#blueimp-gallery-carousel-" + photographyIndex + "',\n" +
+          "    carousel:  true\n"                                                  +
+          "  }\n"                                                                  +
+          ");\n"
+
+        val _control = "<insert name='gallery-control' />"
+        val _script  = "<insert name='gallery-script' />"
+        content = content.replace(_control,  control + "\n" + _control)
+        content = content.replace(_script,   script  + "\n" + _script)
+      }
+    )
+
+    content = content.replace("<insert name='gallery-control' />", "")
+    content = content.replace("<insert name='gallery-script' />",  "")
+
+    Files.write(Paths.get("albums.html"), content.getBytes(StandardCharsets.UTF_8))
+
+    println("[SUCCESS]")
+  }
+
   def publish() {
     print("Publishing website...\t\t")
 
@@ -266,8 +328,10 @@ object Compile {
     //clean()
 
     compileStylesheet()
-    //compileAlbums()
+    compileAlbums()
     compileSchemas()
+
+    createAlbumsContents()
 
     //publish()
   }
