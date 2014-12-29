@@ -26,7 +26,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Andrey Pudov - Contents</title>
+    <title>Andrey Pudov - Albums</title>
     
     <meta charset='utf-8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
@@ -41,7 +41,7 @@
     <link href='libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
 
     <!-- web page specific styles declaration -->
-    
+    <link href="libraries/blueimp-gallery/css/blueimp-gallery.min.css" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -82,12 +82,17 @@
         <div id='content'>
           <div class='container'>
           <div class='page-header'>
-            <h1>Contents</h1>
+            <h1>Albums</h1>
           </div>
 
-          <ol>
-            <li></li>
-          </ol>
+          <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+          </div>
         </div>
         </div>
         <div id='footer'>
@@ -122,7 +127,36 @@
     <script src='libraries/bootstrap/js/transition.js' ></script>
     
     <!-- web page specific scripts declaration -->
-    
+    <script src="libraries/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+
+        <script>
+          var gallery = blueimp.Gallery(
+            [
+              {
+                title:     'Banana',
+                href:      'albums/2014-10-19/001_2014-10-19_large.jpg',
+                type:      'image/jpeg',
+                thumbnail: 'albums/2014-10-19/001_2014-10-19_small.jpg'
+              },
+              {
+                title: 'Apple',
+                href: 'albums/2014-10-19/002_2014-10-19_large.jpg',
+                type: 'image/jpeg',
+                thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
+              },
+              {
+                title: 'Apple',
+                href: 'albums/2014-10-19/002_2014-10-19_large.jpg',
+                type: 'image/jpeg',
+                thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
+              }
+            ],
+            {
+              container: '#blueimp-gallery-carousel',
+              carousel:  true
+            }
+          );
+        </script>
 
     <!-- common on init functions -->
     <script src='scripts/init.js'></script>

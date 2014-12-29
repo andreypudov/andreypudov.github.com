@@ -72,10 +72,10 @@ object Compile {
       sys.exit(status)
     }
 
-    println("[SUCCES]")
+    println("[SUCCESS]")
   }
 
-  def compileImages() {
+  def compileAlbums() {
     print("Compile photo albums...\t\t")
 
     (new File(ALBUMS_SOURCE_LOCATION)).listFiles().foreach(album =>
@@ -208,36 +208,65 @@ object Compile {
         Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
     })
 
-    println("[SUCCES]")
+    println("[SUCCESS]")
   }
 
-   def publish() {
-     print("Publishing website...\t\t")
+  def publish() {
+    print("Publishing website...\t\t")
 
-     var status = ("git add --all .").!
-     if (status != 0) {
-       println("[FAILED]")
-       sys.exit(status)
-     }
+    var status = ("git add --all .").!
+    if (status != 0) {
+      println("[FAILED]")
+      sys.exit(status)
+    }
 
-     status = Process(Seq("git", "commit", "-m", "Automatic webite publishing.")).!
-     if (status != 0) {
-       println("[FAILED]")
-       sys.exit(status)
-     }
+    status = Process(Seq("git", "commit", "-m", "Automatic webite publishing.")).!
+    if (status != 0) {
+      println("[FAILED]")
+      sys.exit(status)
+    }
 
-     status = ("git push").!
-     if (status != 0) {
-       println("[FAILED]")
-       sys.exit(status)
-     }
+    status = ("git push").!
+    if (status != 0) {
+      println("[FAILED]")
+      sys.exit(status)
+    }
 
-     println("[SUCCES]")
-   }
+    println("[SUCCESS]")
+  }
+
+  def clean() {
+    print("Cleaning content...\t\t")
+
+    /* clean schemas */
+    (new File(SOURCE_LOCATION)).listFiles().foreach(source =>
+      if ((IGNORE_NAMES.contains(source.getName()) == false)) {
+        var compiled = new File(source.getName())
+        if (compiled.exists()) {
+          compiled.delete()
+        }
+      }
+    )
+
+    /* clean albums */
+    (new File(ALBUMS_LOCATION)).listFiles().foreach(album =>
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+        def deleteRecursively(file: File): Array[(String, Boolean)] = {
+          Option(file.listFiles).map(_.flatMap(f => deleteRecursively(f))).getOrElse(Array()) :+ (file.getPath -> file.delete)
+        }
+
+        deleteRecursively(new File(album.getAbsolutePath()))
+      }
+    )
+
+    println("[SUCCESS]")
+  }
 
   def main(args: Array[String]) {
+    //clean()
+
     compileStylesheet()
-    //compileImages()
+    //compileAlbums()
     compileSchemas()
 
     //publish()
