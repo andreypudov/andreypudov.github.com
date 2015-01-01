@@ -339,7 +339,9 @@ object Compile {
               "<img src='../" + photograph + "_large.jpg' class='img-responsive gallery-image'>"
           } else {
             _photos = _photos +
-              "<img src='../" + photograph + "_small.jpg' class='img-responsive gallery-image'>"
+              "<div class='gallery-container'>" +
+              "\t<img src='../" + photograph + "_small.jpg' class='img-responsive gallery-image gallery-image-vertical'>" +
+              "</div>"
           }
         })
 
