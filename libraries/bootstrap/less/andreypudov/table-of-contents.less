@@ -6,10 +6,19 @@
 
         line-height:  2.4em;
         border:       1px solid rgba(0, 136, 204, 0.1);
-        border-width: 0 0 1px 0;
+        border-width: 0;
+
+        @media (min-width: @grid-float-breakpoint) {
+            border-width: 0 0 1px 0;
+        }
 
         small {
-            float: right;
+            display: none;
+            float:   right;
+            
+            @media (min-width: @grid-float-breakpoint) {
+                display: block;
+            }
         }
     }
 }

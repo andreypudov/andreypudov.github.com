@@ -480,11 +480,11 @@ object Compile {
     //clean()
 
     compileStylesheet()
-    //compileAlbums()
+    compileAlbums()
     compileSchemas()
 
-    //createAlbumsContents()
-    //createAlbumsPages()
+    createAlbumsContents()
+    createAlbumsPages()
 
     createContents()
 
