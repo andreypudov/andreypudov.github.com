@@ -39,6 +39,7 @@ import java.io.{File, FileInputStream, FileNotFoundException}
 import javax.imageio.ImageIO
 import java.nio.file.{Paths, Files}
 import java.nio.charset.StandardCharsets
+import java.text.{SimpleDateFormat, ParseException}
 import java.util.Properties
 
 /**
@@ -68,13 +69,22 @@ object Compile {
 
   class Album {
     var name: String = ""
+    var date: String = ""
 
     def getName(): String = {
       return name;
     }
 
+    def getDate(): String = {
+      return date;
+    }
+
     def setName(name: String) {
       this.name = name
+    }
+
+    def setDate(date: String) {
+      this.date = date
     }
   }
 
@@ -303,7 +313,8 @@ object Compile {
         var _photos  = ""
 
         _content = _content.replace("<title></title>", "<title>Andrey Pudov - " + metadata.getName() + "</title>")
-        _content = _content.replace("<h1>Album</h1>", "<h1>" + metadata.getName() + "</h1>")
+        _content = _content.replace("<h1>Album</h1>", "<h1>" + metadata.getName() +
+          "<small><em>" + metadata.getDate() + "</em></small></h1>")
 
         _content = _content.replace("href='", "href='../")
         _content = _content.replace("src='",  "src='../")
@@ -313,9 +324,23 @@ object Compile {
 
         val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
           file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
+
         photographs.foreach(photograph => {
-          _photos = _photos +
-            "<img src='../" + photograph + "_large.jpg' class='img-responsive gallery-image'>"
+          def isVertical(name: String): Boolean = {
+            val image  = ImageIO.read(new File(name + "_small.jpg"))
+            val width  = image.getWidth()
+            val height = image.getHeight()
+
+            return (height > width)
+          }
+
+          if (isVertical(photograph) == false) {
+            _photos = _photos +
+              "<img src='../" + photograph + "_large.jpg' class='img-responsive gallery-image'>"
+          } else {
+            _photos = _photos +
+              "<img src='../" + photograph + "_small.jpg' class='img-responsive gallery-image'>"
+          }
         })
 
         val _item = "<insert name='gallery-item' />"
@@ -393,13 +418,22 @@ object Compile {
 
     if (meta.exists()) {
       val properties = new Properties()
+      val format1    = new SimpleDateFormat("yyyy-MM-dd")
+      val format2    = new SimpleDateFormat("EEEE, MMMM dd, yyyy")
 
       try {
         properties.loadFromXML(new FileInputStream(meta))
 
         album.setName(properties.getProperty("name", ""))
+        album.setDate(format2.format(
+          format1.parse(
+            properties.getProperty("date", "1970-01-01"))))
       } catch {
         case e: FileNotFoundException => {
+          println("[FAILURE]")
+          sys.exit()
+        }
+        case e: ParseException => {
           println("[FAILURE]")
           sys.exit()
         }
