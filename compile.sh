@@ -54,6 +54,7 @@ object Compile {
 
   val ALBUMS_LOCATION         = "albums"
   val LIBRARIES_LOCATION      = "libraries"
+  val PAGES_LOCATION          = "p"
   val SCHEMAS_LOCATION        = "schemas"
   val SOURCE_LOCATION         = "source"
   val METADATA_LOCATION       = "source/metadata"
@@ -243,12 +244,13 @@ object Compile {
           "\t<a class='next'>›</a>\n"       +
           "\t<a class='play-pause'></a>\n"  +
           "\t<ol class='indicator'></ol>\n" +
-          "</div>\n"
-        var script = ""                    +
-          "var name    = 'Early Winter';\n"  +
-          "var gallery = blueimp.Gallery(\n" +
-          "  [\n"
+        "</div>\n"
         val metadata = getAlbumMetadata(album.getName())
+
+        var script = ""  +
+          "var name_"    + photographyIndex + " = '" + metadata.getName() + "';\n"  +
+          "var gallery_" + photographyIndex + " = blueimp.Gallery(\n" +
+          "  [\n"
 
         if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
           val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
@@ -257,7 +259,7 @@ object Compile {
           photographs.foreach(photograph => {
             script = script                                         +
               "    {\n"                                             +
-              "       title:     '" + metadata.getName() + "',\n"   +
+              "       title:     name_" + photographyIndex + ",\n"  +
               "       href:      '" + photograph + "_large.jpg',\n" +
               "       type:      'image/jpeg',\n"                   +
               "       thumbnail: '" + photograph + "_small.jpg'\n"  +
@@ -284,6 +286,45 @@ object Compile {
     content = content.replace("<insert name='gallery-script' />",  "")
 
     Files.write(Paths.get("albums.html"), content.getBytes(StandardCharsets.UTF_8))
+
+    println("[SUCCESS]")
+  }
+
+  def createAlbumsPages() {
+    print("Creating albums pages...\t")
+
+    val content = Source.fromFile("album.html").mkString
+
+    (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+        val metadata = getAlbumMetadata(album.getName())
+
+        var _content = content
+        var _photos  = ""
+
+        _content = _content.replace("<title></title>", "<title>Andrey Pudov - " + metadata.getName() + "</title>")
+        _content = _content.replace("<h1>Album</h1>", "<h1>" + metadata.getName() + "</h1>")
+
+        _content = _content.replace("href='", "href='../")
+        _content = _content.replace("src='",  "src='../")
+
+        _content = _content.replace("<insert name='gallery-control' />", "")
+        _content = _content.replace("<insert name='gallery-script' />",  "")
+
+        val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
+          file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
+        photographs.foreach(photograph => {
+          _photos = _photos +
+            "<img src='../" + photograph + "_large.jpg' class='img-responsive gallery-image'>"
+        })
+
+        val _item = "<insert name='gallery-item' />"
+        _content = _content.replace(_item,  _photos + "\n" + _item)
+
+        Files.write(Paths.get(PAGES_LOCATION + File.separator + album.getName() + ".html"),
+          _content.getBytes(StandardCharsets.UTF_8))
+      }
+    )
 
     println("[SUCCESS]")
   }
@@ -315,6 +356,10 @@ object Compile {
   def clean() {
     print("Cleaning content...\t\t")
 
+    def deleteRecursively(file: File): Array[(String, Boolean)] = {
+      Option(file.listFiles).map(_.flatMap(f => deleteRecursively(f))).getOrElse(Array()) :+ (file.getPath -> file.delete)
+    }
+
     /* clean schemas */
     (new File(SOURCE_LOCATION)).listFiles().foreach(source =>
       if ((IGNORE_NAMES.contains(source.getName()) == false)) {
@@ -328,10 +373,13 @@ object Compile {
     /* clean albums */
     (new File(ALBUMS_LOCATION)).listFiles().foreach(album =>
       if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
-        def deleteRecursively(file: File): Array[(String, Boolean)] = {
-          Option(file.listFiles).map(_.flatMap(f => deleteRecursively(f))).getOrElse(Array()) :+ (file.getPath -> file.delete)
-        }
+        deleteRecursively(new File(album.getAbsolutePath()))
+      }
+    )
 
+    /* clean albums */
+    (new File(PAGES_LOCATION)).listFiles().foreach(album =>
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
         deleteRecursively(new File(album.getAbsolutePath()))
       }
     )
@@ -364,11 +412,12 @@ object Compile {
   def main(args: Array[String]) {
     //clean()
 
-    //compileStylesheet()
+    compileStylesheet()
     //compileAlbums()
     compileSchemas()
 
     createAlbumsContents()
+    createAlbumsPages()
 
     //publish()
   }

@@ -26,7 +26,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Andrey Pudov - Albums</title>
+    <title></title>
     
     <meta charset='utf-8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
@@ -82,17 +82,12 @@
         <div id='content'>
           <div class='container'>
           <div class='page-header'>
-            <h1>Albums</h1>
+            <h1>Album</h1>
           </div>
 
-          <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
-            <div class="slides"></div>
-            <h3 class="title"></h3>
-            <a class="prev">‹</a>
-            <a class="next">›</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
-          </div>
+          <insert name='gallery-control' />
+
+          <insert name='gallery-item' />
         </div>
         </div>
         <div id='footer'>
@@ -130,33 +125,7 @@
     <script src='libraries/blueimp-gallery/js/blueimp-gallery.min.js'></script>
 
         <script>
-          var name    = 'Early Winter';
-          var gallery = blueimp.Gallery(
-            [
-              {
-                title:     name,
-                href:      'albums/2014-10-19/001_2014-10-19_large.jpg',
-                type:      'image/jpeg',
-                thumbnail: 'albums/2014-10-19/001_2014-10-19_small.jpg'
-              },
-              {
-                title: name,
-                href: 'albums/2014-10-19/002_2014-10-19_large.jpg',
-                type: 'image/jpeg',
-                thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
-              },
-              {
-                title: name,
-                href: 'albums/2014-10-19/002_2014-10-19_large.jpg',
-                type: 'image/jpeg',
-                thumbnail: 'albums/2014-10-19/002_2014-10-19_small.jpg'
-              }
-            ],
-            {
-              container: '#blueimp-gallery-carousel',
-              carousel:  true
-            }
-          );
+          <insert name='gallery-script' />
         </script>
 
     <!-- common on init functions -->
