@@ -285,6 +285,9 @@ object Compile {
           "  }\n"                                                                  +
           ");\n"
 
+        script = script +
+          "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {window.open('p/" + album.getName() + ".html');});"
+
         val _control = "<insert name='gallery-control' />"
         val _script  = "<insert name='gallery-script' />"
         content = content.replace(_control,  control + "\n" + _control)
@@ -352,6 +355,28 @@ object Compile {
           _content.getBytes(StandardCharsets.UTF_8))
       }
     )
+
+    println("[SUCCESS]")
+  }
+
+  def createContents() {
+    print("Creating contents...\t\t")
+
+    var content = Source.fromFile("contents.html").mkString
+    var _item   = ""
+
+    (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+        val metadata = getAlbumMetadata(album.getName())
+
+        _item = _item + "\t<li><a href='p/" + album.getName() + ".html'>" + metadata.getName() + "</a></li>\n"
+      }
+    )
+
+    val _contents = "<insert name='contents' />"
+    content = content.replace(_contents,  "<ol>\n" + _item + "</ol>")
+
+    Files.write(Paths.get("contents.html"), content.getBytes(StandardCharsets.UTF_8))
 
     println("[SUCCESS]")
   }
@@ -449,11 +474,13 @@ object Compile {
     //clean()
 
     compileStylesheet()
-    //compileAlbums()
+    compileAlbums()
     compileSchemas()
 
     createAlbumsContents()
     createAlbumsPages()
+
+    createContents()
 
     //publish()
   }
