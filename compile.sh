@@ -286,7 +286,8 @@ object Compile {
           ");\n"
 
         script = script +
-          "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {window.open('p/" + album.getName() + ".html');});"
+          "$('#blueimp-gallery-carousel-" + photographyIndex +
+          "').click(function(e) {window.open('p/" + album.getName() + ".html');});"
 
         val _control = "<insert name='gallery-control' />"
         val _script  = "<insert name='gallery-script' />"
@@ -369,12 +370,17 @@ object Compile {
       if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
         val metadata = getAlbumMetadata(album.getName())
 
-        _item = _item + "\t<li><a href='p/" + album.getName() + ".html'>" + metadata.getName() + "</a></li>\n"
+        _item = _item +
+          "\t<li>"    +
+          "\t\t<a href='p/" + album.getName() + ".html'>" + metadata.getName() +
+          "\t\t\t<small>" + metadata.getDate() + "</small>" +
+          "\t\t</a>"  +
+          "\t</li>\n"
       }
     )
 
     val _contents = "<insert name='contents' />"
-    content = content.replace(_contents,  "<ol>\n" + _item + "</ol>")
+    content = content.replace(_contents,  "<ol class='table-of-contents'>\n" + _item + "</ol>")
 
     Files.write(Paths.get("contents.html"), content.getBytes(StandardCharsets.UTF_8))
 
@@ -474,11 +480,11 @@ object Compile {
     //clean()
 
     compileStylesheet()
-    compileAlbums()
+    //compileAlbums()
     compileSchemas()
 
-    createAlbumsContents()
-    createAlbumsPages()
+    //createAlbumsContents()
+    //createAlbumsPages()
 
     createContents()
 
