@@ -222,7 +222,13 @@ var gallery_1 = blueimp.Gallery(
     carousel:  true
   }
 );
-$('#blueimp-gallery-carousel-1').click(function(e) {window.open('p/2014-10-19.html');});
+$('#blueimp-gallery-carousel-1').click(function(e) {
+	if ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {
+		window.open('p/2014-10-19.html', '_self')
+		$('#blueimp-gallery-carousel-1').addClass('blueimp-gallery-controls');
+	}
+})
+
 var name_2 = 'Йошкар-Ола. Царёв град на Кокшаге';
 var gallery_2 = blueimp.Gallery(
   [
@@ -562,7 +568,13 @@ var gallery_2 = blueimp.Gallery(
     carousel:  true
   }
 );
-$('#blueimp-gallery-carousel-2').click(function(e) {window.open('p/2014-05-10.html');});
+$('#blueimp-gallery-carousel-2').click(function(e) {
+	if ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {
+		window.open('p/2014-05-10.html', '_self')
+		$('#blueimp-gallery-carousel-2').addClass('blueimp-gallery-controls');
+	}
+})
+
 
         </script>
 

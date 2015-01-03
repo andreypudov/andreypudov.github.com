@@ -52,6 +52,7 @@ import java.util.Properties
  */
 object Compile {
   val ALBUMS_SOURCE_LOCATION  = "/Users/andrey/Pictures/Albums"
+  val PAGES_SOURCE_LOCATION   = "source/pages"
 
   val ALBUMS_LOCATION         = "albums"
   val LIBRARIES_LOCATION      = "libraries"
@@ -121,7 +122,7 @@ object Compile {
               }
 
               if (photography.isFile() && PHOTOGRAPHY_NAMES.contains(extension)) {
-                def convert(image: File, _width: Int, _height: Int, prefix: String, index: Int) {
+                def convert(photography: File, _width: Int, _height: Int, prefix: String, index: Int) {
                   val image = ImageIO.read(photography)
 
                   /* calculate image width */
@@ -138,6 +139,18 @@ object Compile {
                     height = _width
                   }
 
+                  /* keep original version of large files including meta information */
+                  if (scale == 1.0) {
+                    val status = Process(Seq("cp", photography.getAbsolutePath(), directory.getAbsolutePath() +
+                      File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg")).!
+                    if (status != 0) {
+                      println("[FAILED]")
+                      sys.exit(status)
+                    }
+
+                    return;
+                  }
+
                   val scaleTransform  = AffineTransform.getScaleInstance(scale, scale)
                   val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
                   val newImage        = bilinearScaleOp.filter(image, 
@@ -151,8 +164,7 @@ object Compile {
                 photographyIndex = photographyIndex + 1
 
                 /* save each image with different sizes */
-                convert(photography, 800,  600,  "small",  photographyIndex)
-                convert(photography, 1024, 768,  "medium", photographyIndex)
+                convert(photography, 640,  424,  "small",  photographyIndex)
                 convert(photography, 2048, 1356, "large",  photographyIndex)
               }
             }
@@ -160,6 +172,12 @@ object Compile {
         } 
       }
     )
+
+    println("[SUCCESS]")
+  }
+
+  def compilePages() {
+    print("Compiling pages...\t\t")
 
     println("[SUCCESS]")
   }
@@ -172,7 +190,9 @@ object Compile {
     val content = Source.fromFile(SCHEMAS_LOCATION + File.separator + "content.html").mkString
     val footer  = Source.fromFile(SCHEMAS_LOCATION + File.separator + "footer.html").mkString
 
-    (new File(SOURCE_LOCATION)).listFiles().foreach(source =>
+    val sources = new File(SOURCE_LOCATION).listFiles() ++ new File(PAGES_SOURCE_LOCATION).listFiles()
+
+    sources.foreach(source =>
       if (source.isFile() && (IGNORE_NAMES.contains(source.getName()) == false)) {
         val text = Source.fromFile(source).mkString
 
@@ -230,7 +250,14 @@ object Compile {
         _layout = _layout.replace("<insert name='content' />", _content)
         _layout = _layout.replace("<insert name='footer' />",  _footer)
 
-        Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
+        if (source.getPath().startsWith("source/pages/")) {
+          _layout = _layout.replace("href='", "href='../")
+          _layout = _layout.replace("src='",  "src='../")
+
+          Files.write(Paths.get("p" + File.separator + source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
+        } else {
+          Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
+        }
     })
 
     println("[SUCCESS]")
@@ -286,8 +313,12 @@ object Compile {
           ");\n"
 
         script = script +
-          "$('#blueimp-gallery-carousel-" + photographyIndex +
-          "').click(function(e) {window.open('p/" + album.getName() + ".html');});"
+          "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {\n"                       +
+	      "\tif ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {\n"              +
+		  "\t\twindow.open('p/" + album.getName() + ".html', '_self')\n"                                        +
+		  "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
+	      "\t}\n"                                                                                               +
+          "})\n";
 
         val _control = "<insert name='gallery-control' />"
         val _script  = "<insert name='gallery-script' />"
@@ -366,13 +397,23 @@ object Compile {
     var content = Source.fromFile("contents.html").mkString
     var _item   = ""
 
-    (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
-      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
-        val metadata = getAlbumMetadata(album.getName())
+     //val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
+     //  file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
+
+    val sources =  new File(PAGES_SOURCE_LOCATION).listFiles().map(file =>
+      file.getName().substring(0, file.getName().lastIndexOf(".html") match {
+        case -1 => file.getName().length
+        case x  => x
+      })
+    ) ++ new File(ALBUMS_LOCATION).listFiles().reverse.map(file => file.getName())
+
+    sources.foreach(entry =>
+      if (IGNORE_NAMES.contains(entry) == false) {
+        val metadata = getAlbumMetadata(entry)
 
         _item = _item +
           "\t<li>"    +
-          "\t\t<a href='p/" + album.getName() + ".html'>" + metadata.getName() +
+          "\t\t<a href='p/" + entry + ".html'>" + metadata.getName() +
           "\t\t\t<small>" + metadata.getDate() + "</small>" +
           "\t\t</a>"  +
           "\t</li>\n"
@@ -449,6 +490,10 @@ object Compile {
     val album = new Album()
     val meta  = new File(METADATA_LOCATION + File.separator + name)
 
+    if (meta.exists() == false) {
+      println(meta.getAbsolutePath())
+    }
+
     if (meta.exists()) {
       val properties = new Properties()
       val format1    = new SimpleDateFormat("yyyy-MM-dd")
@@ -480,9 +525,10 @@ object Compile {
     //clean()
 
     compileStylesheet()
-    compileAlbums()
+    //compileAlbums()
+    compilePages()
     compileSchemas()
-
+    
     createAlbumsContents()
     createAlbumsPages()
 
