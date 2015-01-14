@@ -28,9 +28,11 @@ exec scala "$0" "$@"
  * THE SOFTWARE.
  */
 
+import scala.collection.mutable.MutableList
 import sys.process._
 import scala.language.postfixOps
 import scala.io.Source
+import scala.util.control.Breaks._
 
 import java.awt.geom.AffineTransform
 import java.awt.image.AffineTransformOp
@@ -66,7 +68,10 @@ object Compile {
   val BOOTSTRAP_CSS_LOCATION  = BOOTSTRAP_LOCATION + "/css/bootstrap.css"
 
   val PHOTOGRAPHY_NAMES = Array("jpg", "jpeg")
-  val IGNORE_NAMES      = Array("iPod Photo Cache", ".DS_Store")
+  val IGNORE_NAMES      = Array("2012-03-24", "2012-03-30_31", "2012-04-14",
+    "2012-04-28", "2012-07-29", "2012-10-06_07", "2012-10-13_14", "2013-04-20_21",
+    "2013-06-20_21", "2013-09-10",
+    "iPod Photo Cache", ".DS_Store")
 
   class Album {
     var name: String = ""
@@ -269,6 +274,8 @@ object Compile {
     val albums  = new File("albums.html")
     var content = Source.fromFile(albums).mkString
 
+    val controlList: MutableList[String] = MutableList()
+    val scriptList:  MutableList[String] = MutableList()
     var photographyIndex = 0
 
     (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
@@ -320,17 +327,76 @@ object Compile {
 	      "\t}\n"                                                                                               +
           "})\n";
 
-        val _control = "<insert name='gallery-control' />"
-        val _script  = "<insert name='gallery-script' />"
-        content = content.replace(_control,  control + "\n" + _control)
-        content = content.replace(_script,   script  + "\n" + _script)
+        //val _control = "<insert name='gallery-control' />"
+        //val _script  = "<insert name='gallery-script' />"
+        //content = content.replace(_control,  control + "\n" + _control)
+        //content = content.replace(_script,   script  + "\n" + _script)
+
+        controlList += control
+        scriptList  += script
       }
     )
 
-    content = content.replace("<insert name='gallery-control' />", "")
-    content = content.replace("<insert name='gallery-script' />",  "")
+    /* generate pagination */
+    val pagination_begin = ""                             +
+      "<nav class='text-center'>\n"                       +
+      "\t<ul class='pagination'>\n"                       +
+      "\t\t<li>\n"                                        +
+      "\t\t\t<a href='#' aria-label='Previous'>\n"        +
+      "\t\t\t\t<span aria-hidden='true'>&laquo;</span>\n" +
+      "\t\t\t</a>\n"                                      +
+      "\t\t</li>\n"
 
-    Files.write(Paths.get("albums.html"), content.getBytes(StandardCharsets.UTF_8))
+    val pagination_end = ""                               +
+      "\t\t<li>\n"                                        +
+      "\t\t\t<a href='#' aria-label='Next'>\n"            +
+      "\t\t\t\t<span aria-hidden='true'>&raquo;</span>\n" +
+      "\t\t\t</a>\n"                                      +
+      "\t\t</li>\n"                                       +
+      "\t</ul>\n"                                         +
+      "</nav>\n"
+
+    var ALBUMS_PER_PAGE = 5
+    var index = 0
+    var jndex = 0
+    for (index <- 0 until controlList.length by ALBUMS_PER_PAGE) {
+      var _content = content
+      var _control = ""
+      var _script  = ""
+
+      for (jndex <- 0 until (ALBUMS_PER_PAGE + (index % ALBUMS_PER_PAGE))) {
+        val kndex = index + jndex
+        if (kndex < controlList.length) {
+          _control += controlList(kndex)
+          _script  += scriptList(kndex)
+        }
+      }
+
+      var pagination_middle = ""
+      var lndex = 0
+      for (lndex <- 0 until (Math.ceil(controlList.length.toDouble / ALBUMS_PER_PAGE)).toInt) {
+        pagination_middle = pagination_middle + "\t\t<li><a href='" +
+          ((lndex * ALBUMS_PER_PAGE) match {
+            case 0 => "albums.html"
+            case x => "albums" + x + ".html"}) +
+          "'>" + (lndex + 1) + "</a></li>\n"
+      }
+
+      _content = _content.replace("<insert name='gallery-control' />", _control +
+        pagination_begin + pagination_middle + pagination_end)
+      _content = _content.replace("<insert name='gallery-script' />",  _script)
+
+      Files.write(
+        Paths.get(index match {
+          case 0 => "albums.html"
+          case x => "albums" + x + ".html"
+        }), _content.getBytes(StandardCharsets.UTF_8))
+    }
+
+    //content = content.replace("<insert name='gallery-control' />", pagination)
+    //content = content.replace("<insert name='gallery-script' />",  "")
+
+    //Files.write(Paths.get("albums.html"), content.getBytes(StandardCharsets.UTF_8))
 
     println("[SUCCESS]")
   }
@@ -396,9 +462,6 @@ object Compile {
 
     var content = Source.fromFile("contents.html").mkString
     var _item   = ""
-
-     //val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
-     //  file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
 
     val sources =  new File(PAGES_SOURCE_LOCATION).listFiles().map(file =>
       file.getName().substring(0, file.getName().lastIndexOf(".html") match {
@@ -490,10 +553,6 @@ object Compile {
     val album = new Album()
     val meta  = new File(METADATA_LOCATION + File.separator + name)
 
-    if (meta.exists() == false) {
-      println(meta.getAbsolutePath())
-    }
-
     if (meta.exists()) {
       val properties = new Properties()
       val format1    = new SimpleDateFormat("yyyy-MM-dd")
@@ -525,7 +584,7 @@ object Compile {
     //clean()
 
     compileStylesheet()
-    //compileAlbums()
+    compileAlbums()
     compilePages()
     compileSchemas()
     
