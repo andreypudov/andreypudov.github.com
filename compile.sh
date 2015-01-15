@@ -325,36 +325,12 @@ object Compile {
 		  "\t\twindow.open('p/" + album.getName() + ".html', '_self')\n"                                        +
 		  "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
 	      "\t}\n"                                                                                               +
-          "})\n";
-
-        //val _control = "<insert name='gallery-control' />"
-        //val _script  = "<insert name='gallery-script' />"
-        //content = content.replace(_control,  control + "\n" + _control)
-        //content = content.replace(_script,   script  + "\n" + _script)
+          "})\n"
 
         controlList += control
         scriptList  += script
       }
     )
-
-    /* generate pagination */
-    val pagination_begin = ""                             +
-      "<nav class='text-center'>\n"                       +
-      "\t<ul class='pagination'>\n"                       +
-      "\t\t<li>\n"                                        +
-      "\t\t\t<a href='#' aria-label='Previous'>\n"        +
-      "\t\t\t\t<span aria-hidden='true'>&laquo;</span>\n" +
-      "\t\t\t</a>\n"                                      +
-      "\t\t</li>\n"
-
-    val pagination_end = ""                               +
-      "\t\t<li>\n"                                        +
-      "\t\t\t<a href='#' aria-label='Next'>\n"            +
-      "\t\t\t\t<span aria-hidden='true'>&raquo;</span>\n" +
-      "\t\t\t</a>\n"                                      +
-      "\t\t</li>\n"                                       +
-      "\t</ul>\n"                                         +
-      "</nav>\n"
 
     var ALBUMS_PER_PAGE = 5
     var index = 0
@@ -372,13 +348,49 @@ object Compile {
         }
       }
 
+      /* generate pagination */
+      val pagesNumber = (Math.ceil(controlList.length.toDouble / ALBUMS_PER_PAGE)).toInt
+      val currentPage = (index / ALBUMS_PER_PAGE)
+      val pagination_begin = ""                             +
+        "<nav class='text-center'>\n"                       +
+        "\t<ul class='pagination'>\n"                       +
+        "\t\t<li" + (index match {
+          case 0 => " class='disabled'"
+          case x => ""}) + ">\n"                            +
+        "\t\t\t<a href='" + (currentPage match {
+          case 0 => "#"
+          case x => (x match {
+              case 1 => "albums.html"
+              case x => "albums" + ((currentPage - 1) * ALBUMS_PER_PAGE) + ".html"
+            })}) + "' aria-label='Previous'>\n"        +
+        "\t\t\t\t<span aria-hidden='true'>&laquo;</span>\n" +
+        "\t\t\t</a>\n"                                      +
+        "\t\t</li>\n"
+      val pagination_end = ""                               +
+        "\t\t<li" + ((currentPage + 1) match {
+          case `pagesNumber` => " class='disabled'"
+          case x             => ""}) + ">\n"                +
+        "\t\t\t<a href='" + ((currentPage + 1) match {
+          case `pagesNumber` => "#"
+          case x             => "albums" + ((currentPage + 1) * ALBUMS_PER_PAGE) + ".html"
+        }) + "' aria-label='Next'>\n"            +
+        "\t\t\t\t<span aria-hidden='true'>&raquo;</span>\n" +
+        "\t\t\t</a>\n"                                      +
+        "\t\t</li>\n"                                       +
+        "\t</ul>\n"                                         +
+        "</nav>\n"
+
       var pagination_middle = ""
       var lndex = 0
-      for (lndex <- 0 until (Math.ceil(controlList.length.toDouble / ALBUMS_PER_PAGE)).toInt) {
-        pagination_middle = pagination_middle + "\t\t<li><a href='" +
+      for (lndex <- 0 until pagesNumber) {
+        /* <li class="active"><a href="albums.html">1</a></li> */
+        pagination_middle = pagination_middle + "\t\t<li" +
+          (currentPage match {
+            case `lndex` => " class='active'"
+            case x       => ""}) + "><a href='"           +
           ((lndex * ALBUMS_PER_PAGE) match {
             case 0 => "albums.html"
-            case x => "albums" + x + ".html"}) +
+            case x => "albums" + x + ".html"})            +
           "'>" + (lndex + 1) + "</a></li>\n"
       }
 
@@ -392,11 +404,6 @@ object Compile {
           case x => "albums" + x + ".html"
         }), _content.getBytes(StandardCharsets.UTF_8))
     }
-
-    //content = content.replace("<insert name='gallery-control' />", pagination)
-    //content = content.replace("<insert name='gallery-script' />",  "")
-
-    //Files.write(Paths.get("albums.html"), content.getBytes(StandardCharsets.UTF_8))
 
     println("[SUCCESS]")
   }
