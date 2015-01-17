@@ -42,6 +42,7 @@ import java.nio.file.{Paths, Files}
 import java.nio.charset.StandardCharsets
 import java.text.{SimpleDateFormat, ParseException}
 import java.util.Properties
+import java.util.regex.{Pattern, Matcher}
 
 /**
  * Compiles website content and photo albums.
@@ -75,13 +76,18 @@ object Compile {
   class Album {
     var name: String = ""
     var date: String = ""
+    var page: String = ""
 
     def getName(): String = {
-      return name;
+      return name
     }
 
     def getDate(): String = {
-      return date;
+      return date
+    }
+
+    def getPage(): String = {
+      return page
     }
 
     def setName(name: String) {
@@ -90,6 +96,10 @@ object Compile {
 
     def setDate(date: String) {
       this.date = date
+    }
+
+    def setPage(page: String) {
+      this.page = page
     }
   }
 
@@ -255,6 +265,20 @@ object Compile {
           _scripts = text.substring(_index + _block.length, text.indexOf("</define>", _index)).trim()
         }
 
+        /* insert images to content block */
+        val pattern = Pattern.compile("<insert name=\"image\" value=\".*\" \\/>", Pattern.CASE_INSENSITIVE)
+        val matcher = pattern.matcher(_content)
+        val buffer  = new StringBuffer()
+        while (matcher.find()) {
+          val image = _content.substring(matcher.start() + "<insert name=\"image\" value=\"".length(),
+            matcher.end() - "\\/>".length() - 1)
+          val album = image.substring(0, image.lastIndexOf('_'))
+
+          matcher.appendReplacement(buffer, getImageTag("albums/" + album + "/" + image, ""))
+        }
+        matcher.appendTail(buffer)
+        _content = buffer.toString()
+
         _footer = _footer.replace("<insert name='scripts' />", _scripts)
 
         _layout = _layout.replace("<insert name='title' />",   _title)
@@ -327,10 +351,15 @@ object Compile {
           "  }\n"                                                                  +
           ");\n"
 
+        /* open page instead of album when specified */
+        val link = metadata.getPage() match {
+          case "" => album.getName()
+          case x  => metadata.getPage()
+        }
         script = script +
           "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {\n"                       +
 	      "\tif ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {\n"              +
-		  "\t\twindow.open('p/" + album.getName() + ".html', '_self')\n"                                        +
+		  "\t\twindow.open('p/" + link + ".html', '_self')\n"                                        +
 		  "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
 	      "\t}\n"                                                                                               +
           "})\n"
@@ -442,23 +471,7 @@ object Compile {
           file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
 
         photographs.foreach(photograph => {
-          def isVertical(name: String): Boolean = {
-            val image  = ImageIO.read(new File(name + "_small.jpg"))
-            val width  = image.getWidth()
-            val height = image.getHeight()
-
-            return (height > width)
-          }
-
-          if (isVertical(photograph) == false) {
-            _photos = _photos +
-              "<img src='../" + photograph + "_large.jpg' class='img-responsive gallery-image'>"
-          } else {
-            _photos = _photos +
-              "<div class='gallery-container'>" +
-              "\t<img src='../" + photograph + "_small.jpg' class='img-responsive gallery-image gallery-image-vertical'>" +
-              "</div>"
-          }
+          _photos = _photos + getImageTag(photograph, "../")
         })
 
         val _item = "<insert name='gallery-item' />"
@@ -478,17 +491,25 @@ object Compile {
     var content = Source.fromFile("contents.html").mkString
     var _item   = ""
 
-    val sources =  new File(PAGES_SOURCE_LOCATION).listFiles().map(file =>
+    /* used to sort albums */
+    def getDate(album: String): Long = {
+      val format  = new SimpleDateFormat("EEEE, MMMM dd, yyyy")
+      return format.parse(getAlbumMetadata(album).getDate()).getTime()
+    }
+
+    val sources =  (new File(PAGES_SOURCE_LOCATION).listFiles().map(file =>
       file.getName().substring(0, file.getName().lastIndexOf(".html") match {
         case -1 => file.getName().length
         case x  => x
       })
-    ) ++ new File(ALBUMS_LOCATION).listFiles().reverse.map(file => file.getName())
+    ) ++ new File(ALBUMS_LOCATION).listFiles().map(file => file.getName())
+    ).filter(IGNORE_NAMES.contains(_) == false
+    ).sortWith(getDate(_) > getDate(_))
 
-    sources.foreach(entry =>
-      if (IGNORE_NAMES.contains(entry) == false) {
-        val metadata = getAlbumMetadata(entry)
+    sources.foreach(entry => {
+      val metadata = getAlbumMetadata(entry)
 
+      if (metadata.getPage().length() == 0) {
         _item = _item +
           "\t<li>"    +
           "\t\t<a href='p/" + entry + ".html'>" + metadata.getName() +
@@ -496,7 +517,7 @@ object Compile {
           "\t\t</a>"  +
           "\t</li>\n"
       }
-    )
+    })
 
     val _contents = "<insert name='contents' />"
     content = content.replace(_contents,  "<ol class='table-of-contents'>\n" + _item + "</ol>")
@@ -580,6 +601,7 @@ object Compile {
         album.setDate(format2.format(
           format1.parse(
             properties.getProperty("date", "1970-01-01"))))
+        album.setPage(properties.getProperty("page", ""))
       } catch {
         case e: FileNotFoundException => {
           println("[FAILURE]")
@@ -593,6 +615,24 @@ object Compile {
     }
 
     return album
+  }
+
+  def getImageTag(photograph: String, prefix: String) : String = {
+    def isVertical(name: String): Boolean = {
+      val image  = ImageIO.read(new File(name + "_small.jpg"))
+      val width  = image.getWidth()
+      val height = image.getHeight()
+
+      return (height > width)
+    }
+
+    if (isVertical(photograph) == false) {
+      return "<img src='" + prefix + photograph + "_large.jpg' class='img-responsive gallery-image'>"
+    } else {
+      return "<div class='gallery-container'>" +
+               "\t<img src='" + prefix + photograph + "_small.jpg' class='img-responsive gallery-image gallery-image-vertical'>" +
+             "</div>"
+    }
   }
 
   def main(args: Array[String]) {
