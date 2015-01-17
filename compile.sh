@@ -35,8 +35,7 @@ import scala.io.Source
 import scala.util.control.Breaks._
 
 import java.awt.geom.AffineTransform
-import java.awt.image.AffineTransformOp
-import java.awt.image.BufferedImage
+import java.awt.image.{AffineTransformOp, BufferedImage}
 import java.io.{File, FileInputStream, FileNotFoundException}
 import javax.imageio.ImageIO
 import java.nio.file.{Paths, Files}
@@ -45,7 +44,7 @@ import java.text.{SimpleDateFormat, ParseException}
 import java.util.Properties
 
 /**
- * Compiles webite content and photo albums.
+ * Compiles website content and photo albums.
  *
  * @author    Andrey Pudov        <mail@andreypudov.com>
  * @version   0.00.00
@@ -70,7 +69,7 @@ object Compile {
   val PHOTOGRAPHY_NAMES = Array("jpg", "jpeg")
   val IGNORE_NAMES      = Array("2012-03-24", "2012-03-30_31", "2012-04-14",
     "2012-04-28", "2012-07-29", "2012-10-06_07", "2012-10-13_14", "2013-04-20_21",
-    "2013-06-20_21", "2013-09-10",
+    "2013-06-20_21", "2013-06-28_29", "2013-09-10", "2012-09-22",
     "iPod Photo Cache", ".DS_Store")
 
   class Album {
@@ -146,8 +145,12 @@ object Compile {
 
                   /* keep original version of large files including meta information */
                   if (scale == 1.0) {
+                    //val status = Process(Seq("cp", photography.getAbsolutePath(), directory.getAbsolutePath() +
+                    //  File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg")).!
+
+                    /* keep original file name */
                     val status = Process(Seq("cp", photography.getAbsolutePath(), directory.getAbsolutePath() +
-                      File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg")).!
+                      File.separator + photography.getName().replaceFirst("[.][^.]+$", "") + "_" + prefix + ".jpg")).!
                     if (status != 0) {
                       println("[FAILED]")
                       sys.exit(status)
@@ -160,10 +163,15 @@ object Compile {
                   val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
                   val newImage        = bilinearScaleOp.filter(image, 
                     new BufferedImage(width, height, image.getType()))
+                  
+                  //ImageIO.write(newImage, "jpg", 
+                  //  new File(directory.getAbsolutePath() 
+                  //    + File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg"))
 
-                  ImageIO.write(newImage, "jpg", 
-                    new File(directory.getAbsolutePath() 
-                      + File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg"))
+                  /* keep original file name */
+                  ImageIO.write(newImage, "jpg",
+                    new File(directory.getAbsolutePath() +
+                      File.separator + photography.getName().replaceFirst("[.][^.]+$", "") + "_" + prefix + ".jpg"))
                 }
 
                 photographyIndex = photographyIndex + 1
