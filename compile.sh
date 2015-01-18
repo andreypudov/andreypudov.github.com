@@ -274,7 +274,10 @@ object Compile {
             matcher.end() - "\\/>".length() - 1)
           val album = image.substring(0, image.lastIndexOf('_'))
 
-          matcher.appendReplacement(buffer, getImageTag("albums/" + album + "/" + image, ""))
+          matcher.appendReplacement(buffer, image.startsWith("PAGE_") match {
+            case true  => getImageTag("images/pages/"  + image, "", false)
+            case false => getImageTag("albums/" + album + "/" + image, "", true)
+          })
         }
         matcher.appendTail(buffer)
         _content = buffer.toString()
@@ -471,7 +474,7 @@ object Compile {
           file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
 
         photographs.foreach(photograph => {
-          _photos = _photos + getImageTag(photograph, "../")
+          _photos = _photos + getImageTag(photograph, "../", true)
         })
 
         val _item = "<insert name='gallery-item' />"
@@ -617,9 +620,9 @@ object Compile {
     return album
   }
 
-  def getImageTag(photograph: String, prefix: String) : String = {
+  def getImageTag(photograph: String, prefix: String, postfix: Boolean) : String = {
     def isVertical(name: String): Boolean = {
-      val image  = ImageIO.read(new File(name + "_small.jpg"))
+      val image  = ImageIO.read(new File(name + (postfix match {case true => "_small" case false => ""}) + ".jpg"))
       val width  = image.getWidth()
       val height = image.getHeight()
 
@@ -627,11 +630,15 @@ object Compile {
     }
 
     if (isVertical(photograph) == false) {
-      return "<img src='" + prefix + photograph + "_large.jpg' class='img-responsive gallery-image'>"
+      return "<img src='" + prefix + photograph +
+        (postfix match {case true => "_large" case false => ""}) +
+        ".jpg' class='img-responsive gallery-image'>"
     } else {
       return "<div class='gallery-container'>" +
-               "\t<img src='" + prefix + photograph + "_small.jpg' class='img-responsive gallery-image gallery-image-vertical'>" +
-             "</div>"
+        "\t<img src='" + prefix + photograph +
+          (postfix match {case true => "_large" case false => ""}) +
+          ".jpg' class='img-responsive gallery-image gallery-image-vertical'>" +
+        "</div>"
     }
   }
 
