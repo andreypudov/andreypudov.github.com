@@ -294,6 +294,10 @@ object Compile {
           _layout = _layout.replace("href='", "href='../")
           _layout = _layout.replace("src='",  "src='../")
 
+          /* do not change external links */
+          _layout = _layout.replace("href='../http", "href='http")
+          _layout = _layout.replace("src='../http",  "src='http")
+
           Files.write(Paths.get("p" + File.separator + source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
         } else {
           Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
