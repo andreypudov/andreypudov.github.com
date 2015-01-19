@@ -73,6 +73,36 @@ object Compile {
     "2013-06-20_21", "2013-06-28_29", "2013-09-10", "2012-09-22",
     "iPod Photo Cache", ".DS_Store")
 
+  val REFERENCE_MAP = Map(
+    "2012/12/russian-emirates.html" -> "p/russian-emirates.html",
+    "2012/07/scarlet-sails.html"    -> "p/2012-07-07.html",
+    "2012/09/the-golden-age.html"   -> "p/the-golden-age.html",
+    "2012/05/imperial-town.html"    -> "p/the-imperial-town.html",
+    "2013/07/blog-post.html"        -> "p/russian-athletics-championships.html",
+
+    "2012/12/121212.html"                     -> "p/2012-12-12.html",
+    "2012/08/cheboksary-city-day.html"        -> "p/2012-08-19.html",
+    "2012/04/dreamflash-cheboksary-2012.html" -> "p/2012-04-29.html",
+    "2012/04/dreamflash-nizhny-2012.html"     -> "p/2012-04-21.html",
+    "2012/05/international-workers-day.html"  -> "p/2012-05-01.html",
+    "2013/01/new-year-memoirs.html"           -> "p/2013-01-01_05.html",
+    "2012/07/edge-of-heaven.html"             -> "p/2012-06-24.html",
+    "2013/12/the-summer-memories.html"        -> "p/2013-08-18.html",
+    "2013/05/the-victory-day-2013.html"       -> "p/2013-05-09.html",
+    "2014/05/blog-post.html"                  -> "p/2014-05-10.html",
+    "2013/10/blog-post.html"                  -> "p/2013-09-14_27.html",
+
+    "2012/01/coding-standards-in-software.html"           -> "p/coding-standards-in-software-development.html",
+    "2011/09/hard-drive-and-ram-disk-comparison.html"     -> "p/hard-drive-and-ram-disk-comparison-report.html",
+    "2011/04/hopfield-neural-network.html"                -> "",
+    "2011/09/image-recognition-using-neural-network.html" -> "",
+    "2011/05/objective-c-programming-in-linux.html"       -> "",
+    "2011/04/stock-market-data-in-java-apps-part-i.html"  -> "",
+    "2011/10/future-of-installation.html"                 -> "",
+    "2011/10/packages-build-system.html"                  -> "",
+    "2013/02/user-authorization-in-linux.html"            -> "",
+    "2012/07/xml-parser-in-c-usage-and-examples.html"     -> "")
+
   class Album {
     var name: String = ""
     var date: String = ""
@@ -535,6 +565,30 @@ object Compile {
     println("[SUCCESS]")
   }
 
+  def createReferences() {
+    print("Creating references...\t\t")
+
+    REFERENCE_MAP.foreach((reference) => {
+      val file = new File(reference._1)
+      file.getParentFile().mkdirs()
+
+      var content = Source.fromFile("redirect.html").mkString
+
+      content = content.replace("%DESTINATION_URL%", "//andreypudov.com/" + reference._2)
+
+      content = content.replace("href='", "href='../../")
+      content = content.replace("src='",  "src='../../")
+
+      /* do not change external links */
+      content = content.replace("href='../../http", "href='http")
+      content = content.replace("src='../../http",  "src='http")
+
+      Files.write(Paths.get(reference._1), content.getBytes(StandardCharsets.UTF_8))
+    })
+
+    println("[SUCCESS]")
+  }
+
   def publish() {
     print("Publishing website...\t\t")
 
@@ -659,6 +713,7 @@ object Compile {
     createAlbumsPages()
 
     createContents()
+    createReferences()
 
     //publish()
   }
