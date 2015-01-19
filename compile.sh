@@ -345,17 +345,18 @@ object Compile {
               "       title:     name_" + photographyIndex + ",\n"  +
               "       href:      '" + photograph + "_large.jpg',\n" +
               "       type:      'image/jpeg',\n"                   +
-              "       thumbnail: '" + photograph + "_small.jpg'\n"  +
+              "       thumbnail: '" + photograph + "_small.jpg'\n"  +              
               "    },\n"
           })          
         }
 
-        script = script                                                            +
-          "  ],\n"                                                                 +
-          "  {\n"                                                                  +
-          "    container: '#blueimp-gallery-carousel-" + photographyIndex + "',\n" +
-          "    carousel:  true\n"                                                  +
-          "  }\n"                                                                  +
+        script = script                                                                  +
+          "  ],\n"                                                                       +
+          "  {\n"                                                                        +
+          "    container:      '#blueimp-gallery-carousel-" + photographyIndex + "',\n"  +
+          "    carousel:       true,\n"                                                  +
+          "    startSlideshow: false\n"                                                  +
+          "  }\n"                                                                        +
           ");\n"
 
         /* open page instead of album when specified */
