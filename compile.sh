@@ -95,7 +95,7 @@ object Compile {
     "2012/01/coding-standards-in-software.html"           -> "p/coding-standards-in-software-development.html",
     "2011/09/hard-drive-and-ram-disk-comparison.html"     -> "p/hard-drive-and-ram-disk-comparison-report.html",
     "2011/04/hopfield-neural-network.html"                -> "p/hopfield-neural-network.html",
-    "2011/09/image-recognition-using-neural-network.html" -> "",
+    "2011/09/image-recognition-using-neural-network.html" -> "p/image-recognition-using-neural-network.html",
     "2011/05/objective-c-programming-in-linux.html"       -> "",
     "2011/04/stock-market-data-in-java-apps-part-i.html"  -> "",
     "2011/10/future-of-installation.html"                 -> "p/the-future-of-installation.html",
