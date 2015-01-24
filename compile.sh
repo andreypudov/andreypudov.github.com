@@ -98,8 +98,8 @@ object Compile {
     "2011/09/image-recognition-using-neural-network.html" -> "",
     "2011/05/objective-c-programming-in-linux.html"       -> "",
     "2011/04/stock-market-data-in-java-apps-part-i.html"  -> "",
-    "2011/10/future-of-installation.html"                 -> "",
-    "2011/10/packages-build-system.html"                  -> "",
+    "2011/10/future-of-installation.html"                 -> "p/the-future-of-installation.html",
+    "2011/10/packages-build-system.html"                  -> "p/the-packages-build-system.html",
     "2013/02/user-authorization-in-linux.html"            -> "",
     "2012/07/xml-parser-in-c-usage-and-examples.html"     -> "")
 

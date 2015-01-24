@@ -26,9 +26,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Andrey Pudov - Redirection</title>
-
-      <meta http-equiv="refresh" content="3; //andreypudov.com/p/the-future-of-installation.html">
+    <title>Andrey Pudov - The Packages Build System</title>
     
     <meta charset='utf-8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
@@ -37,10 +35,10 @@
     <meta name='description' content='Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.' />
     <meta name='author'      content='Andrey Pudov' />
     
-    <link rel='shortcut icon' href='../../images/favicon.png' />
+    <link rel='shortcut icon' href='../images/favicon.png' />
     
     <!-- bootstrap core style sheet -->
-    <link href='../../libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
+    <link href='../libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
 
     <!-- web page specific styles declaration -->
     
@@ -93,14 +91,14 @@
                         <span class='icon-bar'></span>
                         <span class='icon-bar'></span>
                     </button>
-                    <a href='../../index.html' class='navbar-brand'>Andrey Pudov</a>
+                    <a href='../index.html' class='navbar-brand'>Andrey Pudov</a>
                 </div>
                 <div class='navbar-collapse collapse'>
                     <ul class='nav navbar-nav'>
-                        <li class='active'><a href='../../albums.html'>Albums</a></li>
-	                    <li><a href='../../contents.html'>Contents</a></li>
-	                    <li><a href='../../resume.html'>Resume</a></li>
-	                    <li><a href='../../contact.html'>Contact</a></li>
+                        <li class='active'><a href='../albums.html'>Albums</a></li>
+	                    <li><a href='../contents.html'>Contents</a></li>
+	                    <li><a href='../resume.html'>Resume</a></li>
+	                    <li><a href='../contact.html'>Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -111,12 +109,43 @@
         </div>
         <div id='content'>
           <div class='container'>
-        <div class='page-header'>
-          <h1>Hmm, the page you’re looking for has been moved.</h1>
+          <div class='page-header'>
+            <h1>The Packages Build System<small><em>Friday, October 7, 2011</em></small></h1>
+          </div>
+
+          <h2>A short introduction to high-level optimization</h2>
+
+          <p>Today, most software products can be installed with one click or by simple command in the terminal, by calling a package manager. And the users don’t need to know all the hidden complexities that you can begin using a new tool without expending effort. But behind the installation systems is a complicated process and problem is not limited to simply copying a files. And more importantly, each of these files is the efforts of many people.</p>
+
+          <p>I joined the Intel month ago where I started working in a team dedicated to the development of the system and build of products. I saw a lot of hidden from the public. Our systems allow you to create installation packages for three popular operating systems: Apple OS X, GNU Linux and Microsoft Windows. We support all key products:</p>
+
+          <ul>
+            <li>Intel® Parallel Studio XE</li>
+            <li>Intel® Cluster Studio</li>
+            <li>Intel® Composer XE</li>
+            <li>Intel® Integrated Performance Primitives (Intel® IPP)</li>
+            <li>Intel® Math Kernel Library (Intel® MKL)</li>
+            <li>Intel® Threading Building Blocks (Intel® TBB)</li>
+          </ul>
+
+          <p>And others, full details are always available online: <a href='http://software.intel.com/en-us/articles/intel-sdp-products'>http://software.intel.com/en-us/articles/intel-sdp-products/</a></p>
+
+          <h2>Build process optimization</h2>
+
+          <p>Packaging software products into installation bundle is a long process. It is not difficult technically, but when you need to begin supporting the new products or enable a new libraries into existing products in short amount of time we need to act quickly. The packaging process is similar to pack files into the archive, but unlike this example, the installer must be interactive. It asks the user where install the necessary data, verifies the readiness of the operating system to install process, compares the system requirements of the product with the user machine parameters , checks the previously installed software, duplicate files and identify conflicts.</p>
+
+          <p>The process of packaging a large product such as Intel® Parallel Studio XE takes a long time, about two hours, depending on the hardware. The existing time limit for the packaging, which includes time for replication, testing and publication on back-end servers, said the need to have a quick packaging system.</p>
+
+          <p>To achieve this goal we have available a number of optimization techniques:</p>
+
+          <ul>
+            <li><strong>Parallel packaging</strong> - allows us to simultaneously build the components of the software package, which reduces the time to 40 - 60 percent. For example, using the parallel model, packaging time of Intel ® Parallel Studio XE decreased from 2 hours 30 minutes to 1 hour 30 minutes.</li>
+            <li><strong>Low levels compression</strong> - is used for test builds of products and allows for winnings in 5 percent of the total build time.</li>
+            <li><strong>RAM disk</strong> - use RAM to store temporary files. At the moment this function is experimental. It speeds up the packaging to 5 - 10 percent, depending on the size of the files in the product.</li>
+          </ul>
+
+          <p>In practice, when necessary to build the same product multiple times for testing and debugging, the build process is accelerated by disabling minor features; for example, such as verification of digital signatures - they are only needed in the final product and their presence in the test builds not necessary. It is easier to work by concentrating on the essentials.</p>
         </div>
-        
-        <p>If your browser doesn't automatically go there within a few seconds, you may want to go to <a href='../..///andreypudov.com/p/the-future-of-installation.html'>destination manually.</a></p>
-      </div>
         </div>
         <div id='footer'>
           <div class='container'>
@@ -140,20 +169,20 @@
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src='../../libraries/jquery/jquery-1.11.1.min.js'></script>
-    <!-- <script src='../../libraries/jquery/jquery.validate.min.js'></script> -->
+    <script src='../libraries/jquery/jquery-1.11.1.min.js'></script>
+    <!-- <script src='../libraries/jquery/jquery.validate.min.js'></script> -->
     
-    <!-- <script src='../../libraries/bootstrap/js/bootstrap.min.js'></script> -->
+    <!-- <script src='../libraries/bootstrap/js/bootstrap.min.js'></script> -->
     
-    <script src='../../libraries/bootstrap/js/collapse.js' ></script>
-    <script src='../../libraries/bootstrap/js/dropdown.js' ></script>
-    <script src='../../libraries/bootstrap/js/transition.js' ></script>
+    <script src='../libraries/bootstrap/js/collapse.js' ></script>
+    <script src='../libraries/bootstrap/js/dropdown.js' ></script>
+    <script src='../libraries/bootstrap/js/transition.js' ></script>
     
     <!-- web page specific scripts declaration -->
     
 
     <!-- common on init functions -->
-    <script src='../../scripts/init.js'></script>
+    <script src='../scripts/init.js'></script>
 </div>
                  
         </div>
