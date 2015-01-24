@@ -97,7 +97,7 @@ object Compile {
     "2011/04/hopfield-neural-network.html"                -> "p/hopfield-neural-network.html",
     "2011/09/image-recognition-using-neural-network.html" -> "p/image-recognition-using-neural-network.html",
     "2011/05/objective-c-programming-in-linux.html"       -> "p/objective-c-programming-in-linux.html",
-    "2011/04/stock-market-data-in-java-apps-part-i.html"  -> "",
+    "2011/04/stock-market-data-in-java-apps-part-i.html"  -> "p/stock-market-data-in-java-applications.html",
     "2011/10/future-of-installation.html"                 -> "p/the-future-of-installation.html",
     "2011/10/packages-build-system.html"                  -> "p/the-packages-build-system.html",
     "2013/02/user-authorization-in-linux.html"            -> "",
