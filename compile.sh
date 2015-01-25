@@ -101,7 +101,8 @@ object Compile {
     "2011/10/future-of-installation.html"                 -> "p/the-future-of-installation.html",
     "2011/10/packages-build-system.html"                  -> "p/the-packages-build-system.html",
     "2013/02/user-authorization-in-linux.html"            -> "p/user-authorization-in-linux.html",
-    "2012/07/xml-parser-in-c-usage-and-examples.html"     -> "")
+    "2012/07/xml-parser-in-c.html"                        -> "p/xml-parser-in-c.html",
+    "2012/07/xml-parser-in-c-usage-and-examples.html"     -> "p/xml-parser-in-c-usage-and-examples.html")
 
   class Album {
     var name: String = ""
