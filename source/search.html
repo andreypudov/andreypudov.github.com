@@ -27,49 +27,21 @@
 -->
 
 <!--
-    Document   : index.xhtml
-    Created on : Nov 23, 2012, 04:20:00 PM
+    Document   : search.html
+    Created on : Jan 24, 2014, 06:10:00 PM
     Author     : Andrey Pudov        <mail@andreypudov.com>
     Description:
-        The general application web page.
+        The search web page.
 -->
 <!DOCTYPE html>
 <html>
     <body>
-      <define name='content'>                
-        <!-- Marketing messaging and featurettes -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+      <define name='content'>
         <div class='container'>
-          <div class='page-header'>
-            <h1>Hmm, the page you’re looking for can’t be found.</h1>
-          </div>
-          
-          <p>Did you try searching? Enter a keyword(s) in the search field below. Or, try one of the links below.</p>
-
           <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://andreypudov.com/search.html','arrow':true,'bg':'#adadad','fontsize':14,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по andreypudov.com','suggest':true,'target':'_self','tld':'ru','type':2,'usebigdictionary':true,'searchid':2197386,'webopt':false,'websearch':false,'input_fg':'#333333','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту','input_placeholderColor':'#333333','input_borderColor':'#adadad'}"><form action="http://yandex.ru/sitesearch" method="get" target="_self"><input type="hidden" name="searchid" value="2197386"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
-          
-          <!-- Three columns of text below the carousel -->
-          <div class='row'>
-            <div class='col-lg-4 col-md-4 col-sm-4'>
-              <!--<img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" />-->
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-              <p><a class='btn btn-default' href='#' role='button'>View details</a></p>
-            </div> <!-- /.col-lg-4 -->
-            <div class='col-lg-4 col-md-4 col-sm-4'>
-              <!--<img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" />-->
-              <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class='btn btn-default' href='#' role='button'>View details</a></p>
-            </div> <!-- /.col-lg-4 -->
-            <div class='col-lg-4 col-md-4 col-sm-4'>
-              <!--<img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" />-->
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class='btn btn-default' href='#' role='button'>View details</a></p>
-            </div> <!-- /.col-lg-4 -->
-          </div> <!-- /.row -->
-        </div> <!-- /.container -->
+
+          <div id="ya-site-results" onclick="return {'tld': 'ru','language': 'ru','encoding': '','htmlcss': '1.x','updatehash': true}"></div><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0];s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Results.init();})})(window,document,'yandex_site_callbacks');</script>
+        </div> 
       </define>
     </body>
 </html>
