@@ -5861,7 +5861,13 @@ body {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
+  margin-top:    35px;
   margin-bottom: 60px;
+}
+@media (min-width: 768px) {
+  .carousel {
+    margin-top: 0;
+  }
 }
 .carousel-inner {
   width: 100%;
@@ -5891,6 +5897,12 @@ body {
 .marketing.marketing-image {
   margin-top: -60px;
   width: 100%;
+  padding-left:  0;
+  padding-right: 0;
+}
+.marketing.marketing-image > .row {
+  margin-left:   0;
+  margin-right:  0;
 }
 .marketing.marketing-image > .row img {
   display: block;
@@ -5899,8 +5911,15 @@ body {
 }
 .marketing.marketing-image .col-lg-3,
 .marketing.marketing-image .col-lg-4 {
+  margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
+}
+@media (min-width: 768px) {
+  .marketing.marketing-image .col-lg-3,
+  .marketing.marketing-image .col-lg-4 {
+    margin-bottom: 20px;
+  }
 }
 .marketing > h2 {
   font-weight: normal;

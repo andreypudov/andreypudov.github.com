@@ -56,7 +56,12 @@ body {
 
 /* Carousel base class */
 .carousel {
+    margin-top:    35px;
     margin-bottom: 60px;
+
+    @media (min-width: @grid-float-breakpoint) {
+        margin-top: 0;
+    }
 }
 
 .carousel-inner {
@@ -88,10 +93,15 @@ body {
     padding-right: 15px;
 
     &.marketing-image {
-        margin-top: -60px;
-        width:      100%;
+        padding-left:  0;
+        padding-right: 0;
+        margin-top:    -60px;
+        width:         100%;
 
         > .row {
+            margin-left:   0;
+            margin-right:  0;
+            
             img {
                 display:     block;
                 line-height: 1;
@@ -102,6 +112,11 @@ body {
         .col-lg-3, .col-lg-4 {
             padding-left:  0;
             padding-right: 0;
+            margin-bottom: 0;
+
+            @media (min-width: @grid-float-breakpoint) {
+                margin-bottom: 20px;
+            }
         }
     }
 
