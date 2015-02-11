@@ -3,7 +3,7 @@ exec scala "$0" "$@"
 !#
 
 /*
- * Andrey Pudov Official Website 
+ * Andrey Pudov Official Website
  *
  * The MIT License
  *
@@ -202,11 +202,11 @@ object Compile {
 
                   val scaleTransform  = AffineTransform.getScaleInstance(scale, scale)
                   val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
-                  val newImage        = bilinearScaleOp.filter(image, 
+                  val newImage        = bilinearScaleOp.filter(image,
                     new BufferedImage(width, height, image.getType()))
-                  
-                  //ImageIO.write(newImage, "jpg", 
-                  //  new File(directory.getAbsolutePath() 
+
+                  //ImageIO.write(newImage, "jpg",
+                  //  new File(directory.getAbsolutePath()
                   //    + File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg"))
 
                   /* keep original file name */
@@ -223,7 +223,7 @@ object Compile {
               }
             }
           )
-        } 
+        }
       }
     )
 
@@ -376,9 +376,9 @@ object Compile {
               "       title:     name_" + photographyIndex + ",\n"  +
               "       href:      '" + photograph + "_large.jpg',\n" +
               "       type:      'image/jpeg',\n"                   +
-              "       thumbnail: '" + photograph + "_small.jpg'\n"  +              
+              "       thumbnail: '" + photograph + "_small.jpg'\n"  +
               "    },\n"
-          })          
+          })
         }
 
         script = script                                                                  +
@@ -397,10 +397,10 @@ object Compile {
         }
         script = script +
           "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {\n"                       +
-	      "\tif ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {\n"              +
-		  "\t\twindow.open('p/" + link + ".html', '_self')\n"                                        +
-		  "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
-	      "\t}\n"                                                                                               +
+          "\tif ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {\n"              +
+          "\t\twindow.open('p/" + link + ".html', '_self')\n"                                        +
+          "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
+          "\t}\n"                                                                                               +
           "})\n"
 
         controlList += control
@@ -709,7 +709,7 @@ object Compile {
     compileAlbums()
     compilePages()
     compileSchemas()
-    
+
     createAlbumsContents()
     createAlbumsPages()
 
