@@ -707,7 +707,7 @@ object Compile {
     } else {
       return "<div class='gallery-container'>" +
         "\t<img src='" + prefix + photograph +
-          (postfix match {case true => "_large" case false => ""}) + ".jpg' "
+          (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
           "alt='" + alt + "' class='img-responsive gallery-image gallery-image-vertical'>" +
         "</div>"
     }
