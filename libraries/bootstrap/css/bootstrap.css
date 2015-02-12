@@ -5861,7 +5861,7 @@ body {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  margin-top:    35px;
+  margin-top: 35px;
   margin-bottom: 60px;
 }
 @media (min-width: 768px) {
@@ -5895,14 +5895,14 @@ body {
 
 }
 .marketing.marketing-image {
+  padding-left: 0;
+  padding-right: 0;
   margin-top: -60px;
   width: 100%;
-  padding-left:  0;
-  padding-right: 0;
 }
 .marketing.marketing-image > .row {
-  margin-left:   0;
-  margin-right:  0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .marketing.marketing-image > .row img {
   display: block;
@@ -5911,9 +5911,9 @@ body {
 }
 .marketing.marketing-image .col-lg-3,
 .marketing.marketing-image .col-lg-4 {
-  margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .marketing.marketing-image .col-lg-3,
