@@ -108,6 +108,7 @@ object Compile {
     var name: String = ""
     var date: String = ""
     var page: String = ""
+    var alt:  String = ""
 
     def getName(): String = {
       return name
@@ -121,6 +122,10 @@ object Compile {
       return page
     }
 
+    def getAlt(): String = {
+      return alt
+    }
+
     def setName(name: String) {
       this.name = name
     }
@@ -131,6 +136,10 @@ object Compile {
 
     def setPage(page: String) {
       this.page = page
+    }
+
+    def setAlt(alt: String) {
+      this.alt = alt
     }
   }
 
@@ -304,10 +313,11 @@ object Compile {
           val image = _content.substring(matcher.start() + "<insert name=\"image\" value=\"".length(),
             matcher.end() - "\\/>".length() - 1)
           val album = image.substring(0, image.lastIndexOf('_'))
+          val alt   = _title.replace("<title>", "").replace("</title>", "")
 
           matcher.appendReplacement(buffer, image.startsWith("PAGE_") match {
-            case true  => getImageTag("images/pages/"  + image, "", false)
-            case false => getImageTag("albums/" + album + "/" + image, "", true)
+            case true  => getImageTag("images/pages/"  + image, "", false, alt)
+            case false => getImageTag("albums/" + album + "/" + image, "", true, alt)
           })
         }
         matcher.appendTail(buffer)
@@ -510,7 +520,7 @@ object Compile {
           file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
 
         photographs.foreach(photograph => {
-          _photos = _photos + getImageTag(photograph, "../", true)
+          _photos = _photos + getImageTag(photograph, "../", true, metadata.getAlt())
         })
 
         val _item = "<insert name='gallery-item' />"
@@ -665,6 +675,7 @@ object Compile {
           format1.parse(
             properties.getProperty("date", "1970-01-01"))))
         album.setPage(properties.getProperty("page", ""))
+        album.setAlt(properties.getProperty("alt", ""))
       } catch {
         case e: FileNotFoundException => {
           println("[FAILURE]")
@@ -680,7 +691,7 @@ object Compile {
     return album
   }
 
-  def getImageTag(photograph: String, prefix: String, postfix: Boolean) : String = {
+  def getImageTag(photograph: String, prefix: String, postfix: Boolean, alt: String) : String = {
     def isVertical(name: String): Boolean = {
       val image  = ImageIO.read(new File(name + (postfix match {case true => "_small" case false => ""}) + ".jpg"))
       val width  = image.getWidth()
@@ -691,13 +702,13 @@ object Compile {
 
     if (isVertical(photograph) == false) {
       return "<img src='" + prefix + photograph +
-        (postfix match {case true => "_large" case false => ""}) +
-        ".jpg' class='img-responsive gallery-image'>"
+        (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
+        "alt='" + alt + "' class='img-responsive gallery-image'>"
     } else {
       return "<div class='gallery-container'>" +
         "\t<img src='" + prefix + photograph +
-          (postfix match {case true => "_large" case false => ""}) +
-          ".jpg' class='img-responsive gallery-image gallery-image-vertical'>" +
+          (postfix match {case true => "_large" case false => ""}) + ".jpg' "
+          "alt='" + alt + "' class='img-responsive gallery-image gallery-image-vertical'>" +
         "</div>"
     }
   }
