@@ -108,6 +108,7 @@ object Compile {
     var name: String = ""
     var date: String = ""
     var page: String = ""
+    var ptyp: String = ""
     var alt:  String = ""
 
     def getName(): String = {
@@ -120,6 +121,10 @@ object Compile {
 
     def getPage(): String = {
       return page
+    }
+
+    def getType(): String = {
+      return ptyp;
     }
 
     def getAlt(): String = {
@@ -136,6 +141,10 @@ object Compile {
 
     def setPage(page: String) {
       this.page = page
+    }
+
+    def setType(ptyp: String) {
+      this.ptyp = ptyp
     }
 
     def setAlt(alt: String) {
@@ -555,18 +564,24 @@ object Compile {
     ).filter(IGNORE_NAMES.contains(_) == false
     ).sortWith(getDate(_) > getDate(_))
 
-    sources.foreach(entry => {
-      val metadata = getAlbumMetadata(entry)
+    def construct(entry: String, name: String, date: String): String = {
+      return ("\t<li>"    +
+             "\t\t<a href='p/" + entry + ".html'>" + name +
+             "\t\t\t<small>" + date + "</small>" +
+             "\t\t</a>"  +
+             "\t</li>\n")
+    }
 
-      if (metadata.getPage().length() == 0) {
-        _item = _item +
-          "\t<li>"    +
-          "\t\t<a href='p/" + entry + ".html'>" + metadata.getName() +
-          "\t\t\t<small>" + metadata.getDate() + "</small>" +
-          "\t\t</a>"  +
-          "\t</li>\n"
-      }
-    })
+    Map("Album"     -> "Photography Albums",
+        "Technical" -> "Technincal Posts").foreach((postType) => {
+      _item = _item + "<li><h2>" + postType._2 + "</h2></li>"
+
+      sources.foreach(entry => {
+        val metadata = getAlbumMetadata(entry)
+        if ((metadata.getType() == postType._1) && (metadata.getPage().length() == 0)) {
+          _item = _item + construct(entry, metadata.getName(), metadata.getDate())
+        }
+    })})
 
     val _contents = "<insert name='contents' />"
     content = content.replace(_contents,  "<ol class='table-of-contents'>\n" + _item + "</ol>")
@@ -675,6 +690,7 @@ object Compile {
           format1.parse(
             properties.getProperty("date", "1970-01-01"))))
         album.setPage(properties.getProperty("page", ""))
+        album.setType(properties.getProperty("type", "Album"))
         album.setAlt(properties.getProperty("alt", ""))
       } catch {
         case e: FileNotFoundException => {
