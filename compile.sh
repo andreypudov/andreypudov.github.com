@@ -572,8 +572,8 @@ object Compile {
              "\t</li>\n")
     }
 
-    Map("Album"     -> "Photography Albums",
-        "Technical" -> "Technincal Posts").foreach((postType) => {
+    Map("Album"     -> "Photograph Albums ",
+        "Technical" -> "Articles").foreach((postType) => {
       _item = _item + "<li><h2>" + postType._2 + "</h2></li>"
 
       sources.foreach(entry => {
