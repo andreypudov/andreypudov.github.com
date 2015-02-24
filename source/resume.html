@@ -43,7 +43,7 @@
       <define name='styles'>
         <link href="libraries/font-awesome/css/font-awesome.css" rel="stylesheet">
       </define>
-      
+
       <define name='content'>
         <div class='container'>
           <div class='page-header'>
@@ -57,7 +57,7 @@
                   <h2>About Me</h2>
                   <p>Driven professional with broad technical skill set. Thrives in environments that constantly embrace new technologies. Interested in challenging and varied position that will enable me to capitalize on sound  technical and project management expertise, with opportunities for personal and professional growth.</p>
                 </div>-->
-                
+
                 <div class="box">
                   <h2>Education</h2>
                   <ul id="education" class="clearfix">
@@ -96,7 +96,7 @@
                     </li>
                   </ul>
                 </div>
-                
+
                 <div class="box">
                   <h2>Experience</h2>
                   <div class="job clearfix">
@@ -167,13 +167,13 @@
                     </a>
                   </div>
                 </div>
-                
+
                 <div class="box">
                   <h2>Skills</h2>
                   <div class="skills">
                     <div class="item-skills" data-percent="1.00" style="width: 374px;">C</div>
                     <div class="item-skills" data-percent="0.90" style="width: 336.6px;">Java</div>
-                    <div class="item-skills" data-percent="0.80" style="width: 299.2px;">Fortran</div>                    
+                    <div class="item-skills" data-percent="0.80" style="width: 299.2px;">Fortran</div>
                     <div class="item-skills" data-percent="0.75" style="width: 280.5px;">C#</div>
                     <div class="item-skills" data-percent="0.25" style="width: 93.5px;">Bash</div>
                     <div class="skills-legend clearfix">
@@ -184,7 +184,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="box">
                   <h2>Languages</h2>
                   <div id="language-skills">
@@ -192,7 +192,7 @@
                     <div class="skill">English <div class="icons pull-right"><div style="width: 60%; height: 14px;" class="icons-red"></div></div></div>
                   </div>
                 </div>
-                
+
                 <div class="box">
                   <h2>Hobbies</h2>
                   <div class="hobby">Photography</div>
@@ -204,33 +204,33 @@
           </row>
         </div>
       </define>
-      <define name='scripts'>        
+      <define name='scripts'>
         <script>
           var callback = function(){
-	          $('.item-skills').each(function(){
-		          newWidth = $(this).parent().width() * $(this).data('percent');
-		          $(this).width(0);
+              $('.item-skills').each(function(){
+                  newWidth = $(this).parent().width() * $(this).data('percent');
+                  $(this).width(0);
                   $(this).animate({
                       width: newWidth,
                   }, 2000);
-	      });
-          
-	          $('.icons-red').each(function(){
-		          height = $(this).height();
+          });
+
+              $('.icons-red').each(function(){
+                  height = $(this).height();
                   $(this).animate({
                       height: 14,
                   }, 2000);
-	          });
+              });
           };
-          
+
           $(document).ready(callback);
 
           var resize;
           window.onresize = function() {
-	          clearTimeout(resize);
-	          resize = setTimeout(function(){
-		          callback();
-	          }, 100);
+              clearTimeout(resize);
+              resize = setTimeout(function(){
+                  callback();
+              }, 100);
           };
         </script>
       </define>
