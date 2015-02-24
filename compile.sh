@@ -352,8 +352,8 @@ object Compile {
         } else {
           /* relative locationf for 404 page */
           if (source.getPath().startsWith("source/404.html")) {
-            _layout = _layout.replace("href='", "href='//")
-            _layout = _layout.replace("src='",  "src='//")
+            _layout = _layout.replace("href='", "href='/")
+            _layout = _layout.replace("src='",  "src='/")
           }
 
           Files.write(Paths.get(source.getName()), _layout.getBytes(StandardCharsets.UTF_8))
