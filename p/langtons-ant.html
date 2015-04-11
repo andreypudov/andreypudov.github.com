@@ -1,0 +1,347 @@
+<!--
+ * Andrey Pudov Official Website
+ *
+ * The MIT License
+ *
+ * Copyright 2011-2015 Andrey Pudov.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrey Pudov - Langton's Ant</title>
+    
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    
+    <meta name='viewport'    content='width=device-width, initial-scale=1.0' />
+    <meta name='description' content='Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.' />
+    <meta name='author'      content='Andrey Pudov' />
+    
+    <!-- bootstrap core style sheet -->
+    <link href='../libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
+
+    <!-- web page specific styles declaration -->
+    
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+      <script src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js'></script>
+    <![endif]-->
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+        try {
+          w.yaCounter22906810 = new Ya.Metrika({id:22906810,
+            webvisor:true,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true});
+        } catch(e) { }
+      });
+
+      var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="//mc.yandex.ru/watch/22906810" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+    <body>
+      <div id='page'>
+        <div id='header'>
+          <div class='navbar-wrapper'>
+    <div class='container'>
+        <div class='navbar navbar-static-top' role='navigation'>
+            <div class='container'>
+                <div class='navbar-header'>
+                    <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+                        <span class='sr-only'>Toggle navigation</span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                    </button>
+                    <a href='../index.html' class='navbar-brand'>Andrey Pudov</a>
+                </div>
+                <div class='navbar-collapse collapse'>
+                    <ul class='nav navbar-nav'>
+                        <li class='active'><a href='../albums.html'>Albums</a></li>
+	                    <li><a href='../contents.html'>Contents</a></li>
+	                    <li><a href='../resume.html'>Resume</a></li>
+	                    <li><a href='../contact.html'>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div id='content'>
+          <div class='container'>
+          <div class='page-header'>
+            <h1>Langton's Ant<small><em>Tuesday, April 07, 2015</em></small></h1>
+          </div>
+
+          <p>Langton’s ant is a two-dimensional Turing machine with a very simple set of rules but complicated emergent behavior. It was invented by Chris Langton in 1986 and runs on a square lattice of black and white cells. The universality of Langton’s ant was proven in 2000. The idea has been generalized in several different ways, such as turmites which  add more color and more state.</p>
+
+          <br />
+
+          <form class='form-inline' onsubmit='return false;'>
+            <div class='form-group'>
+              <label for='gridWidth'>Width</label>
+              <input id='gridWidth' type='text' class='form-control' placeholder='Integer Value' value='96'>
+            </div>
+
+            <div class='form-group'>
+              <label for='gridHeight'>Height</label>
+              <input id='gridHeight' type='text' class='form-control' placeholder='Integer Value' value='64'>
+            </div>
+
+            <button type='submit' class='btn btn-default' onclick='simulate(false)'>Simulate</button>
+          </form>
+
+          <canvas id='canvas'></canvas>
+
+          <h2>Rules</h2>
+
+          <p>Squares on a plane are colored variously either boac or white. We arbitrarily identify one square as the ‘ant’. The ant can travel in any of the four cardinal directions at each step it takes. The ant moves according to the rules:<p/>
+
+          <ol>
+            <li>At a white square, turn 90 degrees right, flip the color of the square, move forward one unit.</li>
+            <li>At a black square, turn 90 degrees left, flip the color of the square, move forward one unit.</li>
+          </ol>
+
+          <p>Langton’s ant can also be described as a cellular automaton, where the grid is colored black or white and the ‘ant’ square has one of the eight different color assigned to encode the combination of black/white state and the current direction of motion of the ant.</p>
+
+          <h2>Modes of behavior</h2>
+
+          <p>These simple rules lead to complex behavior. Three distinct modes of behavior are apparent, when starting on a completely white grid.</p>
+
+          <ul>
+            <li>Simplicity. During the first few hundred moves it creates very simple patterns which are often symmetric.</li>
+            <li>Chaos. After a few hundred moves, a big, irregular pattern of black and white squares appears. The ant traces a pseudo-random path until around 10,000 steps.</li>
+            <li>Emergent order. Finally the ant starts building a recurrent ‘highway’ pattern of 104 steps that repeats indefinitely.</li>
+          </ul>
+
+          <p>All finite initial configurations tested eventually converge to the same repetitive pattern, suggesting that the ‘highway’ is an attractor of Langton’s ant, but no one has been able to prove that this rule is true for all such initial configuration. It is only known  that the ant’s trajectory i always unbounded regardless of initial configuration - this is knows as the Cohen-Kung theorem.</p>
+
+        </div>
+        </div>
+        <div id='footer'>
+          <div class='container'>
+    <footer>
+        <hr class='footer-divider' />
+
+        <ul class='piped-links pull-right'>
+            <li class='first piped-links-short'><a href='../resume.html'>About</a></li>
+            <li class='first piped-links-long'><a href='../resume.html'>About Andrey Pudov</a></li>
+            <li><a href='../contact.html'>Contact</a></li>
+        </ul>
+
+        <ul class='piped-links'>
+            <p class='piped-links-long'>Copyright &#169; 2015 Andrey Pudov. All rights reserved.</p>
+        </ul>
+
+        <p class='piped-links-short'>&#169; 2015 Andrey Pudov. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src='../libraries/jquery/jquery-1.11.1.min.js'></script>
+    <!-- <script src='../libraries/jquery/jquery.validate.min.js'></script> -->
+
+    <!-- <script src='../libraries/bootstrap/js/bootstrap.min.js'></script> -->
+
+    <script src='../libraries/bootstrap/js/collapse.js' ></script>
+    <script src='../libraries/bootstrap/js/dropdown.js' ></script>
+    <script src='../libraries/bootstrap/js/transition.js' ></script>
+
+    <!-- web page specific scripts declaration -->
+    <script>
+          /* world matrix */
+          var world = [];
+
+          /* grid size constraints */
+          var gridWidth  = 96;
+          var gridHeight = 64;
+
+          var cellWidth  = 10;
+          var cellHeight = 10;
+
+          /* canvas size constraints */
+          var canvasWidth  = (gridWidth  * cellWidth)  + 1;
+          var canvasHeight = (gridHeight * cellHeight) + 1;
+
+          var canvas  = $('#canvas').attr({width: canvasWidth, height: canvasHeight});
+          var context = canvas.get(0).getContext('2d');
+
+          function simulate(generate) {
+            initialize();
+
+            if (generate === true) {
+              randomizeGrid();
+            }
+
+            var x = Math.floor(gridWidth / 2);
+            var y = Math.floor(gridHeight / 2);
+            var p = 1; /* North = 1, East = 2, South = 3, West = 4 */
+
+            /* simulation process */
+            while (true) {
+              /* finich ant travel on a grid border */
+              if ((x < 0) || (x >= gridWidth) || (y < 0) || (y >= gridHeight)) {
+                break;
+              }
+
+              if (world[x][y] == 0) {
+                /* at white square, turn right, flip the color of the square */
+                world[x][y] = 1;
+                fillCell(x, y, 'grey');
+
+                switch (p) {
+                  case 1:
+                    x = x + 1;
+                    p = 2;
+                    break;
+                  case 2:
+                    y = y + 1;
+                    p = 3;
+                    break;
+                  case 3:
+                    x = x - 1;
+                    p = 4;
+                    break;
+                  case 4:
+                    y = y - 1;
+                    p = 1;
+                    break;
+                }
+              } else {
+                /* at black square, turn left, flip the color of the square */
+                world[x][y] = 0;
+                fillCell(x, y, 'white');
+
+                switch (p) {
+                  case 1:
+                    x = x - 1;
+                    p = 4;
+                    break;
+                  case 2:
+                    y = y - 1;
+                    p = 1;
+                    break;
+                  case 3:
+                    x = x + 1;
+                    p = 2;
+                    break;
+                  case 4:
+                    y = y + 1;
+                    p = 3;
+                    break;
+                }
+              }
+            }
+          }
+
+          function drawGrid() {
+            for (var x = 0; x <= canvasWidth; x += cellWidth) {
+              context.moveTo(0.5 + x, 0);
+              context.lineTo(0.5 + x, canvasHeight);
+            }
+
+            for (var y = 0; y <= canvasHeight; y += cellHeight) {
+              context.moveTo(0, 0.5 + y);
+              context.lineTo(canvasWidth, 0.5 + y);
+            }
+
+            context.strokeStyle = (gridWidth < 128 || gridHeight < 128) ? 'grey' : 'white';
+            context.stroke();
+          }
+
+          function randomizeGrid() {
+            for (var x = 0; x < gridWidth; ++x) {
+              for (var y = 0; y < gridHeight; ++y) {
+                world[x][y] = Boolean(Math.floor(Math.random() * 2)) ? 1 : 0;
+                fillCell(x, y, world[x][y] === 0 ? 'white' : 'grey');
+              }
+            }
+          }
+
+          function fillCell(x, y, color) {
+            context.fillStyle = color;
+            context.fillRect((x * cellWidth) + 1, (y * cellHeight) + 1, 
+              cellWidth - 1, cellHeight - 1);
+          }
+
+          function initialize() {
+            gridWidth  = parseInt($('#gridWidth').val());
+            gridHeight = parseInt($('#gridHeight').val());
+
+            canvasWidth  = (gridWidth  * cellWidth)  + 1;
+            canvasHeight = (gridHeight * cellHeight) + 1;
+
+            world = new Array(gridWidth);
+            for (var x = 0; x < gridWidth; ++x) {
+              world[x] = new Array(gridHeight);
+
+              for (var y = 0; y < gridHeight; ++y) {
+                world[x][y] = 0;
+              }
+            }
+
+            $('#canvas').attr({width: canvasWidth, height: canvasHeight});
+
+            $(window).resize(function() {drawGrid();});
+
+            drawGrid();
+          }
+
+          simulate();
+        </script>
+
+        <style>
+          canvas {
+            width:  100%;
+            height: 100%;
+
+            padding: 24px 0;
+          }
+        </style>
+
+    <!-- common on init functions -->
+    <script src='../scripts/init.js'></script>
+</div>
+                 
+        </div>
+      </div>
+    </body>
+</html>
