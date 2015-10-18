@@ -75,8 +75,19 @@
       <script>
         /* the list of shotened links */
         var SHORTENED_URL_LIST = {
-          'x' : '../resume.html',
+          'fa'  : ''
         };
+
+        /*
+         * The short code format specification.
+         *
+         * The short code has following format:
+         *     ab1234c12
+         * where letters has followinf meaning:
+         *     f - a link to downloadable item
+         *         a - a set of photography albums
+         *
+         */
 
         function restore() {
             var query = window.location.search.substring(1);

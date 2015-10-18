@@ -7,7 +7,7 @@ exec scala "$0" "$@"
  *
  * The MIT License
  *
- * Copyright 2011-2014 Andrey Pudov.
+ * Copyright 2011-2015 Andrey Pudov.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -204,9 +204,6 @@ object Compile {
 
                   /* keep original version of large files including meta information */
                   if (scale == 1.0) {
-                    //val status = Process(Seq("cp", photography.getAbsolutePath(), directory.getAbsolutePath() +
-                    //  File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg")).!
-
                     /* keep original file name */
                     val status = Process(Seq("cp", photography.getAbsolutePath(), directory.getAbsolutePath() +
                       File.separator + photography.getName().replaceFirst("[.][^.]+$", "") + "_" + prefix + ".jpg")).!
@@ -222,10 +219,6 @@ object Compile {
                   val bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR)
                   val newImage        = bilinearScaleOp.filter(image,
                     new BufferedImage(width, height, image.getType()))
-
-                  //ImageIO.write(newImage, "jpg",
-                  //  new File(directory.getAbsolutePath()
-                  //    + File.separator + f"$photographyIndex%03d" +  "_" + album.getName() + "_" + prefix + ".jpg"))
 
                   /* keep original file name */
                   ImageIO.write(newImage, "jpg",
@@ -391,21 +384,21 @@ object Compile {
           "var gallery_" + photographyIndex + " = blueimp.Gallery(\n" +
           "  [\n"
 
+        /* insert first image to the initialization list */
         if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
           val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
             file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
 
-          photographs.foreach(photograph => {
-            script = script                                         +
+          script = script                                         +
               "    {\n"                                             +
               "       title:     name_" + photographyIndex + ",\n"  +
-              "       href:      '" + photograph + "_large.jpg',\n" +
+              "       href:      '" + photographs(0) + "_large.jpg',\n" +
               "       type:      'image/jpeg',\n"                   +
-              "       thumbnail: '" + photograph + "_small.jpg'\n"  +
+              "       thumbnail: '" + photographs(0) + "_small.jpg'\n"  +
               "    },\n"
-          })
         }
 
+        /* gallery configuration */
         script = script                                                                  +
           "  ],\n"                                                                       +
           "  {\n"                                                                        +
@@ -414,6 +407,24 @@ object Compile {
           "    startSlideshow: false\n"                                                  +
           "  }\n"                                                                        +
           ");\n"
+
+        /* forms the list of additional images */
+        script = script + "var gallery_" + photographyIndex + "_list = ["
+        if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+          val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
+            file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
+
+          for (index <- 1 until photographs.length) {
+            script = script                                         +
+              "    {\n"                                             +
+              "       title:     name_" + photographyIndex + ",\n"  +
+              "       href:      '" + photographs(index) + "_large.jpg',\n" +
+              "       type:      'image/jpeg',\n"                   +
+              "       thumbnail: '" + photographs(index) + "_small.jpg'\n"  +
+              "    },\n"
+          }
+        }
+        script = script + "];"
 
         /* open page instead of album when specified */
         val link = metadata.getPage() match {
@@ -428,6 +439,9 @@ object Compile {
           "\t}\n"                                                                                               +
           "})\n"
 
+        /* appends additional images to the gallery */
+        script = script + "gallery_" + photographyIndex + ".add(gallery_" + photographyIndex + "_list);\n"
+
         controlList += control
         scriptList  += script
       }
@@ -439,7 +453,7 @@ object Compile {
     for (index <- 0 until controlList.length by ALBUMS_PER_PAGE) {
       var _content = content
       var _control = ""
-      var _script  = ""
+      var _script  = "$(function() {\n"
 
       for (jndex <- 0 until (ALBUMS_PER_PAGE + (index % ALBUMS_PER_PAGE))) {
         val kndex = index + jndex
@@ -448,6 +462,8 @@ object Compile {
           _script  += scriptList(kndex)
         }
       }
+
+      _script  += "});"
 
       /* generate pagination */
       val pagesNumber = (Math.ceil(controlList.length.toDouble / ALBUMS_PER_PAGE)).toInt
