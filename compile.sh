@@ -364,6 +364,7 @@ object Compile {
 
     val controlList: MutableList[String] = MutableList()
     val scriptList:  MutableList[String] = MutableList()
+    val scriptList2: MutableList[String] = MutableList()
     var photographyIndex = 0
 
     (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
@@ -408,8 +409,32 @@ object Compile {
           "  }\n"                                                                        +
           ");\n"
 
-        /* forms the list of additional images */
-        script = script + "var gallery_" + photographyIndex + "_list = ["
+        /* open page instead of album when specified */
+        val link = metadata.getPage() match {
+          case "" => album.getName()
+          case x  => metadata.getPage()
+        }
+        script = script +
+          "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {\n"                       +
+          "\tif ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {\n"              +
+          "\t\twindow.open('p/" + link + ".html', '_self')\n"                                        +
+          "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
+          "\t}\n"                                                                                               +
+          "})\n"
+
+        controlList += control
+        scriptList  += script
+      }
+    )
+
+    /* appends additional images to the gallery */
+    photographyIndex = 0
+    (new File(ALBUMS_LOCATION)).listFiles().reverse.foreach(album =>
+      if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
+        photographyIndex = photographyIndex + 1
+        val metadata = getAlbumMetadata(album.getName())
+
+        var script = "var gallery_" + photographyIndex + "_list = ["
         if (album.isDirectory() && (IGNORE_NAMES.contains(album.getName()) == false)) {
           val photographs = album.listFiles.filter(_.getName.endsWith(".jpg")).map(file =>
             file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
@@ -424,26 +449,11 @@ object Compile {
               "    },\n"
           }
         }
+
         script = script + "];"
-
-        /* open page instead of album when specified */
-        val link = metadata.getPage() match {
-          case "" => album.getName()
-          case x  => metadata.getPage()
-        }
-        script = script +
-          "$('#blueimp-gallery-carousel-" + photographyIndex + "').click(function(e) {\n"                       +
-          "\tif ((e.target.tagName.toLowerCase() === 'img') || $(e.target).hasClass('slide')) {\n"              +
-          "\t\twindow.open('p/" + link + ".html', '_self')\n"                                        +
-          "\t\t$('#blueimp-gallery-carousel-" + photographyIndex + "').addClass('blueimp-gallery-controls');\n" +
-          "\t}\n"                                                                                               +
-          "})\n"
-
-        /* appends additional images to the gallery */
         script = script + "gallery_" + photographyIndex + ".add(gallery_" + photographyIndex + "_list);\n"
 
-        controlList += control
-        scriptList  += script
+        scriptList2  += script
       }
     )
 
@@ -459,7 +469,7 @@ object Compile {
         val kndex = index + jndex
         if (kndex < controlList.length) {
           _control += controlList(kndex)
-          _script  += scriptList(kndex)
+          _script  += scriptList(kndex) + scriptList2(kndex)
         }
       }
 
