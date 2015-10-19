@@ -308,20 +308,25 @@ object Compile {
         }
 
         /* insert images to content block */
-        val pattern = Pattern.compile("<insert name=\"image\" value=\".*\" \\/>", Pattern.CASE_INSENSITIVE)
+        val pattern = Pattern.compile("<insert name=\"image\" value=\".*\" (caption=(\".*\"))?\\/>", Pattern.CASE_INSENSITIVE)
         val matcher = pattern.matcher(_content)
         val buffer  = new StringBuffer()
         while (matcher.find()) {
-          val image = _content.substring(matcher.start() + "<insert name=\"image\" value=\"".length(),
-            matcher.end() - "\\/>".length() - 1)
-          val album = image.substring(0, image.lastIndexOf('_'))
-          val alt   = _title.replace("<title>", "").replace("</title>", "")
+          val string = _content.substring(matcher.start(), matcher.end())
+          val valuePattern   = ".*value=\"([A-Za-z0-9_-]*)\".*".r
+          val captionPattern = ".*caption=\"(.*)\".*".r
 
-          matcher.appendReplacement(buffer, image.startsWith("PAGE_") match {
-            case true  => getImageTag("images/pages/"  + image, "", false, alt)
-            case false => getImageTag("albums/" + album + "/" + image, "", true, alt)
+          val value   = string match { case valuePattern(substring)   => substring case _ => "" }
+          val caption = string match { case captionPattern(substring) => substring case _ => "" }
+          val album   = value.substring(0, value.lastIndexOf('_'))
+          val alt     = _title.replace("<title>", "").replace("</title>", "")
+
+          matcher.appendReplacement(buffer, value.startsWith("PAGE_") match {
+            case true  => getImageTag("images/pages/"  + value, "", false, alt, caption)
+            case false => getImageTag("albums/" + album + "/" + value, "", true, alt, caption)
           })
         }
+
         matcher.appendTail(buffer)
         _content = buffer.toString()
 
@@ -561,7 +566,7 @@ object Compile {
           file.getPath().substring(0, file.getPath().lastIndexOf('_'))).distinct
 
         photographs.foreach(photograph => {
-          _photos = _photos + getImageTag(photograph, "../", true, metadata.getAlt())
+          _photos = _photos + getImageTag(photograph, "../", true, metadata.getAlt(), "")
         })
 
         val _item = "<insert name='gallery-item' />"
@@ -739,7 +744,7 @@ object Compile {
     return album
   }
 
-  def getImageTag(photograph: String, prefix: String, postfix: Boolean, alt: String) : String = {
+  def getImageTag(photograph: String, prefix: String, postfix: Boolean, alt: String, caption: String) : String = {
     def isVertical(name: String): Boolean = {
       val image  = ImageIO.read(new File(name + (postfix match {case true => "_small" case false => ""}) + ".jpg"))
       val width  = image.getWidth()
@@ -748,16 +753,20 @@ object Compile {
       return (height > width)
     }
 
-    if (isVertical(photograph) == false) {
-      return "<img src='" + prefix + photograph +
-        (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
-        "alt='" + alt + "' class='img-responsive gallery-image'>"
-    } else {
+    if (isVertical(photograph)) {
       return "<div class='gallery-container'>" +
         "\t<img src='" + prefix + photograph +
           (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
           "alt='" + alt + "' class='img-responsive gallery-image gallery-image-vertical'>" +
         "</div>"
+    } else {
+      return "<img src='" + prefix + photograph +
+        (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
+        "alt='" + alt + "' class='img-responsive gallery-image'>" +
+        (caption match {
+          case "" => ""
+          case _  => "<p class='image-caption'>" + caption + "</p>" 
+        })
     }
   }
 

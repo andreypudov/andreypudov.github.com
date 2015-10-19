@@ -75,18 +75,20 @@
       <script>
         /* the list of shotened links */
         var SHORTENED_URL_LIST = {
-          'fa'  : ''
+          'da'  : ''
         };
 
         /*
          * The short code format specification.
          *
          * The short code has following format:
-         *     ab1234c12
-         * where letters has followinf meaning:
-         *     f - a link to downloadable item
-         *         a - a set of photography albums
+         *     [type][subtype][index][delimiter][subindex]
          *
+         * A set of [type] entry may have following values:
+         *     d - a downloadable content
+         *
+         * A set of [subtype] entry may have following values:
+         *     a - 
          */
 
         function restore() {
