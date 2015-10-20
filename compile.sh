@@ -754,11 +754,13 @@ object Compile {
     }
 
     if (isVertical(photograph)) {
-      return "<div class='gallery-container'>" +
-        "\t<img src='" + prefix + photograph +
+      return "<img src='" + prefix + photograph +
           (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
-          "alt='" + alt + "' class='img-responsive gallery-image gallery-image-vertical'>" +
-        "</div>"
+          "alt='" + alt + "' class='img-responsive gallery-image vertical'>" +
+          (caption match {
+            case "" => ""
+            case _  => "<p class='image-caption vertical'>" + caption + "</p>" 
+          })
     } else {
       return "<img src='" + prefix + photograph +
         (postfix match {case true => "_large" case false => ""}) + ".jpg' " +
