@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!--
+ * Official Andrey Pudov website.
+ *
+ * The MIT License
+ *
+ * Copyright 2011-2015 Andrey Pudov.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+-->
+
+<!--
+    Document   : weather.html
+    Created on : Nov 03, 2015, 10:00:00 PM
+    Author     : Andrey Pudov        <mail@andreypudov.com>
+    Description:
+        The content web page.
+-->
+<!DOCTYPE html>
+<html>
+    <body>
+      <define name='title'>
+        <title>Andrey Pudov - Weather Forecast</title>
+      </define>
+
+      <define name='content'>
+        <div class='container'>
+          <div class='page-header'>
+            <h1>Weather Forecast<!--<small><em>Tuesday, November 03, 2015</em></small>--></h1>
+
+            <div id='panel-current'>
+              <div class='row'>
+                <div id='temperature' class='col-xs-2' ></div>
+                <div id='description' class='col-xs-2' ></div>
+              </div>
+            </div>
+          </div>
+
+          <div id='panel-forecast'>
+            <table class='table table-responsive'>
+              <thead>
+                <th>Time</th>
+                <th>Temperature</th>
+                <th>Wind speed</th>
+                <th colspan='2'>Wind Direction</th>
+                <th>Pressure</th>
+                <th>Sea level</th>
+                <th>Ground level</th>
+                <th>Humidity</th>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </define>
+      <define name='scripts'>
+        <style>
+          #panel-current #temperature {
+            font-size: 24pt;
+          }
+
+          .wi-wind-table {
+            vertical-align: middle;
+            font-size:      16pt;
+            margin-top:     -4px;
+          }
+        </style>
+
+        <script src='libraries/momentjs/moment.js'></script>
+        <script src='scripts/weather.js'></script>
+        
+        <link href='libraries/weather-icons/css/weather-icons.min.css' rel='stylesheet' />
+        <link href='libraries/weather-icons/css/weather-icons-wind.min.css' rel='stylesheet' />
+      </define>
+    </body>
+</html>

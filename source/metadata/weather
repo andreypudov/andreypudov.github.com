@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment>Weather Forecast</comment>
+  <entry key="name">Weather Forecast</entry>
+  <entry key="date">2015-10-03</entry>
+  <entry key="page"></entry>
+  <entry key="type">Technical</entry>
+  <entry key="alt"></entry>
+</properties>
