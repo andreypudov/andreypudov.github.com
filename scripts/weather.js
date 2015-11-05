@@ -40,6 +40,9 @@ function reverseCompassDirection(value) {
 function formatWindDegree(value) {
     /* https://en.wikipedia.org/wiki/Points_of_the_compass */
     var points = [
+        ['North',                'N',    'N',   'Tramontana',                         0.00,     0.00,   5.62],
+        ['North',                'N',    'N',   'Tramontana',                         354.38,   0.00, 360.00],
+
         ['North',                'N',    'N',   'Tramontana',                         354.38,   0.00,   5.62],
         ['North by east',        'NbE',  'N',   'Quarto di Tramontana verso Greco',   5.63,    11.25,  16.87],
         ['North-northeast',      'NNE',  'NNE', 'Greco-Tramontana',                   16.88,   22.50,  28.12],
@@ -130,14 +133,24 @@ function getCurrentWeatherByCityId(id) {
     var $temperature = $('#temperature');
     var $description = $('#description');
 
+    var $cloudiness = $('#cloudiness > span');
+    var $pressure   = $('#pressure > span');
+    var $humidity   = $('#humidity > span');
+    var $sunrise    = $('#sunrise > span');
+    var $sunset     = $('#sunset > span');
+
     $.getJSON('http://api.openweathermap.org/data/2.5/weather?id=' + id + '&units=metric&appid=1d334b0f0f23fccba1cee7d3f4934ea7', function(result) {
         $header.html('Weather in ' + result.name /* + ', ' + result.sys.country */
-            + '<small><em>' + moment().format('dddd, MMMM DD, YYYY') + '</em></small>');
+            + '<small><em>' + moment.unix(result.dt).format('dddd, MMMM DD, YYYY') + '</em></small>');
         $temperature.html('<span class=\'wi ' + getWeatherIconById(result.weather[0].icon) + '\' />' + '&nbsp;'
             + result.main.temp + '&nbsp;'
             + '<span class=\'wi wi-celsius\' />');
-        $description.html(result.weather[0].description);
-        // result.weather[0].description);
+
+        $cloudiness.text(result.weather[0].description);
+        $pressure.text(result.main.pressure + ' hpa');
+        $humidity.text(result.main.humidity + ' %');
+        $sunrise.text(moment.unix(result.sys.sunrise).format('HH:mm'));
+        $sunset.text(moment.unix(result.sys.sunset).format('HH:mm'));
     })
     .fail(function() {
         /* incorrect response */
