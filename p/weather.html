@@ -115,16 +115,18 @@
                 <div id='temperature' class='col-xs-6'></div>
               </div>
               <div class='row'>
-                <div id='cloudiness' class='col-xs-2'>
+                <div id='cloudiness' class='col-xs-3'>
                   <strong>Cloudiness:</strong>
                   <span></span>
                 </div>
                 <div id='pressure' class='col-xs-2'>
-                  <strong>Pressure:</strong>
+                  <strong class='hidden-xs'>Pressure:</strong>
+                  <strong class='visible-xs-block'>Press.:</strong>
                   <span></span>
                 </div>
                 <div id='humidity' class='col-xs-2'>
-                  <strong>Humidity:</strong>
+                  <strong class='hidden-xs'>Humidity:</strong>
+                  <strong class='visible-xs-block'>Humid.:</strong>
                   <span></span>
                 </div>
                 <div id='sunrise' class='col-xs-2'>
@@ -136,20 +138,41 @@
                   <span></span>
                 </div>
               </div>
+              <div class='row'>
+                <div class='col-xs-3'></div>
+                <div id='rain' class='col-xs-2' style='display: none'>
+                  <strong>Rain:</strong>
+                  <span></span>
+                </div>
+                <div id='snow' class='col-xs-2' style='display: none'>
+                  <strong>Snow:</strong>
+                  <span></span>
+                </div>
+                <div id='longitude' class='col-xs-2'>
+                  <strong class='hidden-xs'>Longitude:</strong>
+                  <strong class='visible-xs-block'>Lon.:</strong>
+                  <span></span>
+                </div>
+                <div id='latitude' class='col-xs-2'>
+                  <strong class='hidden-xs'>Latitude:</strong>
+                  <strong class='visible-xs-block'>Lat.:</strong>
+                  <span></span>
+                </div>
+              </div>
             </div>
           </div>
 
           <div id='panel-forecast'>
-            <table class='table table-responsive'>
+            <table class='table'>
               <thead>
                 <th>Time</th>
                 <th>Temperature</th>
                 <th>Wind speed</th>
                 <th colspan='2'>Wind Direction</th>
-                <th>Pressure</th>
-                <th>Sea level</th>
-                <th>Ground level</th>
-                <th>Humidity</th>
+                <th class='hidden-xs'>Pressure</th>
+                <th class='hidden-xs'>Sea level</th>
+                <th class='hidden-xs'>Ground level</th>
+                <th class='hidden-xs'>Humidity</th>
               </thead>
               <tbody>
               </tbody>

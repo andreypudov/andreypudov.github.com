@@ -133,11 +133,16 @@ function getCurrentWeatherByCityId(id) {
     var $temperature = $('#temperature');
     var $description = $('#description');
 
-    var $cloudiness = $('#cloudiness > span');
-    var $pressure   = $('#pressure > span');
-    var $humidity   = $('#humidity > span');
-    var $sunrise    = $('#sunrise > span');
-    var $sunset     = $('#sunset > span');
+    var $cloudiness  = $('#cloudiness > span');
+    var $pressure    = $('#pressure > span');
+    var $humidity    = $('#humidity > span');
+    var $sunrise     = $('#sunrise > span');
+    var $sunset      = $('#sunset > span');
+
+    var $rain        = $('#rain > span');
+    var $snow        = $('#snow > span');
+    var $longitude   = $('#longitude > span');
+    var $latitude    = $('#latitude > span');
 
     $.getJSON('http://api.openweathermap.org/data/2.5/weather?id=' + id + '&units=metric&appid=1d334b0f0f23fccba1cee7d3f4934ea7', function(result) {
         $header.html('Weather in ' + result.name /* + ', ' + result.sys.country */
@@ -146,11 +151,24 @@ function getCurrentWeatherByCityId(id) {
             + result.main.temp + '&nbsp;'
             + '<span class=\'wi wi-celsius\' />');
 
-        $cloudiness.text(result.weather[0].description);
+        $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + ' %)');
         $pressure.text(result.main.pressure + ' hpa');
         $humidity.text(result.main.humidity + ' %');
         $sunrise.text(moment.unix(result.sys.sunrise).format('HH:mm'));
         $sunset.text(moment.unix(result.sys.sunset).format('HH:mm'));
+
+        $longitude.text(result.coord.lon);
+        $latitude.text(result.coord.lat);
+
+        if (result.rain !== undefined) {
+            $('#rain').css('display', 'block');
+            $rain.text(result.rain['3h']);
+        }
+
+        if (result.snow !== undefined) {
+            $('#snow').css('display', 'block');
+            $snow.text(result.snow['3h']);
+        }
     })
     .fail(function() {
         /* incorrect response */
@@ -185,10 +203,10 @@ function getForecastWeatherByCityId(id) {
                 + '<td>' + formatWindDegree(reverseCompassDirection(entry.wind.deg)) + '</td>'
                 + '<td>' + reverseCompassDirection(entry.wind.deg) + '</td>'
 
-                + '<td>' + entry.main.pressure + '</td>'
-                + '<td>' + entry.main.sea_level + '</td>'
-                + '<td>' + entry.main.grnd_level + '</td>'
-                + '<td>' + entry.main.humidity + '</td>'
+                + '<td class=\'hidden-xs\'>' + entry.main.pressure + '</td>'
+                + '<td class=\'hidden-xs\'>' + entry.main.sea_level + '</td>'
+                + '<td class=\'hidden-xs\'>' + entry.main.grnd_level + '</td>'
+                + '<td class=\'hidden-xs\'>' + entry.main.humidity + '</td>'
                 + '</tr>';
         }
 
