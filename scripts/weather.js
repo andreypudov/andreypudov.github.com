@@ -201,7 +201,7 @@ function getForecastWeatherByCityId(id) {
 
                 + '<td>' + entry.wind.speed + '</td>'
                 + '<td>' + formatWindDegree(reverseCompassDirection(entry.wind.deg)) + '</td>'
-                + '<td>' + reverseCompassDirection(entry.wind.deg) + '</td>'
+                + '<td class=\'hidden-xs\'>' + reverseCompassDirection(entry.wind.deg) + '</td>'
 
                 + '<td class=\'hidden-xs\'>' + entry.main.pressure + '</td>'
                 + '<td class=\'hidden-xs\'>' + entry.main.sea_level + '</td>'
