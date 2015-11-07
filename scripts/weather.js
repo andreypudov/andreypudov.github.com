@@ -131,9 +131,9 @@ function getWeatherIconById(id) {
 function getCurrentWeatherByCityId(id) {
     var $header      = $('.page-header > h1');
     var $temperature = $('#temperature');
-    var $description = $('#description');
 
     var $cloudiness  = $('#cloudiness > span');
+    var $wind        = $('#wind > span');
     var $pressure    = $('#pressure > span');
     var $humidity    = $('#humidity > span');
     var $sunrise     = $('#sunrise > span');
@@ -152,7 +152,11 @@ function getCurrentWeatherByCityId(id) {
             + '<span class=\'wi wi-celsius\' />');
 
         $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + '%)');
-        $pressure.text(result.main.pressure + 'hpa');
+        $wind.html(formatWindDegree(reverseCompassDirection(result.wind.deg)) 
+            + reverseCompassDirection(result.wind.deg) + '&deg;, '
+            + result.wind.speed + 'm/s');
+        $pressure.html('<span class=\'hidden-xs\'>' + result.main.pressure + 'hpa</span>'
+            + '<span class=\'visible-xs-inline\'>' + result.main.pressure.toFixed(0) + 'hpa</span>');
         $humidity.text(result.main.humidity + '%');
         $sunrise.text(moment.unix(result.sys.sunrise).format('HH:mm'));
         $sunset.text(moment.unix(result.sys.sunset).format('HH:mm'));

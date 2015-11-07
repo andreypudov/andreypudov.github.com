@@ -47,48 +47,52 @@
 
             <div id='panel-current'>
               <div class='row'>
-                <div id='temperature' class='col-xs-12'></div>
+                <div id='temperature' class='col-xs-6 col-sm-3'></div>
+                <div class='col-xs-6'>
+                  <div id='cloudiness'>
+                    <strong class='hidden-xs'>Cloudiness:</strong>
+                    <i class='wi wi-cloud visible-xs-inline'></i>
+                    <span></span>
+                  </div>
+                  <div id='wind'>
+                    <strong class='hidden-xs'>Wind:</strong>
+                    <span></span>
+                  </div>
+                </div>
               </div>
               <div class='row'>
-                <div id='cloudiness-title' class='col-xs-3'>
-                  <strong>Cloudiness:</strong>
-                </div>
                 <div id='pressure' class='col-xs-3'>
                   <strong class='hidden-xs'>Pressure:</strong>
-                  <strong class='visible-xs-block'>Press.:</strong>
+                  <i class='wi wi-barometer visible-xs-inline'></i>                
                   <span></span>
                 </div>
                 <div id='humidity' class='col-xs-3'>
                   <strong class='hidden-xs'>Humidity:</strong>
-                  <strong class='visible-xs-block'>Humid.:</strong>
+                  <i class='wi wi-humidity visible-xs-inline'></i>
                   <span></span>
                 </div>
-                <div id='longitude' class='col-xs-3'>
-                  <strong class='hidden-xs'>Longitude:</strong>
-                  <strong class='visible-xs-block'>Lon.:</strong>
+                <div id='sunrise' class='col-xs-3'>
+                  <strong class='hidden-xs'>Sunrise:</strong>
+                  <i class='wi wi-sunrise visible-xs-inline'></i>
+                  <span></span>
+                </div>
+                <div id='sunset' class='col-xs-3'>
+                  <strong class='hidden-xs'>Sunset:</strong>
+                  <i class='wi wi-sunset visible-xs-inline'></i>
                   <span></span>
                 </div>
               </div>
               <div class='row'>
-                <div id='cloudiness' class='col-xs-3'>
-                  <span></span>
-                </div>
-                <div id='sunrise' class='col-xs-3'>
-                  <strong>Sunrise:</strong>
-                  <span></span>
-                </div>
-                <div id='sunset' class='col-xs-3'>
-                  <strong>Sunset:</strong>
+                <div id='longitude' class='col-xs-3'>
+                  <strong class='hidden-xs'>Longitude:</strong>
+                  <strong class='visible-xs-inline'>Lon.:</strong>
                   <span></span>
                 </div>
                 <div id='latitude' class='col-xs-3'>
                   <strong class='hidden-xs'>Latitude:</strong>
-                  <strong class='visible-xs-block'>Lat.:</strong>
+                  <strong class='visible-xs-inline'>Lat.:</strong>
                   <span></span>
                 </div>
-              </div>
-              <div class='row'>
-                <div class='col-xs-3'></div>
                 <div id='rain' class='col-xs-3' style='display: none'>
                   <strong>Rain:</strong>
                   <span></span>
