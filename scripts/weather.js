@@ -148,8 +148,7 @@ function getCurrentWeatherByCityId(id) {
         $header.html('Weather in ' + result.name /* + ', ' + result.sys.country */
             + '<small><em>' + moment.unix(result.dt).format('dddd, MMMM DD, YYYY') + '</em></small>');
         $temperature.html('<span class=\'wi ' + getWeatherIconById(result.weather[0].icon) + '\' />' + '&nbsp;'
-            + result.main.temp + '&nbsp;'
-            + '<span class=\'wi wi-celsius\' />');
+            + result.main.temp + '<span class=\'wi wi-celsius\' />');
 
         $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + '%)');
         $wind.html(formatWindDegree(reverseCompassDirection(result.wind.deg)) 
