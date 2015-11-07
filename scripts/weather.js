@@ -151,9 +151,9 @@ function getCurrentWeatherByCityId(id) {
             + result.main.temp + '&nbsp;'
             + '<span class=\'wi wi-celsius\' />');
 
-        $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + ' %)');
-        $pressure.text(result.main.pressure + ' hpa');
-        $humidity.text(result.main.humidity + ' %');
+        $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + '%)');
+        $pressure.text(result.main.pressure + 'hpa');
+        $humidity.text(result.main.humidity + '%');
         $sunrise.text(moment.unix(result.sys.sunrise).format('HH:mm'));
         $sunset.text(moment.unix(result.sys.sunset).format('HH:mm'));
 
