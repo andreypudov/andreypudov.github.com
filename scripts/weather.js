@@ -37,7 +37,7 @@ function reverseCompassDirection(value) {
     return (((value >= 0) && (value <= 180)) ? value + 180 : value - 180).toFixed(2);
 }
 
-function formatWindDegree(value) {
+function formatWindDegree(value, short) {
     /* https://en.wikipedia.org/wiki/Points_of_the_compass */
     var points = [
         ['North',                'N',    'N',   'Tramontana',                         0.00,     0.00,   5.62],
@@ -50,7 +50,7 @@ function formatWindDegree(value) {
         ['Northeast',            'NE',   'NE',  'Greco',                              39.38,   45.00,  50.62],
         ['Northeast by east',    'NEbE', 'NE',  'Quarto di Greco verso Levante',      50.63,   56.25,  61.87],
         ['East-northeast',       'ENE',  'ENE', 'Greco-Levante',                      61.88,   67.50,  73.12],
-        ['East by northv',       'EbN',  'ENE', 'Quarto di Levante verso Greco',      73.13,   78.75,  84.37],
+        ['East by north',        'EbN',  'ENE', 'Quarto di Levante verso Greco',      73.13,   78.75,  84.37],
         ['East',                 'E',    'E',   'Levante',                            84.38,   90.00,  95.62],
         ['East by south',        'EbS',  'E',   'Quarto di Levante verso Scirocco',   95.63,  101.25, 106.87],
         ['East-southeast',       'ESE',  'ESE', 'Levante-Scirocco',                   106.88, 112.50, 118.12],
@@ -81,7 +81,7 @@ function formatWindDegree(value) {
 
         if ((value >= point[4]) && (value <= point[6])) {
             return '<span class=\'wi wi-wind wi-wind-table wi-towards-' + point[2].toLowerCase() + '\' />' + '&nbsp;'
-                + '<strong title=\'' + point[0] + '\'>' + point[1] + '</strong> '; 
+                + '<strong title=\'' + point[0] + '\'>' + ((short) ? point[1] : point[0]) + '</strong> '; 
         }
     }
 
@@ -151,11 +151,10 @@ function getCurrentWeatherByCityId(id) {
             + result.main.temp + '<span class=\'wi wi-celsius\' />');
 
         $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + '%)');
-        $wind.html(formatWindDegree(reverseCompassDirection(result.wind.deg)) 
+        $wind.html(formatWindDegree(reverseCompassDirection(result.wind.deg), false) 
             + reverseCompassDirection(result.wind.deg) + '&deg;, '
             + result.wind.speed + 'm/s');
-        $pressure.html('<span class=\'hidden-xs\'>' + result.main.pressure + 'hpa</span>'
-            + '<span class=\'visible-xs-inline\'>' + result.main.pressure.toFixed(0) + 'hpa</span>');
+        $pressure.html(result.main.pressure + 'hpa');
         $humidity.text(result.main.humidity + '%');
         $sunrise.text(moment.unix(result.sys.sunrise).format('HH:mm'));
         $sunset.text(moment.unix(result.sys.sunset).format('HH:mm'));
@@ -203,7 +202,7 @@ function getForecastWeatherByCityId(id) {
                 /* + '<td>' + entry.main.temp_min + ' - ' + entry.main.temp_max + '</th>' */
 
                 + '<td>' + entry.wind.speed + '</td>'
-                + '<td>' + formatWindDegree(reverseCompassDirection(entry.wind.deg)) + '</td>'
+                + '<td>' + formatWindDegree(reverseCompassDirection(entry.wind.deg), true) + '</td>'
                 + '<td class=\'hidden-xs\'>' + reverseCompassDirection(entry.wind.deg) + '</td>'
 
                 + '<td class=\'hidden-xs\'>' + entry.main.pressure + '</td>'
