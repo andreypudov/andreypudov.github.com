@@ -6810,6 +6810,13 @@ button.close {
   display: table;
   width: 45%;
 }
+.gallery-video {
+  -webkit-box-shadow: 0px 0px 10px 0px #afafaf;
+  -moz-box-shadow: 0px 0px 10px 0px #afafaf;
+  box-shadow: 0px 0px 10px 0px #afafaf;
+  margin-bottom: 15px;
+  width: 100%;
+}
 .image-caption {
   -webkit-box-shadow: 0px 0px 10px 0px #afafaf;
   -moz-box-shadow: 0px 0px 10px 0px #afafaf;
