@@ -6835,6 +6835,17 @@ button.close {
   display: table;
   width: 45%;
 }
+.video-caption {
+  -webkit-box-shadow: 0px 0px 10px 0px #afafaf;
+  -moz-box-shadow: 0px 0px 10px 0px #afafaf;
+  box-shadow: 0px 0px 10px 0px #afafaf;
+  border: 1px solid #ccc;
+  margin-top: -16px;
+  border-radius: 0px 0px 5px 5px;
+  border-width: 0px 1px 1px 1px;
+  padding: 10px;
+  text-align: center;
+}
 .alert-invalid {
   display: none;
 }
