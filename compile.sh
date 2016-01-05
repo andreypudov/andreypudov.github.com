@@ -29,6 +29,8 @@ exec scala "$0" "$@"
  */
 
 import scala.collection.mutable.MutableList
+import scala.collection.mutable.Map
+import scala.collection.JavaConverters._
 import sys.process._
 import scala.language.postfixOps
 import scala.io.Source
@@ -62,6 +64,7 @@ object Compile {
   val SCHEMAS_LOCATION        = "schemas"
   val SOURCE_LOCATION         = "source"
   val METADATA_LOCATION       = "source/metadata"
+  val REFERENCES_LOCATION     = "source/references"
 
   val BOOTSTRAP_LOCATION      = LIBRARIES_LOCATION + "/bootstrap"
   val BOOTSTRAP_LESS_LOCATION = BOOTSTRAP_LOCATION + "/less/bootstrap.less"
@@ -229,7 +232,8 @@ object Compile {
                 photographyIndex = photographyIndex + 1
 
                 /* save each image with different sizes */
-                convert(photography, 640,  424,  "small",  photographyIndex)
+                //convert(photography, 640,  424,  "small",  photographyIndex)
+                convert(photography, 64,  42,  "small",  photographyIndex)
                 convert(photography, 2048, 1356, "large",  photographyIndex)
               }
             }
@@ -609,8 +613,8 @@ object Compile {
              "\t</li>\n")
     }
 
-    Map("Album"     -> "Photograph Albums ",
-        "Technical" -> "Articles").foreach((postType) => {
+    Map("Technical" -> "Articles",
+        "Album" -> "Photograph Albums").foreach((postType) => {
       _item = _item + "<li><h2>" + postType._2 + "</h2></li>"
 
       sources.foreach(entry => {
@@ -742,6 +746,30 @@ object Compile {
     }
 
     return album
+  }
+
+  def getAlbumReferenceMap(name: String): Map[String, String] = {
+    val reference = new File(REFERENCES_LOCATION + File.separator + name)
+
+    if (reference.exists()) {
+      val properties = new Properties()
+
+      try {
+        properties.loadFromXML(new FileInputStream(reference))
+        return properties.asScala
+      } catch {
+        case e: FileNotFoundException => {
+          println("[FAILURE]")
+          sys.exit()
+        }
+        case e: ParseException => {
+          println("[FAILURE]")
+          sys.exit()
+        }
+      }
+    }
+
+    return Map[String, String]()
   }
 
   def getImageTag(photograph: String, prefix: String, postfix: Boolean, alt: String, caption: String) : String = {
