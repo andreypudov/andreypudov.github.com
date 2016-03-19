@@ -5,7 +5,7 @@
  *
  * The MIT License
  *
- * Copyright 2011-2015 Andrey Pudov.
+ * Copyright 2011-2016 Andrey Pudov.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -105,6 +105,9 @@
             </div>
           </div>
 
+          <img id='rose' src='images/wind-rose.jpg' class='hidden'>
+          <canvas id='canvas'></canvas>
+
           <div id='panel-forecast'>
             <table class='table'>
               <thead>
@@ -116,77 +119,12 @@
                 <th>Wind speed</th>
                 <th colspan='2'>Wind Direction</th>
                 <th class='hidden-xs'>Pressure</th>
-                <th class='hidden-xs'>Sea level</th>
-                <th class='hidden-xs'>Ground level</th>
                 <th class='hidden-xs'>Humidity</th>
               </thead>
               <tbody>
               </tbody>
             </table>
           </div>
-
-          <h2>Weather Parameters Legend</h2>
-
-          <table class='table'>
-            <tbody>
-              <tr>
-                <th>Temperature</th>
-                <td>Temperature, Celsius</td>
-              </tr>
-              <tr>
-                <th>Cloudiness</th>
-                <td>Weather condition within the group and cloudiness, %</td>
-              </tr>
-              <tr>
-                <th>Pressure</th>
-                <td>Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa</td>
-              </tr>
-              <tr>
-                <th>Sea level</th>
-                <td>Atmospheric pressure on the sea level, hPa</td>
-              </tr>
-              <tr>
-                <th>Ground level</th>
-                <td>Atmospheric pressure on the ground level, hPa</td>
-              </tr>
-              <tr>
-                <th>Humidity</th>
-                <td>Humidity, %</td>
-              </tr>
-              <tr>
-                <th>Sunrise</th>
-                <td>Sunrise time</td>
-              </tr>
-              <tr>
-                <th>Sunset</th>
-                <td>Sunset time</td>
-              </tr>
-              <tr>
-                <th>Rain</th>
-                <td>Rain volume for the last 3 hours</td>
-              </tr>
-              <tr>
-                <th>Snow</th>
-                <td>Snow volume for the last 3 hours</td>
-              </tr>
-              <tr>
-                <th>Longitude</th>
-                <td>City geo location, longitude</td>
-              </tr>
-              <tr>
-                <th>Latitude</th>
-                <td>City geo location, latitude</td>
-              </tr>
-              <tr>
-                <th>Wind speed</th>
-                <td>Wind speed, meter/sec</td>
-              </tr>
-              <tr>
-                <th>Wind Direction</th>
-                <td>Wind direction</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </define>
       <define name='scripts'>
@@ -200,9 +138,17 @@
             font-size:      16pt;
             margin-top:     -4px;
           }
+
+          canvas {
+            width:  100%;
+            height: 100%;
+
+            padding: 24px 0;
+          }
         </style>
 
         <script src='libraries/momentjs/moment.js'></script>
+        <script src='libraries/openweatherjs/openweather.js'></script>
         <script src='scripts/weather.js'></script>
 
         <link href='libraries/weather-icons/css/weather-icons.min.css' rel='stylesheet' />

@@ -3,7 +3,7 @@
  *
  * The MIT License
  *
- * Copyright 2011-2015 Andrey Pudov.
+ * Copyright 2011-2016 Andrey Pudov.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -129,101 +129,126 @@ function getWeatherIconById(id) {
 }
 
 function getCurrentWeatherByCityId(id) {
-    var $header      = $('.page-header > h1');
-    var $temperature = $('#temperature');
+    var location = OpenWeatherJS.Location.getById(id);
 
-    var $cloudiness  = $('#cloudiness > span');
-    var $wind        = $('#wind > span');
-    var $pressure    = $('#pressure > span');
-    var $humidity    = $('#humidity > span');
-    var $sunrise     = $('#sunrise > span');
-    var $sunset      = $('#sunset > span');
+    OpenWeatherJS.CurrentWeather.getWeather(location, 
+        function(entry, request) {
+            var $header      = $('.page-header > h1');
+            var $temperature = $('#temperature');
 
-    var $rain        = $('#rain > span');
-    var $snow        = $('#snow > span');
-    var $longitude   = $('#longitude > span');
-    var $latitude    = $('#latitude > span');
+            var $cloudiness  = $('#cloudiness > span');
+            var $wind        = $('#wind > span');
+            var $pressure    = $('#pressure > span');
+            var $humidity    = $('#humidity > span');
+            var $sunrise     = $('#sunrise > span');
+            var $sunset      = $('#sunset > span');
 
-    $.getJSON('http://api.openweathermap.org/data/2.5/weather?id=' + id + '&units=metric&appid=1d334b0f0f23fccba1cee7d3f4934ea7', function(result) {
-        $header.html('Weather in ' + result.name /* + ', ' + result.sys.country */
-            + '<small><em>' + moment.unix(result.dt).format('dddd, MMMM DD, YYYY') + '</em></small>');
-        $temperature.html('<span class=\'wi ' + getWeatherIconById(result.weather[0].icon) + '\' />' + '&nbsp;'
-            + result.main.temp + '<span class=\'wi wi-celsius\' />');
+            var $rain        = $('#rain > span');
+            var $snow        = $('#snow > span');
+            var $longitude   = $('#longitude > span');
+            var $latitude    = $('#latitude > span');
 
-        $cloudiness.text(result.weather[0].description + ' (' + result.clouds.all + '%)');
-        $wind.html(formatWindDegree(reverseCompassDirection(result.wind.deg), false) 
-            + reverseCompassDirection(result.wind.deg) + '&deg;, '
-            + result.wind.speed + 'm/s');
-        $pressure.html(result.main.pressure + 'hpa');
-        $humidity.text(result.main.humidity + '%');
-        $sunrise.text(moment.unix(result.sys.sunrise).format('HH:mm'));
-        $sunset.text(moment.unix(result.sys.sunset).format('HH:mm'));
+            $header.html('Weather in ' + entry.getLocation().getName() /* + ', ' + result.sys.country */
+                + '<small><em>' + moment.unix(entry.getTime()).format('dddd, MMMM DD, YYYY') + '</em></small>');
+            $temperature.html('<span class=\'wi ' + getWeatherIconById(entry.getWeatherIconId()) + '\' />' + '&nbsp;'
+                + entry.getTemperature() + '<span class=\'wi wi-celsius\' />');
 
-        $longitude.text(result.coord.lon);
-        $latitude.text(result.coord.lat);
+            $cloudiness.text(entry.getWeatherDescription() + ' (' + entry.getCloudiness() + '%)');
+            $wind.html(formatWindDegree(entry.getWindDirection(), false) 
+                + entry.getWindDirection() + '&deg;, '
+                + entry.getWindSpeed() + 'm/s');
+            $pressure.html(entry.getPressure() + 'hpa');
+            $humidity.text(entry.getHumidity() + '%');
+            $sunrise.text(moment.unix(entry.getSunrise()).format('HH:mm'));
+            $sunset.text(moment.unix(entry.getSunset()).format('HH:mm'));
 
-        if (result.rain !== undefined) {
-            $('#rain').css('display', 'block');
-            $rain.text(result.rain['3h']);
-        }
+            $longitude.text(entry.getLocation().getLongitude());
+            $latitude.text(entry.getLocation().getLatitude());
 
-        if (result.snow !== undefined) {
-            $('#snow').css('display', 'block');
-            $snow.text(result.snow['3h']);
-        }
-    })
-    .fail(function() {
-        /* incorrect response */
-    });
+            if (entry.getRainVolume() !== 0) {
+                $('#rain').css('display', 'block');
+                $rain.text(entry.getRainVolume());
+            }
+
+            if (entry.getSnowVolume() !== 0) {
+                $('#snow').css('display', 'block');
+                $snow.text(entry.getSnowVolume());
+            }
+
+            drawWeatherMap();
+        }.bind(this), 
+        function(request, message) {
+            //
+        }.bind(this));
 }
 
 function getForecastWeatherByCityId(id) {
-    $.getJSON('http://api.openweathermap.org/data/2.5/forecast?id=' + id + '&units=metric&appid=1d334b0f0f23fccba1cee7d3f4934ea7', function(result) {
-        var html      = '';
-        var previous  = -1;
-        var $tbody = $('#panel-forecast tbody');
+    var location = OpenWeatherJS.Location.getById(id);
 
-        for (var index = 0; index < result.list.length; ++index) {
-            var entry = result.list[index];
-            var date  = new Date(entry.dt * 1000);
+    OpenWeatherJS.Forecast.getHourlyForecast(location, 
+        function(forecast, request) {
+            var html      = '';
+            var previous  = -1;
+            var $tbody = $('#panel-forecast tbody');
 
-            /* next day forecast */
-            if (date.getDay() !== previous) {
-                previous = date.getDay();
+            var report = forecast.getReport();
 
-                html += '<tr class=\'active\'>'
-                    + '<td colspan=\'9\'>' + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>' + '</td>'
+            for (var index = 0; index < report.length; ++index) {
+                var entry = report[index];
+                var date  = new Date(entry.getTime() * 1000);
+
+                /* next day forecast */
+                if (date.getDay() !== previous) {
+                    previous = date.getDay();
+
+                    html += '<tr class=\'active\'>'
+                        + '<td colspan=\'9\'>' + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>' + '</td>'
+                        + '</tr>';
+                }
+
+                html += '<tr>'
+                    + '<th>' + ('0' + date.getHours()).slice(-2) + '</th>'
+                    + '<td>' + entry.getTemperature() + '</td>'
+                    /* + '<td>' + entry.main.temp_min + ' - ' + entry.main.temp_max + '</th>' */
+
+                    + '<td>' + entry.getWindSpeed() + '</td>'
+                    + '<td>' + formatWindDegree(entry.getWindDirection(), true) + '</td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getWindDirection() + '</td>'
+
+                    + '<td class=\'hidden-xs\'>' + entry.getPressure() + '</td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getHumidity() + '</td>'
                     + '</tr>';
-            }      
+            }
 
-            html += '<tr>'
-                + '<th>' + ('0' + date.getHours()).slice(-2) + '</th>'
-                + '<td>' + entry.main.temp + '</td>'
-                /* + '<td>' + entry.main.temp_min + ' - ' + entry.main.temp_max + '</th>' */
+            $tbody.html(html);
+        }.bind(this), 
+        function(request, message) {
+            //
+        }.bind(this));
+}
 
-                + '<td>' + entry.wind.speed + '</td>'
-                + '<td>' + formatWindDegree(reverseCompassDirection(entry.wind.deg), true) + '</td>'
-                + '<td class=\'hidden-xs\'>' + reverseCompassDirection(entry.wind.deg) + '</td>'
+function drawWeatherMap(degree) {
+    var $canvas = $('#canvas');
+    var $rose   = $('#rose');
 
-                + '<td class=\'hidden-xs\'>' + entry.main.pressure + '</td>'
-                + '<td class=\'hidden-xs\'>' + entry.main.sea_level + '</td>'
-                + '<td class=\'hidden-xs\'>' + entry.main.grnd_level + '</td>'
-                + '<td class=\'hidden-xs\'>' + entry.main.humidity + '</td>'
-                + '</tr>';
-        }
+    var context = $canvas[0].getContext('2d');
 
-        $tbody.html(html);
-    })
-    .fail(function() {
-        /* incorrect response */
-    });
+    $("<img/>")
+        .attr("src", $rose.attr("src"))
+        .load(function() {
+            $canvas.attr({width: this.width, height: this.height});
+            context.drawImage($rose[0], 0, 0, this.width, this.height);
+        });
 }
 
 function initialize() {
-    var cityId = 520555;
+    var options = OpenWeatherJS.Options.getInstance();
+    options.setKey('1d334b0f0f23fccba1cee7d3f4934ea7');
+    options.setUnits(OpenWeatherJS.Units.METRIC);
 
-    getCurrentWeatherByCityId(cityId);
-    getForecastWeatherByCityId(cityId);
+    getCurrentWeatherByCityId(520555);
+    getForecastWeatherByCityId(520555);
+    drawWeatherMap(0);
 }
 
 initialize();
