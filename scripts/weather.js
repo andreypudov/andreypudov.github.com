@@ -206,7 +206,13 @@ function getForecastWeatherByCityId(id) {
                         + '</tr>';
                 }
 
-                html += '<tr>'
+                var windClass = (entry.getWindSpeed() < 2.5) 
+                    ? ''
+                    : (entry.getWindSpeed() > 4.0)
+                        ? 'danger'
+                        : 'success';
+
+                html += '<tr class=\'' + windClass  + '\'>'
                     + '<th>' + ('0' + date.getHours()).slice(-2) + '</th>'
                     + '<td>' + entry.getTemperature() + '</td>'
                     /* + '<td>' + entry.main.temp_min + ' - ' + entry.main.temp_max + '</th>' */
