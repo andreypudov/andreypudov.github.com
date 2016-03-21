@@ -33,9 +33,9 @@
  * %date      10:00:00 PM, Nov 03, 2015
  */
 
-function reverseCompassDirection(value) {
+/*function reverseCompassDirection(value) {
     return (((value >= 0) && (value <= 180)) ? value + 180 : value - 180).toFixed(2);
-}
+}*/
 
 function formatWindDegree(value, short) {
     /* https://en.wikipedia.org/wiki/Points_of_the_compass */
@@ -84,8 +84,6 @@ function formatWindDegree(value, short) {
                 + '<strong title=\'' + point[0] + '\'>' + ((short) ? point[1] : point[0]) + '</strong> '; 
         }
     }
-
-    return value;
 }
 
 function getWeatherIconById(id) {
@@ -126,6 +124,57 @@ function getWeatherIconById(id) {
     }
 
     return 'wi-na';
+}
+
+function getLocationByWindDegree(value) {
+    var locations = [
+        ['N',   'Minina, Habary',                 0.00,       0.00,   11.25],
+        ['N',   'Minina, Afonino, Gorbatov',    348.75,       0.00,  360.00],
+
+        ['N',   'Minina,',                      348.75,       0.00,    11.25],
+        ['NNE', 'Minina',                        11.26,      22.50,    33.75],
+        ['NE',  'Afonino',                       33.76,      45.00,    56.25],
+        ['ENE', 'Afonino',                       56.26,      67.50,    78.75],
+        ['E',   'Afonino',                       78.76,      90.00,   101.25],
+        ['ESE', 'Afonino',                      101.26,     112.50,   123.75],
+        ['SE',  'Vetchak',                      123.76,     135.00,   146.25],
+        ['SSE', 'Vetchak, Okulovo',             146.26,     157.50,   168.75],
+        ['S',   'Kuzhnechiha, Okulovo',         168.76,     180.00,   191.25],
+        ['SSW', 'Kuzhnechiha, Okulovo',         191.26,     202.50,   213.75],
+        ['SW',  'Surikova, Elektron, Gorbatov', 213.76,     225.00,   236.25],
+        ['WSW', 'Surikova, Elektron',           236.26,     247.50,   258.75],
+        ['W',   'Oksky, Elektron',              258.76,     270.00,   281.25],
+        ['WNW', 'Oksky, Habary, Surikova',      281.26,     292.50,   303.75],
+        ['NW',  'Habary, Lyskovo',              303.76,     315.00,   326.25],
+        ['NNW', 'Habary, Lyskovo',              326.26,     337.50,   348.75]];
+
+    for (var index = 0; index < locations.length; ++index) {
+        var location = locations[index];
+
+        if ((value >= location[2]) && (value <= location[4])) {
+            return '<strong>' + location[1] + '</strong>'; 
+        }
+    }
+}
+
+function getWindDegreeByDay(report, index) {
+    var previous = new Date(report[index].getTime() * 1000).getDay();
+    var value    = report[index].getWindDirection();
+    var count    = 1;
+
+    for (var jndex = index + 1; jndex < report.length; ++jndex) {
+        var entry = report[jndex];
+        var date  = new Date(entry.getTime() * 1000);
+
+        if (date.getDay() !== previous) {
+            break;
+        }
+
+        value = value + entry.getWindDirection();
+        count = count + 1;
+    }
+
+    return value / count;
 }
 
 function getCurrentWeatherByCityId(id) {
@@ -202,7 +251,11 @@ function getForecastWeatherByCityId(id) {
                     previous = date.getDay();
 
                     html += '<tr class=\'active\'>'
-                        + '<td colspan=\'9\'>' + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>' + '</td>'
+                        + '<td colspan=\'9\'>' 
+                        + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>'
+                        + '<strong> - </strong>'
+                        + getLocationByWindDegree(getWindDegreeByDay(report, index))
+                        + '</td>'
                         + '</tr>';
                 }
 
