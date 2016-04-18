@@ -95,7 +95,7 @@
           <div class='page-header'>
             <h1>Weather Forecast<!--<small><em>Tuesday, November 03, 2015</em></small>--></h1>
 
-            <div id='panel-current'>
+            <div id='panel-current' style='display: none'>
               <div class='row'>
                 <div id='temperature' class='col-xs-6 col-sm-3'></div>
                 <div class='col-xs-6'>
@@ -156,10 +156,10 @@
           </div>
 
           <img id='rose' src='../images/wind-rose.jpg' class='hidden'>
-          <div id='panel-loading' style='display: none'></div>
+          <div id='panel-loading'></div>
           <canvas id='canvas'></canvas>
 
-          <div id='panel-forecast'>
+          <div id='panel-forecast' style='display: none'>
             <table class='table'>
               <thead>
                 <th>Time</th>

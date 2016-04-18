@@ -357,6 +357,7 @@ function initialize() {
 
     $loading.css('display', 'none');
     $current.css('display', 'block');
+    $forecast.css('display', 'block');
 
     toggleSpinner();
     getCurrentWeatherByCityId(520555);
