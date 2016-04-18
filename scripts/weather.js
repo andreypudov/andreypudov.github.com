@@ -37,6 +37,8 @@
     return (((value >= 0) && (value <= 180)) ? value + 180 : value - 180).toFixed(2);
 }*/
 
+var spinner = null;
+
 function formatWindDegree(value, short) {
     /* https://en.wikipedia.org/wiki/Points_of_the_compass */
     var points = [
@@ -223,11 +225,9 @@ function getCurrentWeatherByCityId(id) {
                 $('#snow').css('display', 'block');
                 $snow.text(entry.getSnowVolume());
             }
-
-            drawWeatherMap();
         }.bind(this), 
         function(request, message) {
-            //
+            initialize();
         }.bind(this));
 }
 
@@ -280,9 +280,12 @@ function getForecastWeatherByCityId(id) {
             }
 
             $tbody.html(html);
+
+            toggleSpinner();
+            drawWeatherMap(0);
         }.bind(this), 
         function(request, message) {
-            //
+            initialize();
         }.bind(this));
 }
 
@@ -300,14 +303,64 @@ function drawWeatherMap(degree) {
         });
 }
 
+function toggleSpinner() {
+    var options = {
+      lines:     13         // The number of lines to draw
+    , length:    28         // The length of each line
+    , width:     14         // The line thickness
+    , radius:    42         // The radius of the inner circle
+    , scale:     1          // Scales overall size of the spinner
+    , corners:   1          // Corner roundness (0..1)
+    , color:     '#000'     // #rgb or #rrggbb or array of colors
+    , opacity:   0.25       // Opacity of the lines
+    , rotate:    0          // The rotation offset
+    , direction: 1          // 1: clockwise, -1: counterclockwise
+    , speed:     1          // Rounds per second
+    , trail:     60         // Afterglow percentage
+    , fps:       20         // Frames per second when using setTimeout() as a fallback for CSS
+    , zIndex:    2e9        // The z-index (defaults to 2000000000)
+    , className: 'spinner'  // The CSS class to assign to the spinner
+    , top:       '30%'      // Top position relative to parent
+    , left:      '50%'      // Left position relative to parent
+    , shadow:    false      // Whether to render a shadow
+    , hwaccel:   false      // Whether to use hardware acceleration
+    , position:  'absolute' // Element positioning
+    };
+
+    var $loading  = $('#panel-loading');
+    var $current  = $('#panel-current');
+    var $forecast = $('#panel-forecast');
+    var target    = document.getElementById($loading.attr('id'));
+    var visible   = $loading.css('display') === 'block';
+
+    spinner = new Spinner(options).spin(target);
+    if (visible) {
+        $loading.css('display', 'none');
+        $current.css('display', 'block');
+        $forecast.css('display', 'block');
+    } else {
+        $loading.css('display', 'block');
+        $current.css('display', 'none');
+        $forecast.css('display', 'none');
+    }
+}
+
 function initialize() {
     var options = OpenWeatherJS.Options.getInstance();
     options.setKey('1d334b0f0f23fccba1cee7d3f4934ea7');
     options.setUnits(OpenWeatherJS.Units.METRIC);
 
+    var $loading  = $('#panel-loading');
+    var $current  = $('#panel-current');
+    var $forecast = $('#panel-forecast');
+    $forecast.css('display', 'block');
+
+    $loading.css('display', 'none');
+    $current.css('display', 'block');
+
+    toggleSpinner();
     getCurrentWeatherByCityId(520555);
     getForecastWeatherByCityId(520555);
-    drawWeatherMap(0);
 }
 
 initialize();

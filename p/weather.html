@@ -156,6 +156,7 @@
           </div>
 
           <img id='rose' src='../images/wind-rose.jpg' class='hidden'>
+          <div id='panel-loading' style='display: none'></div>
           <canvas id='canvas'></canvas>
 
           <div id='panel-forecast'>
@@ -224,10 +225,17 @@
 
             padding: 24px 0;
           }
+
+          @media (min-width: 768px) {
+            .spinner {
+              top: 45% !important;
+            }
+          }
         </style>
 
         <script src='../libraries/momentjs/moment.js'></script>
         <script src='../libraries/openweatherjs/OpenWeatherJS.js'></script>
+        <script src='../libraries/spinjs/spin.min.js'></script>
         <script src='../scripts/weather.js'></script>
 
         <link href='../libraries/weather-icons/css/weather-icons.min.css' rel='stylesheet' />
