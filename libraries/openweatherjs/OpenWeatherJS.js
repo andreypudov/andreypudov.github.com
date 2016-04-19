@@ -156,6 +156,7 @@ var OpenWeatherJS;
             url = url + '&lang=' + OpenWeatherJS.Languages[options.getLanguage()].toLowerCase();
             url = url + '&units=' + OpenWeatherJS.Units[options.getUnits()].toLowerCase();
             url = url + '&appid=' + options.getKey();
+            console.log(options.getKey());
             parser.parse(url, function (response, request) {
                 var location;
                 var entry;
@@ -423,6 +424,8 @@ var OpenWeatherJS;
 (function (OpenWeatherJS) {
     var Options = (function () {
         function Options(optionsEnforcer) {
+            this.TIMEOUT_DEFAULT = 4096;
+            this.ATTEMPTS_DEFAULT = 3;
             if (optionsEnforcer !== OptionsEnforcer) {
                 throw new Error("Error: Instantiation failed: Use Options.getInstance() instead of new.");
             }
@@ -451,7 +454,12 @@ var OpenWeatherJS;
         Options.prototype.getTimeout = function () {
             return (this.timeout !== undefined)
                 ? this.timeout
-                : 4096;
+                : this.TIMEOUT_DEFAULT;
+        };
+        Options.prototype.getAttempts = function () {
+            return (this.attempts !== undefined)
+                ? this.attempts
+                : this.ATTEMPTS_DEFAULT;
         };
         Options.prototype.setKey = function (key) {
             OpenWeatherJS.Asserts.isString(key, 'API key is invalid.');
@@ -474,6 +482,10 @@ var OpenWeatherJS;
         Options.prototype.setTimeout = function (timeout) {
             OpenWeatherJS.Asserts.isNumber(timeout, 'API key is invalid.');
             this.timeout = timeout;
+        };
+        Options.prototype.setAttempts = function (attempts) {
+            OpenWeatherJS.Asserts.isNumber(attempts, 'API key is invalid.');
+            this.attempts = attempts;
         };
         return Options;
     })();
@@ -757,4 +769,3 @@ var OpenWeatherJS;
     })();
     OpenWeatherJS.WeatherReport = WeatherReport;
 })(OpenWeatherJS || (OpenWeatherJS = {}));
-//# sourceMappingURL=OpenWeatherJS.js.map
