@@ -162,8 +162,7 @@ function getLocationByWindDegree(value) {
 function getWindDegreeByDay(report, index) {
     var previous = new Date(report[index].getTime() * 1000).getDay();
     var value    = 0;
-    var minimum  = 360;
-    var maximum  = 0;
+    var count    = 0;
 
     for (var jndex = index; jndex < report.length; ++jndex) {
         var entry = report[jndex];
@@ -173,18 +172,13 @@ function getWindDegreeByDay(report, index) {
             break;
         }
 
-        value = ((entry.getWindDirection() < 180) 
+        value = value + ((entry.getWindDirection() < 180) 
             ? entry.getWindDirection()
             : (360 - entry.getWindDirection()) * -1);
-        if (maximum < value) {
-            maximum = value;
-        }
-        if (minimum > value) {
-            minimum = value;
-        }
+        count = count + 1;
     }
     
-    value = (maximum + minimum) / 2;
+    value = value / count;
     
     return (value > 0) ? value : 360 + value;
 }
@@ -265,7 +259,7 @@ function getForecastWeatherByCityId(id) {
                         + '<td colspan=\'9\'>' 
                         + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>'
                         + '<strong> - </strong>'
-                        + getLocationByWindDegree(wind) + ' - <small>' + parseInt(wind) + '</small>'
+                        + getLocationByWindDegree(wind) + ' <small>(~' + parseInt(wind) + '&deg;)</small>'
                         + '</td>'
                         + '</tr>';
                 }
@@ -283,7 +277,7 @@ function getForecastWeatherByCityId(id) {
 
                     + '<td>' + entry.getWindSpeed() + '</td>'
                     + '<td>' + formatWindDegree(entry.getWindDirection(), true) + '</td>'
-                    + '<td class=\'hidden-xs\'>' + entry.getWindDirection() + '</td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getWindDirection() + '&deg;</td>'
 
                     + '<td class=\'hidden-xs\'>' + entry.getPressure() + '</td>'
                     + '<td class=\'hidden-xs\'>' + entry.getHumidity() + '</td>'
