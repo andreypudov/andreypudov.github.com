@@ -161,10 +161,11 @@ function getLocationByWindDegree(value) {
 
 function getWindDegreeByDay(report, index) {
     var previous = new Date(report[index].getTime() * 1000).getDay();
-    var value    = report[index].getWindDirection();
-    var count    = 1;
+    var value    = 0;
+    var minimum  = 360;
+    var maximum  = 0;
 
-    for (var jndex = index + 1; jndex < report.length; ++jndex) {
+    for (var jndex = index; jndex < report.length; ++jndex) {
         var entry = report[jndex];
         var date  = new Date(entry.getTime() * 1000);
 
@@ -172,11 +173,20 @@ function getWindDegreeByDay(report, index) {
             break;
         }
 
-        value = value + entry.getWindDirection();
-        count = count + 1;
+        value = ((entry.getWindDirection() < 180) 
+            ? entry.getWindDirection()
+            : (360 - entry.getWindDirection()) * -1);
+        if (maximum < value) {
+            maximum = value;
+        }
+        if (minimum > value) {
+            minimum = value;
+        }
     }
-
-    return value / count;
+    
+    value = (maximum + minimum) / 2;
+    
+    return (value > 0) ? value : 360 + value;
 }
 
 function getCurrentWeatherByCityId(id) {
@@ -245,6 +255,7 @@ function getForecastWeatherByCityId(id) {
             for (var index = 0; index < report.length; ++index) {
                 var entry = report[index];
                 var date  = new Date(entry.getTime() * 1000);
+                var wind = getWindDegreeByDay(report, index);
 
                 /* next day forecast */
                 if (date.getDay() !== previous) {
@@ -254,7 +265,7 @@ function getForecastWeatherByCityId(id) {
                         + '<td colspan=\'9\'>' 
                         + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>'
                         + '<strong> - </strong>'
-                        + getLocationByWindDegree(getWindDegreeByDay(report, index))
+                        + getLocationByWindDegree(wind) + ' - <small>' + parseInt(wind) + '</small>'
                         + '</td>'
                         + '</tr>';
                 }
