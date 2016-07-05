@@ -104,8 +104,8 @@ var OpenWeatherJS;
                 entry.setGroundLevelPressure((response.main.grnd_level !== undefined)
                     ? response.main.grnd_level
                     : response.main.pressure);
-                entry.setWindSpeed(response.wind.speed);
-                entry.setWindDirection(response.wind.deg);
+                entry.setWindSpeed((response.wind !== undefined) ? response.wind.speed : 0);
+                entry.setWindDirection((response.wind !== undefined) ? response.wind.deg : 0);
                 entry.setCloudiness(response.clouds.all);
                 entry.setRainVolume(((response.rain !== undefined) && (response.rain['3h'] !== undefined))
                     ? response.rain['3h']
@@ -177,8 +177,12 @@ var OpenWeatherJS;
                     entry.setGroundLevelPressure((response.list[index].main.grnd_level !== undefined)
                         ? response.list[index].main.grnd_level
                         : response.list[index].main.pressure);
-                    entry.setWindSpeed(response.list[index].wind.speed);
-                    entry.setWindDirection(response.list[index].wind.deg);
+                    entry.setWindSpeed((response.list[index].wind !== undefined)
+                        ? response.list[index].wind.speed
+                        : 0);
+                    entry.setWindDirection((response.list[index].wind !== undefined)
+                        ? response.list[index].wind.deg
+                        : 0);
                     entry.setCloudiness(response.list[index].clouds.all);
                     entry.setRainVolume(((response.list[index].rain !== undefined) && (response.list[index].rain['3h'] !== undefined))
                         ? response.list[index].rain['3h']
