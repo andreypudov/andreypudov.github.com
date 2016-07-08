@@ -264,9 +264,9 @@ function getForecastWeatherByCityId(id) {
                         + '</tr>';
                 }
 
-                var windClass = (entry.getWindSpeed() < 2.5)
+                var windClass = (entry.getWindSpeed() < 3.0)
                     ? ''
-                    : (entry.getWindSpeed() > 4.0)
+                    : (entry.getWindSpeed() > 4.5)
                         ? 'danger'
                         : 'success';
 
