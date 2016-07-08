@@ -1,4 +1,4 @@
-/* 
+/*
  * IntelliJustice Intelligent Referee Assistant System
  *
  * The MIT License
@@ -83,7 +83,7 @@ function formatWindDegree(value, short) {
 
         if ((value >= point[4]) && (value <= point[6])) {
             return '<span class=\'wi wi-wind wi-wind-table wi-towards-' + point[2].toLowerCase() + '\' />' + '&nbsp;'
-                + '<strong title=\'' + point[0] + '\'>' + ((short) ? point[1] : point[0]) + '</strong> '; 
+                + '<strong title=\'' + point[0] + '\'>' + ((short) ? point[1] : point[0]) + '</strong> ';
         }
     }
 }
@@ -154,7 +154,7 @@ function getLocationByWindDegree(value) {
         var location = locations[index];
 
         if ((value >= location[2]) && (value <= location[4])) {
-            return '<strong>' + location[1] + '</strong>'; 
+            return '<strong>' + location[1] + '</strong>';
         }
     }
 }
@@ -172,21 +172,21 @@ function getWindDegreeByDay(report, index) {
             break;
         }
 
-        value = value + ((entry.getWindDirection() < 180) 
+        value = value + ((entry.getWindDirection() < 180)
             ? entry.getWindDirection()
             : (360 - entry.getWindDirection()) * -1);
         count = count + 1;
     }
-    
+
     value = value / count;
-    
+
     return (value > 0) ? value : 360 + value;
 }
 
 function getCurrentWeatherByCityId(id) {
     var location = OpenWeatherJS.Location.getById(id);
 
-    OpenWeatherJS.CurrentWeather.getWeather(location, 
+    OpenWeatherJS.CurrentWeather.getWeather(location,
         function(entry, request) {
             var $header      = $('.page-header > h1');
             var $temperature = $('#temperature');
@@ -209,7 +209,7 @@ function getCurrentWeatherByCityId(id) {
                 + entry.getTemperature() + '<span class=\'wi wi-celsius\' />');
 
             $cloudiness.text(entry.getWeatherDescription() + ' (' + entry.getCloudiness() + '%)');
-            $wind.html(formatWindDegree(entry.getWindDirection(), false) 
+            $wind.html(formatWindDegree(entry.getWindDirection(), false)
                 + entry.getWindDirection() + '&deg;, '
                 + entry.getWindSpeed() + 'm/s');
             $pressure.html(entry.getPressure() + 'hpa');
@@ -229,7 +229,7 @@ function getCurrentWeatherByCityId(id) {
                 $('#snow').css('display', 'block');
                 $snow.text(entry.getSnowVolume());
             }
-        }.bind(this), 
+        }.bind(this),
         function(request, message) {
             initialize();
         }.bind(this));
@@ -238,7 +238,7 @@ function getCurrentWeatherByCityId(id) {
 function getForecastWeatherByCityId(id) {
     var location = OpenWeatherJS.Location.getById(id);
 
-    OpenWeatherJS.Forecast.getHourlyForecast(location, 
+    OpenWeatherJS.Forecast.getHourlyForecast(location,
         function(forecast, request) {
             var html      = '';
             var previous  = -1;
@@ -256,7 +256,7 @@ function getForecastWeatherByCityId(id) {
                     previous = date.getDay();
 
                     html += '<tr class=\'active\'>'
-                        + '<td colspan=\'9\'>' 
+                        + '<td colspan=\'9\'>'
                         + '<strong>' + moment(date).format('dddd, MMMM DD') + '</strong>'
                         + '<strong> - </strong>'
                         + getLocationByWindDegree(wind) + ' <small>(~' + parseInt(wind) + '&deg;)</small>'
@@ -264,7 +264,7 @@ function getForecastWeatherByCityId(id) {
                         + '</tr>';
                 }
 
-                var windClass = (entry.getWindSpeed() < 2.5) 
+                var windClass = (entry.getWindSpeed() < 2.5)
                     ? ''
                     : (entry.getWindSpeed() > 4.0)
                         ? 'danger'
@@ -272,8 +272,8 @@ function getForecastWeatherByCityId(id) {
 
                 html += '<tr class=\'' + windClass  + '\'>'
                     + '<th>' + ('0' + date.getHours()).slice(-2) + '</th>'
-                    + '<td>' + entry.getTemperature() + '</td>'
-                    /* + '<td>' + entry.main.temp_min + ' - ' + entry.main.temp_max + '</th>' */
+                    + '<td>' + '<span class=\'hidden-xs wi ' + getWeatherIconById(entry.getWeatherIconId())
+                        + '\' title=\'' + entry.getWeatherDescription() + '\' />' + '&nbsp;' + entry.getTemperature() + '</td>'
 
                     + '<td>' + entry.getWindSpeed() + '</td>'
                     + '<td>' + formatWindDegree(entry.getWindDirection(), true) + '</td>'
@@ -288,7 +288,7 @@ function getForecastWeatherByCityId(id) {
 
             toggleSpinner();
             drawWeatherMap(0);
-        }.bind(this), 
+        }.bind(this),
         function(request, message) {
             initialize();
         }.bind(this));
