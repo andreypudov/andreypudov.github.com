@@ -82,7 +82,7 @@ function formatWindDegree(value, short) {
         var point = points[index];
 
         if ((value >= point[4]) && (value <= point[6])) {
-            return '<span class=\'wi wi-wind wi-wind-table wi-towards-' + point[2].toLowerCase() + '\' />' + '&nbsp;'
+            return '<span class=\'wi wi-wind wi-wind-table wi-from-' + point[2].toLowerCase() + '\' />' + '&nbsp;'
                 + '<strong title=\'' + point[0] + '\'>' + ((short) ? point[1] : point[0]) + '</strong> ';
         }
     }
