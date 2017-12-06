@@ -275,12 +275,12 @@ function getForecastWeatherByCityId(id) {
                     + '<td>' + '<span class=\'hidden-xs wi ' + getWeatherIconById(entry.getWeatherIconId())
                         + '\' title=\'' + entry.getWeatherDescription() + '\' />' + '&nbsp;' + entry.getTemperature() + '</td>'
 
-                    + '<td>' + entry.getWindSpeed() + '</td>'
+                    + '<td>' + entry.getWindSpeed() + '<span class=\'text-muted\'>m/s</span></td>'
                     + '<td>' + formatWindDegree(entry.getWindDirection(), true) + '</td>'
-                    + '<td class=\'hidden-xs\'>' + entry.getWindDirection() + '&deg;</td>'
+                    + '<td class=\'hidden-xs\'>' + parseInt(entry.getWindDirection()) + '&deg;</td>'
 
-                    + '<td class=\'hidden-xs\'>' + entry.getPressure() + '</td>'
-                    + '<td class=\'hidden-xs\'>' + entry.getHumidity() + '</td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getPressure() + '<span class=\'text-muted\'>hPa</span></td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getHumidity() + '<span class=\'text-muted\'>%</span></td>'
                     + '</tr>';
             }
 
