@@ -273,7 +273,7 @@ function getForecastWeatherByCityId(id) {
                 html += '<tr class=\'' + windClass  + '\'>'
                     + '<th>' + ('0' + date.getHours()).slice(-2) + '</th>'
                     + '<td>' + '<span class=\'hidden-xs wi ' + getWeatherIconById(entry.getWeatherIconId())
-                        + '\' title=\'' + entry.getWeatherDescription() + '\' />' + '&nbsp;' + entry.getTemperature() + '</td>'
+                        + '\' title=\'' + entry.getWeatherDescription() + '\' />' + '&nbsp;' + entry.getTemperature() + '&deg;</td>'
 
                     + '<td>' + entry.getWindSpeed() + '<span class=\'text-muted\'>m/s</span></td>'
                     + '<td>' + formatWindDegree(entry.getWindDirection(), true) + '</td>'
