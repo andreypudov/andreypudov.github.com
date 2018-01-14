@@ -7,7 +7,7 @@ exec scala "$0" "$@"
  *
  * The MIT License
  *
- * Copyright 2011-2015 Andrey Pudov.
+ * Copyright 2011-2018 Andrey Pudov.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -71,9 +71,10 @@ object Compile {
   val BOOTSTRAP_CSS_LOCATION  = BOOTSTRAP_LOCATION + "/css/bootstrap.css"
 
   val PHOTOGRAPHY_NAMES = Array("jpg", "jpeg")
-  val IGNORE_NAMES      = Array("2012-03-24", "2012-03-30_31", "2012-04-14",
-    "2012-04-28", "2012-07-29", "2012-10-06_07", "2012-10-13_14", "2013-04-20_21",
-    "2013-06-20_21", "2013-06-28_29", "2013-09-10", "2012-09-22",
+  val IGNORE_NAMES      = Array("2012-03-24", "2012-03-30_31", "2012-04-14", "2012-04-21",
+    "2012-04-28", "2012-04-29", "2012-05-01", "2012-06-24", "2012-07-07", "2012-07-29", 
+    "2012-08-19", "2012-09-22", "2012-10-06_07", "2012-10-13_14", "2012-12-12", "2013-01-01_05",
+    "2013-04-20_21", "2013-05-09", "2013-06-20_21", "2013-06-28_29", "2013-08-18", "2013-09-10",
     "iPod Photo Cache", ".DS_Store")
 
   val REFERENCE_MAP = Map(
@@ -801,7 +802,7 @@ object Compile {
   }
 
   def main(args: Array[String]) {
-    //clean()
+    // clean()
 
     compileStylesheet()
     compileAlbums()
