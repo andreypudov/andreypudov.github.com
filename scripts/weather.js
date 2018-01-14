@@ -82,7 +82,7 @@ function formatWindDegree(value, short) {
         var point = points[index];
 
         if ((value >= point[4]) && (value <= point[6])) {
-            return '<span class=\'wi wi-wind wi-wind-table wi-towards-' + point[2].toLowerCase() + '\' />' + '&nbsp;'
+            return '<span class=\'wi wi-wind wi-wind-table wi-from-' + point[2].toLowerCase() + '\' />' + '&nbsp;'
                 + '<strong title=\'' + point[0] + '\'>' + ((short) ? point[1] : point[0]) + '</strong> ';
         }
     }
@@ -273,14 +273,14 @@ function getForecastWeatherByCityId(id) {
                 html += '<tr class=\'' + windClass  + '\'>'
                     + '<th>' + ('0' + date.getHours()).slice(-2) + '</th>'
                     + '<td>' + '<span class=\'hidden-xs wi ' + getWeatherIconById(entry.getWeatherIconId())
-                        + '\' title=\'' + entry.getWeatherDescription() + '\' />' + '&nbsp;' + entry.getTemperature() + '</td>'
+                        + '\' title=\'' + entry.getWeatherDescription() + '\' />' + '&nbsp;' + entry.getTemperature() + '&deg;</td>'
 
-                    + '<td>' + entry.getWindSpeed() + '</td>'
+                    + '<td>' + entry.getWindSpeed() + '<span class=\'text-muted\'>m/s</span></td>'
                     + '<td>' + formatWindDegree(entry.getWindDirection(), true) + '</td>'
-                    + '<td class=\'hidden-xs\'>' + entry.getWindDirection() + '&deg;</td>'
+                    + '<td class=\'hidden-xs\'>' + parseInt(entry.getWindDirection()) + '&deg;</td>'
 
-                    + '<td class=\'hidden-xs\'>' + entry.getPressure() + '</td>'
-                    + '<td class=\'hidden-xs\'>' + entry.getHumidity() + '</td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getPressure() + '<span class=\'text-muted\'>hPa</span></td>'
+                    + '<td class=\'hidden-xs\'>' + entry.getHumidity() + '<span class=\'text-muted\'>%</span></td>'
                     + '</tr>';
             }
 
