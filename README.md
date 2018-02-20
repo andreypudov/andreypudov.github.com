@@ -1,4 +1,4 @@
-onlineathletics.github.com
+andreypudov.github.com
 ==========================
 
-Live and Recent Athletics Scores
+Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.
