@@ -7262,7 +7262,7 @@ body {
   overflow: hidden;
 }
 .carousel-inner > .item {
-  max-height: 550px;
+  max-height: 520px;
 }
 .carousel-inner > .item > img {
   display: block;
