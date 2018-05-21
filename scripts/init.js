@@ -36,10 +36,6 @@
 /* the main website entry point */
 $(function() {
     var MIN_SIZE = 768; /* @grid-float-breakpoint */
-
-    if (location.protocol !== "https:") {
-        location.protocol = "https:";
-    }
     
     var $navbar  = $('.navbar-wrapper');
     var $width   = $(window).width();
