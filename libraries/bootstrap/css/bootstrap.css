@@ -7021,7 +7021,7 @@ footer .piped-links-long {
   padding: 0;
 }
 .curriculum-vitae > .box .job {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .curriculum-vitae > .box .job .where {
   font-weight: bold;
@@ -7031,6 +7031,7 @@ footer .piped-links-long {
 }
 .curriculum-vitae > .box .job .profession {
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .curriculum-vitae > .box .job .description {
   line-height: 1.5em;
