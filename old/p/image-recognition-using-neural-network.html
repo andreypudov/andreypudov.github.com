@@ -1,0 +1,215 @@
+<!--
+ * Andrey Pudov Official Website
+ *
+ * The MIT License
+ *
+ * Copyright 2011-2016 Andrey Pudov.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrey Pudov - Image Recognition using Neural Network</title>
+    
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    
+    <meta name='viewport'    content='width=device-width, initial-scale=1.0' />
+    <meta name='description' content='Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.' />
+    <meta name='author'      content='Andrey Pudov' />
+    
+    <!-- bootstrap core style sheet -->
+    <link href='../libraries/bootstrap/css/bootstrap.css' rel='stylesheet' />
+
+    <link rel='apple-touch-icon' sizes='180x180' href='../images/favicon/apple-touch-icon.png'>
+    <link rel='icon' type='image/png' sizes='32x32' href='../images/favicon/favicon-32x32.png'>
+    <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon/favicon-16x16.png'>
+    <link rel='manifest' href='../images/favicon/site.webmanifest'>
+
+    <!-- web page specific styles declaration -->
+    
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+      <script src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js'></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-74198577-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- /Google Analytics -->
+  </head>
+    <body>
+      <div id='page'>
+        <div id='header'>
+          <div class='navbar-wrapper'>
+    <div class='container'>
+        <div class='navbar navbar-static-top' role='navigation'>
+            <div class='container'>
+                <div class='navbar-header'>
+                    <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+                        <span class='sr-only'>Toggle navigation</span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                    </button>
+                    <a href='../index.html' class='navbar-brand'>Andrey Pudov</a>
+                </div>
+                <div class='navbar-collapse collapse'>
+                    <ul class='nav navbar-nav'>
+                        <li class='active'><a href='../albums.html'>Albums</a></li>
+	                    <li><a href='../contents.html'>Contents</a></li>
+	                    <li><a href='../resume.html'>Resume</a></li>
+	                    <li><a href='../contact.html'>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div id='content'>
+          <div class='container'>
+          <div class='page-header'>
+            <h1>Image Recognition using Neural Network<small><em>Monday, September 19, 2011</em></small></h1>
+          </div>
+
+          <blockquote class="blockquote-reverse">
+            <p>Hopfield network is a form of recurrent artificial neural network invented by John Hopfield. Hopfield networks serve as content-addressable memory systems with binary threshold units. They are guaranteed to converge to a local minimum, but convergence to one of the stored patterns is not guaranteed. Furthermore, it is through Hopfield networks that human memory can be father understood.</p>
+          </blockquote>
+
+          <p>Image recognition is one of the key problems of modern research in neural networks.  In practice, the results of these studies are used to solve problems, as relevant to everyday mental activity of man – recognition of text, speech, handwriting, and in the processing of vast amount of information, where the standard mathematical approaches exhaust its potential.</p>
+
+          <p>A further story will focus on the image recognition problem. I’ll show you how by using the Hopfield neural network you can solve this problem. A similar algorithm can be used for image restoration, in the presence of minor defects.</p>
+
+          <p>Suppose there is a neural network size N = 100, weight matrix contains a set of black and white pictures (+1 - black, -1 - white), among which is the image dogs (Fig. 1). If you set the initial state of the network close to this vector (Fig. 2), the neural network is activated to restore the original image. In this sense we can say that the Hopfield network solves the problem of the image recognition (although, strictly speaking, the resulting reference image is still needed to make a number of the class that in some cases can be very computationally challenging).</p>
+
+          <img src='../images/pages/PAGE_Image_Recognition_1.jpg' alt='Andrey Pudov - Image Recognition using Neural Network' class='img-responsive gallery-image'>
+          <p><small>Figure 1 - Source picture</small></p>
+
+          <img src='../images/pages/PAGE_Image_Recognition_2.jpg' alt='Andrey Pudov - Image Recognition using Neural Network' class='img-responsive gallery-image'>
+          <small>Figure 2 - Picture for recognition</small>
+
+          <h2>Neural Network</h2>
+
+          <img src="../images/pages/PAGE_Image_Recognition_3.jpg" class="img-responsive">
+
+          <p>The input of the network is a bipolar vector (class Vector), in which (+1) corresponds to a black pixel, and (-1) to white. The learning process is reduced to three operations: multiplying the matrix by its transposition, setting the northwest diagonal to -1 and adding the work matrix to the existing weight matrix.</p>
+
+          <pre style="background:#fff;color:#000;border:0;"><span style="color:#00f;font-weight:700">public</span> <span style="color:#00f;font-weight:700">void</span> train(<span style="color:#00f;font-weight:700">int</span>[] input) {
+        <span style="color:#00f;font-weight:700">int</span>[][] work <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">new</span> <span style="color:#00f;font-weight:700">int</span>[<span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>][<span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>];      
+        <span style="color:#06f;font-style:italic">/* multiply the matrix by its transposition */</span>    
+        <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">int</span> row <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; row <span style="color:#00f;font-weight:700">&lt;</span> <span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>; <span style="color:#00f;font-weight:700">++</span>row) {
+            <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">int</span> col <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; col <span style="color:#00f;font-weight:700">&lt;</span> <span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>; <span style="color:#00f;font-weight:700">++</span>col) {
+                work[row][col] <span style="color:#00f;font-weight:700">=</span> input[row] <span style="color:#00f;font-weight:700">*</span> input[col];
+            }
+        }    
+        <span style="color:#06f;font-style:italic">/* set the northwest diagonal to -1 */</span>
+        <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">int</span> x <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; x <span style="color:#00f;font-weight:700">&lt;</span> <span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>; <span style="color:#00f;font-weight:700">++</span>x) {
+            work[x][x] <span style="color:#00f;font-weight:700">-=</span> <span style="color:#0000cd">1</span>;
+        }    
+        <span style="color:#06f;font-style:italic">/* add to the existing weight matrix */</span>
+        <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">int</span> row <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; row <span style="color:#00f;font-weight:700">&lt;</span> <span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>; <span style="color:#00f;font-weight:700">++</span>row) {
+            <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">int</span> col <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; col <span style="color:#00f;font-weight:700">&lt;</span> <span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>; <span style="color:#00f;font-weight:700">++</span>col) {
+                matrix[row][col] <span style="color:#00f;font-weight:700">+=</span> work[row][col];
+            }
+        }
+}
+</pre>
+
+          <p>In the process of recognition is formed layer of the initial state is set equal to the weight matrix of network, after is called the activation method, the parameter of which is a boolean vector.</p>
+
+          <pre style="background:#fff;color:#000;border:0;"><span style="color:#00f;font-weight:700">public</span> <span style="color:#00f;font-weight:700">int</span>[] recognize(<span style="color:#00f;font-weight:700">int</span>[] input) {
+        <span style="color:#00f;font-weight:700">boolean</span>[] pattern <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">new</span> <span style="color:#00f;font-weight:700">boolean</span>[<span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>];
+        <span style="color:#00f;font-weight:700">int</span>[]     output  <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">new</span> <span style="color:#00f;font-weight:700">int</span>[<span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>];  
+        <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">int</span> row <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; row <span style="color:#00f;font-weight:700">&lt;</span> <span style="color:#c5060b;font-weight:700">NETWORK_SIZE</span>; <span style="color:#00f;font-weight:700">++</span>row) {
+            pattern[row] <span style="color:#00f;font-weight:700">=</span> (input[row] <span style="color:#00f;font-weight:700">==</span> <span style="color:#0000cd">1</span>) <span style="color:#00f;font-weight:700">?</span> <span style="color:#585cf6;font-weight:700">true</span> <span style="color:#00f;font-weight:700">:</span> <span style="color:#585cf6;font-weight:700">false</span>;
+        }
+        <span style="color:#00f;font-weight:700">Layer</span> net <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">new</span> <span style="color:#00f;font-weight:700">Layer</span>(matrix);
+        net<span style="color:#00f;font-weight:700">.</span>activation(pattern);
+        <span style="color:#00f;font-weight:700">int</span> row <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>;
+        <span style="color:#00f;font-weight:700">for</span> (<span style="color:#00f;font-weight:700">boolean</span> i <span style="color:#00f;font-weight:700">:</span> net<span style="color:#00f;font-weight:700">.</span>getOutput()) {
+            output[row<span style="color:#00f;font-weight:700">++</span>] <span style="color:#00f;font-weight:700">=</span> i <span style="color:#00f;font-weight:700">?</span> <span style="color:#0000cd">1</span> <span style="color:#00f;font-weight:700">:</span> <span style="color:#00f;font-weight:700">-</span><span style="color:#0000cd">1</span>;
+        }
+        <span style="color:#00f;font-weight:700">return</span> output;
+}
+</pre>
+
+          <p>Activation of the layer - a process that sets the matrix of weights of each neuron and to determine the answer to the network input pattern.</p>
+
+          <pre style="background:#fff;color:#000;border:0;"><span style="color:#00f;font-weight:700">public</span> <span style="color:#00f;font-weight:700">void</span> activation(<span style="color:#00f;font-weight:700">boolean</span>[] pattern){  
+        <span style="color:#00f;font-weight:700">for</span>(<span style="color:#00f;font-weight:700">int</span> i <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>; i <span style="color:#00f;font-weight:700">&lt;</span> size; <span style="color:#00f;font-weight:700">++</span>i){
+            neurons[i]<span style="color:#00f;font-weight:700">.</span>setActivation(neurons[i]<span style="color:#00f;font-weight:700">.</span>act(pattern));
+            output[i] <span style="color:#00f;font-weight:700">=</span> threshold(neurons[i]<span style="color:#00f;font-weight:700">.</span>getActivation());
+        }
+}
+</pre>
+        </div>
+        </div>
+        <div id='footer'>
+          <div class='container'>
+    <footer>
+        <hr class='footer-divider' />
+
+        <ul class='piped-links pull-right'>
+            <li class='first piped-links-short'><a href='../resume.html'>About</a></li>
+            <li class='first piped-links-long'><a href='../resume.html'>About Andrey Pudov</a></li>
+            <li><a href='../contact.html'>Contact</a></li>
+        </ul>
+
+        <ul class='piped-links'>
+            <p class='piped-links-long'>Copyright &#169; 2021 Andrey Pudov. All rights reserved.</p>
+        </ul>
+
+        <p class='piped-links-short'>&#169; 2021 Andrey Pudov. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src='../libraries/jquery/jquery-1.11.3.min.js'></script>
+    <!-- <script src='../libraries/jquery/jquery.validate.min.js'></script> -->
+
+    <!-- <script src='../libraries/bootstrap/js/bootstrap.min.js'></script> -->
+
+    <script src='../libraries/bootstrap/js/collapse.js' ></script>
+    <script src='../libraries/bootstrap/js/dropdown.js' ></script>
+    <script src='../libraries/bootstrap/js/transition.js' ></script>
+
+    <!-- web page specific scripts declaration -->
+    
+
+    <!-- common on init functions -->
+    <script src='../scripts/init.js'></script>
+</div>
+                 
+        </div>
+      </div>
+    </body>
+</html>
