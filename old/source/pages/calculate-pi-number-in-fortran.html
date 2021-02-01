@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!--
+ * Official Andrey Pudov website.
+ *
+ * The MIT License
+ *
+ * Copyright 2011-2015 Andrey Pudov.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+-->
+
+<!--
+    Document   : calculate-pi-number-in-fortran.html
+    Created on : Mar 14, 2015, 02:26:53 AM
+    Author     : Andrey Pudov        <mail@andreypudov.com>
+    Description:
+        The content web page.
+-->
+<!DOCTYPE html>
+<html>
+    <body>
+      <define name='title'>
+        <title>Andrey Pudov - Calculate Pi Number in Fortran</title>
+      </define>
+
+      <define name='content'>
+        <div class='container'>
+          <div class='page-header'>
+            <h1>Calculate Pi Number in Fortran<small><em>Saturday, March 14, 2015</em></small></h1>
+          </div>
+
+          <insert name="image" value="PAGE_Calculate-Pi-Number_0" />
+
+          <p>The number π is a mathematical constant, the ratio of a circle's circumference to its diameter, commonly approximated as 3.14159. It has been represented by the Greek letter "π" since the mid-18th century, though it is also sometimes spelled out as "pi" (/paɪ/).</p>
+
+          <h2>Viète's Formula</h2>
+
+          <p>In mathematics, Viète's formula is the following infinite product of nested radicals representing the mathematical constant π:</p>
+
+          <p><img src="../images/pages/PAGE_Calculate-Pi-Number_1.png" class="img-responsive"></p>
+
+          <p>It is named after François Viète (1540–1603), who published it in 1593 in his work Variorum de rebus mathematicis responsorum, liber VIII. Using his formula, Viète calculated π to an accuracy of nine decimal digits.</p>
+
+          <pre style="background:#fff;color:#000;border:0;">    <span style="color:#00f;font-weight:700">function</span> <span style="color:#0000a2;font-weight:700">vietesSeries</span>() result(pi)
+        <span style="color:#00f;font-weight:700">real</span> <span style="color:#00f;font-weight:700">::</span> pi
+
+        <span style="color:#00f;font-weight:700">integer</span>, <span style="color:#00f;font-weight:700">parameter</span> <span style="color:#00f;font-weight:700">::</span> ITERATIONS <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">15</span>
+        <span style="color:#00f;font-weight:700">integer</span> index
+        <span style="color:#00f;font-weight:700">integer</span> jndex
+
+        <span style="color:#00f;font-weight:700">real</span> factor
+
+        pi <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">1</span>
+        <span style="color:#00f;font-weight:700">do</span> index <span style="color:#00f;font-weight:700">=</span> ITERATIONS, <span style="color:#0000cd">2</span>, <span style="color:#00f;font-weight:700">-</span><span style="color:#0000cd">1</span>
+            factor <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">2</span>
+
+            <span style="color:#00f;font-weight:700">do</span> jndex <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">1</span>, index <span style="color:#00f;font-weight:700">-</span> <span style="color:#0000cd">1</span>
+                factor <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">2</span> <span style="color:#00f;font-weight:700">+</span> <span style="color:#00f;font-weight:700">sqrt</span>(factor)
+            <span style="color:#00f;font-weight:700">end do</span>
+
+            factor <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">sqrt</span>(factor)
+            pi <span style="color:#00f;font-weight:700">=</span> pi <span style="color:#00f;font-weight:700">*</span> factor <span style="color:#00f;font-weight:700">/</span> <span style="color:#0000cd">2</span>
+        <span style="color:#00f;font-weight:700">end do</span>
+
+        pi <span style="color:#00f;font-weight:700">=</span> pi <span style="color:#00f;font-weight:700">*</span> <span style="color:#00f;font-weight:700">sqrt</span>(<span style="color:#0000cd">2.0</span>) <span style="color:#00f;font-weight:700">/</span> <span style="color:#0000cd">2</span>
+        pi <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">2</span> <span style="color:#00f;font-weight:700">/</span> pi
+    <span style="color:#00f;font-weight:700">end</span> <span style="color:#00f;font-weight:700">function</span>
+</pre>
+
+          <h2>Wallis Formula</h2>
+
+          <p>In mathematics, Wallis' product for π, written down in 1655 by John Wallis, states that</p>
+
+          <p><img src="../images/pages/PAGE_Calculate-Pi-Number_2.png" class="img-responsive"></p>
+
+          <pre style="background:#fff;color:#000;border:0;">    <span style="color:#00f;font-weight:700">function</span> <span style="color:#0000a2;font-weight:700">wallisSeries</span>() result(pi)
+        <span style="color:#00f;font-weight:700">real</span>(<span style="color:#0000cd">8</span>) <span style="color:#00f;font-weight:700">::</span> pi
+
+        <span style="color:#00f;font-weight:700">integer</span>, <span style="color:#00f;font-weight:700">parameter</span> <span style="color:#00f;font-weight:700">::</span> ITERATIONS <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">900000000</span>
+        <span style="color:#00f;font-weight:700">real</span>(<span style="color:#0000cd">8</span>) index
+
+        index <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">3</span>
+        pi    <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">4</span>
+        <span style="color:#00f;font-weight:700">do</span> <span style="color:#00f;font-weight:700">while</span> (index &lt;<span style="color:#00f;font-weight:700">=</span> (ITERATIONS <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">2</span>))
+            pi <span style="color:#00f;font-weight:700">=</span> pi <span style="color:#00f;font-weight:700">*</span> ((index <span style="color:#00f;font-weight:700">-</span> <span style="color:#0000cd">1</span>) <span style="color:#00f;font-weight:700">/</span> index) <span style="color:#00f;font-weight:700">*</span> ((index <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">1</span>) <span style="color:#00f;font-weight:700">/</span> index)
+
+            index <span style="color:#00f;font-weight:700">=</span> index <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">2</span>
+        <span style="color:#00f;font-weight:700">end do</span>
+    <span style="color:#00f;font-weight:700">end</span> <span style="color:#00f;font-weight:700">function</span>
+</pre>
+
+          <h2>Leibniz Formula</h2>
+
+          <p>In mathematics, the Leibniz formula for π, named after Gottfried Leibniz, states that</p>
+
+          <p><img src="../images/pages/PAGE_Calculate-Pi-Number_3.png" class="img-responsive"></p>
+
+          <pre style="background:#fff;color:#000;border:0;">    <span style="color:#00f;font-weight:700">function</span> <span style="color:#0000a2;font-weight:700">leibnizSeries</span>() result(pi)
+        <span style="color:#00f;font-weight:700">real</span>(<span style="color:#0000cd">8</span>) <span style="color:#00f;font-weight:700">::</span> pi
+
+        <span style="color:#00f;font-weight:700">integer</span>, <span style="color:#00f;font-weight:700">parameter</span> <span style="color:#00f;font-weight:700">::</span> ITERATIONS <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">900000000</span>
+        <span style="color:#00f;font-weight:700">integer</span> sign
+        <span style="color:#00f;font-weight:700">integer</span> index
+
+        index <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">1</span>
+        sign  <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">1</span>
+        pi    <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">0</span>
+        <span style="color:#00f;font-weight:700">do</span> <span style="color:#00f;font-weight:700">while</span> (index &lt;<span style="color:#00f;font-weight:700">=</span> (ITERATIONS <span style="color:#00f;font-weight:700">*</span> <span style="color:#0000cd">2</span>))
+            pi   <span style="color:#00f;font-weight:700">=</span> pi <span style="color:#00f;font-weight:700">+</span> sign <span style="color:#00f;font-weight:700">*</span> (<span style="color:#0000cd">4.0</span> <span style="color:#00f;font-weight:700">/</span> index)
+            sign <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">-</span>sign
+
+            index <span style="color:#00f;font-weight:700">=</span> index <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">2</span>
+        <span style="color:#00f;font-weight:700">end do</span>
+    <span style="color:#00f;font-weight:700">end</span> <span style="color:#00f;font-weight:700">function</span>
+</pre>
+    
+          <h2>Nilakantha Formula</h2>
+
+          <p>An infinite series for π (published by Nilakantha in the 15th century) that converges more rapidly than the Gregory–Leibniz series is:</p>
+
+          <p><img src="../images/pages/PAGE_Calculate-Pi-Number_4.png" class="img-responsive"></p>
+
+          <pre style="background:#fff;color:#000;border:0;">    <span style="color:#00f;font-weight:700">function</span> <span style="color:#0000a2;font-weight:700">nilakanthaSeries</span>() result(pi)
+        <span style="color:#00f;font-weight:700">real</span>(<span style="color:#0000cd">8</span>) <span style="color:#00f;font-weight:700">::</span> pi
+
+        <span style="color:#00f;font-weight:700">integer</span>, <span style="color:#00f;font-weight:700">parameter</span> <span style="color:#00f;font-weight:700">::</span> ITERATIONS <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">500</span>
+        <span style="color:#00f;font-weight:700">integer</span> sign
+        <span style="color:#00f;font-weight:700">real</span>(<span style="color:#0000cd">8</span>) index
+
+        index <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">2</span>
+        sign  <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">1</span>
+        pi    <span style="color:#00f;font-weight:700">=</span> <span style="color:#0000cd">3</span>
+        <span style="color:#00f;font-weight:700">do</span> <span style="color:#00f;font-weight:700">while</span> (index &lt;<span style="color:#00f;font-weight:700">=</span> (ITERATIONS <span style="color:#00f;font-weight:700">*</span> <span style="color:#0000cd">2</span>))
+            pi   <span style="color:#00f;font-weight:700">=</span> pi <span style="color:#00f;font-weight:700">+</span> sign <span style="color:#00f;font-weight:700">*</span> (<span style="color:#0000cd">4</span> <span style="color:#00f;font-weight:700">/</span> (index <span style="color:#00f;font-weight:700">*</span> (index <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">1</span>) <span style="color:#00f;font-weight:700">*</span> (index <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">2</span>)))
+            sign <span style="color:#00f;font-weight:700">=</span> <span style="color:#00f;font-weight:700">-</span>sign
+
+            index <span style="color:#00f;font-weight:700">=</span> index <span style="color:#00f;font-weight:700">+</span> <span style="color:#0000cd">2</span>
+        <span style="color:#00f;font-weight:700">end do</span>
+    <span style="color:#00f;font-weight:700">end</span> <span style="color:#00f;font-weight:700">function</span>
+</pre>
+
+          <h2>Results</h2>
+
+          <p>Here are calculation performed with each of the algorithms for calculating π number to first eight decimal digits (3.14159265).</p>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">Calculate π number to the first eight digits</div>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Algorithm</th>
+                  <th>Iterations</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Vietes</th>
+                  <td>15</td>
+                  <td>0.000s</td>
+                </tr>
+                <tr>
+                  <th>Wallis</th>
+                  <td>900 000 000</td>
+                  <td>4.181s</td>
+                </tr>
+                <tr>
+                  <th>Leibniz</th>
+                  <td>900 000 000</td>
+                  <td>2.253s</td>
+                </tr>
+                <tr>
+                  <th>Nilakantha</th>
+                  <td>500</td>
+                  <td>0.000s</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </define>
+    </body>
+</html>

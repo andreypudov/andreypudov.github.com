@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment>Langton's Ant</comment>
+  <entry key="name">Langton's Ant</entry>
+  <entry key="date">2015-04-07</entry>
+  <entry key="page"></entry>
+  <entry key="type">Technical</entry>
+  <entry key="alt"></entry>
+</properties>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!--
+ * Official Andrey Pudov website.
+ *
+ * The MIT License
+ *
+ * Copyright 2011-2016 Andrey Pudov.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+-->
+
+<!--
+    Document   : weather.html
+    Created on : Nov 03, 2015, 10:00:00 PM
+    Author     : Andrey Pudov        <mail@andreypudov.com>
+    Description:
+        The content web page.
+-->
+<!DOCTYPE html>
+<html>
+    <body>
+      <define name='title'>
+        <title>Andrey Pudov - Weather Forecast</title>
+      </define>
+
+      <define name='content'>
+        <div class='container'>
+          <div class='page-header'>
+            <h1>Weather Forecast<!--<small><em>Tuesday, November 03, 2015</em></small>--></h1>
+
+            <div id='panel-current' style='display: none'>
+              <div class='row'>
+                <div id='temperature' class='col-xs-6 col-sm-3'></div>
+                <div class='col-xs-6'>
+                  <div id='cloudiness'>
+                    <strong class='hidden-xs'>Cloudiness:</strong>
+                    <i class='wi wi-cloud visible-xs-inline'></i>
+                    <span></span>
+                  </div>
+                  <div id='wind'>
+                    <strong class='hidden-xs'>Wind:</strong>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class='row'>
+                <div id='pressure' class='col-xs-3'>
+                  <strong class='hidden-xs'>Pressure:</strong>
+                  <i class='wi wi-barometer visible-xs-inline'></i>                
+                  <span></span>
+                </div>
+                <div id='humidity' class='col-xs-3'>
+                  <strong class='hidden-xs'>Humidity:</strong>
+                  <i class='wi wi-humidity visible-xs-inline'></i>
+                  <span></span>
+                </div>
+                <div id='sunrise' class='col-xs-3'>
+                  <strong class='hidden-xs'>Sunrise:</strong>
+                  <i class='wi wi-sunrise visible-xs-inline'></i>
+                  <span></span>
+                </div>
+                <div id='sunset' class='col-xs-3'>
+                  <strong class='hidden-xs'>Sunset:</strong>
+                  <i class='wi wi-sunset visible-xs-inline'></i>
+                  <span></span>
+                </div>
+              </div>
+              <div class='row'>
+                <div id='longitude' class='col-xs-3'>
+                  <strong class='hidden-xs'>Longitude:</strong>
+                  <strong class='visible-xs-inline'>Lon.:</strong>
+                  <span></span>
+                </div>
+                <div id='latitude' class='col-xs-3'>
+                  <strong class='hidden-xs'>Latitude:</strong>
+                  <strong class='visible-xs-inline'>Lat.:</strong>
+                  <span></span>
+                </div>
+                <div id='rain' class='col-xs-3' style='display: none'>
+                  <strong>Rain:</strong>
+                  <span></span>
+                </div>
+                <div id='snow' class='col-xs-3' style='display: none'>
+                  <strong>Snow:</strong>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img id='rose' src='images/wind-rose.jpg' class='hidden'>
+          <div id='panel-loading'></div>
+          <canvas id='canvas'></canvas>
+
+          <div id='panel-forecast' style='display: none'>
+            <table class='table'>
+              <thead>
+                <th>Time</th>
+                <th>
+                  <span class='hidden-xs'>Temperature:</span>
+                  <span class='visible-xs-block'>Temp.:</span>
+                </th>
+                <th>Wind speed</th>
+                <th colspan='2'>Wind Direction</th>
+                <th class='hidden-xs'>Pressure</th>
+                <th class='hidden-xs'>Humidity</th>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </define>
+      <define name='scripts'>
+        <style>
+          #panel-current #temperature {
+            font-size: 20pt;
+          }
+
+          .wi-wind-table {
+            vertical-align: middle;
+            font-size:      16pt;
+            margin-top:     -4px;
+          }
+
+          canvas {
+            width:  100%;
+            height: 100%;
+
+            padding: 24px 0;
+          }
+
+          @media (min-width: 768px) {
+            .spinner {
+              top: 45% !important;
+            }
+          }
+        </style>
+
+        <script src='libraries/momentjs/moment.js'></script>
+        <script src='libraries/openweatherjs/OpenWeatherJS.js'></script>
+        <script src='libraries/spinjs/spin.min.js'></script>
+        <script src='scripts/weather.js'></script>
+
+        <link href='libraries/weather-icons/css/weather-icons.min.css' rel='stylesheet' />
+        <link href='libraries/weather-icons/css/weather-icons-wind.min.css' rel='stylesheet' />
+      </define>
+    </body>
+</html>
