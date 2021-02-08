@@ -16,7 +16,7 @@ function Home() {
             <img src = 'images/carousel/rome-malta.jpg' />
             <div className = 'container'>
               <div className = 'carousel-caption'>
-                <h1>Взятие Рима и Мальтийского ордена</h1>
+                <h1>Conquering Rome and Order of Malta</h1>
                 <p></p>
                 <p><a className = 'btn btn-lg btn-transparent' href='p/romemalta.html' role='button'>Browse gallery</a></p>
               </div>
@@ -26,7 +26,7 @@ function Home() {
             <img src = 'images/carousel/united-states-2.0.jpg' />
             <div className = 'container'>
               <div className = 'carousel-caption'>
-                <h1>Покорение Америки 2.0</h1>
+                <h1>Conquering America 2.0</h1>
                 <p></p>
                 <p><a className = 'btn btn-lg btn-transparent' href='p/unitedstates-2.0.html' role='button'>Browse gallery</a></p>
               </div>
@@ -36,7 +36,7 @@ function Home() {
             <img src = 'images/carousel/kira-olrova.jpg' />
             <div className = 'container'>
               <div className = 'carousel-caption'>
-                <h1>Кира Орлова</h1>
+                <h1>Kira Orlova</h1>
                 <p></p>
                 <p><a className = 'btn btn-lg btn-transparent' href='p/2017-10-22.html' role='button'>Browse gallery</a></p>
               </div>
@@ -46,7 +46,7 @@ function Home() {
             <img src = 'images/carousel/kaliningrad.jpg' />
             <div className = 'container'>
               <div className = 'carousel-caption'>
-                <h1>Калининград. Янтарная столица мира.</h1>
+                <h1>Kaliningrad. The amber capital of the World</h1>
                 <p></p>
                 <p><a className = 'btn btn-lg btn-transparent' href='p/kaliningrad.html' role='button'>Browse gallery</a></p>
               </div>
