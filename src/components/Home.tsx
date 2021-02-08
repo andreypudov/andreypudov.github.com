@@ -53,29 +53,29 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className = 'container marketing marketing-image'>
-          <div className = 'row'>
+      <div className = 'container marketing marketing-image'>
+        <div className = 'row'>
+          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+            <a href='p/unitedstates.html'>
+              <img src = 'images/marketing/united-states.jpg' />
+            </a>
+          </div>
+          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+            <a href='p/lake-baikal.html'>
+              <img src = 'images/marketing/lake-baikal.jpg' />
+            </a>
+          </div>
+          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+            <a href='p/2013-09-14_27.html'>
+              <img src = 'images/marketing/little-russia.jpg' />
+            </a>
+          </div>
             <div className = 'col-lg-3 col-md-3 col-sm-3'>
-              <a href='p/unitedstates.html'>
-                <img src = 'images/marketing/united-states.jpg' />
+              <a href='p/2012-03-17.html'>
+                <img src = 'images/marketing/favorite-photographs.jpg' />
               </a>
-            </div>
-            <div className = 'col-lg-3 col-md-3 col-sm-3'>
-              <a href='p/lake-baikal.html'>
-                <img src = 'images/marketing/lake-baikal.jpg' />
-              </a>
-            </div>
-            <div className = 'col-lg-3 col-md-3 col-sm-3'>
-              <a href='p/2013-09-14_27.html'>
-                <img src = 'images/marketing/little-russia.jpg' />
-              </a>
-            </div>
-              <div className = 'col-lg-3 col-md-3 col-sm-3'>
-                <a href='p/2012-03-17.html'>
-                  <img src = 'images/marketing/favorite-photographs.jpg' />
-                </a>
-            </div>
           </div>
         </div>
       </div>
