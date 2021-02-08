@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -6,9 +6,9 @@ function Footer() {
       <div className = 'container marketing'>
         <footer>
           <ul className = 'piped-links pull-right'>
-            <li className = 'first piped-links-short'><NavLink to = '/resume'>About</NavLink></li>
-            <li className = 'first piped-links-long'><NavLink to = '/resume'>About Andrey Pudov</NavLink></li>
-            <li><NavLink to = '/contact'>Contact</NavLink></li>
+            <li className = 'first piped-links-short'><Link to = '/resume'>About</Link></li>
+            <li className = 'first piped-links-long'><Link to = '/resume'>About Andrey Pudov</Link></li>
+            <li><Link to = '/contact'>Contact</Link></li>
           </ul>
 
           <ul className = 'piped-links'>
