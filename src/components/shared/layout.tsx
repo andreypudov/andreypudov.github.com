@@ -5,7 +5,9 @@ function Layout({ children }: React.PropsWithChildren<{}>) {
   return (
     <div className="layout">
       <Header />
-      { children }
+      <div id='content'>
+        { children }
+      </div>
       <Footer />
     </div>
   );
