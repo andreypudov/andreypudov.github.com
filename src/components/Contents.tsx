@@ -22,7 +22,7 @@ function Contents() {
           </li>
           <li>
             <Link to = '/albums/rome-malta'>
-              Conquering Rome and Malta order
+              Conquering Rome and Order of Malta
               <small>Monday, December 18, 2017</small>
             </Link>
           </li>
