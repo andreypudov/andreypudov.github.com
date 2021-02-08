@@ -2,13 +2,13 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <div id='header'>
+    <div id = 'header'>
       <div className = 'navbar-wrapper'>
         <div className = 'container'>
           <div className = 'navbar navbar-static-top' role='navigation'>
             <div className = 'container'>
               <div className = 'navbar-header'>
-                <button type='button' className = 'navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+                <button type = 'button' className = 'navbar-toggle' data-toggle = 'collapse' data-target = '.navbar-collapse'>
                   <span className = 'sr-only'>Toggle navigation</span>
                   <span className = 'icon-bar'></span>
                   <span className = 'icon-bar'></span>
