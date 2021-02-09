@@ -6,7 +6,7 @@ function FormulaSochi() {
     <Layout>
       <div className = 'container'>
         <div className = 'page-header'>
-          <h1>Формула 1. Гран При России 2015<small><em>Monday, Oct 05, 2015</em></small></h1>
+          <h1>2015 Formula 1 Russian Grand Prix<small><em>Monday, Oct 05, 2015</em></small></h1>
         </div>
 
         <img src = '../albums/2015-10-05_11/2015-10-05_11_001_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
