@@ -82,7 +82,7 @@ function Contents() {
           </li>
           <li>
             <Link to = '/albums/yoshkar-ola'>
-              Yoshkar-Ola. Tsargrad on Kokshaga
+              Yoshkar-Ola. Tsar's town on Kokshaga River
               <small>Saturday, May 10, 2014</small>
             </Link>
           </li>
