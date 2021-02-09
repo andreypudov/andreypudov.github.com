@@ -27,6 +27,12 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/albums/nizhny-novgorod'>
+              Nizhny Novgorod
+              <small>Tuesday, July 16, 2019</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/albums/rekshino'>
               Rekshino
               <small>Saturday, October 26, 2019</small>
@@ -96,12 +102,6 @@ function Contents() {
             <Link to = '/albums/ekaterinburg'>
               Ekaterinburg. The Picture of City
               <small>Sunday, December 21, 2014</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/albums/early-winter'>
-              Early Winter
-              <small>Sunday, October 19, 2014</small>
             </Link>
           </li>
           <li>

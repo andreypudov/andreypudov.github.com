@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 
 import Favorites from './components/albums/Favorites';
 import Altay from './components/albums/Altay';
+import NizhnyNovgorod from './components/albums/NizhnyNovgorod';
 import Rekshino from './components/albums/Rekshino';
 import AlinaCherdakova from './components/albums/AlinaCherdakova';
 import BalloonFestival from './components/albums/BalloonFestival';
@@ -19,7 +20,6 @@ import FormulaSochi from './components/albums/FormulaSochi';
 import LakeBaikal from './components/albums/LakeBaikal';
 import MilitaryMuseum from './components/albums/MilitaryMuseum';
 import Ekaterinburg from './components/albums/Ekaterinburg';
-import EarlyWinter from './components/albums/EarlyWinter';
 import YoshkarOla from './components/albums/YoshkarOla';
 import LittleRussia from './components/albums/LittleRussia';
 import RussianEmirates from './components/albums/RussianEmirates';
@@ -37,6 +37,7 @@ function Routes() {
 
       <Route exact path = '/albums/favorite-photographs' component = { Favorites } />
       <Route exact path = '/albums/altay' component = { Altay } />
+      <Route exact path = '/albums/nizhny-novgorod' component = { NizhnyNovgorod } />
       <Route exact path = '/albums/rekshino' component = { Rekshino } />
       <Route exact path = '/albums/alina-cherdakova' component = { AlinaCherdakova } />
       <Route exact path = '/albums/balloon-festival' component = { BalloonFestival } />
@@ -49,7 +50,6 @@ function Routes() {
       <Route exact path = '/albums/lake-baikal' component = { LakeBaikal } />
       <Route exact path = '/albums/military-museum' component = { MilitaryMuseum } />
       <Route exact path = '/albums/ekaterinburg' component = { Ekaterinburg } />
-      <Route exact path = '/albums/early-winter' component = { EarlyWinter } />
       <Route exact path = '/albums/yoshkar-ola' component = { YoshkarOla } />
       <Route exact path = '/albums/little-russia' component = { LittleRussia } />
       <Route exact path = '/albums/russian-emirates' component = { RussianEmirates } />
