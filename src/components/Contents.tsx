@@ -12,12 +12,36 @@ function Contents() {
 
         <ol className = 'table-of-contents'>
           <li>
-            <h2>Photograph Albums</h2>
+            <h2>Photographs</h2>
           </li>
           <li>
             <Link to = '/albums/favorite-photographs'>
               Favorite Photographs
               <small>Wednesday, March 17, 2021</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/albums/altay'>
+              Altay. Conquering Siberia 2.0
+              <small>Sunday, July 19, 2020</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/albums/rekshino'>
+              Rekshino
+              <small>Saturday, October 26, 2019</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/albums/alina-cherdakova'>
+              Alina Cherdakova
+              <small>Saturday, August 08, 2018</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/albums/balloon-festival'>
+              Balloon Festival
+              <small>Saturday, February 24, 2018</small>
             </Link>
           </li>
           <li>
