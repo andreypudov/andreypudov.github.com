@@ -5,6 +5,8 @@ function Footer() {
     <div id='footer'>
       <div className = 'container marketing'>
         <footer>
+          <hr className = 'footer-divider' />
+
           <ul className = 'piped-links pull-right'>
             <li className = 'first piped-links-short'><Link to = '/resume'>About</Link></li>
             <li className = 'first piped-links-long'><Link to = '/resume'>About Andrey Pudov</Link></li>
