@@ -6,6 +6,10 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 
 import Favorites from './components/albums/Favorites';
+import Altay from './components/albums/Altay';
+import Rekshino from './components/albums/Rekshino';
+import AlinaCherdakova from './components/albums/AlinaCherdakova';
+import BalloonFestival from './components/albums/BalloonFestival';
 import ConqueringRome from './components/albums/ConqueringRome';
 import KiraOrlova from './components/albums/KiraOrlova';
 import ConqueringAmerica2 from './components/albums/ConqueringAmerica2';
@@ -32,6 +36,10 @@ function Routes() {
       <Route exact path = '/contact' component = { Contact } />
 
       <Route exact path = '/albums/favorite-photographs' component = { Favorites } />
+      <Route exact path = '/albums/altay' component = { Altay } />
+      <Route exact path = '/albums/rekshino' component = { Rekshino } />
+      <Route exact path = '/albums/alina-cherdakova' component = { AlinaCherdakova } />
+      <Route exact path = '/albums/balloon-festival' component = { BalloonFestival } />
       <Route exact path = '/albums/rome-malta' component = { ConqueringRome } />
       <Route exact path = '/albums/kira-orlova' component = { KiraOrlova } />
       <Route exact path = '/albums/united-states-2.0' component = { ConqueringAmerica2 } />
