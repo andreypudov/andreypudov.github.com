@@ -6,40 +6,47 @@ function ConqueringRome() {
     <Layout>
       <div className = 'container'>
         <div className = 'page-header'>
-          <h1>Взятие Рима и Мальтийского ордена<small><em>Saturday, April 21, 2018</em></small></h1>
+          <h1>Conquering Rome and Order of Malta<small><em>Saturday, April 21, 2018</em></small></h1>
         </div>
 
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_001_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <p className = 'image-caption vertical'>
           Современная лестница Браманте - одна из двух наиболее известных лестниц Ватикана. Оригинальная винтовая лестница была построена в 1505 году по поручению папы Юлия II Браманте, желавшего соединить Бельведерский и Ватиканский дворцы (Апостольский или Папский). Проект лестницы принадлежит рукам основоположника и крупнейшего представителя архитектуры Высокого Возрождения, Донато Браманте. Сейчас она закрыта для публичных посещений, кроме специально организованных туров. Четыре века спустя, в 1932 году, Джузеппе Момо представил современный, широко известный посетителям Ватикана, шедевр - лестницу, по которой ежедневно проходит нескончаемый поток туристов по двум спиралям от музея Пия-Климента.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_002_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_003_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Площадь Святого Петра - построенная в середине семнадцатого века по проекту Джованни Бернини, грандиозная площадь, выполненная в виде двух полукружий из колоннад тосканского ордена, вместе с собором образующих символическую форму «ключа Святого Петра». В сердце площади стоит, привезённый в Рим императором Калигулой, египетский обелиск, когда-то украшавший цирк Нерона и играющий роль гномона. Сегодня тысячи католиков приходят на площадь услышать выступления Папы Римского, выходящего к верующим каждое утро среды.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_004_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_005_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Выход из Помпей / Бронзовая статуя
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_006_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Пленник Помпей - окаменелая статуя ребенка. Извержение Везувия в двадцать четвертый день августа семьдесят девятого года новой эры унесло жизни шестнадцати тысяч человек, беспечно не придавших значения множеству признаков надвигающейся катастрофы.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_007_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_008_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <p className = 'image-caption vertical'>
           Виноградники в Помпеях / Везувий
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_009_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           «Большая Палестра» - частично сохранившееся до наших дней старинное строение, возведенное в период правления основателя Римской Империи - Октавиана Августа (начало первого века новой эры) предназначавшееся для гимнастических упражнений и спортивных мероприятий.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_010_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Виноградники в Помпеях / Везувий
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_011_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_012_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_013_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
@@ -47,11 +54,13 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Неаполитанский замок Сант-Эльмо. Стены этой крепости спасли жизнь целого ряда благородных особ. Так, например, в 1717 году здесь скрывался от отца лишённый права на престолонаследие  цесаревич Алексей Петрович Романов.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_015_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_016_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Неаполь - один из наиболее древних непрерывно заселенных городов мира и третий по величине город Италии, ставший домом более чем для трех миллионов горожан. Он был основан в восьмом веке до новой эры греками, давшими ему название - Парфенопа - мифической сирены, своим пением безуспешно пытавшейся очаровать Одиссея. Новый город - как можно было бы перевести современное название города с греческого, - один из самых противоречивых городов Италии, со своим акцентом, особыми культурой и традициями. Будучи родиной пиццы, пожалуй, известнейшего национального блюда Италии, он также славится своей особой кулинарией.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_017_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_018_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_019_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
@@ -61,6 +70,7 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Собор Святого Петра - католический собор, без малейшего преувеличения, олицетворяющий историю, воплощённую в камне - сердце Ватикана. Одно из наиболее грандиозных сооружений Святого Престола и всего христианского мира. Его история начинается со времен правления первого христианского императора Константина, когда в четвертом веке была построена первая базилика. Над проектированием собора трудились поколения величайших итальянских мастеров, среди которых: Браманте, Рафаэль, Микеланджело, и Бернини. Сегодня собор, на протяжении почти двух тысячелетий символизирующий торжество христианства, является одной из главных достопримечательностей Рима.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_023_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_024_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_025_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
@@ -68,6 +78,7 @@ function ConqueringRome() {
         <p className = 'image-caption vertical'>
           Амфитеатр Флавиев или Колизей - одно из наиболее известных и грандиозных творений Древнего Рима. Строительство самого большого амфитеатра было положено в 72 году новой эры императором Веспасианом, одержавшим победу в Иудее, и уже спустя восемь лет, когда правление Римской Империей перешло в руки императора Тита, строительные работы были завершены. На протяжении веков, Колизей служил центром всевозможных увеселительных зрелищ. Однако, нашествия варваров привело амфитеатр в запустение и положило начало его разрушению. Арена была переоборудована в кладбище, а многочисленные сводчатые пространства и аркады приспособлены под жильё и мастерские. На сегодняшний день Колизей является символом Рима и одним из популярнейших туристических объектов.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_027_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_028_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_029_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
@@ -76,6 +87,7 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Колизей / Вид на амфитеатр со стен Римского форума. На переднем плане изображена триумфальная арка Септимия Севера, возведённая в 205 году новой эры в память о победах императора и его сыновей Каракаллы и Геты над Парфией в двух военных кампаниях 195—203 годов.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_032_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_033_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_034_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
@@ -83,25 +95,30 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Хаджар-Ким - крупнейший и наиболее известный мегалитический храмовый комплекс Мальты. Храм был построен в четвертом тысячелетии до новой эры, что относит его к одному из древнейших религиозных строений.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_036_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_037_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Башня Шиута (Sciuta Tower) - небольшая сторожевая башня, воздвигнутая в 1638 году на месте средневекового смотрового поста как часть комплекса обороны из пяти башен Ласкари.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_038_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Соляная ферма - построенные еще при римлянах, когда служба легионеров нередко оплачивалась солью, множественные фермы на Мальте по прежнему служат своему прямому назначению. Между прочим, происхождение слова 'зарплата' (salary) в английском языке непосредственно связано с латинским словом 'соль' (sal).
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_039_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Марсаскала - морская деревня, построенная вокруг небольшой гавани в юго-восточном регионе Мальты.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_040_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_041_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_042_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Сенглея. Вид на Базилику Рождества Девы Марии.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_043_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_044_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_045_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
@@ -111,17 +128,20 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Астрономическая обсерватория Флейрстар.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_049_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_050_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_051_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Дачный домик
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_052_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_053_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Дорога к морю
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_054_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_055_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_056_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
@@ -131,6 +151,7 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Коралловая лагуна
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_060_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_061_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_062_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
@@ -138,15 +159,18 @@ function ConqueringRome() {
         <p className = 'image-caption'>
           Дом у моря
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_064_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Паромный порт на острове Гозо
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_065_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_066_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
           Мдина - молчаливый город, остановивший время. Основанная более четырех тысяч лет назад, историческая столица Мальты, когда то служившая домом местной знати, по-прежнему хранит дух ушедшей эпохи. Это город-музей, окруженный высокими крепостными стенами за которые есть лишь два входа, скрывающих удивительную романтику и загадочность.
         </p>
+
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_067_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_068_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_069_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image' />
