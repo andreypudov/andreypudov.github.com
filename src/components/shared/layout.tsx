@@ -1,14 +1,18 @@
 import Header from './Header';
 import Footer from './Footer';
 
-function Layout({ children }: React.PropsWithChildren<{}>) {
+type LayoutProps = {
+  Landing?: boolean;
+};
+
+function Layout(props: React.PropsWithChildren<LayoutProps>) {
   return (
     <div className="layout">
       <Header />
       <div id='content'>
-        { children }
+        { props.children }
       </div>
-      <Footer />
+      <Footer Landing = { props.Landing } />
     </div>
   );
 }
