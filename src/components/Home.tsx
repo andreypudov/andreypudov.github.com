@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <Layout>
+    <Layout Landing = { true }>
       <div id='homeCarousel' className = 'carousel slide' data-ride='carousel'>
         <ol className = 'carousel-indicators'>
           <li data-target='#homeCarousel' data-slide-to='0' className = 'active'></li>

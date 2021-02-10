@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 
-function Footer() {
+type FooterProps = {
+  Landing?: boolean;
+};
+
+function Footer({ Landing }: FooterProps) {
   return (
     <div id='footer'>
-      <div className = 'container marketing'>
+      <div className = { Landing ? 'container marketing' : 'container' }>
         <footer>
-          <hr className = 'footer-divider' />
+          { !Landing && <hr className = 'footer-divider' /> }
 
           <ul className = 'piped-links pull-right'>
             <li className = 'first piped-links-short'><Link to = '/resume'>About</Link></li>
