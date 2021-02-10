@@ -13,7 +13,19 @@ function Home() {
           <li data-target='#homeCarousel' data-slide-to='3'></li>
         </ol>
         <div className = 'carousel-inner'>
-          <div className = 'item active'>
+        <div className = 'item active'>
+            <img src = 'images/carousel/altay.jpg' alt = 'Altay. Conquering Siberia 2.0' />
+            <div className = 'container'>
+              <div className = 'carousel-caption'>
+                <h1>Altay. Conquering Siberia 2.0</h1>
+                <p />
+                <p>
+                  <Link to = '/albums/altay' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className = 'item'>
             <img src = 'images/carousel/rome-malta.jpg' alt = 'Conquering Rome and Order of Malta' />
             <div className = 'container'>
               <div className = 'carousel-caption'>
@@ -49,18 +61,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className = 'item'>
-            <img src = 'images/carousel/kaliningrad.jpg' alt = 'Kaliningrad. The amber capital of the World' />
-            <div className = 'container'>
-              <div className = 'carousel-caption'>
-                <h1>Kaliningrad. The amber capital of the World</h1>
-                <p />
-                <p>
-                  <Link to = '/albums/kaliningrad' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
-                </p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
 
