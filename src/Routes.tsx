@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Contents from './components/Contents';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
 import Favorites from './components/albums/Favorites';
 import Altay from './components/albums/Altay';
@@ -56,6 +57,8 @@ function Routes() {
       <Route exact path = '/albums/golden-age' component = { GoldenAge } />
       <Route exact path = '/albums/vera-klemenova' component = { VeraKlemenova } />
       <Route exact path = '/albums/imperial-town' component = { ImperialTown } />
+
+      <Route component = { NotFound } />
     </Switch>
   );
 }
