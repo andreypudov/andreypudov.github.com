@@ -44,7 +44,7 @@ function Home() {
                 <h1>Conquering America 2.0</h1>
                 <p />
                 <p>
-                  <Link to = '/albums/unitedstates-2.0' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
+                  <Link to = '/albums/united-states-2.0' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
                 </p>
               </div>
             </div>
@@ -68,6 +68,16 @@ function Home() {
       <div className = 'container marketing marketing-image'>
         <div className = 'row'>
           <div className = 'col-lg-3 col-md-3 col-sm-3'>
+              <Link to = '/albums/favorite-photographs'>
+                <img src = 'images/marketing/altay.jpg' alt = 'Favorite Photographs' />
+              </Link>
+          </div>
+          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+            <Link to = '/albums/rekshino'>
+              <img src = 'images/marketing/rekshino.jpg' alt = 'Rekshino' />
+            </Link>
+          </div>
+          <div className = 'col-lg-3 col-md-3 col-sm-3'>
             <Link to = '/albums/united-states'>
               <img src = 'images/marketing/united-states.jpg' alt = 'Conquering America' />
             </Link>
@@ -76,16 +86,6 @@ function Home() {
             <Link to = '/albums/lake-baikal'>
               <img src = 'images/marketing/lake-baikal.jpg' alt = 'Lake Baikal' />
             </Link>
-          </div>
-          <div className = 'col-lg-3 col-md-3 col-sm-3'>
-            <Link to = '/albums/little-russia'>
-              <img src = 'images/marketing/little-russia.jpg' alt = 'Little Russia' />
-            </Link>
-          </div>
-            <div className = 'col-lg-3 col-md-3 col-sm-3'>
-              <Link to = '/albums/favorite-photographs'>
-                <img src = 'images/marketing/favorite-photographs.jpg' alt = 'Favorite Photographs' />
-              </Link>
           </div>
         </div>
       </div>
