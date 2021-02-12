@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './ScrollToTop'
 import Routes from './Routes';
 
+import './styles/style.scss';
+
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>

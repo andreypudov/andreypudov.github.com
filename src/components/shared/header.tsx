@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -14,14 +14,14 @@ function Header() {
                   <span className = 'icon-bar'></span>
                   <span className = 'icon-bar'></span>
                 </button>
-                <NavLink to = '/' className = 'navbar-brand'>Andrey Pudov</NavLink>
+                <Link to = '/' className = 'navbar-brand'>Andrey Pudov</Link>
               </div>
               <div className = 'navbar-collapse collapse'>
                 <ul className = 'nav navbar-nav'>
-                  <li><NavLink to = '/contents'>Albums</NavLink></li>
-                  <li><NavLink to = '/contents'>Contents</NavLink></li>
-                  <li><NavLink to = '/resume'>Resume</NavLink></li>
-                  <li><NavLink to = '/contact'>Contact</NavLink></li>
+                  <li><Link to = '/albums'>Albums</Link></li>
+                  <li><Link to = '/contents'>Contents</Link></li>
+                  <li><Link to = '/resume'>Resume</Link></li>
+                  <li><Link to = '/contact'>Contact</Link></li>
                 </ul>
               </div>
             </div>
