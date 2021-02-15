@@ -6,9 +6,7 @@ function Contents() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Contents</h1>
-        </div>
+        <h1>Contents</h1>
 
         <ol className = 'table-of-contents'>
           <li>

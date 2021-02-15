@@ -1,0 +1,13 @@
+.carousel {
+  .carousel-inner {
+    .carousel-item {
+      max-height: 500px;
+    }
+  }
+}
+
+.marketing {
+  .row {
+    --bs-gutter-x: 0;
+  }
+}

@@ -3,27 +3,30 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div id = 'header'>
-      <div className = 'navbar-wrapper'>
-        <div className = 'container'>
-          <div className = 'navbar navbar-static-top' role='navigation'>
-            <div className = 'container'>
-              <div className = 'navbar-header'>
-                <button type = 'button' className = 'navbar-toggle' data-toggle = 'collapse' data-target = '.navbar-collapse'>
-                  <span className = 'sr-only'>Toggle navigation</span>
-                  <span className = 'icon-bar'></span>
-                  <span className = 'icon-bar'></span>
-                  <span className = 'icon-bar'></span>
-                </button>
-                <Link to = '/' className = 'navbar-brand'>Andrey Pudov</Link>
-              </div>
-              <div className = 'navbar-collapse collapse'>
-                <ul className = 'nav navbar-nav'>
-                  <li><Link to = '/albums'>Albums</Link></li>
-                  <li><Link to = '/contents'>Contents</Link></li>
-                  <li><Link to = '/resume'>Resume</Link></li>
-                  <li><Link to = '/contact'>Contact</Link></li>
-                </ul>
-              </div>
+      <div className = 'container'>
+        <div className = 'navbar navbar-expand-lg navbar-light bg-light'>
+          <div className = 'container-fluid'>
+            <button className = 'navbar-toggler' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#navbarMain' aria-controls = 'navbarMain' aria-expanded = 'false' aria-label = 'Toggle navigation'>
+              <span className = 'navbar-toggler-icon'></span>
+            </button>
+            <div className = 'collapse navbar-collapse justify-content-md-center' id = 'navbarMain'>
+              <ul className = 'navbar-nav'>
+                <li className = 'nav-item'>
+                  <Link to = '/' className = 'nav-link'>Andrey Pudov</Link>
+                </li>
+                <li className = 'nav-item'>
+                  <Link to = '/albums' className = 'nav-link'>Albums</Link>
+                </li>
+                <li className = 'nav-item'>
+                  <Link to = '/contents' className = 'nav-link'>Contents</Link>
+                </li>
+                <li className = 'nav-item'>
+                  <Link to = '/resume' className = 'nav-link'>Resume</Link>
+                </li>
+                <li className = 'nav-item'>
+                  <Link to = '/contact' className = 'nav-link'>Contact</Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -5,9 +5,10 @@ function AlinaCherdakova() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Alina Cherdakova<small><em>Saturday, August 08, 2018</em></small></h1>
-        </div>
+        <h1>
+          Alina Cherdakova
+          <small className = 'text-muted'>Saturday, August 08, 2018</small>
+        </h1>
 
         <img src = '../albums/2018-08-18/2018-08-18_001.jpg' alt = 'Alina Cherdakova' className = 'img-responsive gallery-image' />
         <img src = '../albums/2018-08-18/2018-08-18_002.jpg' alt = 'Alina Cherdakova' className = 'img-responsive gallery-image' />
