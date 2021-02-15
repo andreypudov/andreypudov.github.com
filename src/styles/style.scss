@@ -1,4 +1,6 @@
 // Configuration
+@import 'variables';
+
 @import 'bootstrap/scss/functions';
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/mixins';
@@ -40,4 +42,9 @@
 
 // Utilities
 @import 'bootstrap/scss/utilities/api';
-// scss-docs-end import-stack
+
+@import 'reboot';
+@import 'carousel';
+@import 'footer';
+@import 'header';
+@import 'navbar';

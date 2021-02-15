@@ -60,26 +60,26 @@ function Home() {
         </button>
       </div>
 
-      <div className = 'container marketing marketing-image'>
+      <div className = 'marketing marketing-image'>
         <div className = 'row'>
-          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+          <div className = 'col-sm-3'>
               <Link to = '/albums/favorite-photographs'>
-                <img src = 'images/marketing/altay.jpg' alt = 'Favorite Photographs' />
+                <img src = 'images/marketing/altay.jpg' className = 'img-fluid' alt = 'Favorite Photographs' />
               </Link>
           </div>
-          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+          <div className = 'col-sm-3'>
             <Link to = '/albums/rekshino'>
-              <img src = 'images/marketing/rekshino.jpg' alt = 'Rekshino' />
+              <img src = 'images/marketing/rekshino.jpg' className = 'img-fluid' alt = 'Rekshino' />
             </Link>
           </div>
-          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+          <div className = 'col-sm-3'>
             <Link to = '/albums/united-states'>
-              <img src = 'images/marketing/united-states.jpg' alt = 'Conquering America' />
+              <img src = 'images/marketing/united-states.jpg' className = 'img-fluid' alt = 'Conquering America' />
             </Link>
           </div>
-          <div className = 'col-lg-3 col-md-3 col-sm-3'>
+          <div className = 'col-sm-3'>
             <Link to = '/albums/lake-baikal'>
-              <img src = 'images/marketing/lake-baikal.jpg' alt = 'Lake Baikal' />
+              <img src = 'images/marketing/lake-baikal.jpg' className = 'img-fluid' alt = 'Lake Baikal' />
             </Link>
           </div>
         </div>

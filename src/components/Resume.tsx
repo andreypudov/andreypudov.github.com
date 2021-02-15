@@ -5,10 +5,11 @@ function Resume() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Resume<small>Driven professional with broad technical skill set. Thrives in environments that constantly embrace new technologies. Interested in challenging and varied position that will enable me to capitalize on sound  technical and project management expertise, with opportunities for personal and professional growth.</small>
-          </h1>
-        </div>
+        <h1>Resume</h1>
+
+        <p className = 'lead'>
+          Driven professional with broad technical skill set. Thrives in environments that constantly embrace new technologies. Interested in challenging and varied position that will enable me to capitalize on sound  technical and project management expertise, with opportunities for personal and professional growth.
+        </p>
 
         <div>
           <div className = 'col-xs-12 col-sm-7'>

@@ -5,9 +5,11 @@ function Contact() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Contact<small>Thank you for visiting the site, should you have been unable to find the information that you required or wish to find out any further information, please feel free to contact me and I will get back to you as soon as possible.</small></h1>
-        </div>
+        <h1>Contact</h1>
+
+        <p>
+          Thank you for visiting the site, should you have been unable to find the information that you required or wish to find out any further information, please feel free to contact me and I will get back to you as soon as possible.
+        </p>
 
         <address>
           <strong>Andrey Pudov</strong><br />
