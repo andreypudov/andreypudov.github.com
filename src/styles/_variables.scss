@@ -44,5 +44,14 @@ $theme-colors: (
 $link-decoration:       none !default;
 $link-hover-decoration: underline !default;
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1170px
+) !default;
+
 $font-family-sans-serif: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-$font-size-base:         .8rem !default;
+$font-size-base:         .9rem !default;
+$font-size-sm:           $font-size-base * .775 !default;
