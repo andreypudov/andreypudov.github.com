@@ -18,7 +18,7 @@ function Home() {
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Altay. Conquering Siberia 2.0</h5>
               <p>
-                <Link to = '/albums/altay' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
+                <Link to = '/photographs/altay' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
               </p>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Home() {
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Conquering Rome and Order of Malta</h5>
               <p>
-                <Link to = '/albums/rome-malta' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
+                <Link to = '/photographs/rome-malta' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ function Home() {
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Conquering America 2.0</h5>
               <p>
-                <Link to = '/albums/united-states-2.0' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
+                <Link to = '/photographs/united-states-2.0' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
               </p>
             </div>
           </div>
@@ -45,7 +45,7 @@ function Home() {
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Kira Orlova</h5>
               <p>
-                <Link to = '/albums/kira-orlova' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
+                <Link to = '/photographs/kira-orlova' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
               </p>
             </div>
           </div>
@@ -63,22 +63,22 @@ function Home() {
       <div className = 'marketing marketing-image'>
         <div className = 'row'>
           <div className = 'col-sm-3'>
-              <Link to = '/albums/favorite-photographs'>
+              <Link to = '/photographs/favorite-photographs'>
                 <img src = 'images/marketing/altay.jpg' className = 'img-fluid' alt = 'Favorite Photographs' />
               </Link>
           </div>
           <div className = 'col-sm-3'>
-            <Link to = '/albums/rekshino'>
+            <Link to = '/photographs/rekshino'>
               <img src = 'images/marketing/rekshino.jpg' className = 'img-fluid' alt = 'Rekshino' />
             </Link>
           </div>
           <div className = 'col-sm-3'>
-            <Link to = '/albums/united-states'>
+            <Link to = '/photographs/united-states'>
               <img src = 'images/marketing/united-states.jpg' className = 'img-fluid' alt = 'Conquering America' />
             </Link>
           </div>
           <div className = 'col-sm-3'>
-            <Link to = '/albums/lake-baikal'>
+            <Link to = '/photographs/lake-baikal'>
               <img src = 'images/marketing/lake-baikal.jpg' className = 'img-fluid' alt = 'Lake Baikal' />
             </Link>
           </div>

@@ -6,8 +6,8 @@ type FooterProps = {
 
 function Footer({ Landing }: FooterProps) {
   return (
-    <div className = { Landing ? 'container marketing' : 'container' }>
-      <footer>
+    <footer>
+      <div className = 'container'>
         { !Landing && <hr className = 'footer-divider' /> }
 
         <ul className = 'piped-links pull-right'>
@@ -21,7 +21,7 @@ function Footer({ Landing }: FooterProps) {
         </ul>
 
         <p className = 'piped-links-short'>&#169; 2021 Andrey Pudov. All rights reserved.</p>
-      </footer>
+      </div>
 
       <script src = 'libraries/jquery/jquery-1.11.3.min.js'></script>
 
@@ -31,7 +31,7 @@ function Footer({ Landing }: FooterProps) {
 
       <script src = 'libraries/bootstrap/js/carousel.js'></script>
       <script src = 'scripts/init.js'></script>
-    </div>
+    </footer>
   );
 }
 

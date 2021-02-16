@@ -7,27 +7,27 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
-import Favorites from './components/albums/Favorites';
-import Altay from './components/albums/Altay';
-import NizhnyNovgorod from './components/albums/NizhnyNovgorod';
-import Rekshino from './components/albums/Rekshino';
-import AlinaCherdakova from './components/albums/AlinaCherdakova';
-import BalloonFestival from './components/albums/BalloonFestival';
-import ConqueringRome from './components/albums/ConqueringRome';
-import KiraOrlova from './components/albums/KiraOrlova';
-import ConqueringAmerica2 from './components/albums/ConqueringAmerica2';
-import ConqueringAmerica from './components/albums/ConqueringAmerica';
-import Kaliningrad from './components/albums/Kaliningrad';
-import FormulaSochi from './components/albums/FormulaSochi';
-import LakeBaikal from './components/albums/LakeBaikal';
-import MilitaryMuseum from './components/albums/MilitaryMuseum';
-import Ekaterinburg from './components/albums/Ekaterinburg';
-import YoshkarOla from './components/albums/YoshkarOla';
-import LittleRussia from './components/albums/LittleRussia';
-import RussianEmirates from './components/albums/RussianEmirates';
-import GoldenAge from './components/albums/GoldenAge';
-import VeraKlemenova from './components/albums/VeraKlemenova';
-import ImperialTown from './components/albums/ImperialTown';
+import Favorites from './components/photographs/Favorites';
+import Altay from './components/photographs/Altay';
+import NizhnyNovgorod from './components/photographs/NizhnyNovgorod';
+import Rekshino from './components/photographs/Rekshino';
+import AlinaCherdakova from './components/photographs/AlinaCherdakova';
+import BalloonFestival from './components/photographs/BalloonFestival';
+import ConqueringRome from './components/photographs/ConqueringRome';
+import KiraOrlova from './components/photographs/KiraOrlova';
+import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
+import ConqueringAmerica from './components/photographs/ConqueringAmerica';
+import Kaliningrad from './components/photographs/Kaliningrad';
+import FormulaSochi from './components/photographs/FormulaSochi';
+import LakeBaikal from './components/photographs/LakeBaikal';
+import MilitaryMuseum from './components/photographs/MilitaryMuseum';
+import Ekaterinburg from './components/photographs/Ekaterinburg';
+import YoshkarOla from './components/photographs/YoshkarOla';
+import LittleRussia from './components/photographs/LittleRussia';
+import RussianEmirates from './components/photographs/RussianEmirates';
+import GoldenAge from './components/photographs/GoldenAge';
+import VeraKlemenova from './components/photographs/VeraKlemenova';
+import ImperialTown from './components/photographs/ImperialTown';
 
 function Routes() {
   return (
@@ -38,27 +38,27 @@ function Routes() {
       <Route exact path = '/resume' component = { Resume } />
       <Route exact path = '/contact' component = { Contact } />
 
-      <Route exact path = '/albums/favorite-photographs' component = { Favorites } />
-      <Route exact path = '/albums/altay' component = { Altay } />
-      <Route exact path = '/albums/nizhny-novgorod' component = { NizhnyNovgorod } />
-      <Route exact path = '/albums/rekshino' component = { Rekshino } />
-      <Route exact path = '/albums/alina-cherdakova' component = { AlinaCherdakova } />
-      <Route exact path = '/albums/balloon-festival' component = { BalloonFestival } />
-      <Route exact path = '/albums/rome-malta' component = { ConqueringRome } />
-      <Route exact path = '/albums/kira-orlova' component = { KiraOrlova } />
-      <Route exact path = '/albums/united-states-2.0' component = { ConqueringAmerica2 } />
-      <Route exact path = '/albums/united-states' component = { ConqueringAmerica } />
-      <Route exact path = '/albums/kaliningrad' component = { Kaliningrad } />
-      <Route exact path = '/albums/formula-sochi' component = { FormulaSochi } />
-      <Route exact path = '/albums/lake-baikal' component = { LakeBaikal } />
-      <Route exact path = '/albums/military-museum' component = { MilitaryMuseum } />
-      <Route exact path = '/albums/ekaterinburg' component = { Ekaterinburg } />
-      <Route exact path = '/albums/yoshkar-ola' component = { YoshkarOla } />
-      <Route exact path = '/albums/little-russia' component = { LittleRussia } />
-      <Route exact path = '/albums/russian-emirates' component = { RussianEmirates } />
-      <Route exact path = '/albums/golden-age' component = { GoldenAge } />
-      <Route exact path = '/albums/vera-klemenova' component = { VeraKlemenova } />
-      <Route exact path = '/albums/imperial-town' component = { ImperialTown } />
+      <Route exact path = '/photographs/favorite-photographs' component = { Favorites } />
+      <Route exact path = '/photographs/altay' component = { Altay } />
+      <Route exact path = '/photographs/nizhny-novgorod' component = { NizhnyNovgorod } />
+      <Route exact path = '/photographs/rekshino' component = { Rekshino } />
+      <Route exact path = '/photographs/alina-cherdakova' component = { AlinaCherdakova } />
+      <Route exact path = '/photographs/balloon-festival' component = { BalloonFestival } />
+      <Route exact path = '/photographs/rome-malta' component = { ConqueringRome } />
+      <Route exact path = '/photographs/kira-orlova' component = { KiraOrlova } />
+      <Route exact path = '/photographs/united-states-2.0' component = { ConqueringAmerica2 } />
+      <Route exact path = '/photographs/united-states' component = { ConqueringAmerica } />
+      <Route exact path = '/photographs/kaliningrad' component = { Kaliningrad } />
+      <Route exact path = '/photographs/formula-sochi' component = { FormulaSochi } />
+      <Route exact path = '/photographs/lake-baikal' component = { LakeBaikal } />
+      <Route exact path = '/photographs/military-museum' component = { MilitaryMuseum } />
+      <Route exact path = '/photographs/ekaterinburg' component = { Ekaterinburg } />
+      <Route exact path = '/photographs/yoshkar-ola' component = { YoshkarOla } />
+      <Route exact path = '/photographs/little-russia' component = { LittleRussia } />
+      <Route exact path = '/photographs/russian-emirates' component = { RussianEmirates } />
+      <Route exact path = '/photographs/golden-age' component = { GoldenAge } />
+      <Route exact path = '/photographs/vera-klemenova' component = { VeraKlemenova } />
+      <Route exact path = '/photographs/imperial-town' component = { ImperialTown } />
 
       <Route component = { NotFound } />
     </Switch>
