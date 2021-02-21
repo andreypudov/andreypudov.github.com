@@ -8,7 +8,7 @@ function Contents() {
       <div className = 'container'>
         <h1>Contents</h1>
 
-        <ol className = 'table-of-contents'>
+        <ol className = 'contents'>
           <li>
             <h2>Photographs</h2>
           </li>
