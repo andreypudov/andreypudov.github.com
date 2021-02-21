@@ -5,9 +5,10 @@ function VeraKlemenova() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Vera Klemenova<small><em>Thursday, July 19, 2012</em></small></h1>
-        </div>
+        <h1>
+          Vera Klemenova
+          <small className = 'text-muted'>Thursday, July 19, 2012</small>
+        </h1>
 
         <img src = '../albums/2012-07-19/2012-07-19_001_large.jpg' alt = 'Andrey Pudov, Nizhny Novgorod, Vera Klemenova' className = 'img-responsive gallery-image' />
         <img src = '../albums/2012-07-19/2012-07-19_002_large.jpg' alt = 'Andrey Pudov, Nizhny Novgorod, Vera Klemenova' className = 'img-responsive gallery-image' />

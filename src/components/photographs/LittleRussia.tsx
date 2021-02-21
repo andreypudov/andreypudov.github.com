@@ -5,9 +5,10 @@ function LittleRussia() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Little Russia<small><em>Saturday, September 14, 2013</em></small></h1>
-        </div>
+        <h1>
+          Little Russia
+          <small className = 'text-muted'>Saturday, September 14, 2013</small>
+        </h1>
 
         <img src = '../albums/2013-09-14_27/2013-09-14_001_large.jpg' alt = 'Andrey Pudov, Ukraine, Odessa, Kiev, Малая Русь' className = 'img-responsive gallery-image' />
         <img src = '../albums/2013-09-14_27/2013-09-14_002_large.jpg' alt = 'Andrey Pudov, Ukraine, Odessa, Kiev, Малая Русь' className = 'img-responsive gallery-image' />

@@ -5,9 +5,10 @@ function ConqueringAmerica() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Conquering America<small><em>Saturday, December 24, 2016</em></small></h1>
-        </div>
+        <h1>
+          Conquering America
+          <small className = 'text-muted'>Saturday, December 24, 2016</small>
+        </h1>
 
         <img src = '../albums/2016-10-15_11-05/2016-10-15_11-05_001_large.jpg' alt = 'Andrey Pudov - Покорение Америки' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2016-10-15_11-05/2016-10-15_11-05_002_large.jpg' alt = 'Andrey Pudov - Покорение Америки' className = 'img-responsive gallery-image' />

@@ -5,9 +5,10 @@ function Rekshino() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Rekshino<small><em>Saturday, October 26, 2019</em></small></h1>
-        </div>
+        <h1>
+          Rekshino
+          <small className = 'text-muted'>Saturday, October 26, 2019</small>
+        </h1>
 
         <img src = '../albums/2019-10-26/2019-10-26_001.jpg' alt = 'Rekshino' className = 'img-responsive gallery-image' />
         <img src = '../albums/2019-10-26/2019-10-26_002.jpg' alt = 'Rekshino' className = 'img-responsive gallery-image' />

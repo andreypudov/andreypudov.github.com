@@ -5,9 +5,10 @@ function Favorites() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Favorite Photographs<small><em>Wednesday, March 17, 2021</em></small></h1>
-        </div>
+        <h1>
+          Favorite Photographs
+          <small className = 'text-muted'>Wednesday, March 17, 2021</small>
+        </h1>
 
         <img src = '../albums/2012-03-17/2012-03-17_030.jpg' alt = 'Андрей Пудов, Andrey Pudov' className = 'img-responsive gallery-image' />
         <img src = '../albums/2012-03-17/2012-03-17_029_large.jpg' alt = 'Андрей Пудов, Andrey Pudov' className = 'img-responsive gallery-image vertical' />

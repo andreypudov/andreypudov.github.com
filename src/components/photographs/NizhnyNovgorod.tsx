@@ -5,9 +5,10 @@ function NizhnyNovgorod() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Nizhny Novgorod<small><em>Tuesday, July 16, 2019</em></small></h1>
-        </div>
+        <h1>
+          Nizhny Novgorod
+          <small className = 'text-muted'>Tuesday, July 16, 2019</small>
+        </h1>
 
         <img src = '../albums/2019-07-16/2019-07-16_001.jpg' alt = 'Andrey Pudov, Nizgny Novgorod' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2019-07-16/2019-07-16_002.jpg' alt = 'Andrey Pudov, Nizgny Novgorod' className = 'img-responsive gallery-image vertical' />

@@ -5,9 +5,10 @@ function Altay() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Altay. Conquering Siberia 2.0<small><em>Sunday, July 19, 2020</em></small></h1>
-        </div>
+        <h1>
+          Altay. Conquering Siberia 2.0
+          <small className = 'text-muted'>Sunday, July 19, 2020</small>
+        </h1>
 
         <img src = '../albums/2020-07-19_08-04/2020-07-19_08-04_002.jpg' alt = 'Altay. Conquering Siberia' className = 'img-responsive gallery-image' />
         <img src = '../albums/2020-07-19_08-04/2020-07-19_08-04_003.jpg' alt = 'Altay. Conquering Siberia' className = 'img-responsive gallery-image' />

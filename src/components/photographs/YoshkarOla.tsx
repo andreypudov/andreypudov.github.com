@@ -5,9 +5,10 @@ function YoshkarOla() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Yoshkar-Ola. Tsar's town on Kokshaga River<small><em>Saturday, May 10, 2014</em></small></h1>
-        </div>
+        <h1>
+          Yoshkar-Ola. Tsar's town on Kokshaga River
+          <small className = 'text-muted'>Saturday, May 10, 2014</small>
+        </h1>
 
         <img src = '../albums/2014-05-10/2014-05-10_001_large.jpg' alt = 'Andrey Pudov, Yoshkar-Ola, Йошкар-Ола. Царёв град на Кокшаге' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2014-05-10/2014-05-10_002_large.jpg' alt = 'Andrey Pudov, Yoshkar-Ola, Йошкар-Ола. Царёв град на Кокшаге' className = 'img-responsive gallery-image' />
