@@ -5,9 +5,10 @@ function Kaliningrad() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Kaliningrad. The amber capital of the World<small><em>Saturday, November 26, 2016</em></small></h1>
-        </div>
+        <h1>
+          Kaliningrad. The amber capital of the World
+          <small className = 'text-muted'>Saturday, November 26, 2016</small>
+        </h1>
 
         <img src = '../albums/2016-08-24_30/2016-08-24_30_001_large.jpg' alt='Andrey Pudov - Калининград. Янтарная столица мира.' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>Рыбная деревня</p>

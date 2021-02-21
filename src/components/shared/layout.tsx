@@ -7,11 +7,11 @@ type LayoutProps = {
 
 function Layout(props: React.PropsWithChildren<LayoutProps>) {
   return (
-    <div className="layout">
+    <div className = 'layout'>
       <Header />
-      <div id='content'>
+      <main>
         { props.children }
-      </div>
+      </main>
       <Footer Landing = { props.Landing } />
     </div>
   );

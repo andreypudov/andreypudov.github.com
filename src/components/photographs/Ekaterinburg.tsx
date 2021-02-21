@@ -5,9 +5,10 @@ function Ekaterinburg() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Ekaterinburg. The Picture of City<small><em>Sunday, December 21, 2014</em></small></h1>
-        </div>
+        <h1>
+          Ekaterinburg. The Picture of City
+          <small className = 'text-muted'>Sunday, December 21, 2014</small>
+        </h1>
 
         <img src = '../albums/2014-12-21_25_city/2014-12-21_001_large.jpg' alt = 'Andrey Pudov, Ekaterinburg' className = 'img-responsive gallery-image' />
         <img src = '../albums/2014-12-21_25_city/2014-12-21_002_large.jpg' alt = 'Andrey Pudov, Ekaterinburg' className = 'img-responsive gallery-image vertical' />

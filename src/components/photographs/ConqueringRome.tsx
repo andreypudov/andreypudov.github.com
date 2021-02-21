@@ -5,9 +5,10 @@ function ConqueringRome() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Conquering Rome and Order of Malta<small><em>Saturday, April 21, 2018</em></small></h1>
-        </div>
+        <h1>
+          Conquering Rome and Order of Malta
+          <small className = 'text-muted'>Saturday, April 21, 2018</small>
+        </h1>
 
         <img src = '../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_001_large.jpg' alt = 'Andrey Pudov - Взятие Рима и Мальтийского ордена' className = 'img-responsive gallery-image vertical' />
         <p className = 'image-caption vertical'>

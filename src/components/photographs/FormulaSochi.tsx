@@ -5,9 +5,10 @@ function FormulaSochi() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>2015 Formula 1 Russian Grand Prix<small><em>Monday, Oct 05, 2015</em></small></h1>
-        </div>
+        <h1>
+          2015 Formula 1 Russian Grand Prix
+          <small className = 'text-muted'>Monday, Oct 05, 2015</small>
+        </h1>
 
         <img src = '../albums/2015-10-05_11/2015-10-05_11_001_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>Четырехзвездный гостиничный комплекс Богатырь, расположенный на территории «Сочи Парка»</p>

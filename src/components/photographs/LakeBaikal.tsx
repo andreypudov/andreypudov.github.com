@@ -5,9 +5,10 @@ function LakeBaikal() {
   return (
     <Layout>
       <div className = 'container'>
-        <div className = 'page-header'>
-          <h1>Lake Baikal<small><em>Monday, July 27, 2015</em></small></h1>
-        </div>
+        <h1>
+          Lake Baikal
+          <small className = 'text-muted'>Monday, July 27, 2015</small>
+        </h1>
 
 			  <blockquote className = "blockquote-reverse">
           <p>«Байкал удивителен, и недаром сибиряки величают его не озером, а морем. Вода прозрачна необыкновенно, так что видно сквозь неё, как сквозь воздух; цвет у неё нежно-бирюзовый, приятный для глаза. Берега гористые, покрытые лесами; кругом дичь непроглядная, беспросветная. Изобилие медведей, соболей, диких коз и дикой всячины.»</p>

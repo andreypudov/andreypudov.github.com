@@ -5,9 +5,10 @@ function KiraOrlova() {
   return (
     <Layout>
       <div className = 'container'>
-          <div className = 'page-header'>
-            <h1>Kira Orlova<small><em>Sunday, October 22, 2017</em></small></h1>
-          </div>
+          <h1>
+            Kira Orlova
+            <small className = 'text-muted'>Sunday, October 22, 2017</small>
+          </h1>
 
           <img src = '../albums/2017-10-22/2017-10-22_001_large.jpg' alt = 'Andrey Pudov, Кира Орлова, Kira Orlova, 2017' className = 'img-responsive gallery-image' />
           <img src = '../albums/2017-10-22/2017-10-22_002_large.jpg' alt = 'Andrey Pudov, Кира Орлова, Kira Orlova, 2017' className = 'img-responsive gallery-image' />
