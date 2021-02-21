@@ -1,4 +1,19 @@
 main {
   margin-top: 100px;
-  margin-bottom: 30px;
+
+  h1 {
+    font-size:     1.5rem;
+    font-weight:   bold;
+    margin-top:    20px;
+    margin-bottom: 30px;
+
+    small {
+      display:     block;
+      font-weight: lighter;
+      font-style:  italic;
+      font-size:   70%;
+      line-height: 1.4;
+      margin-top:  10px;
+    }
+  }
 }

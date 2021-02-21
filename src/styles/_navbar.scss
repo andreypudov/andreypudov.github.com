@@ -1,40 +1,58 @@
 .navbar {
   border-radius: 4px;
-  background: linear-gradient(to bottom, #8d8d8d 0%, #717171 50%, #5e5e5e 51%, #787878 100%);
-  border-color: #515151;
-  border: 1px solid transparent;
-  box-shadow: 0px 2px 3px 0px #afafaf;
-  z-index: 1000;
-  border-width: 0 0 1px;
+  background:    linear-gradient(to bottom, #8d8d8d 0%, #717171 50%, #5e5e5e 51%, #787878 100%);
+  border:        1px solid #515151;
+  box-shadow:    0px 2px 3px 0px #afafaf;
+  z-index:       1000;
+  border-width:  0 0 1px;
+  padding:       0;
 
   .container-fluid {
+    padding: 0;
+
     .navbar-nav {
       .nav-item {
         &:not(:first-child) {
-          border-color: #515151;
-          border-style: solid;
           border-width: 0px 0px 0px 1px;
+          border-style: solid;
+          border-color: #515151;
         }
 
-        &:not(:first-child):before {
-          border-width: 0px 0px 0px 1px;
-          border-style: solid;
-          border-color: #858685;
-          content: ' ';
+        &:first-child {
+          .nav-link {
+            &:before {
+              border: none;
+            }
+          }
         }
 
         .nav-link {
-          color: white;
+          color:         white;
           text-decoration: none;
-          text-align: center;
-          text-shadow: 0px -1px #242424;
-          padding-top: 7px;
-          padding-bottom: 7px;
-          font-size: 12px;
-          text-align: left;
+          text-align:      center;
+          text-shadow:     0px -1px #242424;
+          padding-top:     8px;
+          padding-bottom:  8px;
+          font-size:       12px;
+          text-align:      left;
 
-          width: 120px;
-          text-align: center;
+          width:           120px;
+          text-align:      center;
+          position:        relative;
+
+          &:before {
+            border-width: 0px 0px 0px 1px;
+            border-style: solid;
+            border-color: #858685;
+
+            position: absolute;
+            z-index: 1;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            content: " ";
+            bottom: 0px;
+          }
         }
       }
     }
