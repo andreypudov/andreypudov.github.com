@@ -7,11 +7,11 @@ function Resume() {
       <div className = 'container'>
         <h1>Resume</h1>
 
-        <p className = 'lead'>
+        <p className = 'lead text-muted mb-5'>
           Driven professional with broad technical skill set. Thrives in environments that constantly embrace new technologies. Interested in challenging and varied position that will enable me to capitalize on sound  technical and project management expertise, with opportunities for personal and professional growth.
         </p>
 
-        <div>
+        <div className = 'row'>
           <div className = 'col-xs-12 col-sm-7'>
             <div className = 'curriculum-vitae'>
               <div className = 'box'>
@@ -62,12 +62,12 @@ function Resume() {
 
               <div className = 'box'>
                 <h2>Experience</h2>
-                <div className = 'job clearfix'>
-                  <div className = 'col-xs-3'>
+                <div className = 'job clearfix row'>
+                  <div className = 'col-sm-3'>
                     <div className = 'where'>Intel </div>
                     <div className = 'year'>2018 - present</div>
                   </div>
-                  <div className = 'col-xs-9'>
+                  <div className = 'col-sm-9'>
                     <div className = 'profession'>Senior Software Engineer Technical Lead</div>
                     <div className = 'description'>
                       Took the role of team leader for the new team in Nizhny Novgorod. Actively participated in hiring and team building process by mentoring almost all hired employees and ensuring their quick and efficient integration. In addition, drove engagement with business-critical stakeholders and organization of product building and distribution processes.<br />
@@ -78,12 +78,12 @@ function Resume() {
                     </div>
                   </div>
                 </div>
-                <div className = 'job clearfix'>
-                  <div className = 'col-xs-3'>
+                <div className = 'job clearfix row'>
+                  <div className = 'col-sm-3'>
                     <div className = 'where'>Intel</div>
                     <div className = 'year'>2013 - 2018</div>
                   </div>
-                  <div className = 'col-xs-9'>
+                  <div className = 'col-sm-9'>
                     <div className = 'profession'>Sr. Software Development Engineer</div>
                     <div className = 'description'>
                       Software engineer responsible for the design, development, and maintenance of the Intel Registration Center  entitlement and download website for Intel software products, focusing on user interface and system APIs.<br />
@@ -96,12 +96,12 @@ function Resume() {
                     </div>
                   </div>
                 </div>
-                <div className = 'job clearfix'>
-                  <div className = 'col-xs-3'>
+                <div className = 'job clearfix row'>
+                  <div className = 'col-sm-3'>
                     <div className = 'where'>Intel</div>
                     <div className = 'year'>2011 - 2013</div>
                   </div>
-                  <div className = 'col-xs-9'>
+                  <div className = 'col-sm-9'>
                     <div className = 'profession'>Software Development Engineer</div>
                     <div className = 'description'>
                       Main software developer for common licensing and installation technologies for Intel software products on Linux. Added the crucial Graphical User Interface functionality. Developed a wizard for the installation client, a tool used to create product installs. Showed quality commitment in developing the Automated Unit Test System to improve the capability to find bugs earlier in the development process.<br />
@@ -121,27 +121,20 @@ function Resume() {
                 <div className = 'contact-item'>
                   <a href = 'tel:+7 (952) 457 10 55' target = '_blank'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-phone fa-fw'></span></div>
-                    <div className = 'title only pull-right'>+7 (952) 457 10 55</div>
+                    <div className = 'title only'>+7 (952) 457 10 55</div>
                   </a>
                 </div>
                 <div className = 'contact-item'>
                   <a href = 'mailto:mail@andreypudov.com' target = '_blank'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-envelope fa-fw'></span></div>
-                    <div className = 'title only pull-right'>mail@andreypudov.com</div>
+                    <div className = 'title only'>mail@andreypudov.com</div>
                   </a>
                 </div>
                 <div className = 'contact-item'>
                   <a href = 'https://linkedin.com/in/pudov' target = '_blank'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-linkedin fa-fw'></span></div>
-                    <div className = 'title pull-right'>LinkedIn</div>
-                    <div className = 'description pull-right'><small>https://linkedin.com/in/pudov</small></div>
-                  </a>
-                </div>
-                <div className = 'contact-item'>
-                  <a href = 'https://www.facebook.com/andreypudov' target = '_blank'>
-                    <div className = 'icon pull-left text-center'><span className = 'fa fa-facebook fa-fw'></span></div>
-                    <div className = 'title pull-right'>Facebook</div>
-                    <div className = 'description pull-right'><small>https://facebook.com/andreypudov</small></div>
+                    <div className = 'title'>LinkedIn</div>
+                    <div className = 'descriptio'><small>https://linkedin.com/in/pudov</small></div>
                   </a>
                 </div>
               </div>
