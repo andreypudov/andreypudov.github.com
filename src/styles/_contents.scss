@@ -1,0 +1,27 @@
+.contents {
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    line-height:     2.4em;
+    border:          1px solid rgba(0, 136, 204, 0.1);
+    border-width:    0;
+
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        border-width: 0 0 1px 0;
+    }
+
+    small {
+      display: none;
+      float:   right;
+
+      @include media-breakpoint-up(sm) {
+          display: block;
+      }
+    }
+  }
+}
