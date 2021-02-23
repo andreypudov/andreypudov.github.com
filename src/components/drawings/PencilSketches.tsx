@@ -23,7 +23,7 @@ function PencilSketches() {
         <p className = 'image-caption vertical'>April 22, 2020</p>
 
         <img src = '../drawings/PencilSketches/WLmbtK_QN8g.jpg' alt = 'Pencil Sketches' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption vertical'>April 26, 2020</p>
+        <p className = 'image-caption'>April 26, 2020</p>
 
         <img src = '../drawings/PencilSketches/W6u08dHAbLg.jpg' alt = 'Pencil Sketches' className = 'img-responsive gallery-image vertical' />
         <p className = 'image-caption vertical'>July 9, 2020</p>
