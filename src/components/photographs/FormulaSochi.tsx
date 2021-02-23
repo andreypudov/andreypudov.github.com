@@ -94,8 +94,8 @@ function FormulaSochi() {
 
         <img src = '../albums/2015-10-05_11/2015-10-05_11_045_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
 
-        <div className = 'embed-responsive embed-responsive-16by9 gallery-video'>
-          <iframe className = 'embed-responsive-item' src = '//www.youtube.com/embed/XAYCQjo3m0Y?rel=0' title = 'Начало квалификационной сессии GP2' />
+        <div className = 'ratio ratio-16x9 gallery-video'>
+          <iframe src = '//www.youtube.com/embed/XAYCQjo3m0Y?rel=0' title = 'Начало квалификационной сессии GP2' />
         </div>
         <p className = "video-caption">Начало квалификационной сессии GP2</p>
 
@@ -152,8 +152,8 @@ function FormulaSochi() {
         <img src = '../albums/2015-10-05_11/2015-10-05_11_090_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
         <img src = '../albums/2015-10-05_11/2015-10-05_11_091_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
 
-        <div className = 'embed-responsive embed-responsive-16by9 gallery-video'>
-          <iframe className = 'embed-responsive-item' src = '//www.youtube.com/embed/cRuuGAEgW64?rel=0' title = 'Начало гонки Гран При России' />
+        <div className = 'ratio ratio-16x9 gallery-video'>
+          <iframe src = '//www.youtube.com/embed/cRuuGAEgW64?rel=0' title = 'Начало гонки Гран При России' />
         </div>
         <p className = "video-caption">Начало гонки Гран При России</p>
 

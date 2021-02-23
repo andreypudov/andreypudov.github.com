@@ -99,10 +99,10 @@ function LakeBaikal() {
         <img src = '../albums/2015-07-27_08-08/2015-07-27_08-08_072_large.jpg' alt = 'Andrey Pudov - Озеро Байкал' className = 'img-responsive gallery-image' />
         <img src = '../albums/2015-07-27_08-08/2015-07-27_08-08_073_large.jpg' alt = 'Andrey Pudov - Озеро Байкал' className = 'img-responsive gallery-image' />
 
-        <div className = "embed-responsive embed-responsive-16by9 gallery-video">
-          <iframe className = 'embed-responsive-item' src = '//www.youtube.com/embed/VlXZW_dqlUE?rel=0' title = 'Видеоотчет по завершению сказочного похода, прошедшего по тропе \"Путь к чистому Байкалу\".' />
+        <div className = 'ratio ratio-16x9 gallery-video'>
+          <iframe src = '//www.youtube.com/embed/VlXZW_dqlUE?rel=0' title = 'Видеоотчет по завершению сказочного похода, прошедшего по тропе \"Путь к чистому Байкалу\".' />
         </div>
-        <p className = "video-caption">Видеоотчет по завершению сказочного похода, прошедшего по тропе "Путь к чистому Байкалу".</p>
+        <p className = 'video-caption'>Видеоотчет по завершению сказочного похода, прошедшего по тропе "Путь к чистому Байкалу".</p>
       </div>
     </Layout>
   );
