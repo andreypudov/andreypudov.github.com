@@ -9,7 +9,7 @@ function Albums() {
         <h1>Albums</h1>
 
         <Link to = '/photographs/favorite-photographs' className = 'card bg-dark text-white gallery-image'>
-          <img src = '../albums/2012-03-17/2012-03-17_030.jpg' className = 'card-img' alt = '' />
+          <img src = '../albums/2012-03-17/2012-03-17_031.jpg' className = 'card-img' alt = '' />
           <div className = 'card-img-overlay'>
             <h5 className = 'card-title'>Favorite Photographs</h5>
             <p className = 'card-text'>Wednesday, March 17, 2021</p>

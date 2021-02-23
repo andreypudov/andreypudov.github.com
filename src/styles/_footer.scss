@@ -1,10 +1,10 @@
 footer {
-  color: #6e6e6e;
+  color:   #6e6e6e;
   font-size: $font-size-sm;
   -webkit-font-smoothing: antialiased;
 
   .container {
-    padding: 30px 0;
+    padding-top: 30px;
 
     > .footer-divider {
       clear:      both;
@@ -40,7 +40,7 @@ footer {
     }
 
     .piped-links-long {
-        display: none !important;
+      display: none !important;
     }
 
     @include media-breakpoint-up(sm) {

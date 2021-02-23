@@ -10,6 +10,7 @@ function Favorites() {
           <small className = 'text-muted'>Wednesday, March 17, 2021</small>
         </h1>
 
+        <img src = '../albums/2012-03-17/2012-03-17_031.jpg' alt = 'Андрей Пудов, Andrey Pudov' className = 'img-responsive gallery-image' />
         <img src = '../albums/2012-03-17/2012-03-17_030.jpg' alt = 'Андрей Пудов, Andrey Pudov' className = 'img-responsive gallery-image' />
         <img src = '../albums/2012-03-17/2012-03-17_029_large.jpg' alt = 'Андрей Пудов, Andrey Pudov' className = 'img-responsive gallery-image vertical' />
         <img src = '../albums/2012-03-17/2012-03-17_028_large.jpg' alt = 'Андрей Пудов, Andrey Pudov' className = 'img-responsive gallery-image' />
