@@ -68,4 +68,21 @@
       }
     }
   }
+
+  @include media-breakpoint-down(sm) {
+    position: fixed;
+    top:      0;
+    right:    0;
+    left:     0;
+    z-index:  1030;
+    border-radius: 0;
+
+    .container-fluid {
+      .navbar-nav {
+        .nav-item {
+          border-radius: 0;
+        }
+      }
+    }
+  }
 }

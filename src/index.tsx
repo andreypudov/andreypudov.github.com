@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './ScrollToTop'
 import Routes from './Routes';
 
+import 'bootstrap/dist/../js/dist/carousel.js';
+import 'bootstrap/dist/../js/dist/collapse.js';
 import './styles/style.scss';
 
 ReactDOM.render(

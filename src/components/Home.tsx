@@ -17,36 +17,24 @@ function Home() {
             <img src = 'images/carousel/altay.jpg' alt = 'Altay. Conquering Siberia 2.0' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Altay. Conquering Siberia 2.0</h5>
-              <p>
-                <Link to = '/photographs/altay'>Browse gallery</Link>
-              </p>
             </div>
           </Link>
           <Link to = '/photographs/rome-malta' className = 'carousel-item'>
             <img src = 'images/carousel/rome-malta.jpg' alt = 'Conquering Rome and Order of Malta' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Conquering Rome and Order of Malta</h5>
-              <p>
-                <Link to = '/photographs/rome-malta' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
-              </p>
             </div>
           </Link>
           <Link to = '/photographs/united-states-2.0' className = 'carousel-item'>
             <img src = 'images/carousel/united-states-2.0.jpg' alt = 'Conquering America 2.0' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Conquering America 2.0</h5>
-              <p>
-                <Link to = '/photographs/united-states-2.0' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
-              </p>
             </div>
           </Link>
           <Link to = '/photographs/kira-orlova' className = 'carousel-item'>
             <img src = 'images/carousel/kira-olrova.jpg' alt = 'Kira Orlova' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Kira Orlova</h5>
-              <p>
-                <Link to = '/photographs/kira-orlova' className = 'btn btn-lg btn-transparent'>Browse gallery</Link>
-              </p>
             </div>
           </Link>
         </div>

@@ -29,6 +29,12 @@ import GoldenAge from './components/photographs/GoldenAge';
 import VeraKlemenova from './components/photographs/VeraKlemenova';
 import ImperialTown from './components/photographs/ImperialTown';
 
+import PencilSketches from './components/drawings/PencilSketches';
+
+import CureForWellness from './components/performances/CureForWellness';
+import GravityFalls from './components/performances/GravityFalls';
+import MiaAndSebastian from './components/performances/MiaAndSebastian';
+
 function Routes() {
   return (
     <Switch>
@@ -59,6 +65,12 @@ function Routes() {
       <Route exact path = '/photographs/golden-age' component = { GoldenAge } />
       <Route exact path = '/photographs/vera-klemenova' component = { VeraKlemenova } />
       <Route exact path = '/photographs/imperial-town' component = { ImperialTown } />
+
+      <Route exact path = '/drawings/pencil-sketches' component = { PencilSketches } />
+
+      <Route exact path = '/performances/gravity-falls' component = { GravityFalls } />
+      <Route exact path = '/performances/cure-for-wellness' component = { CureForWellness } />
+      <Route exact path = '/performances/mia-and-sebastian' component = { MiaAndSebastian } />
 
       <Route component = { NotFound } />
     </Switch>
