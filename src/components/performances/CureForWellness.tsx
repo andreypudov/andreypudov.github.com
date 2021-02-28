@@ -1,21 +1,22 @@
 import React from 'react';
+import Album from './../../models/performances/cureForWellness';
+import Headline from './../shared/Headline';
 import Layout from './../shared/Layout'
+import VideoAlbum from '../shared/VideoAlbum';
 
-function CureForWellness() {
+function GravityFalls() {
   return (
     <Layout>
       <div className = 'container'>
-        <h1>
-          A Cure for Wellness
-          <small className = 'text-muted'>Saturday, March 17, 2018</small>
-        </h1>
+        <Headline album = { Album } />
+        <VideoAlbum album = { Album } />
 
-        <div className = 'ratio ratio-16x9 gallery-video'>
-          <iframe src = 'https://www.youtube.com/embed/YOBsb6scIN0' title = 'Mia &amp; Sebastian'/>
+        <div className = 'ratio ratio-1x1'>
+          <iframe src = 'https://musescore.com/user/16910421/scores/4632226/embed' title = { Album.title } />
         </div>
       </div>
     </Layout>
   );
 }
 
-export default CureForWellness;
+export default GravityFalls;

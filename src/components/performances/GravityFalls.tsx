@@ -1,17 +1,18 @@
 import React from 'react';
+import Album from './../../models/performances/gravityFalls';
+import Headline from './../shared/Headline';
 import Layout from './../shared/Layout'
+import VideoAlbum from '../shared/VideoAlbum';
 
 function GravityFalls() {
   return (
     <Layout>
       <div className = 'container'>
-        <h1>
-          Gravity Falls
-          <small className = 'text-muted'>Monday, January 18, 2021</small>
-        </h1>
+        <Headline album = { Album } />
+        <VideoAlbum album = { Album } />
 
-        <div className = 'ratio ratio-16x9 gallery-video'>
-          <iframe src = 'https://www.youtube.com/embed/Zr9ruD6-aTM' title = 'Mia &amp; Sebastian'/>
+        <div className = 'ratio ratio-1x1'>
+          <iframe src = 'https://musescore.com/user/16910421/scores/6637223/embed' title = { Album.title } />
         </div>
       </div>
     </Layout>
