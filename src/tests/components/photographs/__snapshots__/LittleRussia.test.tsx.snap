@@ -1,0 +1,751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Little Russia
+        <small
+          className="text-muted"
+        >
+          Saturday, September 14, 2013
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-14_001_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-14_002_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-14_003_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-15_004_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-15_005_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-15_006_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-15_007_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-15_008_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-17_010_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-17_011_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-17_012_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-17_013_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-17_014_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-17_015_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-17_016_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-17_017_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-17_018_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-17_019_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-18_020_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-19_021_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-19_022_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-19_023_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-19_024_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-20_025_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-20_026_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-20_027_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_028_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_029_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_030_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-21_031_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-21_032_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_033_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-21_034_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_035_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_036_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_037_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-21_038_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_039_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_040_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-21_041_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_042_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_043_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_044_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_045_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_046_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_047_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_048_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_049_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_050_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_051_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_052_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_053_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_054_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_055_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_056_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_057_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_058_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_059_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_060_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_061_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_062_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_063_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_064_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_065_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_066_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_068_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-22_069_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_070_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-22_071_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_072_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_073_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_074_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-23_075_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_076_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_077_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-23_078_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_079_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_081_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_082_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-23_083_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-24_084_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-24_086_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-24_089_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-24_090_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-24_091_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-25_093_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-25_094_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-25_096_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-25_099_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-26_102_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_009_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_067_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_080_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_085_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_087_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2013-09-14_27/2013-09-27_088_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_092_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_095_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_097_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_098_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_100_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_101_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_103_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_104_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_105_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_106_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_107_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_108_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_109_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_110_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_111_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_112_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Little Russia"
+        className="img-responsive gallery-image "
+        src="../albums/2013-09-14_27/2013-09-27_113_large.jpg"
+      />
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

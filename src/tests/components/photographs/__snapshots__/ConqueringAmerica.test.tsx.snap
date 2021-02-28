@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Conquering America
+        <small
+          className="text-muted"
+        >
+          Saturday, November 5, 2016
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_001_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_002_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_003_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Башня Свободы, Центр международной торговли 1, Нью-Йорк - возглавляя комплекс зданий Всемирного торгового центра она возвышается над землей на 541 метр, являясь самым высоким офисным зданием мира.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_004_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_005_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_006_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Статуя Свободы - построенная Гюставом Эйфелем, она была подарена Францией к Всемирной выставке 1876 года, столетней годовщине американской независимости. Колоссальная скульптура, олицетворявшая знак дружбы к американскому народу, стала непрекословным символом Соединенных Штатов.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_007_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_008_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Сцена Маждестик - одного из самых вместительных театров на Бродвее. За мгновения до начала традиционной и наиболее долгоиграемой постановки в истории Бродвея - мюзикла Эндрю Ллойда Уэббера - «Призрак Оперы», впервые показанного на этой сцене 26 января 1988 года.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_009_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Центральный парк, Нью-Йорк - разработанный архитекторами Фредериком Олмстедом и Калвертом Воксом, он стал, пожалуй, самым узнаваемым парком мира. Располагаясь в центральной части города, он расстилает свои ландшафт на три с половиной квадратных километра, служа прекрасным местом отдыха и занятия спортом.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_010_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Брайтон-Бич или как его нередко называют «Маленькая Одесса». Русскоязычный район на юге Бруклина, ставший домом для многих советских эмигрантов. Он был спроектирован Вильямом Энгеманом в качестве курортного места, получившего свое имя в честь одноименного курорта Великобритании.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_011_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Национальный музей воздухоплавания и астронавтики - один из самых увлекательных и интересных музеев столицы Соединенных Штатов. Он располагает самой большой коллекцией исторических самолетов и космических аппаратов, - оригинальных исторических экземпляров и их дублеров.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_012_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_013_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Использованные перед непосредственным полетом в космос модули космических кораблей программы «Союз — Аполлон», - эксперимента совместного пилотируемого полета, нередко называемого «рукопожатием в космосе».
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_014_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Капитолий - роскошное здание в стиле ампир, ставшее одним из наиболее узнаваемых историческим строений Вашингтона и символом американской нации. Он служит домом для Конгресса Соединенных Штатов, - одного из трех высших федеральных органов государственной власти. Заложенный руками Джорджа Вашингтона, первого президента США, он был назван Томасом Джефферсоном, автором Декларации независимости, в честь одного из семи холмов, на которых был воздвигнут Древний Рим - Капитолийского холма, на вершине которого располагался храм Юпитера, собиравшего сенат Великой империи.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_015_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Мемориал Линкольна - символизирующий Союз, мемориальный комплекс, построенный в честь Авраама Линкольна, шестнадцатого президента Соединенных Штатов, вошедшего в историю как освободитель американских рабов и национальный герой, приведший к победе над армиями Конфедерации.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_016_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_017_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Белый дом - официальная резиденция президента Соединенных Штатов, становившаяся домом для всех руководителей страны, за исключением Джорджа Вашингтона.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_018_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Встретить велосипед на дорогах американских городов не составляет труда. Развитый велопрокат и наличие соответствующей инфраструктуры этому способствует. Удивительно, но подавляющее число владельцев двухколесного транспорта отдали предпочтение шоссейным велосипедам, и это, к слову, не по лучшим дорогам, ибо в Вашингтоне полотно далеко не лучшего качества - повсюду трещины и ремонт.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_019_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Монумент Вашингтона - гранитный обелиск, облицованный мэрилендским мрамором, возвышающийся на сто шестьдесят девять метров. Он, самый высокий монументальный каменный памятник, был построен в честь главнокомандующего Континентальной армии и первого президента Соединенных Штатов по проекту архитектора Роберта Миллса, часто называемого первым американцем, освоившим архитектурное ремесло.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_020_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Статуя Линкольна, располагающаяся в центре его мемориала. Она была построенная по проекту Даниэля Честера Френча, изобразившего президента с взглядом, обращенным на монумент Вашингтона и Капитолий. Прямо над статуей выбиты слова: «В этом храме, как и в сердцах людей, для которых он спас единство, память об Аврааме Линкольне сохранится навсегда.»
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_021_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_022_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_023_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_024_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Впечатляющий своей красотой и величием водопад Мултномах, расположенный в ущелье реки Колумбия. Второй по высоте, среди незамерзающих водопадов Соединенных Штатов, он берет свое начало в подземных водах Лиственной Горы. Два индейских поверья связаны с этим чудесным водопадом. Первое гласит, что он был создан с целью завоевать сердце юной принцессы, желавшей найти укромное место для купания. Второе же рассказывает о судьбе юной девушки, отдавшей свою жизнь во благо своего народа, переживавшего тяжелую болезнь.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_025_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_026_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_027_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_028_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_029_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Музей Авиации - размещенный на территории первых производственных цехов Боинга это крупнейший частный авиационный музей мира, на стендах которого представлены многочисленные летательные и космических аппараты, ставшие непосредственными действующими лицами истории освоения воздушного пространства и покорения космоса.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_030_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_031_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_032_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        «Борт номер один» - специально модернизированный Боинг 707-120, известный как SAM 910 (Special Air Missions - специальные авиазадания), использовавшийся президентами Дуайтом Эйзенхауэром, Джоном Кеннеди, Линдоном Джонсоном и Ричардом Никсоном, а так же перевозивший таких влиятельных людей как Никита Хрущев и Генри Киссинджер.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_033_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_034_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_035_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Спейс-Нидл, или как можно было бы её назвать в переводе на русский - «Космическая игла». Сто восьмидесяти четырех метровая футуристичная башня, выполненная по проекту архитектора Джона Грэма-Младшего, была возведена в рамках Всемирной выставки 1962 года. Она стала одним из наиболее узнаваемых символов тихоокеанского побережья Соединенных Штатов. С её смотровой площадки, расположившейся на высоте в 159 метров, открывается невероятно прекрасный вид на Каскадные горы, вулкан Рейнир, и разумеется, Сиэтл, с его незабываемыми городскими пейзажами.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_036_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_037_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Сиэтл, или как его часто называют «Королевский город», он закладывался своими основателями как будущий Нью-Йорк, и даже носил соответствующее имя - Нью-Йорк Алки (Будущий Нью-Йорк). Сегодня это крупнейший город и один из основных морских портов на северо-западе Соединенных Штатов. Он широко известен за свою кофейную культуру - именно здесь, в далеком 1976 году, на Вастерн-авеню 2000, открылся Старбакс, в то время еще не варивший свой отменный кофе. Не менее примечательным является тот факт, что более половины населения города имеет высшее образование, что совсем не удивительно, учитывая развитую промышленность, и в первую очередь авиакосмическую отрасль. Например, здесь, с 1916 года, располагается одно из основных производств Боинга, крупнейшего мирового производителя авиационной, космической и военной техники.
+      </p>
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_038_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_039_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Conquering America"
+        className="img-responsive gallery-image "
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_040_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        «Голливуд» - расположенный на южном склоне Маунт Ли, он один из наиболее узнаваемых памятников американской культуры. Созданный ради рекламы новых жилых кварталов, он приобрел огромную популярность, став неоспоримым символом американского, и, пожалуй, мирового кинематографа.
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

@@ -1,0 +1,599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Lake Baikal
+        <small
+          className="text-muted"
+        >
+          Monday, July 27, 2015
+        </small>
+      </h1>
+      <blockquote
+        className="blockquote-reverse"
+      >
+        <p>
+          «Байкал удивителен, и недаром сибиряки величают его не озером, а морем. Вода прозрачна необыкновенно, так что видно сквозь неё, как сквозь воздух; цвет у неё нежно-бирюзовый, приятный для глаза. Берега гористые, покрытые лесами; кругом дичь непроглядная, беспросветная. Изобилие медведей, соболей, диких коз и дикой всячины.»
+        </p>
+        <footer>
+          Антон Чехов
+        </footer>
+      </blockquote>
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_001_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_002_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_003_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_004_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_005_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_006_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_007_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Река Гремячая - вечер второго дня следования.
+      </p>
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_008_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_009_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_010_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_011_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_012_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_013_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_014_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_015_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_016_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_017_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_018_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_019_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_020_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_021_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_022_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_023_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_024_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_025_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_026_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_027_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_028_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_029_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_030_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_031_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_032_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_033_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_034_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_035_large.jpg"
+      />
+      <p
+        className="image-caption"
+      >
+        Устье реки Большой Чивыркуй - первое утро на берегу озера.
+      </p>
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_036_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_037_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_038_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_039_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_040_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_041_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_042_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_043_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_044_large.jpg"
+      />
+      <p
+        className="image-caption"
+      >
+        Бухта Змеевая - известная своими термальными и целебными водами она получила название благодаря не ядовитым змеям - полозам, обитающим на этой местности.
+      </p>
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_045_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_046_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_047_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_048_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_049_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_050_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_051_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_052_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_053_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_054_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_055_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_056_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_057_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_058_large.jpg"
+      />
+      <p
+        className="image-caption"
+      >
+        Охваченный пожаром полуостров Святой Нос - с конца июля из-за сильной грозы в горах на территориях природных заповедников Байкала бушуют сильнейшие пожары. В общей сложности горит 25 000 гектаров леса.
+      </p>
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_059_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_060_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_061_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_062_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_063_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_064_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_065_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_066_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_067_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_068_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_069_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Баргузинский дацан - буддийский храм расположенный у подножья гор, - на границе Куйтунских степей Баргузинской долины.
+      </p>
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_070_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_071_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_072_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov - Озеро Байкал"
+        className="img-responsive gallery-image"
+        src="../albums/2015-07-27_08-08/2015-07-27_08-08_073_large.jpg"
+      />
+      <div
+        className="ratio ratio-16x9 gallery-video"
+      >
+        <iframe
+          src="//www.youtube.com/embed/VlXZW_dqlUE?rel=0"
+          title="Видеоотчет по завершению сказочного похода, прошедшего по тропе \\\\\\"Путь к чистому Байкалу\\\\\\"."
+        />
+      </div>
+      <p
+        className="video-caption"
+      >
+        Видеоотчет по завершению сказочного похода, прошедшего по тропе "Путь к чистому Байкалу".
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

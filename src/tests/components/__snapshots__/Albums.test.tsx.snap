@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Albums
+      </h1>
+      <a
+        className="card bg-dark text-white gallery-image"
+        href="/photographs/favorite-photographs"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="card-img"
+          src="../albums/2012-03-17/2012-03-17_031.jpg"
+        />
+        <div
+          className="card-img-overlay"
+        >
+          <h5
+            className="card-title"
+          >
+            Favorite Photographs
+          </h5>
+          <p
+            className="card-text"
+          >
+            Wednesday, March 17, 2021
+          </p>
+        </div>
+      </a>
+      <a
+        className="card bg-dark text-white gallery-image"
+        href="/photographs/altay"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="card-img"
+          src="../albums/2020-07-19_08-04/2020-07-19_08-04_099.jpg"
+        />
+        <div
+          className="card-img-overlay"
+        >
+          <h5
+            className="card-title"
+          >
+            Altay. Conquering Siberia 2.0
+          </h5>
+          <p
+            className="card-text"
+          >
+            Sunday, July 19, 2020
+          </p>
+        </div>
+      </a>
+      <a
+        className="card bg-dark text-white gallery-image vertical"
+        href="/photographs/nizhny-novgorod"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="card-img"
+          src="../albums/2019-07-16/2019-07-16_001.jpg"
+        />
+        <div
+          className="card-img-overlay"
+        >
+          <h5
+            className="card-title"
+          >
+            Nizhny Novgorod
+          </h5>
+          <p
+            className="card-text"
+          >
+            Tuesday, July 16, 2019
+          </p>
+        </div>
+      </a>
+      <a
+        className="card bg-dark text-white gallery-image"
+        href="/photographs/rekshino"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="card-img"
+          src="../albums/2019-10-26/2019-10-26_007.jpg"
+        />
+        <div
+          className="card-img-overlay"
+        >
+          <h5
+            className="card-title"
+          >
+            Rekshino
+          </h5>
+          <p
+            className="card-text"
+          >
+            Saturday, October 26, 2019
+          </p>
+        </div>
+      </a>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

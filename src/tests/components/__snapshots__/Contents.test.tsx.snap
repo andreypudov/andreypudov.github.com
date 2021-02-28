@@ -1,0 +1,560 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Contents
+      </h1>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Articles
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/photographs/russian-emirates"
+            onClick={[Function]}
+          >
+            Russian Emirates
+            <small>
+              Wednesday, December 12, 2012
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/golden-age"
+            onClick={[Function]}
+          >
+            Golden Age
+            <small>
+              Saturday, September 15, 2012
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/imperial-town"
+            onClick={[Function]}
+          >
+            The Imperial Town
+            <small>
+              Thursday, May 10, 2012
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Photographs
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/photographs/favorite-photographs"
+            onClick={[Function]}
+          >
+            Favorite Photographs
+            <small>
+              Wednesday, March 17, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/altay"
+            onClick={[Function]}
+          >
+            Altay. Conquering Siberia 2.0
+            <small>
+              Sunday, July 19, 2020
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/nizhny-novgorod"
+            onClick={[Function]}
+          >
+            Nizhny Novgorod
+            <small>
+              Tuesday, July 16, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/rekshino"
+            onClick={[Function]}
+          >
+            Rekshino
+            <small>
+              Saturday, October 26, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/alina-cherdakova"
+            onClick={[Function]}
+          >
+            Alina Cherdakova
+            <small>
+              Saturday, August 18, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/balloon-festival"
+            onClick={[Function]}
+          >
+            Balloon Festival
+            <small>
+              Saturday, February 24, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/rome-malta"
+            onClick={[Function]}
+          >
+            Conquering Rome and Order of Malta
+            <small>
+              Monday, December 18, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/kira-orlova"
+            onClick={[Function]}
+          >
+            Kira Orlova
+            <small>
+              Sunday, October 22, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/united-states-2.0"
+            onClick={[Function]}
+          >
+            Conquering America 2.0
+            <small>
+              Saturday, September 9, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/time-lapses"
+            onClick={[Function]}
+          >
+            Time Lapses
+            <small>
+              Friday, April 14, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/united-states"
+            onClick={[Function]}
+          >
+            Conquering America
+            <small>
+              Saturday, October 15, 2016
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/kaliningrad"
+            onClick={[Function]}
+          >
+            Kaliningrad. The amber capital of the World
+            <small>
+              Wednesday, August 24, 2016
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/formula-sochi"
+            onClick={[Function]}
+          >
+            2015 Formula 1 Russian Grand Prix
+            <small>
+              Monday, October 5, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/lake-baikal"
+            onClick={[Function]}
+          >
+            Lake Baikal
+            <small>
+              Monday, July 27, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/military-museum"
+            onClick={[Function]}
+          >
+            Battle Glory of the Urals
+            <small>
+              Wednesday, December 24, 2014
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/ekaterinburg"
+            onClick={[Function]}
+          >
+            Ekaterinburg. The Picture of City
+            <small>
+              Sunday, December 21, 2014
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/yoshkar-ola"
+            onClick={[Function]}
+          >
+            Yoshkar-Ola. Tsar's town on Kokshaga River
+            <small>
+              Saturday, May 10, 2014
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/little-russia"
+            onClick={[Function]}
+          >
+            Little Russia
+            <small>
+              Saturday, September 14, 2013
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/vera-klemenova"
+            onClick={[Function]}
+          >
+            Vera Klemenova
+            <small>
+              Thursday, July 19, 2012
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Drawings
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/drawings/pencil-sketches"
+            onClick={[Function]}
+          >
+            Pencil Sketches
+            <small>
+              Thursday, July 16, 2020
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Performances
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/performances/gravity-falls"
+            onClick={[Function]}
+          >
+            Gravity Falls
+            <small>
+              Monday, January 18, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/performances/cure-for-wellness"
+            onClick={[Function]}
+          >
+            A Cure for Wellness
+            <small>
+              Saturday, March 17, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/performances/mia-and-sebastian"
+            onClick={[Function]}
+          >
+            Mia & Sebastian
+            <small>
+              Thursday, September 7, 2017
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Projects
+          </h2>
+        </li>
+        <li>
+          <a
+            href="https://github.com/andreypudov/ParaglidingWeather"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Paragliding Weather
+            <small>
+              Wednesday, January 6, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/andreypudov/Timetable"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Timetable
+            <small>
+              Wednesday, January 6, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/andreypudov/Algorithms"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Laboratory of Algorithms
+            <small>
+              Tuesday, July 10, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/andreypudov/OpenWeatherJS"
+            rel="noreferrer"
+            target="_blank"
+          >
+            OpenWeatherJS
+            <small>
+              Wednesday, October 24, 2018
+            </small>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;
