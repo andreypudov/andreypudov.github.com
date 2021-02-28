@@ -1,0 +1,896 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Altay. Conquering Siberia 2.0
+        <small
+          className="text-muted"
+        >
+          Sunday, July 19, 2020
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_002.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_003.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_004.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_005.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_006.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_008.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_010.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_011.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_013.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_014.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_015.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_019.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_020.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_022.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_024.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_026.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_027.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_029.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_030.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_031.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_032.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_033.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_034.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_035.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_036.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_037.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_038.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_039.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_040.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_041.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_042.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_043.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_044.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_045.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_046.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_047.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_048.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_049.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_050.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_051.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_052.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_053.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_054.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_055.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_056.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_057.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_058.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_062.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_063.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_064.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_065.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_067.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_068.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_069.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_070.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_072.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_080.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_081.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_082.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_083.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_085.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_087.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_088.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_092.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_095.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_096.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_097.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_098.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_099.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_100.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_106.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_107.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_108.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_111.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_112.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_113.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_115.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_116.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_117.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_118.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_119.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_121.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_122.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_125.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_126.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_127.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_128.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_129.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_130.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_131.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_132.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_134.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_135.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_136.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_138.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_139.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_140.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_141.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_142.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_143.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_144.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_145.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_146.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_147.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_149.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_150.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_152.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_153.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_154.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_155.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_156.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_157.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_160.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_161.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_162.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_164.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_165.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_166.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_167.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_168.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_169.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_170.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_171.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_172.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_173.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_174.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_176.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_177.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_178.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_179.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_180.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_182.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_183.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_184.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_189.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_190.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_191.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_192.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_193.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_194.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image "
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_196.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_199.jpg"
+      />
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

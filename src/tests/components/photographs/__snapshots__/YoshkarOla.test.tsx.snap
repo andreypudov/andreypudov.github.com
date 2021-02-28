@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Yoshkar-Ola. Tsar's town on Kokshaga River
+        <small
+          className="text-muted"
+        >
+          Saturday, May 10, 2014
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_001_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_002_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_003_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_004_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_005_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_006_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_007_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_008_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_009_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_010_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_011_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_012_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_013_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_014_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_015_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_016_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_017_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_018_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_019_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_020_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_021_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_022_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_023_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_024_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_025_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_026_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_027_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_028_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_029_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_030_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_031_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_032_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_033_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_034_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_035_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_036_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_037_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_038_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_039_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_040_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_041_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_042_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_043_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_044_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_045_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_046_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_047_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_048_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_049_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_050_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_051_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_052_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-05-10/2014-05-10_053_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Yoshkar-Ola. Tsar's town on Kokshaga River"
+        className="img-responsive gallery-image "
+        src="../albums/2014-05-10/2014-05-10_054_large.jpg"
+      />
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

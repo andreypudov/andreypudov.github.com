@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Ekaterinburg. The Picture of City
+        <small
+          className="text-muted"
+        >
+          Sunday, December 21, 2014
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_001_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_002_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_003_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_004_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_005_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_006_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_007_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_008_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_009_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_010_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_011_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_012_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_013_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_014_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_015_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_016_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_017_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_018_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_019_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_020_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_021_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_022_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_023_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_024_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_025_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_026_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_027_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_028_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_029_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_030_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_031_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_032_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_033_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_034_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_035_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_036_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_037_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_038_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_039_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_040_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_041_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_042_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_043_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_044_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_045_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_046_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_047_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_048_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_049_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_050_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_051_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_052_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_053_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_054_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_055_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_056_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_057_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_058_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_059_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_060_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_061_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_062_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_063_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_064_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_065_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_066_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_067_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_068_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_069_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_070_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_071_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_072_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2014-12-21_25_city/2014-12-21_073_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_074_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_075_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_076_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_077_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_078_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_079_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Ekaterinburg. The Picture of City"
+        className="img-responsive gallery-image "
+        src="../albums/2014-12-21_25_city/2014-12-21_080_large.jpg"
+      />
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

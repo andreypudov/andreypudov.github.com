@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Kaliningrad. The amber capital of the World
+        <small
+          className="text-muted"
+        >
+          Wednesday, August 24, 2016
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_001_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Рыбная деревня
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-08-24_30/2016-08-24_30_002_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Остров Канта. Кафедральный Собор.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-08-24_30/2016-08-24_30_003_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Дом Советов
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-08-24_30/2016-08-24_30_004_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Остров Канта. Кафедральный Собор.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_005_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Музей янтаря
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_006_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Частный дом в историческом районе
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_007_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Рыбная деревня
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_008_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Ангары заброшенного аэродрома Нойтиф
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_009_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Балтийская коса. Вдали виден памятник императрице Елизавете I
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_010_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Оставленная у ангаров аэродрома Нойтиф лодка
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_011_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Балтийская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-08-24_30/2016-08-24_30_012_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Частный дом в Зеленоградске
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_013_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Куршская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_014_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Куршская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_015_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Куршская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image vertical"
+        src="../albums/2016-08-24_30/2016-08-24_30_016_large.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        Куршская коса. Танцующий лес.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_017_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Куршская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_018_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Куршская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_019_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Куршская коса
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_020_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Остров Канта. Кафедральный Собор.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_021_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Научно-исследовательское судно «Космонавт Виктор Пацаев». Музей Мирового океана.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_022_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Остров Канта. Кафедральный Собор.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_023_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Рыбная деревня
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_024_large.jpg"
+      />
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_025_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Форт №5. «Король Фридрих-Вильгельм III».
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_026_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Форт №5. «Король Фридрих-Вильгельм III». Фотографии времен Второй Мировой Войны.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_027_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Форт №5. «Король Фридрих-Вильгельм III».
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_028_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Остров Канта. Кафедральный Собор.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_029_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Музей Мирового океана. Калининград.
+      </p>
+      <img
+        alt="Andrey Pudov Kaliningrad. The amber capital of the World"
+        className="img-responsive gallery-image "
+        src="../albums/2016-08-24_30/2016-08-24_30_030_large.jpg"
+      />
+      <p
+        className="image-caption "
+      >
+        Кашалот. Музей Мирового океана. Калининград.
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

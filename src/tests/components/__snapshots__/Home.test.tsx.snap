@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-lg navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-md-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Andrey Pudov
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="carousel slide"
+      data-bs-ride="carousel"
+      id="homeCarousel"
+    >
+      <ol
+        className="carousel-indicators"
+      >
+        <button
+          aria-current="true"
+          aria-label="Slide 1"
+          className="active"
+          data-bs-slide-to="0"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          aria-label="Slide 2"
+          data-bs-slide-to="1"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          aria-label="Slide 3"
+          data-bs-slide-to="2"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          aria-label="Slide 4"
+          data-bs-slide-to="3"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+      </ol>
+      <div
+        className="carousel-inner"
+      >
+        <a
+          className="carousel-item active"
+          href="/photographs/altay"
+          onClick={[Function]}
+        >
+          <img
+            alt="Altay. Conquering Siberia 2.0"
+            className="d-block w-100"
+            src="images/carousel/altay.jpg"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Altay. Conquering Siberia 2.0
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
+          href="/photographs/rome-malta"
+          onClick={[Function]}
+        >
+          <img
+            alt="Conquering Rome and Order of Malta"
+            className="d-block w-100"
+            src="images/carousel/rome-malta.jpg"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Conquering Rome and Order of Malta
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
+          href="/photographs/united-states-2.0"
+          onClick={[Function]}
+        >
+          <img
+            alt="Conquering America 2.0"
+            className="d-block w-100"
+            src="images/carousel/united-states-2.0.jpg"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Conquering America 2.0
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
+          href="/photographs/kira-orlova"
+          onClick={[Function]}
+        >
+          <img
+            alt="Kira Orlova"
+            className="d-block w-100"
+            src="images/carousel/kira-olrova.jpg"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Kira Orlova
+            </h5>
+          </div>
+        </a>
+      </div>
+      <button
+        className="carousel-control-prev"
+        data-bs-slide="prev"
+        data-bs-target="#homeCarousel"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-prev-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Previous
+        </span>
+      </button>
+      <button
+        className="carousel-control-next"
+        data-bs-slide="next"
+        data-bs-target="#homeCarousel"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-next-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Next
+        </span>
+      </button>
+    </div>
+    <div
+      className="marketing marketing-image"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/favorite-photographs"
+            onClick={[Function]}
+          >
+            <img
+              alt="Favorite Photographs"
+              className="img-fluid"
+              src="images/marketing/altay.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/rekshino"
+            onClick={[Function]}
+          >
+            <img
+              alt="Rekshino"
+              className="img-fluid"
+              src="images/marketing/rekshino.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/united-states"
+            onClick={[Function]}
+          >
+            <img
+              alt="Conquering America"
+              className="img-fluid"
+              src="images/marketing/united-states.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/lake-baikal"
+            onClick={[Function]}
+          >
+            <img
+              alt="Lake Baikal"
+              className="img-fluid"
+              src="images/marketing/lake-baikal.jpg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+      <p
+        className="piped-links-short"
+      >
+        © 2021 Andrey Pudov. All rights reserved.
+      </p>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;
