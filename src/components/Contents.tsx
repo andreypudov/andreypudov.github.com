@@ -67,6 +67,12 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/photographs/time-lapses'>
+              Time Lapses
+              <small>Friday, April 14, 2017</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/united-states'>
               Conquering America
               <small>Saturday, October 15, 2016</small>

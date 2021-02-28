@@ -1,182 +1,131 @@
 import React from 'react';
+import Album from './../../models/photographs/formulaSochi';
+import Headline from './../shared/Headline';
 import Layout from './../shared/Layout'
+import Photograph from '../shared/Photograph';
 
 function FormulaSochi() {
   return (
     <Layout>
       <div className = 'container'>
-        <h1>
-          2015 Formula 1 Russian Grand Prix
-          <small className = 'text-muted'>Monday, Oct 05, 2015</small>
-        </h1>
+        <Headline album = { Album } />
 
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_001_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Четырехзвездный гостиничный комплекс Богатырь, расположенный на территории «Сочи Парка»</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_002_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_003_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_004_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <p className = 'image-caption vertical'>Сердце Олимпийского парка - Олимпийский факел</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_005_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Стена олимпийских и паралимпийских чемпионов</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_006_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_007_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Вид на первый поворот с вершины главной трибуны</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_008_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_009_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_010_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Шлемы наиболее выдающихся пилотов Scuderia Ferrari с автографами механиков и других членов команды</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_011_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_012_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Болид Jaguar Racing 2004 сезона, ставшим последним для команды Вольфганга Райцле. Позднее команда была продана компании Red Bull</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_024_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>DeLorean DMC-12 известный своей ролью в качестве машины времени в кинотрилогии Роберта Земекиса «Назад в будущее»</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_025_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_013_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_014_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_015_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Промоутер Формулы 1 в России Сергей Воробьев</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_016_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_017_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' /><p className = 'image-caption vertical'>Секретариат спортивных комиссаров</p>
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_018_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Колесные диски команды Infiniti Red Bull Racing</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_019_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_020_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Пресс-центр Формулы 1</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_021_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Главный вход на территорию Олимпийского Парка</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_022_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Футуристического вида железнодорожная станция «Олимпийский парк»</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_023_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_026_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_027_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_028_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Пит-лейн в первые часы после приезда команд</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_029_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_030_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_031_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_032_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Паддок принимает гостей</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_033_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Зарядка механиков Scuderia Ferrari перед работой</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_034_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_035_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_036_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Себастьян Феттель осматривает трассу с членами команды</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_037_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_038_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_039_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Гоночный симулятор в игровой зоне</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_040_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_041_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_042_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Болельщики в ожидании автографов своих кумиров</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_043_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_044_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Автограф сессия Red Bull. Даниил Квят и Даниэль Риккардо</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_045_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
+        <Photograph album = { Album } index = { 0 } />
+        <Photograph album = { Album } index = { 1 } />
+        <Photograph album = { Album } index = { 2 } />
+        <Photograph album = { Album } index = { 3 } />
+        <Photograph album = { Album } index = { 4 } />
+        <Photograph album = { Album } index = { 5 } />
+        <Photograph album = { Album } index = { 6 } />
+        <Photograph album = { Album } index = { 7 } />
+        <Photograph album = { Album } index = { 8 } />
+        <Photograph album = { Album } index = { 9 } />
+        <Photograph album = { Album } index = { 10 } />
+        <Photograph album = { Album } index = { 11 } />
+        <Photograph album = { Album } index = { 23 } />
+        <Photograph album = { Album } index = { 24 } />
+        <Photograph album = { Album } index = { 12 } />
+        <Photograph album = { Album } index = { 13 } />
+        <Photograph album = { Album } index = { 14 } />
+        <Photograph album = { Album } index = { 15 } />
+        <Photograph album = { Album } index = { 16 } />
+        <Photograph album = { Album } index = { 17 } />
+        <Photograph album = { Album } index = { 18 } />
+        <Photograph album = { Album } index = { 19 } />
+        <Photograph album = { Album } index = { 20 } />
+        <Photograph album = { Album } index = { 21 } />
+        <Photograph album = { Album } index = { 22 } />
+        <Photograph album = { Album } index = { 25 } />
+        <Photograph album = { Album } index = { 26 } />
+        <Photograph album = { Album } index = { 27 } />
+        <Photograph album = { Album } index = { 28 } />
+        <Photograph album = { Album } index = { 29 } />
+        <Photograph album = { Album } index = { 30 } />
+        <Photograph album = { Album } index = { 31 } />
+        <Photograph album = { Album } index = { 32 } />
+        <Photograph album = { Album } index = { 33 } />
+        <Photograph album = { Album } index = { 34 } />
+        <Photograph album = { Album } index = { 35 } />
+        <Photograph album = { Album } index = { 36 } />
+        <Photograph album = { Album } index = { 37 } />
+        <Photograph album = { Album } index = { 38 } />
+        <Photograph album = { Album } index = { 39 } />
+        <Photograph album = { Album } index = { 40 } />
+        <Photograph album = { Album } index = { 41 } />
+        <Photograph album = { Album } index = { 42 } />
+        <Photograph album = { Album } index = { 43 } />
+        <Photograph album = { Album } index = { 44 } />
 
         <div className = 'ratio ratio-16x9 gallery-video'>
           <iframe src = '//www.youtube.com/embed/XAYCQjo3m0Y?rel=0' title = 'Начало квалификационной сессии GP2' />
         </div>
         <p className = "video-caption">Начало квалификационной сессии GP2</p>
 
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_046_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_047_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Александр Ткачёв (за рулем) и Берни Экклстоун совершают экскурсию по вечернему Олимпийскому парку</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_048_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_049_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_050_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_051_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_052_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_053_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_054_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_055_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_056_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_057_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_058_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Девушки из павильона Marlboro «Red or White»</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_059_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_060_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_061_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_062_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_063_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_064_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_065_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_066_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_067_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_068_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_069_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_070_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_071_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_072_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_073_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_074_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_075_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_076_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_077_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_078_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_079_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_080_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_081_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_082_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Церемония открытия гонок</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_083_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_084_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_085_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_086_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_087_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_088_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_089_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_090_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_091_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
+        <Photograph album = { Album } index = { 45 } />
+        <Photograph album = { Album } index = { 46 } />
+        <Photograph album = { Album } index = { 47 } />
+        <Photograph album = { Album } index = { 48 } />
+        <Photograph album = { Album } index = { 49 } />
+        <Photograph album = { Album } index = { 50 } />
+        <Photograph album = { Album } index = { 51 } />
+        <Photograph album = { Album } index = { 52 } />
+        <Photograph album = { Album } index = { 53 } />
+        <Photograph album = { Album } index = { 54 } />
+        <Photograph album = { Album } index = { 55 } />
+        <Photograph album = { Album } index = { 56 } />
+        <Photograph album = { Album } index = { 57 } />
+        <Photograph album = { Album } index = { 58 } />
+        <Photograph album = { Album } index = { 59 } />
+        <Photograph album = { Album } index = { 60 } />
+        <Photograph album = { Album } index = { 61 } />
+        <Photograph album = { Album } index = { 62 } />
+        <Photograph album = { Album } index = { 63 } />
+        <Photograph album = { Album } index = { 64 } />
+        <Photograph album = { Album } index = { 65 } />
+        <Photograph album = { Album } index = { 66 } />
+        <Photograph album = { Album } index = { 67 } />
+        <Photograph album = { Album } index = { 68 } />
+        <Photograph album = { Album } index = { 69 } />
+        <Photograph album = { Album } index = { 70 } />
+        <Photograph album = { Album } index = { 71 } />
+        <Photograph album = { Album } index = { 72 } />
+        <Photograph album = { Album } index = { 73 } />
+        <Photograph album = { Album } index = { 74 } />
+        <Photograph album = { Album } index = { 75 } />
+        <Photograph album = { Album } index = { 76 } />
+        <Photograph album = { Album } index = { 77 } />
+        <Photograph album = { Album } index = { 78 } />
+        <Photograph album = { Album } index = { 79 } />
+        <Photograph album = { Album } index = { 80 } />
+        <Photograph album = { Album } index = { 81 } />
+        <Photograph album = { Album } index = { 82 } />
+        <Photograph album = { Album } index = { 83 } />
+        <Photograph album = { Album } index = { 84 } />
+        <Photograph album = { Album } index = { 85 } />
+        <Photograph album = { Album } index = { 86 } />
+        <Photograph album = { Album } index = { 87 } />
+        <Photograph album = { Album } index = { 88 } />
+        <Photograph album = { Album } index = { 89 } />
+        <Photograph album = { Album } index = { 90 } />
 
         <div className = 'ratio ratio-16x9 gallery-video'>
           <iframe src = '//www.youtube.com/embed/cRuuGAEgW64?rel=0' title = 'Начало гонки Гран При России' />
         </div>
         <p className = "video-caption">Начало гонки Гран При России</p>
 
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_092_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Кортеж Его Превосходительства Президента Российской Федерации Владимира Путина, прибывающего на трассу</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_093_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_094_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_095_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_096_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Рестарт гонки после аварии Ромена Грожана на семнадцатом круге</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_097_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image vertical' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_098_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_099_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_100_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_101_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Церемония награждения победителей</p>
-
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_102_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_103_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2015-10-05_11/2015-10-05_11_104_large.jpg' alt = 'Andrey Pudov - Формула 1. Гран При России 2015' className = 'img-responsive gallery-image' />
-        <p className = 'image-caption'>Опустевшие Пит-лейн и боксы спустя пару часов после гонки. Команды готовятся к отъезду</p>
+        <Photograph album = { Album } index = { 91 } />
+        <Photograph album = { Album } index = { 92 } />
+        <Photograph album = { Album } index = { 93 } />
+        <Photograph album = { Album } index = { 94 } />
+        <Photograph album = { Album } index = { 95 } />
+        <Photograph album = { Album } index = { 96 } />
+        <Photograph album = { Album } index = { 97 } />
+        <Photograph album = { Album } index = { 98 } />
+        <Photograph album = { Album } index = { 99 } />
+        <Photograph album = { Album } index = { 100 } />
+        <Photograph album = { Album } index = { 101 } />
+        <Photograph album = { Album } index = { 102 } />
+        <Photograph album = { Album } index = { 103 } />
       </div>
     </Layout>
   );

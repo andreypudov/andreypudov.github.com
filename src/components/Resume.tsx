@@ -119,19 +119,19 @@ function Resume() {
               <div className = 'box clearfix'>
                 <h2>Contact</h2>
                 <div className = 'contact-item'>
-                  <a href = 'tel:+7 (952) 457 10 55' target = '_blank'>
+                  <a href = 'tel:+7 (952) 457 10 55' target = '_blank' rel = 'noreferrer'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-phone fa-fw'></span></div>
                     <div className = 'title only'>+7 (952) 457 10 55</div>
                   </a>
                 </div>
                 <div className = 'contact-item'>
-                  <a href = 'mailto:mail@andreypudov.com' target = '_blank'>
+                  <a href = 'mailto:mail@andreypudov.com' target = '_blank' rel = 'noreferrer'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-envelope fa-fw'></span></div>
                     <div className = 'title only'>mail@andreypudov.com</div>
                   </a>
                 </div>
                 <div className = 'contact-item'>
-                  <a href = 'https://linkedin.com/in/pudov' target = '_blank'>
+                  <a href = 'https://linkedin.com/in/pudov' target = '_blank' rel = 'noreferrer'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-linkedin fa-fw'></span></div>
                     <div className = 'title'>LinkedIn</div>
                     <div className = 'descriptio'><small>https://linkedin.com/in/pudov</small></div>

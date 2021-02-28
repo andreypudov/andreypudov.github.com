@@ -1,19 +1,15 @@
 import React from 'react';
+import Album from './../../models/photographs/balloonFestival';
+import Headline from './../shared/Headline';
 import Layout from './../shared/Layout'
+import PhotographAlbum from '../shared/PhotographAlbum';
 
 function BalloonFestival() {
   return (
     <Layout>
       <div className = 'container'>
-        <h1>
-          Balloon Festival
-          <small className = 'text-muted'>Saturday, February 24, 2018</small>
-        </h1>
-
-        <img src = '../albums/2018-02-24/2018-02-24_001.jpg' alt = 'Balloon Festival' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2018-02-24/2018-02-24_002.jpg' alt = 'Balloon Festival' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2018-02-24/2018-02-24_003.jpg' alt = 'Balloon Festival' className = 'img-responsive gallery-image' />
-        <img src = '../albums/2018-02-24/2018-02-24_004.jpg' alt = 'Balloon Festival' className = 'img-responsive gallery-image' />
+        <Headline album = { Album } />
+        <PhotographAlbum album = { Album } />
       </div>
     </Layout>
   );
