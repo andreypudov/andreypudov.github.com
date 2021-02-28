@@ -1,7 +1,7 @@
+import Album from './../core/album';
 import Video from '../core/video';
-import VideoAlbum from './../core/videoAlbum';
 
-export default new VideoAlbum(
+export default new Album(
   'Time Lapses',
   new Date('2017-04-14'),
   [

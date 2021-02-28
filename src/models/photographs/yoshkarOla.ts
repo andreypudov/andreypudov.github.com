@@ -1,7 +1,7 @@
+import Album from '../core/album';
 import Photograph from '../core/photograph';
-import PhotographAlbum from './../core/photographAlbum';
 
-export default new PhotographAlbum(
+export default new Album(
   'Yoshkar-Ola. Tsar\'s town on Kokshaga River',
   new Date('2014-05-10'),
   [

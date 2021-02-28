@@ -1,4 +1,6 @@
-class Photograph {
+import Media from './media';
+
+class Photograph implements Media {
   src: string;
   vertical: boolean;
   description: string;

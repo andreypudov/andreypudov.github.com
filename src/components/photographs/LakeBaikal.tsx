@@ -1,5 +1,5 @@
+import Layout from './../shared/Layout';
 import React from 'react';
-import Layout from './../shared/Layout'
 
 function LakeBaikal() {
   return (

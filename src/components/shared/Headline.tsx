@@ -8,10 +8,7 @@ function Headline(props: HeadlineProps) {
   return (
     <h1>
       { props.album.title }
-      <small className = 'text-muted'>{
-        props.album.date.toLocaleDateString(
-          'en-US',
-          { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) }</small>
+      <small className = 'text-muted'>{ props.album.getDate() }</small>
     </h1>
   );
 }

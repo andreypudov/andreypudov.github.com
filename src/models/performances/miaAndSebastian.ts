@@ -1,7 +1,7 @@
+import Album from './../core/album';
 import Video from '../core/video';
-import VideoAlbum from './../core/videoAlbum';
 
-export default new VideoAlbum(
+export default new Album(
   'Mia & Sebastian',
   new Date('2017-09-07'),
   [
