@@ -16,6 +16,7 @@ import BalloonFestival from './components/photographs/BalloonFestival';
 import ConqueringRome from './components/photographs/ConqueringRome';
 import KiraOrlova from './components/photographs/KiraOrlova';
 import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
+import TimeLapses from './components/photographs/TimeLapses';
 import ConqueringAmerica from './components/photographs/ConqueringAmerica';
 import Kaliningrad from './components/photographs/Kaliningrad';
 import FormulaSochi from './components/photographs/FormulaSochi';
@@ -53,6 +54,7 @@ function Routes() {
       <Route exact path = '/photographs/rome-malta' component = { ConqueringRome } />
       <Route exact path = '/photographs/kira-orlova' component = { KiraOrlova } />
       <Route exact path = '/photographs/united-states-2.0' component = { ConqueringAmerica2 } />
+      <Route exact path = '/photographs/time-lapses' component = { TimeLapses } />
       <Route exact path = '/photographs/united-states' component = { ConqueringAmerica } />
       <Route exact path = '/photographs/kaliningrad' component = { Kaliningrad } />
       <Route exact path = '/photographs/formula-sochi' component = { FormulaSochi } />

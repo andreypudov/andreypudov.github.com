@@ -23,6 +23,22 @@ function Albums() {
             <p className = 'card-text'>Sunday, July 19, 2020</p>
           </div>
         </Link>
+
+        <Link to = '/photographs/nizhny-novgorod' className = 'card bg-dark text-white gallery-image vertical'>
+          <img src = '../albums/2019-07-16/2019-07-16_001.jpg' className = 'card-img' alt = '' />
+          <div className = 'card-img-overlay'>
+            <h5 className = 'card-title'>Nizhny Novgorod</h5>
+            <p className = 'card-text'>Tuesday, July 16, 2019</p>
+          </div>
+        </Link>
+
+        <Link to = '/photographs/rekshino' className = 'card bg-dark text-white gallery-image'>
+          <img src = '../albums/2019-10-26/2019-10-26_007.jpg' className = 'card-img' alt = '' />
+          <div className = 'card-img-overlay'>
+            <h5 className = 'card-title'>Rekshino</h5>
+            <p className = 'card-text'>Saturday, October 26, 2019</p>
+          </div>
+        </Link>
       </div>
     </Layout>
   );

@@ -1,18 +1,18 @@
 import React from 'react';
-import Album from './../../models/photographs/rekshino';
+import Album from './../../models/videos/timeLapses';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout'
-import PhotographAlbum from '../shared/PhotographAlbum';
+import VideoAlbum from '../shared/VideoAlbum';
 
-function Rekshino() {
+function TimeLapses() {
   return (
     <Layout>
       <div className = 'container'>
         <Headline album = { Album } />
-        <PhotographAlbum album = { Album } />
+        <VideoAlbum album = { Album } />
       </div>
     </Layout>
   );
 }
 
-export default Rekshino;
+export default TimeLapses;
