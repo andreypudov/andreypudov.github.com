@@ -1,7 +1,7 @@
 import Photograph from '../core/photograph';
-import PhotographAlbum from './../core/photographAlbum';
+import Album from '../core/album';
 
-export default new PhotographAlbum(
+export default new Album(
   'Conquering Rome and Order of Malta',
   new Date('2018-01-05'),
   [

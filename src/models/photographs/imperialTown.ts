@@ -1,7 +1,7 @@
+import Album from '../core/album';
 import Photograph from '../core/photograph';
-import PhotographAlbum from './../core/photographAlbum';
 
-export default new PhotographAlbum(
+export default new Album(
   'The Imperial Town',
   new Date('2012-05-09'),
   [

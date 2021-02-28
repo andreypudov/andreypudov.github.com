@@ -1,7 +1,7 @@
+import Album from '../core/album';
 import Photograph from '../core/photograph';
-import PhotographAlbum from './../core/photographAlbum';
 
-export default new PhotographAlbum(
+export default new Album(
   'Conquering America 2.0',
   new Date('2017-09-24'),
   [

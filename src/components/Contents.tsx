@@ -2,11 +2,37 @@ import React from 'react';
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
+import AlinaCherdakova from './../models/photographs/alinaCherdakova';
+
 function Contents() {
   return (
     <Layout>
       <div className = 'container'>
         <h1>Contents</h1>
+
+        <ol className = 'contents'>
+          <li>
+            <h2>Articles</h2>
+          </li>
+          <li>
+            <Link to = '/photographs/russian-emirates'>
+              Russian Emirates
+              <small>Wednesday, December 12, 2012</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/golden-age'>
+              Golden Age
+              <small>Saturday, September 15, 2012</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/imperial-town'>
+              The Imperial Town
+              <small>Thursday, May 10, 2012</small>
+            </Link>
+          </li>
+        </ol>
 
         <ol className = 'contents'>
           <li>
@@ -38,8 +64,8 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/alina-cherdakova'>
-              Alina Cherdakova
-              <small>Saturday, August 8, 2018</small>
+              { AlinaCherdakova.title }
+              <small>{ AlinaCherdakova.getDate() }</small>
             </Link>
           </li>
           <li>
@@ -121,27 +147,9 @@ function Contents() {
             </Link>
           </li>
           <li>
-            <Link to = '/photographs/russian-emirates'>
-              Russian Emirates
-              <small>Wednesday, December 12, 2012</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/photographs/golden-age'>
-              Golden Age
-              <small>Saturday, September 15, 2012</small>
-            </Link>
-          </li>
-          <li>
             <Link to = '/photographs/vera-klemenova'>
               Vera Klemenova
               <small>Thursday, July 19, 2012</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/photographs/imperial-town'>
-              The Imperial Town
-              <small>Thursday, May 10, 2012</small>
             </Link>
           </li>
         </ol>

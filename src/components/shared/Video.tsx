@@ -1,4 +1,4 @@
-import Album from './../../models/core/videoAlbum';
+import Album from './../../models/core/album';
 
 type VideoProps = {
   album: Album;
@@ -6,7 +6,7 @@ type VideoProps = {
 };
 
 function Video(props: VideoProps) {
-  let video = props.album.photographs[props.index];
+  let video = props.album.media[props.index];
 
   return (
     <>

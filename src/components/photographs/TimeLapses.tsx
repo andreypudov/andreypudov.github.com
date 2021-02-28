@@ -1,15 +1,15 @@
-import React from 'react';
 import Album from './../../models/videos/timeLapses';
+import AlbumView from '../shared/Album';
 import Headline from './../shared/Headline';
-import Layout from './../shared/Layout'
-import VideoAlbum from '../shared/VideoAlbum';
+import Layout from './../shared/Layout';
+import React from 'react';
 
 function TimeLapses() {
   return (
     <Layout>
       <div className = 'container'>
         <Headline album = { Album } />
-        <VideoAlbum album = { Album } />
+        <AlbumView album = { Album } />
       </div>
     </Layout>
   );

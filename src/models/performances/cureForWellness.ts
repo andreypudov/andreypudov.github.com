@@ -1,7 +1,7 @@
+import Album from './../core/album';
 import Video from '../core/video';
-import VideoAlbum from './../core/videoAlbum';
 
-export default new VideoAlbum(
+export default new Album(
   'A Cure for Wellness',
   new Date('2018-03-17'),
   [

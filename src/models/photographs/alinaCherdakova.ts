@@ -1,7 +1,7 @@
+import Album from '../core/album';
 import Photograph from '../core/photograph';
-import PhotographAlbum from './../core/photographAlbum';
 
-export default new PhotographAlbum(
+export default new Album(
   'Alina Cherdakova',
   new Date('2018-08-18'),
   [

@@ -1,8 +1,8 @@
-import React from 'react';
 import Album from './../../models/photographs/formulaSochi';
 import Headline from './../shared/Headline';
-import Layout from './../shared/Layout'
+import Layout from './../shared/Layout';
 import Photograph from '../shared/Photograph';
+import React from 'react';
 
 function FormulaSochi() {
   return (

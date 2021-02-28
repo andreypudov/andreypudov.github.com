@@ -1,4 +1,4 @@
-import Album from './../../models/core/photographAlbum';
+import Album from '../../models/core/album';
 
 type PhotographProps = {
   album: Album;
@@ -6,7 +6,7 @@ type PhotographProps = {
 };
 
 function Photograph(props: PhotographProps) {
-  let photograph = props.album.photographs[props.index];
+  let photograph = props.album.media[props.index];
 
   return (
     <>

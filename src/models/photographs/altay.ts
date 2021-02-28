@@ -1,7 +1,7 @@
+import Album from '../core/album';
 import Photograph from '../core/photograph';
-import PhotographAlbum from './../core/photographAlbum';
 
-export default new PhotographAlbum(
+export default new Album(
   'Altay. Conquering Siberia 2.0',
   new Date('2020-07-19'),
   [
