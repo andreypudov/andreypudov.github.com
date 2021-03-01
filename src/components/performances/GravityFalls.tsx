@@ -12,7 +12,7 @@ function GravityFalls() {
         <AlbumView album = { Album } />
 
         <div className = 'ratio ratio-1x1'>
-          <iframe src = 'https://musescore.com/user/16910421/scores/6637223/embed' title = { Album.title } />
+          <iframe src = 'https://drive.google.com/file/d/1mMhi5tfIR6nlyDiVKgqY9gTcnA-HnhYh/preview' title = { Album.title } />
         </div>
       </div>
     </Layout>
