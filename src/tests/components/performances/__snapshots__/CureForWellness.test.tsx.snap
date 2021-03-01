@@ -111,6 +111,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517761510"
           title="A Cure for Wellness"
         />
