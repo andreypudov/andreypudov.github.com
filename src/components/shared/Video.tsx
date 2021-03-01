@@ -11,7 +11,7 @@ function Video(props: VideoProps) {
   return (
     <>
       <div className = 'ratio ratio-16x9 gallery-video'>
-        <iframe src = { video.src } title = { props.album.title } />
+        <iframe src = { video.src } title = { props.album.title } allowFullScreen />
       </div>
       {
         video.description.length !== 0 &&

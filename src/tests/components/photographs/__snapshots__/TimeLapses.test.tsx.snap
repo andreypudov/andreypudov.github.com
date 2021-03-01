@@ -111,6 +111,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517763009"
           title="Time Lapses"
         />
@@ -119,6 +120,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517762962"
           title="Time Lapses"
         />
@@ -127,6 +129,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517762910"
           title="Time Lapses"
         />
@@ -135,6 +138,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517762848"
           title="Time Lapses"
         />
@@ -143,6 +147,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517762791"
           title="Time Lapses"
         />
@@ -151,6 +156,7 @@ exports[`renders correctly 1`] = `
         className="ratio ratio-16x9 gallery-video"
       >
         <iframe
+          allowFullScreen={true}
           src="https://player.vimeo.com/video/517762737"
           title="Time Lapses"
         />
