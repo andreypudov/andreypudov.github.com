@@ -119,27 +119,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-04-19/2018-04-19_001.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-04-19/2018-04-19_002.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_001_large.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_002_large.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_003_large.jpg"
       />
       <img
@@ -149,12 +149,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_005_large.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_006_large.jpg"
       />
       <img
@@ -174,17 +174,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_010_large.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_011_large.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-10-19/2014-10-19_012_large.jpg"
       />
     </div>

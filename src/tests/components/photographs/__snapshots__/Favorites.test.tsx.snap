@@ -109,12 +109,12 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_031.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_030.jpg"
       />
       <img
@@ -124,12 +124,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_028_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_027_large.jpg"
       />
       <img
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_024_large.jpg"
       />
       <img
@@ -159,7 +159,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_021_large.jpg"
       />
       <img
@@ -169,37 +169,37 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_019_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_018_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_017_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_016_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_015_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_010_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_009_large.jpg"
       />
       <img
@@ -214,17 +214,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_006_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_005_large.jpg"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-03-17/2012-03-17_004_large.jpg"
       />
     </div>

@@ -109,17 +109,17 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_001.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_002.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_003.jpg"
       />
       <img
@@ -134,42 +134,42 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_006.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_007.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_008.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_009.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_010.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_011.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_012.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_013.jpg"
       />
       <img
@@ -179,27 +179,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_015.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_016.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_017.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_018.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_019.jpg"
       />
       <img
@@ -214,12 +214,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_022.jpg"
       />
       <img
         alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-08-18/2018-08-18_023.jpg"
       />
       <img

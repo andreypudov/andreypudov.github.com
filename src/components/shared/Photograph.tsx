@@ -12,10 +12,10 @@ function Photograph(props: PhotographProps) {
     <>
       <img src      = { photograph.src }
         alt       = { `Andrey Pudov ${ props.album.title }` }
-        className = {`img-responsive gallery-image ${ photograph.vertical ? 'vertical' : '' }`} />
+        className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
       {
         photograph.description.length !== 0 &&
-          <p className = {`image-caption ${ photograph.vertical ? 'vertical' : '' }`}>
+          <p className = {`image-caption${ photograph.vertical ? ' vertical' : '' }`}>
             { photograph.description }
           </p>
       }

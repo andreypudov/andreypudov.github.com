@@ -109,22 +109,22 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Balloon Festival"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-02-24/2018-02-24_001.jpg"
       />
       <img
         alt="Andrey Pudov Balloon Festival"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-02-24/2018-02-24_002.jpg"
       />
       <img
         alt="Andrey Pudov Balloon Festival"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-02-24/2018-02-24_003.jpg"
       />
       <img
         alt="Andrey Pudov Balloon Festival"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2018-02-24/2018-02-24_004.jpg"
       />
     </div>

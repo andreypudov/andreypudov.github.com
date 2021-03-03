@@ -109,7 +109,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_001_large.jpg"
       />
       <img
@@ -119,22 +119,22 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_003_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_004_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_005_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_006_large.jpg"
       />
       <img
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_008_large.jpg"
       />
       <img
@@ -159,7 +159,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_011_large.jpg"
       />
       <img
@@ -169,7 +169,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_013_large.jpg"
       />
       <img
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_016_large.jpg"
       />
       <img
@@ -219,77 +219,77 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_023_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_024_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_025_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_026_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_027_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_028_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_029_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_030_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_031_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_032_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_033_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_034_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_035_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_036_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_037_large.jpg"
       />
       <img
@@ -314,7 +314,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_042_large.jpg"
       />
       <img
@@ -329,7 +329,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_045_large.jpg"
       />
       <img
@@ -339,27 +339,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_047_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_048_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_049_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_050_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_051_large.jpg"
       />
       <img
@@ -369,27 +369,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_053_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_054_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_055_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_056_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_057_large.jpg"
       />
       <img
@@ -404,17 +404,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_060_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_061_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_062_large.jpg"
       />
       <img
@@ -424,7 +424,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_064_large.jpg"
       />
       <img
@@ -434,7 +434,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_066_large.jpg"
       />
       <img
@@ -444,17 +444,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_068_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_069_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_070_large.jpg"
       />
       <img
@@ -464,7 +464,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_072_large.jpg"
       />
       <img
@@ -474,37 +474,37 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_074_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_075_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_076_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_077_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_078_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_079_large.jpg"
       />
       <img
         alt="Andrey Pudov Ekaterinburg. The Picture of City"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2014-12-21_25_city/2014-12-21_080_large.jpg"
       />
     </div>

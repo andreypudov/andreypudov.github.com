@@ -109,22 +109,22 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_001_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Четырехзвездный гостиничный комплекс Богатырь, расположенный на территории «Сочи Парка»
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_002_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_003_large.jpg"
       />
       <img
@@ -139,26 +139,26 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_005_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Стена олимпийских и паралимпийских чемпионов
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_006_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_007_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Вид на первый поворот с вершины главной трибуны
       </p>
@@ -174,61 +174,61 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_010_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Шлемы наиболее выдающихся пилотов Scuderia Ferrari с автографами механиков и других членов команды
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_011_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_012_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Болид Jaguar Racing 2004 сезона, ставшим последним для команды Вольфганга Райцле. Позднее команда была продана компании Red Bull
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_024_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         DeLorean DMC-12 известный своей ролью в качестве машины времени в кинотрилогии Роберта Земекиса «Назад в будущее»
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_025_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_013_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_014_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_015_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Промоутер Формулы 1 в России Сергей Воробьев
       </p>
@@ -249,11 +249,11 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_018_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Колесные диски команды Infiniti Red Bull Racing
       </p>
@@ -264,31 +264,31 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_020_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Пресс-центр Формулы 1
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_021_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Главный вход на территорию Олимпийского Парка
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_022_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Футуристического вида железнодорожная станция «Олимпийский парк»
       </p>
@@ -299,82 +299,82 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_026_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_027_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_028_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Пит-лейн в первые часы после приезда команд
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_029_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_030_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_031_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_032_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Паддок принимает гостей
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_033_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Зарядка механиков Scuderia Ferrari перед работой
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_034_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_035_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_036_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Себастьян Феттель осматривает трассу с членами команды
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_037_large.jpg"
       />
       <img
@@ -384,31 +384,31 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_039_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Гоночный симулятор в игровой зоне
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_040_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_041_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_042_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Болельщики в ожидании автографов своих кумиров
       </p>
@@ -419,11 +419,11 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_044_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Автограф сессия Red Bull. Даниил Квят и Даниэль Риккардо
       </p>
@@ -447,122 +447,122 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_046_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_047_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Александр Ткачёв (за рулем) и Берни Экклстоун совершают экскурсию по вечернему Олимпийскому парку
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_048_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_049_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_050_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_051_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_052_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_053_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_054_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_055_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_056_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_057_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_058_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Девушки из павильона Marlboro «Red or White»
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_059_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_060_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_061_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_062_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_063_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_064_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_065_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_066_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_067_large.jpg"
       />
       <img
@@ -577,12 +577,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_070_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_071_large.jpg"
       />
       <img
@@ -592,22 +592,22 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_073_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_074_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_075_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_076_large.jpg"
       />
       <img
@@ -627,67 +627,67 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_080_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_081_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_082_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Церемония открытия гонок
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_083_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_084_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_085_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_086_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_087_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_088_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_089_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_090_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_091_large.jpg"
       />
       <div
@@ -705,17 +705,17 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_092_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Кортеж Его Превосходительства Президента Российской Федерации Владимира Путина, прибывающего на трассу
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_093_large.jpg"
       />
       <img
@@ -730,11 +730,11 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_096_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Рестарт гонки после аварии Ромена Грожана на семнадцатом круге
       </p>
@@ -745,46 +745,46 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_098_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_099_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_100_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_101_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Церемония награждения победителей
       </p>
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_102_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_103_large.jpg"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2015-10-05_11/2015-10-05_11_104_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Опустевшие Пит-лейн и боксы спустя пару часов после гонки. Команды готовятся к отъезду
       </p>
