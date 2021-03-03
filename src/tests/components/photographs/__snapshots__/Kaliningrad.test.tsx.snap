@@ -109,11 +109,11 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_001_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Рыбная деревня
       </p>
@@ -149,71 +149,71 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_005_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Музей янтаря
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_006_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Частный дом в историческом районе
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_007_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Рыбная деревня
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_008_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Ангары заброшенного аэродрома Нойтиф
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_009_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Балтийская коса. Вдали виден памятник императрице Елизавете I
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_010_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Оставленная у ангаров аэродрома Нойтиф лодка
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_011_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Балтийская коса
       </p>
@@ -229,31 +229,31 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_013_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Куршская коса
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_014_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Куршская коса
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_015_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Куршская коса
       </p>
@@ -269,136 +269,136 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_017_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Куршская коса
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_018_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Куршская коса
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_019_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Куршская коса
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_020_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Остров Канта. Кафедральный Собор.
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_021_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Научно-исследовательское судно «Космонавт Виктор Пацаев». Музей Мирового океана.
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_022_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Остров Канта. Кафедральный Собор.
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_023_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Рыбная деревня
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_024_large.jpg"
       />
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_025_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Форт №5. «Король Фридрих-Вильгельм III».
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_026_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Форт №5. «Король Фридрих-Вильгельм III». Фотографии времен Второй Мировой Войны.
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_027_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Форт №5. «Король Фридрих-Вильгельм III».
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_028_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Остров Канта. Кафедральный Собор.
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_029_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Музей Мирового океана. Калининград.
       </p>
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-08-24_30/2016-08-24_30_030_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Кашалот. Музей Мирового океана. Калининград.
       </p>

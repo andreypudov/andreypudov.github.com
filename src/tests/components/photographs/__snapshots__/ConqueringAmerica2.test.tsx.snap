@@ -119,7 +119,7 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_002_large.jpg"
       />
       <img
@@ -149,11 +149,11 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_006_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Painter in Central Park
       </p>
@@ -164,7 +164,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_008_large.jpg"
       />
       <img
@@ -184,12 +184,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_012_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_013_large.jpg"
       />
       <img
@@ -219,11 +219,11 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_018_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         United States Capitol
       </p>
@@ -259,37 +259,37 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_023_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Lombard Street in San Francisco
       </p>
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_024_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Brighton Beach Train / Brooklyn
       </p>
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_025_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Brooklyn Bridge
       </p>
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_026_large.jpg"
       />
       <img
@@ -309,11 +309,11 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-09-09_24/2017-09-09_24_029_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Brooklyn Bridge - one of the oldest roadway bridges in the United States. Started in 1869 and completed fourteen years later in 1883, it connects the boroughs of Manhattan and Brooklyn, spanning the East River.
       </p>

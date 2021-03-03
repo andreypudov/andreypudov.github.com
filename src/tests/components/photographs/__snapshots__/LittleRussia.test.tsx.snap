@@ -109,12 +109,12 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-14_001_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-14_002_large.jpg"
       />
       <img
@@ -124,22 +124,22 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-15_004_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-15_005_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-15_006_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-15_007_large.jpg"
       />
       <img
@@ -149,7 +149,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-17_010_large.jpg"
       />
       <img
@@ -169,17 +169,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-17_014_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-17_015_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-17_016_large.jpg"
       />
       <img
@@ -199,12 +199,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-18_020_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-19_021_large.jpg"
       />
       <img
@@ -214,42 +214,42 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-19_023_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-19_024_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-20_025_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-20_026_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-20_027_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_028_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_029_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_030_large.jpg"
       />
       <img
@@ -264,7 +264,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_033_large.jpg"
       />
       <img
@@ -274,17 +274,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_035_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_036_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_037_large.jpg"
       />
       <img
@@ -294,17 +294,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_039_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_040_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-21_041_large.jpg"
       />
       <img
@@ -314,17 +314,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_043_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_044_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_045_large.jpg"
       />
       <img
@@ -334,12 +334,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_047_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_048_large.jpg"
       />
       <img
@@ -349,7 +349,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_050_large.jpg"
       />
       <img
@@ -359,17 +359,17 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_052_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_053_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_054_large.jpg"
       />
       <img
@@ -384,12 +384,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_057_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_058_large.jpg"
       />
       <img
@@ -399,27 +399,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_060_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_061_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_062_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_063_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_064_large.jpg"
       />
       <img
@@ -434,7 +434,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_068_large.jpg"
       />
       <img
@@ -444,27 +444,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_070_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-22_071_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_072_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_073_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_074_large.jpg"
       />
       <img
@@ -474,12 +474,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_076_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_077_large.jpg"
       />
       <img
@@ -489,27 +489,27 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_079_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_081_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_082_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-23_083_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-24_084_large.jpg"
       />
       <img
@@ -519,12 +519,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-24_089_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-24_090_large.jpg"
       />
       <img
@@ -534,7 +534,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-25_093_large.jpg"
       />
       <img
@@ -549,37 +549,37 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-25_099_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-26_102_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_009_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_067_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_080_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_085_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_087_large.jpg"
       />
       <img
@@ -589,87 +589,87 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_092_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_095_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_097_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_098_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_100_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_101_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_103_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_104_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_105_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_106_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_107_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_108_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_109_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_110_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_111_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_112_large.jpg"
       />
       <img
         alt="Andrey Pudov Little Russia"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2013-09-14_27/2013-09-27_113_large.jpg"
       />
     </div>

@@ -124,42 +124,42 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_003_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Площадь Святого Петра - построенная в середине семнадцатого века по проекту Джованни Бернини, грандиозная площадь, выполненная в виде двух полукружий из колоннад тосканского ордена, вместе с собором образующих символическую форму «ключа Святого Петра». В сердце площади стоит, привезённый в Рим императором Калигулой, египетский обелиск, когда-то украшавший цирк Нерона и играющий роль гномона. Сегодня тысячи католиков приходят на площадь услышать выступления Папы Римского, выходящего к верующим каждое утро среды.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_004_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_005_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Выход из Помпей / Бронзовая статуя
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_006_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Пленник Помпей - окаменелая статуя ребенка. Извержение Везувия в двадцать четвертый день августа семьдесят девятого года новой эры унесло жизни шестнадцати тысяч человек, беспечно не придавших значения множеству признаков надвигающейся катастрофы.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_007_large.jpg"
       />
       <img
@@ -174,67 +174,67 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_009_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         «Большая Палестра» - частично сохранившееся до наших дней старинное строение, возведенное в период правления основателя Римской Империи - Октавиана Августа (начало первого века новой эры) предназначавшееся для гимнастических упражнений и спортивных мероприятий.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_010_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Виноградники в Помпеях / Везувий
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_011_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_012_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_013_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_014_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Неаполитанский замок Сант-Эльмо. Стены этой крепости спасли жизнь целого ряда благородных особ. Так, например, в 1717 году здесь скрывался от отца лишённый права на престолонаследие  цесаревич Алексей Петрович Романов.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_015_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_016_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Неаполь - один из наиболее древних непрерывно заселенных городов мира и третий по величине город Италии, ставший домом более чем для трех миллионов горожан. Он был основан в восьмом веке до новой эры греками, давшими ему название - Парфенопа - мифической сирены, своим пением безуспешно пытавшейся очаровать Одиссея. Новый город - как можно было бы перевести современное название города с греческого, - один из самых противоречивых городов Италии, со своим акцентом, особыми культурой и традициями. Будучи родиной пиццы, пожалуй, известнейшего национального блюда Италии, он также славится своей особой кулинарией.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_017_large.jpg"
       />
       <img
@@ -244,7 +244,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_019_large.jpg"
       />
       <img
@@ -254,16 +254,16 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_021_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Собор Святого Петра - католический собор, без малейшего преувеличения, олицетворяющий историю, воплощённую в камне - сердце Ватикана. Одно из наиболее грандиозных сооружений Святого Престола и всего христианского мира. Его история начинается со времен правления первого христианского императора Константина, когда в четвертом веке была построена первая базилика. Над проектированием собора трудились поколения величайших итальянских мастеров, среди которых: Браманте, Рафаэль, Микеланджело, и Бернини. Сегодня собор, на протяжении почти двух тысячелетий символизирующий торжество христианства, является одной из главных достопримечательностей Рима.
       </p>
@@ -274,7 +274,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_024_large.jpg"
       />
       <img
@@ -294,37 +294,37 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_027_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_028_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_029_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_030_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_031_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Колизей / Вид на амфитеатр со стен Римского форума. На переднем плане изображена триумфальная арка Септимия Севера, возведённая в 205 году новой эры в память о победах императора и его сыновей Каракаллы и Геты над Парфией в двух военных кампаниях 195—203 годов.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_032_large.jpg"
       />
       <img
@@ -339,46 +339,46 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_035_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Хаджар-Ким - крупнейший и наиболее известный мегалитический храмовый комплекс Мальты. Храм был построен в четвертом тысячелетии до новой эры, что относит его к одному из древнейших религиозных строений.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_036_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_037_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Башня Шиута (Sciuta Tower) - небольшая сторожевая башня, воздвигнутая в 1638 году на месте средневекового смотрового поста как часть комплекса обороны из пяти башен Ласкари.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_038_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Соляная ферма - построенные еще при римлянах, когда служба легионеров нередко оплачивалась солью, множественные фермы на Мальте по прежнему служат своему прямому назначению. Между прочим, происхождение слова «зарплата» (salary) в английском языке непосредственно связано с латинским словом «соль» (sal).
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_039_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Марсаскала - морская деревня, построенная вокруг небольшой гавани в юго-восточном регионе Мальты.
       </p>
@@ -389,16 +389,16 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_041_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_042_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Сенглея. Вид на Базилику Рождества Девы Марии.
       </p>
@@ -429,11 +429,11 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_048_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Астрономическая обсерватория Флейрстар
       </p>
@@ -449,32 +449,32 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_051_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Дачный домик
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_052_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_053_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Дорога к морю
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_054_large.jpg"
       />
       <img
@@ -489,87 +489,87 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_057_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_058_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_059_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Коралловая лагуна
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_060_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_061_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_062_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_063_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Дом у моря
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_064_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Паромный порт на острове Гозо
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_065_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_066_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Мдина - молчаливый город, остановивший время. Основанная более четырех тысяч лет назад, историческая столица Мальты, когда то служившая домом местной знати, по-прежнему хранит дух ушедшей эпохи. Это город-музей, окруженный высокими крепостными стенами за которые есть лишь два входа, скрывающих удивительную романтику и загадочность.
       </p>
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_067_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_068_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_069_large.jpg"
       />
       <img
@@ -579,7 +579,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_071_large.jpg"
       />
       <img
@@ -589,12 +589,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_073_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_074_large.jpg"
       />
       <img
@@ -609,42 +609,42 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_077_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_078_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_079_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_080_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_081_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_082_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_083_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_084_large.jpg"
       />
       <img
@@ -669,7 +669,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_089_large.jpg"
       />
       <img
@@ -684,7 +684,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.jpg"
       />
     </div>

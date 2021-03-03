@@ -109,92 +109,92 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_001_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_002_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_003_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_004_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_005_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_006_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_007_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_008_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_009_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_010_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_011_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_012_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_013_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_014_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_015_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_016_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_017_large.jpg"
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_018_large.jpg"
       />
       <img
@@ -204,7 +204,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Kira Orlova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2017-10-22/2017-10-22_020_large.jpg"
       />
     </div>

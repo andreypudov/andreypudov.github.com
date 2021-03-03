@@ -109,22 +109,22 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_001_large.jpg"
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_002_large.jpg"
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_003_large.jpg"
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_004_large.jpg"
       />
       <img
@@ -139,12 +139,12 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_007_large.jpg"
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_008_large.jpg"
       />
       <img
@@ -169,7 +169,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_013_large.jpg"
       />
       <img
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2012-07-19/2012-07-19_016_large.jpg"
       />
     </div>

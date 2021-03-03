@@ -114,7 +114,7 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_002_large.jpg"
       />
       <img
@@ -129,27 +129,27 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_004_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_005_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_006_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Статуя Свободы - построенная Гюставом Эйфелем, она была подарена Францией к Всемирной выставке 1876 года, столетней годовщине американской независимости. Колоссальная скульптура, олицетворявшая знак дружбы к американскому народу, стала непрекословным символом Соединенных Штатов.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_007_large.jpg"
       />
       <img
@@ -164,46 +164,46 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_009_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Центральный парк, Нью-Йорк - разработанный архитекторами Фредериком Олмстедом и Калвертом Воксом, он стал, пожалуй, самым узнаваемым парком мира. Располагаясь в центральной части города, он расстилает свои ландшафт на три с половиной квадратных километра, служа прекрасным местом отдыха и занятия спортом.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_010_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Брайтон-Бич или как его нередко называют «Маленькая Одесса». Русскоязычный район на юге Бруклина, ставший домом для многих советских эмигрантов. Он был спроектирован Вильямом Энгеманом в качестве курортного места, получившего свое имя в честь одноименного курорта Великобритании.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_011_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Национальный музей воздухоплавания и астронавтики - один из самых увлекательных и интересных музеев столицы Соединенных Штатов. Он располагает самой большой коллекцией исторических самолетов и космических аппаратов, - оригинальных исторических экземпляров и их дублеров.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_012_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_013_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Использованные перед непосредственным полетом в космос модули космических кораблей программы «Союз — Аполлон», - эксперимента совместного пилотируемого полета, нередко называемого «рукопожатием в космосе».
       </p>
@@ -219,11 +219,11 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_015_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Мемориал Линкольна - символизирующий Союз, мемориальный комплекс, построенный в честь Авраама Линкольна, шестнадцатого президента Соединенных Штатов, вошедшего в историю как освободитель американских рабов и национальный герой, приведший к победе над армиями Конфедерации.
       </p>
@@ -234,11 +234,11 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_017_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Белый дом - официальная резиденция президента Соединенных Штатов, становившаяся домом для всех руководителей страны, за исключением Джорджа Вашингтона.
       </p>
@@ -254,11 +254,11 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_019_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Монумент Вашингтона - гранитный обелиск, облицованный мэрилендским мрамором, возвышающийся на сто шестьдесят девять метров. Он, самый высокий монументальный каменный памятник, был построен в честь главнокомандующего Континентальной армии и первого президента Соединенных Штатов по проекту архитектора Роберта Миллса, часто называемого первым американцем, освоившим архитектурное ремесло.
       </p>
@@ -274,17 +274,17 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_021_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_022_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_023_large.jpg"
       />
       <img
@@ -299,57 +299,57 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_025_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_026_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_027_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_028_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_029_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Музей Авиации - размещенный на территории первых производственных цехов Боинга это крупнейший частный авиационный музей мира, на стендах которого представлены многочисленные летательные и космических аппараты, ставшие непосредственными действующими лицами истории освоения воздушного пространства и покорения космоса.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_030_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_031_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_032_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         «Борт номер один» - специально модернизированный Боинг 707-120, известный как SAM 910 (Special Air Missions - специальные авиазадания), использовавшийся президентами Дуайтом Эйзенхауэром, Джоном Кеннеди, Линдоном Джонсоном и Ричардом Никсоном, а так же перевозивший таких влиятельных людей как Никита Хрущев и Генри Киссинджер.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_033_large.jpg"
       />
       <img
@@ -369,36 +369,36 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_036_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_037_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         Сиэтл, или как его часто называют «Королевский город», он закладывался своими основателями как будущий Нью-Йорк, и даже носил соответствующее имя - Нью-Йорк Алки (Будущий Нью-Йорк). Сегодня это крупнейший город и один из основных морских портов на северо-западе Соединенных Штатов. Он широко известен за свою кофейную культуру - именно здесь, в далеком 1976 году, на Вастерн-авеню 2000, открылся Старбакс, в то время еще не варивший свой отменный кофе. Не менее примечательным является тот факт, что более половины населения города имеет высшее образование, что совсем не удивительно, учитывая развитую промышленность, и в первую очередь авиакосмическую отрасль. Например, здесь, с 1916 года, располагается одно из основных производств Боинга, крупнейшего мирового производителя авиационной, космической и военной техники.
       </p>
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_038_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_039_large.jpg"
       />
       <img
         alt="Andrey Pudov Conquering America"
-        className="img-responsive gallery-image "
+        className="img-responsive gallery-image"
         src="../albums/2016-10-15_11-05/2016-10-15_11-05_040_large.jpg"
       />
       <p
-        className="image-caption "
+        className="image-caption"
       >
         «Голливуд» - расположенный на южном склоне Маунт Ли, он один из наиболее узнаваемых памятников американской культуры. Созданный ради рекламы новых жилых кварталов, он приобрел огромную популярность, став неоспоримым символом американского, и, пожалуй, мирового кинематографа.
       </p>
