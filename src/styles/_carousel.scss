@@ -3,7 +3,7 @@
 
   .carousel-inner {
     .carousel-item {
-      max-height: 500px;
+      max-height: max(60vh, 500px);
     }
   }
 }
