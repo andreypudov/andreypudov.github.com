@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
           >
             Russian Emirates
             <small>
-              Wednesday, December 12, 2012
+              Wednesday, November 21, 2012
             </small>
           </a>
         </li>
@@ -139,7 +139,7 @@ exports[`renders correctly 1`] = `
           >
             The Imperial Town
             <small>
-              Thursday, May 10, 2012
+              Wednesday, May 9, 2012
             </small>
           </a>
         </li>
@@ -159,7 +159,7 @@ exports[`renders correctly 1`] = `
           >
             Favorite Photographs
             <small>
-              Wednesday, March 17, 2021
+              Sunday, July 19, 2020
             </small>
           </a>
         </li>
@@ -225,7 +225,7 @@ exports[`renders correctly 1`] = `
           >
             Conquering Rome and Order of Malta
             <small>
-              Monday, December 18, 2017
+              Friday, January 5, 2018
             </small>
           </a>
         </li>
@@ -247,7 +247,7 @@ exports[`renders correctly 1`] = `
           >
             Conquering America 2.0
             <small>
-              Saturday, September 9, 2017
+              Sunday, September 24, 2017
             </small>
           </a>
         </li>
@@ -269,7 +269,7 @@ exports[`renders correctly 1`] = `
           >
             Conquering America
             <small>
-              Saturday, October 15, 2016
+              Saturday, November 5, 2016
             </small>
           </a>
         </li>
@@ -291,7 +291,7 @@ exports[`renders correctly 1`] = `
           >
             2015 Formula 1 Russian Grand Prix
             <small>
-              Monday, October 5, 2015
+              Monday, May 11, 2015
             </small>
           </a>
         </li>
@@ -302,7 +302,7 @@ exports[`renders correctly 1`] = `
           >
             Lake Baikal
             <small>
-              Monday, July 27, 2015
+              Saturday, August 8, 2015
             </small>
           </a>
         </li>

@@ -1,8 +1,29 @@
-import React from 'react';
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
+import RussianEmirates from './../models/photographs/russianEmirates';
+import GoldenAge from './../models/photographs/goldenAge';
+import ImperialTown from './../models/photographs/imperialTown';
+
+import Favorites from './../models/photographs/favorites';
+import Altay from './../models/photographs/altay';
+import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
+import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
+import BalloonFestival from './../models/photographs/balloonFestival';
+import ConqueringRome from './../models/photographs/conqueringRome';
+import KiraOrlova from './../models/photographs/kiraOrlova';
+import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
+// import ConqueringAmerica from './../models/photographs/';
+import ConqueringAmerica from './../models/photographs/conqueringAmerica';
+import Kaliningrad from './../models/photographs/kaliningrad';
+import FormulaSochi from './../models/photographs/formulaSochi';
+import LakeBaikal from './../models/photographs/lakeBaikal';
+// import AlinaCherdakova from './../models/photographs/';
+import Ekaterinburg from './../models/photographs/ekaterinburg';
+import YoshkarOla from './../models/photographs/yoshkarOla';
+import LittleRussia from './../models/photographs/littleRussia';
+import VeraKlemenova from './../models/photographs/veraKlemenova';
 
 function Contents() {
   return (
@@ -16,20 +37,20 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/russian-emirates'>
-              Russian Emirates
-              <small>Wednesday, December 12, 2012</small>
+              { RussianEmirates.title }
+              <small>{ RussianEmirates.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/golden-age'>
-              Golden Age
-              <small>Saturday, September 15, 2012</small>
+              { GoldenAge.title }
+              <small>{ GoldenAge.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/imperial-town'>
-              The Imperial Town
-              <small>Thursday, May 10, 2012</small>
+              { ImperialTown.title }
+              <small>{ ImperialTown.getDate() }</small>
             </Link>
           </li>
         </ol>
@@ -40,26 +61,26 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/favorite-photographs'>
-              Favorite Photographs
-              <small>Wednesday, March 17, 2021</small>
+              { Favorites.title }
+              <small>{ Favorites.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/altay'>
-              Altay. Conquering Siberia 2.0
-              <small>Sunday, July 19, 2020</small>
+              { Altay.title }
+              <small>{ Altay.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/nizhny-novgorod'>
-              Nizhny Novgorod
-              <small>Tuesday, July 16, 2019</small>
+              { NizhnyNovgorod.title }
+              <small>{ NizhnyNovgorod.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/rekshino'>
-              Rekshino
-              <small>Saturday, October 26, 2019</small>
+              { Rekshino.title }
+              <small>{ Rekshino.getDate() }</small>
             </Link>
           </li>
           <li>
@@ -70,26 +91,26 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/balloon-festival'>
-              Balloon Festival
-              <small>Saturday, February 24, 2018</small>
+              { BalloonFestival.title }
+              <small>{ BalloonFestival.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/rome-malta'>
-              Conquering Rome and Order of Malta
-              <small>Monday, December 18, 2017</small>
+              { ConqueringRome.title }
+              <small>{ ConqueringRome.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/kira-orlova'>
-              Kira Orlova
-              <small>Sunday, October 22, 2017</small>
+              { KiraOrlova.title }
+              <small>{ KiraOrlova.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/united-states-2.0'>
-              Conquering America 2.0
-              <small>Saturday, September 9, 2017</small>
+              { ConqueringAmerica2.title }
+              <small>{ ConqueringAmerica2.getDate() }</small>
             </Link>
           </li>
           <li>
@@ -100,26 +121,26 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/united-states'>
-              Conquering America
-              <small>Saturday, October 15, 2016</small>
+              { ConqueringAmerica.title }
+              <small>{ ConqueringAmerica.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/kaliningrad'>
-              Kaliningrad. The amber capital of the World
-              <small>Wednesday, August 24, 2016</small>
+              { Kaliningrad.title }
+              <small>{ Kaliningrad.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/formula-sochi'>
-              2015 Formula 1 Russian Grand Prix
-              <small>Monday, October 5, 2015</small>
+              { FormulaSochi.title }
+              <small>{ FormulaSochi.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/lake-baikal'>
-              Lake Baikal
-              <small>Monday, July 27, 2015</small>
+              { LakeBaikal.title }
+              <small>{ LakeBaikal.getDate() }</small>
             </Link>
           </li>
           <li>
@@ -130,26 +151,26 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/ekaterinburg'>
-              Ekaterinburg. The Picture of City
-              <small>Sunday, December 21, 2014</small>
+              { Ekaterinburg.title }
+              <small>{ Ekaterinburg.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/yoshkar-ola'>
-              Yoshkar-Ola. Tsar's town on Kokshaga River
-              <small>Saturday, May 10, 2014</small>
+              { YoshkarOla.title }
+              <small>{ YoshkarOla.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/little-russia'>
-              Little Russia
-              <small>Saturday, September 14, 2013</small>
+              { LittleRussia.title }
+              <small>{ LittleRussia.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/vera-klemenova'>
-              Vera Klemenova
-              <small>Thursday, July 19, 2012</small>
+              { VeraKlemenova.title }
+              <small>{ VeraKlemenova.getDate() }</small>
             </Link>
           </li>
         </ol>
