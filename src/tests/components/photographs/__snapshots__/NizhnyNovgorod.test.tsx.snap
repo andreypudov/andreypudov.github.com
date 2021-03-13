@@ -130,47 +130,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Nizhny Novgorod"
         className="img-responsive gallery-image"
-        src="../albums/2014-10-19/2014-10-19_001_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="../albums/2014-10-19/2014-10-19_002_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="../albums/2014-10-19/2014-10-19_003_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2014-10-19/2014-10-19_004_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="../albums/2014-10-19/2014-10-19_005_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="../albums/2014-10-19/2014-10-19_006_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2014-10-19/2014-10-19_007_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2014-10-19/2014-10-19_008_large.jpg"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2014-10-19/2014-10-19_009_large.jpg"
+        src="../albums/2012-03-17/2012-03-17_024_large.jpg"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
