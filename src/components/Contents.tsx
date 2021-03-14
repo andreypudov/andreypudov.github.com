@@ -25,6 +25,8 @@ import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
 import VeraKlemenova from './../models/photographs/veraKlemenova';
 
+import PencilSketches from './../models/drawings/pencilSketches';
+
 function Contents() {
   return (
     <Layout>
@@ -181,8 +183,8 @@ function Contents() {
           </li>
           <li>
             <Link to = '/drawings/pencil-sketches'>
-              Pencil Sketches
-              <small>Thursday, July 16, 2020</small>
+              { PencilSketches.getTitle() }
+              <small>{ PencilSketches.getDate() }</small>
             </Link>
           </li>
         </ol>

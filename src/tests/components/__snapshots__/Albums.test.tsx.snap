@@ -102,431 +102,514 @@ exports[`renders correctly 1`] = `
       <h1>
         Albums
       </h1>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/favorite-photographs"
-        onClick={[Function]}
+      <div
+        className="row"
       >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2012-03-17/2012-03-17_031.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/favorite-photographs"
+            onClick={[Function]}
           >
-            Favorite Photographs
-          </h5>
-          <p
-            className="card-text"
-          >
-            Sunday, July 19, 2020
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2012-03-17/2012-03-17_031.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Favorite Photographs
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/altay"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2020-07-19_08-04/2020-07-19_08-04_099.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/altay"
+            onClick={[Function]}
           >
-            Altay. Conquering Siberia 2.0
-          </h5>
-          <p
-            className="card-text"
-          >
-            Sunday, July 19, 2020
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2020-07-19_08-04/2020-07-19_08-04_099.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Altay. Conquering Siberia 2.0
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/nizhny-novgorod"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2012-03-17/2012-03-17_024_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/drawings/pencil-sketches"
+            onClick={[Function]}
           >
-            Nizhny Novgorod
-          </h5>
-          <p
-            className="card-text"
-          >
-            Tuesday, July 16, 2019
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../drawings/PencilSketches/WLmbtK_QN8g.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pencil Sketches
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/rekshino"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2019-10-26/2019-10-26_007.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/nizhny-novgorod"
+            onClick={[Function]}
           >
-            Rekshino
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, October 26, 2019
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2014-10-19/2014-10-19_012_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Nizhny Novgorod
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/alina-cherdakova"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2018-08-18/2018-08-18_013.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/rekshino"
+            onClick={[Function]}
           >
-            Alina Cherdakova
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, August 18, 2018
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2019-10-26/2019-10-26_007.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Rekshino
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/balloon-festival"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2018-02-24/2018-02-24_002.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/alina-cherdakova"
+            onClick={[Function]}
           >
-            Balloon Festival
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, February 24, 2018
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2018-08-18/2018-08-18_013.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Alina Cherdakova
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/rome-malta"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/balloon-festival"
+            onClick={[Function]}
           >
-            Conquering Rome and Order of Malta
-          </h5>
-          <p
-            className="card-text"
-          >
-            Friday, January 5, 2018
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2018-02-24/2018-02-24_002.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Balloon Festival
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/kira-orlova"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2017-10-22/2017-10-22_016_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/rome-malta"
+            onClick={[Function]}
           >
-            Kira Orlova
-          </h5>
-          <p
-            className="card-text"
-          >
-            Sunday, October 22, 2017
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Conquering Rome and Order of Malta
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/united-states-2.0"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2017-09-09_24/2017-09-09_24_018_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/kira-orlova"
+            onClick={[Function]}
           >
-            Conquering America 2.0
-          </h5>
-          <p
-            className="card-text"
-          >
-            Sunday, September 24, 2017
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2017-10-22/2017-10-22_016_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Kira Orlova
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/united-states"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2016-10-15_11-05/2016-10-15_11-05_019_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/united-states-2.0"
+            onClick={[Function]}
           >
-            Conquering America
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, November 5, 2016
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2017-09-09_24/2017-09-09_24_018_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Conquering America 2.0
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/kaliningrad"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2016-08-24_30/2016-08-24_30_023_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/united-states"
+            onClick={[Function]}
           >
-            Kaliningrad. The amber capital of the World
-          </h5>
-          <p
-            className="card-text"
-          >
-            Wednesday, August 24, 2016
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2016-10-15_11-05/2016-10-15_11-05_019_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Conquering America
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/formula-sochi"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2015-10-05_11/2015-10-05_11_064_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/kaliningrad"
+            onClick={[Function]}
           >
-            2015 Formula 1 Russian Grand Prix
-          </h5>
-          <p
-            className="card-text"
-          >
-            Monday, May 11, 2015
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2016-08-24_30/2016-08-24_30_023_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Kaliningrad. The amber capital of the World
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/lake-baikal"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2015-07-27_08-08/2015-07-27_08-08_035_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/formula-sochi"
+            onClick={[Function]}
           >
-            Lake Baikal
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, August 8, 2015
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2015-10-05_11/2015-10-05_11_064_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                2015 Formula 1 Russian Grand Prix
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/ekaterinburg"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2014-12-21_25_city/2014-12-21_064_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/lake-baikal"
+            onClick={[Function]}
           >
-            Ekaterinburg. The Picture of City
-          </h5>
-          <p
-            className="card-text"
-          >
-            Sunday, December 21, 2014
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2015-07-27_08-08/2015-07-27_08-08_035_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lake Baikal
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/yoshkar-ola"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2014-05-10/2014-05-10_024_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/ekaterinburg"
+            onClick={[Function]}
           >
-            Yoshkar-Ola. Tsar's town on Kokshaga River
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, May 10, 2014
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2014-12-21_25_city/2014-12-21_064_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ekaterinburg. The Picture of City
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/little-russia"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2013-09-14_27/2013-09-24_084_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/yoshkar-ola"
+            onClick={[Function]}
           >
-            Little Russia
-          </h5>
-          <p
-            className="card-text"
-          >
-            Saturday, September 14, 2013
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2014-05-10/2014-05-10_024_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Yoshkar-Ola. Tsar's town on Kokshaga River
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a
-        className="card bg-dark text-white gallery-image"
-        href="/photographs/vera-klemenova"
-        onClick={[Function]}
-      >
-        <img
-          alt=""
-          className="card-img"
-          src="../albums/2012-07-19/2012-07-19_016_large.jpg"
-        />
         <div
-          className="card-img-overlay"
+          className="col-md-4"
         >
-          <h5
-            className="card-title"
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/little-russia"
+            onClick={[Function]}
           >
-            Vera Klemenova
-          </h5>
-          <p
-            className="card-text"
-          >
-            Thursday, July 19, 2012
-          </p>
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2013-09-14_27/2013-09-24_084_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Little Russia
+              </h6>
+            </div>
+          </a>
         </div>
-      </a>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/russian-emirates"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2012-11-09_21/2012-11-09_21_090_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Russian Emirates
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/golden-age"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2012-09-14_15/2012-09-14_15_005_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Golden Age
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/vera-klemenova"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2012-07-19/2012-07-19_016_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Vera Klemenova
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/imperial-town"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="../albums/2012-05-05_09/2012-05-05_09_016_large.jpg"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Imperial Town
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </main>
   <footer>

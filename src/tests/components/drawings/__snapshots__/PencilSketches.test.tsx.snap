@@ -108,57 +108,17 @@ exports[`renders correctly 1`] = `
         </small>
       </h1>
       <img
-        alt="Pencil Sketches"
+        alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/RLaAhKlMXSA.jpg"
+        src="../drawings/PencilSketches/vaJwDlqhCMQ.jpg"
       />
       <p
         className="image-caption vertical"
       >
-        April 2, 2020
+        July 16, 2020
       </p>
       <img
-        alt="Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="../drawings/PencilSketches/lNr54EOZNxE.jpg"
-      />
-      <p
-        className="image-caption"
-      >
-        April 3, 2020
-      </p>
-      <img
-        alt="Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="../drawings/PencilSketches/FDX1JlL5YWM.jpg"
-      />
-      <p
-        className="image-caption"
-      >
-        April 7, 2020
-      </p>
-      <img
-        alt="Pencil Sketches"
-        className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/iioBNj1E2Ts.jpg"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        April 22, 2020
-      </p>
-      <img
-        alt="Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="../drawings/PencilSketches/WLmbtK_QN8g.jpg"
-      />
-      <p
-        className="image-caption"
-      >
-        April 26, 2020
-      </p>
-      <img
-        alt="Pencil Sketches"
+        alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
         src="../drawings/PencilSketches/W6u08dHAbLg.jpg"
       />
@@ -168,14 +128,54 @@ exports[`renders correctly 1`] = `
         July 9, 2020
       </p>
       <img
-        alt="Pencil Sketches"
+        alt="Andrey Pudov Pencil Sketches"
+        className="img-responsive gallery-image"
+        src="../drawings/PencilSketches/WLmbtK_QN8g.jpg"
+      />
+      <p
+        className="image-caption"
+      >
+        April 26, 2020
+      </p>
+      <img
+        alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/vaJwDlqhCMQ.jpg"
+        src="../drawings/PencilSketches/iioBNj1E2Ts.jpg"
       />
       <p
         className="image-caption vertical"
       >
-        July 16, 2020
+        April 22, 2020
+      </p>
+      <img
+        alt="Andrey Pudov Pencil Sketches"
+        className="img-responsive gallery-image"
+        src="../drawings/PencilSketches/FDX1JlL5YWM.jpg"
+      />
+      <p
+        className="image-caption"
+      >
+        April 7, 2020
+      </p>
+      <img
+        alt="Andrey Pudov Pencil Sketches"
+        className="img-responsive gallery-image"
+        src="../drawings/PencilSketches/lNr54EOZNxE.jpg"
+      />
+      <p
+        className="image-caption"
+      >
+        April 3, 2020
+      </p>
+      <img
+        alt="Andrey Pudov Pencil Sketches"
+        className="img-responsive gallery-image vertical"
+        src="../drawings/PencilSketches/RLaAhKlMXSA.jpg"
+      />
+      <p
+        className="image-caption vertical"
+      >
+        April 2, 2020
       </p>
     </div>
   </main>
