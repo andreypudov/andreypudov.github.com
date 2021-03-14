@@ -14,7 +14,7 @@ import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
-// import ConqueringAmerica from './../models/photographs/';
+import TimeLapses from './../models/videos/timeLapses';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi from './../models/photographs/formulaSochi';
@@ -117,8 +117,8 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/time-lapses'>
-              Time Lapses
-              <small>Friday, April 14, 2017</small>
+              { TimeLapses.getTitle() }
+              <small>{ TimeLapses.getDate() }</small>
             </Link>
           </li>
           <li>
