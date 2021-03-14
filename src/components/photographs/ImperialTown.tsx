@@ -2,7 +2,6 @@ import Album from './../../models/photographs/imperialTown';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 import Photograph from '../shared/Photograph';
-import React from 'react';
 
 function ImperialTown() {
   return (
