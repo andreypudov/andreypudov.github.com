@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Alina Cherdakova',
   new Date('2018-08-18'),
+  new Photograph('../albums/2018-08-18/2018-08-18_013.jpg'),
   [
     new Photograph('../albums/2018-08-18/2018-08-18_001.jpg'),
     new Photograph('../albums/2018-08-18/2018-08-18_002.jpg'),

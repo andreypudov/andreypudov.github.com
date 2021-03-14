@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Vera Klemenova',
   new Date('2012-07-19'),
+  new Photograph('../albums/2012-07-19/2012-07-19_016_large.jpg'),
   [
     new Photograph('../albums/2012-07-19/2012-07-19_001_large.jpg'),
     new Photograph('../albums/2012-07-19/2012-07-19_002_large.jpg'),

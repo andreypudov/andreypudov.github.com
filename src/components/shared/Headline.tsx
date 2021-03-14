@@ -7,7 +7,7 @@ type HeadlineProps = {
 function Headline(props: HeadlineProps) {
   return (
     <h1>
-      { props.album.title }
+      { props.album.getTitle() }
       <small className = 'text-muted'>{ props.album.getDate() }</small>
     </h1>
   );

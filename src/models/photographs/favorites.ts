@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Favorite Photographs',
   new Date('2020-07-19'),
+  new Photograph('../albums/2012-03-17/2012-03-17_031.jpg'),
   [
     new Photograph('../albums/2012-03-17/2012-03-17_031.jpg'),
     new Photograph('../albums/2012-03-17/2012-03-17_030.jpg'),

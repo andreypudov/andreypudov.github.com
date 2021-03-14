@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Ekaterinburg. The Picture of City',
   new Date('2014-12-21'),
+  new Photograph('../albums/2014-12-21_25_city/2014-12-21_064_large.jpg'),
   [
     new Photograph('../albums/2014-12-21_25_city/2014-12-21_001_large.jpg'),
     new Photograph('../albums/2014-12-21_25_city/2014-12-21_002_large.jpg', true),

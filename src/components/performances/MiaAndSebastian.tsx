@@ -12,7 +12,7 @@ function MiaAndSebastian() {
         <AlbumView album = { Album } />
 
         <div className = 'ratio ratio-1x1'>
-          <iframe src = 'https://drive.google.com/file/d/1loIUaq25m9XZPi0eI1jClZ8fr0l_ocD9/preview' title = { Album.title }></iframe>
+          <iframe src = 'https://drive.google.com/file/d/1loIUaq25m9XZPi0eI1jClZ8fr0l_ocD9/preview' title = { Album.getTitle() }></iframe>
         </div>
       </div>
     </Layout>

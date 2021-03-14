@@ -6,12 +6,12 @@ type VideoProps = {
 };
 
 function Video(props: VideoProps) {
-  let video = props.album.media[props.index];
+  let video = props.album.getMedia()[props.index];
 
   return (
     <>
       <div className = 'ratio ratio-16x9 gallery-video'>
-        <iframe src = { video.src } title = { props.album.title } allowFullScreen />
+        <iframe src = { video.src } title = { props.album.getTitle() } allowFullScreen />
       </div>
       {
         video.description.length !== 0 &&

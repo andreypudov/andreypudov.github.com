@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Conquering America 2.0',
   new Date('2017-09-24'),
+  new Photograph('../albums/2017-09-09_24/2017-09-09_24_018_large.jpg', false, 'United States Capitol'),
   [
     new Photograph('../albums/2017-09-09_24/2017-09-09_24_001_large.jpg', true,
       'Окулус (Oculus) - терминал скоростной железной дороги PATH (Port Authority Trans-Hudson), соединяющей Манхэттен с городами Хобокен, Джерси-Сити, Гаррисон и Ньюарк в штате Нью-Джерси. Дизайн станции выполнен испанским архитектором и скульптором Сантьяго Калатраве (Santiago Calatrava) в память о трагедии 11 сентября 2001 года и олицетворяет крылья птицы, взлетающей из рук ребенка.'),

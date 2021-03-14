@@ -6,12 +6,12 @@ type PhotographProps = {
 };
 
 function Photograph(props: PhotographProps) {
-  let photograph = props.album.media[props.index];
+  let photograph = props.album.getMedia()[props.index];
 
   return (
     <>
       <img src      = { photograph.src }
-        alt       = { `Andrey Pudov ${ props.album.title }` }
+        alt       = { `Andrey Pudov ${ props.album.getTitle() }` }
         className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
       {
         photograph.description.length !== 0 &&
