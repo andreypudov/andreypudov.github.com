@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
@@ -51,9 +50,9 @@ function Home() {
       <div className = 'marketing marketing-image'>
         <div className = 'row'>
           <div className = 'col-sm-3'>
-              <Link to = '/photographs/favorite-photographs'>
-                <img src = 'images/marketing/altay.jpg' className = 'img-fluid' alt = 'Favorite Photographs' />
-              </Link>
+            <Link to = '/photographs/favorite-photographs'>
+              <img src = 'images/marketing/altay.jpg' className = 'img-fluid' alt = 'Favorite Photographs' />
+            </Link>
           </div>
           <div className = 'col-sm-3'>
             <Link to = '/photographs/rekshino'>

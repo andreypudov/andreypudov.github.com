@@ -2,7 +2,6 @@ import Album from './../../models/photographs/lakeBaikal';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 import AlbumView from '../shared/Album';
-import React from 'react';
 
 function LakeBaikal() {
   return (

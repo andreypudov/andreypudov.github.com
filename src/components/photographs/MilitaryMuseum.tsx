@@ -1,5 +1,4 @@
 import Layout from './../shared/Layout';
-import React from 'react';
 
 function MilitaryMuseum() {
   return (
