@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Kira Orlova',
   new Date('2017-10-22'),
+  new Photograph('../albums/2017-10-22/2017-10-22_016_large.jpg'),
   [
     new Photograph('../albums/2017-10-22/2017-10-22_001_large.jpg'),
     new Photograph('../albums/2017-10-22/2017-10-22_002_large.jpg'),

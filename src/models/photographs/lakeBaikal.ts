@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Lake Baikal',
   new Date('2015-08-08'),
+  new Photograph('../albums/2015-07-27_08-08/2015-07-27_08-08_035_large.jpg', false, 'Устье реки Большой Чивыркуй - первое утро на берегу озера.'),
   [
     new Photograph('../albums/2015-07-27_08-08/2015-07-27_08-08_001_large.jpg'),
     new Photograph('../albums/2015-07-27_08-08/2015-07-27_08-08_002_large.jpg'),

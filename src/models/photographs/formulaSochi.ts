@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   '2015 Formula 1 Russian Grand Prix',
   new Date('2015-05-11'),
+  new Photograph('../albums/2015-10-05_11/2015-10-05_11_064_large.jpg'),
   [
     new Photograph('../albums/2015-10-05_11/2015-10-05_11_001_large.jpg', false, 'Четырехзвездный гостиничный комплекс Богатырь, расположенный на территории «Сочи Парка»'),
     new Photograph('../albums/2015-10-05_11/2015-10-05_11_002_large.jpg'),

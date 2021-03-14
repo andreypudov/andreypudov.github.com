@@ -12,7 +12,7 @@ function GravityFalls() {
         <AlbumView album = { Album } />
 
         <div className = 'ratio ratio-1x1'>
-          <iframe src = 'https://drive.google.com/file/d/1kxcA8UbhrxkOAM50GyKFqZa6QCywoVYm/preview' title = { Album.title } />
+          <iframe src = 'https://drive.google.com/file/d/1kxcA8UbhrxkOAM50GyKFqZa6QCywoVYm/preview' title = { Album.getTitle() } />
         </div>
       </div>
     </Layout>

@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Yoshkar-Ola. Tsar\'s town on Kokshaga River',
   new Date('2014-05-10'),
+  new Photograph('../albums/2014-05-10/2014-05-10_024_large.jpg'),
   [
     new Photograph('../albums/2014-05-10/2014-05-10_001_large.jpg', true),
     new Photograph('../albums/2014-05-10/2014-05-10_002_large.jpg'),

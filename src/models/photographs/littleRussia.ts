@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Little Russia',
   new Date('2013-09-14'),
+  new Photograph('../albums/2013-09-14_27/2013-09-24_084_large.jpg'),
   [
     new Photograph('../albums/2013-09-14_27/2013-09-14_001_large.jpg'),
     new Photograph('../albums/2013-09-14_27/2013-09-14_002_large.jpg'),

@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Golden Age',
   new Date('2012-09-15'),
+  new Photograph('../albums/2012-09-14_15/2012-09-14_15_005_large.jpg'),
   [
     new Photograph('../albums/2012-09-14_15/2012-09-14_15_001_large.jpg'),
     new Photograph('../albums/2012-09-14_15/2012-09-14_15_002_large.jpg'),

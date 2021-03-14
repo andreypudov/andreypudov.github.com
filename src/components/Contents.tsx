@@ -37,19 +37,19 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/russian-emirates'>
-              { RussianEmirates.title }
+              { RussianEmirates.getTitle() }
               <small>{ RussianEmirates.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/golden-age'>
-              { GoldenAge.title }
+              { GoldenAge.getTitle() }
               <small>{ GoldenAge.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/imperial-town'>
-              { ImperialTown.title }
+              { ImperialTown.getTitle() }
               <small>{ ImperialTown.getDate() }</small>
             </Link>
           </li>
@@ -61,55 +61,55 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/favorite-photographs'>
-              { Favorites.title }
+              { Favorites.getTitle() }
               <small>{ Favorites.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/altay'>
-              { Altay.title }
+              { Altay.getTitle() }
               <small>{ Altay.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/nizhny-novgorod'>
-              { NizhnyNovgorod.title }
+              { NizhnyNovgorod.getTitle() }
               <small>{ NizhnyNovgorod.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/rekshino'>
-              { Rekshino.title }
+              { Rekshino.getTitle() }
               <small>{ Rekshino.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/alina-cherdakova'>
-              { AlinaCherdakova.title }
+              { AlinaCherdakova.getTitle() }
               <small>{ AlinaCherdakova.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/balloon-festival'>
-              { BalloonFestival.title }
+              { BalloonFestival.getTitle() }
               <small>{ BalloonFestival.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/rome-malta'>
-              { ConqueringRome.title }
+              { ConqueringRome.getTitle() }
               <small>{ ConqueringRome.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/kira-orlova'>
-              { KiraOrlova.title }
+              { KiraOrlova.getTitle() }
               <small>{ KiraOrlova.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/united-states-2.0'>
-              { ConqueringAmerica2.title }
+              { ConqueringAmerica2.getTitle() }
               <small>{ ConqueringAmerica2.getDate() }</small>
             </Link>
           </li>
@@ -121,25 +121,25 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/united-states'>
-              { ConqueringAmerica.title }
+              { ConqueringAmerica.getTitle() }
               <small>{ ConqueringAmerica.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/kaliningrad'>
-              { Kaliningrad.title }
+              { Kaliningrad.getTitle() }
               <small>{ Kaliningrad.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/formula-sochi'>
-              { FormulaSochi.title }
+              { FormulaSochi.getTitle() }
               <small>{ FormulaSochi.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/lake-baikal'>
-              { LakeBaikal.title }
+              { LakeBaikal.getTitle() }
               <small>{ LakeBaikal.getDate() }</small>
             </Link>
           </li>
@@ -151,25 +151,25 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/ekaterinburg'>
-              { Ekaterinburg.title }
+              { Ekaterinburg.getTitle() }
               <small>{ Ekaterinburg.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/yoshkar-ola'>
-              { YoshkarOla.title }
+              { YoshkarOla.getTitle() }
               <small>{ YoshkarOla.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/little-russia'>
-              { LittleRussia.title }
+              { LittleRussia.getTitle() }
               <small>{ LittleRussia.getDate() }</small>
             </Link>
           </li>
           <li>
             <Link to = '/photographs/vera-klemenova'>
-              { VeraKlemenova.title }
+              { VeraKlemenova.getTitle() }
               <small>{ VeraKlemenova.getDate() }</small>
             </Link>
           </li>

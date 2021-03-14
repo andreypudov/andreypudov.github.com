@@ -11,7 +11,7 @@ function Album(props: AlbumProps) {
   return (
     <>
     {
-      props.album.media.map((media, index: number) =>
+      props.album.getMedia().map((media, index: number) =>
         {
           switch (Object.getPrototypeOf(media)) {
             case Photograph.prototype:

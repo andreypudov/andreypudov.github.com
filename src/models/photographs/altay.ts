@@ -4,6 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Altay. Conquering Siberia 2.0',
   new Date('2020-07-19'),
+  new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_099.jpg'),
   [
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_002.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_003.jpg'),

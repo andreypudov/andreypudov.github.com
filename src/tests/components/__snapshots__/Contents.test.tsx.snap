@@ -137,7 +137,7 @@ exports[`renders correctly 1`] = `
             href="/photographs/imperial-town"
             onClick={[Function]}
           >
-            The Imperial Town
+            Imperial Town
             <small>
               Wednesday, May 9, 2012
             </small>

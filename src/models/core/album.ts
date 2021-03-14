@@ -1,15 +1,21 @@
 import Media from './media';
 
 class Album {
-  title: string;
-  date: Date;
-  media: Media[];
+  private title: string;
+  private date: Date;
+  private cover: Media;
+  private media: Media[];
 
-  constructor(title: string, date: Date, media: Media[]) {
+  constructor(title: string, date: Date, cover: Media, media: Media[]) {
     this.title = title;
     this.date = date;
+    this.cover = cover;
     this.media = media;
   }
+
+  getTitle = () => this.title;
+  getCover = () => this.cover;
+  getMedia = () => this.media;
 
   getDate(): string {
     return this.date.toLocaleDateString(

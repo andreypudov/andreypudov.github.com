@@ -2,8 +2,9 @@ import Album from '../core/album';
 import Photograph from '../core/photograph';
 
 export default new Album(
-  'The Imperial Town',
+  'Imperial Town',
   new Date('2012-05-09'),
+  new Photograph('../albums/2012-05-05_09/2012-05-05_09_016_large.jpg'),
   [
     new Photograph('../albums/2012-05-05_09/2012-05-05_09_001_large.jpg'),
     new Photograph('../albums/2012-05-05_09/2012-05-05_09_002_large.jpg'),
