@@ -9,11 +9,18 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <div
-        className="navbar navbar-expand-lg navbar-dark"
+        className="navbar navbar-expand-md navbar-dark"
       >
         <div
           className="container-fluid"
         >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
           <button
             aria-controls="navbarMain"
             aria-expanded="false"
@@ -28,23 +35,12 @@ exports[`renders correctly 1`] = `
             />
           </button>
           <div
-            className="collapse navbar-collapse justify-content-md-center"
+            className="collapse navbar-collapse justify-content-sm-center"
             id="navbarMain"
           >
             <ul
               className="navbar-nav"
             >
-              <li
-                className="nav-item"
-              >
-                <a
-                  className="nav-link"
-                  href="/"
-                  onClick={[Function]}
-                >
-                  Andrey Pudov
-                </a>
-              </li>
               <li
                 className="nav-item"
               >
