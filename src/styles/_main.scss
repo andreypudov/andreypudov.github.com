@@ -15,3 +15,9 @@ main {
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  main {
+    margin-top: 64px;
+  }
+}
