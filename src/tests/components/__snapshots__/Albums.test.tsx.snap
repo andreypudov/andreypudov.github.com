@@ -112,7 +112,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../albums/2012-03-17/2012-03-17_031.jpg"
+              src="../albums/2012-03-17/2012-03-17_030.jpg"
             />
             <div
               className="card-img-overlay"
@@ -160,7 +160,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../drawings/PencilSketches/WLmbtK_QN8g.jpg"
+              src="../drawings/PencilSketches/lNr54EOZNxE.jpg"
             />
             <div
               className="card-img-overlay"

@@ -125,16 +125,6 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="../drawings/PencilSketches/WLmbtK_QN8g.jpg"
-      />
-      <p
-        className="image-caption"
-      >
-        April 26, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
         src="../drawings/PencilSketches/iioBNj1E2Ts.jpg"
       />
