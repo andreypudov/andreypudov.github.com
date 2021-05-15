@@ -18,9 +18,8 @@ function Footer({ Landing }: FooterProps) {
 
         <ul className = 'piped-links'>
           <p className = 'piped-links-long'>Copyright &#169; 2021 Andrey Pudov. All rights reserved.</p>
+          <p className = 'piped-links-short'>&#169; 2021 Andrey Pudov. All rights reserved.</p>
         </ul>
-
-        <p className = 'piped-links-short'>&#169; 2021 Andrey Pudov. All rights reserved.</p>
       </div>
 
       <script src = 'libraries/jquery/jquery-1.11.3.min.js'></script>

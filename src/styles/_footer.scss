@@ -33,23 +33,23 @@ footer {
         padding-left: 0;
         border-left:  none;
       }
-    }
 
-    .piped-links-short {
-      display: initial !important;
-    }
+      > .piped-links-short {
+        display: initial !important;
+      }
 
-    .piped-links-long {
-      display: none !important;
-    }
-
-    @include media-breakpoint-up(sm) {
-      .piped-links-short {
+      > .piped-links-long {
         display: none !important;
       }
 
-      .piped-links-long {
-        display: initial !important;
+      @include media-breakpoint-up(sm) {
+        > .piped-links-short {
+          display: none !important;
+        }
+
+        > .piped-links-long {
+          display: initial !important;
+        }
       }
     }
   }
