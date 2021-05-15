@@ -141,11 +141,11 @@ function Resume() {
               <div className = 'box'>
                 <h2>Skills</h2>
                 <div className = 'skills'>
-                  <div className = 'item-skills' data-percent = '0.90' style = {{ width: '414px' }}>C#</div>
-                  <div className = 'item-skills' data-percent = '0.75' style = {{ width: '345px' }}>ASP.NET MVC / Core</div>
-                  <div className = 'item-skills' data-percent = '0.75' style = {{ width: '345px' }}>TypeScript</div>
-                  <div className = 'item-skills' data-percent = '0.60' style = {{ width: '276px' }}>React / Redux</div>
-                  <div className = 'item-skills' data-percent = '0.25' style = {{ width: '115px' }}>CSS / Sass / LESS</div>
+                  <div className = 'item-skills' data-percent = '0.90' style = {{ width: '90%' }}>C#</div>
+                  <div className = 'item-skills' data-percent = '0.75' style = {{ width: '75%' }}>ASP.NET MVC / Core</div>
+                  <div className = 'item-skills' data-percent = '0.75' style = {{ width: '75%' }}>TypeScript</div>
+                  <div className = 'item-skills' data-percent = '0.60' style = {{ width: '60%' }}>React / Redux</div>
+                  <div className = 'item-skills' data-percent = '0.25' style = {{ width: '25%' }}>CSS / Sass / LESS</div>
                   <div className = 'skills-legend clearfix'>
                     <div className = 'legend-left legend'><small>Beginner</small></div>
                     <div className = 'legend-left legend'><span><small>Proficient</small></span></div>
