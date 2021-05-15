@@ -8,7 +8,12 @@
       margin-bottom: 15px !important;
       margin:  0 auto;
       display: table;
-      width:   45%;
+  }
+
+  @include media-breakpoint-up(sm) {
+    &.vertical {
+      width: 45%;
+    }
   }
 
   .card-title, .card-text {
@@ -33,12 +38,18 @@
   text-align:    center;
 
   &.vertical {
-      margin-bottom: 10px !important;
-      margin-top:    -15px !important;
+    margin-bottom: 10px !important;
+    margin-top:    -15px !important;
 
-      margin:  0 auto;
-      display: table;
-      width:   45%;
+    margin:  0 auto;
+    display: table;
+    width:   100%;
+  }
+
+  @include media-breakpoint-up(sm) {
+    &.vertical {
+      width: 45%;
+    }
   }
 }
 
