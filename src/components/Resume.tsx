@@ -63,8 +63,30 @@ function Resume() {
                 <h2>Experience</h2>
                 <div className = 'job clearfix row'>
                   <div className = 'col-sm-3'>
+                    <div className = 'where'>Combination AB </div>
+                    <div className = 'year'>2021 - present</div>
+                  </div>
+                  <div className = 'col-sm-9'>
+                    <div className = 'profession'>Sr. Software Development Engineer</div>
+                    <div className = 'description'>
+                    </div>
+                  </div>
+                </div>
+                <div className = 'job clearfix row'>
+                  <div className = 'col-sm-3'>
+                    <div className = 'where'>EPAM Systems </div>
+                    <div className = 'year'>2020 - 2021</div>
+                  </div>
+                  <div className = 'col-sm-9'>
+                    <div className = 'profession'>Sr. Software Development Engineer</div>
+                    <div className = 'description'>
+                    </div>
+                  </div>
+                </div>
+                <div className = 'job clearfix row'>
+                  <div className = 'col-sm-3'>
                     <div className = 'where'>Intel </div>
-                    <div className = 'year'>2018 - present</div>
+                    <div className = 'year'>2018 - 2020</div>
                   </div>
                   <div className = 'col-sm-9'>
                     <div className = 'profession'>Senior Software Engineer Technical Lead</div>
@@ -182,6 +204,56 @@ function Resume() {
                 <div className = 'hobby'>Cycling</div>
                 <div className = 'hobby'>Photography</div>
               </div>
+            </div>
+          </div>
+
+          <div className = 'col'>
+            <div className = 'curriculum-vitae'>
+              <h2>Recommendations</h2>
+
+              <figure className = 'recommendations'>
+                <blockquote className = 'blockquote'>
+                  <p>
+                    Andrey was a technical leader in my team for approximate 2 years. He is a professional and very experienced engineer! Andrey really helped me on my way from intern to engineer. He gave me an understanding how to resolve technical challenges in the best way. I extend my programming and soft skills very fast with his help and advices. Andrey's background and strong problem resolving skills helped to the team to resolve technical challenges. Working with Andrey was a great opportunity for me!
+                  </p>
+                </blockquote>
+                <figcaption className = 'blockquote-footer'>
+                  <a href = 'https://www.linkedin.com/in/viktorya-gvozdeva-154046120/'>Viktorya Gvozdeva</a>
+                </figcaption>
+              </figure>
+
+              <figure className = 'recommendations'>
+                <blockquote className = 'blockquote'>
+                  <p>
+                    Andrey and I worked in the same group for a few years in Intel. This group was responsible for the system which registered and distributed Intel software.Andrey showed himself as a UI wizard and a quick learner. He is a person with high levels of professionalism, integrity and above the expert level knowledge of DevOps tools, Bootstrap, AngularJS frameworks. This made Andrey a primary expert in those areas for our team. With people like Andrey on the team lead as well as a project manager you will not have any problems completing any task or project in schedule time with high quality.
+                  </p>
+                </blockquote>
+                <figcaption className = 'blockquote-footer'>
+                  <a href = 'https://www.linkedin.com/in/tanya-zaslavsky-905aa53/'>Tanya Zaslavsky</a>
+                </figcaption>
+              </figure>
+
+              <figure className = 'recommendations'>
+                <blockquote className = 'blockquote'>
+                  <p>
+                    I worked with Andrey as part of a global team for a number of years. It was a joy to work with such a talented engineer and skilled communicator. He brings his best to every effort.
+                  </p>
+                </blockquote>
+                <figcaption className = 'blockquote-footer'>
+                  <a href = 'https://www.linkedin.com/in/doug-helbling-9151148/'>Doug Helbling</a>
+                </figcaption>
+              </figure>
+
+              <figure className = 'recommendations'>
+                <blockquote className = 'blockquote'>
+                  <p>
+                    I worked with Andrey for many years, and I was his manager for three years.  He is a very strong software engineer, particularly in User Interface but he also can develop middleware and backend database.  He keeps up with technology which allows him to apply the latest techniques for automation problem solving.  He is a quick learner and documents his implementations for other team members to learn and follow.  He is team oriented and communicates well.
+                  </p>
+                </blockquote>
+                <figcaption className = 'blockquote-footer'>
+                  <a href = 'https://www.linkedin.com/in/paul-frumkin/'>Paul Frumkin</a>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
