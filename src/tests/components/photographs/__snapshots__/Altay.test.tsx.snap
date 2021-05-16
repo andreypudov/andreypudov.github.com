@@ -376,6 +376,11 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Altay. Conquering Siberia 2.0"
         className="img-responsive gallery-image"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_070.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image"
         src="../albums/2020-07-19_08-04/2020-07-19_08-04_072.jpg"
       />
       <img
@@ -752,6 +757,11 @@ exports[`renders correctly 1`] = `
         alt="Andrey Pudov Altay. Conquering Siberia 2.0"
         className="img-responsive gallery-image"
         src="../albums/2020-07-19_08-04/2020-07-19_08-04_180.jpg"
+      />
+      <img
+        alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+        className="img-responsive gallery-image"
+        src="../albums/2020-07-19_08-04/2020-07-19_08-04_182.jpg"
       />
       <img
         alt="Andrey Pudov Altay. Conquering Siberia 2.0"

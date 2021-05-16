@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Altay. Conquering Siberia 2.0',
   new Date('2020-07-19'),
-  new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_099.jpg'),
+  new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_100.jpg'),
   [
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_002.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_003.jpg'),
@@ -60,7 +60,7 @@ export default new Album(
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_067.jpg', true),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_068.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_069.jpg'),
-    // new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_070.jpg'),
+    new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_070.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_072.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_080.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_081.jpg', true),
@@ -137,7 +137,7 @@ export default new Album(
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_178.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_179.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_180.jpg'),
-    // new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_182.jpg'),
+    new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_182.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_183.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_184.jpg'),
     new Photograph('../albums/2020-07-19_08-04/2020-07-19_08-04_189.jpg'),
