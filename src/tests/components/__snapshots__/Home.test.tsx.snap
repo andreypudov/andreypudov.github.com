@@ -150,6 +150,42 @@ exports[`renders correctly 1`] = `
         </a>
         <a
           className="carousel-item"
+          href="/photographs/rekshino"
+          onClick={[Function]}
+        >
+          <img
+            alt="Rekshino"
+            className="d-block w-100"
+            src="images/carousel/rekshino.jpg"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Rekshino
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
+          href="/photographs/alina-cherdakova"
+          onClick={[Function]}
+        >
+          <img
+            alt="Alina Cherdakova"
+            className="d-block w-100"
+            src="images/carousel/alina-cherdakova.jpg"
+          />
+          <div
+            className="carousel-caption d-none d-md-block text-dark"
+          >
+            <h5>
+              Alina Cherdakova
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
           href="/photographs/rome-malta"
           onClick={[Function]}
         >
@@ -163,42 +199,6 @@ exports[`renders correctly 1`] = `
           >
             <h5>
               Conquering Rome and Order of Malta
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/united-states-2.0"
-          onClick={[Function]}
-        >
-          <img
-            alt="Conquering America 2.0"
-            className="d-block w-100"
-            src="images/carousel/united-states-2.0.jpg"
-          />
-          <div
-            className="carousel-caption d-none d-md-block"
-          >
-            <h5>
-              Conquering America 2.0
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/kira-orlova"
-          onClick={[Function]}
-        >
-          <img
-            alt="Kira Orlova"
-            className="d-block w-100"
-            src="images/carousel/kira-olrova.jpg"
-          />
-          <div
-            className="carousel-caption d-none d-md-block"
-          >
-            <h5>
-              Kira Orlova
             </h5>
           </div>
         </a>
@@ -252,7 +252,7 @@ exports[`renders correctly 1`] = `
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="images/marketing/altay.jpg"
+              src="images/marketing/altay-kate.jpg"
             />
           </a>
         </div>
@@ -260,13 +260,27 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/rekshino"
+            href="/photographs/kira-orlova"
             onClick={[Function]}
           >
             <img
-              alt="Rekshino"
+              alt="Kira Orlova"
               className="img-fluid"
-              src="images/marketing/rekshino.jpg"
+              src="images/marketing/kira-orlova.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/united-states-2.0"
+            onClick={[Function]}
+          >
+            <img
+              alt="Conquering America 2.0"
+              className="img-fluid"
+              src="images/marketing/united-states-2.0.jpg"
             />
           </a>
         </div>
@@ -281,20 +295,6 @@ exports[`renders correctly 1`] = `
               alt="Conquering America"
               className="img-fluid"
               src="images/marketing/united-states.jpg"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/lake-baikal"
-            onClick={[Function]}
-          >
-            <img
-              alt="Lake Baikal"
-              className="img-fluid"
-              src="images/marketing/lake-baikal.jpg"
             />
           </a>
         </div>

@@ -51,7 +51,7 @@ function Home() {
         <div className = 'row'>
           <div className = 'col-sm-3'>
             <Link to = '/photographs/favorite-photographs'>
-              <img src = 'images/marketing/altay.jpg' className = 'img-fluid' alt = 'Favorite Photographs' />
+              <img src = 'images/marketing/altay-kate.jpg' className = 'img-fluid' alt = 'Favorite Photographs' />
             </Link>
           </div>
           <div className = 'col-sm-3'>
