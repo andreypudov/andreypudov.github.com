@@ -3,16 +3,22 @@ import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
-import ScrollToTop from './ScrollToTop'
+import Analytics from './components/utils/Analytics';
+import ScrollToTop from './components/utils/ScrollToTop';
 import Routes from './Routes';
 
 import 'bootstrap/dist/../js/dist/carousel.js';
 import 'bootstrap/dist/../js/dist/collapse.js';
 import './styles/style.scss';
 
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-74198577-1');
+
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
+      <Analytics />
       <ScrollToTop />
       <Routes />
     </HashRouter>
