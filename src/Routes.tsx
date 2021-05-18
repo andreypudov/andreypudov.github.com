@@ -31,6 +31,7 @@ import VeraKlemenova from './components/photographs/VeraKlemenova';
 import ImperialTown from './components/photographs/ImperialTown';
 
 import PencilSketches from './components/drawings/PencilSketches';
+import SoftPastel from './components/drawings/SoftPastel';
 
 import CureForWellness from './components/performances/CureForWellness';
 import GravityFalls from './components/performances/GravityFalls';
@@ -69,6 +70,7 @@ function Routes() {
       <Route exact path = '/photographs/imperial-town' component = { ImperialTown } />
 
       <Route exact path = '/drawings/pencil-sketches' component = { PencilSketches } />
+      <Route exact path = '/drawings/soft-pastel' component = { SoftPastel } />
 
       <Route exact path = '/performances/gravity-falls' component = { GravityFalls } />
       <Route exact path = '/performances/cure-for-wellness' component = { CureForWellness } />

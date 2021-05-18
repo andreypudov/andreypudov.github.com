@@ -25,6 +25,7 @@ import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
 import VeraKlemenova from './../models/photographs/veraKlemenova';
 
+import SoftPastel from './../models/drawings/softPastel';
 import PencilSketches from './../models/drawings/pencilSketches';
 
 function Albums() {
@@ -39,6 +40,14 @@ function Albums() {
               <img src = { Favorites.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ Favorites.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/drawings/soft-pastel' className = 'card bg-dark text-white gallery-image'>
+              <img src = { SoftPastel.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ SoftPastel.getTitle() }</h6>
               </div>
             </Link>
           </div>

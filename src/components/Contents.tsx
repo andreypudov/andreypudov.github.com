@@ -19,13 +19,13 @@ import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import LakeBaikal from './../models/photographs/lakeBaikal';
-// import AlinaCherdakova from './../models/photographs/';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
 import VeraKlemenova from './../models/photographs/veraKlemenova';
 
 import PencilSketches from './../models/drawings/pencilSketches';
+import SoftPastel from './../models/drawings/softPastel';
 
 function Contents() {
   return (
@@ -180,6 +180,12 @@ function Contents() {
         <ol className = 'contents'>
           <li>
             <h2>Drawings</h2>
+          </li>
+          <li>
+            <Link to = '/drawings/soft-pastel'>
+              { SoftPastel.getTitle() }
+              <small>{ SoftPastel.getDate() }</small>
+            </Link>
           </li>
           <li>
             <Link to = '/drawings/pencil-sketches'>
