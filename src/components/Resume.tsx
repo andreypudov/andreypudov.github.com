@@ -218,7 +218,7 @@ function Resume() {
                   </p>
                 </blockquote>
                 <figcaption className = 'blockquote-footer'>
-                  <a href = 'https://www.linkedin.com/in/viktorya-gvozdeva-154046120/'>Viktorya Gvozdeva</a>
+                  <a href = 'https://www.linkedin.com/in/viktorya-gvozdeva-154046120/' target = '_blank' rel = 'noreferrer'>Viktorya Gvozdeva</a>
                 </figcaption>
               </figure>
 
@@ -229,7 +229,7 @@ function Resume() {
                   </p>
                 </blockquote>
                 <figcaption className = 'blockquote-footer'>
-                  <a href = 'https://www.linkedin.com/in/tanya-zaslavsky-905aa53/'>Tanya Zaslavsky</a>
+                  <a href = 'https://www.linkedin.com/in/tanya-zaslavsky-905aa53/' target = '_blank' rel = 'noreferrer'>Tanya Zaslavsky</a>
                 </figcaption>
               </figure>
 
@@ -240,7 +240,7 @@ function Resume() {
                   </p>
                 </blockquote>
                 <figcaption className = 'blockquote-footer'>
-                  <a href = 'https://www.linkedin.com/in/doug-helbling-9151148/'>Doug Helbling</a>
+                  <a href = 'https://www.linkedin.com/in/doug-helbling-9151148/' target = '_blank' rel = 'noreferrer'>Doug Helbling</a>
                 </figcaption>
               </figure>
 
@@ -251,7 +251,7 @@ function Resume() {
                   </p>
                 </blockquote>
                 <figcaption className = 'blockquote-footer'>
-                  <a href = 'https://www.linkedin.com/in/paul-frumkin/'>Paul Frumkin</a>
+                  <a href = 'https://www.linkedin.com/in/paul-frumkin/' target = '_blank' rel = 'noreferrer'>Paul Frumkin</a>
                 </figcaption>
               </figure>
             </div>
