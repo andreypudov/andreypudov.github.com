@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_001_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_001_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -116,12 +116,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_002_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_002_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_003_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_003_large.webp"
       />
       <p
         className="image-caption"
@@ -131,12 +131,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_004_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_004_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_005_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_005_large.webp"
       />
       <p
         className="image-caption"
@@ -146,7 +146,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_006_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_006_large.webp"
       />
       <p
         className="image-caption"
@@ -156,12 +156,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_007_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_007_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_008_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_008_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -171,7 +171,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_009_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_009_large.webp"
       />
       <p
         className="image-caption"
@@ -181,7 +181,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_010_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_010_large.webp"
       />
       <p
         className="image-caption"
@@ -191,22 +191,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_011_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_011_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_012_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_012_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_013_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_013_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_014_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_014_large.webp"
       />
       <p
         className="image-caption"
@@ -216,12 +216,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_015_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_015_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_016_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_016_large.webp"
       />
       <p
         className="image-caption"
@@ -231,32 +231,32 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_017_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_017_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_018_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_018_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_019_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_019_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_020_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_020_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_021_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_021_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp"
       />
       <p
         className="image-caption"
@@ -266,22 +266,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_023_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_023_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_024_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_024_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_025_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_025_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_026_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_026_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -291,27 +291,27 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_027_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_027_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_028_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_028_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_029_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_029_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_030_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_030_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_031_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_031_large.webp"
       />
       <p
         className="image-caption"
@@ -321,22 +321,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_032_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_032_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_033_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_033_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_034_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_034_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_035_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_035_large.webp"
       />
       <p
         className="image-caption"
@@ -346,12 +346,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_036_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_036_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_037_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_037_large.webp"
       />
       <p
         className="image-caption"
@@ -361,7 +361,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_038_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_038_large.webp"
       />
       <p
         className="image-caption"
@@ -371,7 +371,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_039_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_039_large.webp"
       />
       <p
         className="image-caption"
@@ -381,17 +381,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_040_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_040_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_041_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_041_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_042_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_042_large.webp"
       />
       <p
         className="image-caption"
@@ -401,32 +401,32 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_043_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_043_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_044_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_044_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_045_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_045_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_046_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_046_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_047_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_047_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_048_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_048_large.webp"
       />
       <p
         className="image-caption"
@@ -436,17 +436,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_049_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_049_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_050_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_050_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_051_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_051_large.webp"
       />
       <p
         className="image-caption"
@@ -456,12 +456,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_052_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_052_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_053_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_053_large.webp"
       />
       <p
         className="image-caption"
@@ -471,32 +471,32 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_054_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_054_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_055_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_055_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_056_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_056_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_057_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_057_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_058_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_058_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_059_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_059_large.webp"
       />
       <p
         className="image-caption"
@@ -506,22 +506,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_060_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_060_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_061_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_061_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_062_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_062_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_063_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_063_large.webp"
       />
       <p
         className="image-caption"
@@ -531,7 +531,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_064_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_064_large.webp"
       />
       <p
         className="image-caption"
@@ -541,12 +541,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_065_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_065_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_066_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_066_large.webp"
       />
       <p
         className="image-caption"
@@ -556,132 +556,132 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_067_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_067_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_068_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_068_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_069_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_069_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_070_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_070_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_071_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_071_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_072_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_072_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_073_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_073_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_074_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_074_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_075_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_075_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_076_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_076_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_077_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_077_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_078_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_078_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_079_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_079_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_080_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_080_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_081_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_081_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_082_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_082_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_083_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_083_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_084_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_084_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_085_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_085_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_086_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_086_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_087_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_087_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_088_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_088_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_089_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_089_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_090_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_090_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image vertical"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_091_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_091_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering Rome and Order of Malta"
         className="img-responsive gallery-image"
-        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.jpg"
+        src="../albums/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.webp"
       />
     </div>
   </main>

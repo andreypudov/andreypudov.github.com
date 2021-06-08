@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/vaJwDlqhCMQ.jpg"
+        src="../drawings/pencil-sketches/2020-07-16.webp"
       />
       <p
         className="image-caption vertical"
@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/W6u08dHAbLg.jpg"
+        src="../drawings/pencil-sketches/2020-07-09.webp"
       />
       <p
         className="image-caption vertical"
@@ -125,8 +125,18 @@ exports[`renders correctly 1`] = `
       </p>
       <img
         alt="Andrey Pudov Pencil Sketches"
+        className="img-responsive gallery-image"
+        src="../drawings/pencil-sketches/2020-04-26.webp"
+      />
+      <p
+        className="image-caption"
+      >
+        April 26, 2020
+      </p>
+      <img
+        alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/iioBNj1E2Ts.jpg"
+        src="../drawings/pencil-sketches/2020-04-22.webp"
       />
       <p
         className="image-caption vertical"
@@ -136,7 +146,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image"
-        src="../drawings/PencilSketches/FDX1JlL5YWM.jpg"
+        src="../drawings/pencil-sketches/2020-04-07.webp"
       />
       <p
         className="image-caption"
@@ -146,7 +156,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image"
-        src="../drawings/PencilSketches/lNr54EOZNxE.jpg"
+        src="../drawings/pencil-sketches/2020-04-03.webp"
       />
       <p
         className="image-caption"
@@ -156,7 +166,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/PencilSketches/RLaAhKlMXSA.jpg"
+        src="../drawings/pencil-sketches/2020-04-02.webp"
       />
       <p
         className="image-caption vertical"

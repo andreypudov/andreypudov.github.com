@@ -138,7 +138,7 @@ exports[`renders correctly 1`] = `
           <img
             alt="Altay. Conquering Siberia 2.0"
             className="d-block w-100"
-            src="images/carousel/altay.jpg"
+            src="images/carousel/altay.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
@@ -156,7 +156,7 @@ exports[`renders correctly 1`] = `
           <img
             alt="Rekshino"
             className="d-block w-100"
-            src="images/carousel/rekshino.jpg"
+            src="images/carousel/rekshino.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
@@ -174,7 +174,7 @@ exports[`renders correctly 1`] = `
           <img
             alt="Alina Cherdakova"
             className="d-block w-100"
-            src="images/carousel/alina-cherdakova.jpg"
+            src="images/carousel/alina-cherdakova.webp"
           />
           <div
             className="carousel-caption d-none d-md-block text-dark"
@@ -192,7 +192,7 @@ exports[`renders correctly 1`] = `
           <img
             alt="Conquering Rome and Order of Malta"
             className="d-block w-100"
-            src="images/carousel/rome-malta.jpg"
+            src="images/carousel/rome-malta.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
@@ -252,7 +252,7 @@ exports[`renders correctly 1`] = `
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="images/marketing/altay-kate.jpg"
+              src="images/marketing/altay-kate.webp"
             />
           </a>
         </div>
@@ -266,7 +266,7 @@ exports[`renders correctly 1`] = `
             <img
               alt="Kira Orlova"
               className="img-fluid"
-              src="images/marketing/kira-orlova.jpg"
+              src="images/marketing/kira-orlova.webp"
             />
           </a>
         </div>
@@ -280,7 +280,7 @@ exports[`renders correctly 1`] = `
             <img
               alt="Conquering America 2.0"
               className="img-fluid"
-              src="images/marketing/united-states-2.0.jpg"
+              src="images/marketing/united-states-2.0.webp"
             />
           </a>
         </div>
@@ -294,7 +294,7 @@ exports[`renders correctly 1`] = `
             <img
               alt="Conquering America"
               className="img-fluid"
-              src="images/marketing/united-states.jpg"
+              src="images/marketing/united-states.webp"
             />
           </a>
         </div>
