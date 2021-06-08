@@ -368,6 +368,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/drawings/soft-pastel"
+            onClick={[Function]}
+          >
+            Soft Pastel
+            <small>
+              Saturday, January 30, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/drawings/pencil-sketches"
             onClick={[Function]}
           >

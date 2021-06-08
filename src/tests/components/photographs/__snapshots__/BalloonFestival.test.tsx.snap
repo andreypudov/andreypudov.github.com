@@ -106,22 +106,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Balloon Festival"
         className="img-responsive gallery-image"
-        src="../albums/2018-02-24/2018-02-24_001.jpg"
+        src="../albums/2018-02-24/2018-02-24_001.webp"
       />
       <img
         alt="Andrey Pudov Balloon Festival"
         className="img-responsive gallery-image"
-        src="../albums/2018-02-24/2018-02-24_002.jpg"
+        src="../albums/2018-02-24/2018-02-24_002.webp"
       />
       <img
         alt="Andrey Pudov Balloon Festival"
         className="img-responsive gallery-image"
-        src="../albums/2018-02-24/2018-02-24_003.jpg"
+        src="../albums/2018-02-24/2018-02-24_003.webp"
       />
       <img
         alt="Andrey Pudov Balloon Festival"
         className="img-responsive gallery-image"
-        src="../albums/2018-02-24/2018-02-24_004.jpg"
+        src="../albums/2018-02-24/2018-02-24_004.webp"
       />
     </div>
   </main>

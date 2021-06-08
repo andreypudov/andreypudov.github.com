@@ -109,7 +109,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_079_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_079_large.webp"
       />
       <p>
         Начало этому путешествию было положено в первые месяцы года, когда детали, тщательнейшим образом продуманного, плана, лишь обретали свои первые черты. Перебирая десятки вариантов, выбор был сделан в пользу Эмиратов, удивительной страны, возведённой посреди пустыни, где за четыре прошедших десятилетия обрели свой дом развитое арабское государство, сохранившее культуру, и мировой финансовый центр, приведший миллионы европейцев.
@@ -129,22 +129,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_015_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_015_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_016_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_016_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_022_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_022_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_024_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_024_large.webp"
       />
       <p>
         Как и пустынные цветок, раскрывающий свои лепестки с заходом солнца, Дубай расцветает в ночи, когда каждая улица оживает в свете сверкающих фонарей и фар уносящихся автомобилей.
@@ -152,22 +152,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_120_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_120_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_012_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_012_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_114_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_114_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_015_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_015_large.webp"
       />
       <p>
         Словно сошедший со страниц сказок Шахиризады, Дубай олицетворяет самые грандиозные мечты. Воплощённые в жизнь они влекут своим очарованием, в котором нет никакой обыденности европейских мегаполисов и повседневности жизни, для многих протекающей между непримечательной квартирой, за центром города, и офисом.
@@ -175,12 +175,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_055_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_055_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_054_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_054_large.webp"
       />
       <p>
         Стремясь к вершинам Олимпа, Дубай побивает рекорды и устанавливает новые планки достижений человеческого гения. Самое высокое здание мира, Бурдж-Халифа, уходящее к облакам на небывалые восемьсот двадцать восемь метром, откуда со смотровой площадки, расположенной на сто двадцать четвёртом этаже, открывается прекраснейший вид.
@@ -188,22 +188,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_101_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_101_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_102_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_102_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_103_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_103_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_104_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_104_large.webp"
       />
       <p>
         Дубай-Молл разместивший под своей крышей свыше тысячи двухсот магазинов, десятков аттракционов, кинотеатров, аквариум и ледовый каток, он входит в шестёрку крупнейших торгово-развлекательный центров мира.
@@ -211,37 +211,37 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_002_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_002_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_077_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_077_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_058_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_058_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_003_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_003_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_007_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_007_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_010_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_010_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_059_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_059_large.webp"
       />
       <p>
         По соседству с Бурдж-Халифой, в водах искусственного озера, расположен чарующий своим видом поющий фонтан, достигающий высоты в сто пятьдесят метров. Его шоу, сопровождаемое лазерным преставлением и музыкой, не оставит равнодушным и самого строгого критика.
@@ -249,22 +249,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_001_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_001_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_117_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_117_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_118_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_118_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_119_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_119_large.webp"
       />
       <p>
         В море Персидского залива, на расстоянии двухсот восьмидесяти метров от берега, стоит самый роскошный отель мира, семизвёздочный Бурдж Аль Араб, разместивший в своих стенах, двести два прекрасно декорированных двухэтажных номера.
@@ -272,7 +272,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_090_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_090_large.webp"
       />
       <p>
         В свете ночи, посреди стен старого города, где нашёл своё пристанище богатейший восточный рынок, в водах залива Крик начинают свой путь круизные лодки Доу, создаваемые местными кораблестроителями на протяжении многих поколений.
@@ -280,17 +280,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_083_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_083_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_084_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_084_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_085_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_085_large.webp"
       />
       <p>
         Многие века известный как город купцов, выросший из торгового порта, Дубай превратился в роскошный рай, торговый центр мирового масштаба, изобилуя ресторанами, ночными клубами и магазинами, завоевав кредо «Парижа Персидского залива».
@@ -298,17 +298,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_075_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_075_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_076_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_076_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_081_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_081_large.webp"
       />
       <h2>
         Абу-Даби
@@ -325,12 +325,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_033_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_033_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_032_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_032_large.webp"
       />
       <p>
         Белоснежная жемчужина Арабских Эмиратов, выполненная в мраморе с узорами из сусального золота и щедро украшенная россыпью драгоценных камней, Гранд Мечеть, носящая имя своего основателя - первого президентом ОАЭ Шейха Зайда ибн Султана ан-Нахайяна, она гордо встречает гостей именитой столицы.
@@ -338,22 +338,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_034_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_034_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_035_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_035_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_036_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_036_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_037_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_037_large.webp"
       />
       <p>
         Величественная мечеть по праву считается одним из прекраснейших храмов, когда либо построенных человеком. Украшенная восьмьюдесятью куполами, удерживаемыми радами из свыше тысячи колон, она способна вместить сорок тысяч верующих.
@@ -361,17 +361,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_038_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_038_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_039_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_039_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_040_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_040_large.webp"
       />
       <p>
         Внутреннее убранство этого, чарующего своей сказочной красотой, архитектурного шедевра, покрыто иранским ковром, чья длина превосходит любые, когда бы то ни было пошитые полотна, и семью люстрами, изготовленными из сусального золота и кристаллов Сваровски.
@@ -379,17 +379,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_041_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_041_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_042_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_042_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_043_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_043_large.webp"
       />
       <h2>
         Аль-Аин
@@ -403,7 +403,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_060_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_060_large.webp"
       />
       <p>
         Возвышающаяся на высоту более километра, гора Джебель Хафит открывает величественную панораму окрестностей, уводя взгляд далеко за край пустыни.
@@ -411,17 +411,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_061_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_061_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_063_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_063_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_064_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_064_large.webp"
       />
       <p>
         Основанный в начали семнадцатого века в честь объединения племени Джалили с шейхом Шахбутом, форт Аль Джахили, стал символом дружбы, разместив в своих стенах один из известнейших музеев Аль-Аина.
@@ -429,32 +429,32 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_065_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_065_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_066_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_066_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_067_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_067_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_068_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_068_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_069_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_069_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_070_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_070_large.webp"
       />
       <p>
         Построенный в симметрии со своим братом близнецом, стоящим на стороне скромного Омана, города Аль-Аин и Буйрами по сей день привлекают внимание туристов, жаждущих увидеть традиционное арабское общество.
@@ -471,7 +471,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_028_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_028_large.webp"
       />
       <p>
         На главной площади города, расположен удивительный ансамбль. Выстроенный по кругу, он объединил Дворец культуры – прекрасный представитель мусульманской архитектуры с монументальной лестницей и затейливой каменной кладкой, здания государственного театра и библиотеки, мечеть Ахмада ибн Ханбалы и возвышающийся на семь метров величественный монумент священному Корану.
@@ -479,12 +479,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_030_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_030_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_031_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_031_large.webp"
       />
       <h2>
         Аджаман
@@ -495,17 +495,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_044_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_044_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_045_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_045_large.webp"
       />
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_046_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_046_large.webp"
       />
       <p>
         Аджаман это удивительное место, сочетающее в себе настоящее и прошлое. Где можно найти современные роскошные гостиницы и скромные жилища местных жителей, торговые центры с витринами известных мировых брендов и поражающие своим богатством рынки. Нетронутая рукою человека природа и проводимые еженедельно верблюжьи бега – все они становятся воплощением мечты об уюте и традиционном восточном гостеприимстве.
@@ -513,7 +513,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image"
-        src="../albums/2012-11-09_21/2012-11-09_21_047_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_047_large.webp"
       />
       <h2>
         Возвращение
@@ -524,7 +524,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Russian Emirates"
         className="img-responsive gallery-image vertical"
-        src="../albums/2012-11-09_21/2012-11-09_21_109_large.jpg"
+        src="../albums/2012-11-09_21/2012-11-09_21_109_large.webp"
       />
       <p>
         Побывав за этот год во многих городах, лишь здесь удалось найти интересную и по настоящему восхищающую архитектуру, прибранные улицы, где не разбросан изрядно надоевший мусор, так въевшийся в сознание от жизни в России, познакомиться с огромным количеством людей, среди которых были как туристы, так и живущие с рождения, и вкусившие аромат райской жизни, арабы.

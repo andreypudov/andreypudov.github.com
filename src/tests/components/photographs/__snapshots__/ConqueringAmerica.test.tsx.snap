@@ -106,17 +106,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_001_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_001_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_002_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_002_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_003_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_003_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -126,17 +126,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_004_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_004_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_005_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_005_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_006_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_006_large.webp"
       />
       <p
         className="image-caption"
@@ -146,12 +146,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_007_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_007_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_008_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_008_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -161,7 +161,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_009_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_009_large.webp"
       />
       <p
         className="image-caption"
@@ -171,7 +171,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_010_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_010_large.webp"
       />
       <p
         className="image-caption"
@@ -181,7 +181,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_011_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_011_large.webp"
       />
       <p
         className="image-caption"
@@ -191,12 +191,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_012_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_012_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_013_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_013_large.webp"
       />
       <p
         className="image-caption"
@@ -206,7 +206,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_014_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_014_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -216,7 +216,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_015_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_015_large.webp"
       />
       <p
         className="image-caption"
@@ -226,12 +226,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_016_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_016_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_017_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_017_large.webp"
       />
       <p
         className="image-caption"
@@ -241,7 +241,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_018_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_018_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -251,7 +251,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_019_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_019_large.webp"
       />
       <p
         className="image-caption"
@@ -261,7 +261,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_020_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_020_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -271,22 +271,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_021_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_021_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_022_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_022_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_023_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_023_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_024_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_024_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -296,27 +296,27 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_025_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_025_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_026_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_026_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_027_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_027_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_028_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_028_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_029_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_029_large.webp"
       />
       <p
         className="image-caption"
@@ -326,17 +326,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_030_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_030_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_031_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_031_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_032_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_032_large.webp"
       />
       <p
         className="image-caption"
@@ -346,17 +346,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_033_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_033_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_034_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_034_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_035_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_035_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -366,12 +366,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_036_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_036_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_037_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_037_large.webp"
       />
       <p
         className="image-caption"
@@ -381,17 +381,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_038_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_038_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_039_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_039_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America"
         className="img-responsive gallery-image"
-        src="../albums/2016-10-15_11-05/2016-10-15_11-05_040_large.jpg"
+        src="../albums/2016-10-15_11-05/2016-10-15_11-05_040_large.webp"
       />
       <p
         className="image-caption"
