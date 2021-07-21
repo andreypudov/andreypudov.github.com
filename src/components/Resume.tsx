@@ -80,6 +80,9 @@ function Resume() {
                   <div className = 'col-sm-9'>
                     <div className = 'profession'>Sr. Software Development Engineer</div>
                     <div className = 'description'>
+                      Developed an innovative platform for data-driven facility management decision-making for United States Golf Association, employing scalable microservice architecture on Microsoft Azure cloud infrastructure. Designed and maintained RESTful APIs services build on top of ASP.NET Core, Entity Core, Microsoft. SQL Server, Kafka, Autofac, and AutoMapper. Created extensive unit, and integration tests in a test-driven development environment.<br />
+                      <br />
+                      Led and mentored a team of interns working on the random coffee website that helps build great relationships with the company members. Involved in gathering and in understanding the business requirements of the project. Helped interns to create short-term and long-term goals and supported them along the way. Offered guidance to deal with challenging problems and meet deadlines.
                     </div>
                   </div>
                 </div>
