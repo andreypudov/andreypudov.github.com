@@ -278,7 +278,12 @@ exports[`renders correctly 1`] = `
                   </div>
                   <div
                     className="description"
-                  />
+                  >
+                    Developed an innovative platform for data-driven facility management decision-making for United States Golf Association, employing scalable microservice architecture on Microsoft Azure cloud infrastructure. Designed and maintained RESTful APIs services build on top of ASP.NET Core, Entity Core, Microsoft. SQL Server, Kafka, Autofac, and AutoMapper. Created extensive unit, and integration tests in a test-driven development environment.
+                    <br />
+                    <br />
+                    Led and mentored a team of interns working on the random coffee website that helps build great relationships with the company members. Involved in gathering and in understanding the business requirements of the project. Helped interns to create short-term and long-term goals and supported them along the way. Offered guidance to deal with challenging problems and meet deadlines.
+                  </div>
                 </div>
               </div>
               <div
@@ -686,6 +691,8 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   href="https://www.linkedin.com/in/viktorya-gvozdeva-154046120/"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   Viktorya Gvozdeva
                 </a>
@@ -706,6 +713,8 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   href="https://www.linkedin.com/in/tanya-zaslavsky-905aa53/"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   Tanya Zaslavsky
                 </a>
@@ -726,6 +735,8 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   href="https://www.linkedin.com/in/doug-helbling-9151148/"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   Doug Helbling
                 </a>
@@ -746,6 +757,8 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   href="https://www.linkedin.com/in/paul-frumkin/"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   Paul Frumkin
                 </a>
