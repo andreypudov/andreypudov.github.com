@@ -132,6 +132,24 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
+          href="/photographs/crimea"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crimean Holiday"
+            className="d-block w-100"
+            src="images/carousel/crimea.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Crimean Holiday
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
           href="/photographs/altay"
           onClick={[Function]}
         >
@@ -181,24 +199,6 @@ exports[`renders correctly 1`] = `
           >
             <h5>
               Alina Cherdakova
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/rome-malta"
-          onClick={[Function]}
-        >
-          <img
-            alt="Conquering Rome and Order of Malta"
-            className="d-block w-100"
-            src="images/carousel/rome-malta.webp"
-          />
-          <div
-            className="carousel-caption d-none d-md-block"
-          >
-            <h5>
-              Conquering Rome and Order of Malta
             </h5>
           </div>
         </a>
@@ -260,6 +260,20 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
+            href="/photographs/rome-malta"
+            onClick={[Function]}
+          >
+            <img
+              alt="Conquering Rome and Order of Malta"
+              className="img-fluid"
+              src="images/marketing/rome-malta.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
             href="/photographs/kira-orlova"
             onClick={[Function]}
           >
@@ -281,20 +295,6 @@ exports[`renders correctly 1`] = `
               alt="Conquering America 2.0"
               className="img-fluid"
               src="images/marketing/united-states-2.0.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/united-states"
-            onClick={[Function]}
-          >
-            <img
-              alt="Conquering America"
-              className="img-fluid"
-              src="images/marketing/united-states.webp"
             />
           </a>
         </div>

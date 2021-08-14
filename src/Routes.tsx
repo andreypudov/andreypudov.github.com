@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
 import Favorites from './components/photographs/Favorites';
+import Crimea from './components/photographs/Crimea';
 import Altay from './components/photographs/Altay';
 import NizhnyNovgorod from './components/photographs/NizhnyNovgorod';
 import Rekshino from './components/photographs/Rekshino';
@@ -47,6 +48,7 @@ function Routes() {
       <Route exact path = '/contact' component = { Contact } />
 
       <Route exact path = '/photographs/favorite-photographs' component = { Favorites } />
+      <Route exact path = '/photographs/crimea' component = { Crimea } />
       <Route exact path = '/photographs/altay' component = { Altay } />
       <Route exact path = '/photographs/nizhny-novgorod' component = { NizhnyNovgorod } />
       <Route exact path = '/photographs/rekshino' component = { Rekshino } />
