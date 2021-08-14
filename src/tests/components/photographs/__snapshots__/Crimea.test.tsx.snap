@@ -111,7 +111,7 @@ exports[`renders correctly 1`] = `
       <p
         className="image-caption"
       >
-        The Genoese fortress of Sudak in the Crimea
+        The Genoese fortress of Sudak
       </p>
       <img
         alt="Andrey Pudov Crimean Holidays"
@@ -241,7 +241,7 @@ exports[`renders correctly 1`] = `
       <p
         className="image-caption"
       >
-        Chegem Valley
+        Chegem valley
       </p>
       <img
         alt="Andrey Pudov Crimean Holidays"

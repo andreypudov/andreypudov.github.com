@@ -6,7 +6,7 @@ export default new Album(
   new Date('2021-07-24'),
   new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_018.webp'),
   [
-    new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_001.webp', false, 'The Genoese fortress of Sudak in the Crimea'),
+    new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_001.webp', false, 'The Genoese fortress of Sudak'),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_002.webp', true),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_003.webp'),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_004.webp', true),
@@ -29,7 +29,7 @@ export default new Album(
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_021.webp'),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_022.webp', true),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_023.webp'),
-    new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_024.webp', false, 'Chegem Valley'),
+    new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_024.webp', false, 'Chegem valley'),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_025.webp', true),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_026.webp', true),
     new Photograph('../albums/2021-07-24_08-02/2021-07-24_08-02_027.webp', true),
