@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Crimean Holiday 
+                Crimean Holidays
               </h6>
             </div>
           </a>
