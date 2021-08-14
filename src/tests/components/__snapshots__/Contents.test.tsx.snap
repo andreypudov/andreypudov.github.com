@@ -164,7 +164,7 @@ exports[`renders correctly 1`] = `
             href="/photographs/crimea"
             onClick={[Function]}
           >
-            Crimean Holiday 
+            Crimean Holidays
             <small>
               Saturday, July 24, 2021
             </small>

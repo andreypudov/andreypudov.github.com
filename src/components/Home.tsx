@@ -13,9 +13,9 @@ function Home() {
         </ol>
         <div className = 'carousel-inner'>
           <Link to = '/photographs/crimea' className = 'carousel-item active'>
-            <img src = 'images/carousel/crimea.webp' alt = 'Crimean Holiday' className = 'd-block w-100' />
+            <img src = 'images/carousel/crimea.webp' alt = 'Crimean Holidays' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
-              <h5>Crimean Holiday</h5>
+              <h5>Crimean Holidays</h5>
             </div>
           </Link>
           <Link to = '/photographs/altay' className = 'carousel-item'>
