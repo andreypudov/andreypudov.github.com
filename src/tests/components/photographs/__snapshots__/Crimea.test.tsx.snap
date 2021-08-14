@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Crimean Holiday 
+        <small
+          className="text-muted"
+        >
+          Saturday, July 24, 2021
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_001.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_002.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_003.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_004.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_005.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_006.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_007.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_008.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_009.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_010.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_011.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_012.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_013.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_014.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_015.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_016.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_017.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_018.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_019.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_020.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_021.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_022.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_023.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_024.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_025.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_026.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_027.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_028.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_029.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_030.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_031.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_032.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_033.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_034.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_035.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_036.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_037.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_038.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_039.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_040.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_041.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_042.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_043.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_044.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_045.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_046.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_047.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_048.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_049.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_050.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_051.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_052.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_053.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_054.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_055.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_056.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_057.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_058.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_059.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_060.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_061.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_062.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_063.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_064.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_065.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_066.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_067.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_068.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_069.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_070.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_071.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_072.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_073.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_074.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_075.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_076.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_077.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_078.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_079.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_080.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_081.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image vertical"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_082.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_083.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_084.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_085.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_086.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_087.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_088.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_089.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_090.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_091.webp"
+      />
+      <img
+        alt="Andrey Pudov Crimean Holiday "
+        className="img-responsive gallery-image"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_092.webp"
+      />
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2021 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2021 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

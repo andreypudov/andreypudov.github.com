@@ -12,7 +12,13 @@ function Home() {
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '3' aria-label = 'Slide 4'></button>
         </ol>
         <div className = 'carousel-inner'>
-          <Link to = '/photographs/altay' className = 'carousel-item active'>
+          <Link to = '/photographs/crimea' className = 'carousel-item active'>
+            <img src = 'images/carousel/crimea.webp' alt = 'Crimean Holiday' className = 'd-block w-100' />
+            <div className = 'carousel-caption d-none d-md-block'>
+              <h5>Crimean Holiday</h5>
+            </div>
+          </Link>
+          <Link to = '/photographs/altay' className = 'carousel-item'>
             <img src = 'images/carousel/altay.webp' alt = 'Altay. Conquering Siberia 2.0' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Altay. Conquering Siberia 2.0</h5>
@@ -28,12 +34,6 @@ function Home() {
             <img src = 'images/carousel/alina-cherdakova.webp' alt = 'Alina Cherdakova' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block text-dark'>
               <h5>Alina Cherdakova</h5>
-            </div>
-          </Link>
-          <Link to = '/photographs/rome-malta' className = 'carousel-item'>
-            <img src = 'images/carousel/rome-malta.webp' alt = 'Conquering Rome and Order of Malta' className = 'd-block w-100' />
-            <div className = 'carousel-caption d-none d-md-block'>
-              <h5>Conquering Rome and Order of Malta</h5>
             </div>
           </Link>
         </div>
@@ -55,6 +55,11 @@ function Home() {
             </Link>
           </div>
           <div className = 'col-sm-3'>
+            <Link to = '/photographs/rome-malta'>
+              <img src = 'images/marketing/rome-malta.webp' className = 'img-fluid' alt = 'Conquering Rome and Order of Malta' />
+            </Link>
+          </div>
+          <div className = 'col-sm-3'>
             <Link to = '/photographs/kira-orlova'>
               <img src = 'images/marketing/kira-orlova.webp' className = 'img-fluid' alt = 'Kira Orlova' />
             </Link>
@@ -62,11 +67,6 @@ function Home() {
           <div className = 'col-sm-3'>
             <Link to = '/photographs/united-states-2.0'>
               <img src = 'images/marketing/united-states-2.0.webp' className = 'img-fluid' alt = 'Conquering America 2.0' />
-            </Link>
-          </div>
-          <div className = 'col-sm-3'>
-            <Link to = '/photographs/united-states'>
-              <img src = 'images/marketing/united-states.webp' className = 'img-fluid' alt = 'Conquering America' />
             </Link>
           </div>
         </div>

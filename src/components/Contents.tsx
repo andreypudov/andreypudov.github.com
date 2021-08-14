@@ -6,6 +6,7 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
+import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import Rekshino from './../models/photographs/rekshino';
@@ -65,6 +66,12 @@ function Contents() {
             <Link to = '/photographs/favorite-photographs'>
               { Favorites.getTitle() }
               <small>{ Favorites.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/crimea'>
+              { Crimea.getTitle() }
+              <small>{ Crimea.getDate() }</small>
             </Link>
           </li>
           <li>

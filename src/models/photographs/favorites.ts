@@ -6,6 +6,7 @@ export default new Album(
   new Date('2020-07-19'),
   new Photograph('../albums/2012-03-17/2012-03-17_031.webp'),
   [
+    new Photograph('../albums/2012-03-17/2012-03-17_032.webp'),
     new Photograph('../albums/2012-03-17/2012-03-17_031.webp'),
     new Photograph('../albums/2012-03-17/2012-03-17_030.webp'),
     new Photograph('../albums/2012-03-17/2012-03-17_029_large.webp', true),
