@@ -166,7 +166,7 @@ exports[`renders correctly 1`] = `
       <p
         className="image-caption"
       >
-        Klementiev mountain
+        Klementiev Mountain
       </p>
       <img
         alt="Andrey Pudov Crimean Holidays"
@@ -211,11 +211,6 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_019.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image"
         src="../albums/2021-07-24_08-02/2021-07-24_08-02_020.webp"
       />
       <img
@@ -225,23 +220,13 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_022.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
         src="../albums/2021-07-24_08-02/2021-07-24_08-02_023.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_024.webp"
       />
       <p
         className="image-caption"
       >
-        Chegem valley
+        Chegem Valley
       </p>
       <img
         alt="Andrey Pudov Crimean Holidays"
@@ -316,7 +301,7 @@ exports[`renders correctly 1`] = `
       <p
         className="image-caption"
       >
-        Bulungu village
+        Bulungu Village
       </p>
       <img
         alt="Andrey Pudov Crimean Holidays"
@@ -410,11 +395,6 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_056.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
         src="../albums/2021-07-24_08-02/2021-07-24_08-02_057.webp"
       />
@@ -427,11 +407,6 @@ exports[`renders correctly 1`] = `
         alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
         src="../albums/2021-07-24_08-02/2021-07-24_08-02_059.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_060.webp"
       />
       <img
         alt="Andrey Pudov Crimean Holidays"
@@ -546,23 +521,13 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_081.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image vertical"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_082.webp"
+        src="../albums/2021-07-24_08-02/2021-07-24_08-02_083.webp"
       />
       <p
-        className="image-caption vertical"
+        className="image-caption"
       >
         Mount Elbrus
       </p>
-      <img
-        alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_083.webp"
-      />
       <img
         alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
@@ -586,13 +551,13 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
-        src="../albums/2021-07-24_08-02/2021-07-24_08-02_088.webp"
-      />
-      <img
-        alt="Andrey Pudov Crimean Holidays"
-        className="img-responsive gallery-image"
         src="../albums/2021-07-24_08-02/2021-07-24_08-02_089.webp"
       />
+      <p
+        className="image-caption"
+      >
+        Mir station - 3500 meters
+      </p>
       <img
         alt="Andrey Pudov Crimean Holidays"
         className="img-responsive gallery-image"
@@ -608,6 +573,11 @@ exports[`renders correctly 1`] = `
         className="img-responsive gallery-image"
         src="../albums/2021-07-24_08-02/2021-07-24_08-02_092.webp"
       />
+      <p
+        className="image-caption"
+      >
+        Pendulum cableway "Elbrus 1"
+      </p>
     </div>
   </main>
   <footer>
