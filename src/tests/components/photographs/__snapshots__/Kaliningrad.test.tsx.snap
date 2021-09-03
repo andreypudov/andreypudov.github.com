@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_001_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_001_large.webp"
       />
       <p
         className="image-caption"
@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-08-24_30/2016-08-24_30_002_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_002_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -126,7 +126,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-08-24_30/2016-08-24_30_003_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_003_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -136,7 +136,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-08-24_30/2016-08-24_30_004_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_004_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -146,7 +146,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_005_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_005_large.webp"
       />
       <p
         className="image-caption"
@@ -156,7 +156,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_006_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_006_large.webp"
       />
       <p
         className="image-caption"
@@ -166,7 +166,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_007_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_007_large.webp"
       />
       <p
         className="image-caption"
@@ -176,7 +176,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_008_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_008_large.webp"
       />
       <p
         className="image-caption"
@@ -186,7 +186,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_009_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_009_large.webp"
       />
       <p
         className="image-caption"
@@ -196,7 +196,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_010_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_010_large.webp"
       />
       <p
         className="image-caption"
@@ -206,7 +206,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_011_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_011_large.webp"
       />
       <p
         className="image-caption"
@@ -216,7 +216,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-08-24_30/2016-08-24_30_012_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_012_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -226,7 +226,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_013_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_013_large.webp"
       />
       <p
         className="image-caption"
@@ -236,7 +236,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_014_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_014_large.webp"
       />
       <p
         className="image-caption"
@@ -246,7 +246,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_015_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_015_large.webp"
       />
       <p
         className="image-caption"
@@ -256,7 +256,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image vertical"
-        src="../albums/2016-08-24_30/2016-08-24_30_016_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_016_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -266,7 +266,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_017_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_017_large.webp"
       />
       <p
         className="image-caption"
@@ -276,7 +276,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_018_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_018_large.webp"
       />
       <p
         className="image-caption"
@@ -286,7 +286,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_019_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_019_large.webp"
       />
       <p
         className="image-caption"
@@ -296,7 +296,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_020_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_020_large.webp"
       />
       <p
         className="image-caption"
@@ -306,7 +306,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_021_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_021_large.webp"
       />
       <p
         className="image-caption"
@@ -316,7 +316,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_022_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_022_large.webp"
       />
       <p
         className="image-caption"
@@ -326,7 +326,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_023_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_023_large.webp"
       />
       <p
         className="image-caption"
@@ -336,12 +336,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_024_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_024_large.webp"
       />
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_025_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_025_large.webp"
       />
       <p
         className="image-caption"
@@ -351,7 +351,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_026_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_026_large.webp"
       />
       <p
         className="image-caption"
@@ -361,7 +361,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_027_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_027_large.webp"
       />
       <p
         className="image-caption"
@@ -371,7 +371,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_028_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_028_large.webp"
       />
       <p
         className="image-caption"
@@ -381,7 +381,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_029_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_029_large.webp"
       />
       <p
         className="image-caption"
@@ -391,7 +391,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Kaliningrad. The amber capital of the World"
         className="img-responsive gallery-image"
-        src="../albums/2016-08-24_30/2016-08-24_30_030_large.webp"
+        src="../photographs/2016-08-24_30/2016-08-24_30_030_large.webp"
       />
       <p
         className="image-caption"
