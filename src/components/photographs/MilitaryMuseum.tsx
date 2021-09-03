@@ -2,7 +2,7 @@ import Layout from './../shared/Layout';
 
 function MilitaryMuseum() {
   return (
-    <Layout>
+    <Layout title = { 'Battle Glory of the Urals' }>
       <div className = 'container'>
         <h1>
           Battle Glory of the Urals

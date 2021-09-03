@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <Layout Landing = { true }>
+    <Layout landing = { true }>
       <div id = 'homeCarousel' className = 'carousel slide' data-bs-ride = 'carousel'>
         <ol className = 'carousel-indicators'>
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '0' className = 'active' aria-current = 'true' aria-label = 'Slide 1'></button>

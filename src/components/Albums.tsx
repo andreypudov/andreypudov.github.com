@@ -31,7 +31,7 @@ import PencilSketches from './../models/drawings/pencilSketches';
 
 function Albums() {
   return (
-    <Layout>
+    <Layout title = { 'Albums' }>
       <div className = 'container'>
         <h1>Albums</h1>
 

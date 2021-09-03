@@ -5,7 +5,7 @@ import AlbumView from '../shared/Album';
 
 function LakeBaikal() {
   return (
-    <Layout>
+    <Layout title = { Album.getTitle() }>
       <div className = 'container'>
         <Headline album = { Album } />
 

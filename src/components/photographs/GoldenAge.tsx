@@ -5,7 +5,7 @@ import Photograph from '../shared/Photograph';
 
 function GoldenAge() {
   return (
-    <Layout>
+    <Layout title = { Album.getTitle() }>
       <div className = 'container'>
         <Headline album = { Album } />
 
