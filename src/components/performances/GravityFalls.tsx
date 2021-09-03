@@ -5,7 +5,7 @@ import Layout from './../shared/Layout';
 
 function GravityFalls() {
   return (
-    <Layout>
+    <Layout title = { Album.getTitle() }>
       <div className = 'container'>
         <Headline album = { Album } />
         <AlbumView album = { Album } />

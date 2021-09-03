@@ -2,7 +2,7 @@ import Layout from './shared/Layout'
 
 function Resume() {
   return (
-    <Layout>
+    <Layout title = { 'Resume' }>
       <div className = 'container'>
         <h1>Resume</h1>
 

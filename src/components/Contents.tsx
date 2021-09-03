@@ -30,7 +30,7 @@ import SoftPastel from './../models/drawings/softPastel';
 
 function Contents() {
   return (
-    <Layout>
+    <Layout title = { 'Contents' }>
       <div className = 'container'>
         <h1>Contents</h1>
 

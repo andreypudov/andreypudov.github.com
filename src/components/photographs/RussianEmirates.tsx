@@ -5,7 +5,7 @@ import Photograph from '../shared/Photograph';
 
 function RussianEmirates() {
   return (
-    <Layout>
+    <Layout title = { Album.getTitle() }>
       <div className = 'container'>
         <Headline album = { Album } />
 
