@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_001_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_001_large.webp"
       />
       <p
         className="image-caption"
@@ -116,17 +116,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_002_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_002_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_003_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_003_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_004_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_004_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -136,7 +136,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_005_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_005_large.webp"
       />
       <p
         className="image-caption"
@@ -146,12 +146,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_006_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_006_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_007_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_007_large.webp"
       />
       <p
         className="image-caption"
@@ -161,17 +161,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_008_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_008_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_009_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_009_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_010_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_010_large.webp"
       />
       <p
         className="image-caption"
@@ -181,12 +181,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_011_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_011_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_012_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_012_large.webp"
       />
       <p
         className="image-caption"
@@ -196,7 +196,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_024_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_024_large.webp"
       />
       <p
         className="image-caption"
@@ -206,22 +206,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_025_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_025_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_013_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_013_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_014_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_014_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_015_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_015_large.webp"
       />
       <p
         className="image-caption"
@@ -231,12 +231,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_016_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_016_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_017_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_017_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -246,7 +246,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_018_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_018_large.webp"
       />
       <p
         className="image-caption"
@@ -256,12 +256,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_019_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_019_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_020_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_020_large.webp"
       />
       <p
         className="image-caption"
@@ -271,7 +271,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_021_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_021_large.webp"
       />
       <p
         className="image-caption"
@@ -281,7 +281,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_022_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_022_large.webp"
       />
       <p
         className="image-caption"
@@ -291,22 +291,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_023_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_023_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_026_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_026_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_027_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_027_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_028_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_028_large.webp"
       />
       <p
         className="image-caption"
@@ -316,22 +316,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_029_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_029_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_030_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_030_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_031_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_031_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_032_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_032_large.webp"
       />
       <p
         className="image-caption"
@@ -341,7 +341,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_033_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_033_large.webp"
       />
       <p
         className="image-caption"
@@ -351,17 +351,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_034_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_034_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_035_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_035_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_036_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_036_large.webp"
       />
       <p
         className="image-caption"
@@ -371,17 +371,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_037_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_037_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_038_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_038_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_039_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_039_large.webp"
       />
       <p
         className="image-caption"
@@ -391,17 +391,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_040_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_040_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_041_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_041_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_042_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_042_large.webp"
       />
       <p
         className="image-caption"
@@ -411,12 +411,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_043_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_043_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_044_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_044_large.webp"
       />
       <p
         className="image-caption"
@@ -426,7 +426,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_045_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_045_large.webp"
       />
       <div
         className="ratio ratio-16x9 gallery-video"
@@ -444,12 +444,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_046_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_046_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_047_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_047_large.webp"
       />
       <p
         className="image-caption"
@@ -459,57 +459,57 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_048_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_048_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_049_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_049_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_050_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_050_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_051_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_051_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_052_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_052_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_053_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_053_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_054_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_054_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_055_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_055_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_056_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_056_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_057_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_057_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_058_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_058_large.webp"
       />
       <p
         className="image-caption"
@@ -519,122 +519,122 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_059_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_059_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_060_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_060_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_061_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_061_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_062_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_062_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_063_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_063_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_064_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_064_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_065_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_065_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_066_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_066_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_067_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_067_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_068_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_068_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_069_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_069_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_070_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_070_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_071_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_071_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_072_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_072_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_073_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_073_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_074_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_074_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_075_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_075_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_076_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_076_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_077_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_077_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_078_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_078_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_079_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_079_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_080_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_080_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_081_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_081_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_082_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_082_large.webp"
       />
       <p
         className="image-caption"
@@ -644,47 +644,47 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_083_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_083_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_084_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_084_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_085_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_085_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_086_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_086_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_087_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_087_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_088_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_088_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_089_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_089_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_090_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_090_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_091_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_091_large.webp"
       />
       <div
         className="ratio ratio-16x9 gallery-video"
@@ -702,7 +702,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_092_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_092_large.webp"
       />
       <p
         className="image-caption"
@@ -712,22 +712,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_093_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_093_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_094_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_094_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_095_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_095_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_096_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_096_large.webp"
       />
       <p
         className="image-caption"
@@ -737,27 +737,27 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-10-05_11/2015-10-05_11_097_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_097_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_098_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_098_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_099_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_099_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_100_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_100_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_101_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_101_large.webp"
       />
       <p
         className="image-caption"
@@ -767,17 +767,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_102_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_102_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_103_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_103_large.webp"
       />
       <img
         alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
         className="img-responsive gallery-image"
-        src="../albums/2015-10-05_11/2015-10-05_11_104_large.webp"
+        src="../photographs/2015-10-05_11/2015-10-05_11_104_large.webp"
       />
       <p
         className="image-caption"

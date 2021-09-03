@@ -122,37 +122,37 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_001_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_001_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_002_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_002_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_003_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_003_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_004_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_004_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_005_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_005_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_006_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_006_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_007_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_007_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -162,142 +162,142 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_008_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_008_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_009_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_009_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_010_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_010_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_011_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_011_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_012_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_012_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_013_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_013_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_014_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_014_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_015_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_015_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_016_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_016_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_017_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_017_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_018_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_018_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_019_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_019_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_020_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_020_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_021_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_021_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_023_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_023_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_024_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_024_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_025_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_025_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_026_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_026_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_027_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_027_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_028_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_028_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_029_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_029_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_030_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_030_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_031_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_031_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_032_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_032_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_033_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_033_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_034_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_034_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_035_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp"
       />
       <p
         className="image-caption"
@@ -307,47 +307,47 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_036_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_036_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_037_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_037_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_038_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_038_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_039_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_039_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_040_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_040_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_041_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_041_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_042_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_042_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_043_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_043_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_044_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_044_large.webp"
       />
       <p
         className="image-caption"
@@ -357,72 +357,72 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_045_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_045_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_046_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_046_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_047_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_047_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_048_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_048_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_049_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_049_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_050_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_050_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_051_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_051_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_052_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_052_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_053_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_053_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_054_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_054_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_055_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_055_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_056_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_056_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_057_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_057_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_058_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_058_large.webp"
       />
       <p
         className="image-caption"
@@ -432,57 +432,57 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_059_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_059_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_060_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_060_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_061_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_061_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_062_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_062_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_063_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_063_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_064_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_064_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_065_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_065_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_066_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_066_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_067_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_067_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_068_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_068_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image vertical"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_069_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_069_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -492,22 +492,22 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_070_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_070_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_071_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_071_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_072_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_072_large.webp"
       />
       <img
         alt="Andrey Pudov Lake Baikal"
         className="img-responsive gallery-image"
-        src="../albums/2015-07-27_08-08/2015-07-27_08-08_073_large.webp"
+        src="../photographs/2015-07-27_08-08/2015-07-27_08-08_073_large.webp"
       />
       <div
         className="ratio ratio-16x9 gallery-video"
