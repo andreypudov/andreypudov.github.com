@@ -23,7 +23,6 @@ import LakeBaikal from './../models/photographs/lakeBaikal';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
-import VeraKlemenova from './../models/photographs/veraKlemenova';
 
 import PencilSketches from './../models/drawings/pencilSketches';
 import SoftPastel from './../models/drawings/softPastel';
@@ -176,12 +175,6 @@ function Contents() {
               <small>{ LittleRussia.getDate() }</small>
             </Link>
           </li>
-          <li>
-            <Link to = '/photographs/vera-klemenova'>
-              { VeraKlemenova.getTitle() }
-              <small>{ VeraKlemenova.getDate() }</small>
-            </Link>
-          </li>
         </ol>
 
         <ol className = 'contents'>
@@ -231,25 +224,25 @@ function Contents() {
             <h2>Projects</h2>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/ParaglidingWeather' target = '_blank' rel = 'noreferrer'>
+            <a href = 'https://github.com/andreypudov/paragliding-weather' target = '_blank' rel = 'noreferrer'>
               Paragliding Weather
               <small>Wednesday, January 6, 2021</small>
             </a>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/Timetable' target = '_blank' rel = 'noreferrer'>
+            <a href = 'https://github.com/andreypudov/timetable' target = '_blank' rel = 'noreferrer'>
               Timetable
               <small>Wednesday, January 6, 2021</small>
             </a>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/Algorithms' target = '_blank' rel = 'noreferrer'>
+            <a href = 'https://github.com/andreypudov/algorithms' target = '_blank' rel = 'noreferrer'>
               Laboratory of Algorithms
               <small>Tuesday, July 10, 2018</small>
             </a>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/OpenWeatherJS' target = '_blank' rel = 'noreferrer'>
+            <a href = 'https://github.com/andreypudov/openweatherjs' target = '_blank' rel = 'noreferrer'>
               OpenWeatherJS
               <small>Wednesday, October 24, 2018</small>
             </a>

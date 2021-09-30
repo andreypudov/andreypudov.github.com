@@ -357,17 +357,6 @@ exports[`renders correctly 1`] = `
             </small>
           </a>
         </li>
-        <li>
-          <a
-            href="/photographs/vera-klemenova"
-            onClick={[Function]}
-          >
-            Vera Klemenova
-            <small>
-              Thursday, July 19, 2012
-            </small>
-          </a>
-        </li>
       </ol>
       <ol
         className="contents"
@@ -452,7 +441,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="https://github.com/andreypudov/ParaglidingWeather"
+            href="https://github.com/andreypudov/paragliding-weather"
             rel="noreferrer"
             target="_blank"
           >
@@ -464,7 +453,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="https://github.com/andreypudov/Timetable"
+            href="https://github.com/andreypudov/timetable"
             rel="noreferrer"
             target="_blank"
           >
@@ -476,7 +465,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="https://github.com/andreypudov/Algorithms"
+            href="https://github.com/andreypudov/algorithms"
             rel="noreferrer"
             target="_blank"
           >
@@ -488,7 +477,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="https://github.com/andreypudov/OpenWeatherJS"
+            href="https://github.com/andreypudov/openweatherjs"
             rel="noreferrer"
             target="_blank"
           >
