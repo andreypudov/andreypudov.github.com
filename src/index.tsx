@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
-import Routes from './Routes';
+import Routes from './routes';
 
 import 'bootstrap/dist/../js/dist/carousel.js';
 import 'bootstrap/dist/../js/dist/collapse.js';

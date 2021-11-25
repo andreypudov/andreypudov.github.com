@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 import Albums from './components/Albums';
@@ -38,49 +38,49 @@ import CureForWellness from './components/performances/CureForWellness';
 import GravityFalls from './components/performances/GravityFalls';
 import MiaAndSebastian from './components/performances/MiaAndSebastian';
 
-function Routes() {
+function routes() {
   return (
-    <Switch>
-      <Route exact path = '/' component = { Home } />
-      <Route exact path = '/albums' component = { Albums } />
-      <Route exact path = '/contents' component = { Contents } />
-      <Route exact path = '/resume' component = { Resume } />
-      <Route exact path = '/contact' component = { Contact } />
+    <Routes>
+      <Route path = '/' element = { <Home /> } />
+      <Route path = '/albums' element = { <Albums /> } />
+      <Route path = '/contents' element = { <Contents /> } />
+      <Route path = '/resume' element = { <Resume /> } />
+      <Route path = '/contact' element = { <Contact /> } />
 
-      <Route exact path = '/photographs/favorite-photographs' component = { Favorites } />
-      <Route exact path = '/photographs/crimea' component = { Crimea } />
-      <Route exact path = '/photographs/altay' component = { Altay } />
-      <Route exact path = '/photographs/nizhny-novgorod' component = { NizhnyNovgorod } />
-      <Route exact path = '/photographs/rekshino' component = { Rekshino } />
-      <Route exact path = '/photographs/alina-cherdakova' component = { AlinaCherdakova } />
-      <Route exact path = '/photographs/balloon-festival' component = { BalloonFestival } />
-      <Route exact path = '/photographs/rome-malta' component = { ConqueringRome } />
-      <Route exact path = '/photographs/kira-orlova' component = { KiraOrlova } />
-      <Route exact path = '/photographs/united-states-2.0' component = { ConqueringAmerica2 } />
-      <Route exact path = '/photographs/time-lapses' component = { TimeLapses } />
-      <Route exact path = '/photographs/united-states' component = { ConqueringAmerica } />
-      <Route exact path = '/photographs/kaliningrad' component = { Kaliningrad } />
-      <Route exact path = '/photographs/formula-sochi' component = { FormulaSochi } />
-      <Route exact path = '/photographs/lake-baikal' component = { LakeBaikal } />
-      <Route exact path = '/photographs/military-museum' component = { MilitaryMuseum } />
-      <Route exact path = '/photographs/ekaterinburg' component = { Ekaterinburg } />
-      <Route exact path = '/photographs/yoshkar-ola' component = { YoshkarOla } />
-      <Route exact path = '/photographs/little-russia' component = { LittleRussia } />
-      <Route exact path = '/photographs/russian-emirates' component = { RussianEmirates } />
-      <Route exact path = '/photographs/golden-age' component = { GoldenAge } />
-      <Route exact path = '/photographs/vera-klemenova' component = { VeraKlemenova } />
-      <Route exact path = '/photographs/imperial-town' component = { ImperialTown } />
+      <Route path = '/photographs/favorite-photographs' element = { <Favorites /> } />
+      <Route path = '/photographs/crimea' element = { <Crimea /> } />
+      <Route path = '/photographs/altay' element = { <Altay /> } />
+      <Route path = '/photographs/nizhny-novgorod' element = { <NizhnyNovgorod /> } />
+      <Route path = '/photographs/rekshino' element = { <Rekshino /> } />
+      <Route path = '/photographs/alina-cherdakova' element = { <AlinaCherdakova /> } />
+      <Route path = '/photographs/balloon-festival' element = { <BalloonFestival /> } />
+      <Route path = '/photographs/rome-malta' element = { <ConqueringRome /> } />
+      <Route path = '/photographs/kira-orlova' element = { <KiraOrlova /> } />
+      <Route path = '/photographs/united-states-2.0' element = { <ConqueringAmerica2 /> } />
+      <Route path = '/photographs/time-lapses' element = { <TimeLapses /> } />
+      <Route path = '/photographs/united-states' element = { <ConqueringAmerica /> } />
+      <Route path = '/photographs/kaliningrad' element = { <Kaliningrad /> } />
+      <Route path = '/photographs/formula-sochi' element = { <FormulaSochi /> } />
+      <Route path = '/photographs/lake-baikal' element = { <LakeBaikal /> } />
+      <Route path = '/photographs/military-museum' element = { <MilitaryMuseum /> } />
+      <Route path = '/photographs/ekaterinburg' element = { <Ekaterinburg /> } />
+      <Route path = '/photographs/yoshkar-ola' element = { <YoshkarOla /> } />
+      <Route path = '/photographs/little-russia' element = { <LittleRussia /> } />
+      <Route path = '/photographs/russian-emirates' element = { <RussianEmirates /> } />
+      <Route path = '/photographs/golden-age' element = { <GoldenAge /> } />
+      <Route path = '/photographs/vera-klemenova' element = { <VeraKlemenova /> } />
+      <Route path = '/photographs/imperial-town' element = { <ImperialTown /> } />
 
-      <Route exact path = '/drawings/pencil-sketches' component = { PencilSketches } />
-      <Route exact path = '/drawings/soft-pastel' component = { SoftPastel } />
+      <Route path = '/drawings/pencil-sketches' element = { <PencilSketches /> } />
+      <Route path = '/drawings/soft-pastel' element = { <SoftPastel /> } />
 
-      <Route exact path = '/performances/gravity-falls' component = { GravityFalls } />
-      <Route exact path = '/performances/cure-for-wellness' component = { CureForWellness } />
-      <Route exact path = '/performances/mia-and-sebastian' component = { MiaAndSebastian } />
+      <Route path = '/performances/gravity-falls' element = { <GravityFalls /> } />
+      <Route path = '/performances/cure-for-wellness' element = { <CureForWellness /> } />
+      <Route path = '/performances/mia-and-sebastian' element = { <MiaAndSebastian /> } />
 
-      <Route component = { NotFound } />
-    </Switch>
+      <Route path = '*' element = { <NotFound /> } />
+    </Routes>
   );
 }
 
-export default Routes;
+export default routes;
