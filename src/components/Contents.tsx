@@ -39,6 +39,12 @@ function Contents() {
             <h2>Articles</h2>
           </li>
           <li>
+            <Link to = '/photographs/military-museum'>
+              { MilitaryMuseum.getTitle() }
+              <small>{ MilitaryMuseum.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/russian-emirates'>
               { RussianEmirates.getTitle() }
               <small>{ RussianEmirates.getDate() }</small>
@@ -150,12 +156,6 @@ function Contents() {
             <Link to = '/photographs/lake-baikal'>
               { LakeBaikal.getTitle() }
               <small>{ LakeBaikal.getDate() }</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/photographs/military-museum'>
-              { MilitaryMuseum.getTitle() }
-              <small>{ MilitaryMuseum.getDate() }</small>
             </Link>
           </li>
           <li>
