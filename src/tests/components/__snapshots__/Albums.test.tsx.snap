@@ -490,6 +490,30 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
+            href="/photographs/military-museum"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="../photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Battle Glory of the Urals
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
             href="/photographs/ekaterinburg"
             onClick={[Function]}
           >
