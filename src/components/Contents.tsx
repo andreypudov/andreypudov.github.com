@@ -1,6 +1,7 @@
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
+import MilitaryMuseum from './../models/photographs/militaryMuseum';
 import RussianEmirates from './../models/photographs/russianEmirates';
 import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
@@ -153,8 +154,8 @@ function Contents() {
           </li>
           <li>
             <Link to = '/photographs/military-museum'>
-              Battle Glory of the Urals
-              <small>Wednesday, December 24, 2014</small>
+              { MilitaryMuseum.getTitle() }
+              <small>{ MilitaryMuseum.getDate() }</small>
             </Link>
           </li>
           <li>

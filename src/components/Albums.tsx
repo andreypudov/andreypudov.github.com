@@ -1,6 +1,7 @@
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
+import MilitaryMuseum from './../models/photographs/militaryMuseum';
 import RussianEmirates from './../models/photographs/russianEmirates';
 import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
@@ -160,6 +161,14 @@ function Albums() {
               <img src = { LakeBaikal.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ LakeBaikal.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/military-museum' className = 'card bg-dark text-white gallery-image'>
+              <img src = { MilitaryMuseum.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ MilitaryMuseum.getTitle() }</h6>
               </div>
             </Link>
           </div>
