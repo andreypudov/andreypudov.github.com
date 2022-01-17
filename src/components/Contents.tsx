@@ -20,6 +20,7 @@ import TimeLapses from './../models/videos/timeLapses';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi from './../models/photographs/formulaSochi';
+import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikal from './../models/photographs/lakeBaikal';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
@@ -37,12 +38,6 @@ function Contents() {
         <ol className = 'contents'>
           <li>
             <h2>Articles</h2>
-          </li>
-          <li>
-            <Link to = '/photographs/military-museum'>
-              { MilitaryMuseum.getTitle() }
-              <small>{ MilitaryMuseum.getDate() }</small>
-            </Link>
           </li>
           <li>
             <Link to = '/photographs/russian-emirates'>
@@ -153,9 +148,21 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/photographs/asia-farakshina'>
+              { AsiaFarakshina.getTitle() }
+              <small>{ AsiaFarakshina.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/lake-baikal'>
               { LakeBaikal.getTitle() }
               <small>{ LakeBaikal.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/military-museum'>
+              { MilitaryMuseum.getTitle() }
+              <small>{ MilitaryMuseum.getDate() }</small>
             </Link>
           </li>
           <li>
