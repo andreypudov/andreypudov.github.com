@@ -466,6 +466,30 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
+            href="/photographs/asia-farakshina"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="../photographs/2015-08-14/2015-08-14_006.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Asia Farakshina
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
             href="/photographs/lake-baikal"
             onClick={[Function]}
           >
@@ -701,12 +725,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Copyright © 2021 Andrey Pudov. All rights reserved.
+          Copyright © 2022 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          © 2021 Andrey Pudov. All rights reserved.
+          © 2022 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>
