@@ -19,11 +19,11 @@ function MilitaryMuseum() {
 
         <img src = '../photographs/2014-12-21_25_museum/2014-12-21_25_001_large.webp' alt = 'Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала' className = 'img-responsive gallery-image' />
         <p className = 'image-caption'>
-          <a href = 'https://ru.wikipedia.org/wiki/Су-24'>Фронтовой бомбардировщик Су-24</a> обр. 1975 г. Предназначен для нанесения ракетно-бомбовых ударов в простых и сложных метеоусловиях, днём и ночью, в том числе на малых высотах с прицельным поражением наземных и надводных целей. <br /><br />
+          The Sukhoi <a href = 'https://en.wikipedia.org/wiki/Sukhoi_Su-24'>Su-24</a> is a supersonic, all-weather attack aircraft. The aircraft has a variable-sweep wing, twin-engines, and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system.<br /><br />
 
-          <a href = 'https://ru.wikipedia.org/wiki/МиГ-31'>Миг-31</a> обр. 1980 г. Двухместный сверхзвуковой всепогодный истребитель-перехватчик дальнего радиуса действия. Предназначен для перехвата и уничтожения воздушных целей на предельно малых, малых, средних и больших высотах, днём и ночью, в простых и сложных метеоусловиях, при применении противником активных и пассивных радиолокационных помех, а также ложных тепловых целей.<br /><br />
+          The Mikoyan <a href = 'https://en.wikipedia.org/wiki/Mikoyan_MiG-31'>MiG-31</a> is a supersonic interceptor aircraft that was developed for use by the Soviet Air Forces. The aircraft was designed by the Mikoyan design bureau as a replacement for the earlier MiG-25 "Foxbat". The MiG-31 is among the fastest combat jets in the world.<br /><br />
 
-          <a href = 'https://ru.wikipedia.org/wiki/Су-17'>Истребитель-бомбардировщик Су-17</a> обр. 1970 г. Первый советский самолёт с крылом изменяемой геометрии. Три десятилетия состоял на вооружении ВВС СССР и России, широко экспортировался, применялся в ряде вооружённых конфликтов.
+          The Sukhoi <a href = 'https://en.wikipedia.org/wiki/Sukhoi_Su-17'>Su-17</a> is a variable-sweep wing fighter-bomber developed for the Soviet military. Developed from the Sukhoi Su-7, the Su-17 was the first variable-sweep wing aircraft to enter Soviet service. Two subsequent Sukhoi aircraft, the Su-20, and Su-22 have usually been regarded as variants of the Su-17.
         </p>
 
         <img src = '../photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp' alt = 'Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала' className = 'img-responsive gallery-image' />

@@ -108,17 +108,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/military-museum"
-            onClick={[Function]}
-          >
-            Battle Glory of the Urals
-            <small>
-              Wednesday, December 24, 2014
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/photographs/russian-emirates"
             onClick={[Function]}
           >
@@ -315,12 +304,34 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/asia-farakshina"
+            onClick={[Function]}
+          >
+            Asia Farakshina
+            <small>
+              Friday, August 14, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/lake-baikal"
             onClick={[Function]}
           >
             Lake Baikal
             <small>
               Saturday, August 8, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/military-museum"
+            onClick={[Function]}
+          >
+            Battle Glory of the Urals
+            <small>
+              Wednesday, December 24, 2014
             </small>
           </a>
         </li>
@@ -535,12 +546,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Copyright © 2021 Andrey Pudov. All rights reserved.
+          Copyright © 2022 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          © 2021 Andrey Pudov. All rights reserved.
+          © 2022 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

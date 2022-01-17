@@ -569,12 +569,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Copyright © 2021 Andrey Pudov. All rights reserved.
+          Copyright © 2022 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          © 2021 Andrey Pudov. All rights reserved.
+          © 2022 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

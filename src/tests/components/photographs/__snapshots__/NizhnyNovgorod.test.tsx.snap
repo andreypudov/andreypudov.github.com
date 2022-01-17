@@ -105,8 +105,8 @@ exports[`renders correctly 1`] = `
       </h1>
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="../photographs/2019-07-16/2019-07-16_001.webp"
+        className="img-responsive gallery-image"
+        src="../photographs/2012-03-17/2012-03-17_024_large.webp"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
@@ -115,8 +115,8 @@ exports[`renders correctly 1`] = `
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="../photographs/2018-04-19/2018-04-19_001.webp"
+        className="img-responsive gallery-image vertical"
+        src="../photographs/2019-07-16/2019-07-16_001.webp"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
@@ -126,12 +126,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Nizhny Novgorod"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_024_large.webp"
+        src="../photographs/2018-04-19/2018-04-19_001.webp"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
         className="img-responsive gallery-image"
-        src="../photographs/2014-10-19/2014-10-19_010_large.webp"
+        src="../photographs/2015-07-21/2015-07-21_001.webp"
+      />
+      <img
+        alt="Andrey Pudov Nizhny Novgorod"
+        className="img-responsive gallery-image"
+        src="../photographs/2014-10-19/2014-10-19_012_large.webp"
       />
       <img
         alt="Andrey Pudov Nizhny Novgorod"
@@ -141,7 +146,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Nizhny Novgorod"
         className="img-responsive gallery-image"
-        src="../photographs/2014-10-19/2014-10-19_012_large.webp"
+        src="../photographs/2014-10-19/2014-10-19_010_large.webp"
       />
     </div>
   </main>
@@ -190,12 +195,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Copyright © 2021 Andrey Pudov. All rights reserved.
+          Copyright © 2022 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          © 2021 Andrey Pudov. All rights reserved.
+          © 2022 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>
