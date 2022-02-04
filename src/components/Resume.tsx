@@ -145,7 +145,7 @@ function Resume() {
                 <div className = 'contact-item'>
                   <a href = 'tel:+7 (952) 457 10 55' target = '_blank' rel = 'noreferrer'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-phone fa-fw'></span></div>
-                    <div className = 'title only'>+7 (952) 457 10 55</div>
+                    <div className = 'title only'>+34 (600) 60 45 46</div>
                   </a>
                 </div>
                 <div className = 'contact-item'>
