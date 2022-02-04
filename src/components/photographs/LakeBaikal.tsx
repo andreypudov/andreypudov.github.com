@@ -11,19 +11,19 @@ function LakeBaikal() {
 
         <figure className = 'text-end'>
           <blockquote className = "blockquote">
-            <p>«Байкал удивителен, и недаром сибиряки величают его не озером, а морем. Вода прозрачна необыкновенно, так что видно сквозь неё, как сквозь воздух; цвет у неё нежно-бирюзовый, приятный для глаза. Берега гористые, покрытые лесами; кругом дичь непроглядная, беспросветная. Изобилие медведей, соболей, диких коз и дикой всячины.»</p>
+            <p>Everything afterward was poetry...</p>
           </blockquote>
           <figcaption className = 'blockquote-footer'>
-            Антон Чехов
+            Anton Chekhov
           </figcaption>
         </figure>
 
         <AlbumView album = { Album } />
 
         <div className = 'ratio ratio-16x9 gallery-video'>
-          <iframe src = '//www.youtube.com/embed/VlXZW_dqlUE?rel=0' title = 'Видеоотчет по завершению сказочного похода, прошедшего по тропе \"Путь к чистому Байкалу\".' />
+          <iframe src = '//www.youtube.com/embed/VlXZW_dqlUE?rel=0' title = 'The video report of the exploring expedition to Lake Baikal.' />
         </div>
-        <p className = 'video-caption'>Видеоотчет по завершению сказочного похода, прошедшего по тропе "Путь к чистому Байкалу".</p>
+        <p className = 'video-caption'>The video report of the exploring expedition to Lake Baikal.</p>
       </div>
     </Layout>
   );
