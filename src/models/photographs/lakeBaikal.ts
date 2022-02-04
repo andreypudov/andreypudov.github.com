@@ -4,13 +4,13 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Lake Baikal',
   new Date('2015-08-08'),
-  new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp', false, 'Устье реки Большой Чивыркуй - первое утро на берегу озера.'),
+  new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp', false, 'The mouth of the Bolshoy Chivyrkuy river - the first morning on the shore of the lake.'),
   [
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_001_large.webp'),
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_002_large.webp'),
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_003_large.webp'),
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_004_large.webp'),
-    new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_005_large.webp'),
+    new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_005_large.webp', false, 'Siberian dwarf pine on the slopes of the Barguzinsky Range.\n\nPinus pumila, commonly known as the Siberian dwarf pine, dwarf Siberian pine is a tree in the family Pinaceae native to northeastern Asia and the Japanese isles. It shares the common name creeping pine with several other plants.\n\nThe Siberian dwarf pine is a coniferous evergreen shrub ranging from 1–3 m in height, exceptionally up to 5 m, but may have individual branches that extend farther along the ground in length. In the mountains of northern Japan, it sometimes hybridises with the related Japanese white pine (Pinus parviflora); these hybrids (Pinus × hakkodensis) are larger than P. pumila, reaching 8–10 m tall on occasion.'),
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_006_large.webp', false, 'Barguzin Range is a range along the northeastern shore of Baikal.\n\nIts length is 280 km, height up to 2,840 m. It is mostly covered by larch taiga. The range bounds the Barguzin Valley on the northwest. A part of the Barguzin Nature Reserve is located on the western slopes of the range. '),
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_007_large.webp', true, 'Gremyachaya River - the evening sunset on the second day of the trip.'),
     new Photograph('../photographs/2015-07-27_08-08/2015-07-27_08-08_008_large.webp'),
