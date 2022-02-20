@@ -19,12 +19,14 @@ import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import TimeLapses from './../models/videos/timeLapses';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
+import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikal from './../models/photographs/lakeBaikal';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
+import MarinaAlekseeva from './../models/photographs/marinaAlekseeva';
 
 import PencilSketches from './../models/drawings/pencilSketches';
 import SoftPastel from './../models/drawings/softPastel';
@@ -142,6 +144,12 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/photographs/lolita-rakhmatova'>
+              { LolitaRakhmatova.getTitle() }
+              <small>{ LolitaRakhmatova.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/formula-sochi'>
               { FormulaSochi.getTitle() }
               <small>{ FormulaSochi.getDate() }</small>
@@ -181,6 +189,12 @@ function Contents() {
             <Link to = '/photographs/little-russia'>
               { LittleRussia.getTitle() }
               <small>{ LittleRussia.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/marina-alekseeva'>
+              { MarinaAlekseeva.getTitle() }
+              <small>{ MarinaAlekseeva.getDate() }</small>
             </Link>
           </li>
         </ol>
