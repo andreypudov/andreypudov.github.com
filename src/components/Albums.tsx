@@ -16,16 +16,16 @@ import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
-// import ConqueringAmerica from './../models/photographs/';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
+import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikal from './../models/photographs/lakeBaikal';
-// import AlinaCherdakova from './../models/photographs/';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
+import MarinaAlekseeva from './../models/photographs/marinaAlekseeva';
 
 import SoftPastel from './../models/drawings/softPastel';
 import PencilSketches from './../models/drawings/pencilSketches';
@@ -150,6 +150,14 @@ function Albums() {
             </Link>
           </div>
           <div className = 'col-md-4'>
+            <Link to = '/photographs/lolita-rakhmatova' className = 'card bg-dark text-white gallery-image'>
+              <img src = { LolitaRakhmatova.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ LolitaRakhmatova.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
             <Link to = '/photographs/formula-sochi' className = 'card bg-dark text-white gallery-image'>
               <img src = { FormulaSochi.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
@@ -202,6 +210,14 @@ function Albums() {
               <img src = { LittleRussia.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ LittleRussia.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/marina-alekseeva' className = 'card bg-dark text-white gallery-image'>
+              <img src = { MarinaAlekseeva.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ MarinaAlekseeva.getTitle() }</h6>
               </div>
             </Link>
           </div>

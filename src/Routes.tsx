@@ -20,6 +20,7 @@ import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
 import TimeLapses from './components/photographs/TimeLapses';
 import ConqueringAmerica from './components/photographs/ConqueringAmerica';
 import Kaliningrad from './components/photographs/Kaliningrad';
+import LolitaRakhmatova from './components/photographs/LolitaRakhmatova';
 import FormulaSochi from './components/photographs/FormulaSochi';
 import AsiaFarakshina from './components/photographs/AsiaFarakshina';
 import LakeBaikal from './components/photographs/LakeBaikal';
@@ -27,6 +28,7 @@ import MilitaryMuseum from './components/photographs/MilitaryMuseum';
 import Ekaterinburg from './components/photographs/Ekaterinburg';
 import YoshkarOla from './components/photographs/YoshkarOla';
 import LittleRussia from './components/photographs/LittleRussia';
+import MarinaAlekseeva from './components/photographs/MarinaAlekseeva';
 import RussianEmirates from './components/photographs/RussianEmirates';
 import GoldenAge from './components/photographs/GoldenAge';
 import VeraKlemenova from './components/photographs/VeraKlemenova';
@@ -61,6 +63,7 @@ function routes() {
       <Route path = '/photographs/time-lapses' element = { <TimeLapses /> } />
       <Route path = '/photographs/united-states' element = { <ConqueringAmerica /> } />
       <Route path = '/photographs/kaliningrad' element = { <Kaliningrad /> } />
+      <Route path = '/photographs/lolita-rakhmatova' element = { <LolitaRakhmatova /> } />
       <Route path = '/photographs/formula-sochi' element = { <FormulaSochi /> } />
       <Route path = '/photographs/lake-baikal' element = { <LakeBaikal /> } />
       <Route path = '/photographs/asia-farakshina' element = { <AsiaFarakshina /> } />
@@ -68,6 +71,7 @@ function routes() {
       <Route path = '/photographs/ekaterinburg' element = { <Ekaterinburg /> } />
       <Route path = '/photographs/yoshkar-ola' element = { <YoshkarOla /> } />
       <Route path = '/photographs/little-russia' element = { <LittleRussia /> } />
+      <Route path = '/photographs/marina-alekseeva' element = { <MarinaAlekseeva /> } />
       <Route path = '/photographs/russian-emirates' element = { <RussianEmirates /> } />
       <Route path = '/photographs/golden-age' element = { <GoldenAge /> } />
       <Route path = '/photographs/vera-klemenova' element = { <VeraKlemenova /> } />
