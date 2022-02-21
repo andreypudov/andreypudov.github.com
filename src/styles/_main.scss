@@ -36,7 +36,7 @@ main {
       .carousel-item {
         display: block;
         float: none;
-        transform: 360.0s ease-in-out;
+        transition: transform 360.0s ease-in-out;
 
         .carousel-caption {
           display: block !important;
