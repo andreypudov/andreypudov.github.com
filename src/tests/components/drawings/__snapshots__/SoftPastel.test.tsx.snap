@@ -100,9 +100,19 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Saturday, January 30, 2021
+          Monday, November 1, 2021
         </small>
       </h1>
+      <img
+        alt="Andrey Pudov Soft Pastel"
+        className="img-responsive gallery-image"
+        src="../drawings/soft-pastel/2021-11-01.webp"
+      />
+      <p
+        className="image-caption"
+      >
+        November 01, 2021
+      </p>
       <img
         alt="Andrey Pudov Soft Pastel"
         className="img-responsive gallery-image"
