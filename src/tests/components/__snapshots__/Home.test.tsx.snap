@@ -168,6 +168,24 @@ exports[`renders correctly 1`] = `
         </a>
         <a
           className="carousel-item"
+          href="/photographs/nizhny-novgorod"
+          onClick={[Function]}
+        >
+          <img
+            alt="Nizhny Novgorod"
+            className="d-block w-100"
+            src="images/carousel/nizhny-novgorod.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block text-dark"
+          >
+            <h5>
+              Nizhny Novgorod
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
           href="/photographs/rekshino"
           onClick={[Function]}
         >
@@ -181,24 +199,6 @@ exports[`renders correctly 1`] = `
           >
             <h5>
               Rekshino
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/alina-cherdakova"
-          onClick={[Function]}
-        >
-          <img
-            alt="Alina Cherdakova"
-            className="d-block w-100"
-            src="images/carousel/alina-cherdakova.webp"
-          />
-          <div
-            className="carousel-caption d-none d-md-block text-dark"
-          >
-            <h5>
-              Alina Cherdakova
             </h5>
           </div>
         </a>
@@ -260,6 +260,34 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
+            href="/drawings/pencil-sketches"
+            onClick={[Function]}
+          >
+            <img
+              alt="Pencil Sketches"
+              className="img-fluid"
+              src="images/marketing/pencil-sketches.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/drawings/soft-pastel"
+            onClick={[Function]}
+          >
+            <img
+              alt="Soft Pastel"
+              className="img-fluid"
+              src="images/marketing/soft-pastel.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
             href="/photographs/rome-malta"
             onClick={[Function]}
           >
@@ -267,34 +295,6 @@ exports[`renders correctly 1`] = `
               alt="Conquering Rome and Order of Malta"
               className="img-fluid"
               src="images/marketing/rome-malta.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/kira-orlova"
-            onClick={[Function]}
-          >
-            <img
-              alt="Kira Orlova"
-              className="img-fluid"
-              src="images/marketing/kira-orlova.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/united-states-2.0"
-            onClick={[Function]}
-          >
-            <img
-              alt="Conquering America 2.0"
-              className="img-fluid"
-              src="images/marketing/united-states-2.0.webp"
             />
           </a>
         </div>
