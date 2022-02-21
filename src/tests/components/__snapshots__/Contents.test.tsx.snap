@@ -293,6 +293,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/lolita-rakhmatova"
+            onClick={[Function]}
+          >
+            Lolita Rakhmatova
+            <small>
+              Saturday, December 12, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/formula-sochi"
             onClick={[Function]}
           >
@@ -365,6 +376,17 @@ exports[`renders correctly 1`] = `
             Little Russia
             <small>
               Saturday, September 14, 2013
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/marina-alekseeva"
+            onClick={[Function]}
+          >
+            Marina Alekseeva
+            <small>
+              Tuesday, September 10, 2013
             </small>
           </a>
         </li>
