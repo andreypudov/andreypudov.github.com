@@ -25,3 +25,27 @@ main {
     }
   }
 }
+
+@include media-breakpoint-down(sm) {
+  main {
+    .carousel {
+      .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+      }
+
+      .carousel-item {
+        display: block;
+        float: none;
+        transition: none;
+
+        .carousel-caption {
+          display: block !important;
+        }
+      }
+    }
+
+    .marketing {
+      display: none;
+    }
+  }
+}
