@@ -109,7 +109,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_016_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_016_large.webp"
       />
       <p>
         Этому предшествовало, начавшееся еще до рассвета солнца, длительное путешествие сквозь меняющиеся пейзажи трех регионов России. Где редкие леса, разбитые многочисленными деревеньками Нижегородской области постепенно переходили в бескрайний хвойный лес, раскинувшийся по территории Чувашии, рассеченной чередой оврагов и речушек. Дорога меняла вид, с каждым километром неся на восток, как географический, так и культурный. Расставшись с последним поворотом перед границей Татарстана, шоссейное полотно, окруженное нетронутыми человеком полями, устремилось к небосводу, у границы которого, спустя час ожидания, стоя между высокими холмами, на противоположном берегу Волги, предстала Казань.
@@ -117,12 +117,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_001_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_001_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_002_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_002_large.webp"
       />
       <p>
         Прибыв в Казань с друзьями, ранее не имевшими возможности окунуться в атмосферу местной культуры, я был, несомненно, рад слышать их отзывы, основанные по большей части на сильной градации, так пестро проводившей черту меж нашими народами и культурами. Здесь не было места грубости Нижнего, и царящего в нем безразличия к окружающим, на место эгоистичному отношению приходило местное гостеприимство, роднившее с Питером.
@@ -130,17 +130,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_003_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_003_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_004_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_004_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
       />
       <p>
         Посреди Кремля, расположившись у западных стен, стоит главная соборная мечеть республики - Кул Шариф, названная в честь её последнего имама сеида Кул-Шарифа, одного из предводителей обороны Казани. Будучи разрушенной войсками Ивана Грозного, она была построена вновь, обретя свой современный вид к празднованию тысячелетия города.
@@ -148,27 +148,27 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_006_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_006_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_007_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_007_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_008_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_008_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_009_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_009_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_010_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_010_large.webp"
       />
       <p>
         Падающая башня Сююмбике, служащая предметом многолетних споров историков, так и не выяснившим дату основания, она стоит, отклонившись от своей вертикали на целых два метра. Вокруг башни ходит много легенд, сходящихся к одной из первых мусульманок, взявших на себя бремя правления государством, - Сююмбике, царице Казанского ханства.
@@ -176,12 +176,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_013_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_013_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_012_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_012_large.webp"
       />
       <p>
         Одна из красивейших достопримечательностей города - улица Баумана, где издавна расположен центр торговли и развлечений. Ее название многократно менялось, чему способствовало, и взятие Казани, и появлению Новой слабоды в ее южной части, и происхождения революционера Николая Баумана. На протяжении улицы стоит много памятников и исторических зданий - многострадальная гостиница "Казань", с балкона которой выступал Троцкий, памятник певцу Шаляпину, фонтаны-памятники героям татарских сказок и многие другие, лежащих в основе прекрасного декора города.
@@ -189,32 +189,32 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_044_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_044_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_014_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_014_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_046_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_046_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_015_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_015_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_043_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_043_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_038_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_038_large.webp"
       />
       <p>
         Пирамида - здание развлекательного центра, памятник символизирующий торжество современной архитектуры.
@@ -222,42 +222,42 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_017_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_017_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_020_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_020_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_018_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_018_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_024_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_024_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_023_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_023_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_022_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_022_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_021_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_021_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_027_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_027_large.webp"
       />
       <p>
         Памятник Мусе Джалилю, установленного в память о герое Сюза, организовавшего антифашистское подполье, поставившего целью осуществление восстания военнопленных.
@@ -265,42 +265,42 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_029_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_029_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_030_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_030_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_031_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_031_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_032_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_032_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_034_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_034_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_033_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_033_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_035_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_035_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_037_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_037_large.webp"
       />
       <p>
         Часы универсиады, поставленные напротив знаменитых часов на Баумана, уникальный арт-объект отсчитывающий время до начала Казанской универсиады.
@@ -308,12 +308,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-09-14_15/2012-09-14_15_039_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_039_large.webp"
       />
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_040_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_040_large.webp"
       />
       <p>
         Короткие два дня путешествия пролетели мимолетом, оставив позади воспоминания и неизменное желание вернуться вновь. Вслед за Казанью ушла и теплая погода, оставив один на один, с морозной осенью, пестрящей красно-желтыми красками, словно сходящими с картины Левитана.
@@ -321,7 +321,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Golden Age"
         className="img-responsive gallery-image"
-        src="../photographs/2012-09-14_15/2012-09-14_15_041_large.webp"
+        src="/photographs/2012-09-14_15/2012-09-14_15_041_large.webp"
       />
     </div>
   </main>

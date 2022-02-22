@@ -106,62 +106,62 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_001.webp"
+        src="/photographs/2019-10-26/2019-10-26_001.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_002.webp"
+        src="/photographs/2019-10-26/2019-10-26_002.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2019-10-26/2019-10-26_003.webp"
+        src="/photographs/2019-10-26/2019-10-26_003.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_004.webp"
+        src="/photographs/2019-10-26/2019-10-26_004.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2019-10-26/2019-10-26_005.webp"
+        src="/photographs/2019-10-26/2019-10-26_005.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_006.webp"
+        src="/photographs/2019-10-26/2019-10-26_006.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_007.webp"
+        src="/photographs/2019-10-26/2019-10-26_007.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_008.webp"
+        src="/photographs/2019-10-26/2019-10-26_008.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_009.webp"
+        src="/photographs/2019-10-26/2019-10-26_009.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2019-10-26/2019-10-26_010.webp"
+        src="/photographs/2019-10-26/2019-10-26_010.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_011.webp"
+        src="/photographs/2019-10-26/2019-10-26_011.webp"
       />
       <img
         alt="Andrey Pudov Rekshino"
         className="img-responsive gallery-image"
-        src="../photographs/2019-10-26/2019-10-26_012.webp"
+        src="/photographs/2019-10-26/2019-10-26_012.webp"
       />
     </div>
   </main>

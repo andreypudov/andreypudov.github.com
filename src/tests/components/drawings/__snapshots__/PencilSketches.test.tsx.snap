@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/pencil-sketches/2020-07-16.webp"
+        src="/drawings/pencil-sketches/2020-07-16.webp"
       />
       <p
         className="image-caption vertical"
@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/pencil-sketches/2020-07-09.webp"
+        src="/drawings/pencil-sketches/2020-07-09.webp"
       />
       <p
         className="image-caption vertical"
@@ -126,7 +126,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image"
-        src="../drawings/pencil-sketches/2020-04-26.webp"
+        src="/drawings/pencil-sketches/2020-04-26.webp"
       />
       <p
         className="image-caption"
@@ -136,7 +136,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/pencil-sketches/2020-04-22.webp"
+        src="/drawings/pencil-sketches/2020-04-22.webp"
       />
       <p
         className="image-caption vertical"
@@ -146,7 +146,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image"
-        src="../drawings/pencil-sketches/2020-04-07.webp"
+        src="/drawings/pencil-sketches/2020-04-07.webp"
       />
       <p
         className="image-caption"
@@ -156,7 +156,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image"
-        src="../drawings/pencil-sketches/2020-04-03.webp"
+        src="/drawings/pencil-sketches/2020-04-03.webp"
       />
       <p
         className="image-caption"
@@ -166,7 +166,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Pencil Sketches"
         className="img-responsive gallery-image vertical"
-        src="../drawings/pencil-sketches/2020-04-02.webp"
+        src="/drawings/pencil-sketches/2020-04-02.webp"
       />
       <p
         className="image-caption vertical"

@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_001_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_001_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -116,17 +116,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_002_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_002_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_003_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_003_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_004_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_004_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -136,7 +136,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_005_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_005_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -146,7 +146,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_006_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_006_large.webp"
       />
       <p
         className="image-caption"
@@ -156,47 +156,47 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_007_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_007_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_008_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_008_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_009_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_009_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_010_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_010_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_011_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_011_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_012_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_012_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_013_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_013_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_014_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_014_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_015_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_015_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -206,17 +206,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_016_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_016_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_017_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_017_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_018_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_018_large.webp"
       />
       <p
         className="image-caption"
@@ -226,12 +226,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_019_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_019_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_020_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_020_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -241,12 +241,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_021_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_021_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_022_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_022_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -256,7 +256,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_023_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_023_large.webp"
       />
       <p
         className="image-caption"
@@ -266,7 +266,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_024_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_024_large.webp"
       />
       <p
         className="image-caption"
@@ -276,7 +276,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_025_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_025_large.webp"
       />
       <p
         className="image-caption"
@@ -286,12 +286,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_026_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_026_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_027_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_027_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -301,12 +301,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_028_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_028_large.webp"
       />
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image"
-        src="../photographs/2017-09-09_24/2017-09-09_24_029_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_029_large.webp"
       />
       <p
         className="image-caption"
@@ -316,7 +316,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Conquering America 2.0"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2017-09-09_24/2017-09-09_24_030_large.webp"
+        src="/photographs/2017-09-09_24/2017-09-09_24_030_large.webp"
       />
       <p
         className="image-caption vertical"

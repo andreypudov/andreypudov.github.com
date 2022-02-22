@@ -112,14 +112,16 @@ exports[`renders correctly 1`] = `
           title="Mia & Sebastian"
         />
       </div>
-      <div
-        className="ratio ratio-1x1"
-      >
-        <iframe
-          src="https://drive.google.com/file/d/1loIUaq25m9XZPi0eI1jClZ8fr0l_ocD9/preview"
-          title="Mia & Sebastian"
-        />
-      </div>
+      <img
+        alt="Andrey Pudov Mia & Sebastian"
+        className="img-responsive gallery-image vertical"
+        src="/sheets/mia-and-sebastian/mia-and-sebastian-001.webp"
+      />
+      <img
+        alt="Andrey Pudov Mia & Sebastian"
+        className="img-responsive gallery-image vertical"
+        src="/sheets/mia-and-sebastian/mia-and-sebastian-002.webp"
+      />
     </div>
   </main>
   <footer>

@@ -112,14 +112,11 @@ exports[`renders correctly 1`] = `
           title="A Cure for Wellness"
         />
       </div>
-      <div
-        className="ratio ratio-1x1"
-      >
-        <iframe
-          src="https://drive.google.com/file/d/1kxcA8UbhrxkOAM50GyKFqZa6QCywoVYm/preview"
-          title="A Cure for Wellness"
-        />
-      </div>
+      <img
+        alt="Andrey Pudov Mia & Sebastian"
+        className="img-responsive gallery-image vertical"
+        src="/sheets/cure-for-wellness/cure-for-wellness-001.webp"
+      />
     </div>
   </main>
   <footer>

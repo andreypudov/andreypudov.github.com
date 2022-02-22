@@ -112,7 +112,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2012-03-17/2012-03-17_031.webp"
+              src="/photographs/2012-03-17/2012-03-17_031.webp"
             />
             <div
               className="card-img-overlay"
@@ -136,7 +136,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
+              src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
             />
             <div
               className="card-img-overlay"
@@ -160,7 +160,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../drawings/soft-pastel/2021-01-30.webp"
+              src="/drawings/soft-pastel/2021-01-30.webp"
             />
             <div
               className="card-img-overlay"
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
+              src="/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
             />
             <div
               className="card-img-overlay"
@@ -208,7 +208,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../drawings/pencil-sketches/2020-04-26.webp"
+              src="/drawings/pencil-sketches/2020-04-26.webp"
             />
             <div
               className="card-img-overlay"
@@ -232,7 +232,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2014-10-19/2014-10-19_012_large.webp"
+              src="/photographs/2014-10-19/2014-10-19_012_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -256,7 +256,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2019-10-26/2019-10-26_007.webp"
+              src="/photographs/2019-10-26/2019-10-26_007.webp"
             />
             <div
               className="card-img-overlay"
@@ -280,7 +280,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2018-08-18/2018-08-18_013.webp"
+              src="/photographs/2018-08-18/2018-08-18_013.webp"
             />
             <div
               className="card-img-overlay"
@@ -304,7 +304,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2018-02-24/2018-02-24_002.webp"
+              src="/photographs/2018-02-24/2018-02-24_002.webp"
             />
             <div
               className="card-img-overlay"
@@ -328,7 +328,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp"
+              src="/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -352,7 +352,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2017-10-22/2017-10-22_016_large.webp"
+              src="/photographs/2017-10-22/2017-10-22_016_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -376,7 +376,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2017-09-09_24/2017-09-09_24_018_large.webp"
+              src="/photographs/2017-09-09_24/2017-09-09_24_018_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -400,7 +400,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2016-10-15_11-05/2016-10-15_11-05_019_large.webp"
+              src="/photographs/2016-10-15_11-05/2016-10-15_11-05_019_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -424,7 +424,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2016-08-24_30/2016-08-24_30_023_large.webp"
+              src="/photographs/2016-08-24_30/2016-08-24_30_023_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -448,7 +448,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2015-12-12/2015-12-12_002.webp"
+              src="/photographs/2015-12-12/2015-12-12_002.webp"
             />
             <div
               className="card-img-overlay"
@@ -472,7 +472,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2015-10-05_11/2015-10-05_11_064_large.webp"
+              src="/photographs/2015-10-05_11/2015-10-05_11_064_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -496,7 +496,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2015-08-14/2015-08-14_006.webp"
+              src="/photographs/2015-08-14/2015-08-14_006.webp"
             />
             <div
               className="card-img-overlay"
@@ -520,7 +520,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp"
+              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -544,7 +544,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
+              src="/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -568,7 +568,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2014-12-21_25_city/2014-12-21_064_large.webp"
+              src="/photographs/2014-12-21_25_city/2014-12-21_064_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -592,7 +592,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2014-05-10/2014-05-10_024_large.webp"
+              src="/photographs/2014-05-10/2014-05-10_024_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -616,7 +616,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2013-09-14_27/2013-09-24_084_large.webp"
+              src="/photographs/2013-09-14_27/2013-09-24_084_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -640,7 +640,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2013-09-10/2013-09-10_002.webp"
+              src="/photographs/2013-09-10/2013-09-10_002.webp"
             />
             <div
               className="card-img-overlay"
@@ -664,7 +664,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2012-11-09_21/2012-11-09_21_090_large.webp"
+              src="/photographs/2012-11-09_21/2012-11-09_21_090_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -688,7 +688,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
+              src="/photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -712,7 +712,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="../photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
+              src="/photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
             />
             <div
               className="card-img-overlay"
