@@ -1,4 +1,5 @@
 import Album from './../../models/performances/gravityFalls';
+import Sheet from './../../models/sheets/gravityFalls';
 import AlbumView from '../shared/Album';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
@@ -10,9 +11,7 @@ function GravityFalls() {
         <Headline album = { Album } />
         <AlbumView album = { Album } />
 
-        <div className = 'ratio ratio-1x1'>
-          <iframe src = 'https://drive.google.com/file/d/1mMhi5tfIR6nlyDiVKgqY9gTcnA-HnhYh/preview' title = { Album.getTitle() } />
-        </div>
+        <AlbumView album = { Sheet } />
       </div>
     </Layout>
   );
