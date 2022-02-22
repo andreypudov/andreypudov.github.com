@@ -106,127 +106,127 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_032.webp"
+        src="/photographs/2012-03-17/2012-03-17_032.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_031.webp"
+        src="/photographs/2012-03-17/2012-03-17_031.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_030.webp"
+        src="/photographs/2012-03-17/2012-03-17_030.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_029_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_029_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_028_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_028_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_027_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_027_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_026_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_026_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_025_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_025_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_024_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_024_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_023_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_023_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_022_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_022_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_021_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_021_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_020_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_020_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_019_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_019_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_018_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_018_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_017_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_017_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_016_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_016_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_015_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_015_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_010_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_010_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_009_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_009_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_008_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_008_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2012-03-17/2012-03-17_007_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_007_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_006_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_006_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_005_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_005_large.webp"
       />
       <img
         alt="Andrey Pudov Favorite Photographs"
         className="img-responsive gallery-image"
-        src="../photographs/2012-03-17/2012-03-17_004_large.webp"
+        src="/photographs/2012-03-17/2012-03-17_004_large.webp"
       />
     </div>
   </main>

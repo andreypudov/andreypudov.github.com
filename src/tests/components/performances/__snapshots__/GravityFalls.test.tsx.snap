@@ -112,14 +112,21 @@ exports[`renders correctly 1`] = `
           title="Gravity Falls"
         />
       </div>
-      <div
-        className="ratio ratio-1x1"
-      >
-        <iframe
-          src="https://drive.google.com/file/d/1mMhi5tfIR6nlyDiVKgqY9gTcnA-HnhYh/preview"
-          title="Gravity Falls"
-        />
-      </div>
+      <img
+        alt="Andrey Pudov Gravity Falls"
+        className="img-responsive gallery-image vertical"
+        src="/sheets/gravity-falls/gravity-falls-001.webp"
+      />
+      <img
+        alt="Andrey Pudov Gravity Falls"
+        className="img-responsive gallery-image vertical"
+        src="/sheets/gravity-falls/gravity-falls-002.webp"
+      />
+      <img
+        alt="Andrey Pudov Gravity Falls"
+        className="img-responsive gallery-image vertical"
+        src="/sheets/gravity-falls/gravity-falls-003.webp"
+      />
     </div>
   </main>
   <footer>

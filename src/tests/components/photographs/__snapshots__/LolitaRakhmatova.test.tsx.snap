@@ -106,17 +106,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov Lolita Rakhmatova"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2015-12-12/2015-12-12_001.webp"
+        src="/photographs/2015-12-12/2015-12-12_001.webp"
       />
       <img
         alt="Andrey Pudov Lolita Rakhmatova"
         className="img-responsive gallery-image"
-        src="../photographs/2015-12-12/2015-12-12_002.webp"
+        src="/photographs/2015-12-12/2015-12-12_002.webp"
       />
       <img
         alt="Andrey Pudov Lolita Rakhmatova"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2015-12-12/2015-12-12_003.webp"
+        src="/photographs/2015-12-12/2015-12-12_003.webp"
       />
     </div>
   </main>
