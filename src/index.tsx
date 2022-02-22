@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render } from "react-dom";
+
 import { HelmetProvider } from 'react-helmet-async';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 import Analytics from './components/utils/Analytics';
@@ -16,19 +17,23 @@ import './styles/style.scss';
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-74198577-1');
 
-ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-      <Analytics />
-      <ScrollToTop />
+const root = document.getElementById("root");
+const app = (<React.StrictMode>
+  <BrowserRouter>
+    <Analytics />
+    <ScrollToTop />
 
-      <HelmetProvider>
-        <Routes />
-      </HelmetProvider>
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <HelmetProvider>
+      <Routes />
+    </HelmetProvider>
+  </BrowserRouter>
+</React.StrictMode>);
+
+if (root?.hasChildNodes()) {
+  hydrate(app, root);
+} else {
+  render(app, root);
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

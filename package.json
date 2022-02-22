@@ -26,11 +26,13 @@
     "gh-pages": "^3.2.3",
     "postcss-custom-properties": "^10.0.0",
     "react-scripts": "^5.0.0",
+    "react-snap": "^1.23.0",
     "react-test-renderer": "^17.0.2",
     "sass": "^1.49.7",
     "typescript": "^4.5.5"
   },
   "scripts": {
+    "postbuild": "react-snap",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -58,5 +60,17 @@
   },
   "resolutions": {
     "react-scripts/postcss-preset-env/postcss-custom-properties": "^10.0.0"
+  },
+  "reactSnap": {
+    "include": [
+      "/"
+    ],
+    "puppeteer": {
+      "cache": false
+    },
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   }
 }
