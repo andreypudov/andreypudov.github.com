@@ -22,7 +22,7 @@ function Album(props: AlbumsProps) {
             default:
               return (
                 <div className = 'col-md-4' key = { index }>
-                  <VideoView album = { props.album } index = { index } />
+                  <VideoView album = { props.album } index = { index } title = { false } />
                 </div>);
         }})
     }
