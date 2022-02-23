@@ -17,7 +17,7 @@ function Album(props: AlbumProps) {
             case Photograph.prototype:
               return <PhotographView album = { props.album } index = { index } key = { index } />;
             default:
-              return <VideoView album = { props.album } index = { index } key = { index } />;
+              return <VideoView album = { props.album } index = { index } title = { true } key = { index } />;
         }})
     }
     </>
