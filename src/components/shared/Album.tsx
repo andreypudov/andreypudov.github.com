@@ -15,9 +15,9 @@ function Album(props: AlbumProps) {
         {
           switch (Object.getPrototypeOf(media)) {
             case Photograph.prototype:
-              return <PhotographView album = { props.album } index = { index } key = { index } />
+              return <PhotographView album = { props.album } index = { index } key = { index } />;
             default:
-              return <VideoView album = { props.album } index = { index } key = { index } />
+              return <VideoView album = { props.album } index = { index } key = { index } />;
         }})
     }
     </>
