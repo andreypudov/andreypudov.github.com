@@ -30,6 +30,9 @@ import MarinaAlekseeva from './../models/photographs/marinaAlekseeva';
 import SoftPastel from './../models/drawings/softPastel';
 import PencilSketches from './../models/drawings/pencilSketches';
 
+import TimeLapses from './../models/videos/timeLapses';
+import AlbumsView from './shared/Albums';
+
 function Albums() {
   return (
     <Layout title = { 'Albums' }>
@@ -246,6 +249,10 @@ function Albums() {
             </Link>
           </div>
         </div>
+
+        <h2>Time Lapses</h2>
+
+        <AlbumsView album = { TimeLapses } />
       </div>
     </Layout>
   );
