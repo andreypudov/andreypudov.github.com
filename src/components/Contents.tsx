@@ -19,6 +19,7 @@ import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import TimeLapses from './../models/videos/timeLapses';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
+import FormulaSochi2 from './../models/photographs/formulaSochi2';
 import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
@@ -141,6 +142,12 @@ function Contents() {
             <Link to = '/photographs/kaliningrad'>
               { Kaliningrad.getTitle() }
               <small>{ Kaliningrad.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/formula-sochi-2.0'>
+              { FormulaSochi2.getTitle() }
+              <small>{ FormulaSochi2.getDate() }</small>
             </Link>
           </li>
           <li>

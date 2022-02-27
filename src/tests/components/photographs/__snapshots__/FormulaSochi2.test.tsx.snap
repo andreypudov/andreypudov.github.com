@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        2016 Formula 1 Russian Grand Prix
+        <small
+          className="text-muted"
+        >
+          Wednesday, May 4, 2016
+        </small>
+      </h1>
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_001.webp"
+      />
+      <p
+        className="image-caption"
+      >
+        Formula 1 Pit Marshals
+
+Marshals play a vital part in allowing motorsport events to take place. Dressed in their unmistakable orange overalls, these volunteers carry out a variety of roles, such as moving damaged cars off the race track, to enable motorsport events to take place successfully and safely.
+      </p>
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
+      />
+      <p
+        className="image-caption"
+      >
+        Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car.
+      </p>
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_003.webp"
+      />
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp"
+      />
+      <p
+        className="image-caption"
+      >
+        Bolshoy Ice Dome
+
+The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.
+      </p>
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_005.webp"
+      />
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_006.webp"
+      />
+      <img
+        alt="Andrey Pudov 2016 Formula 1 Russian Grand Prix"
+        className="img-responsive gallery-image"
+        src="/photographs/2016-04-27_05-04/2016-04-27_05-04_007.webp"
+      />
+      <p
+        className="image-caption"
+      >
+        Krasnaya Polyana Ski Resort
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2022 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2022 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

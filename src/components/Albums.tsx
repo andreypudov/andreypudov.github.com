@@ -18,6 +18,7 @@ import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
+import FormulaSochi2 from './../models/photographs/formulaSochi2';
 import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
@@ -149,6 +150,14 @@ function Albums() {
               <img src = { Kaliningrad.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ Kaliningrad.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/formula-sochi-2.0' className = 'card bg-dark text-white gallery-image'>
+              <img src = { FormulaSochi2.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ FormulaSochi2.getTitle() }</h6>
               </div>
             </Link>
           </div>
