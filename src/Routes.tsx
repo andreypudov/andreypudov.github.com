@@ -20,6 +20,7 @@ import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
 import TimeLapses from './components/photographs/TimeLapses';
 import ConqueringAmerica from './components/photographs/ConqueringAmerica';
 import Kaliningrad from './components/photographs/Kaliningrad';
+import FormulaSochi2 from './components/photographs/FormulaSochi2';
 import LolitaRakhmatova from './components/photographs/LolitaRakhmatova';
 import FormulaSochi from './components/photographs/FormulaSochi';
 import AsiaFarakshina from './components/photographs/AsiaFarakshina';
@@ -63,6 +64,7 @@ function routes() {
       <Route path = '/photographs/time-lapses' element = { <TimeLapses /> } />
       <Route path = '/photographs/united-states' element = { <ConqueringAmerica /> } />
       <Route path = '/photographs/kaliningrad' element = { <Kaliningrad /> } />
+      <Route path = '/photographs/formula-sochi-2.0' element = { <FormulaSochi2 /> } />
       <Route path = '/photographs/lolita-rakhmatova' element = { <LolitaRakhmatova /> } />
       <Route path = '/photographs/formula-sochi' element = { <FormulaSochi /> } />
       <Route path = '/photographs/lake-baikal' element = { <LakeBaikal /> } />
