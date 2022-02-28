@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 
 export default new Album(
   'Little Russia',
-  new Date('2013-09-14'),
+  new Date('2013-09-27'),
   new Photograph('/photographs/2013-09-14_27/2013-09-24_084_large.webp'),
   [
     new Photograph('/photographs/2013-09-14_27/2013-09-14_001_large.webp'),

@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 
 export default new Album(
   'Crimean Holidays',
-  new Date('2021-07-24'),
+  new Date('2021-08-02'),
   new Photograph('/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp'),
   [
     new Photograph('/photographs/2021-07-24_08-02/2021-07-24_08-02_001.webp', false, 'The Genoese fortress of Sudak'),

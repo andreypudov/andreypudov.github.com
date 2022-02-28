@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 
 export default new Album(
   'Kaliningrad. The amber capital of the World',
-  new Date('2016-08-24'),
+  new Date('2016-08-30'),
   new Photograph('/photographs/2016-08-24_30/2016-08-24_30_023_large.webp', false, 'Рыбная деревня'),
   [
     new Photograph('/photographs/2016-08-24_30/2016-08-24_30_001_large.webp', false, 'Рыбная деревня'),
