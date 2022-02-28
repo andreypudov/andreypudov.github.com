@@ -166,7 +166,7 @@ exports[`renders correctly 1`] = `
           >
             Crimean Holidays
             <small>
-              Saturday, July 24, 2021
+              Monday, August 2, 2021
             </small>
           </a>
         </li>
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
           >
             Altay. Conquering Siberia 2.0
             <small>
-              Sunday, July 19, 2020
+              Monday, August 24, 2020
             </small>
           </a>
         </li>
@@ -287,7 +287,7 @@ exports[`renders correctly 1`] = `
           >
             Kaliningrad. The amber capital of the World
             <small>
-              Wednesday, August 24, 2016
+              Tuesday, August 30, 2016
             </small>
           </a>
         </li>
@@ -353,7 +353,7 @@ exports[`renders correctly 1`] = `
           >
             Battle Glory of the Urals
             <small>
-              Wednesday, December 24, 2014
+              Thursday, December 25, 2014
             </small>
           </a>
         </li>
@@ -364,7 +364,7 @@ exports[`renders correctly 1`] = `
           >
             Ekaterinburg. The Picture of City
             <small>
-              Sunday, December 21, 2014
+              Thursday, December 25, 2014
             </small>
           </a>
         </li>
@@ -386,7 +386,7 @@ exports[`renders correctly 1`] = `
           >
             Little Russia
             <small>
-              Saturday, September 14, 2013
+              Friday, September 27, 2013
             </small>
           </a>
         </li>

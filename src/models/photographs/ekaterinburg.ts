@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 
 export default new Album(
   'Ekaterinburg. The Picture of City',
-  new Date('2014-12-21'),
+  new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_city/2014-12-21_064_large.webp'),
   [
     new Photograph('/photographs/2014-12-21_25_city/2014-12-21_001_large.webp'),

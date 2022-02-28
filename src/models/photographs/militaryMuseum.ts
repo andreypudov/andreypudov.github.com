@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 
 export default new Album(
   'Battle Glory of the Urals',
-  new Date('2014-12-24'),
+  new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp'),
   [
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_001_large.webp'),
