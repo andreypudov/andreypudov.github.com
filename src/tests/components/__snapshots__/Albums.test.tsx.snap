@@ -490,6 +490,30 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
+            href="/photographs/intel-products"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2016-04-15/2015-04-12_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Intel Software Products
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
             href="/photographs/formula-sochi"
             onClick={[Function]}
           >
