@@ -21,6 +21,7 @@ import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi2 from './../models/photographs/formulaSochi2';
 import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
+import IntelProducts from './../models/photographs/intelProducts';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikal from './../models/photographs/lakeBaikal';
@@ -154,6 +155,12 @@ function Contents() {
             <Link to = '/photographs/lolita-rakhmatova'>
               { LolitaRakhmatova.getTitle() }
               <small>{ LolitaRakhmatova.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/intel-products'>
+              { IntelProducts.getTitle() }
+              <small>{ IntelProducts.getDate() }</small>
             </Link>
           </li>
           <li>
