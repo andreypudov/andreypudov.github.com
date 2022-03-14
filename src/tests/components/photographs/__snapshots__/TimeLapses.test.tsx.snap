@@ -103,60 +103,72 @@ exports[`renders correctly 1`] = `
           Friday, April 14, 2017
         </small>
       </h1>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517763009"
-          title="Time Lapses"
-        />
-      </div>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517762962"
-          title="Time Lapses"
-        />
-      </div>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517762910"
-          title="Time Lapses"
-        />
-      </div>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517762848"
-          title="Time Lapses"
-        />
-      </div>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517762791"
-          title="Time Lapses"
-        />
-      </div>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517762737"
-          title="Time Lapses"
-        />
-      </div>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517763009"
+            title="Time Lapses"
+          />
+        </div>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762962"
+            title="Time Lapses"
+          />
+        </div>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762910"
+            title="Time Lapses"
+          />
+        </div>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762848"
+            title="Time Lapses"
+          />
+        </div>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762791"
+            title="Time Lapses"
+          />
+        </div>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762737"
+            title="Time Lapses"
+          />
+        </div>
+      </figure>
     </div>
   </main>
   <footer>

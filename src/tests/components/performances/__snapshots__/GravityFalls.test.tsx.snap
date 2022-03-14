@@ -103,30 +103,38 @@ exports[`renders correctly 1`] = `
           Monday, January 18, 2021
         </small>
       </h1>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517762017"
-          title="Gravity Falls"
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762017"
+            title="Gravity Falls"
+          />
+        </div>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Gravity Falls"
+          className="img-responsive gallery-image vertical"
+          src="/sheets/gravity-falls/gravity-falls-001.webp"
         />
-      </div>
-      <img
-        alt="Andrey Pudov Gravity Falls"
-        className="img-responsive gallery-image vertical"
-        src="/sheets/gravity-falls/gravity-falls-001.webp"
-      />
-      <img
-        alt="Andrey Pudov Gravity Falls"
-        className="img-responsive gallery-image vertical"
-        src="/sheets/gravity-falls/gravity-falls-002.webp"
-      />
-      <img
-        alt="Andrey Pudov Gravity Falls"
-        className="img-responsive gallery-image vertical"
-        src="/sheets/gravity-falls/gravity-falls-003.webp"
-      />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Gravity Falls"
+          className="img-responsive gallery-image vertical"
+          src="/sheets/gravity-falls/gravity-falls-002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Gravity Falls"
+          className="img-responsive gallery-image vertical"
+          src="/sheets/gravity-falls/gravity-falls-003.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>

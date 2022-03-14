@@ -103,46 +103,54 @@ exports[`renders correctly 1`] = `
           Monday, November 1, 2021
         </small>
       </h1>
-      <img
-        alt="Andrey Pudov Soft Pastel"
-        className="img-responsive gallery-image"
-        src="/drawings/soft-pastel/2021-11-01.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        November 01, 2021
-      </p>
-      <img
-        alt="Andrey Pudov Soft Pastel"
-        className="img-responsive gallery-image"
-        src="/drawings/soft-pastel/2021-01-30.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        January 30, 2021
-      </p>
-      <img
-        alt="Andrey Pudov Soft Pastel"
-        className="img-responsive gallery-image vertical"
-        src="/drawings/soft-pastel/2021-01-29.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        January 29, 2021
-      </p>
-      <img
-        alt="Andrey Pudov Soft Pastel"
-        className="img-responsive gallery-image vertical"
-        src="/drawings/soft-pastel/2021-01-07.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        January 07, 2021
-      </p>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image"
+          src="/drawings/soft-pastel/2021-11-01.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          November 01, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image"
+          src="/drawings/soft-pastel/2021-01-30.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          January 30, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/soft-pastel/2021-01-29.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          January 29, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/soft-pastel/2021-01-07.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          January 07, 2021
+        </figcaption>
+      </figure>
     </div>
   </main>
   <footer>

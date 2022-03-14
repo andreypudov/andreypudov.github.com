@@ -103,76 +103,90 @@ exports[`renders correctly 1`] = `
           Thursday, July 16, 2020
         </small>
       </h1>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image vertical"
-        src="/drawings/pencil-sketches/2020-07-16.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        July 16, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image vertical"
-        src="/drawings/pencil-sketches/2020-07-09.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        July 9, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="/drawings/pencil-sketches/2020-04-26.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        April 26, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image vertical"
-        src="/drawings/pencil-sketches/2020-04-22.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        April 22, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="/drawings/pencil-sketches/2020-04-07.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        April 7, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image"
-        src="/drawings/pencil-sketches/2020-04-03.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        April 3, 2020
-      </p>
-      <img
-        alt="Andrey Pudov Pencil Sketches"
-        className="img-responsive gallery-image vertical"
-        src="/drawings/pencil-sketches/2020-04-02.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        April 2, 2020
-      </p>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/pencil-sketches/2020-07-16.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          July 16, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/pencil-sketches/2020-07-09.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          July 9, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image"
+          src="/drawings/pencil-sketches/2020-04-26.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          April 26, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/pencil-sketches/2020-04-22.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          April 22, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image"
+          src="/drawings/pencil-sketches/2020-04-07.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          April 7, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image"
+          src="/drawings/pencil-sketches/2020-04-03.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          April 3, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/pencil-sketches/2020-04-02.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          April 2, 2020
+        </figcaption>
+      </figure>
     </div>
   </main>
   <footer>

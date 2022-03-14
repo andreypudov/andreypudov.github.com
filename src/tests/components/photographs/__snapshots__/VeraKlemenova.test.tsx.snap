@@ -103,86 +103,118 @@ exports[`renders correctly 1`] = `
           Thursday, July 19, 2012
         </small>
       </h1>
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_001_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_002_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_003_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_004_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_005_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_006_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_007_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_008_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_009_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_010_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_011_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_012_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_013_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_014_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2012-07-19/2012-07-19_015_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Vera Klemenova"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-07-19/2012-07-19_016_large.webp"
-      />
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_001_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_002_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_003_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_004_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_005_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_006_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_007_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_008_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_009_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_010_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_011_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_012_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_013_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_014_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2012-07-19/2012-07-19_015_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Vera Klemenova"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-07-19/2012-07-19_016_large.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>

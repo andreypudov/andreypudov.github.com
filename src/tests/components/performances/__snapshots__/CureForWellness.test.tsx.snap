@@ -103,20 +103,24 @@ exports[`renders correctly 1`] = `
           Saturday, March 17, 2018
         </small>
       </h1>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517761510"
-          title="A Cure for Wellness"
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517761510"
+            title="A Cure for Wellness"
+          />
+        </div>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Mia & Sebastian"
+          className="img-responsive gallery-image vertical"
+          src="/sheets/cure-for-wellness/cure-for-wellness-001.webp"
         />
-      </div>
-      <img
-        alt="Andrey Pudov Mia & Sebastian"
-        className="img-responsive gallery-image vertical"
-        src="/sheets/cure-for-wellness/cure-for-wellness-001.webp"
-      />
+      </figure>
     </div>
   </main>
   <footer>
