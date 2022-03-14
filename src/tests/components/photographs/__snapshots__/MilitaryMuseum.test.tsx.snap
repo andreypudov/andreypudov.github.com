@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_001_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_001_large.webp"
       />
       <p
         className="image-caption"
@@ -147,12 +147,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_003_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_003_large.webp"
       />
       <p
         className="image-caption"
@@ -175,7 +175,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_004_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_004_large.webp"
       />
       <p
         className="image-caption"
@@ -191,7 +191,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_005_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_005_large.webp"
       />
       <p
         className="image-caption"
@@ -206,7 +206,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_006_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_006_large.webp"
       />
       <p
         className="image-caption"
@@ -227,7 +227,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_007_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_007_large.webp"
       />
       <p
         className="image-caption"
@@ -258,7 +258,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_008_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_008_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -273,12 +273,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_009_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_009_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_010_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_010_large.webp"
       />
       <p
         className="image-caption"
@@ -294,12 +294,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_011_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_011_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_012_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_012_large.webp"
       />
       <p
         className="image-caption"
@@ -315,17 +315,17 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_013_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_013_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_014_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_014_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_015_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_015_large.webp"
       />
       <p
         className="image-caption"
@@ -340,7 +340,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_016_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_016_large.webp"
       />
       <p
         className="image-caption"
@@ -356,7 +356,7 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_017_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_017_large.webp"
       />
       <p
         className="image-caption"
@@ -372,12 +372,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_018_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_018_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_019_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_019_large.webp"
       />
       <p
         className="image-caption"
@@ -405,12 +405,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_020_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_020_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_021_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_021_large.webp"
       />
       <p
         className="image-caption"
@@ -438,37 +438,37 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_022_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_022_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_023_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_023_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_024_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_024_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_025_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_025_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_026_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_026_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_027_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_027_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_028_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_028_large.webp"
       />
       <p
         className="image-caption"
@@ -478,47 +478,47 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_029_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_029_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_030_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_030_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_031_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_031_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_032_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_032_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_033_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_033_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_034_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_034_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_035_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_035_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_036_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_036_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_037_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_037_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -533,12 +533,12 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_038_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_038_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_039_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_039_large.webp"
       />
       <p
         className="image-caption vertical"
@@ -548,37 +548,37 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_040_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_040_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_041_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_041_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_042_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_042_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_043_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_043_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_044_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_044_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image vertical"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_045_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_045_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_046_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_046_large.webp"
       />
       <p
         className="image-caption"
@@ -593,47 +593,47 @@ exports[`renders correctly 1`] = `
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_047_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_047_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_048_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_048_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_049_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_049_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_050_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_050_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_051_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_051_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_052_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_052_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_053_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_053_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_054_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_054_large.webp"
       />
       <img
         alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
         className="img-responsive gallery-image"
-        src="../photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp"
+        src="/photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp"
       />
     </div>
   </main>
