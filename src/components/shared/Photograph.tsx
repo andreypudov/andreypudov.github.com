@@ -9,17 +9,17 @@ function Photograph(props: PhotographProps) {
   let photograph = props.album.getMedia()[props.index];
 
   return (
-    <>
+    <figure>
       <img src      = { photograph.src }
         alt       = { `Andrey Pudov ${ props.album.getTitle() }` }
         className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
       {
         photograph.description.length !== 0 &&
-          <p className = {`image-caption${ photograph.vertical ? ' vertical' : '' }`}>
+          <figcaption className = {`image-caption${ photograph.vertical ? ' vertical' : '' }`}>
             { photograph.description }
-          </p>
+          </figcaption>
       }
-    </>
+    </figure>
   );
 }
 

@@ -11,17 +11,17 @@ function Video(props: VideoProps) {
   const url = props.title ? video.src : `${video.src}?title=0&byline=0`;
 
   return (
-    <>
+    <figure>
       <div className = 'ratio ratio-16x9 gallery-video'>
         <iframe src = { url } title = { props.album.getTitle() } allowFullScreen />
       </div>
       {
         video.description.length !== 0 &&
-          <p className = 'video-caption'>
+          <figcaption className = 'video-caption'>
             { video.description }
-          </p>
+          </figcaption>
       }
-    </>
+    </figure>
   );
 }
 
