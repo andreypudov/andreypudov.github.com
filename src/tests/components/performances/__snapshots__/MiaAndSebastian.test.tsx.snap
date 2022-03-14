@@ -103,25 +103,31 @@ exports[`renders correctly 1`] = `
           Thursday, September 7, 2017
         </small>
       </h1>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          allowFullScreen={true}
-          src="https://player.vimeo.com/video/517760954"
-          title="Mia & Sebastian"
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517760954"
+            title="Mia & Sebastian"
+          />
+        </div>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Mia & Sebastian"
+          className="img-responsive gallery-image vertical"
+          src="/sheets/mia-and-sebastian/mia-and-sebastian-001.webp"
         />
-      </div>
-      <img
-        alt="Andrey Pudov Mia & Sebastian"
-        className="img-responsive gallery-image vertical"
-        src="/sheets/mia-and-sebastian/mia-and-sebastian-001.webp"
-      />
-      <img
-        alt="Andrey Pudov Mia & Sebastian"
-        className="img-responsive gallery-image vertical"
-        src="/sheets/mia-and-sebastian/mia-and-sebastian-002.webp"
-      />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Mia & Sebastian"
+          className="img-responsive gallery-image vertical"
+          src="/sheets/mia-and-sebastian/mia-and-sebastian-002.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>

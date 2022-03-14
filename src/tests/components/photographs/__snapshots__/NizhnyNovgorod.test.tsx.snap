@@ -103,51 +103,69 @@ exports[`renders correctly 1`] = `
           Tuesday, July 16, 2019
         </small>
       </h1>
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2012-03-17/2012-03-17_024_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2019-07-16/2019-07-16_002.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2019-07-16/2019-07-16_001.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-04-19/2018-04-19_002.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-04-19/2018-04-19_001.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2015-07-21/2015-07-21_001.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-10-19/2014-10-19_012_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-10-19/2014-10-19_011_large.webp"
-      />
-      <img
-        alt="Andrey Pudov Nizhny Novgorod"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-10-19/2014-10-19_010_large.webp"
-      />
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2012-03-17/2012-03-17_024_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2019-07-16/2019-07-16_002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2019-07-16/2019-07-16_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-04-19/2018-04-19_002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-04-19/2018-04-19_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2015-07-21/2015-07-21_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-10-19/2014-10-19_012_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-10-19/2014-10-19_011_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-10-19/2014-10-19_010_large.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>

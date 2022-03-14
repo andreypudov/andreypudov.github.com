@@ -783,80 +783,92 @@ exports[`renders correctly 1`] = `
         <div
           className="col-md-4"
         >
-          <div
-            className="ratio ratio-16x9 gallery-video"
-          >
-            <iframe
-              allowFullScreen={true}
-              src="https://player.vimeo.com/video/517763009?title=0&byline=0"
-              title="Time Lapses"
-            />
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517763009?title=0&byline=0"
+                title="Time Lapses"
+              />
+            </div>
+          </figure>
         </div>
         <div
           className="col-md-4"
         >
-          <div
-            className="ratio ratio-16x9 gallery-video"
-          >
-            <iframe
-              allowFullScreen={true}
-              src="https://player.vimeo.com/video/517762962?title=0&byline=0"
-              title="Time Lapses"
-            />
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762962?title=0&byline=0"
+                title="Time Lapses"
+              />
+            </div>
+          </figure>
         </div>
         <div
           className="col-md-4"
         >
-          <div
-            className="ratio ratio-16x9 gallery-video"
-          >
-            <iframe
-              allowFullScreen={true}
-              src="https://player.vimeo.com/video/517762910?title=0&byline=0"
-              title="Time Lapses"
-            />
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762910?title=0&byline=0"
+                title="Time Lapses"
+              />
+            </div>
+          </figure>
         </div>
         <div
           className="col-md-4"
         >
-          <div
-            className="ratio ratio-16x9 gallery-video"
-          >
-            <iframe
-              allowFullScreen={true}
-              src="https://player.vimeo.com/video/517762848?title=0&byline=0"
-              title="Time Lapses"
-            />
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762848?title=0&byline=0"
+                title="Time Lapses"
+              />
+            </div>
+          </figure>
         </div>
         <div
           className="col-md-4"
         >
-          <div
-            className="ratio ratio-16x9 gallery-video"
-          >
-            <iframe
-              allowFullScreen={true}
-              src="https://player.vimeo.com/video/517762791?title=0&byline=0"
-              title="Time Lapses"
-            />
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762791?title=0&byline=0"
+                title="Time Lapses"
+              />
+            </div>
+          </figure>
         </div>
         <div
           className="col-md-4"
         >
-          <div
-            className="ratio ratio-16x9 gallery-video"
-          >
-            <iframe
-              allowFullScreen={true}
-              src="https://player.vimeo.com/video/517762737?title=0&byline=0"
-              title="Time Lapses"
-            />
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762737?title=0&byline=0"
+                title="Time Lapses"
+              />
+            </div>
+          </figure>
         </div>
       </div>
     </div>

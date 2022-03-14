@@ -103,126 +103,174 @@ exports[`renders correctly 1`] = `
           Saturday, August 18, 2018
         </small>
       </h1>
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_001.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_002.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_003.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2018-08-18/2018-08-18_004.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2018-08-18/2018-08-18_005.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_006.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_007.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_008.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_009.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_010.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_011.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_012.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_013.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2018-08-18/2018-08-18_014.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_015.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_016.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_017.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_018.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_019.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2018-08-18/2018-08-18_020.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2018-08-18/2018-08-18_021.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_022.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image"
-        src="/photographs/2018-08-18/2018-08-18_023.webp"
-      />
-      <img
-        alt="Andrey Pudov Alina Cherdakova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2018-08-18/2018-08-18_024.webp"
-      />
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_003.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2018-08-18/2018-08-18_004.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2018-08-18/2018-08-18_005.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_006.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_007.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_008.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_009.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_010.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_011.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_012.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_013.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2018-08-18/2018-08-18_014.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_015.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_016.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_017.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_018.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_019.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2018-08-18/2018-08-18_020.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2018-08-18/2018-08-18_021.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_022.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image"
+          src="/photographs/2018-08-18/2018-08-18_023.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Alina Cherdakova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2018-08-18/2018-08-18_024.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>

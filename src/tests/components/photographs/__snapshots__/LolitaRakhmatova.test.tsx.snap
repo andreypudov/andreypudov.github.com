@@ -103,21 +103,27 @@ exports[`renders correctly 1`] = `
           Saturday, December 12, 2015
         </small>
       </h1>
-      <img
-        alt="Andrey Pudov Lolita Rakhmatova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2015-12-12/2015-12-12_001.webp"
-      />
-      <img
-        alt="Andrey Pudov Lolita Rakhmatova"
-        className="img-responsive gallery-image"
-        src="/photographs/2015-12-12/2015-12-12_002.webp"
-      />
-      <img
-        alt="Andrey Pudov Lolita Rakhmatova"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2015-12-12/2015-12-12_003.webp"
-      />
+      <figure>
+        <img
+          alt="Andrey Pudov Lolita Rakhmatova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2015-12-12/2015-12-12_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Lolita Rakhmatova"
+          className="img-responsive gallery-image"
+          src="/photographs/2015-12-12/2015-12-12_002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Lolita Rakhmatova"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2015-12-12/2015-12-12_003.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>
