@@ -8,7 +8,7 @@ export default new Album(
   [
     new Photograph('/photographs/2016-11-09/2016-11-09_001.webp'),
     new Photograph('/photographs/2016-11-09/2016-11-09_002.webp', false, 'Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva\nEngeneering Managers, Software and Services Group'),
-    new Photograph('/photographs/2016-11-09/2016-11-09_003.webp'),
+    new Photograph('/photographs/2016-11-09/2016-11-09_003.webp', false, 'Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage'),
     new Photograph('/photographs/2016-11-09/2016-11-09_004.webp'),
     new Photograph('/photographs/2016-11-09/2016-11-09_005.webp'),
     new Photograph('/photographs/2016-11-09/2016-11-09_006.webp'),
@@ -31,9 +31,9 @@ export default new Album(
     new Photograph('/photographs/2016-11-09/2016-11-09_023.webp'),
     new Photograph('/photographs/2016-11-09/2016-11-09_024.webp'),
     new Photograph('/photographs/2016-11-09/2016-11-09_025.webp'),
-    new Photograph('/photographs/2016-11-09/2016-11-09_026.webp'),
+    new Photograph('/photographs/2016-11-09/2016-11-09_026.webp', false, 'Pavel Egorov - Chief Executive Officer at Dell Technologies'),
     new Photograph('/photographs/2016-11-09/2016-11-09_027.webp'),
-    new Photograph('/photographs/2016-11-09/2016-11-09_028.webp'),
-    new Photograph('/photographs/2016-11-09/2016-11-09_029.webp', false, 'Andrey Vitsenko, Senior Engineering Manager, Product Security Expert'),
-    new Photograph('/photographs/2016-11-09/2016-11-09_030.webp'),
+    new Photograph('/photographs/2016-11-09/2016-11-09_028.webp', false, 'Valentin Anisimov - Principal Software Architect at Harman'),
+    new Photograph('/photographs/2016-11-09/2016-11-09_029.webp', false, 'Andrey Vitsenko - Senior Engineering Manager, Product Security Expert'),
+    new Photograph('/photographs/2016-11-09/2016-11-09_030.webp', false, 'Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory'),
   ]);
