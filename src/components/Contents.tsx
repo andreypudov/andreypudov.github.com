@@ -17,6 +17,7 @@ import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import TimeLapses from './../models/videos/timeLapses';
+import RamonPalace from './../models/photographs/ramonPalace';
 import PartnersDay from './../models/photographs/partnersDay';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
@@ -132,6 +133,12 @@ function Contents() {
             <Link to = '/photographs/time-lapses'>
               { TimeLapses.getTitle() }
               <small>{ TimeLapses.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/ramon-palace'>
+              { RamonPalace.getTitle() }
+              <small>{ RamonPalace.getDate() }</small>
             </Link>
           </li>
           <li>
