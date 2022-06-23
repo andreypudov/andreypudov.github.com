@@ -18,6 +18,7 @@ import ConqueringRome from './components/photographs/ConqueringRome';
 import KiraOrlova from './components/photographs/KiraOrlova';
 import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
 import TimeLapses from './components/photographs/TimeLapses';
+import RamonPalace from './components/photographs/RamonPalace';
 import PartnersDay from './components/photographs/PartnersDay';
 import ConqueringAmerica from './components/photographs/ConqueringAmerica';
 import Kaliningrad from './components/photographs/Kaliningrad';
@@ -64,6 +65,7 @@ function routes() {
       <Route path = '/photographs/kira-orlova' element = { <KiraOrlova /> } />
       <Route path = '/photographs/united-states-2.0' element = { <ConqueringAmerica2 /> } />
       <Route path = '/photographs/time-lapses' element = { <TimeLapses /> } />
+      <Route path = '/photographs/ramon-palace' element = { <RamonPalace /> } />
       <Route path = '/photographs/partners-day' element = { <PartnersDay /> } />
       <Route path = '/photographs/united-states' element = { <ConqueringAmerica /> } />
       <Route path = '/photographs/kaliningrad' element = { <Kaliningrad /> } />
