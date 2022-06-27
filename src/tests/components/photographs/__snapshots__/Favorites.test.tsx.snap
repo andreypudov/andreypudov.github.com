@@ -219,6 +219,13 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Favorite Photographs"
           className="img-responsive gallery-image"
+          src="/photographs/2016-04-16/2016-04-16_009.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Favorite Photographs"
+          className="img-responsive gallery-image"
           src="/photographs/2012-03-17/2012-03-17_016_large.webp"
         />
       </figure>
