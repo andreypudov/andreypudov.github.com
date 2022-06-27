@@ -22,6 +22,7 @@ export default new Album(
     new Photograph('/photographs/2012-03-17/2012-03-17_019_large.webp'),
     new Photograph('/photographs/2012-03-17/2012-03-17_018_large.webp'),
     new Photograph('/photographs/2012-03-17/2012-03-17_017_large.webp'),
+    new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
     new Photograph('/photographs/2012-03-17/2012-03-17_016_large.webp'),
     new Photograph('/photographs/2012-03-17/2012-03-17_015_large.webp'),
     new Photograph('/photographs/2012-03-17/2012-03-17_010_large.webp'),
