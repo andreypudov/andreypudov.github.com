@@ -22,6 +22,7 @@ import PartnersDay from './../models/photographs/partnersDay';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi2 from './../models/photographs/formulaSochi2';
+import AndreyPudov from './../models/photographs/andreyPudov';
 import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
 import IntelProducts from './../models/photographs/intelProducts';
 import FormulaSochi from './../models/photographs/formulaSochi';
@@ -163,6 +164,12 @@ function Contents() {
             <Link to = '/photographs/formula-sochi-2.0'>
               { FormulaSochi2.getTitle() }
               <small>{ FormulaSochi2.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/andrey-pudov'>
+              { AndreyPudov.getTitle() }
+              <small>{ AndreyPudov.getDate() }</small>
             </Link>
           </li>
           <li>

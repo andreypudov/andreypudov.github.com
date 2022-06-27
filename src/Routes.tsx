@@ -23,6 +23,7 @@ import PartnersDay from './components/photographs/PartnersDay';
 import ConqueringAmerica from './components/photographs/ConqueringAmerica';
 import Kaliningrad from './components/photographs/Kaliningrad';
 import FormulaSochi2 from './components/photographs/FormulaSochi2';
+import AndreyPudov from './components/photographs/AndreyPudov';
 import LolitaRakhmatova from './components/photographs/LolitaRakhmatova';
 import IntelProducts from './components/photographs/IntelProducts';
 import FormulaSochi from './components/photographs/FormulaSochi';
@@ -70,6 +71,7 @@ function routes() {
       <Route path = '/photographs/united-states' element = { <ConqueringAmerica /> } />
       <Route path = '/photographs/kaliningrad' element = { <Kaliningrad /> } />
       <Route path = '/photographs/formula-sochi-2.0' element = { <FormulaSochi2 /> } />
+      <Route path = '/photographs/andrey-pudov' element = { <AndreyPudov /> } />
       <Route path = '/photographs/lolita-rakhmatova' element = { <LolitaRakhmatova /> } />
       <Route path = '/photographs/formula-sochi' element = { <FormulaSochi /> } />
       <Route path = '/photographs/lake-baikal' element = { <LakeBaikal /> } />
