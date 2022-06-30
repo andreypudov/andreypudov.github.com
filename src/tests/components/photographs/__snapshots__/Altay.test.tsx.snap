@@ -107,41 +107,6 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_003.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_004.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_005.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_006.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_008.webp"
         />
       </figure>
@@ -1024,13 +989,6 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_182.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_183.webp"
         />
       </figure>
@@ -1088,13 +1046,6 @@ exports[`renders correctly 1`] = `
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_199.webp"
         />
       </figure>
     </div>
