@@ -120,12 +120,6 @@ exports[`renders correctly 1`] = `
           data-bs-target="#homeCarousel"
           type="button"
         />
-        <button
-          aria-label="Slide 4"
-          data-bs-slide-to="3"
-          data-bs-target="#homeCarousel"
-          type="button"
-        />
       </ol>
       <div
         className="carousel-inner"
@@ -181,24 +175,6 @@ exports[`renders correctly 1`] = `
           >
             <h5>
               Nizhny Novgorod
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/rekshino"
-          onClick={[Function]}
-        >
-          <img
-            alt="Rekshino"
-            className="d-block w-100"
-            src="images/carousel/rekshino.webp"
-          />
-          <div
-            className="carousel-caption d-none d-md-block"
-          >
-            <h5>
-              Rekshino
             </h5>
           </div>
         </a>
@@ -260,13 +236,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/drawings/pencil-sketches"
+            href="/photographs/rekshino"
             onClick={[Function]}
           >
             <img
-              alt="Pencil Sketches"
+              alt="Rekshino"
               className="img-fluid"
-              src="images/marketing/pencil-sketches.webp"
+              src="images/marketing/rekshino.webp"
             />
           </a>
         </div>
@@ -274,13 +250,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/drawings/soft-pastel"
+            href="/photographs/alina-cherdakova"
             onClick={[Function]}
           >
             <img
-              alt="Soft Pastel"
+              alt="Alina Cherdakova"
               className="img-fluid"
-              src="images/marketing/soft-pastel.webp"
+              src="images/marketing/alina-cherdakova.webp"
             />
           </a>
         </div>
