@@ -113,39 +113,13 @@ exports[`renders correctly 1`] = `
             title="Time Lapses"
           />
         </div>
-      </figure>
-      <figure>
-        <div
-          className="ratio ratio-16x9 gallery-video"
+        <figcaption
+          className="video-caption"
         >
-          <iframe
-            allowFullScreen={true}
-            src="https://player.vimeo.com/video/517762962"
-            title="Time Lapses"
-          />
-        </div>
-      </figure>
-      <figure>
-        <div
-          className="ratio ratio-16x9 gallery-video"
-        >
-          <iframe
-            allowFullScreen={true}
-            src="https://player.vimeo.com/video/517762910"
-            title="Time Lapses"
-          />
-        </div>
-      </figure>
-      <figure>
-        <div
-          className="ratio ratio-16x9 gallery-video"
-        >
-          <iframe
-            allowFullScreen={true}
-            src="https://player.vimeo.com/video/517762848"
-            title="Time Lapses"
-          />
-        </div>
+          Switzerland Park
+
+Switzerland Park is an enormous green park located on the bank of the Oka River and was founded in 1903. Today, its territory accommodates an amusement park with a panoramic wheel, a zoo, and a bunch of cafes. By the way, Switzerland is not only the name of a country but also a term referring to a landscape of wooded hills. There are at least 190 “Switzerlands” in the world, one of which is in Nizhny Novgorod. The park is 3.5-kilometer long and it makes the location perfect for promenades, sports events, and marathons, often held at the location. The Oka River looks magnificent if viewed from the hills above and adds up to the delightful view gilded by the rays of the falling sun. Sentimentalists hail Nizhny Novgorod as the capital of sunsets not for nothing.
+        </figcaption>
       </figure>
       <figure>
         <div
@@ -157,6 +131,67 @@ exports[`renders correctly 1`] = `
             title="Time Lapses"
           />
         </div>
+        <figcaption
+          className="video-caption"
+        >
+          Zelensky Syezd Street
+
+Construction of the stone Kremlin of Nizhny Novgorod began in 1500 with the building of the Ivanovskaya Tower; the main work commenced in 1508 and by 1515 a grandiose building was completed. The oak walls that formed the old fortifications were destroyed by a huge fire in 1513. The two-kilometer wall was reinforced by 13 towers (one of them – Zachatskaya – was on the shore of the Volga; not preserved, but was rebuilt in 2012). This “Stone City” had a permanent garrison with solid artillery weapons. With the fall of Kazan, Nizhny Novgorod Kremlin lost its military significance, and later it housed the city and provincial authorities.
+        </figcaption>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762848"
+            title="Time Lapses"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          Monument to Maxim Gorky
+
+Alexei Maximovich Peshkov popularly known as Maxim Gorky was a Russian writer and political activist. He was nominated five times for the Nobel Prize in Literature. Before his success as an author, he traveled widely across the Russian Empire changing jobs frequently, experiences which would later influence his writing. Gorky was active in the emerging Marxist communist movement. He publicly opposed the Tsarist regime, and for a time closely associated himself with Lenin and Bogdanov's Bolshevik wing of the party.
+        </figcaption>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762962"
+            title="Time Lapses"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          Spit of Nizhny Novgorod
+
+The Spit is one of the main natural landmarks in the historical center of Nizhny Novgorod. It is located at the confluence of the Oka and Volga rivers. In the times of the Russian Tsardom, the Spit was the center of the Strelitzky camp of Nizhny Novgorod Uyezd, thereby receiving its name. Later the river port began to form here. 
+        </figcaption>
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://player.vimeo.com/video/517762910"
+            title="Time Lapses"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          The State Bank of Russia
+
+The Nizhny Novgorod branch of the State Bank on Bolshaya Pokrovskaya Street is one of the most beautiful buildings in Nizhny Novgorod and the entire Volga region. It was built in 1913 to commemorate the 300th anniversary of the Romanovs' House. The ceiling in the building, for which the neo-Russian style was chosen, was painted by the famous artist Ivan Bilibin.
+        </figcaption>
       </figure>
       <figure>
         <div
@@ -168,6 +203,13 @@ exports[`renders correctly 1`] = `
             title="Time Lapses"
           />
         </div>
+        <figcaption
+          className="video-caption"
+        >
+          Bolshaya Pokrovskaya Street
+
+Bolshaya Pokrovskaya Street is the high street in the historical center of Nizhny Novgorod and one of its oldest streets. Until 1917 it was considered a street for noblemen. Formed the main street of the city by the end of the 18th century. It is considered an analog of the Arbat in Moscow or 6-7 Lines of Vasilyevsky Island in St. Petersburg.
+        </figcaption>
       </figure>
     </div>
   </main>
