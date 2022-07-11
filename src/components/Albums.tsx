@@ -16,6 +16,7 @@ import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
+import Strigino from './../models/photographs/strigino';
 import Maks from './../models/photographs/maks';
 import TatyanaBysheva from './../models/photographs/tatyanaBysheva';
 import RamonPalace from './../models/photographs/ramonPalace';
@@ -141,6 +142,14 @@ function Albums() {
               <img src = { ConqueringAmerica2.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ ConqueringAmerica2.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/strigino' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Strigino.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ Strigino.getTitle() }</h6>
               </div>
             </Link>
           </div>

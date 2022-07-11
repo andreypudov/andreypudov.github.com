@@ -17,6 +17,7 @@ import BalloonFestival from './components/photographs/BalloonFestival';
 import ConqueringRome from './components/photographs/ConqueringRome';
 import KiraOrlova from './components/photographs/KiraOrlova';
 import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
+import Strigino from './components/photographs/Strigino';
 import Maks from './components/photographs/Maks';
 import TatyanaBysheva from './components/photographs/TatyanaBysheva';
 import TimeLapses from './components/photographs/TimeLapses';
@@ -68,6 +69,7 @@ function routes() {
       <Route path = '/photographs/rome-malta' element = { <ConqueringRome /> } />
       <Route path = '/photographs/kira-orlova' element = { <KiraOrlova /> } />
       <Route path = '/photographs/united-states-2.0' element = { <ConqueringAmerica2 /> } />
+      <Route path = '/photographs/strigino' element = { <Strigino /> } />
       <Route path = '/photographs/maks' element = { <Maks /> } />
       <Route path = '/photographs/tatyana-bysheva' element = { <TatyanaBysheva /> } />
       <Route path = '/photographs/time-lapses' element = { <TimeLapses /> } />
