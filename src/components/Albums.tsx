@@ -16,6 +16,8 @@ import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
+import Maks from './../models/photographs/maks';
+import TatyanaBysheva from './../models/photographs/tatyanaBysheva';
 import RamonPalace from './../models/photographs/ramonPalace';
 import PartnersDay from './../models/photographs/partnersDay';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
@@ -27,6 +29,7 @@ import IntelProducts from './../models/photographs/intelProducts';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikal from './../models/photographs/lakeBaikal';
+import LakeBaikalTeam from './../models/photographs/lakeBaikalTeam';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
@@ -142,6 +145,22 @@ function Albums() {
             </Link>
           </div>
           <div className = 'col-md-4'>
+            <Link to = '/photographs/maks' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Maks.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ Maks.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/tatyana-bysheva' className = 'card bg-dark text-white gallery-image'>
+              <img src = { TatyanaBysheva.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ TatyanaBysheva.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
             <Link to = '/photographs/ramon-palace' className = 'card bg-dark text-white gallery-image'>
               <img src = { RamonPalace.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
@@ -226,6 +245,14 @@ function Albums() {
               <img src = { LakeBaikal.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ LakeBaikal.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/lake-baikal-team' className = 'card bg-dark text-white gallery-image'>
+              <img src = { LakeBaikalTeam.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ LakeBaikalTeam.getTitle() }</h6>
               </div>
             </Link>
           </div>

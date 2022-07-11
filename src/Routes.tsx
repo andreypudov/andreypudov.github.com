@@ -17,6 +17,8 @@ import BalloonFestival from './components/photographs/BalloonFestival';
 import ConqueringRome from './components/photographs/ConqueringRome';
 import KiraOrlova from './components/photographs/KiraOrlova';
 import ConqueringAmerica2 from './components/photographs/ConqueringAmerica2';
+import Maks from './components/photographs/Maks';
+import TatyanaBysheva from './components/photographs/TatyanaBysheva';
 import TimeLapses from './components/photographs/TimeLapses';
 import RamonPalace from './components/photographs/RamonPalace';
 import PartnersDay from './components/photographs/PartnersDay';
@@ -29,6 +31,7 @@ import IntelProducts from './components/photographs/IntelProducts';
 import FormulaSochi from './components/photographs/FormulaSochi';
 import AsiaFarakshina from './components/photographs/AsiaFarakshina';
 import LakeBaikal from './components/photographs/LakeBaikal';
+import LakeBaikalTeam from './components/photographs/LakeBaikalTeam';
 import MilitaryMuseum from './components/photographs/MilitaryMuseum';
 import Ekaterinburg from './components/photographs/Ekaterinburg';
 import YoshkarOla from './components/photographs/YoshkarOla';
@@ -65,6 +68,8 @@ function routes() {
       <Route path = '/photographs/rome-malta' element = { <ConqueringRome /> } />
       <Route path = '/photographs/kira-orlova' element = { <KiraOrlova /> } />
       <Route path = '/photographs/united-states-2.0' element = { <ConqueringAmerica2 /> } />
+      <Route path = '/photographs/maks' element = { <Maks /> } />
+      <Route path = '/photographs/tatyana-bysheva' element = { <TatyanaBysheva /> } />
       <Route path = '/photographs/time-lapses' element = { <TimeLapses /> } />
       <Route path = '/photographs/ramon-palace' element = { <RamonPalace /> } />
       <Route path = '/photographs/partners-day' element = { <PartnersDay /> } />
@@ -75,6 +80,7 @@ function routes() {
       <Route path = '/photographs/lolita-rakhmatova' element = { <LolitaRakhmatova /> } />
       <Route path = '/photographs/formula-sochi' element = { <FormulaSochi /> } />
       <Route path = '/photographs/lake-baikal' element = { <LakeBaikal /> } />
+      <Route path = '/photographs/lake-baikal-team' element = { <LakeBaikalTeam /> } />
       <Route path = '/photographs/asia-farakshina' element = { <AsiaFarakshina /> } />
       <Route path = '/photographs/military-museum' element = { <MilitaryMuseum /> } />
       <Route path = '/photographs/ekaterinburg' element = { <Ekaterinburg /> } />
