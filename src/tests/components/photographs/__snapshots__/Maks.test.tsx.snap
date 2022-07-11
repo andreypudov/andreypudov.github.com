@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        MAKS International Aviation and Space Show
+        <small
+          className="text-muted"
+        >
+          Saturday, July 22, 2017
+        </small>
+      </h1>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-07-22/2017-07-22_003.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Al Fursan is the aerobatics demonstration team of the United Arab Emirates Air Force. It was formed in 2010 with Italian-built Aermacchi MB-339NAT jet aircraft. The team has a total of seven aircraft, all seven of which are used for performances. They are the only aerobatic display team in the world that uses Black Smoke.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-07-22/2017-07-22_007.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image"
+          src="/photographs/2017-07-22/2017-07-22_008.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-07-22/2017-07-22_009.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-07-22/2017-07-22_010.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image"
+          src="/photographs/2017-07-22/2017-07-22_011.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-07-22/2017-07-22_012.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The Russian Knights is an aerobatic demonstration team of the Russian Air Force. Originally formed on April 5, 1991 at the Kubinka Air Base as a team of six Sukhoi Su-27s, the team was the first to perform outside the Soviet Union in September 1991 when they toured the United Kingdom. The team now performs with eight Su-30SM.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-07-22/2017-07-22_014.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The Tupolev Tu-144 is a Soviet supersonic passenger airliner designed by Tupolev and in operation from 1968 to 1999. The Tu-144 was the world's first commercial supersonic transport aircraft with its prototype's maiden flight from Zhukovsky Airport on 31 December 1968, two months before the British-French Concorde. The Tu-144 first went supersonic on 5 June 1969, four months before Concorde, and on 26 May 1970 became the world's first commercial transport to exceed Mach 2.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image"
+          src="/photographs/2017-07-22/2017-07-22_013.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Despite the similarity in appearance of the Tu-144 to the Anglo-French supersonic aircraft, there were significant differences between two aircraft. The Tu-144 is bigger and faster than the Concorde. Concorde's designers used fuel as coolant for the cabin air conditioning and for the hydraulic system. Tupolev also used fuel/hydraulic heat exchangers, but used cooling turbines for the cabin air.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov MAKS International Aviation and Space Show"
+          className="img-responsive gallery-image"
+          src="/photographs/2017-07-22/2017-07-22_015.webp"
+        />
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2022 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2022 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+    <script
+      src="libraries/jquery/jquery-1.11.3.min.js"
+    />
+    <script
+      src="libraries/bootstrap/js/collapse.js"
+    />
+    <script
+      src="libraries/bootstrap/js/dropdown.js"
+    />
+    <script
+      src="libraries/bootstrap/js/transition.js"
+    />
+    <script
+      src="libraries/bootstrap/js/carousel.js"
+    />
+    <script
+      src="scripts/init.js"
+    />
+  </footer>
+</div>
+`;

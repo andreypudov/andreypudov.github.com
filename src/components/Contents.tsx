@@ -16,6 +16,7 @@ import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
+import Strigino from './../models/photographs/strigino';
 import Maks from './../models/photographs/maks';
 import TatyanaBysheva from './../models/photographs/tatyanaBysheva';
 import TimeLapses from './../models/videos/timeLapses';
@@ -131,6 +132,12 @@ function Contents() {
             <Link to = '/photographs/united-states-2.0'>
               { ConqueringAmerica2.getTitle() }
               <small>{ ConqueringAmerica2.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/strigino'>
+              { Strigino.getTitle() }
+              <small>{ Strigino.getDate() }</small>
             </Link>
           </li>
           <li>

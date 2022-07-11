@@ -96,227 +96,268 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Nizhny Novgorod
+        Intel Partners Day
         <small
           className="text-muted"
         >
-          Tuesday, July 16, 2019
+          Wednesday, November 9, 2016
         </small>
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_002.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
+Engeneering Managers, Software and Services Group
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_003.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_004.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_005.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_006.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_007.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_008.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_009.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_010.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_011.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Marina Alekseeva - Vice President, Software and Services Group
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_012.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2019-07-16/2019-07-16_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2019-07-16/2019-07-16_001.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-04-19/2018-04-19_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-04-19/2018-04-19_001.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-28/2017-07-28_003.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Chkalov Stairs
-
-The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgorod, connecting Minin and Pozharsky Square, the Upper Volga, and the Lower Volga embankments. It was built by the architects Alexander Yakovlev, Lev Rudnev, and Vladimir Munts. It is the longest staircase in Russia. The staircase starts from the monument to Chkalov, near the St. George's Tower of the Kremlin. It is built in the form of a figure of eight and consists of 560 steps, if count it both sides. The number of steps from the bottom to the top is 442 on the right. In the intersections of the side slopes there are two observation platforms. At the bottom of the stairs is a monument to the boat "Hero", which is located at the Lower-Volga embankment.
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-28/2017-07-28_004.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2017-07-28/2017-07-28_005.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-28/2017-07-28_006.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Microdistrict Meshchersky Lake
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-01/2017-07-01_001.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Volga River
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-01/2017-07-01_002.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Volga River
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-01/2017-07-01_003.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Volga River
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-06-12/2017-06-12_001.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Molitovsky Bridge
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2017-01-29/2017-01-29_001.webp"
+          src="/photographs/2016-11-09/2016-11-09_013.webp"
         />
         <figcaption
           className="image-caption vertical"
         >
-          Deer Sculpture
+          William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image"
-          src="/photographs/2017-01-29/2017-01-29_002.webp"
+          src="/photographs/2016-11-09/2016-11-09_014.webp"
         />
         <figcaption
           className="image-caption"
         >
-          Deer Sculpture
+          Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image"
-          src="/photographs/2017-01-30/2017-01-30_001.webp"
+          src="/photographs/2016-11-09/2016-11-09_015.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Pechersky Ascension Monastery
-
-Pechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.
-
-It have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.
-
-The monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod.
-        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-02-02/2017-02-02_001.webp"
-        />
-        <figcaption
-          className="image-caption"
-        >
-          Nizhny Novgorod TV Tower
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2017-02-02/2017-02-02_002.webp"
+          src="/photographs/2016-11-09/2016-11-09_016.webp"
         />
-        <figcaption
-          className="image-caption vertical"
-        >
-          Nizhny Novgorod TV Tower
-        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image"
-          src="/photographs/2015-07-21/2015-07-21_001.webp"
+          src="/photographs/2016-11-09/2016-11-09_017.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_018.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_019.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2016-11-09/2016-11-09_020.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_021.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_022.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_023.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_024.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_025.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_026.webp"
         />
         <figcaption
           className="image-caption"
         >
-          Nizhny Novgorod from the paragliding launch pad in Switzerland park.
+          Pavel Egorov - Chief Executive Officer at Dell Technologies
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image"
-          src="/photographs/2014-10-19/2014-10-19_012_large.webp"
+          src="/photographs/2016-11-09/2016-11-09_027.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image"
-          src="/photographs/2014-10-19/2014-10-19_011_large.webp"
+          src="/photographs/2016-11-09/2016-11-09_028.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Valentin Anisimov - Principal Software Architect at Harman
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Nizhny Novgorod"
+          alt="Andrey Pudov Intel Partners Day"
           className="img-responsive gallery-image"
-          src="/photographs/2014-10-19/2014-10-19_010_large.webp"
+          src="/photographs/2016-11-09/2016-11-09_029.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Andrey Vitsenko - Senior Engineering Manager, Product Security Expert
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Intel Partners Day"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-11-09/2016-11-09_030.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory
+        </figcaption>
       </figure>
     </div>
   </main>
