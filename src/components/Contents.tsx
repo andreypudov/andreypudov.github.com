@@ -16,6 +16,8 @@ import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
+import Maks from './../models/photographs/maks';
+import TatyanaBysheva from './../models/photographs/tatyanaBysheva';
 import TimeLapses from './../models/videos/timeLapses';
 import RamonPalace from './../models/photographs/ramonPalace';
 import PartnersDay from './../models/photographs/partnersDay';
@@ -28,6 +30,7 @@ import IntelProducts from './../models/photographs/intelProducts';
 import FormulaSochi from './../models/photographs/formulaSochi';
 import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikal from './../models/photographs/lakeBaikal';
+import LakeBaikalTeam from './../models/photographs/lakeBaikalTeam';
 import Ekaterinburg from './../models/photographs/ekaterinburg';
 import YoshkarOla from './../models/photographs/yoshkarOla';
 import LittleRussia from './../models/photographs/littleRussia';
@@ -131,6 +134,18 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/photographs/maks'>
+              { Maks.getTitle() }
+              <small>{ Maks.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/tatyana-bysheva'>
+              { TatyanaBysheva.getTitle() }
+              <small>{ TatyanaBysheva.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/time-lapses'>
               { TimeLapses.getTitle() }
               <small>{ TimeLapses.getDate() }</small>
@@ -200,6 +215,12 @@ function Contents() {
             <Link to = '/photographs/lake-baikal'>
               { LakeBaikal.getTitle() }
               <small>{ LakeBaikal.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/lake-baikal-team'>
+              { LakeBaikalTeam.getTitle() }
+              <small>{ LakeBaikalTeam.getDate() }</small>
             </Link>
           </li>
           <li>

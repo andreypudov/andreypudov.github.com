@@ -260,6 +260,28 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/maks"
+            onClick={[Function]}
+          >
+            MAKS International Aviation and Space Show
+            <small>
+              Saturday, July 22, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/tatyana-bysheva"
+            onClick={[Function]}
+          >
+            Tatyana Bysheva
+            <small>
+              Saturday, July 22, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/time-lapses"
             onClick={[Function]}
           >
@@ -385,6 +407,17 @@ exports[`renders correctly 1`] = `
             onClick={[Function]}
           >
             Lake Baikal
+            <small>
+              Saturday, August 8, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/lake-baikal-team"
+            onClick={[Function]}
+          >
+            Lake Baikal Team
             <small>
               Saturday, August 8, 2015
             </small>

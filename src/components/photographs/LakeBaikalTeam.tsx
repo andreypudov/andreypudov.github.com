@@ -1,9 +1,9 @@
-import Album from './../../models/photographs/crimea';
-import AlbumView from '../shared/Album';
+import Album from './../../models/photographs/lakeBaikalTeam';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
+import AlbumView from '../shared/Album';
 
-function Crimea() {
+function LakeBaikalTeam() {
   return (
     <Layout title = { Album.getTitle() }>
       <div className = 'container'>
@@ -14,4 +14,4 @@ function Crimea() {
   );
 }
 
-export default Crimea;
+export default LakeBaikalTeam;

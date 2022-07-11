@@ -3,7 +3,7 @@ import AlbumView from '../shared/Album';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 
-function Ekaterinburg() {
+function FormulaSochi2() {
   return (
     <Layout title = { Album.getTitle() }>
       <div className = 'container'>
@@ -14,4 +14,4 @@ function Ekaterinburg() {
   );
 }
 
-export default Ekaterinburg;
+export default FormulaSochi2;
