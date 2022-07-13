@@ -19,7 +19,7 @@ export default new Album(
     // new Photograph('/photographs/2017-08-23/2017-08-23_011.webp', true, ''),
     new Photograph('/photographs/2017-08-23/2017-08-23_012.webp', false, 'Azur Air VQ-BKB / Boeing 757'),
     new Photograph('/photographs/2017-08-23/2017-08-23_013.webp', false, ''),
-    new Photograph('/photographs/2017-08-23/2017-08-23_014.webp', false, 'Strigino Airport is the international airport serving the city of Nizhny Novgorod. Strigino was officially exploited on 23 July 1923, as a domestic airport. Nizhny Novgorod International Airport is one of the oldest airports in Russia. Strigino is one of the top 25 busiest airports in Russia. Its extraordinarily rapid increase in passenger traffic rate (≤+20.0% annually) is speculated to bring it to top 10 busiest airports in Russia by 2020.'),
+    new Photograph('/photographs/2017-08-23/2017-08-23_014.webp', false, 'Strigino Airport is the international airport named after the Hero of the Soviet Union Valery Chkalov serving the city of Nizhny Novgorod. Strigino was officially exploited on 23 July 1923, as a domestic airport. Nizhny Novgorod International Airport is one of the oldest airports in Russia. Strigino is one of the top 25 busiest airports in Russia. Its extraordinarily rapid increase in passenger traffic rate (≤+20.0% annually) is speculated to bring it to top 10 busiest airports in Russia by 2020.'),
     new Photograph('/photographs/2017-08-23/2017-08-23_015.webp', false, 'Gazpromavia RA-89049 / Sukhoi SuperJet 100'),
     new Photograph('/photographs/2017-08-23/2017-08-23_016.webp', false, 'Gazpromavia RA-89049 / Sukhoi SuperJet 100'),
     new Photograph('/photographs/2017-08-23/2017-08-23_017.webp', true, 'Gazpromavia RA-89049 / Sukhoi SuperJet 100'),
