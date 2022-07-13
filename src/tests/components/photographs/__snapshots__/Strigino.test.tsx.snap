@@ -109,6 +109,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_001.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Gazpromavia RA-89029 / Sukhoi SuperJet 100
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -116,6 +121,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_002.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Orenburzhie RA-67043 / Let L-410UVP-E20 Turbolet
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -123,6 +133,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_003.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Gazpromavia RA-89049 / Sukhoi SuperJet 100
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -130,6 +145,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_004.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Rossiya Airlines VP-BOD "Belgorod" / Boeing 737 NG
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -144,13 +164,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_006.webp"
         />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-08-23/2017-08-23_007.webp"
-        />
+        <figcaption
+          className="image-caption"
+        >
+          Rossiya Airlines VP-BOD "Belgorod" / Boeing 737 NG
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -158,6 +176,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_008.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Russia - Flight Checks and Systems RA-26631 "Vladimir Titov" / Antonov An-26
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -165,6 +188,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_009.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Azur Air VQ-BKB / Boeing 757
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -172,13 +200,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_010.webp"
         />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-08-23/2017-08-23_011.webp"
-        />
+        <figcaption
+          className="image-caption"
+        >
+          Azur Air VQ-BKB / Boeing 757
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -186,6 +212,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_012.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Azur Air VQ-BKB / Boeing 757
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -200,6 +231,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_014.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Strigino Airport is the international airport serving the city of Nizhny Novgorod. Strigino was officially exploited on 23 July 1923, as a domestic airport. Nizhny Novgorod International Airport is one of the oldest airports in Russia. Strigino is one of the top 25 busiest airports in Russia. Its extraordinarily rapid increase in passenger traffic rate (≤+20.0% annually) is speculated to bring it to top 10 busiest airports in Russia by 2020.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -207,6 +243,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_015.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Gazpromavia RA-89049 / Sukhoi SuperJet 100
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -214,20 +255,23 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_016.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Gazpromavia RA-89049 / Sukhoi SuperJet 100
+        </figcaption>
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
+          className="img-responsive gallery-image vertical"
           src="/photographs/2017-08-23/2017-08-23_017.webp"
         />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-08-23/2017-08-23_018.webp"
-        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Gazpromavia RA-89049 / Sukhoi SuperJet 100
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -235,13 +279,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2017-08-23/2017-08-23_019.webp"
         />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-08-23/2017-08-23_020.webp"
-        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Rossiya Airlines VP-BOD "Belgorod" / Boeing 737 NG
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -249,6 +291,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_021.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Azur Air VQ-BKB / Boeing 757
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -256,6 +303,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_022.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Rossiya Airlines VP-BOD "Belgorod" / Boeing 737 NG
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -263,6 +315,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_023.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Rossiya Airlines VP-BOD "Belgorod" / Boeing 737 NG
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -270,13 +327,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_024.webp"
         />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-08-23/2017-08-23_025.webp"
-        />
+        <figcaption
+          className="image-caption"
+        >
+          Azur Air VQ-BKB / Boeing 757
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -289,15 +344,13 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Strigino International Airport"
           className="img-responsive gallery-image"
-          src="/photographs/2017-08-23/2017-08-23_027.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Strigino International Airport"
-          className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_028.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Gazpromavia RA-89049 / Sukhoi SuperJet 100
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -319,6 +372,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_031.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Royal Flight VP-BOO / Boeing 757
+        </figcaption>
       </figure>
       <figure>
         <img
