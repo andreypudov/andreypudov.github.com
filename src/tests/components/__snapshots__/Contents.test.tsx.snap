@@ -161,6 +161,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/andrey-pudov"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+            <small>
+              Saturday, July 9, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/crimea"
             onClick={[Function]}
           >
@@ -354,17 +365,6 @@ exports[`renders correctly 1`] = `
             2016 Formula 1 Russian Grand Prix
             <small>
               Wednesday, May 4, 2016
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/photographs/andrey-pudov"
-            onClick={[Function]}
-          >
-            Andrey Pudov
-            <small>
-              Saturday, April 16, 2016
             </small>
           </a>
         </li>
