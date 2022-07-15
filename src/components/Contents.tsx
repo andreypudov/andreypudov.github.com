@@ -81,6 +81,12 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/photographs/andrey-pudov'>
+              { AndreyPudov.getTitle() }
+              <small>{ AndreyPudov.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/crimea'>
               { Crimea.getTitle() }
               <small>{ Crimea.getDate() }</small>
@@ -186,12 +192,6 @@ function Contents() {
             <Link to = '/photographs/formula-sochi-2.0'>
               { FormulaSochi2.getTitle() }
               <small>{ FormulaSochi2.getDate() }</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/photographs/andrey-pudov'>
-              { AndreyPudov.getTitle() }
-              <small>{ AndreyPudov.getDate() }</small>
             </Link>
           </li>
           <li>

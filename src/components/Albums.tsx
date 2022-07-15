@@ -58,6 +58,14 @@ function Albums() {
             </Link>
           </div>
           <div className = 'col-md-4'>
+            <Link to = '/photographs/andrey-pudov' className = 'card bg-dark text-white gallery-image'>
+              <img src = { AndreyPudov.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ AndreyPudov.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
             <Link to = '/photographs/crimea' className = 'card bg-dark text-white gallery-image'>
               <img src = { Crimea.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
@@ -206,14 +214,6 @@ function Albums() {
               <img src = { FormulaSochi2.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ FormulaSochi2.getTitle() }</h6>
-              </div>
-            </Link>
-          </div>
-          <div className = 'col-md-4'>
-            <Link to = '/photographs/andrey-pudov' className = 'card bg-dark text-white gallery-image'>
-              <img src = { AndreyPudov.getCover().src } className = 'card-img' alt = '' />
-              <div className = 'card-img-overlay'>
-                <h6 className = 'card-title'>{ AndreyPudov.getTitle() }</h6>
               </div>
             </Link>
           </div>
