@@ -212,7 +212,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="/photographs/2012-03-17/2012-03-17_031.webp"
+              src="/photographs/2012-03-17/2012-03-17_021_large.webp"
             />
             <div
               className="card-img-overlay"
