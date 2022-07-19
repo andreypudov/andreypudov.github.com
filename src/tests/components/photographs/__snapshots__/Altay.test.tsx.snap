@@ -331,13 +331,6 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_049.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp"
         />
       </figure>
@@ -450,13 +443,6 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_070.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_072.webp"
         />
       </figure>
@@ -486,13 +472,6 @@ exports[`renders correctly 1`] = `
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_083.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_085.webp"
         />
       </figure>
       <figure>
@@ -724,13 +703,6 @@ exports[`renders correctly 1`] = `
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_136.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04/2020-07-19_08-04_138.webp"
         />
       </figure>
       <figure>
