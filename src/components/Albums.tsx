@@ -48,6 +48,12 @@ function Albums() {
       <div className = 'container'>
         <h1>Albums</h1>
 
+        <h2>Time Lapses</h2>
+
+        <AlbumsView album = { TimeLapses } />
+
+        <h2>Photographs</h2>
+
         <div className = 'row'>
           <div className = 'col-md-4'>
             <Link to = '/photographs/favorite-photographs' className = 'card bg-dark text-white gallery-image'>
@@ -74,26 +80,10 @@ function Albums() {
             </Link>
           </div>
           <div className = 'col-md-4'>
-            <Link to = '/drawings/soft-pastel' className = 'card bg-dark text-white gallery-image'>
-              <img src = { SoftPastel.getCover().src } className = 'card-img' alt = '' />
-              <div className = 'card-img-overlay'>
-                <h6 className = 'card-title'>{ SoftPastel.getTitle() }</h6>
-              </div>
-            </Link>
-          </div>
-          <div className = 'col-md-4'>
             <Link to = '/photographs/altay' className = 'card bg-dark text-white gallery-image'>
               <img src = { Altay.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ Altay.getTitle() }</h6>
-              </div>
-            </Link>
-          </div>
-          <div className = 'col-md-4'>
-            <Link to = '/drawings/pencil-sketches' className = 'card bg-dark text-white gallery-image'>
-              <img src = { PencilSketches.getCover().src } className = 'card-img' alt = '' />
-              <div className = 'card-img-overlay'>
-                <h6 className = 'card-title'>{ PencilSketches.getTitle() }</h6>
               </div>
             </Link>
           </div>
@@ -331,9 +321,26 @@ function Albums() {
           </div>
         </div>
 
-        <h2>Time Lapses</h2>
+        <h2>Drawings</h2>
 
-        <AlbumsView album = { TimeLapses } />
+        <div className = 'row'>
+          <div className = 'col-md-4'>
+            <Link to = '/drawings/pencil-sketches' className = 'card bg-dark text-white gallery-image'>
+              <img src = { PencilSketches.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ PencilSketches.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/drawings/soft-pastel' className = 'card bg-dark text-white gallery-image'>
+              <img src = { SoftPastel.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ SoftPastel.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
     </Layout>
   );
