@@ -4,6 +4,7 @@ type VideoProps = {
   album: Album;
   index: number;
   title: boolean;
+  description: boolean;
 };
 
 function Video(props: VideoProps) {
@@ -16,7 +17,7 @@ function Video(props: VideoProps) {
         <iframe src = { url } title = { props.album.getTitle() } allowFullScreen />
       </div>
       {
-        video.description.length !== 0 &&
+        props.description && video.description.length !== 0 &&
           <figcaption className = 'video-caption'>
             { video.description }
           </figcaption>
