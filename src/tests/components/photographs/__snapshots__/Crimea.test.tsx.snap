@@ -201,20 +201,6 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Crimean Holidays"
           className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_013.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Crimean Holidays"
-          className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_014.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Crimean Holidays"
-          className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_015.webp"
         />
       </figure>
@@ -692,13 +678,6 @@ exports[`renders correctly 1`] = `
           alt="Andrey Pudov Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_085.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Crimean Holidays"
-          className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_086.webp"
         />
       </figure>
       <figure>

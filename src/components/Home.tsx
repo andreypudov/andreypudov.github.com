@@ -44,7 +44,7 @@ function Home() {
         <div className = 'row'>
           <div className = 'col-sm-3'>
             <Link to = '/photographs/favorite-photographs'>
-              <img src = 'images/marketing/altay-kate.webp' className = 'img-fluid' alt = 'Favorite Photographs' />
+              <img src = 'images/marketing/favorite-photographs.webp' className = 'img-fluid' alt = 'Favorite Photographs' />
             </Link>
           </div>
           <div className = 'col-sm-3'>
