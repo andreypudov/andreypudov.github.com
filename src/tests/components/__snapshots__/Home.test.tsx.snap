@@ -228,7 +228,7 @@ exports[`renders correctly 1`] = `
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="images/marketing/altay-kate.webp"
+              src="images/marketing/favorite-photographs.webp"
             />
           </a>
         </div>
