@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
 import Favorites from './components/photographs/Favorites';
+import CastilloDeMataplana from './components/photographs/CastilloDeMataplana';
 import Crimea from './components/photographs/Crimea';
 import Altay from './components/photographs/Altay';
 import NizhnyNovgorod from './components/photographs/NizhnyNovgorod';
@@ -60,6 +61,7 @@ function routes() {
       <Route path = '/contact' element = { <Contact /> } />
 
       <Route path = '/photographs/favorite-photographs' element = { <Favorites /> } />
+      <Route path = '/photographs/castillo-de-mataplana' element = { <CastilloDeMataplana /> } />
       <Route path = '/photographs/crimea' element = { <Crimea /> } />
       <Route path = '/photographs/altay' element = { <Altay /> } />
       <Route path = '/photographs/nizhny-novgorod' element = { <NizhnyNovgorod /> } />
