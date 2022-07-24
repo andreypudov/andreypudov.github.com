@@ -922,103 +922,6 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <h2>
-        Time Lapses
-      </h2>
-      <div
-        className="row"
-      >
-        <div
-          className="col-md-4"
-        >
-          <figure>
-            <div
-              className="ratio ratio-16x9 gallery-video"
-            >
-              <iframe
-                allowFullScreen={true}
-                src="https://player.vimeo.com/video/517763009?title=0&byline=0"
-                title="Time Lapses"
-              />
-            </div>
-          </figure>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <figure>
-            <div
-              className="ratio ratio-16x9 gallery-video"
-            >
-              <iframe
-                allowFullScreen={true}
-                src="https://player.vimeo.com/video/517762791?title=0&byline=0"
-                title="Time Lapses"
-              />
-            </div>
-          </figure>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <figure>
-            <div
-              className="ratio ratio-16x9 gallery-video"
-            >
-              <iframe
-                allowFullScreen={true}
-                src="https://player.vimeo.com/video/517762848?title=0&byline=0"
-                title="Time Lapses"
-              />
-            </div>
-          </figure>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <figure>
-            <div
-              className="ratio ratio-16x9 gallery-video"
-            >
-              <iframe
-                allowFullScreen={true}
-                src="https://player.vimeo.com/video/517762962?title=0&byline=0"
-                title="Time Lapses"
-              />
-            </div>
-          </figure>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <figure>
-            <div
-              className="ratio ratio-16x9 gallery-video"
-            >
-              <iframe
-                allowFullScreen={true}
-                src="https://player.vimeo.com/video/517762910?title=0&byline=0"
-                title="Time Lapses"
-              />
-            </div>
-          </figure>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <figure>
-            <div
-              className="ratio ratio-16x9 gallery-video"
-            >
-              <iframe
-                allowFullScreen={true}
-                src="https://player.vimeo.com/video/517762737?title=0&byline=0"
-                title="Time Lapses"
-              />
-            </div>
-          </figure>
-        </div>
-      </div>
-      <h2>
         Drawings
       </h2>
       <div
@@ -1035,7 +938,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="/drawings/pencil-sketches/2020-04-03.webp"
+              src="/drawings/pencil-sketches/2020-04-26.webp"
             />
             <div
               className="card-img-overlay"
@@ -1071,6 +974,103 @@ exports[`renders correctly 1`] = `
               </h6>
             </div>
           </a>
+        </div>
+        <h2>
+          Time Lapses
+        </h2>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4"
+          >
+            <figure>
+              <div
+                className="ratio ratio-16x9 gallery-video"
+              >
+                <iframe
+                  allowFullScreen={true}
+                  src="https://player.vimeo.com/video/517763009?title=0&byline=0"
+                  title="Time Lapses"
+                />
+              </div>
+            </figure>
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <figure>
+              <div
+                className="ratio ratio-16x9 gallery-video"
+              >
+                <iframe
+                  allowFullScreen={true}
+                  src="https://player.vimeo.com/video/517762791?title=0&byline=0"
+                  title="Time Lapses"
+                />
+              </div>
+            </figure>
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <figure>
+              <div
+                className="ratio ratio-16x9 gallery-video"
+              >
+                <iframe
+                  allowFullScreen={true}
+                  src="https://player.vimeo.com/video/517762848?title=0&byline=0"
+                  title="Time Lapses"
+                />
+              </div>
+            </figure>
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <figure>
+              <div
+                className="ratio ratio-16x9 gallery-video"
+              >
+                <iframe
+                  allowFullScreen={true}
+                  src="https://player.vimeo.com/video/517762962?title=0&byline=0"
+                  title="Time Lapses"
+                />
+              </div>
+            </figure>
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <figure>
+              <div
+                className="ratio ratio-16x9 gallery-video"
+              >
+                <iframe
+                  allowFullScreen={true}
+                  src="https://player.vimeo.com/video/517762910?title=0&byline=0"
+                  title="Time Lapses"
+                />
+              </div>
+            </figure>
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <figure>
+              <div
+                className="ratio ratio-16x9 gallery-video"
+              >
+                <iframe
+                  allowFullScreen={true}
+                  src="https://player.vimeo.com/video/517762737?title=0&byline=0"
+                  title="Time Lapses"
+                />
+              </div>
+            </figure>
+          </div>
         </div>
       </div>
     </div>

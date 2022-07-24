@@ -326,10 +326,6 @@ function Albums() {
           </div>
         </div>
 
-        <h2>Time Lapses</h2>
-
-        <AlbumsView album = { TimeLapses } />
-
         <h2>Drawings</h2>
 
         <div className = 'row'>
@@ -349,6 +345,10 @@ function Albums() {
               </div>
             </Link>
           </div>
+
+          <h2>Time Lapses</h2>
+
+          <AlbumsView album = { TimeLapses } />
         </div>
       </div>
     </Layout>

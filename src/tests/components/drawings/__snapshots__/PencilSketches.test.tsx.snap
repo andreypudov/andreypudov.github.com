@@ -130,6 +130,18 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Andrey Pudov Pencil Sketches"
+          className="img-responsive gallery-image"
+          src="/drawings/pencil-sketches/2020-04-26.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          April 26, 2020
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Pencil Sketches"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-04-22.webp"
         />
