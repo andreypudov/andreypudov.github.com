@@ -932,13 +932,13 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/drawings/pencil-sketches"
+            href="/drawings/watercolor"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img"
-              src="/drawings/pencil-sketches/2020-04-26.webp"
+              src="/drawings/watercolor/2021-05-24.webp"
             />
             <div
               className="card-img-overlay"
@@ -946,7 +946,7 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Pencil Sketches
+                Watercolor
               </h6>
             </div>
           </a>
@@ -980,13 +980,13 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/drawings/watercolor"
+            href="/drawings/pencil-sketches"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img"
-              src="/drawings/watercolor/2021-05-24.webp"
+              src="/drawings/pencil-sketches/2020-04-26.webp"
             />
             <div
               className="card-img-overlay"
@@ -994,7 +994,7 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Watercolor
+                Pencil Sketches
               </h6>
             </div>
           </a>
