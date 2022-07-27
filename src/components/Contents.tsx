@@ -275,6 +275,12 @@ function Contents() {
             <h2>Drawings</h2>
           </li>
           <li>
+            <Link to = '/drawings/watercolor'>
+              { Watercolor.getTitle() }
+              <small>{ Watercolor.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/drawings/soft-pastel'>
               { SoftPastel.getTitle() }
               <small>{ SoftPastel.getDate() }</small>
@@ -284,12 +290,6 @@ function Contents() {
             <Link to = '/drawings/pencil-sketches'>
               { PencilSketches.getTitle() }
               <small>{ PencilSketches.getDate() }</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/drawings/watercolor'>
-              { Watercolor.getTitle() }
-              <small>{ Watercolor.getDate() }</small>
             </Link>
           </li>
         </ol>

@@ -330,11 +330,11 @@ function Albums() {
         <h2>Drawings</h2>
 
         <div className = 'row'>
-          <div className = 'col-md-4'>
-            <Link to = '/drawings/pencil-sketches' className = 'card bg-dark text-white gallery-image'>
-              <img src = { PencilSketches.getCover().src } className = 'card-img' alt = '' />
+        <div className = 'col-md-4'>
+            <Link to = '/drawings/watercolor' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Watercolor.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
-                <h6 className = 'card-title'>{ PencilSketches.getTitle() }</h6>
+                <h6 className = 'card-title'>{ Watercolor.getTitle() }</h6>
               </div>
             </Link>
           </div>
@@ -347,10 +347,10 @@ function Albums() {
             </Link>
           </div>
           <div className = 'col-md-4'>
-            <Link to = '/drawings/watercolor' className = 'card bg-dark text-white gallery-image'>
-              <img src = { Watercolor.getCover().src } className = 'card-img' alt = '' />
+            <Link to = '/drawings/pencil-sketches' className = 'card bg-dark text-white gallery-image'>
+              <img src = { PencilSketches.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
-                <h6 className = 'card-title'>{ Watercolor.getTitle() }</h6>
+                <h6 className = 'card-title'>{ PencilSketches.getTitle() }</h6>
               </div>
             </Link>
           </div>

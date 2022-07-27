@@ -511,6 +511,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/drawings/watercolor"
+            onClick={[Function]}
+          >
+            Watercolor
+            <small>
+              Monday, May 24, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/drawings/soft-pastel"
             onClick={[Function]}
           >
@@ -528,17 +539,6 @@ exports[`renders correctly 1`] = `
             Pencil Sketches
             <small>
               Thursday, July 16, 2020
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/drawings/watercolor"
-            onClick={[Function]}
-          >
-            Watercolor
-            <small>
-              Monday, May 24, 2021
             </small>
           </a>
         </li>
