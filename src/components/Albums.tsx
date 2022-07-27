@@ -39,6 +39,7 @@ import MarinaAlekseeva from './../models/photographs/marinaAlekseeva';
 
 import SoftPastel from './../models/drawings/softPastel';
 import PencilSketches from './../models/drawings/pencilSketches';
+import Watercolor from './../models/drawings/watercolor';
 
 import TimeLapses from './../models/videos/timeLapses';
 import AlbumsView from './shared/Albums';
@@ -342,6 +343,14 @@ function Albums() {
               <img src = { SoftPastel.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ SoftPastel.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/drawings/watercolor' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Watercolor.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ Watercolor.getTitle() }</h6>
               </div>
             </Link>
           </div>
