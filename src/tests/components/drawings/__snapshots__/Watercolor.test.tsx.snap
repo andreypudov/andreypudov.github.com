@@ -106,18 +106,6 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Andrey Pudov Watercolor"
-          className="img-responsive gallery-image vertical"
-          src="/drawings/watercolor/2021-03-30.webp"
-        />
-        <figcaption
-          className="image-caption vertical"
-        >
-          March 03, 2021
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Watercolor"
           className="img-responsive gallery-image"
           src="/drawings/watercolor/2021-05-24.webp"
         />
@@ -125,6 +113,18 @@ exports[`renders correctly 1`] = `
           className="image-caption"
         >
           May 05, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Watercolor"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2021-03-30.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          March 03, 2021
         </figcaption>
       </figure>
     </div>

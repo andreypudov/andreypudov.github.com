@@ -118,6 +118,42 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/soft-pastel/2021-05-17.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          May 17, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/soft-pastel/2021-03-22.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          March 22, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/soft-pastel/2021-03-21.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          March 21, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Soft Pastel"
           className="img-responsive gallery-image"
           src="/drawings/soft-pastel/2021-01-30.webp"
         />
