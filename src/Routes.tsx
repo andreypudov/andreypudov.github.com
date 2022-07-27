@@ -46,6 +46,7 @@ import ImperialTown from './components/photographs/ImperialTown';
 
 import PencilSketches from './components/drawings/PencilSketches';
 import SoftPastel from './components/drawings/SoftPastel';
+import Watercolor from './components/drawings/Watercolor';
 
 import CureForWellness from './components/performances/CureForWellness';
 import GravityFalls from './components/performances/GravityFalls';
@@ -99,6 +100,7 @@ function routes() {
 
       <Route path = '/drawings/pencil-sketches' element = { <PencilSketches /> } />
       <Route path = '/drawings/soft-pastel' element = { <SoftPastel /> } />
+      <Route path = '/drawings/watercolor' element = { <Watercolor /> } />
 
       <Route path = '/performances/gravity-falls' element = { <GravityFalls /> } />
       <Route path = '/performances/cure-for-wellness' element = { <CureForWellness /> } />

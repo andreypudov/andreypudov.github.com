@@ -531,6 +531,17 @@ exports[`renders correctly 1`] = `
             </small>
           </a>
         </li>
+        <li>
+          <a
+            href="/drawings/watercolor"
+            onClick={[Function]}
+          >
+            Watercolor
+            <small>
+              Monday, May 24, 2021
+            </small>
+          </a>
+        </li>
       </ol>
       <ol
         className="contents"

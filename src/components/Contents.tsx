@@ -40,6 +40,7 @@ import MarinaAlekseeva from './../models/photographs/marinaAlekseeva';
 
 import PencilSketches from './../models/drawings/pencilSketches';
 import SoftPastel from './../models/drawings/softPastel';
+import Watercolor from './../models/drawings/watercolor';
 
 function Contents() {
   return (
@@ -283,6 +284,12 @@ function Contents() {
             <Link to = '/drawings/pencil-sketches'>
               { PencilSketches.getTitle() }
               <small>{ PencilSketches.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/drawings/watercolor'>
+              { Watercolor.getTitle() }
+              <small>{ Watercolor.getDate() }</small>
             </Link>
           </li>
         </ol>
