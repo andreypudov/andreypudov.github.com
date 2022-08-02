@@ -1,5 +1,5 @@
+import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
-import Album from '../core/album';
 
 export default new Album(
   'Conquering Rome and Order of Malta',

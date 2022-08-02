@@ -1,4 +1,4 @@
-import Album from '../../models/core/album';
+import Album from '../../models/core/photographyAlbum';
 
 type PhotographProps = {
   album: Album;
@@ -10,7 +10,7 @@ function Photograph(props: PhotographProps) {
 
   return (
     <figure>
-      <img src      = { photograph.src }
+      <img src    = { photograph.src }
         alt       = { `Andrey Pudov ${ props.album.getTitle() }` }
         className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
       {

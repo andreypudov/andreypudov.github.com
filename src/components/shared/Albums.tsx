@@ -1,4 +1,4 @@
-import Model from '../../models/core/album';
+import Model from '../../models/core/photographyAlbum';
 import Photograph from '../../models/core/photograph';
 import PhotographView from './Photograph';
 import VideoView from './Video';

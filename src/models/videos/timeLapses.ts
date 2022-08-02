@@ -1,4 +1,4 @@
-import Album from './../core/album';
+import Album from './../core/photographyAlbum';
 import Video from '../core/video';
 
 export default new Album(
