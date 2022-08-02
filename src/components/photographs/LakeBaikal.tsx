@@ -1,7 +1,7 @@
 import Album from './../../models/photographs/lakeBaikal';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
-import AlbumView from '../shared/Album';
+import AlbumView from '../shared/AlbumView';
 
 function LakeBaikal() {
   return (

@@ -1,5 +1,5 @@
 import Album from './../../models/core/photographyAlbum';
-import AlbumView from '../shared/Album';
+import AlbumView from './AlbumView';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 

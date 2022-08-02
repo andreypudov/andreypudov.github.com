@@ -1,21 +1,23 @@
-import Album from './../../models/core/photographyAlbum';
+import Album from './../../models/core/performanceAlbum';
 import AlbumView from './AlbumView';
+import SheetAlbumView from './SheetAlbumView';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 
-type DrawingAlbumProps = {
+type PerformanceAlbumProps = {
    album: Album;
  };
 
-function DrawingAlbum({ album }: React.PropsWithChildren<DrawingAlbumProps>) {
+function PerformanceAlbum({ album }: React.PropsWithChildren<PerformanceAlbumProps>) {
   return (
     <Layout title = { album.getTitle() }>
       <div className = 'container'>
         <Headline album = { album } />
         <AlbumView album = { album } />
+        <SheetAlbumView album = { album } />
       </div>
     </Layout>
   );
 }
 
-export default DrawingAlbum;
+export default PerformanceAlbum;

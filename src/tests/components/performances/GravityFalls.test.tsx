@@ -1,5 +1,6 @@
 import { MemoryRouter } from 'react-router-dom'
-import Component from './../../../components/performances/GravityFalls';
+import PerformanceAlbum from './../../../components/shared/PerformanceAlbum';
+import Album from './../../../models/performances/gravityFalls';
 import { HelmetProvider } from 'react-helmet-async';
 import renderer from 'react-test-renderer';
 
@@ -8,7 +9,7 @@ it('renders correctly', () => {
     .create(
       <HelmetProvider>
         <MemoryRouter>
-          <Component />
+          <PerformanceAlbum album = { Album } />
         </MemoryRouter>
       </HelmetProvider>)
     .toJSON();
