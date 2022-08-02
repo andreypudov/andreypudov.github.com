@@ -1,5 +1,4 @@
 import Album from './../../models/performances/gravityFalls';
-import Sheet from './../../models/sheets/gravityFalls';
 import AlbumView from '../shared/Album';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
@@ -10,8 +9,6 @@ function GravityFalls() {
       <div className = 'container'>
         <Headline album = { Album } />
         <AlbumView album = { Album } />
-
-        <AlbumView album = { Sheet } />
       </div>
     </Layout>
   );

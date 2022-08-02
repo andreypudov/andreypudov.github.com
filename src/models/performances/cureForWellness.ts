@@ -1,4 +1,5 @@
-import Album from './../core/album';
+import Album from './../core/performanceAlbum';
+import Photograph from '../core/photograph';
 import Video from '../core/video';
 
 export default new Album(
@@ -7,4 +8,7 @@ export default new Album(
   new Video('https://player.vimeo.com/video/517761510'),
   [
     new Video('https://player.vimeo.com/video/517761510'),
+  ],
+  [
+    new Photograph('/sheets/cure-for-wellness/cure-for-wellness-001.webp', true),
   ]);

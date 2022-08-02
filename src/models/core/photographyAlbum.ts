@@ -1,6 +1,6 @@
 import Media from './media';
 
-class Album {
+class PhotographyAlbum {
   private title: string;
   private date: Date;
   private cover: Media;
@@ -24,4 +24,4 @@ class Album {
   }
 }
 
-export default Album;
+export default PhotographyAlbum;

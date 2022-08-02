@@ -1,4 +1,4 @@
-import Album from './../../models/core/album';
+import Album from './../../models/core/photographyAlbum';
 
 type VideoProps = {
   album: Album;
