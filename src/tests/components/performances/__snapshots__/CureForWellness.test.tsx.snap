@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Mia & Sebastian"
+          alt="Andrey Pudov A Cure for Wellness"
           className="img-responsive gallery-image vertical"
           src="/sheets/cure-for-wellness/cure-for-wellness-001.webp"
         />

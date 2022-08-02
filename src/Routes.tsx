@@ -49,12 +49,13 @@ import PencilSketches from './models/drawings/pencilSketches';
 import SoftPastel from './models/drawings/softPastel';
 import Watercolor from './models/drawings/watercolor';
 
-import CureForWellness from './components/performances/CureForWellness';
-import GravityFalls from './components/performances/GravityFalls';
-import MiaAndSebastian from './components/performances/MiaAndSebastian';
+import CureForWellness from './models/performances/cureForWellness';
+import GravityFalls from './models/performances/gravityFalls';
+import MiaAndSebastian from './models/performances/miaAndSebastian';
 
 import DrawingAlbum from './components/shared/DrawingAlbum';
 import PhotographyAlbum from './components/shared/PhotographyAlbum';
+import PerformanceAlbum from './components/shared/PerformanceAlbum';
 
 function routes() {
   return (
@@ -107,9 +108,9 @@ function routes() {
       <Route path = '/drawings/soft-pastel' element = { <DrawingAlbum album = { SoftPastel } /> } />
       <Route path = '/drawings/watercolor' element = { <DrawingAlbum album = { Watercolor } /> } />
 
-      <Route path = '/performances/gravity-falls' element = { <GravityFalls /> } />
-      <Route path = '/performances/cure-for-wellness' element = { <CureForWellness /> } />
-      <Route path = '/performances/mia-and-sebastian' element = { <MiaAndSebastian /> } />
+      <Route path = '/performances/gravity-falls' element = { <PerformanceAlbum album = { GravityFalls } /> } />
+      <Route path = '/performances/cure-for-wellness' element = { <PerformanceAlbum album = { CureForWellness } /> } />
+      <Route path = '/performances/mia-and-sebastian' element = { <PerformanceAlbum album = { MiaAndSebastian } /> } />
 
       <Route path = '*' element = { <NotFound /> } />
     </Routes>

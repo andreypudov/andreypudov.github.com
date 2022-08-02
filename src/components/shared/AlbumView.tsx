@@ -3,11 +3,11 @@ import Photograph from '../../models/core/photograph';
 import PhotographView from './Photograph';
 import VideoView from './Video';
 
-type AlbumProps = {
+type AlbumViewProps = {
   album: Model;
 };
 
-function Album(props: AlbumProps) {
+function AlbumView(props: AlbumViewProps) {
   return (
     <>
     {
@@ -24,4 +24,4 @@ function Album(props: AlbumProps) {
   );
 }
 
-export default Album;
+export default AlbumView;
