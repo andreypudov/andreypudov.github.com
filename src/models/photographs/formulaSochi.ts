@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Video from '../core/video';
 
 export default new Album(
   '2015 Formula 1 Russian Grand Prix',
@@ -18,6 +19,8 @@ export default new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_010_large.webp', false, 'Шлемы наиболее выдающихся пилотов Scuderia Ferrari с автографами механиков и других членов команды'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_011_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_012_large.webp', false, 'Болид Jaguar Racing 2004 сезона, ставшим последним для команды Вольфганга Райцле. Позднее команда была продана компании Red Bull'),
+    new Photograph('/photographs/2015-10-05_11/2015-10-05_11_024_large.webp', false, 'DeLorean DMC-12 известный своей ролью в качестве машины времени в кинотрилогии Роберта Земекиса «Назад в будущее»'),
+    new Photograph('/photographs/2015-10-05_11/2015-10-05_11_025_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_013_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_014_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_015_large.webp', false, 'Промоутер Формулы 1 в России Сергей Воробьев'),
@@ -29,8 +32,6 @@ export default new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_021_large.webp', false, 'Главный вход на территорию Олимпийского Парка'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_022_large.webp', false, 'Футуристического вида железнодорожная станция «Олимпийский парк»'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_023_large.webp', true),
-    new Photograph('/photographs/2015-10-05_11/2015-10-05_11_024_large.webp', false, 'DeLorean DMC-12 известный своей ролью в качестве машины времени в кинотрилогии Роберта Земекиса «Назад в будущее»'),
-    new Photograph('/photographs/2015-10-05_11/2015-10-05_11_025_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_026_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_027_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_028_large.webp', false, 'Пит-лейн в первые часы после приезда команд'),
@@ -51,6 +52,7 @@ export default new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_043_large.webp', true),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_044_large.webp', false, 'Автограф сессия Red Bull. Даниил Квят и Даниэль Риккардо'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_045_large.webp', true),
+    new Video('https://www.youtube.com/embed/XAYCQjo3m0Y?rel=0', 'Начало квалификационной сессии GP2'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_046_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_047_large.webp', false, 'Александр Ткачёв (за рулем) и Берни Экклстоун совершают экскурсию по вечернему Олимпийскому парку'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_048_large.webp'),
@@ -97,6 +99,7 @@ export default new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_089_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_090_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_091_large.webp'),
+    new Video('https://www.youtube.com/embed/cRuuGAEgW64?rel=0', 'Начало гонки Гран При России'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_092_large.webp', false, 'Кортеж Его Превосходительства Президента Российской Федерации Владимира Путина, прибывающего на трассу'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_093_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_094_large.webp', true),

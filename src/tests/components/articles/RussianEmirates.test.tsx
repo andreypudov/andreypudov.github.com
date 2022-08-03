@@ -1,5 +1,5 @@
 import { MemoryRouter } from 'react-router-dom'
-import Component from './../../../components/photographs/RussianEmirates';
+import Component from './../../../components/articles/RussianEmirates';
 import { HelmetProvider } from 'react-helmet-async';
 import renderer from 'react-test-renderer';
 

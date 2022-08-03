@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Video from '../core/video';
 
 export default new Album(
   'Lake Baikal',
@@ -79,4 +80,5 @@ export default new Album(
     new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_071_large.webp', false, 'Turtle Rock is a natural geological sculpture, whose shape is reminiscent of a turtle (an animal venerated by Buddhists) with stretched neck, located on the northern part of Turka valley.'),
     new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_072_large.webp'),
     new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_073_large.webp'),
+    new Video('https://www.youtube.com/embed/VlXZW_dqlUE?rel=0', 'The video report of the exploring expedition to Lake Baikal.'),
   ]);

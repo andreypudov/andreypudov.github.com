@@ -7,9 +7,9 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
-import RussianEmirates from './components/photographs/RussianEmirates';
-import GoldenAge from './components/photographs/GoldenAge';
-import ImperialTown from './components/photographs/ImperialTown';
+import RussianEmirates from './components/articles/RussianEmirates';
+import GoldenAge from './components/articles/GoldenAge';
+import ImperialTown from './components/articles/ImperialTown';
 
 import Favorites from './models/photographs/favorites';
 import CastilloDeMataplana from './models/photographs/castilloDeMataplana';
@@ -34,15 +34,15 @@ import Kaliningrad from './models/photographs/kaliningrad';
 import FormulaSochi2 from './models/photographs/formulaSochi2';
 import LolitaRakhmatova from './models/photographs/lolitaRakhmatova';
 import IntelProducts from './models/photographs/intelProducts';
-import FormulaSochi from './components/photographs/FormulaSochi';
+import FormulaSochi from './models/photographs/formulaSochi';
 import AsiaFarakshina from './models/photographs/asiaFarakshina';
-import LakeBaikal from './components/photographs/LakeBaikal';
+import LakeBaikal from './models/photographs/lakeBaikal';
 import LakeBaikalTeam from './models/photographs/lakeBaikalTeam';
-import MilitaryMuseum from './components/photographs/MilitaryMuseum';
+import MilitaryMuseum from './models/photographs/militaryMuseum';
 import Ekaterinburg from './models/photographs/ekaterinburg';
 import YoshkarOla from './models/photographs/yoshkarOla';
 import LittleRussia from './models/photographs/littleRussia';
-import MarinaAlekseeva from './components/photographs/MarinaAlekseeva';
+import MarinaAlekseeva from './models/photographs/marinaAlekseeva';
 import VeraKlemenova from './models/photographs/veraKlemenova';
 
 import PencilSketches from './models/drawings/pencilSketches';
@@ -93,15 +93,15 @@ function routes() {
       <Route path = '/photographs/formula-sochi-2.0' element = { <PhotographyAlbum album = { FormulaSochi2 } /> } />
       <Route path = '/photographs/lolita-rakhmatova' element = { <PhotographyAlbum album = { LolitaRakhmatova } /> } />
       <Route path = '/photographs/intel-products' element = { <PhotographyAlbum album = { IntelProducts } /> } />
-      <Route path = '/photographs/formula-sochi' element = { <FormulaSochi /> } />
-      <Route path = '/photographs/lake-baikal' element = { <LakeBaikal /> } />
+      <Route path = '/photographs/formula-sochi' element = { <PhotographyAlbum album = { FormulaSochi } /> } />
+      <Route path = '/photographs/lake-baikal' element = { <PhotographyAlbum album = { LakeBaikal } /> } />
       <Route path = '/photographs/lake-baikal-team' element = { <PhotographyAlbum album = { LakeBaikalTeam } /> } />
       <Route path = '/photographs/asia-farakshina' element = { <DrawingAlbum album = { AsiaFarakshina } /> } />
-      <Route path = '/photographs/military-museum' element = { <MilitaryMuseum /> } />
+      <Route path = '/photographs/military-museum' element = { <PhotographyAlbum album = { MilitaryMuseum } /> } />
       <Route path = '/photographs/ekaterinburg' element = { <PhotographyAlbum album = { Ekaterinburg } /> } />
       <Route path = '/photographs/yoshkar-ola' element = { <PhotographyAlbum album = { YoshkarOla } /> } />
       <Route path = '/photographs/little-russia' element = { <PhotographyAlbum album = { LittleRussia } /> } />
-      <Route path = '/photographs/marina-alekseeva' element = { <MarinaAlekseeva /> } />
+      <Route path = '/photographs/marina-alekseeva' element = { <PhotographyAlbum album = { MarinaAlekseeva } /> } />
       <Route path = '/photographs/vera-klemenova' element = { <PhotographyAlbum album = { VeraKlemenova } /> } />
 
       <Route path = '/drawings/pencil-sketches' element = { <DrawingAlbum album = { PencilSketches } /> } />

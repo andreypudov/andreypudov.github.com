@@ -100,541 +100,461 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Wednesday, December 24, 2014
+          Thursday, December 25, 2014
         </small>
       </h1>
-      <p>
-        Всего в километре от столицы Урала, в Верхней Пышме - небольшом городе-спутнике  Екатеринбурга, расположен один из крупнейших музеев военной техники России - "Боевая слава Урала".  Учреждение начало свой путь в две тысячи пятом году с открытия мемориального комплекса в память о заводчанах Уралэлектромедь. Тогда же, группой верхнепышминских ветеранов было предложено расширить экспозицию и к девятому мая две тысячи шестого года, при поддержке Уральской Горно-Металлургической Компании и Приволжско-Уральского военного округа, был открыт музей.
-      </p>
-      <p>
-        Экспозиция, на первых этапах включавшая не более десятка образцов военной техники, сейчас насчитывает порядка ста видов орудий, выставленных на открытом воздухе. Помимо этого, в здании Выставочного центра собрана коллекция редчайших экспонатов, среди которых представлена лёгкая военная техника, автомобили и мотоциклы середины двадцатого века, копии самолётов времён Второй мировой войны.
-      </p>
-      <br />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_001_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        The Sukhoi 
-        <a
-          href="https://en.wikipedia.org/wiki/Sukhoi_Su-24"
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_001_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Su-24
-        </a>
-         is a supersonic, all-weather attack aircraft. The aircraft has a variable-sweep wing, twin-engines, and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system.
-        <br />
-        <br />
-        The Mikoyan 
-        <a
-          href="https://en.wikipedia.org/wiki/Mikoyan_MiG-31"
+          The Sukhoi Su-24 is a supersonic, all-weather attack aircraft. The aircraft has a variable-sweep wing, twin-engines, and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system.
+
+The Mikoyan MiG-31 is a supersonic interceptor aircraft that was developed for use by the Soviet Air Forces. The aircraft was designed by the Mikoyan design bureau as a replacement for the earlier MiG-25 "Foxbat". The MiG-31 is among the fastest combat jets in the world.
+
+The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Soviet military. Developed from the Sukhoi Su-7, the Su-17 was the first variable-sweep wing aircraft to enter Soviet service. Two subsequent Sukhoi aircraft, the Su-20, and Su-22 have usually been regarded as variants of the Su-17.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_003_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          MiG-31
-        </a>
-         is a supersonic interceptor aircraft that was developed for use by the Soviet Air Forces. The aircraft was designed by the Mikoyan design bureau as a replacement for the earlier MiG-25 "Foxbat". The MiG-31 is among the fastest combat jets in the world.
-        <br />
-        <br />
-        The Sukhoi 
-        <a
-          href="https://en.wikipedia.org/wiki/Sukhoi_Su-17"
+          The Yakovlev Yak-9 was a single-engine single-seat multi-purpose fighter aircraft used by the Soviet Union in World War II and after. The Yak-9 started arriving in Soviet fighter aviation regiments in late 1942 and played a major role in retaking air superiority from the Luftwaffe's new Focke-Wulf Fw 190 and Messerschmitt Bf 109G fighters during the grand Battle of Kursk in summer 1943.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_004_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Su-17
-        </a>
-         is a variable-sweep wing fighter-bomber developed for the Soviet military. Developed from the Sukhoi Su-7, the Su-17 was the first variable-sweep wing aircraft to enter Soviet service. Two subsequent Sukhoi aircraft, the Su-20, and Su-22 have usually been regarded as variants of the Su-17.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_003_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/Як-9"
+          The T-54 and T-55 tanks are a series of Soviet main battle tanks introduced in the years following the Second World War. The first T-54 prototype was completed at Nizhny Tagil by the end of 1945. From the late 1950s, the T-54 eventually became the main tank for armoured units of the Soviet Army, armies of the Warsaw Pact countries, and many others. T-54s and T-55s have been involved in many of the world's armed conflicts since their introduction in the last half of the 20th century.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_005_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Фронтовой истребитель Як-9
-        </a>
-         обр. 1942 г. Oдномоторный самолёт истребитель-бомбардировщик. Являлся самым массовым советским истребителем Великой Отечественной войны.
-        <br />
-        <br />
-        <a
-          href="https://ru.wikipedia.org/wiki/Bell_P-63_Kingcobra"
+          The Polikarpov R-5 was a Soviet reconnaissance bomber aircraft of the 1930s. It was the standard light bomber and reconnaissance aircraft of the Soviet Air Force for much of the 1930s, while also being used heavily as a civilian light transport, some 7,000 being built in total.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_006_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Американский истребитель-бомбардировщик P-63 Kingcobra
-        </a>
-         обр. 1943 г. Около 2400 самолётов были поставлены в СССР по ленд-лизу, около 300 направлены в ВВС Франции, небольшое количество получили и ВВС США.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_004_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Линейка послевоенных советских танков от Т-55 до Т-90. Первый справа - танк 
-        <a
-          href="https://ru.wikipedia.org/wiki/Т-54"
+          The T-18 light tank was the first Soviet-designed tank. Produced from 1928 to 1931, it was based on the Renault FT, with the addition of a vertically sprung suspension. The T-18 and its derivatives were essentially unsuccessful designs, but they gave Soviet industry its first experiences in designing armored vehicles.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_007_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Т-54
-        </a>
-         обр. 1946 г, далее от него стоит Т-54 обр. 1951 г. Т-54 экспортировался и стоит на вооружении во многих вооружённых силах государств мира, использовался в большинстве послевоенных локальных конфликтов. Танк стал известен своей высочайшей надёжностью и простотой, высоко оценивавшимися многими экспертами.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_005_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/Р-5_(самолёт)"
+          The IS-3 is a Soviet heavy tank developed in late 1944. Its semi-hemispherical cast turret became the hallmark of post-war Soviet tanks.
+
+The IS-2 is the first of the IS tank series named after the Soviet leader Joseph Stalin. It was developed and saw combat during World War II, and saw service in other Soviet allied countries after the war.
+
+The KV-2 is a heavy assault tank with the M-10 152 mm howitzer. Few were produced due to its combat ineffectiveness, mainly the decreased speed due to the weight of the new gun and turret.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_008_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_009_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_010_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_011_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_012_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_013_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_014_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_015_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Самолет-разведчик Р–5
-        </a>
-         обр. 1928 г. Один из самых массовых самолётов-бипланов 1930-х годов в СССР: более 1000 машин эксплуатировалось в ГВФ как почтовые и грузо-пассажирские. Более 5000 самолётов имелось в РККА, где он был основным образцом разведчика, лёгкого бомбардировщика и штурмовика до начала 1940-х годов.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_006_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/Т-18"
+          The BM-13H "Katyusha" multiple rocket launcher is a type of rocket artillery first built and fielded by the Soviet Union in World War II. Multiple rocket launchers such as these deliver explosives to a target area more intensively than conventional artillery.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_016_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Танк Т-18 (МС-1 - малый сопровождения)
-        </a>
-         - лёгкий пехотный танк 1920-х годов. Первый танк советской разработки. Позади от него - 
-        <a
-          href="https://ru.wikipedia.org/wiki/Т-26"
+          The 9K52 Luna-M is a Soviet short-range artillery rocket system that fires unguided and spin-stabilized 9M21 rockets. It was originally developed in the 1960s to provide divisional artillery support using tactical nuclear weapons but gradually modified for conventional use. The 9K52 was eventually succeeded by the OTR-21 Tochka.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_017_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_018_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_019_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_020_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_021_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          лёгкий танк Т-26
-        </a>
-         обр. 1933 г (двухбашенный).
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_007_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/ИС-3"
+          The S-75 is a Soviet-designed, high-altitude air defence system, built around a surface-to-air missile with command guidance. Following its first deployment in 1957, it became one of the most widely deployed air defence systems in history. It scored the first destruction of an enemy aircraft by a surface-to-air missile, with the shooting down of a Taiwanese Martin RB-57D Canberra over China on 7 October 1959 that was hit by a salvo of three V-750 (1D) missiles at an altitude of 20 km (65,600 ft). This success was credited to Chinese fighter aircraft at the time to keep the S-75 program secret.
+
+The 2K11 Krug is a Soviet and now Russian medium-range, medium-to-high altitude surface-to-air missile (SAM) system. The system was designed by NPO Novator and produced by Kalinin Machine Building Plant. Its GRAU designation is "2K11."
+
+The Buk missile is a family of self-propelled, medium-range surface-to-air missile systems designed to counter cruise missiles, smart bombs, fixed- and rotary-wing aircraft, and unmanned aerial vehicles. The Buk missile system is the successor to the NIIP/Vympel 2K12 Kub. The first version of Buk adopted into service carried the GRAU designation 9K37 Buk and was identified in the west with the NATO reporting name "Gadfly" as well as the US Department of Defense designation SA-11.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_022_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_023_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_024_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_025_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_026_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Тяжёлый танк ИС-3
-        </a>
-         обр. 1945 г. запущенный в серийное производство в последние дни войны и не успевший принять в ней участие.
-        <br />
-        <br />
-        <a
-          href="https://ru.wikipedia.org/wiki/ИС-2"
+          The Mil Mi-24 is a large helicopter gunship, attack helicopter, and low-capacity troop transport with room for eight passengers. It is produced by Mil Moscow Helicopter Plant and has been operated since 1972 by the Soviet Air Force and its successors, along with 48 other nations.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_027_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_028_large.webp"
+        />
+        <figcaption
+          className="image-caption"
         >
-          Тяжёлый танк ИС-2
-        </a>
-         обр. 1943 г. Аббревиатура ИС означает «Иосиф Сталин» — официальное название серийных советских тяжёлых танков выпуска 1943—1953 гг. Индекс 2 соответствует второй серийной модели танка этого семейства.
-        <br />
-        <br />
-        <a
-          href="https://ru.wikipedia.org/wiki/КВ-2"
-        >
-          Тяжёлый штурмовой танк КВ-2
-        </a>
-         обр. 1940 г. Использовался в начальный период Второй мировой войны. Аббревиатура КВ означает «Климент Ворошилов».
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_008_large.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/210-мм_пушка_образца_1939_года_(Бр-17)"
-        >
-          210-мм пушка Бр-17
-        </a>
-         обр. 1939 г.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_009_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_010_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Макет 
-        <a
-          href="https://ru.wikipedia.org/wiki/Торпедные_катера_типа_«Комсомолец»"
-        >
-          торпедного катера «Комсомолец» (проект 123-бис)
-        </a>
-        . Головной катер был заложен 30 июля 1939 года на верфи ленинградского завода № 194 (стапельный № С-505). По характеристикам значительно отличался от серийных катеров.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_011_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_012_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Макет рубки 
-        <a
-          href="https://ru.wikipedia.org/wiki/Подводные_лодки_типа_«Щука»"
-        >
-          средней дизельной подводной лодки типа «Щука»
-        </a>
-        , создаваемых в СССР в 1930—1940-x годах. Отличительными особенностями лодок были сравнительная дешевизна в постройке, повышенные манёвренность и живучесть.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_013_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_014_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_015_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/БМ-13Н"
-        >
-          Боевая машина реактивной артиллерии БМ-13Н «Катюша»
-        </a>
-         обр. 1958 г. на базе ЗИЛ-157.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_016_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Ракетный комплекс 
-        <a
-          href="https://ru.wikipedia.org/wiki/Луна-М_(ракетный_комплекс)"
-        >
-          Луна-М (по классификации НАТО — FROG-7)
-        </a>
-         - семейство советских тактических ракетных комплексов с неуправляемой баллистической ракетой, пришедших на смену комплексу 2К6 «Луна».
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_017_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Самоходная пусковая установка 9П117 
-        <a
-          href="https://ru.wikipedia.org/wiki/Р-17"
-        >
-          ОТРК 9К72 «Эльбрус»
-        </a>
-         c жидкостной одноступенчатой баллистической ракетой на долгохранимых компонентах топлива.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_018_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_019_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Многоцелевой вертолёт - 
-        <a
-          href="https://ru.wikipedia.org/wiki/Ми-2"
-        >
-          Ми-2
-        </a>
-        . Самый массовый двухдвигательный вертолёт в мире - 
-        <a
-          href="https://ru.wikipedia.org/wiki/Ми-8"
-        >
-          Ми-8
-        </a>
-        . Первый советский (европейский) и второй в мире (после AH-1 «Кобра») специализированный боевой вертолёт - 
-        <a
-          href="https://ru.wikipedia.org/wiki/Ми-24"
-        >
-          Ми-24
-        </a>
-        .
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_020_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_021_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Справа налево - самоходная огневая установка 
-        <a
-          href="https://ru.wikipedia.org/wiki/9А310"
-        >
-          ЗРК 9К37 «Бук»
-        </a>
-        . Зенитный ракетный комплекс 
-        <a
-          href="https://ru.wikipedia.org/wiki/2П24"
-        >
-          2К11 «Круг»
-        </a>
-        . Подвижный зенитный ракетный комплекс 
-        <a
-          href="https://ru.wikipedia.org/wiki/С-75"
-        >
-          С-75
-        </a>
-        .
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_022_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_023_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_024_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_025_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_026_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_027_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_028_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        Зенитная прожекторная станция 3–15–4 на базе автомобиля ЗиС–5. Предназначалась для поиска и сопровождения воздушных целей в ночном небе. Мощнейший световой поток силой в 650 миллионов свечей обеспечивал видимость самолетов противника на высоте до 12 километров. Известны случаи применения зенитных прожекторов для «ослепления» противника, как это было во время сражения за Зееловские высоты на подступах к Берлину в 1945 г.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_029_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_030_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_031_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_032_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_033_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_034_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_035_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_036_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_037_large.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/%D3-2"
-        >
-          У-2
-        </a>
-         ли По-2 (по кодификации НАТО: Mule — «Мул») — многоцелевой биплан, созданный под руководством Н. Н. Поликарпова в 1928 году. Один из самых массовых самолётов в мире.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_038_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_039_large.webp"
-      />
-      <p
-        className="image-caption vertical"
-      >
-        Экспозиция детских игрушек производимых в советское время.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_040_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_041_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_042_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_043_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_044_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image vertical"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_045_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_046_large.webp"
-      />
-      <p
-        className="image-caption"
-      >
-        <a
-          href="https://ru.wikipedia.org/wiki/%C8-16"
-        >
-          И-16 (ЦКБ-12)
-        </a>
-         «истребитель шестнадцатый» — советский одномоторный поршневой истребитель-моноплан 30-х годов, созданный в Опытном конструкторском бюро российского советского авиаконструктора Николая Поликарпова. Первый в мире серийный высокоскоростной низкоплан с убирающимся в полете шасси.
-      </p>
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_047_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_048_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_049_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_050_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_051_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_052_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_053_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_054_large.webp"
-      />
-      <img
-        alt="Andrey Pudov, Ekaterinburg, The Military Museum, Боевая слава Урала"
-        className="img-responsive gallery-image"
-        src="/photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp"
-      />
+          The 3–15–4 is an anti-aircraft searchlight station based on the ZiS-5. The station was used extensively in defense against nighttime bomber raids during the Second World War. Searchlights could track bombers, indicating targets to anti-aircraft guns and night fighters and dazzling crews.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_029_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_030_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_031_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_032_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_033_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_034_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_035_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_036_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_037_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_038_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_039_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_040_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_041_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_042_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_043_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_044_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_045_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_046_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_047_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_048_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_049_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_050_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_051_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_052_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_053_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_054_large.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Battle Glory of the Urals"
+          className="img-responsive gallery-image"
+          src="/photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp"
+        />
+      </figure>
     </div>
   </main>
   <footer>

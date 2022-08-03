@@ -103,22 +103,6 @@ exports[`renders correctly 1`] = `
           Saturday, August 8, 2015
         </small>
       </h1>
-      <figure
-        className="text-end"
-      >
-        <blockquote
-          className="blockquote"
-        >
-          <p>
-            Everything afterward was poetry...
-          </p>
-        </blockquote>
-        <figcaption
-          className="blockquote-footer"
-        >
-          Anton Chekhov
-        </figcaption>
-      </figure>
       <figure>
         <img
           alt="Andrey Pudov Lake Baikal"
@@ -739,19 +723,22 @@ One of the main attractions of the Barguzin Valley. Picturesque cliffs resemblin
           src="/photographs/2015-07-27_08-08/2015-07-27_08-08_073_large.webp"
         />
       </figure>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          src="//www.youtube.com/embed/VlXZW_dqlUE?rel=0"
-          title="The video report of the exploring expedition to Lake Baikal."
-        />
-      </div>
-      <p
-        className="video-caption"
-      >
-        The video report of the exploring expedition to Lake Baikal.
-      </p>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://www.youtube.com/embed/VlXZW_dqlUE?rel=0"
+            title="Lake Baikal"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          The video report of the exploring expedition to Lake Baikal.
+        </figcaption>
+      </figure>
     </div>
   </main>
   <footer>
