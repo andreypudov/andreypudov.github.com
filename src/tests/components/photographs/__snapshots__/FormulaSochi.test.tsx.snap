@@ -518,19 +518,22 @@ exports[`renders correctly 1`] = `
           src="/photographs/2015-10-05_11/2015-10-05_11_045_large.webp"
         />
       </figure>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          src="//www.youtube.com/embed/XAYCQjo3m0Y?rel=0"
-          title="Начало квалификационной сессии GP2"
-        />
-      </div>
-      <p
-        className="video-caption"
-      >
-        Начало квалификационной сессии GP2
-      </p>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://www.youtube.com/embed/XAYCQjo3m0Y?rel=0"
+            title="2015 Formula 1 Russian Grand Prix"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          Начало квалификационной сессии GP2
+        </figcaption>
+      </figure>
       <figure>
         <img
           alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"
@@ -868,19 +871,22 @@ exports[`renders correctly 1`] = `
           src="/photographs/2015-10-05_11/2015-10-05_11_091_large.webp"
         />
       </figure>
-      <div
-        className="ratio ratio-16x9 gallery-video"
-      >
-        <iframe
-          src="//www.youtube.com/embed/cRuuGAEgW64?rel=0"
-          title="Начало гонки Гран При России"
-        />
-      </div>
-      <p
-        className="video-caption"
-      >
-        Начало гонки Гран При России
-      </p>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://www.youtube.com/embed/cRuuGAEgW64?rel=0"
+            title="2015 Formula 1 Russian Grand Prix"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          Начало гонки Гран При России
+        </figcaption>
+      </figure>
       <figure>
         <img
           alt="Andrey Pudov 2015 Formula 1 Russian Grand Prix"

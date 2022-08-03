@@ -1,5 +1,5 @@
 import { MemoryRouter } from 'react-router-dom'
-import Component from './../../../components/photographs/ImperialTown';
+import Component from './../../../components/articles/GoldenAge';
 import { HelmetProvider } from 'react-helmet-async';
 import renderer from 'react-test-renderer';
 

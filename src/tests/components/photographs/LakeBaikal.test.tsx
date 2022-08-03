@@ -1,5 +1,6 @@
 import { MemoryRouter } from 'react-router-dom'
-import Component from './../../../components/photographs/LakeBaikal';
+import PhotographyAlbum from './../../../components/shared/PhotographyAlbum';
+import Album from './../../../models/photographs/lakeBaikal';
 import { HelmetProvider } from 'react-helmet-async';
 import renderer from 'react-test-renderer';
 
@@ -8,7 +9,7 @@ it('renders correctly', () => {
     .create(
       <HelmetProvider>
         <MemoryRouter>
-          <Component />
+          <PhotographyAlbum album={Album} />
         </MemoryRouter>
       </HelmetProvider>)
     .toJSON();
