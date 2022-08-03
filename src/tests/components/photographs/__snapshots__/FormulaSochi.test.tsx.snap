@@ -109,11 +109,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_001_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Четырехзвездный гостиничный комплекс Богатырь, расположенный на территории «Сочи Парка»
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -121,6 +116,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_002_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Construction of the complex in the Imereti Lowlands began in 2007. The Imereti Lowlands was an important bird area protected since 1911, most of which was destroyed during the construction. Most of the venues were completed by 2013. The Olympic Park was until 2019 located in the Adlersky City District of Sochi. However, in 2019 it was transferred into the newly established urban-type settlement of Sirius.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -135,11 +135,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_004_large.webp"
         />
-        <figcaption
-          className="image-caption vertical"
-        >
-          Сердце Олимпийского парка - Олимпийский факел
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -150,7 +145,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Стена олимпийских и паралимпийских чемпионов
+          The wall of the Olympic and Paralympic champions opened in a year after the 2014 Winter Olympics.
         </figcaption>
       </figure>
       <figure>
@@ -159,6 +154,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_006_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Sochi Olympic Park
+
+Sochi Olympic Park is situated in the urban-type settlement of Sirius in Imeretinsky Valley, on the coast of the Black Sea. The Olympic Park houses the main Olympic Stadium used for the Games' ceremonies, and the venues that were used for indoor sports such as hockey, figure skating, curling, and speed skating. It also houses training facilities, the Olympic Village, the international broadcasting centre, and other amenities. The park was designed so that all of the venues would be accessible within walking distance of each other. The venues are situated around a water basin containing a fountain known as "The Waters of the Olympic Park"
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -169,7 +171,9 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Вид на первый поворот с вершины главной трибуны
+          View of the first corner of the Sochi Autodrom
+
+The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, behind Spa-Francorchamps in Belgium, Jeddah Street Circuit in Saudi Arabia, Baku City Circuit in Azerbaijan and Silverstone in the UK.
         </figcaption>
       </figure>
       <figure>
@@ -195,7 +199,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Шлемы наиболее выдающихся пилотов Scuderia Ferrari с автографами механиков и других членов команды
+          Scuderia Ferrari helmets at Autosport Museum
         </figcaption>
       </figure>
       <figure>
@@ -204,6 +208,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_011_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Scuderia Ferrari racing suits at Autosport Museum in the main tribune of Sochi Autodrom.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -214,7 +223,9 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Болид Jaguar Racing 2004 сезона, ставшим последним для команды Вольфганга Райцле. Позднее команда была продана компании Red Bull
+          Mark Webber's Jaguar R5B at Autosport Museum
+
+Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It currently competes in Formula E under the name Jaguar TCS Racing as a result of the partnership with Tata Consultancy Services. It was previously a Formula One constructor that competed in the FIA Formula One World Championship from 2000 to 2004. In addition to single-seaters, the Jaguar brand also has a rich history in various forms of sportscar racing, most notably with the XJR sportscars that enjoyed high success in the FIA World Sportscar Championship and also the IMSA GT Championship during the late 1980s and early 1990s.
         </figcaption>
       </figure>
       <figure>
@@ -223,11 +234,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_024_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          DeLorean DMC-12 известный своей ролью в качестве машины времени в кинотрилогии Роберта Земекиса «Назад в будущее»
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -259,7 +265,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Промоутер Формулы 1 в России Сергей Воробьев
+          Sergey Vorobyev is the Russian Grand Prix promoter and Chief Executive Officer of Rosgonki.
         </figcaption>
       </figure>
       <figure>
@@ -275,11 +281,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_017_large.webp"
         />
-        <figcaption
-          className="image-caption vertical"
-        >
-          Секретариат спортивных комиссаров
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -287,11 +288,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_018_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Колесные диски команды Infiniti Red Bull Racing
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -306,11 +302,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_020_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Пресс-центр Формулы 1
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -318,11 +309,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_021_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Главный вход на территорию Олимпийского Парка
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -333,7 +319,11 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Футуристического вида железнодорожная станция «Олимпийский парк»
+          Imeretinsky Kurort Railway Station
+
+The railway station of the North Caucasus Railway is located in the Adler district of Sochi. The station was built for the 2014 Winter Olympics as Olympic Park and was the main transport hub of Olympic Park, the coastal cluster. During the Olympics, 26 pairs of trains departed daily from the station to Krasnaya Polyana railway station where the remainder of the Olympic events occurred.
+
+On 15 March 2016, the station was renamed Imeretinsky Kurort.
         </figcaption>
       </figure>
       <figure>
@@ -356,6 +346,17 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_027_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Sochi Medals Plaza
+
+Centrally located within the Sochi Olympic Park sports venues, the Sochi Medals Plaza is located near the Fisht Olympic Stadium, the Black Sea coast, and was the cauldron for the Olympic Flame. It is surrounded by a large water basin.
+
+Every night, the medals of the 2014 Winter Olympics were awarded there. The stage will remain with legacy footsteps on it which will permanently record the names of all the medal winners. During the Olympics, the venue temporarily could accommodate 20,000 standing spectators.
+
+The plaza now shapes corners 2-5 of the Sochi Autodrom motor-racing circuit. The entire circuit snakes around other structures in the Sochi Olympic Park.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -363,11 +364,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_028_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Пит-лейн в первые часы после приезда команд
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -375,6 +371,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_029_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Sauber F1 Team mechanics are hard at work.
+
+The Sauber F1 Team is a Swiss Formula One team. Founded in 1970 by Peter Sauber, the team entered F1 in 1993 and experienced a moderate amount of success (but no wins) before being sold to BMW after the 2005 season and being renamed BMW Sauber for 2006, winning a race in 2008. After 2009, BMW decided to end its involvement in the sport and sold the team back to Peter Sauber. The team ran as "BMW Sauber" in 2010 (using Ferrari engines) for the TV money, before reverting back to "Sauber" in 2011.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -382,6 +385,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_030_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The box of the Marussia F1 Team
+
+The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructor which was based in Banbury, Oxfordshire, and then later Dinnington, South Yorkshire in the United Kingdom. The team was operated by Manor Motorsport, which was previously a subsidiary of Marussia Motors, a now defunct sports car manufacturer which was based in Moscow. The team originally started racing in 2010 under the "Virgin Racing" name; the following year Virgin adopted Marussia as a title sponsor becoming "Marussia Virgin Racing" until being fully rebranded as the "Marussia F1 Team" for 2012.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -396,11 +406,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_032_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Паддок принимает гостей
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -408,11 +413,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_033_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Зарядка механиков Scuderia Ferrari перед работой
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -420,6 +420,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_034_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Scuderia Ferrari mechanics performing warm-up exercises.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -427,6 +432,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_035_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The Sochi Autodrom, previously known as the Sochi International Street Circuit and the Sochi Olympic Park Circuit, is a 5.848 km (3.634 mi) Formula One permanent race track in the settlement of Sirius next to the Black Sea resort town of Sochi in Krasnodar Krai, Russia.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -437,7 +447,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Себастьян Феттель осматривает трассу с членами команды
+          Scuderia Ferrari lead pilot Sebastian Vettel inspecting the track.
         </figcaption>
       </figure>
       <figure>
@@ -446,6 +456,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_037_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The circuit is similar to the Beijing Olympic Green Circuit and the Sydney Olympic Park Circuit in that it runs around a former Olympic complex; in this case, the Sochi Olympic Park site, scene of the 2014 Winter Olympic Games. The inaugural World Championship Russian Grand Prix took place in 2014, beginning a seven-year contract.
+
+Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Russian Series and SMP F4 Championship as support series.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -460,11 +477,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_039_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Гоночный симулятор в игровой зоне
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -486,11 +498,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_042_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Болельщики в ожидании автографов своих кумиров
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -508,7 +515,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Автограф сессия Red Bull. Даниил Квят и Даниэль Риккардо
+          Red Bull pilots Daniil Kvyat and Daniel Ricciardo on the autograph session.
         </figcaption>
       </figure>
       <figure>
@@ -531,7 +538,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="video-caption"
         >
-          Начало квалификационной сессии GP2
+          The start of the GP2 qualification session.
         </figcaption>
       </figure>
       <figure>
@@ -540,6 +547,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_046_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Governor of Krasnodar Krai Aleksandr Tkachov (driving) and chief executive of the Formula One Group Bernie Ecclestone on an excursion across the Olympic Pack by the Safety car.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -547,11 +559,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_047_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Александр Ткачёв (за рулем) и Берни Экклстоун совершают экскурсию по вечернему Олимпийскому парку
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -580,6 +587,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_051_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Daniil Kvyat drives Red Bull RB11
+
+Daniil Kvyat is a Russian racing driver who competed in Formula One between 2014–2017 and 2019–2020, racing under the Russian flag. He became the second Formula One driver from Russia and is the most successful of the four Russian drivers to date, with three podiums.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -608,6 +622,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_055_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The Bolshoy Ice Dome is a multi-purpose indoor arena located in Olympic Park, Sochi, Russia. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.
+
+The arena's exterior is distinguished by its LED-illuminated roof, which its designers described as resembling fabergé eggs and frozen water droplets.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -615,6 +636,15 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_056_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Iceberg Skating Palace
+
+The Iceberg Skating Palace is a 12,000-seat multi-purpose arena at Sochi Olympic Park. The venue hosted the figure skating and short track speed skating events at the 2014 Winter Olympics. It cost $43.9 million, including the temporary works for the Olympics. 15,000 tonnes of steel were used. The environment was taken into consideration in its construction.
+
+Plans had originally existed for the arena to converted into a cycling velodrome following the Olympics.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -622,6 +652,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_057_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The photographers who follow Formula 1 have to deal with more factors than snappers in most other sports. First, there's the speed of the cars which travel at more than three hundred kilometers per hour. Then there's the weather as the races are all outdoors. They take place in more than twenty countries over an eight-month period.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -629,11 +664,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_058_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Девушки из павильона Marlboro «Red or White»
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -662,6 +692,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_062_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The first race of GP2 series.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -711,6 +746,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_069_large.webp"
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The first race of GP2 series.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -746,6 +786,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_074_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The night before the race.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -805,7 +850,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Церемония открытия гонок
+          Pre-race performance of nesting dolls. Matryoshka in a helmet is a logo of the Russian Grand Prix.
         </figcaption>
       </figure>
       <figure>
@@ -821,6 +866,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_084_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Pre-race ballet dancers on the grid.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -835,6 +885,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_086_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Grid girls prior to the race.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -856,6 +911,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_089_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Mechanics and engineers on the grid prior to the start of the race.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -870,6 +930,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_091_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Mechanics prepare cars making final changes that could define a race.
+        </figcaption>
       </figure>
       <figure>
         <div
@@ -884,7 +949,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="video-caption"
         >
-          Начало гонки Гран При России
+          The start of the Formula 1 race.
         </figcaption>
       </figure>
       <figure>
@@ -896,7 +961,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Кортеж Его Превосходительства Президента Российской Федерации Владимира Путина, прибывающего на трассу
+          His Excellency Vladimir Vladimirovich Putin, President of the Russian Federation. Arriving late at the Sochi Autodrom.
         </figcaption>
       </figure>
       <figure>
@@ -905,6 +970,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_093_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          VIP Luxury Seating at Sochi Autodrom
+
+The Federal Guard Service of the Russian Federation is a federal government agency concerned with the tasks related to the protection of several high-ranking state officials, mandated by the relevant law, including the President of Russia, as well as certain federal properties. It traces its origin to the USSR's Ninth Chief Directorate of the KGB and later Presidential Security Service (SBP) led by KGB general Alexander Korzhakov.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -929,7 +1001,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Рестарт гонки после аварии Ромена Грожана на семнадцатом круге
+          The restart of the race after Romain Grosjean suffered an appalling crash.
         </figcaption>
       </figure>
       <figure>
@@ -938,6 +1010,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_097_large.webp"
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The Formula One Paddock Club is the official exclusive VIP hospitality for every Formula One Grand Prix. Guests enjoy the best views of any track from magnificent facilities, gourmet multi-course meals, and open Champagne bars.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -945,6 +1022,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_098_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Sebastian Vettel
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -952,6 +1034,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_099_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          President Vladimir Putin and Bernie Ecclestone, chief executive of the Formula One Group, which manages Formula One motor racing and controls the commercial rights to the sport.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -966,11 +1053,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_101_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Церемония награждения победителей
-        </figcaption>
       </figure>
       <figure>
         <img
@@ -978,6 +1060,13 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_102_large.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Podium Ceremony
+
+Lewis Hamilton won the race for the second season in a row, extending his Drivers' Championship lead to 66 points. With Nico Rosberg retiring early in the race, Sebastian Vettel reclaimed second place in the standings for the first time since his round two victory in Malaysia with a second-place finish. Sergio Pérez completed the podium in third for Force India. 
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -992,11 +1081,6 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_104_large.webp"
         />
-        <figcaption
-          className="image-caption"
-        >
-          Опустевшие Пит-лейн и боксы спустя пару часов после гонки. Команды готовятся к отъезду
-        </figcaption>
       </figure>
     </div>
   </main>
