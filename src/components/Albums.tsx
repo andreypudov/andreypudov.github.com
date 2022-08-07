@@ -16,6 +16,7 @@ import AlinaCherdakova from './../models/photographs/alinaCherdakova';
 import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
+import EkaterinaMalysheva from './../models/photographs/ekaterinaMalysheva';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import Strigino from './../models/photographs/strigino';
 import Maks from './../models/photographs/maks';
@@ -138,6 +139,14 @@ function Albums() {
               <img src = { KiraOrlova.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ KiraOrlova.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/ekaterina-malysheva' className = 'card bg-dark text-white gallery-image'>
+              <img src = { EkaterinaMalysheva.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ EkaterinaMalysheva.getTitle() }</h6>
               </div>
             </Link>
           </div>
