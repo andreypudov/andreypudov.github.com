@@ -7,6 +7,7 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
+import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
 import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
@@ -87,6 +88,12 @@ function Contents() {
             <Link to = '/photographs/castillo-de-mataplana'>
               { CastilloDeMataplana.getTitle() }
               <small>{ CastilloDeMataplana.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/turo-de-lhome'>
+              { TuroDeLHome.getTitle() }
+              <small>{ TuroDeLHome.getDate() }</small>
             </Link>
           </li>
           <li>
