@@ -85,15 +85,15 @@ function Contents() {
             </Link>
           </li>
           <li>
-            <Link to = '/photographs/castillo-de-mataplana'>
-              { CastilloDeMataplana.getTitle() }
-              <small>{ CastilloDeMataplana.getDate() }</small>
-            </Link>
-          </li>
-          <li>
             <Link to = '/photographs/turo-de-lhome'>
               { TuroDeLHome.getTitle() }
               <small>{ TuroDeLHome.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/castillo-de-mataplana'>
+              { CastilloDeMataplana.getTitle() }
+              <small>{ CastilloDeMataplana.getDate() }</small>
             </Link>
           </li>
           <li>
