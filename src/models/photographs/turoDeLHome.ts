@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Turó de l\'Home',
   new Date('2022-08-07'),
-  new Photograph('/photographs/2022-08-07/2022-08-07_008.webp'),
+  new Photograph('/photographs/2022-08-07/2022-08-07_019.webp'),
   [
     new Photograph('/photographs/2022-08-07/2022-08-07_001.webp'),
     new Photograph('/photographs/2022-08-07/2022-08-07_002.webp'),
