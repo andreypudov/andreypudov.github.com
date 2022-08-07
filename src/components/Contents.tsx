@@ -16,6 +16,7 @@ import AlinaCherdakova from './../models/photographs/alinaCherdakova';
 import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import KiraOrlova from './../models/photographs/kiraOrlova';
+import EkaterinaMalysheva from './../models/photographs/ekaterinaMalysheva';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import Strigino from './../models/photographs/strigino';
 import Maks from './../models/photographs/maks';
@@ -140,6 +141,12 @@ function Contents() {
             <Link to = '/photographs/kira-orlova'>
               { KiraOrlova.getTitle() }
               <small>{ KiraOrlova.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/ekaterina-malysheva'>
+              { EkaterinaMalysheva.getTitle() }
+              <small>{ EkaterinaMalysheva.getDate() }</small>
             </Link>
           </li>
           <li>
