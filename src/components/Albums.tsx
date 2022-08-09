@@ -16,6 +16,7 @@ import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
 import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
+import RideInRekshino from './../models/photographs/rideInRekshino';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import EkaterinaMalysheva from './../models/photographs/ekaterinaMalysheva';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
@@ -140,6 +141,14 @@ function Albums() {
               <img src = { ConqueringRome.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ ConqueringRome.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/ride-in-rekshino' className = 'card bg-dark text-white gallery-image'>
+              <img src = { RideInRekshino.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ RideInRekshino.getTitle() }</h6>
               </div>
             </Link>
           </div>

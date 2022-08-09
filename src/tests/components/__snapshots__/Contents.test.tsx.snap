@@ -161,23 +161,23 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/castillo-de-mataplana"
-            onClick={[Function]}
-          >
-            Castillo de Mataplana
-            <small>
-              Sunday, July 24, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/photographs/turo-de-lhome"
             onClick={[Function]}
           >
             Turó de l'Home
             <small>
               Sunday, August 7, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/castillo-de-mataplana"
+            onClick={[Function]}
+          >
+            Castillo de Mataplana
+            <small>
+              Sunday, July 24, 2022
             </small>
           </a>
         </li>
@@ -266,6 +266,17 @@ exports[`renders correctly 1`] = `
             Conquering Rome and Order of Malta
             <small>
               Friday, January 5, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/ride-in-rekshino"
+            onClick={[Function]}
+          >
+            Ride in Rekshino
+            <small>
+              Saturday, October 28, 2017
             </small>
           </a>
         </li>
