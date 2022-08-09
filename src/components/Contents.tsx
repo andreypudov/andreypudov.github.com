@@ -16,6 +16,7 @@ import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
 import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
+import RideInRekshino from './../models/photographs/rideInRekshino';
 import KiraOrlova from './../models/photographs/kiraOrlova';
 import EkaterinaMalysheva from './../models/photographs/ekaterinaMalysheva';
 import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
@@ -142,6 +143,12 @@ function Contents() {
             <Link to = '/photographs/rome-malta'>
               { ConqueringRome.getTitle() }
               <small>{ ConqueringRome.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/ride-in-rekshino'>
+              { RideInRekshino.getTitle() }
+              <small>{ RideInRekshino.getDate() }</small>
             </Link>
           </li>
           <li>
