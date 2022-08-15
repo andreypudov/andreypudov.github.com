@@ -120,7 +120,10 @@ export default new Album(
     new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_087_large.webp', true),
     new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_088_large.webp', true),
     new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_089_large.webp'),
-    new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_090_large.webp', true),
-    new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_091_large.webp', true),
-    new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.webp'),
+    new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_090_large.webp', true,
+      'The Blue Mosque in Istanbul is an Ottoman-era historical imperial mosque. A functioning mosque, it also attracts large numbers of tourist visitors. It was constructed between 1609 and 1616 during the rule of Ahmed I. Its Külliye contains Ahmed\'s tomb, a madrasah, and a hospice. Hand-painted blue tiles adorn the mosque’s interior walls, and at night the mosque is bathed in blue as lights frame the mosque’s five main domes, six minarets, and eight secondary domes. It sits next to the Hagia Sophia, the principal mosque of Istanbul until the Blue Mosque\'s construction and another popular tourist site. The Blue Mosque was included in the UNESCO World Heritage Site list in 1985 under the name of "Historic Areas of Istanbul".'),
+    new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_091_large.webp', true,
+      'After the Peace of Zsitvatorok and the crushing loss in the 1603–18 war with Persia, Sultan Ahmed I decided to build a large mosque in Istanbul to reassert Ottoman power. It would be the first imperial mosque for more than forty years. While his predecessors had paid for their mosques with the spoils of war, Ahmed I procured funds from the Treasury, because he had not gained remarkable victories. The construction was started in 1609 and completed in 1616.'),
+    new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.webp', false,
+      'Having been paid from the public treasury rather than from the sultan\'s war booty, as was done normally, it caused the anger of the ulama, the Muslim jurists. The mosque was built on the site of the palace of the Byzantine emperors, in front of the basilica Hagia Sophia (at that time, the primary imperial mosque in Istanbul) and the hippodrome, a site of significant symbolic meaning as it dominated the city skyline from the south. Big parts of the south shore of the mosque rest on the foundations, the vaults of the old Grand Palace.'),
   ]);

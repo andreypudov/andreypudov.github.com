@@ -161,6 +161,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/puigmal"
+            onClick={[Function]}
+          >
+            Puigmal
+            <small>
+              Monday, August 15, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/turo-de-lhome"
             onClick={[Function]}
           >
