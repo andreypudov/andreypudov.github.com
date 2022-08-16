@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Andrey Pudov',
   new Date('2022-07-09'),
-  new Photograph('/photographs/2022-07-09/2022-07-09_025.webp'),
+  new Photograph('/photographs/2016-04-16/2016-04-16_002.webp'),
   [
     new Photograph('/photographs/2022-07-09/2022-07-09_001.webp', true),
     // new Photograph('/photographs/2022-07-09/2022-07-09_002.webp', true),
