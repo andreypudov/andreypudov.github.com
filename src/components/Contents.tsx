@@ -12,6 +12,8 @@ import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
 import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
+import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
+import IrinaDomracheva from './../models/photographs/irinaDomracheva';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
@@ -120,6 +122,18 @@ function Contents() {
             <Link to = '/photographs/altay'>
               { Altay.getTitle() }
               <small>{ Altay.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/ekaterina-domracheva'>
+              { EkaterinaDomracheva.getTitle() }
+              <small>{ EkaterinaDomracheva.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/irina-domracheva'>
+              { IrinaDomracheva.getTitle() }
+              <small>{ IrinaDomracheva.getDate() }</small>
             </Link>
           </li>
           <li>

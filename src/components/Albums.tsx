@@ -12,6 +12,8 @@ import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
 import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
+import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
+import IrinaDomracheva from './../models/photographs/irinaDomracheva';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
@@ -47,6 +49,7 @@ import Watercolor from './../models/drawings/watercolor';
 
 import TimeLapses from './../models/videos/timeLapses';
 import AlbumsView from './shared/Albums';
+import ekaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
 
 function Albums() {
   return (
@@ -110,6 +113,22 @@ function Albums() {
               <img src = { Altay.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ Altay.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/ekaterina-domracheva' className = 'card bg-dark text-white gallery-image'>
+              <img src = { EkaterinaDomracheva.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ EkaterinaDomracheva.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/irina-domracheva' className = 'card bg-dark text-white gallery-image'>
+              <img src = { IrinaDomracheva.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ IrinaDomracheva.getTitle() }</h6>
               </div>
             </Link>
           </div>
