@@ -18,6 +18,8 @@ import CastilloDeMataplana from './models/photographs/castilloDeMataplana';
 import AndreyPudov from './models/photographs/andreyPudov';
 import Crimea from './models/photographs/crimea';
 import Altay from './models/photographs/altay';
+import EkaterinaDomracheva from './models/photographs/ekaterinaDomracheva';
+import IrinaDomracheva from './models/photographs/irinaDomracheva';
 import NizhnyNovgorod from './models/photographs/nizhnyNovgorod';
 import Rekshino from './models/photographs/rekshino';
 import AlinaCherdakova from './models/photographs/alinaCherdakova';
@@ -60,6 +62,7 @@ import MiaAndSebastian from './models/performances/miaAndSebastian';
 import DrawingAlbum from './components/shared/DrawingAlbum';
 import PhotographyAlbum from './components/shared/PhotographyAlbum';
 import PerformanceAlbum from './components/shared/PerformanceAlbum';
+import ekaterinaDomracheva from './models/photographs/ekaterinaDomracheva';
 
 function routes() {
   return (
@@ -81,6 +84,8 @@ function routes() {
       <Route path = '/photographs/andrey-pudov' element = { <PhotographyAlbum album = { AndreyPudov } /> } />
       <Route path = '/photographs/crimea' element = { <PhotographyAlbum album = { Crimea } /> } />
       <Route path = '/photographs/altay' element = { <PhotographyAlbum album = { Altay } /> } />
+      <Route path = '/photographs/ekaterina-domracheva' element = { <PhotographyAlbum album = { ekaterinaDomracheva } /> } />
+      <Route path = '/photographs/irina-domracheva' element = { <PhotographyAlbum album = { IrinaDomracheva } /> } />
       <Route path = '/photographs/nizhny-novgorod' element = { <PhotographyAlbum album = { NizhnyNovgorod } /> } />
       <Route path = '/photographs/rekshino' element = { <PhotographyAlbum album = { Rekshino } /> } />
       <Route path = '/photographs/alina-cherdakova' element = { <PhotographyAlbum album = { AlinaCherdakova } /> } />
