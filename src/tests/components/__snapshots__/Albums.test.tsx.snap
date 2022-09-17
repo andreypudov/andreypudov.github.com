@@ -229,6 +229,30 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
+            href="/photographs/poblenou-cemetery"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2022-07-08/2022-07-08_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Poblenou Cemetery
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
             href="/photographs/crimea"
             onClick={[Function]}
           >

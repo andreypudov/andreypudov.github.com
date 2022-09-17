@@ -10,6 +10,8 @@ import Favorites from './../models/photographs/favorites';
 import Puigmal from './../models/photographs/puigmal';
 import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
+import AndreyPudov from './../models/photographs/andreyPudov';
+import PoblenouCemetery from './../models/photographs/poblenouCemetery';
 import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
 import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
@@ -31,7 +33,6 @@ import PartnersDay from './../models/photographs/partnersDay';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi2 from './../models/photographs/formulaSochi2';
-import AndreyPudov from './../models/photographs/andreyPudov';
 import LolitaRakhmatova from './../models/photographs/lolitaRakhmatova';
 import IntelProducts from './../models/photographs/intelProducts';
 import FormulaSochi from './../models/photographs/formulaSochi';
@@ -49,7 +50,6 @@ import Watercolor from './../models/drawings/watercolor';
 
 import TimeLapses from './../models/videos/timeLapses';
 import AlbumsView from './shared/Albums';
-import ekaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
 
 function Albums() {
   return (
@@ -97,6 +97,14 @@ function Albums() {
               <img src = { AndreyPudov.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ AndreyPudov.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/poblenou-cemetery' className = 'card bg-dark text-white gallery-image'>
+              <img src = { PoblenouCemetery.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ PoblenouCemetery.getTitle() }</h6>
               </div>
             </Link>
           </div>

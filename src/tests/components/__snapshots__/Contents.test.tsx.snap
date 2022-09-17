@@ -205,6 +205,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/poblenou-cemetery"
+            onClick={[Function]}
+          >
+            Poblenou Cemetery
+            <small>
+              Friday, July 8, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/crimea"
             onClick={[Function]}
           >
