@@ -250,11 +250,11 @@ Mitoraj's sculptures typically referenced Antiquity. His art divided critics, wi
       <figure>
         <img
           alt="Andrey Pudov Conquering Rome and Order of Malta"
-          className="img-responsive gallery-image vertical"
+          className="img-responsive gallery-image"
           src="/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_013_large.webp"
         />
         <figcaption
-          className="image-caption vertical"
+          className="image-caption"
         >
           Statue of Daedalus
 
