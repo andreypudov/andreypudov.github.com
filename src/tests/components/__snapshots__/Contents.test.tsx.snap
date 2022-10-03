@@ -293,6 +293,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/looking-for-the-wind"
+            onClick={[Function]}
+          >
+            Looking for the Wind
+            <small>
+              Sunday, May 27, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/balloon-festival"
             onClick={[Function]}
           >

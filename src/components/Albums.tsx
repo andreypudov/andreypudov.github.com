@@ -19,6 +19,7 @@ import IrinaDomracheva from './../models/photographs/irinaDomracheva';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
+import LookingForTheWind from './../models/photographs/lookingForTheWind';
 import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import RideInRekshino from './../models/photographs/rideInRekshino';
@@ -161,6 +162,14 @@ function Albums() {
               <img src = { AlinaCherdakova.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ AlinaCherdakova.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/looking-for-the-wind' className = 'card bg-dark text-white gallery-image'>
+              <img src = { LookingForTheWind.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ LookingForTheWind.getTitle() }</h6>
               </div>
             </Link>
           </div>

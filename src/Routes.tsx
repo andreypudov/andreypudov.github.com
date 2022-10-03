@@ -24,6 +24,7 @@ import IrinaDomracheva from './models/photographs/irinaDomracheva';
 import NizhnyNovgorod from './models/photographs/nizhnyNovgorod';
 import Rekshino from './models/photographs/rekshino';
 import AlinaCherdakova from './models/photographs/alinaCherdakova';
+import LookingForTheWind from './models/photographs/lookingForTheWind';
 import BalloonFestival from './models/photographs/balloonFestival';
 import ConqueringRome from './models/photographs/conqueringRome';
 import RideInRekshino from './models/photographs/rideInRekshino';
@@ -90,6 +91,7 @@ function routes() {
       <Route path = '/photographs/nizhny-novgorod' element = { <PhotographyAlbum album = { NizhnyNovgorod } /> } />
       <Route path = '/photographs/rekshino' element = { <PhotographyAlbum album = { Rekshino } /> } />
       <Route path = '/photographs/alina-cherdakova' element = { <PhotographyAlbum album = { AlinaCherdakova } /> } />
+      <Route path = '/photographs/looking-for-the-wind' element = { <PhotographyAlbum album = { LookingForTheWind } /> } />
       <Route path = '/photographs/balloon-festival' element = { <PhotographyAlbum album = { BalloonFestival } /> } />
       <Route path = '/photographs/rome-malta' element = { <PhotographyAlbum album = { ConqueringRome } /> } />
       <Route path = '/photographs/ride-in-rekshino' element = { <PhotographyAlbum album = { RideInRekshino } /> } />
