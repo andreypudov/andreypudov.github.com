@@ -1,21 +1,20 @@
 [[https://andreypudov.com][Andrey Pudov]]
-==========================
 
 Driven professional with broad technical skill set. Thrives in environments that constantly embrace new technologies. Interested in challenging and varied position that will enable me to capitalize on sound technical and project management expertise, with opportunities for personal and professional growth.
 
 * Experience
 
-** **Combination AB**
+** *Combination AB*
   - *Sr. Software Development Engineer* / 2021 - present
 
-** **EPAM Systems**
+** *EPAM Systems*
   - *Sr. Software Development Engineer** / 2020 - 2021
 
     Developed an innovative platform for data-driven facility management decision-making for United States Golf Association, employing scalable microservice architecture on Microsoft Azure cloud infrastructure. Designed and maintained RESTful APIs services build on top of ASP.NET Core, Entity Core, Microsoft. SQL Server, Kafka, Autofac, and AutoMapper. Created extensive unit, and integration tests in a test-driven development environment.
 
     Led and mentored a team of interns working on the random coffee website that helps build great relationships with the company members. Involved in gathering and in understanding the business requirements of the project. Helped interns to create short-term and long-term goals and supported them along the way. Offered guidance to deal with challenging problems and meet deadlines.
 
-** **Intel Corporation**
+** *Intel Corporation*
   - *Senior Software Engineer Technical Lead* / 2018 - 2020
 
     Took the role of team leader for the new team in Nizhny Novgorod. Actively participated in hiring and team building process by mentoring almost all hired employees and ensuring their quick and efficient integration. In addition, drove engagement with business-critical stakeholders and organization of product building and distribution processes.
