@@ -19,6 +19,7 @@ import IrinaDomracheva from './../models/photographs/irinaDomracheva';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
+import LookingForTheWind from './../models/photographs/lookingForTheWind';
 import BalloonFestival from './../models/photographs/balloonFestival';
 import ConqueringRome from './../models/photographs/conqueringRome';
 import RideInRekshino from './../models/photographs/rideInRekshino';
@@ -159,6 +160,12 @@ function Contents() {
             <Link to = '/photographs/alina-cherdakova'>
               { AlinaCherdakova.getTitle() }
               <small>{ AlinaCherdakova.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/looking-for-the-wind'>
+              { LookingForTheWind.getTitle() }
+              <small>{ LookingForTheWind.getDate() }</small>
             </Link>
           </li>
           <li>
