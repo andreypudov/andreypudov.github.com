@@ -421,6 +421,30 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
+            href="/photographs/tatyana-bysheva"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2017-07-22/2017-07-22_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Tatyana Bysheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
             href="/photographs/looking-for-the-wind"
             onClick={[Function]}
           >
@@ -628,30 +652,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 MAKS International Aviation and Space Show
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/tatyana-bysheva"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img"
-              src="/photographs/2017-07-22/2017-07-22_001.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Tatyana Bysheva
               </h6>
             </div>
           </a>

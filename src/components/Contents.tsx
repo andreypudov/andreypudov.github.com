@@ -163,6 +163,12 @@ function Contents() {
             </Link>
           </li>
           <li>
+            <Link to = '/photographs/tatyana-bysheva'>
+              { TatyanaBysheva.getTitle() }
+              <small>{ TatyanaBysheva.getDate() }</small>
+            </Link>
+          </li>
+          <li>
             <Link to = '/photographs/looking-for-the-wind'>
               { LookingForTheWind.getTitle() }
               <small>{ LookingForTheWind.getDate() }</small>
@@ -214,12 +220,6 @@ function Contents() {
             <Link to = '/photographs/maks'>
               { Maks.getTitle() }
               <small>{ Maks.getDate() }</small>
-            </Link>
-          </li>
-          <li>
-            <Link to = '/photographs/tatyana-bysheva'>
-              { TatyanaBysheva.getTitle() }
-              <small>{ TatyanaBysheva.getDate() }</small>
             </Link>
           </li>
           <li>
