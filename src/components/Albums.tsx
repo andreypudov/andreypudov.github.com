@@ -166,6 +166,14 @@ function Albums() {
             </Link>
           </div>
           <div className = 'col-md-4'>
+            <Link to = '/photographs/tatyana-bysheva' className = 'card bg-dark text-white gallery-image'>
+              <img src = { TatyanaBysheva.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ TatyanaBysheva.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
             <Link to = '/photographs/looking-for-the-wind' className = 'card bg-dark text-white gallery-image'>
               <img src = { LookingForTheWind.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
@@ -234,14 +242,6 @@ function Albums() {
               <img src = { Maks.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ Maks.getTitle() }</h6>
-              </div>
-            </Link>
-          </div>
-          <div className = 'col-md-4'>
-            <Link to = '/photographs/tatyana-bysheva' className = 'card bg-dark text-white gallery-image'>
-              <img src = { TatyanaBysheva.getCover().src } className = 'card-img' alt = '' />
-              <div className = 'card-img-overlay'>
-                <h6 className = 'card-title'>{ TatyanaBysheva.getTitle() }</h6>
               </div>
             </Link>
           </div>
