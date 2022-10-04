@@ -126,6 +126,42 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
+          href="/photographs/poblenou-cemetery"
+          onClick={[Function]}
+        >
+          <img
+            alt="Poblenou Cemetery"
+            className="d-block w-100"
+            src="images/carousel/poblenou-cemetery.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Poblenou Cemetery
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
+          href="/photographs/puigmal"
+          onClick={[Function]}
+        >
+          <img
+            alt="Puigmal"
+            className="d-block w-100"
+            src="images/carousel/puigmal.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Puigmal
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
           href="/photographs/crimea"
           onClick={[Function]}
         >
@@ -139,42 +175,6 @@ exports[`renders correctly 1`] = `
           >
             <h5>
               Crimean Holidays
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/altay"
-          onClick={[Function]}
-        >
-          <img
-            alt="Altay. Conquering Siberia 2.0"
-            className="d-block w-100"
-            src="images/carousel/altay.webp"
-          />
-          <div
-            className="carousel-caption d-none d-md-block"
-          >
-            <h5>
-              Altay. Conquering Siberia 2.0
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/nizhny-novgorod"
-          onClick={[Function]}
-        >
-          <img
-            alt="Nizhny Novgorod"
-            className="d-block w-100"
-            src="images/carousel/nizhny-novgorod.webp"
-          />
-          <div
-            className="carousel-caption d-none d-md-block text-dark"
-          >
-            <h5>
-              Nizhny Novgorod
             </h5>
           </div>
         </a>
@@ -228,7 +228,21 @@ exports[`renders correctly 1`] = `
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="images/marketing/favorite-photographs.webp"
+              src="images/marketing/formula-sochi-2-0.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/altay"
+            onClick={[Function]}
+          >
+            <img
+              alt="Altay. Conquering Siberia 2.0"
+              className="img-fluid"
+              src="images/marketing/altay.webp"
             />
           </a>
         </div>
@@ -257,20 +271,6 @@ exports[`renders correctly 1`] = `
               alt="Alina Cherdakova"
               className="img-fluid"
               src="images/marketing/alina-cherdakova.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/rome-malta"
-            onClick={[Function]}
-          >
-            <img
-              alt="Conquering Rome and Order of Malta"
-              className="img-fluid"
-              src="images/marketing/rome-malta.webp"
             />
           </a>
         </div>
