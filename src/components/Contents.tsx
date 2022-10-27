@@ -16,6 +16,7 @@ import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
 import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
 import IrinaDomracheva from './../models/photographs/irinaDomracheva';
+import IntelOffice from './../models/photographs/intelOffice';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
@@ -142,6 +143,12 @@ function Contents() {
             <Link to = '/photographs/irina-domracheva'>
               { IrinaDomracheva.getTitle() }
               <small>{ IrinaDomracheva.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/intel-office'>
+              { IntelOffice.getTitle() }
+              <small>{ IntelOffice.getDate() }</small>
             </Link>
           </li>
           <li>
