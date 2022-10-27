@@ -21,6 +21,7 @@ import Crimea from './models/photographs/crimea';
 import Altay from './models/photographs/altay';
 import EkaterinaDomracheva from './models/photographs/ekaterinaDomracheva';
 import IrinaDomracheva from './models/photographs/irinaDomracheva';
+import IntelOffice from './models/photographs/intelOffice';
 import NizhnyNovgorod from './models/photographs/nizhnyNovgorod';
 import Rekshino from './models/photographs/rekshino';
 import AlinaCherdakova from './models/photographs/alinaCherdakova';
@@ -88,6 +89,7 @@ function routes() {
       <Route path = '/photographs/altay' element = { <PhotographyAlbum album = { Altay } /> } />
       <Route path = '/photographs/ekaterina-domracheva' element = { <PhotographyAlbum album = { EkaterinaDomracheva } /> } />
       <Route path = '/photographs/irina-domracheva' element = { <PhotographyAlbum album = { IrinaDomracheva } /> } />
+      <Route path = '/photographs/intel-office' element = { <PhotographyAlbum album = { IntelOffice } /> } />
       <Route path = '/photographs/nizhny-novgorod' element = { <PhotographyAlbum album = { NizhnyNovgorod } /> } />
       <Route path = '/photographs/rekshino' element = { <PhotographyAlbum album = { Rekshino } /> } />
       <Route path = '/photographs/alina-cherdakova' element = { <PhotographyAlbum album = { AlinaCherdakova } /> } />
