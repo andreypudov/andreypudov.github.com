@@ -12,6 +12,7 @@ import GoldenAge from './components/articles/GoldenAge';
 import ImperialTown from './components/articles/ImperialTown';
 
 import Favorites from './models/photographs/favorites';
+import Andorra from './models/photographs/andorra';
 import Puigmal from './models/photographs/puigmal';
 import TuroDeLHome from './models/photographs/turoDeLHome';
 import CastilloDeMataplana from './models/photographs/castilloDeMataplana';
@@ -80,6 +81,7 @@ function routes() {
       <Route path = '/photographs/imperial-town' element = { <ImperialTown /> } />
 
       <Route path = '/photographs/favorite-photographs' element = { <PhotographyAlbum album = { Favorites } /> } />
+      <Route path = '/photographs/andorra' element = { <PhotographyAlbum album = { Andorra } /> } />
       <Route path = '/photographs/puigmal' element = { <PhotographyAlbum album = { Puigmal } /> } />
       <Route path = '/photographs/turo-de-lhome' element = { <PhotographyAlbum album = { TuroDeLHome } /> } />
       <Route path = '/photographs/castillo-de-mataplana' element = { <PhotographyAlbum album = { CastilloDeMataplana } /> } />
