@@ -7,6 +7,7 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
+import Andorra from './../models/photographs/andorra';
 import Puigmal from './../models/photographs/puigmal';
 import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
@@ -89,6 +90,12 @@ function Contents() {
             <Link to = '/photographs/favorite-photographs'>
               { Favorites.getTitle() }
               <small>{ Favorites.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/andorra'>
+              { Andorra.getTitle() }
+              <small>{ Andorra.getDate() }</small>
             </Link>
           </li>
           <li>
