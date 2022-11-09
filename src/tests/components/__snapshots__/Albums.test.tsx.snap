@@ -331,7 +331,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img"
-              src="/photographs/2020-05-11/2020-05-11_006.webp"
+              src="/photographs/2020-05-11/2020-05-11_014.webp"
             />
             <div
               className="card-img-overlay"
