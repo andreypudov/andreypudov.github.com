@@ -11,7 +11,13 @@ function Home() {
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '2' aria-label = 'Slide 3'></button>
         </ol>
         <div className = 'carousel-inner'>
-        <Link to = '/photographs/poblenou-cemetery' className = 'carousel-item active'>
+          <Link to = '/photographs/ekaterina-domracheva' className = 'carousel-item active'>
+            <img src = 'images/carousel/ekaterina-domracheva.webp' alt = 'Ekaterina Domracheva' className = 'd-block w-100' />
+            <div className = 'carousel-caption d-none d-md-block'>
+              <h5>Ekaterina Domracheva</h5>
+            </div>
+          </Link>
+          <Link to = '/photographs/poblenou-cemetery' className = 'carousel-item'>
             <img src = 'images/carousel/poblenou-cemetery.webp' alt = 'Poblenou Cemetery' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Poblenou Cemetery</h5>
@@ -23,12 +29,12 @@ function Home() {
               <h5>Puigmal</h5>
             </div>
           </Link>
-          <Link to = '/photographs/crimea' className = 'carousel-item'>
+          {/* <Link to = '/photographs/crimea' className = 'carousel-item'>
             <img src = 'images/carousel/crimea.webp' alt = 'Crimean Holidays' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Crimean Holidays</h5>
             </div>
-          </Link>
+          </Link> */}
         </div>
         <button className = 'carousel-control-prev' type = 'button' data-bs-target = '#homeCarousel'  data-bs-slide = 'prev'>
           <span className = 'carousel-control-prev-icon' aria-hidden = 'true'></span>

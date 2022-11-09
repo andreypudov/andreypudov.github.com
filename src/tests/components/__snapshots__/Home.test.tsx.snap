@@ -126,6 +126,24 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
+          href="/photographs/ekaterina-domracheva"
+          onClick={[Function]}
+        >
+          <img
+            alt="Ekaterina Domracheva"
+            className="d-block w-100"
+            src="images/carousel/ekaterina-domracheva.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Ekaterina Domracheva
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
           href="/photographs/poblenou-cemetery"
           onClick={[Function]}
         >
@@ -157,24 +175,6 @@ exports[`renders correctly 1`] = `
           >
             <h5>
               Puigmal
-            </h5>
-          </div>
-        </a>
-        <a
-          className="carousel-item"
-          href="/photographs/crimea"
-          onClick={[Function]}
-        >
-          <img
-            alt="Crimean Holidays"
-            className="d-block w-100"
-            src="images/carousel/crimea.webp"
-          />
-          <div
-            className="carousel-caption d-none d-md-block"
-          >
-            <h5>
-              Crimean Holidays
             </h5>
           </div>
         </a>
