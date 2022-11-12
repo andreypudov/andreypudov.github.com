@@ -14,8 +14,8 @@ import 'bootstrap/dist/../js/dist/collapse.js';
 import './styles/style.scss';
 
 
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-74198577-1');
+import ReactGA from 'react-ga4';
+ReactGA.initialize('G-E0Y9W77G5B');
 
 const root = document.getElementById("root");
 const app = (<React.StrictMode>
