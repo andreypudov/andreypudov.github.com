@@ -393,24 +393,6 @@ Designed principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lo
         </p>
       </ul>
     </div>
-    <script
-      src="libraries/jquery/jquery-1.11.3.min.js"
-    />
-    <script
-      src="libraries/bootstrap/js/collapse.js"
-    />
-    <script
-      src="libraries/bootstrap/js/dropdown.js"
-    />
-    <script
-      src="libraries/bootstrap/js/transition.js"
-    />
-    <script
-      src="libraries/bootstrap/js/carousel.js"
-    />
-    <script
-      src="scripts/init.js"
-    />
   </footer>
 </div>
 `;
