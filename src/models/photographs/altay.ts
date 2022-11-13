@@ -12,7 +12,7 @@ export default new Album(
     // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_005.webp'),
     // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_006.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_008.webp'),
-    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_010.webp'),
+    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_010.webp', false, 'Mountain Devil\'s Finger'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_011.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_013.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_014.webp'),
