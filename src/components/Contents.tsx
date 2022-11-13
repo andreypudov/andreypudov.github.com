@@ -7,6 +7,7 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
+import ElsEmpedratsDelMontseny from './../models/photographs/elsEmpedratsDelMontseny';
 import Andorra from './../models/photographs/andorra';
 import Puigmal from './../models/photographs/puigmal';
 import TuroDeLHome from './../models/photographs/turoDeLHome';
@@ -90,6 +91,12 @@ function Contents() {
             <Link to = '/photographs/favorite-photographs'>
               { Favorites.getTitle() }
               <small>{ Favorites.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/els-empedrats-del-montseny'>
+              { ElsEmpedratsDelMontseny.getTitle() }
+              <small>{ ElsEmpedratsDelMontseny.getDate() }</small>
             </Link>
           </li>
           <li>
