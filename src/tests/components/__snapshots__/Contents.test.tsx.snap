@@ -183,6 +183,39 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/gotheborg"
+            onClick={[Function]}
+          >
+            Götheborg. Conquering Scandinavia
+            <small>
+              Saturday, September 10, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/oslo"
+            onClick={[Function]}
+          >
+            Oslo. Conquering Scandinavia
+            <small>
+              Monday, September 5, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/stockholm"
+            onClick={[Function]}
+          >
+            Stockholm. Conquering Scandinavia
+            <small>
+              Thursday, September 1, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/puigmal"
             onClick={[Function]}
           >

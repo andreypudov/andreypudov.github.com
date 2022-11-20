@@ -9,6 +9,9 @@ import ImperialTown from './../models/photographs/imperialTown';
 import Favorites from './../models/photographs/favorites';
 import ElsEmpedratsDelMontseny from './../models/photographs/elsEmpedratsDelMontseny';
 import Andorra from './../models/photographs/andorra';
+import Gotheborg from './../models/photographs/gotheborg';
+import Oslo from './../models/photographs/oslo';
+import Stockholm from './../models/photographs/stockholm';
 import Puigmal from './../models/photographs/puigmal';
 import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
@@ -85,6 +88,30 @@ function Albums() {
               <img src = { Andorra.getCover().src } className = 'card-img' alt = '' />
               <div className = 'card-img-overlay'>
                 <h6 className = 'card-title'>{ Andorra.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/gotheborg' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Gotheborg.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ Gotheborg.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/oslo' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Oslo.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ Oslo.getTitle() }</h6>
+              </div>
+            </Link>
+          </div>
+          <div className = 'col-md-4'>
+            <Link to = '/photographs/stockholm' className = 'card bg-dark text-white gallery-image'>
+              <img src = { Stockholm.getCover().src } className = 'card-img' alt = '' />
+              <div className = 'card-img-overlay'>
+                <h6 className = 'card-title'>{ Stockholm.getTitle() }</h6>
               </div>
             </Link>
           </div>

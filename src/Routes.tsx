@@ -14,6 +14,9 @@ import ImperialTown from './components/articles/ImperialTown';
 import Favorites from './models/photographs/favorites';
 import ElsEmpedratsDelMontseny from './models/photographs/elsEmpedratsDelMontseny';
 import Andorra from './models/photographs/andorra';
+import Gotheborg from './models/photographs/gotheborg';
+import Oslo from './models/photographs/oslo';
+import Stockholm from './models/photographs/stockholm';
 import Puigmal from './models/photographs/puigmal';
 import TuroDeLHome from './models/photographs/turoDeLHome';
 import CastilloDeMataplana from './models/photographs/castilloDeMataplana';
@@ -84,6 +87,9 @@ function routes() {
       <Route path = '/photographs/favorite-photographs' element = { <PhotographyAlbum album = { Favorites } /> } />
       <Route path = '/photographs/els-empedrats-del-montseny' element = { <PhotographyAlbum album = { ElsEmpedratsDelMontseny } /> } />
       <Route path = '/photographs/andorra' element = { <PhotographyAlbum album = { Andorra } /> } />
+      <Route path = '/photographs/gotheborg' element = { <PhotographyAlbum album = { Gotheborg } /> } />
+      <Route path = '/photographs/oslo' element = { <PhotographyAlbum album = { Oslo } /> } />
+      <Route path = '/photographs/stockholm' element = { <PhotographyAlbum album = { Stockholm } /> } />
       <Route path = '/photographs/puigmal' element = { <PhotographyAlbum album = { Puigmal } /> } />
       <Route path = '/photographs/turo-de-lhome' element = { <PhotographyAlbum album = { TuroDeLHome } /> } />
       <Route path = '/photographs/castillo-de-mataplana' element = { <PhotographyAlbum album = { CastilloDeMataplana } /> } />

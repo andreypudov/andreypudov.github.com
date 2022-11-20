@@ -9,6 +9,9 @@ import ImperialTown from './../models/photographs/imperialTown';
 import Favorites from './../models/photographs/favorites';
 import ElsEmpedratsDelMontseny from './../models/photographs/elsEmpedratsDelMontseny';
 import Andorra from './../models/photographs/andorra';
+import Gotheborg from './../models/photographs/gotheborg';
+import Oslo from './../models/photographs/oslo';
+import Stockholm from './../models/photographs/stockholm';
 import Puigmal from './../models/photographs/puigmal';
 import TuroDeLHome from './../models/photographs/turoDeLHome';
 import CastilloDeMataplana from './../models/photographs/castilloDeMataplana';
@@ -103,6 +106,24 @@ function Contents() {
             <Link to = '/photographs/andorra'>
               { Andorra.getTitle() }
               <small>{ Andorra.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/gotheborg'>
+              { Gotheborg.getTitle() }
+              <small>{ Gotheborg.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/oslo'>
+              { Oslo.getTitle() }
+              <small>{ Oslo.getDate() }</small>
+            </Link>
+          </li>
+          <li>
+            <Link to = '/photographs/stockholm'>
+              { Stockholm.getTitle() }
+              <small>{ Stockholm.getDate() }</small>
             </Link>
           </li>
           <li>
