@@ -332,6 +332,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Munch Museum
+        </figcaption>
       </figure>
       <figure>
         <img

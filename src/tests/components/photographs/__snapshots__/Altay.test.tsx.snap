@@ -207,7 +207,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          Ininsky Suspension Bridge and
+          Ininsky Suspension Bridge
         </figcaption>
       </figure>
       <figure>
@@ -268,7 +268,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          The confluence of Chuya and Katun rivers.
+          The Confluence of Chuya and Katun Rivers
         </figcaption>
       </figure>
       <figure>
