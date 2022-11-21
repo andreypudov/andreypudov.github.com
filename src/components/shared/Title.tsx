@@ -10,8 +10,13 @@ function Title(props: TitleProps) {
   return (
     <>
       <Helmet>
-         <title>{ title }</title>
-         <meta name='description' content={ description } />
+        <title>{ title }</title>
+        <meta name='description' content={ description } />
+
+        <meta property='og:title' content={title} />
+        <meta property='og:description' content={description} />
+        {/* <meta property='og:url' content={openGraphData.url} />
+        <meta property='og:image' content={openGraphData.image} /> */}
       </Helmet>
     </>
   );
