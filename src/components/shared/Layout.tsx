@@ -5,12 +5,13 @@ import Title from './Title';
 type LayoutProps = {
   landing?: boolean;
   title?: string;
+  cover?: string;
 };
 
 function Layout(props: React.PropsWithChildren<LayoutProps>) {
   return (
     <div className = 'layout'>
-      <Title title = { props.title } />
+      <Title title = { props.title } cover = { props.cover } />
       <Header />
       <main>
         { props.children }
