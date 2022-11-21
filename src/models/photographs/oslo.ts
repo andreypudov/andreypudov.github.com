@@ -35,7 +35,7 @@ export default new Album(
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_069.webp'),
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_070.webp', false, 'Norwegian National Opera and Ballet'),
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_071.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp'),
+   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp', false, 'Munch Museum'),
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_073.webp', true),
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_074.webp', true),
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_075.webp'),
