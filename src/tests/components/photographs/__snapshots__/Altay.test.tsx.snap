@@ -1159,6 +1159,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Tavdinsky Caves
+        </figcaption>
       </figure>
     </div>
   </main>

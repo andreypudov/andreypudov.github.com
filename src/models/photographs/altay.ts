@@ -146,6 +146,6 @@ export default new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_192.webp', false, 'Gorno-Altaysk'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_193.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_194.webp'),
-    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp'),
+    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp', false, 'Tavdinsky Caves'),
     // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_199.webp', true),
   ]);
