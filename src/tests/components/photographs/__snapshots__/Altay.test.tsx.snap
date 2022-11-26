@@ -305,6 +305,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_040.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Petroglyphs in Kalbak-Tash
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -340,6 +345,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_045.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Blue Geyser Lake
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -368,6 +378,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The road to Mount Aktura
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -480,6 +495,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_072.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Mountain the Foreheads of Rams
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -487,6 +507,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_080.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Great Aktru Glacier
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -494,6 +519,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_081.webp"
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Blue Lake
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -564,6 +594,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_099.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Great Aktru Glacier
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -575,9 +610,14 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Andrey Pudov Altay. Conquering Siberia 2.0"
-          className="img-responsive gallery-image vertical"
+          className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Small Aktru Glacier
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -676,6 +716,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_126.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Kosh-Agach
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -697,6 +742,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_129.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Martian Landscapes. Mountains of Kyzyl-Chin.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -816,6 +866,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_150.webp"
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Kurai Steppe
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -865,6 +920,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_160.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Aktash
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -914,6 +974,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_168.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Aktash Repeater
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -928,6 +993,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_170.webp"
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Waterfall Shirlak
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -949,6 +1019,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_173.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Bom Kur-Kechu
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -956,6 +1031,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_174.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Chike-Taman Pass
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -984,6 +1064,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_179.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Karakol
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -998,6 +1083,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_183.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Ursul River
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -1005,6 +1095,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_184.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Karakol
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -1012,6 +1107,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_189.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Petroglyphs in Karakol
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -1033,6 +1133,11 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_192.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Gorno-Altaysk
+        </figcaption>
       </figure>
       <figure>
         <img
