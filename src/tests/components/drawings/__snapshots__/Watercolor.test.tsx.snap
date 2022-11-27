@@ -148,7 +148,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          June 28, 2022
+          Lost Friend / June 28, 2022
         </figcaption>
       </figure>
       <figure>
@@ -160,7 +160,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption vertical"
         >
-          June 21, 2022
+          Lisa / June 21, 2022
         </figcaption>
       </figure>
       <figure>
