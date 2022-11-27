@@ -44,7 +44,7 @@ export default new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_047.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_048.webp', true),
     // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_049.webp'),
-    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp', false, 'The road to Mount Aktura'),
+    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp', false, 'The road to Mount Aktru'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_051.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_052.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_053.webp'),
