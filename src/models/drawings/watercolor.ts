@@ -9,6 +9,7 @@ export default new Album(
     new Photograph('/drawings/watercolor/2022-09-25.webp', true, 'September 25, 2022'),
     new Photograph('/drawings/watercolor/2022-07-20.webp', true, 'July 20, 2022'),
     new Photograph('/drawings/watercolor/2022-07-18.webp', true, 'July 18, 2022'),
+    new Photograph('/drawings/watercolor/2022-06-28.webp', false, 'June 28, 2022'),
     new Photograph('/drawings/watercolor/2022-06-21.webp', true, 'June 21, 2022'),
     new Photograph('/drawings/watercolor/2022-05-31.webp', true, 'May 31, 2022'),
     new Photograph('/drawings/watercolor/2022-05-25.webp', true, 'May 25, 2022'),
