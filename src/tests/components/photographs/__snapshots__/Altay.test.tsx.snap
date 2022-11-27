@@ -381,7 +381,7 @@ exports[`renders correctly 1`] = `
         <figcaption
           className="image-caption"
         >
-          The road to Mount Aktura
+          The road to Mount Aktru
         </figcaption>
       </figure>
       <figure>
