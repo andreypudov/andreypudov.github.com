@@ -8,7 +8,7 @@ function Headline(props: HeadlineProps) {
   return (
     <h1>
       { props.album.getTitle() }
-      <small className = 'text-muted'>{ props.album.getDate() }</small>
+      <small className = 'text-muted'>{ props.album.getDateString() }</small>
     </h1>
   );
 }

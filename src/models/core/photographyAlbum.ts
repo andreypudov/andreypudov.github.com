@@ -14,10 +14,11 @@ class PhotographyAlbum {
   }
 
   getTitle = () => this.title;
+  getDate  = () => this.date;
   getCover = () => this.cover;
   getMedia = () => this.media;
 
-  getDate(): string {
+  getDateString(): string {
     return this.date.toLocaleDateString(
       'en-US',
       { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });

@@ -654,6 +654,17 @@ exports[`renders correctly 1`] = `
             </small>
           </a>
         </li>
+        <li>
+          <a
+            href="/photographs/vera-klemenova"
+            onClick={[Function]}
+          >
+            Vera Klemenova
+            <small>
+              Thursday, July 19, 2012
+            </small>
+          </a>
+        </li>
       </ol>
       <ol
         className="contents"
@@ -665,12 +676,12 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/watercolor"
+            href="/drawings/pencil-sketches"
             onClick={[Function]}
           >
-            Watercolor
+            Pencil Sketches
             <small>
-              Monday, May 24, 2021
+              Thursday, July 16, 2020
             </small>
           </a>
         </li>
@@ -687,12 +698,12 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/pencil-sketches"
+            href="/drawings/watercolor"
             onClick={[Function]}
           >
-            Pencil Sketches
+            Watercolor
             <small>
-              Thursday, July 16, 2020
+              Monday, May 24, 2021
             </small>
           </a>
         </li>
