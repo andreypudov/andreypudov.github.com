@@ -1,2 +1,0 @@
-- Auto White Balance
-- Auto Color Enhance
