@@ -99,6 +99,85 @@ exports[`renders correctly 1`] = `
         Albums
       </h1>
       <h2>
+        Articles
+      </h2>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/russian-emirates"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2012-11-09_21/2012-11-09_21_090_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Russian Emirates
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/golden-age"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Golden Age
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/imperial-town"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Imperial Town
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2>
         Photographs
       </h2>
       <div
@@ -373,6 +452,30 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
+            href="/photographs/ekaterina-domracheva"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2020-05-11/2020-05-11_014.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ekaterina Domracheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
             href="/photographs/crimea"
             onClick={[Function]}
           >
@@ -412,30 +515,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Altay. Conquering Siberia 2.0
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/ekaterina-domracheva"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img"
-              src="/photographs/2020-05-11/2020-05-11_014.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Ekaterina Domracheva
               </h6>
             </div>
           </a>
@@ -493,30 +572,6 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/nizhny-novgorod"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img"
-              src="/photographs/2017-01-29/2017-01-29_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Nizhny Novgorod
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/photographs/rekshino"
             onClick={[Function]}
           >
@@ -532,6 +587,30 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Rekshino
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/nizhny-novgorod"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2017-01-29/2017-01-29_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Nizhny Novgorod
               </h6>
             </div>
           </a>
@@ -925,30 +1004,6 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/lolita-rakhmatova"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img"
-              src="/photographs/2015-12-12/2015-12-12_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Lolita Rakhmatova
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/photographs/intel-products"
             onClick={[Function]}
           >
@@ -964,6 +1019,30 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Intel Software Products
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/lolita-rakhmatova"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img"
+              src="/photographs/2015-12-12/2015-12-12_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lolita Rakhmatova
               </h6>
             </div>
           </a>
@@ -1189,13 +1268,13 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/russian-emirates"
+            href="/photographs/vera-klemenova"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img"
-              src="/photographs/2012-11-09_21/2012-11-09_21_090_large.webp"
+              src="/photographs/2012-07-19/2012-07-19_016_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -1203,55 +1282,7 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Russian Emirates
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/golden-age"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img"
-              src="/photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Golden Age
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/imperial-town"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img"
-              src="/photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Imperial Town
+                Vera Klemenova
               </h6>
             </div>
           </a>
@@ -1335,102 +1366,102 @@ exports[`renders correctly 1`] = `
             </div>
           </a>
         </div>
-        <h2>
-          Time Lapses
-        </h2>
+      </div>
+      <h2>
+        Time Lapses
+      </h2>
+      <div
+        className="row"
+      >
         <div
-          className="row"
+          className="col-md-4"
         >
-          <div
-            className="col-md-4"
-          >
-            <figure>
-              <div
-                className="ratio ratio-16x9 gallery-video"
-              >
-                <iframe
-                  allowFullScreen={true}
-                  src="https://player.vimeo.com/video/517763009?title=0&byline=0"
-                  title="Time Lapses"
-                />
-              </div>
-            </figure>
-          </div>
-          <div
-            className="col-md-4"
-          >
-            <figure>
-              <div
-                className="ratio ratio-16x9 gallery-video"
-              >
-                <iframe
-                  allowFullScreen={true}
-                  src="https://player.vimeo.com/video/517762791?title=0&byline=0"
-                  title="Time Lapses"
-                />
-              </div>
-            </figure>
-          </div>
-          <div
-            className="col-md-4"
-          >
-            <figure>
-              <div
-                className="ratio ratio-16x9 gallery-video"
-              >
-                <iframe
-                  allowFullScreen={true}
-                  src="https://player.vimeo.com/video/517762848?title=0&byline=0"
-                  title="Time Lapses"
-                />
-              </div>
-            </figure>
-          </div>
-          <div
-            className="col-md-4"
-          >
-            <figure>
-              <div
-                className="ratio ratio-16x9 gallery-video"
-              >
-                <iframe
-                  allowFullScreen={true}
-                  src="https://player.vimeo.com/video/517762962?title=0&byline=0"
-                  title="Time Lapses"
-                />
-              </div>
-            </figure>
-          </div>
-          <div
-            className="col-md-4"
-          >
-            <figure>
-              <div
-                className="ratio ratio-16x9 gallery-video"
-              >
-                <iframe
-                  allowFullScreen={true}
-                  src="https://player.vimeo.com/video/517762910?title=0&byline=0"
-                  title="Time Lapses"
-                />
-              </div>
-            </figure>
-          </div>
-          <div
-            className="col-md-4"
-          >
-            <figure>
-              <div
-                className="ratio ratio-16x9 gallery-video"
-              >
-                <iframe
-                  allowFullScreen={true}
-                  src="https://player.vimeo.com/video/517762737?title=0&byline=0"
-                  title="Time Lapses"
-                />
-              </div>
-            </figure>
-          </div>
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762737?title=0&byline=0"
+                title="Bolshaya Pokrovskaya"
+              />
+            </div>
+          </figure>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762848?title=0&byline=0"
+                title="Monument to Maxim Gorky"
+              />
+            </div>
+          </figure>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762962?title=0&byline=0"
+                title="Spit of Nizhny Novgorod"
+              />
+            </div>
+          </figure>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762910?title=0&byline=0"
+                title="The State Bank of Russia"
+              />
+            </div>
+          </figure>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517763009?title=0&byline=0"
+                title="Switzerland Park"
+              />
+            </div>
+          </figure>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <figure>
+            <div
+              className="ratio ratio-16x9 gallery-video"
+            >
+              <iframe
+                allowFullScreen={true}
+                src="https://player.vimeo.com/video/517762791?title=0&byline=0"
+                title="Zelensky Syezd"
+              />
+            </div>
+          </figure>
         </div>
       </div>
     </div>

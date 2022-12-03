@@ -40,7 +40,6 @@ import ConqueringAmerica2 from './models/photographs/conqueringAmerica2';
 import Strigino from './models/photographs/strigino';
 import Maks from './models/photographs/maks';
 import TatyanaBysheva from './models/photographs/tatyanaBysheva';
-import TimeLapses from './models/videos/timeLapses';
 import RamonPalace from './models/photographs/ramonPalace';
 import PartnersDay from './models/photographs/partnersDay';
 import ConqueringAmerica from './models/photographs/conqueringAmerica';
@@ -66,6 +65,13 @@ import Watercolor from './models/drawings/watercolor';
 import CureForWellness from './models/performances/cureForWellness';
 import GravityFalls from './models/performances/gravityFalls';
 import MiaAndSebastian from './models/performances/miaAndSebastian';
+
+import BolshayaPokrovskaya from './models/timelapses/bolshayaPokrovskaya';
+import MaximGorky from './models/timelapses/maximGorky';
+import Spit from './models/timelapses/spit';
+import StateBank from './models/timelapses/stateBank ';
+import SwitzerlandPark from './models/timelapses/switzerlandPark';
+import ZelenskySyezd from './models/timelapses/zelenskySyezd';
 
 import DrawingAlbum from './components/shared/DrawingAlbum';
 import PhotographyAlbum from './components/shared/PhotographyAlbum';
@@ -113,7 +119,6 @@ function routes() {
       <Route path = '/photographs/strigino' element = { <PhotographyAlbum album = { Strigino } /> } />
       <Route path = '/photographs/maks' element = { <PhotographyAlbum album = { Maks } /> } />
       <Route path = '/photographs/tatyana-bysheva' element = { <PhotographyAlbum album = { TatyanaBysheva } /> } />
-      <Route path = '/photographs/time-lapses' element = { <PhotographyAlbum album = { TimeLapses } /> } />
       <Route path = '/photographs/ramon-palace' element = { <PhotographyAlbum album = { RamonPalace } /> } />
       <Route path = '/photographs/partners-day' element = { <PhotographyAlbum album = { PartnersDay } /> } />
       <Route path = '/photographs/united-states' element = { <PhotographyAlbum album = { ConqueringAmerica } /> } />
@@ -139,6 +144,13 @@ function routes() {
       <Route path = '/performances/gravity-falls' element = { <PerformanceAlbum album = { GravityFalls } /> } />
       <Route path = '/performances/cure-for-wellness' element = { <PerformanceAlbum album = { CureForWellness } /> } />
       <Route path = '/performances/mia-and-sebastian' element = { <PerformanceAlbum album = { MiaAndSebastian } /> } />
+
+      <Route path = '/timelapses/bolshaya-pokrovskaya' element = { <PhotographyAlbum album = { BolshayaPokrovskaya } /> } />
+      <Route path = '/timelapses/maxim-gorky' element = { <PhotographyAlbum album = { MaximGorky } /> } />
+      <Route path = '/timelapses/spit' element = { <PhotographyAlbum album = { Spit } /> } />
+      <Route path = '/timelapses/state-bank' element = { <PhotographyAlbum album = { StateBank } /> } />
+      <Route path = '/timelapses/switzerland-park' element = { <PhotographyAlbum album = { SwitzerlandPark } /> } />
+      <Route path = '/timelapses/zelensky-syezd' element = { <PhotographyAlbum album = { ZelenskySyezd } /> } />
 
       <Route path = '*' element = { <NotFound /> } />
     </Routes>

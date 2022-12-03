@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from './../models/core/page';
-import { Articles, Photographs, Drawings } from './../models/pages';
+import { Articles, Photographs, Drawings, TimeLapses } from './../models/pages';
 import { Link } from 'react-router-dom';
 
 const entry = (page: Page) => {
@@ -37,6 +37,13 @@ function Contents() {
             <h2>Drawings</h2>
           </li>
           { Drawings.map(p => entry(p)) }
+        </ol>
+
+        <ol className = 'contents'>
+          <li>
+            <h2>Time Lapses</h2>
+          </li>
+          { TimeLapses.map(p => entry(p)) }
         </ol>
 
         <ol className = 'contents'>

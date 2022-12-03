@@ -1,6 +1,6 @@
 import { MemoryRouter } from 'react-router-dom'
 import PhotographyAlbum from './../../../components/shared/PhotographyAlbum';
-import Album from './../../../models/videos/timeLapses';
+import Album from './../../../models/timelapses/maximGorky';
 import { HelmetProvider } from 'react-helmet-async';
 import renderer from 'react-test-renderer';
 

@@ -155,7 +155,7 @@ exports[`renders correctly 1`] = `
           >
             Favorite Photographs
             <small>
-              Thursday, July 28, 2022
+              Thursday, March 17, 2089
             </small>
           </a>
         </li>
@@ -271,6 +271,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/ekaterina-domracheva"
+            onClick={[Function]}
+          >
+            Ekaterina Domracheva
+            <small>
+              Wednesday, August 25, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/crimea"
             onClick={[Function]}
           >
@@ -288,17 +299,6 @@ exports[`renders correctly 1`] = `
             Altay. Conquering Siberia 2.0
             <small>
               Monday, August 24, 2020
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/photographs/ekaterina-domracheva"
-            onClick={[Function]}
-          >
-            Ekaterina Domracheva
-            <small>
-              Wednesday, August 25, 2021
             </small>
           </a>
         </li>
@@ -326,23 +326,23 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/nizhny-novgorod"
-            onClick={[Function]}
-          >
-            Nizhny Novgorod
-            <small>
-              Tuesday, July 16, 2019
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/photographs/rekshino"
             onClick={[Function]}
           >
             Rekshino
             <small>
               Saturday, October 26, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/nizhny-novgorod"
+            onClick={[Function]}
+          >
+            Nizhny Novgorod
+            <small>
+              Tuesday, July 16, 2019
             </small>
           </a>
         </li>
@@ -469,17 +469,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/time-lapses"
-            onClick={[Function]}
-          >
-            Time Lapses
-            <small>
-              Friday, April 14, 2017
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/photographs/ramon-palace"
             onClick={[Function]}
           >
@@ -535,23 +524,23 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/lolita-rakhmatova"
-            onClick={[Function]}
-          >
-            Lolita Rakhmatova
-            <small>
-              Saturday, December 12, 2015
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/photographs/intel-products"
             onClick={[Function]}
           >
             Intel Software Products
             <small>
               Friday, April 15, 2016
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/lolita-rakhmatova"
+            onClick={[Function]}
+          >
+            Lolita Rakhmatova
+            <small>
+              Saturday, December 12, 2015
             </small>
           </a>
         </li>
@@ -676,12 +665,12 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/pencil-sketches"
+            href="/drawings/watercolor"
             onClick={[Function]}
           >
-            Pencil Sketches
+            Watercolor
             <small>
-              Thursday, July 16, 2020
+              Sunday, September 25, 2022
             </small>
           </a>
         </li>
@@ -698,12 +687,87 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/watercolor"
+            href="/drawings/pencil-sketches"
             onClick={[Function]}
           >
-            Watercolor
+            Pencil Sketches
             <small>
-              Monday, May 24, 2021
+              Thursday, July 16, 2020
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Time Lapses
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/timelapses/bolshaya-pokrovskaya"
+            onClick={[Function]}
+          >
+            Bolshaya Pokrovskaya
+            <small>
+              Friday, April 14, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/timelapses/maxim-gorky"
+            onClick={[Function]}
+          >
+            Monument to Maxim Gorky
+            <small>
+              Friday, April 14, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/timelapses/spit"
+            onClick={[Function]}
+          >
+            Spit of Nizhny Novgorod
+            <small>
+              Friday, April 14, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/timelapses/state-bank"
+            onClick={[Function]}
+          >
+            The State Bank of Russia
+            <small>
+              Friday, April 14, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/timelapses/switzerland-park"
+            onClick={[Function]}
+          >
+            Switzerland Park
+            <small>
+              Friday, April 14, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/timelapses/zelensky-syezd"
+            onClick={[Function]}
+          >
+            Zelensky Syezd
+            <small>
+              Friday, April 14, 2017
             </small>
           </a>
         </li>

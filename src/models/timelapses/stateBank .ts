@@ -1,0 +1,10 @@
+import Album from './../core/photographyAlbum';
+import Video from '../core/video';
+
+export default new Album(
+  'The State Bank of Russia',
+  new Date('2017-04-14'),
+  new Video('https://player.vimeo.com/video/517762910'),
+  [
+    new Video('https://player.vimeo.com/video/517762910', 'The State Bank of Russia\n\nThe Nizhny Novgorod branch of the State Bank on Bolshaya Pokrovskaya Street is one of the most beautiful buildings in Nizhny Novgorod and the entire Volga region. It was built in 1913 to commemorate the 300th anniversary of the Romanovs\' House. The ceiling in the building, for which the neo-Russian style was chosen, was painted by the famous artist Ivan Bilibin.'),
+  ]);

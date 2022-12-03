@@ -35,7 +35,6 @@ import ConqueringAmerica2 from './../models/photographs/conqueringAmerica2';
 import Strigino from './../models/photographs/strigino';
 import Maks from './../models/photographs/maks';
 import TatyanaBysheva from './../models/photographs/tatyanaBysheva';
-import TimeLapses from './../models/videos/timeLapses';
 import RamonPalace from './../models/photographs/ramonPalace';
 import PartnersDay from './../models/photographs/partnersDay';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
@@ -60,6 +59,13 @@ import Watercolor from './drawings/watercolor';
 import CureForWellness from './performances/cureForWellness';
 import GravityFalls from './performances/gravityFalls';
 import MiaAndSebastian from './performances/miaAndSebastian';
+
+import BolshayaPokrovskaya from './../models/timelapses/bolshayaPokrovskaya';
+import MaximGorky from './../models/timelapses/maximGorky';
+import Spit from './../models/timelapses/spit';
+import StateBank from './../models/timelapses/stateBank ';
+import SwitzerlandPark from './../models/timelapses/switzerlandPark';
+import ZelenskySyezd from './../models/timelapses/zelenskySyezd';
 
 const Pages = [
    new Page(RussianEmirates, PageType.Article, '/photographs/russian-emirates'),
@@ -95,7 +101,6 @@ const Pages = [
    new Page(ConqueringAmerica2, PageType.Photographs, '/photographs/united-states-2.0'),
    new Page(Strigino, PageType.Photographs, '/photographs/strigino'),
    new Page(Maks, PageType.Photographs, '/photographs/maks'),
-   new Page(TimeLapses, PageType.Photographs, '/photographs/time-lapses'),
    new Page(RamonPalace, PageType.Photographs, '/photographs/ramon-palace'),
    new Page(PartnersDay, PageType.Photographs, '/photographs/partners-day'),
    new Page(ConqueringAmerica, PageType.Photographs, '/photographs/united-states'),
@@ -121,6 +126,13 @@ const Pages = [
    new Page(CureForWellness, PageType.Performances, '/performances/gravity-falls'),
    new Page(GravityFalls, PageType.Performances, '/performances/cure-for-wellness'),
    new Page(MiaAndSebastian, PageType.Performances, '/performances/mia-and-sebastian'),
+
+   new Page(BolshayaPokrovskaya, PageType.TimeLapses, '/timelapses/bolshaya-pokrovskaya'),
+   new Page(MaximGorky, PageType.TimeLapses, '/timelapses/maxim-gorky'),
+   new Page(Spit, PageType.TimeLapses, '/timelapses/spit'),
+   new Page(StateBank, PageType.TimeLapses, '/timelapses/state-bank'),
+   new Page(SwitzerlandPark, PageType.TimeLapses, '/timelapses/switzerland-park'),
+   new Page(ZelenskySyezd, PageType.TimeLapses, '/timelapses/zelensky-syezd'),
 ]
 
 const compareArticles = (p1: Page, p2: Page) => {
@@ -137,7 +149,8 @@ const compareArticles = (p1: Page, p2: Page) => {
 };
 
 export const Articles = Pages.filter(p => p.getType() === PageType.Article).sort(compareArticles);
-export const Photographs = Pages.filter(p => p.getType() === PageType.Photographs);
-export const Drawings = Pages.filter(p => p.getType() === PageType.Drawings);
+export const Photographs = Pages.filter(p => p.getType() === PageType.Photographs).sort(compareArticles);
+export const Drawings = Pages.filter(p => p.getType() === PageType.Drawings).sort(compareArticles);
+export const TimeLapses = Pages.filter(p => p.getType() === PageType.TimeLapses).sort(compareArticles);
 
 export default Pages;

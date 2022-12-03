@@ -100,7 +100,7 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Thursday, July 28, 2022
+          Thursday, March 17, 2089
         </small>
       </h1>
       <figure>
