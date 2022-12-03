@@ -30,25 +30,25 @@ function Albums() {
         <h2>Articles</h2>
 
         <div className = 'row'>
-          { Articles.map(p => entry(p)) }
+          { Articles.map(entry) }
         </div>
 
         <h2>Photographs</h2>
 
         <div className = 'row'>
-          { Photographs.map(p => entry(p)) }
+          { Photographs.map(entry) }
         </div>
 
         <h2>Drawings</h2>
 
         <div className = 'row'>
-          { Drawings.map(p => entry(p)) }
+          { Drawings.map(entry) }
         </div>
 
           <h2>Time Lapses</h2>
 
         <div className = 'row'>
-          { TimeLapses.map(p => videoEntry(p)) }
+          { TimeLapses.map(videoEntry) }
         </div>
       </div>
     </Layout>

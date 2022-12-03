@@ -22,28 +22,28 @@ function Contents() {
           <li>
             <h2>Articles</h2>
           </li>
-          { Articles.map(p => entry(p)) }
+          { Articles.map(entry) }
         </ol>
 
         <ol className = 'contents'>
           <li>
             <h2>Photographs</h2>
           </li>
-          { Photographs.map(p => entry(p)) }
+          { Photographs.map(entry) }
         </ol>
 
         <ol className = 'contents'>
           <li>
             <h2>Drawings</h2>
           </li>
-          { Drawings.map(p => entry(p)) }
+          { Drawings.map(entry) }
         </ol>
 
         <ol className = 'contents'>
           <li>
             <h2>Time Lapses</h2>
           </li>
-          { TimeLapses.map(p => entry(p)) }
+          { TimeLapses.map(entry) }
         </ol>
 
         <ol className = 'contents'>

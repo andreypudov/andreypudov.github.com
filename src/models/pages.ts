@@ -56,16 +56,16 @@ import PencilSketches from './drawings/pencilSketches';
 import SoftPastel from './drawings/softPastel';
 import Watercolor from './drawings/watercolor';
 
-import CureForWellness from './performances/cureForWellness';
-import GravityFalls from './performances/gravityFalls';
-import MiaAndSebastian from './performances/miaAndSebastian';
-
 import BolshayaPokrovskaya from './../models/timelapses/bolshayaPokrovskaya';
 import MaximGorky from './../models/timelapses/maximGorky';
 import Spit from './../models/timelapses/spit';
 import StateBank from './../models/timelapses/stateBank ';
 import SwitzerlandPark from './../models/timelapses/switzerlandPark';
 import ZelenskySyezd from './../models/timelapses/zelenskySyezd';
+
+import CureForWellness from './performances/cureForWellness';
+import GravityFalls from './performances/gravityFalls';
+import MiaAndSebastian from './performances/miaAndSebastian';
 
 const Pages = [
    new Page(RussianEmirates, PageType.Article, '/photographs/russian-emirates'),
@@ -123,16 +123,16 @@ const Pages = [
    new Page(SoftPastel, PageType.Drawings, '/drawings/soft-pastel'),
    new Page(Watercolor, PageType.Drawings, '/drawings/watercolor'),
 
-   new Page(CureForWellness, PageType.Performances, '/performances/gravity-falls'),
-   new Page(GravityFalls, PageType.Performances, '/performances/cure-for-wellness'),
-   new Page(MiaAndSebastian, PageType.Performances, '/performances/mia-and-sebastian'),
-
    new Page(BolshayaPokrovskaya, PageType.TimeLapses, '/timelapses/bolshaya-pokrovskaya'),
    new Page(MaximGorky, PageType.TimeLapses, '/timelapses/maxim-gorky'),
    new Page(Spit, PageType.TimeLapses, '/timelapses/spit'),
    new Page(StateBank, PageType.TimeLapses, '/timelapses/state-bank'),
    new Page(SwitzerlandPark, PageType.TimeLapses, '/timelapses/switzerland-park'),
    new Page(ZelenskySyezd, PageType.TimeLapses, '/timelapses/zelensky-syezd'),
+
+   new Page(CureForWellness, PageType.Performances, '/performances/gravity-falls'),
+   new Page(GravityFalls, PageType.Performances, '/performances/cure-for-wellness'),
+   new Page(MiaAndSebastian, PageType.Performances, '/performances/mia-and-sebastian'),
 ]
 
 const compareArticles = (p1: Page, p2: Page) => {
@@ -152,5 +152,6 @@ export const Articles = Pages.filter(p => p.getType() === PageType.Article).sort
 export const Photographs = Pages.filter(p => p.getType() === PageType.Photographs).sort(compareArticles);
 export const Drawings = Pages.filter(p => p.getType() === PageType.Drawings).sort(compareArticles);
 export const TimeLapses = Pages.filter(p => p.getType() === PageType.TimeLapses).sort(compareArticles);
+export const Performances = Pages.filter(p => p.getType() === PageType.Performances).sort(compareArticles);
 
 export default Pages;
