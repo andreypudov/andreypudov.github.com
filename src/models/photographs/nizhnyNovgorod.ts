@@ -3,9 +3,12 @@ import Photograph from '../core/photograph';
 
 export default new Album(
   'Nizhny Novgorod',
-  new Date('2019-07-16'),
+  new Date('2019-11-17'),
   new Photograph('/photographs/2017-01-29/2017-01-29_002.webp'),
   [
+    new Photograph('/photographs/2019-11-17/2019-11-17_002.webp'),
+    new Photograph('/photographs/2019-11-17/2019-11-17_001.webp'),
+    new Photograph('/photographs/2019-10-06/2019-10-06_001.webp'),
     new Photograph('/photographs/2019-07-16/2019-07-16_002.webp', true),
     new Photograph('/photographs/2019-07-16/2019-07-16_001.webp', true),
     new Photograph('/photographs/2018-04-19/2018-04-19_002.webp'),

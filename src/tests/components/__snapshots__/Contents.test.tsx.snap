@@ -326,6 +326,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/nizhny-novgorod"
+            onClick={[Function]}
+          >
+            Nizhny Novgorod
+            <small>
+              Sunday, November 17, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/rekshino"
             onClick={[Function]}
           >
@@ -337,12 +348,12 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/nizhny-novgorod"
+            href="/photographs/formula-sochi-3.0"
             onClick={[Function]}
           >
-            Nizhny Novgorod
+            2019 Formula 1 Russian Grand Prix
             <small>
-              Tuesday, July 16, 2019
+              Monday, September 30, 2019
             </small>
           </a>
         </li>

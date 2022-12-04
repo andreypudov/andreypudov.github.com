@@ -100,9 +100,30 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Tuesday, July 16, 2019
+          Sunday, November 17, 2019
         </small>
       </h1>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2019-11-17/2019-11-17_002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2019-11-17/2019-11-17_001.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Nizhny Novgorod"
+          className="img-responsive gallery-image"
+          src="/photographs/2019-10-06/2019-10-06_001.webp"
+        />
+      </figure>
       <figure>
         <img
           alt="Andrey Pudov Nizhny Novgorod"

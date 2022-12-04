@@ -23,6 +23,7 @@ import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
 import IrinaDomracheva from './../models/photographs/irinaDomracheva';
 import IntelOffice from './../models/photographs/intelOffice';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
+import FormulaSochi3 from './../models/photographs/formulaSochi3';
 import Rekshino from './../models/photographs/rekshino';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
 import LookingForTheWind from './../models/photographs/lookingForTheWind';
@@ -89,6 +90,7 @@ const Pages = [
    new Page(IrinaDomracheva, PageType.Photographs, '/photographs/irina-domracheva'),
    new Page(IntelOffice, PageType.Photographs, '/photographs/intel-office'),
    new Page(NizhnyNovgorod, PageType.Photographs, '/photographs/nizhny-novgorod'),
+   new Page(FormulaSochi3, PageType.Photographs, '/photographs/formula-sochi-3.0'),
    new Page(Rekshino, PageType.Photographs, '/photographs/rekshino'),
    new Page(AlinaCherdakova, PageType.Photographs, '/photographs/alina-cherdakova'),
    new Page(TatyanaBysheva, PageType.Photographs, '/photographs/tatyana-bysheva'),

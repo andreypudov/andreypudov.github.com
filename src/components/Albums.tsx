@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const entry = (page: Page) => {
   return (<div className = 'col-md-4' key = {page.getAlbum().getTitle()}>
     <Link to = { page.getRoute() } className = 'card bg-dark text-white gallery-image'>
-      <img src = { page.getAlbum().getCover().src } className = 'card-img' alt = '' />
+      <img src = { page.getAlbum().getCover().src } className = 'card-img album-cover' alt = '' />
       <div className = 'card-img-overlay'>
         <h6 className = 'card-title'>{ page.getAlbum().getTitle() }</h6>
       </div>
