@@ -458,7 +458,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2020-05-11/2020-05-11_014.webp"
+              src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_001.webp"
             />
             <div
               className="card-img-overlay"
