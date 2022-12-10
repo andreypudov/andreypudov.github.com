@@ -7,6 +7,7 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
+import Perpignan from './../models/photographs/perpignan';
 import ElsEmpedratsDelMontseny from './../models/photographs/elsEmpedratsDelMontseny';
 import Andorra from './../models/photographs/andorra';
 import Gotheborg from './../models/photographs/gotheborg';
@@ -74,6 +75,7 @@ const Pages = [
    new Page(ImperialTown, PageType.Article, '/photographs/imperial-town'),
 
    new Page(Favorites, PageType.Photographs, '/photographs/favorite-photographs'),
+   new Page(Perpignan, PageType.Photographs, '/photographs/perpignan'),
    new Page(ElsEmpedratsDelMontseny, PageType.Photographs, '/photographs/els-empedrats-del-montseny'),
    new Page(Andorra, PageType.Photographs, '/photographs/andorra'),
    new Page(Gotheborg, PageType.Photographs, '/photographs/gotheborg'),
