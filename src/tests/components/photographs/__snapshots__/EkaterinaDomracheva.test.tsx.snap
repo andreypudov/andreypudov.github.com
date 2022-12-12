@@ -109,40 +109,29 @@ exports[`renders correctly 1`] = `
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-08-25/2021-08-25_001.webp"
         />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_001.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_003.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_004.webp"
-        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Alice’ Song
+
+I am awfully bored, I am simply without strength.
+And thoughts come - tempting, disturbing, -
+That somebody somewhere would invite me
+And there I should see something specific!..
+
+And what exactly - I really do not know.
+All bet for the wager:
+"Read for a while", - I sit down and read,
+"Play for a while", - now I play with the kitten, -
+All the same I’m awfully bored!
+Sir! Take Alice with you!
+        </figcaption>
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_005.webp"
+          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_007.webp"
         />
       </figure>
       <figure>
@@ -156,224 +145,35 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_007.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_001.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_003.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_004.webp"
+          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_005.webp"
         />
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_005.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_006.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_007.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_009.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_010.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_011.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_012.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_013.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_014.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_015.webp"
+          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_004.webp"
         />
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_016.webp"
+          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_003.webp"
         />
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_017.webp"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_002.webp"
         />
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_018.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_019.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_020.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_021.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_022.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_023.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_024.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_025.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_026.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_027.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_028.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_029.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Andrey Pudov Ekaterina Domracheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_031.webp"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_001.webp"
         />
       </figure>
       <figure>
@@ -387,21 +187,217 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image"
-          src="/photographs/2020-06-12/2020-06-12_001.webp"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_031.webp"
         />
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image"
-          src="/photographs/2020-06-08/2020-06-08_001.webp"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_029.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_028.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_027.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_026.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_025.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_024.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_023.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_022.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_021.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_020.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_019.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_018.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_017.webp"
         />
       </figure>
       <figure>
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2019-06-12/2019-06-12_001.webp"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_016.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_015.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_014.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_013.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_012.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_011.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_010.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_009.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_007.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_006.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_005.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_004.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_003.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_002.webp"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_001.webp"
         />
       </figure>
       <figure>
@@ -429,8 +425,49 @@ exports[`renders correctly 1`] = `
         <img
           alt="Andrey Pudov Ekaterina Domracheva"
           className="img-responsive gallery-image"
+          src="/photographs/2020-06-12/2020-06-12_001.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          A dream...
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
+          src="/photographs/2020-06-08/2020-06-08_001.webp"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          The summer evening
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2019-06-12/2019-06-12_001.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The first trip
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Andrey Pudov Ekaterina Domracheva"
+          className="img-responsive gallery-image"
           src="/photographs/2018-06-23/2018-06-23_001.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The first time we met
+        </figcaption>
       </figure>
     </div>
   </main>
