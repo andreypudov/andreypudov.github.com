@@ -105,28 +105,28 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_001.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_002.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_003.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan Cathedral"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_004.webp"
         />
@@ -138,35 +138,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_005.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_006.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_007.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_008.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Palace of the Kings of Majorca"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_009.webp"
         />
@@ -178,7 +178,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Perpignan"
+          alt="Perpignan"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_010.webp"
         />

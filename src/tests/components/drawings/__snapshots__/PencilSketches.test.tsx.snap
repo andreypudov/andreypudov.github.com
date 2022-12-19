@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="July 16, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-07-16.webp"
         />
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="July 9, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-07-09.webp"
         />
@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="April 26, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-26.webp"
         />
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="April 22, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-04-22.webp"
         />
@@ -153,7 +153,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="April 7, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-07.webp"
         />
@@ -165,7 +165,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="April 3, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-03.webp"
         />
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Pencil Sketches"
+          alt="April 2, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-04-02.webp"
         />

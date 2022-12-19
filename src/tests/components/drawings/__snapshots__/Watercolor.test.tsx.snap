@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="September 25, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-09-25.webp"
         />
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="July 20, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-07-20.webp"
         />
@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="July 18, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-07-18.webp"
         />
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="Lost Friend / June 28, 2022"
           className="img-responsive gallery-image"
           src="/drawings/watercolor/2022-06-28.webp"
         />
@@ -153,7 +153,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="Lisa / June 21, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-06-21.webp"
         />
@@ -165,7 +165,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="May 31, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-05-31.webp"
         />
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="May 25, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-05-25.webp"
         />
@@ -189,7 +189,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="March 29, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-03-29.webp"
         />
@@ -201,7 +201,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="March 01, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-03-01.webp"
         />
@@ -213,7 +213,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="February 28, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-02-28.webp"
         />
@@ -225,7 +225,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="May 05, 2021"
           className="img-responsive gallery-image"
           src="/drawings/watercolor/2021-05-24.webp"
         />
@@ -237,7 +237,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Watercolor"
+          alt="March 03, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2021-03-30.webp"
         />

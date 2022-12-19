@@ -105,14 +105,14 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_008.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Mountain Devils Thumb"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_010.webp"
         />
@@ -124,14 +124,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_011.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Katun River"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_013.webp"
         />
@@ -143,14 +143,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_014.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Puchina Lake"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_015.webp"
         />
@@ -162,7 +162,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Chemal Hydroelectric Power Station"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_019.webp"
         />
@@ -174,7 +174,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Monastery in Patmos"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_020.webp"
         />
@@ -186,21 +186,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_022.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_024.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Ininsky Suspension Bridge"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_026.webp"
         />
@@ -212,56 +212,56 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_027.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_029.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_030.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_031.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_032.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_033.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_034.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="The Confluence of Chuya and Katun Rivers"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_035.webp"
         />
@@ -273,35 +273,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_036.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_037.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_038.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_039.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Petroglyphs in Kalbak-Tash"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_040.webp"
         />
@@ -313,35 +313,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_041.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_042.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_043.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_044.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Blue Geyser Lake"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_045.webp"
         />
@@ -353,28 +353,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_046.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_047.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_048.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="The road to Mount Aktru"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp"
         />
@@ -386,112 +386,112 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_051.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_052.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_053.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_054.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_055.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_056.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_057.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_058.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_062.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_063.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_064.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_065.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_067.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_068.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_069.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Mountain the Foreheads of Rams"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_072.webp"
         />
@@ -503,7 +503,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_080.webp"
         />
@@ -515,7 +515,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Blue Lake"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_081.webp"
         />
@@ -527,70 +527,70 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_082.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_083.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_087.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_088.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_092.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_095.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_096.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_097.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_098.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_099.webp"
         />
@@ -602,14 +602,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Small Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp"
         />
@@ -621,98 +621,98 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_107.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_108.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_111.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_112.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_113.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_115.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_116.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_117.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_118.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_119.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_121.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_122.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_125.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Kosh-Agach"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_126.webp"
         />
@@ -724,21 +724,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_127.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_128.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Martian Landscapes. Mountains of Kyzyl-Chin."
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_129.webp"
         />
@@ -750,119 +750,119 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_130.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_131.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_132.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_134.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_135.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_136.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_139.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_140.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_141.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_142.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_143.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_144.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_145.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_146.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_147.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_149.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Kurai Steppe"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_150.webp"
         />
@@ -874,49 +874,49 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_152.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_153.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_154.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_155.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_156.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_157.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Aktash"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_160.webp"
         />
@@ -928,49 +928,49 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_161.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_162.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_164.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_165.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_166.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_167.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Aktash Repeater"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_168.webp"
         />
@@ -982,14 +982,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_169.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Waterfall Shirlak"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_170.webp"
         />
@@ -1001,21 +1001,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_171.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_172.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Bom Kur-Kechu"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_173.webp"
         />
@@ -1027,7 +1027,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Chike-Taman Pass"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_174.webp"
         />
@@ -1039,28 +1039,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_176.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_177.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_178.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_179.webp"
         />
@@ -1072,14 +1072,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_180.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Ursul River"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_183.webp"
         />
@@ -1091,7 +1091,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_184.webp"
         />
@@ -1103,7 +1103,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Petroglyphs in Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_189.webp"
         />
@@ -1115,21 +1115,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_190.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_191.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Gorno-Altaysk"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_192.webp"
         />
@@ -1141,21 +1141,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_193.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_194.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Altay. Conquering Siberia 2.0"
+          alt="Tavdinsky Caves"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp"
         />

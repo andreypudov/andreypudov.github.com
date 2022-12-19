@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov 2019 Formula 1 Russian Grand Prix"
+          alt="The box of the Scuderia Ferrari"
           className="img-responsive gallery-image"
           src="/photographs/2019-09-30/2019-09-30_001.webp"
         />
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov 2019 Formula 1 Russian Grand Prix"
+          alt="Red Bull mechanics performing warm-up exercises"
           className="img-responsive gallery-image"
           src="/photographs/2019-09-30/2019-09-30_002.webp"
         />
@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov 2019 Formula 1 Russian Grand Prix"
+          alt="Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_003.webp"
         />
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov 2019 Formula 1 Russian Grand Prix"
+          alt="The start of the Formula 1 race"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_004.webp"
         />
@@ -153,7 +153,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov 2019 Formula 1 Russian Grand Prix"
+          alt="Robert Kubica drives Williams FW42"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_005.webp"
         />

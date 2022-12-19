@@ -105,42 +105,42 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Ride in Rekshino"
+          alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_001.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Ride in Rekshino"
+          alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_002.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Ride in Rekshino"
+          alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_003.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Ride in Rekshino"
+          alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_004.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Ride in Rekshino"
+          alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_005.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Ride in Rekshino"
+          alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_006.webp"
         />

@@ -105,14 +105,15 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_001.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
+Engeneering Managers, Software and Services Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_002.webp"
         />
@@ -125,7 +126,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_003.webp"
         />
@@ -137,56 +138,56 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_004.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_005.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_006.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_007.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_008.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_009.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_010.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Marina Alekseeva - Vice President, Software and Services Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_011.webp"
         />
@@ -198,14 +199,14 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_012.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_013.webp"
         />
@@ -217,7 +218,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_014.webp"
         />
@@ -229,84 +230,84 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_015.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_016.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_017.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_018.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_019.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_020.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_021.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_022.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_023.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_024.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_025.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Pavel Egorov - Chief Executive Officer at Dell Technologies"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_026.webp"
         />
@@ -318,14 +319,14 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_027.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Valentin Anisimov - Principal Software Architect at Harman"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_028.webp"
         />
@@ -337,7 +338,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_029.webp"
         />
@@ -349,7 +350,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Partners Day"
+          alt="Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_030.webp"
         />

@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="November 01, 2021"
           className="img-responsive gallery-image"
           src="/drawings/soft-pastel/2021-11-01.webp"
         />
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="May 17, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-05-17.webp"
         />
@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="March 22, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-03-22.webp"
         />
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="March 21, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-03-21.webp"
         />
@@ -153,7 +153,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="January 30, 2021"
           className="img-responsive gallery-image"
           src="/drawings/soft-pastel/2021-01-30.webp"
         />
@@ -165,7 +165,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="January 29, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-01-29.webp"
         />
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Soft Pastel"
+          alt="January 07, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-01-07.webp"
         />

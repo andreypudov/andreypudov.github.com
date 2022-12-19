@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="The expedition leader Ivan Schipakin and Olga Poroshina."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_004.webp"
         />
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Evgeny Timofeev is an expedition photographer."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_001.webp"
         />
@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Participants of the hike organized by the Ural Tropa tourist club."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_003.webp"
         />
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_007.webp"
         />
@@ -153,7 +153,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Participants of the hike organized by the Ural Tropa tourist club."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp"
         />
@@ -165,7 +165,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Aleksey Gladkih and Olga Yagovitina"
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_005.webp"
         />
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_008.webp"
         />
@@ -189,7 +189,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_009.webp"
         />
@@ -201,7 +201,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Lake Baikal Team"
+          alt="Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_006.webp"
         />

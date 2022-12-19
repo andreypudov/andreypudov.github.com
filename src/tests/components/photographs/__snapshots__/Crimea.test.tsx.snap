@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="The Genoese fortress of Sudak"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_001.webp"
         />
@@ -117,70 +117,70 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_002.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_003.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_004.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_005.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_006.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_007.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_008.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_009.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_010.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Klementiev Mountain"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_011.webp"
         />
@@ -192,35 +192,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_012.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_015.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_016.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_017.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Cape Meganom"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
         />
@@ -232,21 +232,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_020.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_021.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Chegem Valley"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_023.webp"
         />
@@ -258,49 +258,49 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_025.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_026.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_027.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_028.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_029.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_030.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="City of the Dead (Eltyubu village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_031.webp"
         />
@@ -312,42 +312,42 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_032.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_033.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_034.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_035.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_036.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Bulungu Village"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_037.webp"
         />
@@ -359,168 +359,168 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_038.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_039.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_040.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_041.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_042.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_043.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_044.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_045.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_046.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_047.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_048.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_049.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_050.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_051.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_052.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_053.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_054.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_055.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_057.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_058.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_059.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_061.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_062.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Greek stairs (Eltyubu village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_063.webp"
         />
@@ -532,119 +532,119 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_064.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_065.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_066.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_067.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_068.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_069.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_070.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_071.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_072.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_073.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_074.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_075.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_076.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_077.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_078.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_079.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Lake Gizhgit (Bylym village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_080.webp"
         />
@@ -656,7 +656,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Mount Elbrus"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_083.webp"
         />
@@ -668,28 +668,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_084.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_085.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_087.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Mir station - 3500 meters"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_089.webp"
         />
@@ -701,21 +701,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_090.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_091.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Crimean Holidays"
+          alt="Pendulum cableway \\"Elbrus 1\\""
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_092.webp"
         />

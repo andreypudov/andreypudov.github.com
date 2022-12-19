@@ -105,21 +105,21 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Kira Orlova"
+          alt="Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_012_large.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Kira Orlova"
+          alt="Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_014_large.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Kira Orlova"
+          alt="Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_016_large.webp"
         />

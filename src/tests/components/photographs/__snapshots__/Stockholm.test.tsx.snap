@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Rådhuset Station"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
         />
@@ -117,28 +117,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_002.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_003.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_004.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="T-Centralen"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_005.webp"
         />
@@ -150,7 +150,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stadion Centrum"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_006.webp"
         />
@@ -162,21 +162,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_007.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_008.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Colorful Buildings in Old Town"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_009.webp"
         />
@@ -188,7 +188,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Museum of Medieval"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_010.webp"
         />
@@ -200,7 +200,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Brunkeberg Tunnel"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_011.webp"
         />
@@ -212,14 +212,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_012.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Vasa Museum "
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_013.webp"
         />
@@ -231,35 +231,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_014.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_015.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_016.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_017.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Gröna Lund"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_018.webp"
         />
@@ -271,7 +271,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Nordiska Museet"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_019.webp"
         />
@@ -283,28 +283,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_020.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_021.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_022.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Kastellet"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_023.webp"
         />
@@ -316,14 +316,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_024.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Skyview"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_025.webp"
         />
@@ -335,14 +335,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_026.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Hammarbybacken Topplatå"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_027.webp"
         />
@@ -354,35 +354,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_028.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_029.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_030.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_031.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Old Town"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp"
         />
@@ -394,28 +394,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_033.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_034.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_035.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt=" City Hall"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_036.webp"
         />
@@ -427,28 +427,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_037.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_038.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_039.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Uppsala"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_040.webp"
         />
@@ -460,14 +460,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_041.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Stockholm. Conquering Scandinavia"
+          alt="Stockholm. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_042.webp"
         />

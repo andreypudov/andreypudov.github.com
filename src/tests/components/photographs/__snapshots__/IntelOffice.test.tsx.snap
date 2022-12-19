@@ -105,14 +105,14 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_001.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Darya Kiryanova"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-02-13_14/2020-02-13_14_002.webp"
         />
@@ -124,63 +124,63 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_003.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_004.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_005.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_006.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_007.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-02-13_14/2020-02-13_14_008.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_009.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_010.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Natalia Muravieva"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_011.webp"
         />
@@ -192,35 +192,35 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_012.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_013.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-02-13_14/2020-02-13_14_014.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_015.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Vadim Grishkin"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_016.webp"
         />
@@ -232,63 +232,63 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_017.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_018.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_019.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_020.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_021.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_022.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_023.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-02-13_14/2020-02-13_14_024.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Anatoly Lubomirov"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_025.webp"
         />
@@ -300,42 +300,42 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_026.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_027.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_028.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_029.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_030.webp"
         />
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Serge Papkov"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_031.webp"
         />
@@ -347,7 +347,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andrey Pudov Intel Office in Nizhny Novgorod"
+          alt="Intel Office in Nizhny Novgorod"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_032.webp"
         />
