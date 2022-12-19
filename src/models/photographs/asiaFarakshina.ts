@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Asia Farakshina',
   new Date('2015-08-14'),
-  new Photograph('/photographs/2015-08-14/2015-08-14_006.webp'),
+  new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),
   [
     new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),
     // new Photograph('/photographs/2015-08-14/2015-08-14_002.webp', true),

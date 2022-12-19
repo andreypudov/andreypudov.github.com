@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Favorite Photographs',
   new Date('2089-03-17'),
-  new Photograph('/photographs/2012-03-17/2012-03-17_018_large.webp'),
+  new Photograph('/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp', false, 'Bolshoy Ice Dome\n\nThe Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.'),
   [
     new Photograph('/photographs/2022-07-08/2022-07-08_001.webp', true, 'The Kiss of Death\n\nThe Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.\n\n"His young heart is thus extinguished. The blood in his veins grows cold. And all strength has gone. Faith has been extolled by his fall into the arms of death. Amen."'),
     new Photograph('/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp', false, 'Cape Meganom'),

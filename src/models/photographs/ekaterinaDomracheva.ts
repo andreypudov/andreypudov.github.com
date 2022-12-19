@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 export default new Album(
   'Ekaterina Domracheva',
   new Date('2021-08-25'),
-  new Photograph('/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_001.webp'),
+  new Photograph('/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp'),
   [
     new Photograph('/photographs/2021-08-25/2021-08-25_001.webp', true, 'Alice’ Song\n\nI am awfully bored, I am simply without strength.\nAnd thoughts come - tempting, disturbing, -\nThat somebody somewhere would invite me\nAnd there I should see something specific!..\n\nAnd what exactly - I really do not know.\nAll bet for the wager:\n"Read for a while", - I sit down and read,\n"Play for a while", - now I play with the kitten, -\nAll the same I’m awfully bored!\nSir! Take Alice with you!'),
 
