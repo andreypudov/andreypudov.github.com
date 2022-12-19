@@ -105,6 +105,18 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
+          alt="Rådhuset Station"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Rådhuset Station
+        </figcaption>
+      </figure>
+      <figure>
+        <img
           alt="The Kiss of Death
 
 The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.

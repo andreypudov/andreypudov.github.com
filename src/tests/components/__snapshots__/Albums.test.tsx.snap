@@ -115,7 +115,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp"
+              src="/photographs/2017-01-30/2017-01-30_001.webp"
             />
             <div
               className="card-img-overlay"
