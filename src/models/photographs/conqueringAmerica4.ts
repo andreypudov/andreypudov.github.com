@@ -1,0 +1,35 @@
+import Album from '../core/photographyAlbum';
+import Photograph from '../core/photograph';
+
+export default new Album(
+  'Conquering America 4.0',
+  new Date('2020-03-11'),
+  new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp'),
+  [
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_001.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_002.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_003.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_004.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_006.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_007.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_008.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_009.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_010.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_011.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_012.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_013.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_014.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_015.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_016.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_017.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_018.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_019.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_020.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_021.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_022.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_023.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_024.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_025.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_026.webp'),
+  ]);

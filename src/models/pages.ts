@@ -22,6 +22,7 @@ import Crimea from './../models/photographs/crimea';
 import Altay from './../models/photographs/altay';
 import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
 import IrinaDomracheva from './../models/photographs/irinaDomracheva';
+import ConqueringAmerica4 from './../models/photographs/conqueringAmerica4';
 import IntelOffice from './../models/photographs/intelOffice';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import FormulaSochi3 from './../models/photographs/formulaSochi3';
@@ -90,6 +91,7 @@ const Pages = [
    new Page(Altay, PageType.Photographs, '/photographs/altay'),
    new Page(EkaterinaDomracheva, PageType.Photographs, '/photographs/ekaterina-domracheva'),
    new Page(IrinaDomracheva, PageType.Photographs, '/photographs/irina-domracheva'),
+   new Page(ConqueringAmerica4, PageType.Photographs, '/photographs/united-states-4.0'),
    new Page(IntelOffice, PageType.Photographs, '/photographs/intel-office'),
    new Page(NizhnyNovgorod, PageType.Photographs, '/photographs/nizhny-novgorod'),
    new Page(FormulaSochi3, PageType.Photographs, '/photographs/formula-sochi-3.0'),
