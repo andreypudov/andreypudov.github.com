@@ -103,48 +103,6 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Articles
-          </h2>
-        </li>
-        <li>
-          <a
-            href="/photographs/russian-emirates"
-            onClick={[Function]}
-          >
-            Russian Emirates
-            <small>
-              Wednesday, November 21, 2012
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/photographs/golden-age"
-            onClick={[Function]}
-          >
-            Golden Age
-            <small>
-              Saturday, September 15, 2012
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/photographs/imperial-town"
-            onClick={[Function]}
-          >
-            Imperial Town
-            <small>
-              Wednesday, May 9, 2012
-            </small>
-          </a>
-        </li>
-      </ol>
-      <ol
-        className="contents"
-      >
-        <li>
-          <h2>
             Photographs
           </h2>
         </li>
@@ -832,6 +790,48 @@ exports[`renders correctly 1`] = `
             Mia & Sebastian
             <small>
               Thursday, September 7, 2017
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Articles
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/photographs/russian-emirates"
+            onClick={[Function]}
+          >
+            Russian Emirates
+            <small>
+              Wednesday, November 21, 2012
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/golden-age"
+            onClick={[Function]}
+          >
+            Golden Age
+            <small>
+              Saturday, September 15, 2012
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/photographs/imperial-town"
+            onClick={[Function]}
+          >
+            Imperial Town
+            <small>
+              Wednesday, May 9, 2012
             </small>
           </a>
         </li>

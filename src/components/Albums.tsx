@@ -27,28 +27,24 @@ function Albums() {
       <div className = 'container'>
         <h1>Albums</h1>
 
-        <h2>Articles</h2>
-
-        <div className = 'row'>
-          { Articles.map(entry) }
-        </div>
-
         <h2>Photographs</h2>
-
         <div className = 'row'>
           { Photographs.map(entry) }
         </div>
 
         <h2>Drawings</h2>
-
         <div className = 'row'>
           { Drawings.map(entry) }
         </div>
 
-          <h2>Time Lapses</h2>
-
+        <h2>Time Lapses</h2>
         <div className = 'row'>
           { TimeLapses.map(videoEntry) }
+        </div>
+
+        <h2>Articles</h2>
+        <div className = 'row'>
+          { Articles.map(entry) }
         </div>
       </div>
     </Layout>

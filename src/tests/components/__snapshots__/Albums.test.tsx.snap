@@ -99,85 +99,6 @@ exports[`renders correctly 1`] = `
         Albums
       </h1>
       <h2>
-        Articles
-      </h2>
-      <div
-        className="row"
-      >
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/russian-emirates"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2012-11-09_21/2012-11-09_21_090_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Russian Emirates
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/golden-age"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Golden Age
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/imperial-town"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Imperial Town
-              </h6>
-            </div>
-          </a>
-        </div>
-      </div>
-      <h2>
         Photographs
       </h2>
       <div
@@ -1510,6 +1431,85 @@ exports[`renders correctly 1`] = `
               />
             </div>
           </figure>
+        </div>
+      </div>
+      <h2>
+        Articles
+      </h2>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/russian-emirates"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2012-11-09_21/2012-11-09_21_090_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Russian Emirates
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/golden-age"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2012-09-14_15/2012-09-14_15_005_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Golden Age
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/imperial-town"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Imperial Town
+              </h6>
+            </div>
+          </a>
         </div>
       </div>
     </div>

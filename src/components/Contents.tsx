@@ -20,13 +20,6 @@ function Contents() {
 
         <ol className = 'contents'>
           <li>
-            <h2>Articles</h2>
-          </li>
-          { Articles.map(entry) }
-        </ol>
-
-        <ol className = 'contents'>
-          <li>
             <h2>Photographs</h2>
           </li>
           { Photographs.map(entry) }
@@ -68,6 +61,13 @@ function Contents() {
               <small>Thursday, September 7, 2017</small>
             </Link>
           </li>
+        </ol>
+
+        <ol className = 'contents'>
+          <li>
+            <h2>Articles</h2>
+          </li>
+          { Articles.map(entry) }
         </ol>
 
         <ol className = 'contents'>
