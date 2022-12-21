@@ -12,11 +12,19 @@ const urlEntry = (page: Page, timestamp: string) => `<url>
   `;
 const imageEntry = (pageTitle: string, media: Media) => `<image:image>
       <image:loc>${domain}${ media.src }</image:loc>
-      <image:caption>${ media.description.length !== 0
-        ? `${ media.description.replaceAll('\n', ' ') }`
-        : pageTitle }</image:caption>
+      <image:caption>${ imageDescription(pageTitle, media) }</image:caption>
     </image:image>
     `;
+const imageDescription = (pageTitle: string, media: Media) =>
+ encodeXml(media.description.length !== 0
+    ? media.description.replaceAll('\n', ' ')
+    : pageTitle);
+const encodeXml = (xml: string) => xml
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&apos;');
 
 const generateSitemap = (timestamp: string) => {
   return `
