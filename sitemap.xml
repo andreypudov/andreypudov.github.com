@@ -1,25 +1,25 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://andreypudov.com/</loc>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/albums/</loc>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/contents/</loc>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/resume/</loc>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/contact/</loc>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/russian-emirates</loc>
@@ -511,7 +511,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-11-09_21/2012-11-09_21_122_large.webp</image:loc>
       <image:caption>Russian Emirates</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/golden-age</loc>
@@ -699,7 +699,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-09-14_15/2012-09-14_15_046_large.webp</image:loc>
       <image:caption>Golden Age</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/imperial-town</loc>
@@ -931,7 +931,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-05-05_09/2012-05-05_09_057_large.webp</image:loc>
       <image:caption>Imperial Town</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/favorite-photographs</loc>
@@ -1051,7 +1051,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-09-14_15/2012-09-14_15_016_large.webp</image:loc>
       <image:caption>The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/perpignan</loc>
@@ -1095,7 +1095,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-12-06/2022-12-06_010.webp</image:loc>
       <image:caption>Perpignan</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/els-empedrats-del-montseny</loc>
@@ -1147,7 +1147,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-11-13/2022-11-13_012.webp</image:loc>
       <image:caption>Els Empedrats del Montseny</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/andorra</loc>
@@ -1239,7 +1239,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-10-15_16/2022-10-15_16_022.webp</image:loc>
       <image:caption>Andorra</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/gotheborg</loc>
@@ -1283,7 +1283,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-27_09-10/2022-08-27_09-10_104.webp</image:loc>
       <image:caption>Götheborg. Conquering Scandinavia</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/oslo</loc>
@@ -1495,7 +1495,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-27_09-10/2022-08-27_09-10_094.webp</image:loc>
       <image:caption>Oslo. Conquering Scandinavia</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/stockholm</loc>
@@ -1667,7 +1667,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-27_09-10/2022-08-27_09-10_042.webp</image:loc>
       <image:caption>Stockholm. Conquering Scandinavia</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/puigmal</loc>
@@ -1871,7 +1871,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-15/2022-08-15_050.webp</image:loc>
       <image:caption>Puigmal</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/turo-de-lhome</loc>
@@ -1999,7 +1999,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-07/2022-08-07_031.webp</image:loc>
       <image:caption>Turó de l'Home</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/castillo-de-mataplana</loc>
@@ -2203,7 +2203,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-07-23_24/2022-07-23_24_050.webp</image:loc>
       <image:caption>Castillo de Mataplana</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/andrey-pudov</loc>
@@ -2283,7 +2283,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-04-16/2016-04-16_008.webp</image:loc>
       <image:caption>Andrey Pudov</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/poblenou-cemetery</loc>
@@ -2335,7 +2335,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-07-08/2022-07-08_012.webp</image:loc>
       <image:caption>Poblenou Cemetery</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/ekaterina-domracheva</loc>
@@ -2527,7 +2527,7 @@
       <image:loc>https://andreypudov.com/photographs/2018-06-23/2018-06-23_001.webp</image:loc>
       <image:caption>The first time we met</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/crimea</loc>
@@ -2855,7 +2855,7 @@
       <image:loc>https://andreypudov.com/photographs/2021-07-24_08-02/2021-07-24_08-02_092.webp</image:loc>
       <image:caption>Pendulum cableway "Elbrus 1"</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/altay</loc>
@@ -3383,7 +3383,7 @@
       <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp</image:loc>
       <image:caption>Tavdinsky Caves</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/irina-domracheva</loc>
@@ -3399,7 +3399,7 @@
       <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_029.webp</image:loc>
       <image:caption>Irina Domracheva</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/united-states-4.0</loc>
@@ -3507,7 +3507,7 @@
       <image:loc>https://andreypudov.com/photographs/2020-02-29_03-11/2020-02-29_03-11_026.webp</image:loc>
       <image:caption>Conquering America 4.0</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/intel-office</loc>
@@ -3639,7 +3639,7 @@
       <image:loc>https://andreypudov.com/photographs/2020-02-13_14/2020-02-13_14_032.webp</image:loc>
       <image:caption>Intel Office in Nizhny Novgorod</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/nizhny-novgorod</loc>
@@ -3739,7 +3739,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-10-19/2014-10-19_010_large.webp</image:loc>
       <image:caption>Nizhny Novgorod</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/rekshino</loc>
@@ -3791,7 +3791,7 @@
       <image:loc>https://andreypudov.com/photographs/2019-10-26/2019-10-26_012.webp</image:loc>
       <image:caption>Rekshino</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/formula-sochi-3.0</loc>
@@ -3815,7 +3815,7 @@
       <image:loc>https://andreypudov.com/photographs/2019-09-30/2019-09-30_005.webp</image:loc>
       <image:caption>Robert Kubica drives Williams FW42</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/alina-cherdakova</loc>
@@ -3915,7 +3915,7 @@
       <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_024.webp</image:loc>
       <image:caption>Alina Cherdakova</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/tatyana-bysheva</loc>
@@ -3959,7 +3959,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-07-22/2017-07-22_006.webp</image:loc>
       <image:caption>Tatyana Bysheva</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/looking-for-the-wind</loc>
@@ -3975,7 +3975,7 @@
       <image:loc>https://andreypudov.com/photographs/2018-05-27/2018-05-27_007.webp</image:loc>
       <image:caption>Looking for the Wind</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/balloon-festival</loc>
@@ -3995,7 +3995,7 @@
       <image:loc>https://andreypudov.com/photographs/2018-02-24/2018-02-24_004.webp</image:loc>
       <image:caption>Balloon Festival</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/rome-malta</loc>
@@ -4367,7 +4367,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.webp</image:loc>
       <image:caption>Having been paid from the public treasury rather than from the sultan's war booty, as was done normally, it caused the anger of the ulama, the Muslim jurists. The mosque was built on the site of the palace of the Byzantine emperors, in front of the basilica Hagia Sophia (at that time, the primary imperial mosque in Istanbul) and the hippodrome, a site of significant symbolic meaning as it dominated the city skyline from the south. Big parts of the south shore of the mosque rest on the foundations, the vaults of the old Grand Palace.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/ride-in-rekshino</loc>
@@ -4395,7 +4395,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-10-28/2017-10-28_006.webp</image:loc>
       <image:caption>Ride in Rekshino</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/kira-orlova</loc>
@@ -4411,7 +4411,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-10-22/2017-10-22_016_large.webp</image:loc>
       <image:caption>Kira Orlova</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/ekaterina-malysheva</loc>
@@ -4439,7 +4439,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-04-16/2016-04-16_009.webp</image:loc>
       <image:caption>Ekaterina Malysheva</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/united-states-2.0</loc>
@@ -4563,7 +4563,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-09-09_24/2017-09-09_24_030_large.webp</image:loc>
       <image:caption>Dumbo  The area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/strigino</loc>
@@ -4671,7 +4671,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-08-23/2017-08-23_032.webp</image:loc>
       <image:caption>Strigino International Airport</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/maks</loc>
@@ -4715,7 +4715,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-07-22/2017-07-22_015.webp</image:loc>
       <image:caption>MAKS International Aviation and Space Show</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/ramon-palace</loc>
@@ -4731,7 +4731,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-01-07/2017-01-07_003.webp</image:loc>
       <image:caption>The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/partners-day</loc>
@@ -4855,7 +4855,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-11-09/2016-11-09_030.webp</image:loc>
       <image:caption>Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/united-states</loc>
@@ -5019,7 +5019,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-10-15_11-05/2016-10-15_11-05_040_large.webp</image:loc>
       <image:caption>The Hollywood Sign (originally the Hollywoodland Sign) is a landmark and cultural icon overlooking Hollywood. Spelling out the word Hollywood in 13.7 m-tall white capital letters and 106.7 m long, it was originally created in 1923 as a temporary advertisement for local real estate development, but due to increasing recognition the sign was left up, and replaced in 1978 with a more durable all-steel structure.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/kaliningrad</loc>
@@ -5143,7 +5143,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-08-24_30/2016-08-24_30_030_large.webp</image:loc>
       <image:caption>The sperm whale skeleton in the Museum of the World Ocean.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/formula-sochi-2.0</loc>
@@ -5175,7 +5175,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-04-27_05-04/2016-04-27_05-04_007.webp</image:loc>
       <image:caption>Krasnaya Polyana Ski Resort</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/intel-products</loc>
@@ -5203,7 +5203,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-04-15/2016-04-15_001.webp</image:loc>
       <image:caption>Intel Software Products</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/lolita-rakhmatova</loc>
@@ -5219,7 +5219,7 @@
       <image:loc>https://andreypudov.com/photographs/2015-12-12/2015-12-12_003.webp</image:loc>
       <image:caption>Lolita Rakhmatova</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/formula-sochi</loc>
@@ -5647,7 +5647,7 @@
       <image:loc>https://andreypudov.com/photographs/2015-10-05_11/2015-10-05_11_104_large.webp</image:loc>
       <image:caption>2015 Formula 1 Russian Grand Prix</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/asia-farakshina</loc>
@@ -5663,7 +5663,7 @@
       <image:loc>https://andreypudov.com/photographs/2015-08-14/2015-08-14_006.webp</image:loc>
       <image:caption>Asia Farakshina</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/lake-baikal</loc>
@@ -5963,7 +5963,7 @@
       <image:loc>https://andreypudov.comhttps://www.youtube.com/embed/VlXZW_dqlUE?rel=0</image:loc>
       <image:caption>The video report of the exploring expedition to Lake Baikal.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/lake-baikal-team</loc>
@@ -6003,7 +6003,7 @@
       <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_006.webp</image:loc>
       <image:caption>Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/military-museum</loc>
@@ -6227,7 +6227,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp</image:loc>
       <image:caption>Battle Glory of the Urals</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/ekaterinburg</loc>
@@ -6551,7 +6551,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-12-21_25_city/2014-12-21_080_large.webp</image:loc>
       <image:caption>Ekaterinburg. The Picture of City</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/yoshkar-ola</loc>
@@ -6771,7 +6771,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-05-10/2014-05-10_054_large.webp</image:loc>
       <image:caption>Yoshkar-Ola. Tsar's town on Kokshaga River</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/little-russia</loc>
@@ -7227,7 +7227,7 @@
       <image:loc>https://andreypudov.com/photographs/2013-09-14_27/2013-09-27_113_large.webp</image:loc>
       <image:caption>Little Russia</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/marina-alekseeva</loc>
@@ -7243,7 +7243,7 @@
       <image:loc>https://andreypudov.com/photographs/2013-09-10/2013-09-10_003.webp</image:loc>
       <image:caption>Marina Alekseeva</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/photographs/vera-klemenova</loc>
@@ -7311,7 +7311,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_016_large.webp</image:loc>
       <image:caption>Vera Klemenova</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/drawings/watercolor</loc>
@@ -7363,7 +7363,7 @@
       <image:loc>https://andreypudov.com/drawings/watercolor/2021-03-30.webp</image:loc>
       <image:caption>March 03, 2021</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/drawings/soft-pastel</loc>
@@ -7395,7 +7395,7 @@
       <image:loc>https://andreypudov.com/drawings/soft-pastel/2021-01-07.webp</image:loc>
       <image:caption>January 07, 2021</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/drawings/pencil-sketches</loc>
@@ -7427,7 +7427,7 @@
       <image:loc>https://andreypudov.com/drawings/pencil-sketches/2020-04-02.webp</image:loc>
       <image:caption>April 2, 2020</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/timelapses/bolshaya-pokrovskaya</loc>
@@ -7435,7 +7435,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762737</image:loc>
       <image:caption>Bolshaya Pokrovskaya Street  Bolshaya Pokrovskaya Street is the high street in the historical center of Nizhny Novgorod and one of its oldest streets. Until 1917 it was considered a street for noblemen. Formed the main street of the city by the end of the 18th century. It is considered an analog of the Arbat in Moscow or 6-7 Lines of Vasilyevsky Island in St. Petersburg.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/timelapses/maxim-gorky</loc>
@@ -7443,7 +7443,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762848</image:loc>
       <image:caption>Monument to Maxim Gorky  Alexei Maximovich Peshkov popularly known as Maxim Gorky was a Russian writer and political activist. He was nominated five times for the Nobel Prize in Literature. Before his success as an author, he traveled widely across the Russian Empire changing jobs frequently, experiences which would later influence his writing. Gorky was active in the emerging Marxist communist movement. He publicly opposed the Tsarist regime, and for a time closely associated himself with Lenin and Bogdanov's Bolshevik wing of the party.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/timelapses/spit</loc>
@@ -7451,7 +7451,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762962</image:loc>
       <image:caption>Spit of Nizhny Novgorod  The Spit is one of the main natural landmarks in the historical center of Nizhny Novgorod. It is located at the confluence of the Oka and Volga rivers. In the times of the Russian Tsardom, the Spit was the center of the Strelitzky camp of Nizhny Novgorod Uyezd, thereby receiving its name. Later the river port began to form here. </image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/timelapses/state-bank</loc>
@@ -7459,7 +7459,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762910</image:loc>
       <image:caption>The State Bank of Russia  The Nizhny Novgorod branch of the State Bank on Bolshaya Pokrovskaya Street is one of the most beautiful buildings in Nizhny Novgorod and the entire Volga region. It was built in 1913 to commemorate the 300th anniversary of the Romanovs' House. The ceiling in the building, for which the neo-Russian style was chosen, was painted by the famous artist Ivan Bilibin.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/timelapses/switzerland-park</loc>
@@ -7467,7 +7467,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517763009</image:loc>
       <image:caption>Switzerland Park  Switzerland Park is an enormous green park located on the bank of the Oka River and was founded in 1903. Today, its territory accommodates an amusement park with a panoramic wheel, a zoo, and a bunch of cafes. By the way, Switzerland is not only the name of a country but also a term referring to a landscape of wooded hills. There are at least 190 “Switzerlands” in the world, one of which is in Nizhny Novgorod. The park is 3.5-kilometer long and it makes the location perfect for promenades, sports events, and marathons, often held at the location. The Oka River looks magnificent if viewed from the hills above and adds up to the delightful view gilded by the rays of the falling sun. Sentimentalists hail Nizhny Novgorod as the capital of sunsets not for nothing.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/timelapses/zelensky-syezd</loc>
@@ -7475,7 +7475,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762791</image:loc>
       <image:caption>Zelensky Syezd Street  Construction of the stone Kremlin of Nizhny Novgorod began in 1500 with the building of the Ivanovskaya Tower; the main work commenced in 1508 and by 1515 a grandiose building was completed. The oak walls that formed the old fortifications were destroyed by a huge fire in 1513. The two-kilometer wall was reinforced by 13 towers (one of them – Zachatskaya – was on the shore of the Volga; not preserved, but was rebuilt in 2012). This “Stone City” had a permanent garrison with solid artillery weapons. With the fall of Kazan, Nizhny Novgorod Kremlin lost its military significance, and later it housed the city and provincial authorities.</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/performances/cure-for-wellness</loc>
@@ -7483,7 +7483,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762017</image:loc>
       <image:caption>Gravity Falls</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/performances/gravity-falls</loc>
@@ -7491,7 +7491,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517761510</image:loc>
       <image:caption>A Cure for Wellness</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/performances/mia-and-sebastian</loc>
@@ -7499,6 +7499,6 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517760954</image:loc>
       <image:caption>Mia & Sebastian</image:caption>
     </image:image>
-    <lastmod>2022-12-21T17:50:18.193Z</lastmod>
+    <lastmod>2022-12-21T18:08:52.980Z</lastmod>
   </url>
 </urlset>
