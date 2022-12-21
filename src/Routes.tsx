@@ -1,11 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './components/Home';
 import Albums from './components/Albums';
-import Contents from './components/Contents';
-import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Contents from './components/Contents';
+import Home from './components/Home';
 import NotFound from './components/NotFound';
+import Resume from './components/Resume';
+import Sitemap from './components/Sitemap';
+
 
 import Page from './models/core/page';
 import { Photographs, Drawings, TimeLapses } from './models/pages';
@@ -50,6 +52,7 @@ function routes() {
 
       { TimeLapses.map(photographyRoute) }
 
+      <Route path = '/sitemap-generator' element = { <Sitemap /> } />
       <Route path = '*' element = { <NotFound /> } />
     </Routes>
   );
