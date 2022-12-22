@@ -105,38 +105,75 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="Las Vegas was settled in 1905 and officially incorporated in 1911. At the close of the 20th century, it was the most populated North American city founded within that century. The city bills itself as The Entertainment Capital of the World, and is famous for its luxurious and extremely large casino-hotels together with their associated activities. It is a top three destination in the United States for business conventions and a global leader in the hospitality industry."
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_001.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Las Vegas was settled in 1905 and officially incorporated in 1911. At the close of the 20th century, it was the most populated North American city founded within that century. The city bills itself as The Entertainment Capital of the World, and is famous for its luxurious and extremely large casino-hotels together with their associated activities. It is a top three destination in the United States for business conventions and a global leader in the hospitality industry.
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="Las Vegas Strip
+
+The Las Vegas Strip is a stretch of Las Vegas Boulevard South in Clark County, Nevada, that is known for its concentration of resort hotels and casinos. The Strip, as it is known, is about 4.2 mi (6.8 km) long, and is immediately south of the Las Vegas city limits in the unincorporated towns of Paradise and Winchester, but is often referred to simply as \\"Las Vegas\\"."
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_002.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Las Vegas Strip
+
+The Las Vegas Strip is a stretch of Las Vegas Boulevard South in Clark County, Nevada, that is known for its concentration of resort hotels and casinos. The Strip, as it is known, is about 4.2 mi (6.8 km) long, and is immediately south of the Las Vegas city limits in the unincorporated towns of Paradise and Winchester, but is often referred to simply as "Las Vegas".
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="Today, Las Vegas annually ranks as one of the world's most visited tourist destinations. The city's tolerance for numerous forms of adult entertainment earned it the title of \\"Sin City\\", and has made Las Vegas a popular setting for literature, films, television programs, and music videos."
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_003.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Today, Las Vegas annually ranks as one of the world's most visited tourist destinations. The city's tolerance for numerous forms of adult entertainment earned it the title of "Sin City", and has made Las Vegas a popular setting for literature, films, television programs, and music videos.
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="The Eiffel Tower
+
+Construction began on the Paris Las Vegas Resort & Casino and its accompanying tower in 1997, with its completion taking place the following year. The Paris connects to its sister hotel, Bally’s, via tram. Initially, plans included a full-size replica of the famous Eiffel Tower, but due to flight path concerns from McCarran Airport, the tower had to be scaled down. Despite the reduction in its size, the Eiffel Tower in Las Vegas still offers the highest viewpoint of the Las Vegas Strip. At its architectural height, it stands over 12 meters taller than the High Roller Ferris wheel at the nearby LINQ. It’s become a popular place to celebrate Valentine’s Day, host a wedding, and, thanks to the Eiffel Tower Experience, take selfies."
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_004.webp"
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The Eiffel Tower
+
+Construction began on the Paris Las Vegas Resort & Casino and its accompanying tower in 1997, with its completion taking place the following year. The Paris connects to its sister hotel, Bally’s, via tram. Initially, plans included a full-size replica of the famous Eiffel Tower, but due to flight path concerns from McCarran Airport, the tower had to be scaled down. Despite the reduction in its size, the Eiffel Tower in Las Vegas still offers the highest viewpoint of the Las Vegas Strip. At its architectural height, it stands over 12 meters taller than the High Roller Ferris wheel at the nearby LINQ. It’s become a popular place to celebrate Valentine’s Day, host a wedding, and, thanks to the Eiffel Tower Experience, take selfies.
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="Paris Las Vegas
+
+Paris Las Vegas is a casino hotel on the Las Vegas Strip in Paradise. It is owned and operated by Caesars Entertainment and has a 95,263 square-foot casino with over 1,700 slot machines."
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Paris Las Vegas
+
+Paris Las Vegas is a casino hotel on the Las Vegas Strip in Paradise. It is owned and operated by Caesars Entertainment and has a 95,263 square-foot casino with over 1,700 slot machines.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -147,17 +184,31 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="Lou Ruvo Center for Brain Health
+
+Cleveland Clinic Lou Ruvo Center was realized by Frank Gehry architect, its unique design and cozy atmosphere are a tribute to patients, families and staff who attends the center. Gehry wanted to create a place that was memorable:”… The mantra is Keep Memory Alive… “he pointed. “…I’m trying to make a building that people want to visit, remember, speak, and enjoy, and ultimately partner with us in the center to help cure brain diseases…"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_007.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Lou Ruvo Center for Brain Health
+
+Cleveland Clinic Lou Ruvo Center was realized by Frank Gehry architect, its unique design and cozy atmosphere are a tribute to patients, families and staff who attends the center. Gehry wanted to create a place that was memorable:”… The mantra is Keep Memory Alive… “he pointed. “…I’m trying to make a building that people want to visit, remember, speak, and enjoy, and ultimately partner with us in the center to help cure brain diseases…
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="The ceremonial groundbreaking occurred on February 9, 2007. The center operates as an outpatient treatment and research facility in downtown Las Vegas on land deeded to Keep Memory Alive, the fundraising arm of LRCBH, by the City of Las Vegas as part of its 25 ha Symphony Park. The center is approximately 6,000 m2 and includes 13 examination rooms, offices for health care practitioners and researchers, a \\"Museum of the Mind\\", and a community auditorium. The center also serves as the headquarters for Keep Memory Alive, the Las Vegas Alzheimer's Association, and the Las Vegas Parkinson's Disease Association."
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_008.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The ceremonial groundbreaking occurred on February 9, 2007. The center operates as an outpatient treatment and research facility in downtown Las Vegas on land deeded to Keep Memory Alive, the fundraising arm of LRCBH, by the City of Las Vegas as part of its 25 ha Symphony Park. The center is approximately 6,000 m2 and includes 13 examination rooms, offices for health care practitioners and researchers, a "Museum of the Mind", and a community auditorium. The center also serves as the headquarters for Keep Memory Alive, the Las Vegas Alzheimer's Association, and the Las Vegas Parkinson's Disease Association.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -175,10 +226,19 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Conquering America 4.0"
+          alt="Treasure Island
+
+Wynn's Atlandia Design worked with Jon Jerde and Olio Design to create the pirate village and lagoon area, originally known as Buccaneer Bay, and later as Siren's Cove. Jerde's assistants traveled across Europe, India, and Nepal searching for historic objects such as doors and columns, which were then replicated for Buccaneer Bay. The lagoon is 65 feet deep, and originally contained 2 million gallons of water. It uses wastewater recycled from a water treatment plant located beneath the resort's parking garage."
           className="img-responsive gallery-image"
           src="/photographs/2020-02-29_03-11/2020-02-29_03-11_011.webp"
         />
+        <figcaption
+          className="image-caption"
+        >
+          Treasure Island
+
+Wynn's Atlandia Design worked with Jon Jerde and Olio Design to create the pirate village and lagoon area, originally known as Buccaneer Bay, and later as Siren's Cove. Jerde's assistants traveled across Europe, India, and Nepal searching for historic objects such as doors and columns, which were then replicated for Buccaneer Bay. The lagoon is 65 feet deep, and originally contained 2 million gallons of water. It uses wastewater recycled from a water treatment plant located beneath the resort's parking garage.
+        </figcaption>
       </figure>
       <figure>
         <img
