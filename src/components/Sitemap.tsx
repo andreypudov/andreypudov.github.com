@@ -12,13 +12,13 @@ const urlEntry = (page: Page, timestamp: string) => `<url>
   `;
 const imageEntry = (pageTitle: string, media: Media) => `<image:image>
       <image:loc>${domain}${ media.src }</image:loc>
-      <image:caption>${ imageDescription(pageTitle, media) }</image:caption>
+      ${ imageDescription(pageTitle, media) }
     </image:image>
     `;
 const imageDescription = (pageTitle: string, media: Media) =>
- encodeXml(media.description.length !== 0
-    ? media.description.replaceAll('\n', ' ')
-    : pageTitle);
+ media.description.length !== 0
+    ? `<image:caption>${encodeXml(media.description.replaceAll('\n', ' '))}</image:caption>`
+    : `<image:title>${encodeXml(pageTitle)}<image:title>`;
 const encodeXml = (xml: string) => xml
   .replace(/&/g, '&amp;')
   .replace(/</g, '&lt;')
@@ -60,7 +60,7 @@ const generateSitemap = (timestamp: string) => {
 function Sitemap() {
   const timestamp = (new Date()).toISOString();
   return (
-    <Layout title = { 'Sitemap Generator' }>
+    <Layout title = { 'Sitemap' }>
       <div className = 'container'>
         <h1>Sitemap</h1>
 

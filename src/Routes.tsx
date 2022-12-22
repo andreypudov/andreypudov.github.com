@@ -52,7 +52,7 @@ function routes() {
 
       { TimeLapses.map(photographyRoute) }
 
-      <Route path = '/sitemap-generator' element = { <Sitemap /> } />
+      <Route path = '/sitemap' element = { <Sitemap /> } />
       <Route path = '*' element = { <NotFound /> } />
     </Routes>
   );
