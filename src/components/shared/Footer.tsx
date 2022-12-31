@@ -17,8 +17,8 @@ function Footer({ landing }: FooterProps) {
         </ul>
 
         <ul className = 'piped-links'>
-          <p className = 'piped-links-long'>Copyright &#169; 2022 Andrey Pudov. All rights reserved.</p>
-          <p className = 'piped-links-short'>&#169; 2022 Andrey Pudov. All rights reserved.</p>
+          <p className = 'piped-links-long'>Copyright &#169; 2023 Andrey Pudov. All rights reserved.</p>
+          <p className = 'piped-links-short'>&#169; 2023 Andrey Pudov. All rights reserved.</p>
         </ul>
       </div>
 
