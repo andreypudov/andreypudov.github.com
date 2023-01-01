@@ -21,15 +21,6 @@ function Footer({ landing }: FooterProps) {
           <p className = 'piped-links-short'>&#169; 2023 Andrey Pudov. All rights reserved.</p>
         </ul>
       </div>
-
-{/*       <script src = 'libraries/jquery/jquery-1.11.3.min.js'></script>
-
-      <script src = 'libraries/bootstrap/js/collapse.js'></script>
-      <script src = 'libraries/bootstrap/js/dropdown.js'></script>
-      <script src = 'libraries/bootstrap/js/transition.js'></script>
-
-      <script src = 'libraries/bootstrap/js/carousel.js'></script>
-      <script src = 'scripts/init.js'></script> */}
     </footer>
   );
 }

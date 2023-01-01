@@ -16,7 +16,9 @@ function Title(props: TitleProps) {
 
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
+        <meta property='og:type' content="website" />
         <meta property='og:image' content={props.cover} />
+        <meta property="og:site_name" content="Andrey Pudov" />
       </Helmet>
     </>
   );
