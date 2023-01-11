@@ -27,6 +27,7 @@ import IntelOffice from './../models/photographs/intelOffice';
 import NizhnyNovgorod from './../models/photographs/nizhnyNovgorod';
 import FormulaSochi3 from './../models/photographs/formulaSochi3';
 import Rekshino from './../models/photographs/rekshino';
+import ConqueringAmerica3 from './../models/photographs/conqueringAmerica3';
 import AlinaCherdakova from './../models/photographs/alinaCherdakova';
 import LookingForTheWind from './../models/photographs/lookingForTheWind';
 import BalloonFestival from './../models/photographs/balloonFestival';
@@ -96,6 +97,7 @@ const Pages = [
    new Page(NizhnyNovgorod, PageType.Photographs, '/photographs/nizhny-novgorod'),
    new Page(FormulaSochi3, PageType.Photographs, '/photographs/formula-sochi-3.0'),
    new Page(Rekshino, PageType.Photographs, '/photographs/rekshino'),
+   new Page(ConqueringAmerica3, PageType.Photographs, '/photographs/united-states-3.0'),
    new Page(AlinaCherdakova, PageType.Photographs, '/photographs/alina-cherdakova'),
    new Page(TatyanaBysheva, PageType.Photographs, '/photographs/tatyana-bysheva'),
    new Page(LookingForTheWind, PageType.Photographs, '/photographs/looking-for-the-wind'),
