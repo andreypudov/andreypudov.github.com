@@ -18,7 +18,7 @@ const imageEntry = (pageTitle: string, media: Media) => `<image:image>
 const imageDescription = (pageTitle: string, media: Media) =>
  media.description.length !== 0
     ? `<image:caption>${encodeXml(media.description.replaceAll('\n', ' '))}</image:caption>`
-    : `<image:title>${encodeXml(pageTitle)}<image:title>`;
+    : `<image:title>${encodeXml(pageTitle)}</image:title>`;
 const encodeXml = (xml: string) => xml
   .replace(/&/g, '&amp;')
   .replace(/</g, '&lt;')
