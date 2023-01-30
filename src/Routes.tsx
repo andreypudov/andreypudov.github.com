@@ -34,25 +34,25 @@ function routes() {
   return (
     <Routes>
       <Route path = '/' element = { <Home /> } />
-      <Route path = '/albums' element = { <Albums /> } />
-      <Route path = '/contents' element = { <Contents /> } />
-      <Route path = '/resume' element = { <Resume /> } />
-      <Route path = '/contact' element = { <Contact /> } />
+      <Route path = '/albums/' element = { <Albums /> } />
+      <Route path = '/contents/' element = { <Contents /> } />
+      <Route path = '/resume/' element = { <Resume /> } />
+      <Route path = '/contact/' element = { <Contact /> } />
 
-      <Route path = '/photographs/russian-emirates' element = { <RussianEmirates /> } />
-      <Route path = '/photographs/golden-age' element = { <GoldenAge /> } />
-      <Route path = '/photographs/imperial-town' element = { <ImperialTown /> } />
+      <Route path = '/photographs/russian-emirates/' element = { <RussianEmirates /> } />
+      <Route path = '/photographs/golden-age/' element = { <GoldenAge /> } />
+      <Route path = '/photographs/imperial-town/' element = { <ImperialTown /> } />
 
       { Photographs.map(photographyRoute) }
       { Drawings.map(drawingAlbumRoute) }
 
-      <Route path = '/performances/gravity-falls' element = { <PerformanceAlbum album = { GravityFalls } /> } />
-      <Route path = '/performances/cure-for-wellness' element = { <PerformanceAlbum album = { CureForWellness } /> } />
-      <Route path = '/performances/mia-and-sebastian' element = { <PerformanceAlbum album = { MiaAndSebastian } /> } />
+      <Route path = '/performances/gravity-falls/' element = { <PerformanceAlbum album = { GravityFalls } /> } />
+      <Route path = '/performances/cure-for-wellness/' element = { <PerformanceAlbum album = { CureForWellness } /> } />
+      <Route path = '/performances/mia-and-sebastian/' element = { <PerformanceAlbum album = { MiaAndSebastian } /> } />
 
       { TimeLapses.map(photographyRoute) }
 
-      <Route path = '/sitemap' element = { <Sitemap /> } />
+      <Route path = '/sitemap/' element = { <Sitemap /> } />
       <Route path = '*' element = { <NotFound /> } />
     </Routes>
   );
