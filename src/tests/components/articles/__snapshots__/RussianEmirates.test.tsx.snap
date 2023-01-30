@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/albums"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contents"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/resume"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contact"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -674,7 +674,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/resume"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -684,7 +684,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/resume"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -692,7 +692,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/contact"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

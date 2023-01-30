@@ -13,16 +13,16 @@ function Header() {
             <div className = 'collapse navbar-collapse justify-content-sm-center' id = 'navbarMain'>
               <ul className = 'navbar-nav'>
                 <li className = 'nav-item'>
-                  <Link to = '/albums' className = 'nav-link'>Albums</Link>
+                  <Link to = '/albums/' className = 'nav-link'>Albums</Link>
                 </li>
                 <li className = 'nav-item'>
-                  <Link to = '/contents' className = 'nav-link'>Contents</Link>
+                  <Link to = '/contents/' className = 'nav-link'>Contents</Link>
                 </li>
                 <li className = 'nav-item'>
-                  <Link to = '/resume' className = 'nav-link'>Resume</Link>
+                  <Link to = '/resume/' className = 'nav-link'>Resume</Link>
                 </li>
                 <li className = 'nav-item'>
-                  <Link to = '/contact' className = 'nav-link'>Contact</Link>
+                  <Link to = '/contact/' className = 'nav-link'>Contact</Link>
                 </li>
               </ul>
             </div>

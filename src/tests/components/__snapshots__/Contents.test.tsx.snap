@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/albums"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contents"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/resume"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contact"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -108,7 +108,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/favorite-photographs"
+            href="/photographs/favorite-photographs/"
             onClick={[Function]}
           >
             Favorite Photographs
@@ -119,7 +119,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/perpignan"
+            href="/photographs/perpignan/"
             onClick={[Function]}
           >
             Perpignan
@@ -130,7 +130,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/els-empedrats-del-montseny"
+            href="/photographs/els-empedrats-del-montseny/"
             onClick={[Function]}
           >
             Els Empedrats del Montseny
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/andorra"
+            href="/photographs/andorra/"
             onClick={[Function]}
           >
             Andorra
@@ -152,7 +152,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/gotheborg"
+            href="/photographs/gotheborg/"
             onClick={[Function]}
           >
             Götheborg. Conquering Scandinavia
@@ -163,7 +163,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/oslo"
+            href="/photographs/oslo/"
             onClick={[Function]}
           >
             Oslo. Conquering Scandinavia
@@ -174,7 +174,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/stockholm"
+            href="/photographs/stockholm/"
             onClick={[Function]}
           >
             Stockholm. Conquering Scandinavia
@@ -185,7 +185,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/puigmal"
+            href="/photographs/puigmal/"
             onClick={[Function]}
           >
             Puigmal
@@ -196,7 +196,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/turo-de-lhome"
+            href="/photographs/turo-de-lhome/"
             onClick={[Function]}
           >
             Turó de l'Home
@@ -207,7 +207,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/castillo-de-mataplana"
+            href="/photographs/castillo-de-mataplana/"
             onClick={[Function]}
           >
             Castillo de Mataplana
@@ -218,7 +218,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/andrey-pudov"
+            href="/photographs/andrey-pudov/"
             onClick={[Function]}
           >
             Andrey Pudov
@@ -229,7 +229,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/poblenou-cemetery"
+            href="/photographs/poblenou-cemetery/"
             onClick={[Function]}
           >
             Poblenou Cemetery
@@ -240,7 +240,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/ekaterina-domracheva"
+            href="/photographs/ekaterina-domracheva/"
             onClick={[Function]}
           >
             Ekaterina Domracheva
@@ -251,7 +251,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/crimea"
+            href="/photographs/crimea/"
             onClick={[Function]}
           >
             Crimean Holidays
@@ -262,7 +262,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/altay"
+            href="/photographs/altay/"
             onClick={[Function]}
           >
             Altay. Conquering Siberia 2.0
@@ -273,7 +273,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/irina-domracheva"
+            href="/photographs/irina-domracheva/"
             onClick={[Function]}
           >
             Irina Domracheva
@@ -284,7 +284,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/united-states-4.0"
+            href="/photographs/united-states-4.0/"
             onClick={[Function]}
           >
             Conquering America 4.0
@@ -295,7 +295,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/intel-office"
+            href="/photographs/intel-office/"
             onClick={[Function]}
           >
             Intel Office in Nizhny Novgorod
@@ -306,7 +306,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/nizhny-novgorod"
+            href="/photographs/nizhny-novgorod/"
             onClick={[Function]}
           >
             Nizhny Novgorod
@@ -317,7 +317,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/rekshino"
+            href="/photographs/rekshino/"
             onClick={[Function]}
           >
             Rekshino
@@ -328,7 +328,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/formula-sochi-3.0"
+            href="/photographs/formula-sochi-3.0/"
             onClick={[Function]}
           >
             2019 Formula 1 Russian Grand Prix
@@ -339,7 +339,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/united-states-3.0"
+            href="/photographs/united-states-3.0/"
             onClick={[Function]}
           >
             Conquering America 3.0
@@ -350,7 +350,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/alina-cherdakova"
+            href="/photographs/alina-cherdakova/"
             onClick={[Function]}
           >
             Alina Cherdakova
@@ -361,7 +361,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/tatyana-bysheva"
+            href="/photographs/tatyana-bysheva/"
             onClick={[Function]}
           >
             Tatyana Bysheva
@@ -372,7 +372,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/looking-for-the-wind"
+            href="/photographs/looking-for-the-wind/"
             onClick={[Function]}
           >
             Looking for the Wind
@@ -383,7 +383,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/balloon-festival"
+            href="/photographs/balloon-festival/"
             onClick={[Function]}
           >
             Balloon Festival
@@ -394,7 +394,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/rome-malta"
+            href="/photographs/rome-malta/"
             onClick={[Function]}
           >
             Conquering Rome and Order of Malta
@@ -405,7 +405,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/ride-in-rekshino"
+            href="/photographs/ride-in-rekshino/"
             onClick={[Function]}
           >
             Ride in Rekshino
@@ -416,7 +416,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/kira-orlova"
+            href="/photographs/kira-orlova/"
             onClick={[Function]}
           >
             Kira Orlova
@@ -427,7 +427,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/ekaterina-malysheva"
+            href="/photographs/ekaterina-malysheva/"
             onClick={[Function]}
           >
             Ekaterina Malysheva
@@ -438,7 +438,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/united-states-2.0"
+            href="/photographs/united-states-2.0/"
             onClick={[Function]}
           >
             Conquering America 2.0
@@ -449,7 +449,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/strigino"
+            href="/photographs/strigino/"
             onClick={[Function]}
           >
             Strigino International Airport
@@ -460,7 +460,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/maks"
+            href="/photographs/maks/"
             onClick={[Function]}
           >
             MAKS International Aviation and Space Show
@@ -471,7 +471,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/ramon-palace"
+            href="/photographs/ramon-palace/"
             onClick={[Function]}
           >
             Ramon Palace
@@ -482,7 +482,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/partners-day"
+            href="/photographs/partners-day/"
             onClick={[Function]}
           >
             Intel Partners Day
@@ -493,7 +493,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/united-states"
+            href="/photographs/united-states/"
             onClick={[Function]}
           >
             Conquering America
@@ -504,7 +504,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/kaliningrad"
+            href="/photographs/kaliningrad/"
             onClick={[Function]}
           >
             Kaliningrad. The amber capital of the World
@@ -515,7 +515,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/formula-sochi-2.0"
+            href="/photographs/formula-sochi-2.0/"
             onClick={[Function]}
           >
             2016 Formula 1 Russian Grand Prix
@@ -526,7 +526,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/intel-products"
+            href="/photographs/intel-products/"
             onClick={[Function]}
           >
             Intel Software Products
@@ -537,7 +537,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/lolita-rakhmatova"
+            href="/photographs/lolita-rakhmatova/"
             onClick={[Function]}
           >
             Lolita Rakhmatova
@@ -548,7 +548,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/formula-sochi"
+            href="/photographs/formula-sochi/"
             onClick={[Function]}
           >
             2015 Formula 1 Russian Grand Prix
@@ -559,7 +559,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/asia-farakshina"
+            href="/photographs/asia-farakshina/"
             onClick={[Function]}
           >
             Asia Farakshina
@@ -570,7 +570,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/lake-baikal"
+            href="/photographs/lake-baikal/"
             onClick={[Function]}
           >
             Lake Baikal
@@ -581,7 +581,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/lake-baikal-team"
+            href="/photographs/lake-baikal-team/"
             onClick={[Function]}
           >
             Lake Baikal Team
@@ -592,7 +592,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/military-museum"
+            href="/photographs/military-museum/"
             onClick={[Function]}
           >
             Battle Glory of the Urals
@@ -603,7 +603,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/ekaterinburg"
+            href="/photographs/ekaterinburg/"
             onClick={[Function]}
           >
             Ekaterinburg. The Picture of City
@@ -614,7 +614,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/yoshkar-ola"
+            href="/photographs/yoshkar-ola/"
             onClick={[Function]}
           >
             Yoshkar-Ola. Tsar's town on Kokshaga River
@@ -625,7 +625,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/little-russia"
+            href="/photographs/little-russia/"
             onClick={[Function]}
           >
             Little Russia
@@ -636,7 +636,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/marina-alekseeva"
+            href="/photographs/marina-alekseeva/"
             onClick={[Function]}
           >
             Marina Alekseeva
@@ -647,7 +647,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/vera-klemenova"
+            href="/photographs/vera-klemenova/"
             onClick={[Function]}
           >
             Vera Klemenova
@@ -667,7 +667,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/watercolor"
+            href="/drawings/watercolor/"
             onClick={[Function]}
           >
             Watercolor
@@ -678,7 +678,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/soft-pastel"
+            href="/drawings/soft-pastel/"
             onClick={[Function]}
           >
             Soft Pastel
@@ -689,7 +689,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/drawings/pencil-sketches"
+            href="/drawings/pencil-sketches/"
             onClick={[Function]}
           >
             Pencil Sketches
@@ -709,7 +709,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/timelapses/bolshaya-pokrovskaya"
+            href="/timelapses/bolshaya-pokrovskaya/"
             onClick={[Function]}
           >
             Bolshaya Pokrovskaya
@@ -720,7 +720,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/timelapses/maxim-gorky"
+            href="/timelapses/maxim-gorky/"
             onClick={[Function]}
           >
             Monument to Maxim Gorky
@@ -731,7 +731,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/timelapses/spit"
+            href="/timelapses/spit/"
             onClick={[Function]}
           >
             Spit of Nizhny Novgorod
@@ -742,7 +742,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/timelapses/state-bank"
+            href="/timelapses/state-bank/"
             onClick={[Function]}
           >
             The State Bank of Russia
@@ -753,7 +753,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/timelapses/switzerland-park"
+            href="/timelapses/switzerland-park/"
             onClick={[Function]}
           >
             Switzerland Park
@@ -764,7 +764,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/timelapses/zelensky-syezd"
+            href="/timelapses/zelensky-syezd/"
             onClick={[Function]}
           >
             Zelensky Syezd
@@ -784,7 +784,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/performances/gravity-falls"
+            href="/performances/gravity-falls/"
             onClick={[Function]}
           >
             Gravity Falls
@@ -795,7 +795,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/performances/cure-for-wellness"
+            href="/performances/cure-for-wellness/"
             onClick={[Function]}
           >
             A Cure for Wellness
@@ -806,7 +806,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/performances/mia-and-sebastian"
+            href="/performances/mia-and-sebastian/"
             onClick={[Function]}
           >
             Mia & Sebastian
@@ -826,7 +826,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/russian-emirates"
+            href="/photographs/russian-emirates/"
             onClick={[Function]}
           >
             Russian Emirates
@@ -837,7 +837,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/golden-age"
+            href="/photographs/golden-age/"
             onClick={[Function]}
           >
             Golden Age
@@ -848,7 +848,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/photographs/imperial-town"
+            href="/photographs/imperial-town/"
             onClick={[Function]}
           >
             Imperial Town
@@ -931,7 +931,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/resume"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -941,7 +941,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/resume"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -949,7 +949,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/contact"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

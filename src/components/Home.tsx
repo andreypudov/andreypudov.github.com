@@ -11,25 +11,25 @@ function Home() {
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '2' aria-label = 'Slide 3'></button>
         </ol>
         <div className = 'carousel-inner'>
-          <Link to = '/photographs/ekaterina-domracheva' className = 'carousel-item active'>
+          <Link to = '/photographs/ekaterina-domracheva/' className = 'carousel-item active'>
             <img src = 'images/carousel/ekaterina-domracheva.webp' alt = 'Ekaterina Domracheva' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Ekaterina Domracheva</h5>
             </div>
           </Link>
-          <Link to = '/photographs/poblenou-cemetery' className = 'carousel-item'>
+          <Link to = '/photographs/poblenou-cemetery/' className = 'carousel-item'>
             <img src = 'images/carousel/poblenou-cemetery.webp' alt = 'Poblenou Cemetery' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Poblenou Cemetery</h5>
             </div>
           </Link>
-          <Link to = '/photographs/puigmal' className = 'carousel-item'>
+          <Link to = '/photographs/puigmal/' className = 'carousel-item'>
             <img src = 'images/carousel/puigmal.webp' alt = 'Puigmal' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Puigmal</h5>
             </div>
           </Link>
-          {/* <Link to = '/photographs/crimea' className = 'carousel-item'>
+          {/* <Link to = '/photographs/crimea/' className = 'carousel-item'>
             <img src = 'images/carousel/crimea.webp' alt = 'Crimean Holidays' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
               <h5>Crimean Holidays</h5>
@@ -49,12 +49,12 @@ function Home() {
       <div className = 'marketing marketing-image'>
         <div className = 'row'>
           <div className = 'col-sm-3'>
-            <Link to = '/photographs/favorite-photographs'>
+            <Link to = '/photographs/favorite-photographs/'>
               <img src = 'images/marketing/formula-sochi-2-0.webp' className = 'img-fluid' alt = 'Favorite Photographs' />
             </Link>
           </div>
           <div className = 'col-sm-3'>
-            <Link to = '/photographs/altay'>
+            <Link to = '/photographs/altay/'>
               <img src = 'images/marketing/altay.webp' className = 'img-fluid' alt = 'Altay. Conquering Siberia 2.0' />
             </Link>
           </div>
@@ -64,7 +64,7 @@ function Home() {
             </Link>
           </div>
           <div className = 'col-sm-3'>
-            <Link to = '/photographs/alina-cherdakova'>
+            <Link to = '/photographs/alina-cherdakova/'>
               <img src = 'images/marketing/alina-cherdakova.webp' className = 'img-fluid' alt = 'Alina Cherdakova' />
             </Link>
           </div>

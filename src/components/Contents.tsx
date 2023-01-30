@@ -44,19 +44,19 @@ function Contents() {
             <h2>Performances</h2>
           </li>
           <li>
-            <Link to = '/performances/gravity-falls'>
+            <Link to = '/performances/gravity-falls/'>
               Gravity Falls
               <small>Monday, January 18, 2021</small>
             </Link>
           </li>
           <li>
-            <Link to = '/performances/cure-for-wellness'>
+            <Link to = '/performances/cure-for-wellness/'>
               A Cure for Wellness
               <small>Saturday, March 17, 2018</small>
             </Link>
           </li>
           <li>
-            <Link to = '/performances/mia-and-sebastian'>
+            <Link to = '/performances/mia-and-sebastian/'>
               Mia &amp; Sebastian
               <small>Thursday, September 7, 2017</small>
             </Link>

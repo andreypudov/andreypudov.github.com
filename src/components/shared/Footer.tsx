@@ -11,9 +11,9 @@ function Footer({ landing }: FooterProps) {
         { !landing && <hr className = 'footer-divider' /> }
 
         <ul className = 'piped-links float-end'>
-          <li className = 'first piped-links-short'><Link to = '/resume'>About</Link></li>
-          <li className = 'first piped-links-long'><Link to = '/resume'>About Andrey Pudov</Link></li>
-          <li><Link to = '/contact'>Contact</Link></li>
+          <li className = 'first piped-links-short'><Link to = '/resume/'>About</Link></li>
+          <li className = 'first piped-links-long'><Link to = '/resume/'>About Andrey Pudov</Link></li>
+          <li><Link to = '/contact/'>Contact</Link></li>
         </ul>
 
         <ul className = 'piped-links'>

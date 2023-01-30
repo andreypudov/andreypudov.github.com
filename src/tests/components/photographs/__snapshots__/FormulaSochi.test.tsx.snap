@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/albums"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contents"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/resume"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contact"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -1132,7 +1132,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
           className="first piped-links-short"
         >
           <a
-            href="/resume"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -1142,7 +1142,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
           className="first piped-links-long"
         >
           <a
-            href="/resume"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -1150,7 +1150,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
         </li>
         <li>
           <a
-            href="/contact"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact
