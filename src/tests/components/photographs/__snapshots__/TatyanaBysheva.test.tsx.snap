@@ -114,27 +114,6 @@ exports[`renders correctly 1`] = `
         <img
           alt="Tatyana Bysheva"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2018-07-27/2018-07-27_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-07-27/2018-07-27_003.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-07-27/2018-07-27_004.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image vertical"
           src="/photographs/2018-07-27/2018-07-27_005.webp"
         />
       </figure>
@@ -142,35 +121,7 @@ exports[`renders correctly 1`] = `
         <img
           alt="Tatyana Bysheva"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2018-07-27/2018-07-27_006.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-22/2017-07-22_001.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-07-22/2017-07-22_004.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image vertical"
           src="/photographs/2017-07-22/2017-07-22_005.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Tatyana Bysheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2017-07-22/2017-07-22_006.webp"
         />
       </figure>
     </div>

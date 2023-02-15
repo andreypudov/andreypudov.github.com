@@ -114,35 +114,7 @@ exports[`renders correctly 1`] = `
         <img
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_002.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_003.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-08-18/2018-08-18_004.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-08-18/2018-08-18_005.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_006.webp"
         />
       </figure>
       <figure>
@@ -150,13 +122,6 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_007.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_008.webp"
         />
       </figure>
       <figure>
@@ -177,98 +142,7 @@ exports[`renders correctly 1`] = `
         <img
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_011.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_012.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_013.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-08-18/2018-08-18_014.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_015.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_016.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_017.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_018.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_019.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-08-18/2018-08-18_020.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-08-18/2018-08-18_021.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_022.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image"
-          src="/photographs/2018-08-18/2018-08-18_023.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Alina Cherdakova"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2018-08-18/2018-08-18_024.webp"
         />
       </figure>
     </div>

@@ -106,8 +106,8 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Ekaterina Malysheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-10-07/2017-10-07_001.webp"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2017-10-28_2/2017-10-28_001.webp"
         />
       </figure>
       <figure>
@@ -122,20 +122,6 @@ exports[`renders correctly 1`] = `
           alt="Ekaterina Malysheva"
           className="img-responsive gallery-image vertical"
           src="/photographs/2017-10-07/2017-10-07_003.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Ekaterina Malysheva"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2017-10-07/2017-10-07_004.webp"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Ekaterina Malysheva"
-          className="img-responsive gallery-image"
-          src="/photographs/2017-10-07/2017-10-07_005.webp"
         />
       </figure>
       <figure>
