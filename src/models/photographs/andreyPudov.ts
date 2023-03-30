@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Andrey Pudov',
@@ -56,4 +57,6 @@ export default new Album(
     // new Photograph('/photographs/2016-04-16/2016-04-16_007.webp'),
     new Photograph('/photographs/2016-04-16/2016-04-16_008.webp'),
     // new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
-  ]);
+  ],
+  new Social('Андрей', 'Пудов', 'Программист в Барселоне',
+    'https://vk.com/andreypudov', undefined, 'https://instagram.com/andrey.pudov/'));

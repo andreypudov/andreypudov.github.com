@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Alina Cherdakova',
@@ -30,4 +31,5 @@ export default new Album(
     // new Photograph('/photographs/2018-08-18/2018-08-18_022.webp'),
     // new Photograph('/photographs/2018-08-18/2018-08-18_023.webp'),
     // new Photograph('/photographs/2018-08-18/2018-08-18_024.webp', true),
-  ]);
+  ],
+  new Social('Алина', 'Чердакова', 'Программист в Нижнем Новгороде', 'https://vk.com/perpetuity88'));

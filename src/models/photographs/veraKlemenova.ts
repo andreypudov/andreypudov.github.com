@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Vera Klemenova',
@@ -22,4 +23,5 @@ export default new Album(
     new Photograph('/photographs/2012-07-19/2012-07-19_014_large.webp', true),
     new Photograph('/photographs/2012-07-19/2012-07-19_015_large.webp', true),
     new Photograph('/photographs/2012-07-19/2012-07-19_016_large.webp'),
-  ]);
+  ],
+  new Social('Вера', 'Клеменова', 'Экономист в Нижнем Новгороде', 'https://vk.com/id2980398'));

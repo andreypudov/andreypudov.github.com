@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Ekaterina Malysheva',
@@ -13,4 +14,5 @@ export default new Album(
     // new Photograph('/photographs/2017-10-07/2017-10-07_004.webp', true),
     // new Photograph('/photographs/2017-10-07/2017-10-07_005.webp'),
     new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
-  ]);
+  ],
+  new Social('Екатерина', 'Малышева', 'Фотограф в Нижнем Новгороде', 'https://vk.com/katya_malysheva'));

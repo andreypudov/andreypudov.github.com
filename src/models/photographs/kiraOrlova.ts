@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Kira Orlova',
@@ -26,4 +27,6 @@ export default new Album(
     // new Photograph('/photographs/2017-10-22/2017-10-22_018_large.webp'),
     // new Photograph('/photographs/2017-10-22/2017-10-22_019_large.webp', true),
     // new Photograph('/photographs/2017-10-22/2017-10-22_020_large.webp'),
-  ]);
+  ],
+  new Social('Кира', 'Орлова', 'Студент в Нижнем Новгороде',
+    'https://vk.com/kira_random', undefined, 'https://instagram.com/kiraorlova'));

@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Tatyana Bysheva',
@@ -16,4 +17,6 @@ export default new Album(
     // new Photograph('/photographs/2017-07-22/2017-07-22_004.webp'),
     new Photograph('/photographs/2017-07-22/2017-07-22_005.webp', true),
     // new Photograph('/photographs/2017-07-22/2017-07-22_006.webp', true),
-  ]);
+  ],
+  new Social('Татьяна', 'Бышева', 'Программист в Нижнем Новгороде',
+    'https://vk.com/tbysheva', undefined, 'https://instagram.com/by.she.va'));

@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Asia Farakshina',
@@ -20,4 +21,5 @@ export default new Album(
     // new Photograph('/photographs/2015-08-14/2015-08-14_012.webp'),
     // new Photograph('/photographs/2015-08-14/2015-08-14_013.webp'),
     // new Photograph('/photographs/2015-08-14/2015-08-14_014.webp'),
-  ]);
+  ],
+  new Social('Асия', 'Фаракшина', 'Исламовед в Нижнем Новгороде'));
