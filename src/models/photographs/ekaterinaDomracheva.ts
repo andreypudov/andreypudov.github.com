@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Social from '../core/social';
 
 export default new Album(
   'Ekaterina Domracheva',
@@ -57,4 +58,6 @@ export default new Album(
     new Photograph('/photographs/2020-06-08/2020-06-08_001.webp', false, 'The summer evening'),
     new Photograph('/photographs/2019-06-12/2019-06-12_001.webp', true, 'The first trip'),
     new Photograph('/photographs/2018-06-23/2018-06-23_001.webp', false, 'The first time we met'),
-  ]);
+  ],
+  new Social('Екатерина', 'Домрачева', 'Архитектор в Нижнем Новгороде',
+    'https://vk.com/katerina99995', undefined, 'https://www.instagram.com/domracheva_kat'));
