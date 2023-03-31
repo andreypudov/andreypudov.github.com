@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Video from '../core/video';
 
-export default new Album(
+const FormulaSochi = new Album(
   '2015 Formula 1 Russian Grand Prix',
   new Date('2015-10-11'),
   new Photograph('/photographs/2015-10-05_11/2015-10-05_11_064_large.webp'),
@@ -114,3 +114,5 @@ export default new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_103_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_104_large.webp'),
   ]);
+
+export default FormulaSochi;

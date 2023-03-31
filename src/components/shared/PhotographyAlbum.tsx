@@ -7,7 +7,7 @@ type PhotographyAlbumProps = {
    album: Album;
  };
 
-function PhotographyAlbum({ album }: React.PropsWithChildren<PhotographyAlbumProps>) {
+const PhotographyAlbum = ({ album }: React.PropsWithChildren<PhotographyAlbumProps>) => {
   return (
     <Layout title = { album.getTitle() } cover = { album.getCover().src } social = { album.getSocial() }>
       <div className = 'container'>

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const GoldenAge = new Album(
   'Golden Age',
   new Date('2012-09-15'),
   new Photograph('/photographs/2012-09-14_15/2012-09-14_15_005_large.webp'),
@@ -53,3 +53,5 @@ export default new Album(
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_045_large.webp'),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_046_large.webp'),
   ]);
+
+export default GoldenAge;

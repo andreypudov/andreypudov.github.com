@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 
-export default new Album(
+const EkaterinaMalysheva = new Album(
   'Ekaterina Malysheva',
   new Date('2017-10-07'),
   new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
@@ -16,3 +16,5 @@ export default new Album(
     new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
   ],
   new Social('Екатерина', 'Малышева', 'Фотограф в Нижнем Новгороде', 'https://vk.com/katya_malysheva'));
+
+export default EkaterinaMalysheva;

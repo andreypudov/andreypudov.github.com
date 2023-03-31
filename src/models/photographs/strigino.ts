@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Strigino = new Album(
   'Strigino International Airport',
   new Date('2017-08-23'),
   new Photograph('/photographs/2017-08-23/2017-08-23_001.webp'),
@@ -39,3 +39,5 @@ export default new Album(
     new Photograph('/photographs/2017-08-23/2017-08-23_031.webp', false, 'Royal Flight VP-BOO / Boeing 757'),
     new Photograph('/photographs/2017-08-23/2017-08-23_032.webp', false, ''),
   ]);
+
+export default Strigino;

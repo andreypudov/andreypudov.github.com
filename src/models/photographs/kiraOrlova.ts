@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 
-export default new Album(
+const KiraOrlova = new Album(
   'Kira Orlova',
   new Date('2017-10-22'),
   new Photograph('/photographs/2017-10-22/2017-10-22_016_large.webp'),
@@ -30,3 +30,5 @@ export default new Album(
   ],
   new Social('Кира', 'Орлова', 'Студент в Нижнем Новгороде',
     'https://vk.com/kira_random', undefined, 'https://instagram.com/kiraorlova'));
+
+export default KiraOrlova;

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const ConqueringRome = new Album(
   'Conquering Rome and Order of Malta',
   new Date('2018-01-05'),
   new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp', false,
@@ -157,3 +157,5 @@ export default new Album(
     new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.webp', false,
       'Having been paid from the public treasury rather than from the sultan\'s war booty, as was done normally, it caused the anger of the ulama, the Muslim jurists. The mosque was built on the site of the palace of the Byzantine emperors, in front of the basilica Hagia Sophia (at that time, the primary imperial mosque in Istanbul) and the hippodrome, a site of significant symbolic meaning as it dominated the city skyline from the south. Big parts of the south shore of the mosque rest on the foundations, the vaults of the old Grand Palace.'),
   ]);
+
+export default ConqueringRome;

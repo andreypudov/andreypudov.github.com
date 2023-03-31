@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const ElsEmpedratsDelMontseny = new Album(
   'Els Empedrats del Montseny',
   new Date('2022-11-13'),
   new Photograph('/photographs/2022-11-13/2022-11-13_003.webp'),
@@ -19,3 +19,5 @@ export default new Album(
     new Photograph('/photographs/2022-11-13/2022-11-13_011.webp'),
     new Photograph('/photographs/2022-11-13/2022-11-13_012.webp'),
   ]);
+
+export default ElsEmpedratsDelMontseny;

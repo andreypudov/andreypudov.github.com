@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const RussianEmirates = new Album(
   'Russian Emirates',
   new Date('2012-11-21'),
   new Photograph('/photographs/2012-11-09_21/2012-11-09_21_090_large.webp'),
@@ -129,3 +129,5 @@ export default new Album(
     new Photograph('/photographs/2012-11-09_21/2012-11-09_21_121_large.webp'),
     new Photograph('/photographs/2012-11-09_21/2012-11-09_21_122_large.webp'),
   ]);
+
+export default RussianEmirates;

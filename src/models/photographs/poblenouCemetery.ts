@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const PoblenouCemetery = new Album(
   'Poblenou Cemetery',
   new Date('2022-07-08'),
   new Photograph('/photographs/2022-07-08/2022-07-08_002.webp'),
@@ -19,3 +19,5 @@ export default new Album(
    new Photograph('/photographs/2022-07-08/2022-07-08_011.webp'),
    new Photograph('/photographs/2022-07-08/2022-07-08_012.webp', true),
   ]);
+
+export default PoblenouCemetery;

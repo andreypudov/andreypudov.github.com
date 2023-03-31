@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const CastilloDeMataplana = new Album(
   'Castillo de Mataplana',
   new Date('2022-07-24'),
   new Photograph('/photographs/2022-07-23_24/2022-07-23_24_008.webp'),
@@ -57,3 +57,5 @@ export default new Album(
     new Photograph('/photographs/2022-07-23_24/2022-07-23_24_049.webp', true),
     new Photograph('/photographs/2022-07-23_24/2022-07-23_24_050.webp'),
   ]);
+
+export default  CastilloDeMataplana;

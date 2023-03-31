@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const ConqueringAmerica20 = new Album(
   'Conquering America 2.0',
   new Date('2017-09-24'),
   new Photograph('/photographs/2017-09-09_24/2017-09-09_24_018_large.webp', false, 'United States Capitol'),
@@ -51,3 +51,5 @@ export default new Album(
     new Photograph('/photographs/2017-09-09_24/2017-09-09_24_030_large.webp', true,
       'Dumbo\n\nThe area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups.'),
   ]);
+
+export default ConqueringAmerica20;

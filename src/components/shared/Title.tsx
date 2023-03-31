@@ -8,7 +8,7 @@ type TitleProps = {
    social?: Social;
  };
 
-function Title(props: TitleProps) {
+const Title = (props: TitleProps) => {
   const title = props.title ? `${props.title} - Andrey Pudov` : 'Andrey Pudov';
   const description = props.title ? props.title : 'Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.';
 

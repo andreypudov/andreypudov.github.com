@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 
-export default new Album(
+const VeraKlemenova = new Album(
   'Vera Klemenova',
   new Date('2012-07-19'),
   new Photograph('/photographs/2012-07-19/2012-07-19_016_large.webp'),
@@ -25,3 +25,5 @@ export default new Album(
     new Photograph('/photographs/2012-07-19/2012-07-19_016_large.webp'),
   ],
   new Social('Вера', 'Клеменова', 'Экономист в Нижнем Новгороде', 'https://vk.com/id2980398'));
+
+export default VeraKlemenova;

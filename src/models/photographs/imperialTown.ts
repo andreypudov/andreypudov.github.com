@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const ImperialTown = new Album(
   'Imperial Town',
   new Date('2012-05-09'),
   new Photograph('/photographs/2012-05-05_09/2012-05-05_09_016_large.webp'),
@@ -64,3 +64,5 @@ export default new Album(
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_056_large.webp'),
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_057_large.webp'),
   ]);
+
+export default ImperialTown;

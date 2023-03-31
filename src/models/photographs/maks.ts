@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Maks = new Album(
   'MAKS International Aviation and Space Show',
   new Date('2017-07-22'),
   new Photograph('/photographs/2017-07-22/2017-07-22_013.webp'),
@@ -17,3 +17,5 @@ export default new Album(
     new Photograph('/photographs/2017-07-22/2017-07-22_013.webp', false, 'Despite the similarity in appearance of the Tu-144 to the Anglo-French supersonic aircraft, there were significant differences between two aircraft. The Tu-144 is bigger and faster than the Concorde. Concorde\'s designers used fuel as coolant for the cabin air conditioning and for the hydraulic system. Tupolev also used fuel/hydraulic heat exchangers, but used cooling turbines for the cabin air.'),
     new Photograph('/photographs/2017-07-22/2017-07-22_015.webp'),
   ]);
+
+export default Maks;

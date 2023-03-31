@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 
-export default new Album(
+const LolitaRakhmatova = new Album(
   'Lolita Rakhmatova',
   new Date('2015-12-12'),
   new Photograph('/photographs/2015-12-12/2015-12-12_002.webp'),
@@ -12,3 +12,5 @@ export default new Album(
     new Photograph('/photographs/2015-12-12/2015-12-12_003.webp', true),
   ],
   new Social('Лолита', 'Рахматова', 'Домохозяйка в Москве', 'https://vk.com/id112714393'));
+
+export default LolitaRakhmatova;

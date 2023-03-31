@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 
-function Resume() {
+const Resume = () => {
   return (
     <Layout title = { 'Resume' }>
       <div className = 'container'>

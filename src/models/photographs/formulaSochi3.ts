@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const FormulaSochi3 = new Album(
   '2019 Formula 1 Russian Grand Prix',
   new Date('2019-09-30'),
   new Photograph('/photographs/2019-09-30/2019-09-30_002.webp'),
@@ -12,3 +12,5 @@ export default new Album(
     new Photograph('/photographs/2019-09-30/2019-09-30_004.webp', true, 'The start of the Formula 1 race'),
     new Photograph('/photographs/2019-09-30/2019-09-30_005.webp', true, 'Robert Kubica drives Williams FW42'),
   ]);
+
+export default FormulaSochi3;

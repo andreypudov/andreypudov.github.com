@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const ConqueringAmerica = new Album(
   'Conquering America',
   new Date('2016-11-05'),
   new Photograph('/photographs/2016-10-15_11-05/2016-10-15_11-05_019_large.webp', false,
@@ -80,3 +80,5 @@ export default new Album(
     new Photograph('/photographs/2016-10-15_11-05/2016-10-15_11-05_040_large.webp', false,
       'The Hollywood Sign (originally the Hollywoodland Sign) is a landmark and cultural icon overlooking Hollywood. Spelling out the word Hollywood in 13.7 m-tall white capital letters and 106.7 m long, it was originally created in 1923 as a temporary advertisement for local real estate development, but due to increasing recognition the sign was left up, and replaced in 1978 with a more durable all-steel structure.'),
   ]);
+
+export default  ConqueringAmerica;

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Oslo = new Album(
   'Oslo. Conquering Scandinavia',
   new Date('2022-09-05'),
   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp'),
@@ -59,3 +59,5 @@ export default new Album(
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_093.webp', true),
    new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_094.webp', true),
   ]);
+
+export default Oslo;

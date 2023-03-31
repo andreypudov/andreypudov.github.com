@@ -30,7 +30,7 @@ const photographyRoute = (page: Page) =>
 const drawingAlbumRoute = (page: Page) =>
   <Route path = { page.getRoute() } element = { <DrawingAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
 
-function routes() {
+const routes = () => {
   return (
     <Routes>
       <Route path = '/' element = { <Home /> } />

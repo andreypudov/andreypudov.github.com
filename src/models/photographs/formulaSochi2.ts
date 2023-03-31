@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const FormulaSochi2 = new Album(
   '2016 Formula 1 Russian Grand Prix',
   new Date('2016-05-04'),
   new Photograph('/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp'),
@@ -14,3 +14,5 @@ export default new Album(
     new Photograph('/photographs/2016-04-27_05-04/2016-04-27_05-04_006.webp'),
     new Photograph('/photographs/2016-04-27_05-04/2016-04-27_05-04_007.webp', false, 'Krasnaya Polyana Ski Resort'),
   ]);
+
+export default FormulaSochi2;

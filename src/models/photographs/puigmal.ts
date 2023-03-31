@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Puigmal = new Album(
   'Puigmal',
   new Date('2022-08-15'),
   new Photograph('/photographs/2022-08-15/2022-08-15_009.webp'),
@@ -58,3 +58,5 @@ export default new Album(
    new Photograph('/photographs/2022-08-15/2022-08-15_049.webp'),
    new Photograph('/photographs/2022-08-15/2022-08-15_050.webp'),
   ]);
+
+export default Puigmal;

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const YoshkarOla = new Album(
   'Yoshkar-Ola. Tsar\'s town on Kokshaga River',
   new Date('2014-05-10'),
   new Photograph('/photographs/2014-05-10/2014-05-10_024_large.webp'),
@@ -61,3 +61,5 @@ export default new Album(
     new Photograph('/photographs/2014-05-10/2014-05-10_053_large.webp', true),
     new Photograph('/photographs/2014-05-10/2014-05-10_054_large.webp'),
   ]);
+
+export default YoshkarOla;

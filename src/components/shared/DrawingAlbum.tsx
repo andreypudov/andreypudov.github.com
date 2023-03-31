@@ -7,7 +7,7 @@ type DrawingAlbumProps = {
    album: Album;
  };
 
-function DrawingAlbum({ album }: React.PropsWithChildren<DrawingAlbumProps>) {
+const DrawingAlbum = ({ album }: React.PropsWithChildren<DrawingAlbumProps>) => {
   return (
     <Layout title = { album.getTitle() } cover = { album.getCover().src }>
       <div className = 'container'>

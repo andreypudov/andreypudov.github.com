@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Altay = new Album(
   'Altay. Conquering Siberia 2.0',
   new Date('2020-08-24'),
   new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp'),
@@ -149,3 +149,5 @@ export default new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp', false, 'Tavdinsky Caves'),
     // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_199.webp', true),
   ]);
+
+export default Altay;

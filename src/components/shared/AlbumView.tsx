@@ -7,7 +7,7 @@ type AlbumViewProps = {
   album: Model;
 };
 
-function AlbumView(props: AlbumViewProps) {
+const AlbumView = (props: AlbumViewProps) => {
   return (
     <>
     {

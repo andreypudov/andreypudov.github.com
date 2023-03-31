@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Rekshino = new Album(
   'Rekshino',
   new Date('2019-10-26'),
   new Photograph('/photographs/2019-10-26/2019-10-26_007.webp'),
@@ -19,3 +19,5 @@ export default new Album(
     new Photograph('/photographs/2019-10-26/2019-10-26_011.webp'),
     new Photograph('/photographs/2019-10-26/2019-10-26_012.webp'),
   ]);
+
+export default Rekshino;

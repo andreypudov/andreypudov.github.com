@@ -5,7 +5,7 @@ type SheetProps = {
   index: number;
 };
 
-function Sheet(props: SheetProps) {
+const Sheet = (props: SheetProps) => {
   let sheet = props.album.getSheets()[props.index];
 
   return (

@@ -57,7 +57,7 @@ const generateSitemap = (timestamp: string) => {
 </urlset>`;
 }
 
-function Sitemap() {
+const Sitemap = () => {
   const timestamp = (new Date()).toISOString();
   return (
     <Layout title = { 'Sitemap' }>

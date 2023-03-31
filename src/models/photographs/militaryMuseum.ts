@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const MilitaryMuseum = new Album(
   'Battle Glory of the Urals',
   new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp'),
@@ -62,3 +62,5 @@ export default new Album(
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_054_large.webp'),
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp'),
   ]);
+
+export default MilitaryMuseum;

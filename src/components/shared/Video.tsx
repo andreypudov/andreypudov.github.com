@@ -7,7 +7,7 @@ type VideoProps = {
   description: boolean;
 };
 
-function Video(props: VideoProps) {
+const Video = (props: VideoProps) => {
   const video = props.album.getMedia()[props.index];
   const url = props.title ? video.src : `${video.src}?title=0&byline=0`;
 

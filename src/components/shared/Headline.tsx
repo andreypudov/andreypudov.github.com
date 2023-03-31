@@ -4,7 +4,7 @@ type HeadlineProps = {
   album: Album;
 };
 
-function Headline(props: HeadlineProps) {
+const Headline = (props: HeadlineProps) => {
   return (
     <h1>
       { props.album.getTitle() }

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Ekaterinburg = new Album(
   'Ekaterinburg. The Picture of City',
   new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_city/2014-12-21_064_large.webp'),
@@ -87,3 +87,5 @@ export default new Album(
     new Photograph('/photographs/2014-12-21_25_city/2014-12-21_079_large.webp'),
     new Photograph('/photographs/2014-12-21_25_city/2014-12-21_080_large.webp'),
   ]);
+
+export default Ekaterinburg;

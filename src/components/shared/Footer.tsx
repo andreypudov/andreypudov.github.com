@@ -4,7 +4,7 @@ type FooterProps = {
   landing?: boolean;
 };
 
-function Footer({ landing }: FooterProps) {
+const Footer = ({ landing }: FooterProps) => {
   return (
     <footer>
       <div className = 'container'>

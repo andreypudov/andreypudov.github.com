@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const LakeBaikalTeam = new Album(
   'Lake Baikal Team',
   new Date('2015-08-08'),
   new Photograph('/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp'),
@@ -16,3 +16,5 @@ export default new Album(
     new Photograph('/photographs/2015-07-27_08-08_2/2015-07-27_08-08_009.webp', false, 'The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula.'),
     new Photograph('/photographs/2015-07-27_08-08_2/2015-07-27_08-08_006.webp', false, 'Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination.'),
   ]);
+
+export default LakeBaikalTeam;

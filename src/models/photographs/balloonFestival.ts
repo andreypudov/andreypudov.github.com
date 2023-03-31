@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const BalloonFestival = new Album(
   'Balloon Festival',
   new Date('2018-02-24'),
   new Photograph('/photographs/2018-02-24/2018-02-24_002.webp'),
@@ -11,3 +11,5 @@ export default new Album(
     new Photograph('/photographs/2018-02-24/2018-02-24_003.webp'),
     new Photograph('/photographs/2018-02-24/2018-02-24_004.webp'),
   ]);
+
+export default  BalloonFestival;

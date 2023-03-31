@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Perpignan = new Album(
   'Perpignan',
   new Date('2022-12-06'),
   new Photograph('/photographs/2022-12-06/2022-12-06_004.webp'),
@@ -17,3 +17,5 @@ export default new Album(
    new Photograph('/photographs/2022-12-06/2022-12-06_009.webp', false, 'Palace of the Kings of Majorca'),
    new Photograph('/photographs/2022-12-06/2022-12-06_010.webp'),
   ]);
+
+export default Perpignan;

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Kaliningrad = new Album(
   'Kaliningrad. The amber capital of the World',
   new Date('2016-08-30'),
   new Photograph('/photographs/2016-08-24_30/2016-08-24_30_023_large.webp', false, 'Рыбная деревня'),
@@ -37,3 +37,5 @@ export default new Album(
     new Photograph('/photographs/2016-08-24_30/2016-08-24_30_029_large.webp'),
     new Photograph('/photographs/2016-08-24_30/2016-08-24_30_030_large.webp', false, 'The sperm whale skeleton in the Museum of the World Ocean.'),
   ]);
+
+export default Kaliningrad;

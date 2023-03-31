@@ -21,7 +21,7 @@ const videoEntry = (page: Page) => {
   </div>);
 };
 
-function Albums() {
+const Albums = () => {
   return (
     <Layout title = { 'Albums' }>
       <div className = 'container'>

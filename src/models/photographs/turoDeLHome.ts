@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const TuroDeLHome = new Album(
   'Turó de l\'Home',
   new Date('2022-08-07'),
   new Photograph('/photographs/2022-08-07/2022-08-07_019.webp'),
@@ -38,3 +38,5 @@ export default new Album(
     new Photograph('/photographs/2022-08-07/2022-08-07_030.webp'),
     new Photograph('/photographs/2022-08-07/2022-08-07_031.webp'),
   ]);
+
+export default TuroDeLHome;

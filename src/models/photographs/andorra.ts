@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const Andorra = new Album(
   'Andorra',
   new Date('2022-10-16'),
   new Photograph('/photographs/2022-10-15_16/2022-10-15_16_006.webp'),
@@ -29,3 +29,5 @@ export default new Album(
     new Photograph('/photographs/2022-10-15_16/2022-10-15_16_021.webp'),
     new Photograph('/photographs/2022-10-15_16/2022-10-15_16_022.webp'),
   ]);
+
+export default Andorra;

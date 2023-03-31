@@ -3,7 +3,7 @@ import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 import Photograph from '../shared/Photograph';
 
-function GoldenAge() {
+const GoldenAge = () => {
   return (
     <Layout title = { Album.getTitle() }>
       <div className = 'container'>

@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const FavoritePhotographs = new Album(
   'Favorite Photographs',
   new Date('2089-03-17'),
   new Photograph('/photographs/2017-01-30/2017-01-30_001.webp', false, 'Pechersky Ascension Monastery\n\nPechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.\n\nIt have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.\n\nThe monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod.'),
@@ -41,3 +41,5 @@ export default new Album(
     new Photograph('/photographs/2012-11-09_21/2012-11-09_21_059_large.webp', false, 'Dubai Mall'),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_016_large.webp', false, 'The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000.'),
   ]);
+
+export default FavoritePhotographs;

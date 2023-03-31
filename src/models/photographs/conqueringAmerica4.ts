@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const ConqueringAmerica40 = new Album(
   'Conquering America 4.0',
   new Date('2020-03-11'),
   new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp'),
@@ -33,3 +33,5 @@ export default new Album(
     new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_025.webp', true, 'St. Patrick\'s Cathedral\n\nThe cathedral was constructed starting in 1858 to accommodate the growing Archdiocese of New York and to replace St. Patrick\'s Old Cathedral. Work was halted in the early 1860s during the American Civil War; the cathedral was completed in 1878 and dedicated on May 25, 1879.'),
     new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_026.webp'),
   ]);
+
+export default ConqueringAmerica40;

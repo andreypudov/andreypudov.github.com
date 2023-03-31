@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 
-function Contact() {
+const Contact = () => {
   return (
     <Layout title = { 'Contact' }>
       <div className = 'container'>

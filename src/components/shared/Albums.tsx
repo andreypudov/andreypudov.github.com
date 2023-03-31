@@ -7,7 +7,7 @@ type AlbumsProps = {
   album: Model;
 };
 
-function Album(props: AlbumsProps) {
+const Album = (props: AlbumsProps) => {
   return (
    <div className = 'row'>
     {

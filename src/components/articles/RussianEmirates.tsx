@@ -3,7 +3,7 @@ import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 import Photograph from '../shared/Photograph';
 
-function RussianEmirates() {
+const RussianEmirates = () => {
   return (
     <Layout title = { Album.getTitle() }>
       <div className = 'container'>

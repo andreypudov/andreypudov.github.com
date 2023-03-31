@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const PartnersDay = new Album(
   'Intel Partners Day',
   new Date('2016-11-09'),
   new Photograph('/photographs/2016-11-09/2016-11-09_010.webp'),
@@ -37,3 +37,5 @@ export default new Album(
     new Photograph('/photographs/2016-11-09/2016-11-09_029.webp', false, 'Andrey Vitsenko - Senior Engineering Manager, Product Security Expert'),
     new Photograph('/photographs/2016-11-09/2016-11-09_030.webp', false, 'Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory'),
   ]);
+
+export default PartnersDay;

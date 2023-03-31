@@ -12,7 +12,7 @@ const entry = (page: Page) => {
   </li>);
 };
 
-function Contents() {
+const Contents = () => {
   return (
     <Layout title = { 'Contents' }>
       <div className = 'container'>

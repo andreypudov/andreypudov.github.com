@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const LookingForTheWind = new Album(
   'Looking for the Wind',
   new Date('2018-05-27'),
   new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
@@ -15,3 +15,5 @@ export default new Album(
     new Photograph('/photographs/2018-05-27/2018-05-27_007.webp'),
     // new Photograph('/photographs/2018-05-27/2018-05-27_008.webp', true),
   ]);
+
+export default LookingForTheWind;

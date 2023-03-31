@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Video from '../core/video';
 
-export default new Album(
+const LakeBaikal = new Album(
   'Lake Baikal',
   new Date('2015-08-08'),
   new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp', false, 'The mouth of the Bolshoy Chivyrkuy river - the first morning on the shore of the lake.'),
@@ -82,3 +82,5 @@ export default new Album(
     new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_073_large.webp'),
     new Video('https://www.youtube.com/embed/VlXZW_dqlUE?rel=0', 'The video report of the exploring expedition to Lake Baikal.'),
   ]);
+
+export default LakeBaikal;

@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 
-export default new Album(
+const EkaterinaDomracheva = new Album(
   'Ekaterina Domracheva',
   new Date('2021-08-25'),
   new Photograph('/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp'),
@@ -61,3 +61,5 @@ export default new Album(
   ],
   new Social('Екатерина', 'Домрачева', 'Архитектор в Нижнем Новгороде, студент ННГАСУ',
     'https://vk.com/katerina99995', undefined, 'https://www.instagram.com/domracheva_kat'));
+
+export default EkaterinaDomracheva;

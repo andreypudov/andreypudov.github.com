@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 
-export default new Album(
+const AsiaFarakshina = new Album(
   'Asia Farakshina',
   new Date('2015-08-14'),
   new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),
@@ -23,3 +23,5 @@ export default new Album(
     // new Photograph('/photographs/2015-08-14/2015-08-14_014.webp'),
   ],
   new Social('Асия', 'Фаракшина', 'Исламовед в Нижнем Новгороде'));
+
+export default AsiaFarakshina;

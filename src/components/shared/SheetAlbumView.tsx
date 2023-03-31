@@ -5,7 +5,7 @@ type SheetAlbumViewProps = {
   album: Model;
 };
 
-function SheetAlbumView(props: SheetAlbumViewProps) {
+const SheetAlbumView = (props: SheetAlbumViewProps) => {
   return (
     <>
     {

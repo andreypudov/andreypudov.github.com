@@ -1,7 +1,7 @@
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
-function Home() {
+const Home = () => {
   return (
     <Layout landing = { true }>
       <div id = 'homeCarousel' className = 'carousel slide' data-bs-ride = 'carousel'>

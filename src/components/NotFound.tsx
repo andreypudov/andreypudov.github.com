@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 
-function NotFound() {
+const NotFound = () => {
   return (
     <Layout>
       <div className = 'container'>

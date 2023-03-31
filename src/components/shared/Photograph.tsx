@@ -5,7 +5,7 @@ type PhotographProps = {
   index: number;
 };
 
-function Photograph(props: PhotographProps) {
+const Photograph = (props: PhotographProps) => {
   const photograph = props.album.getMedia()[props.index];
   const title = photograph.description.length !== 0
     ? photograph.description

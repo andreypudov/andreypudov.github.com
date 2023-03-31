@@ -1,7 +1,7 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 
-export default new Album(
+const IntelOffice = new Album(
   'Intel Office in Nizhny Novgorod',
   new Date('2020-02-14'),
   new Photograph('/photographs/2020-02-13_14/2020-02-13_14_013.webp'),
@@ -39,3 +39,5 @@ export default new Album(
     new Photograph('/photographs/2020-02-13_14/2020-02-13_14_031.webp', false, 'Serge Papkov'),
     new Photograph('/photographs/2020-02-13_14/2020-02-13_14_032.webp'),
   ]);
+
+export default IntelOffice;

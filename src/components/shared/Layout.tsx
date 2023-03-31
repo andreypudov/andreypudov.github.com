@@ -10,7 +10,7 @@ type LayoutProps = {
   social?: Social;
 };
 
-function Layout(props: React.PropsWithChildren<LayoutProps>) {
+const Layout = (props: React.PropsWithChildren<LayoutProps>) => {
   return (
     <div className = 'layout'>
       <Title title = { props.title } cover = { props.cover } social = { props.social } />
