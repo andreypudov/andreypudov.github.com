@@ -1,5 +1,5 @@
 import React from 'react';
-import { hydrate, render } from "react-dom";
+import { createRoot, hydrateRoot } from 'react-dom/client';
 
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter } from 'react-router-dom';
@@ -17,7 +17,7 @@ import './styles/style.scss';
 import ReactGA from 'react-ga4';
 ReactGA.initialize('G-E0Y9W77G5B');
 
-const root = document.getElementById("root");
+const rootElement = document.getElementById("root");
 const app = (<React.StrictMode>
   <BrowserRouter>
     <Analytics />
@@ -29,10 +29,11 @@ const app = (<React.StrictMode>
   </BrowserRouter>
 </React.StrictMode>);
 
-if (root?.hasChildNodes()) {
-  hydrate(app, root);
-} else {
-  render(app, root);
+if (rootElement?.hasChildNodes()) {
+  hydrateRoot(rootElement, app);
+} else if (rootElement !== null) {
+  const root = createRoot(rootElement);
+  root.render(app);
 }
 
 // If you want to start measuring performance in your app, pass a function
