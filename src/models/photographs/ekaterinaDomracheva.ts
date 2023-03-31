@@ -59,5 +59,5 @@ export default new Album(
     new Photograph('/photographs/2019-06-12/2019-06-12_001.webp', true, 'The first trip'),
     new Photograph('/photographs/2018-06-23/2018-06-23_001.webp', false, 'The first time we met'),
   ],
-  new Social('Екатерина', 'Домрачева', 'Архитектор боли в Нижнем Новгороде',
+  new Social('Екатерина', 'Домрачева', 'Архитектор в Нижнем Новгороде, студент ННГАСУ',
     'https://vk.com/katerina99995', undefined, 'https://www.instagram.com/domracheva_kat'));
