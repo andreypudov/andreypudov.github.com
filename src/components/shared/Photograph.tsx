@@ -7,13 +7,17 @@ type PhotographProps = {
 
 function Photograph(props: PhotographProps) {
   const photograph = props.album.getMedia()[props.index];
-  const alt = photograph.description.length !== 0
+  const title = photograph.description.length !== 0
     ? photograph.description
+    : props.album.getTitle();
+  const alt = photograph.description.length !== 0
+    ? `${props.album.getTitle()} - ${photograph.description}`
     : props.album.getTitle();
 
   return (
     <figure>
       <img src    = { photograph.src }
+        title     = { title }
         alt       = { alt }
         className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
       {
