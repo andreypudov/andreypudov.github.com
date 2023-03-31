@@ -105,13 +105,18 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="The Kiss of Death
+          alt="Poblenou Cemetery - The Kiss of Death
 
 The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.
 
 \\"His young heart is thus extinguished. The blood in his veins grows cold. And all strength has gone. Faith has been extolled by his fall into the arms of death. Amen.\\""
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_001.webp"
+          title="The Kiss of Death
+
+The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.
+
+\\"His young heart is thus extinguished. The blood in his veins grows cold. And all strength has gone. Faith has been extolled by his fall into the arms of death. Amen.\\""
         />
         <figcaption
           className="image-caption vertical"
@@ -125,13 +130,18 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="The first cemetery at this location was built in 1775, located outside the city's perimeter wall, as the state of churchyard graves inside the old city was considered unsanitary. After the first cemetery was destroyed by Napoleon's troops in 1813, the Italian architect Antonio Ginesi was commissioned to rebuild it, and the new site was reconsecrated by Bishop Pau de Sitjar i Ruata on 15 April 1819. It was formally opened in 1898 by the Bishop of Barcelona Josep Climent i Avinent.
+          alt="Poblenou Cemetery - The first cemetery at this location was built in 1775, located outside the city's perimeter wall, as the state of churchyard graves inside the old city was considered unsanitary. After the first cemetery was destroyed by Napoleon's troops in 1813, the Italian architect Antonio Ginesi was commissioned to rebuild it, and the new site was reconsecrated by Bishop Pau de Sitjar i Ruata on 15 April 1819. It was formally opened in 1898 by the Bishop of Barcelona Josep Climent i Avinent.
 
 The cemetery consists of two large sections: at the front Ginesi created egalitarian terraces of burial niches, while at the rear there is an area of individual monuments and mausolea, crafted for the aesthetic tastes and aspirations of the wealthy bourgeoisie, merchants and manufacturers of the city. A third, narrow section along the South wall mixes niches, monuments and common graves.
 
 The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou's best-known monument. Known as The Kiss of Death, the work dates to 1930 and depicts a winged skeleton kissing the cheek of a young man's apparently lifeless body. The name of the artist Jaume Barba is carved into the base, though some believe the work is the idea of Joan Fontbernat."
           className="img-responsive gallery-image"
           src="/photographs/2022-07-08/2022-07-08_002.webp"
+          title="The first cemetery at this location was built in 1775, located outside the city's perimeter wall, as the state of churchyard graves inside the old city was considered unsanitary. After the first cemetery was destroyed by Napoleon's troops in 1813, the Italian architect Antonio Ginesi was commissioned to rebuild it, and the new site was reconsecrated by Bishop Pau de Sitjar i Ruata on 15 April 1819. It was formally opened in 1898 by the Bishop of Barcelona Josep Climent i Avinent.
+
+The cemetery consists of two large sections: at the front Ginesi created egalitarian terraces of burial niches, while at the rear there is an area of individual monuments and mausolea, crafted for the aesthetic tastes and aspirations of the wealthy bourgeoisie, merchants and manufacturers of the city. A third, narrow section along the South wall mixes niches, monuments and common graves.
+
+The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou's best-known monument. Known as The Kiss of Death, the work dates to 1930 and depicts a winged skeleton kissing the cheek of a young man's apparently lifeless body. The name of the artist Jaume Barba is carved into the base, though some believe the work is the idea of Joan Fontbernat."
         />
         <figcaption
           className="image-caption"
@@ -148,6 +158,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_003.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -155,6 +166,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_004.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -162,6 +174,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_005.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -169,6 +182,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image"
           src="/photographs/2022-07-08/2022-07-08_006.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -176,6 +190,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_007.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -183,6 +198,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image"
           src="/photographs/2022-07-08/2022-07-08_008.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -190,6 +206,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_009.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -197,6 +214,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_010.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -204,6 +222,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image"
           src="/photographs/2022-07-08/2022-07-08_011.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
       <figure>
@@ -211,6 +230,7 @@ The sculpture above the grave of Josep Llaudet Soler is often cited as Poblenou'
           alt="Poblenou Cemetery"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-07-08/2022-07-08_012.webp"
+          title="Poblenou Cemetery"
         />
       </figure>
     </div>

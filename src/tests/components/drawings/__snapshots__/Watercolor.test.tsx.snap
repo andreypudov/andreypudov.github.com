@@ -105,9 +105,10 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="September 25, 2022"
+          alt="Watercolor - September 25, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-09-25.webp"
+          title="September 25, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -117,9 +118,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="July 20, 2022"
+          alt="Watercolor - July 20, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-07-20.webp"
+          title="July 20, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -129,9 +131,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="July 18, 2022"
+          alt="Watercolor - July 18, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-07-18.webp"
+          title="July 18, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -141,9 +144,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lost Friend / June 28, 2022"
+          alt="Watercolor - Lost Friend / June 28, 2022"
           className="img-responsive gallery-image"
           src="/drawings/watercolor/2022-06-28.webp"
+          title="Lost Friend / June 28, 2022"
         />
         <figcaption
           className="image-caption"
@@ -153,9 +157,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lisa / June 21, 2022"
+          alt="Watercolor - Lisa / June 21, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-06-21.webp"
+          title="Lisa / June 21, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -165,9 +170,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="May 31, 2022"
+          alt="Watercolor - May 31, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-05-31.webp"
+          title="May 31, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -177,9 +183,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="May 25, 2022"
+          alt="Watercolor - May 25, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-05-25.webp"
+          title="May 25, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -189,9 +196,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="March 29, 2022"
+          alt="Watercolor - March 29, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-03-29.webp"
+          title="March 29, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -201,9 +209,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="March 01, 2022"
+          alt="Watercolor - March 01, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-03-01.webp"
+          title="March 01, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -213,9 +222,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="February 28, 2022"
+          alt="Watercolor - February 28, 2022"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2022-02-28.webp"
+          title="February 28, 2022"
         />
         <figcaption
           className="image-caption vertical"
@@ -225,9 +235,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="May 05, 2021"
+          alt="Watercolor - May 05, 2021"
           className="img-responsive gallery-image"
           src="/drawings/watercolor/2021-05-24.webp"
+          title="May 05, 2021"
         />
         <figcaption
           className="image-caption"
@@ -237,9 +248,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="March 03, 2021"
+          alt="Watercolor - March 03, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2021-03-30.webp"
+          title="March 03, 2021"
         />
         <figcaption
           className="image-caption vertical"

@@ -108,14 +108,17 @@ exports[`renders correctly 1`] = `
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_001.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
         <img
-          alt="Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
+          alt="Intel Partners Day - Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
 Engeneering Managers, Software and Services Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_002.webp"
+          title="Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
+Engeneering Managers, Software and Services Group"
         />
         <figcaption
           className="image-caption"
@@ -126,9 +129,10 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
+          alt="Intel Partners Day - Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_003.webp"
+          title="Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
         />
         <figcaption
           className="image-caption"
@@ -141,6 +145,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_004.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -148,6 +153,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_005.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -155,6 +161,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_006.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -162,6 +169,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_007.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -169,6 +177,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_008.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -176,6 +185,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_009.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -183,13 +193,15 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_010.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
         <img
-          alt="Marina Alekseeva - Vice President, Software and Services Group"
+          alt="Intel Partners Day - Marina Alekseeva - Vice President, Software and Services Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_011.webp"
+          title="Marina Alekseeva - Vice President, Software and Services Group"
         />
         <figcaption
           className="image-caption"
@@ -202,13 +214,15 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_012.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
         <img
-          alt="William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
+          alt="Intel Partners Day - William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_013.webp"
+          title="William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
         />
         <figcaption
           className="image-caption vertical"
@@ -218,9 +232,10 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
+          alt="Intel Partners Day - Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_014.webp"
+          title="Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
         />
         <figcaption
           className="image-caption"
@@ -233,6 +248,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_015.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -240,6 +256,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_016.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -247,6 +264,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_017.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -254,6 +272,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_018.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -261,6 +280,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_019.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -268,6 +288,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_020.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -275,6 +296,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_021.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -282,6 +304,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_022.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -289,6 +312,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_023.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -296,6 +320,7 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_024.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
@@ -303,13 +328,15 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_025.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
         <img
-          alt="Pavel Egorov - Chief Executive Officer at Dell Technologies"
+          alt="Intel Partners Day - Pavel Egorov - Chief Executive Officer at Dell Technologies"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_026.webp"
+          title="Pavel Egorov - Chief Executive Officer at Dell Technologies"
         />
         <figcaption
           className="image-caption"
@@ -322,13 +349,15 @@ Engeneering Managers, Software and Services Group
           alt="Intel Partners Day"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_027.webp"
+          title="Intel Partners Day"
         />
       </figure>
       <figure>
         <img
-          alt="Valentin Anisimov - Principal Software Architect at Harman"
+          alt="Intel Partners Day - Valentin Anisimov - Principal Software Architect at Harman"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_028.webp"
+          title="Valentin Anisimov - Principal Software Architect at Harman"
         />
         <figcaption
           className="image-caption"
@@ -338,9 +367,10 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
+          alt="Intel Partners Day - Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_029.webp"
+          title="Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
         />
         <figcaption
           className="image-caption"
@@ -350,9 +380,10 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
+          alt="Intel Partners Day - Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_030.webp"
+          title="Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
         />
         <figcaption
           className="image-caption"

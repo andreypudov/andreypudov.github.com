@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_001.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_002.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
@@ -122,13 +124,15 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_003.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
         <img
-          alt="Perpignan Cathedral"
+          alt="Perpignan - Perpignan Cathedral"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_004.webp"
+          title="Perpignan Cathedral"
         />
         <figcaption
           className="image-caption"
@@ -141,6 +145,7 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_005.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
@@ -148,6 +153,7 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_006.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
@@ -155,6 +161,7 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_007.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
@@ -162,13 +169,15 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-12-06/2022-12-06_008.webp"
+          title="Perpignan"
         />
       </figure>
       <figure>
         <img
-          alt="Palace of the Kings of Majorca"
+          alt="Perpignan - Palace of the Kings of Majorca"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_009.webp"
+          title="Palace of the Kings of Majorca"
         />
         <figcaption
           className="image-caption"
@@ -181,6 +190,7 @@ exports[`renders correctly 1`] = `
           alt="Perpignan"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_010.webp"
+          title="Perpignan"
         />
       </figure>
     </div>

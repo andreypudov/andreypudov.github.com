@@ -105,11 +105,14 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Formula 1 Pit Marshals
+          alt="2016 Formula 1 Russian Grand Prix - Formula 1 Pit Marshals
 
 Marshals play a vital part in allowing motorsport events to take place. Dressed in their unmistakable orange overalls, these volunteers carry out a variety of roles, such as moving damaged cars off the race track, to enable motorsport events to take place successfully and safely."
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_001.webp"
+          title="Formula 1 Pit Marshals
+
+Marshals play a vital part in allowing motorsport events to take place. Dressed in their unmistakable orange overalls, these volunteers carry out a variety of roles, such as moving damaged cars off the race track, to enable motorsport events to take place successfully and safely."
         />
         <figcaption
           className="image-caption"
@@ -121,9 +124,10 @@ Marshals play a vital part in allowing motorsport events to take place. Dressed 
       </figure>
       <figure>
         <img
-          alt="Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
+          alt="2016 Formula 1 Russian Grand Prix - Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
+          title="Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
         />
         <figcaption
           className="image-caption"
@@ -136,15 +140,19 @@ Marshals play a vital part in allowing motorsport events to take place. Dressed 
           alt="2016 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_003.webp"
+          title="2016 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Bolshoy Ice Dome
+          alt="2016 Formula 1 Russian Grand Prix - Bolshoy Ice Dome
 
 The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013."
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp"
+          title="Bolshoy Ice Dome
+
+The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013."
         />
         <figcaption
           className="image-caption"
@@ -159,6 +167,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
           alt="2016 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_005.webp"
+          title="2016 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -166,13 +175,15 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
           alt="2016 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_006.webp"
+          title="2016 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Krasnaya Polyana Ski Resort"
+          alt="2016 Formula 1 Russian Grand Prix - Krasnaya Polyana Ski Resort"
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_007.webp"
+          title="Krasnaya Polyana Ski Resort"
         />
         <figcaption
           className="image-caption"

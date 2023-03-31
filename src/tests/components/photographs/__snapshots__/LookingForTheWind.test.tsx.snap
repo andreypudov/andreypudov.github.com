@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Looking for the Wind"
           className="img-responsive gallery-image"
           src="/photographs/2018-05-27/2018-05-27_005.webp"
+          title="Looking for the Wind"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Looking for the Wind"
           className="img-responsive gallery-image"
           src="/photographs/2018-05-27/2018-05-27_001.webp"
+          title="Looking for the Wind"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Looking for the Wind"
           className="img-responsive gallery-image"
           src="/photographs/2018-05-27/2018-05-27_007.webp"
+          title="Looking for the Wind"
         />
       </figure>
     </div>

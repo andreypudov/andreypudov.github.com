@@ -114,6 +114,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_001_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -124,6 +125,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_002_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -137,6 +139,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_003_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -147,6 +150,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_006_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -165,6 +169,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_009_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -175,6 +180,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_014_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -185,6 +191,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_015_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -195,6 +202,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_016_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <figure>
@@ -202,6 +210,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_017_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -212,6 +221,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_019_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <figure>
@@ -219,6 +229,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_021_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <figure>
@@ -226,6 +237,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_022_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -236,6 +248,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image vertical"
           src="/photographs/2012-05-05_09/2012-05-05_09_026_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -249,6 +262,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_027_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -262,6 +276,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_030_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -272,6 +287,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_034_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -296,6 +312,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_039_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -306,6 +323,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_040_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -324,6 +342,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_044_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -340,6 +359,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_051_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p
@@ -355,6 +375,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_054_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>
@@ -365,6 +386,7 @@ exports[`renders correctly 1`] = `
           alt="Imperial Town"
           className="img-responsive gallery-image"
           src="/photographs/2012-05-05_09/2012-05-05_09_056_large.webp"
+          title="Imperial Town"
         />
       </figure>
       <p>

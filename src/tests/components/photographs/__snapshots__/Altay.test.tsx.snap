@@ -108,13 +108,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_008.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Mountain Devils Thumb"
+          alt="Altay. Conquering Siberia 2.0 - Mountain Devils Thumb"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_010.webp"
+          title="Mountain Devils Thumb"
         />
         <figcaption
           className="image-caption"
@@ -127,13 +129,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_011.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Katun River"
+          alt="Altay. Conquering Siberia 2.0 - Katun River"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_013.webp"
+          title="Katun River"
         />
         <figcaption
           className="image-caption"
@@ -146,13 +150,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_014.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Puchina Lake"
+          alt="Altay. Conquering Siberia 2.0 - Puchina Lake"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_015.webp"
+          title="Puchina Lake"
         />
         <figcaption
           className="image-caption"
@@ -162,9 +168,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Chemal Hydroelectric Power Station"
+          alt="Altay. Conquering Siberia 2.0 - Chemal Hydroelectric Power Station"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_019.webp"
+          title="Chemal Hydroelectric Power Station"
         />
         <figcaption
           className="image-caption"
@@ -174,9 +181,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Monastery in Patmos"
+          alt="Altay. Conquering Siberia 2.0 - Monastery in Patmos"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_020.webp"
+          title="Monastery in Patmos"
         />
         <figcaption
           className="image-caption"
@@ -189,6 +197,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_022.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -196,13 +205,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_024.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Ininsky Suspension Bridge"
+          alt="Altay. Conquering Siberia 2.0 - Ininsky Suspension Bridge"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_026.webp"
+          title="Ininsky Suspension Bridge"
         />
         <figcaption
           className="image-caption"
@@ -215,6 +226,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_027.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -222,6 +234,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_029.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -229,6 +242,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_030.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -236,6 +250,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_031.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -243,6 +258,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_032.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -250,6 +266,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_033.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -257,13 +274,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_034.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="The Confluence of Chuya and Katun Rivers"
+          alt="Altay. Conquering Siberia 2.0 - The Confluence of Chuya and Katun Rivers"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_035.webp"
+          title="The Confluence of Chuya and Katun Rivers"
         />
         <figcaption
           className="image-caption"
@@ -276,6 +295,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_036.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -283,6 +303,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_037.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -290,6 +311,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_038.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -297,13 +319,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_039.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Petroglyphs in Kalbak-Tash"
+          alt="Altay. Conquering Siberia 2.0 - Petroglyphs in Kalbak-Tash"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_040.webp"
+          title="Petroglyphs in Kalbak-Tash"
         />
         <figcaption
           className="image-caption"
@@ -316,6 +340,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_041.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -323,6 +348,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_042.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -330,6 +356,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_043.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -337,13 +364,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_044.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Blue Geyser Lake"
+          alt="Altay. Conquering Siberia 2.0 - Blue Geyser Lake"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_045.webp"
+          title="Blue Geyser Lake"
         />
         <figcaption
           className="image-caption"
@@ -356,6 +385,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_046.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -363,6 +393,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_047.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -370,13 +401,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_048.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="The road to Mount Aktru"
+          alt="Altay. Conquering Siberia 2.0 - The road to Mount Aktru"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp"
+          title="The road to Mount Aktru"
         />
         <figcaption
           className="image-caption"
@@ -389,6 +422,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_051.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -396,6 +430,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_052.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -403,6 +438,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_053.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -410,6 +446,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_054.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -417,6 +454,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_055.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -424,6 +462,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_056.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -431,6 +470,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_057.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -438,6 +478,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_058.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -445,6 +486,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_062.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -452,6 +494,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_063.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -459,6 +502,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_064.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -466,6 +510,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_065.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -473,6 +518,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_067.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -480,6 +526,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_068.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -487,13 +534,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_069.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Mountain the Foreheads of Rams"
+          alt="Altay. Conquering Siberia 2.0 - Mountain the Foreheads of Rams"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_072.webp"
+          title="Mountain the Foreheads of Rams"
         />
         <figcaption
           className="image-caption"
@@ -503,9 +552,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Great Aktru Glacier"
+          alt="Altay. Conquering Siberia 2.0 - Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_080.webp"
+          title="Great Aktru Glacier"
         />
         <figcaption
           className="image-caption"
@@ -515,9 +565,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Blue Lake"
+          alt="Altay. Conquering Siberia 2.0 - Blue Lake"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_081.webp"
+          title="Blue Lake"
         />
         <figcaption
           className="image-caption vertical"
@@ -530,6 +581,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_082.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -537,6 +589,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_083.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -544,6 +597,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_087.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -551,6 +605,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_088.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -558,6 +613,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_092.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -565,6 +621,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_095.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -572,6 +629,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_096.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -579,6 +637,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_097.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -586,13 +645,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_098.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Great Aktru Glacier"
+          alt="Altay. Conquering Siberia 2.0 - Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_099.webp"
+          title="Great Aktru Glacier"
         />
         <figcaption
           className="image-caption"
@@ -605,13 +666,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Small Aktru Glacier"
+          alt="Altay. Conquering Siberia 2.0 - Small Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp"
+          title="Small Aktru Glacier"
         />
         <figcaption
           className="image-caption"
@@ -624,6 +687,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_107.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -631,6 +695,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_108.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -638,6 +703,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_111.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -645,6 +711,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_112.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -652,6 +719,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_113.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -659,6 +727,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_115.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -666,6 +735,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_116.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -673,6 +743,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_117.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -680,6 +751,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_118.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -687,6 +759,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_119.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -694,6 +767,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_121.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -701,6 +775,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_122.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -708,13 +783,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_125.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Kosh-Agach"
+          alt="Altay. Conquering Siberia 2.0 - Kosh-Agach"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_126.webp"
+          title="Kosh-Agach"
         />
         <figcaption
           className="image-caption"
@@ -727,6 +804,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_127.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -734,13 +812,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_128.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Martian Landscapes. Mountains of Kyzyl-Chin."
+          alt="Altay. Conquering Siberia 2.0 - Martian Landscapes. Mountains of Kyzyl-Chin."
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_129.webp"
+          title="Martian Landscapes. Mountains of Kyzyl-Chin."
         />
         <figcaption
           className="image-caption"
@@ -753,6 +833,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_130.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -760,6 +841,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_131.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -767,6 +849,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_132.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -774,6 +857,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_134.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -781,6 +865,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_135.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -788,6 +873,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_136.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -795,6 +881,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_139.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -802,6 +889,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_140.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -809,6 +897,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_141.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -816,6 +905,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_142.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -823,6 +913,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_143.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -830,6 +921,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_144.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -837,6 +929,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_145.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -844,6 +937,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_146.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -851,6 +945,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_147.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -858,13 +953,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_149.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Kurai Steppe"
+          alt="Altay. Conquering Siberia 2.0 - Kurai Steppe"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_150.webp"
+          title="Kurai Steppe"
         />
         <figcaption
           className="image-caption vertical"
@@ -877,6 +974,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_152.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -884,6 +982,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_153.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -891,6 +990,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_154.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -898,6 +998,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_155.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -905,6 +1006,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_156.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -912,13 +1014,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_157.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Aktash"
+          alt="Altay. Conquering Siberia 2.0 - Aktash"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_160.webp"
+          title="Aktash"
         />
         <figcaption
           className="image-caption"
@@ -931,6 +1035,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_161.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -938,6 +1043,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_162.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -945,6 +1051,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_164.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -952,6 +1059,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_165.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -959,6 +1067,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_166.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -966,13 +1075,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_167.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Aktash Repeater"
+          alt="Altay. Conquering Siberia 2.0 - Aktash Repeater"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_168.webp"
+          title="Aktash Repeater"
         />
         <figcaption
           className="image-caption"
@@ -985,13 +1096,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_169.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Waterfall Shirlak"
+          alt="Altay. Conquering Siberia 2.0 - Waterfall Shirlak"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_170.webp"
+          title="Waterfall Shirlak"
         />
         <figcaption
           className="image-caption vertical"
@@ -1004,6 +1117,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_171.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -1011,13 +1125,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_172.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Bom Kur-Kechu"
+          alt="Altay. Conquering Siberia 2.0 - Bom Kur-Kechu"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_173.webp"
+          title="Bom Kur-Kechu"
         />
         <figcaption
           className="image-caption"
@@ -1027,9 +1143,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Chike-Taman Pass"
+          alt="Altay. Conquering Siberia 2.0 - Chike-Taman Pass"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_174.webp"
+          title="Chike-Taman Pass"
         />
         <figcaption
           className="image-caption"
@@ -1042,6 +1159,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_176.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -1049,6 +1167,7 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_177.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -1056,13 +1175,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_178.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Karakol"
+          alt="Altay. Conquering Siberia 2.0 - Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_179.webp"
+          title="Karakol"
         />
         <figcaption
           className="image-caption"
@@ -1075,13 +1196,15 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_180.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Ursul River"
+          alt="Altay. Conquering Siberia 2.0 - Ursul River"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_183.webp"
+          title="Ursul River"
         />
         <figcaption
           className="image-caption"
@@ -1091,9 +1214,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Karakol"
+          alt="Altay. Conquering Siberia 2.0 - Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_184.webp"
+          title="Karakol"
         />
         <figcaption
           className="image-caption"
@@ -1103,9 +1227,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Petroglyphs in Karakol"
+          alt="Altay. Conquering Siberia 2.0 - Petroglyphs in Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_189.webp"
+          title="Petroglyphs in Karakol"
         />
         <figcaption
           className="image-caption"
@@ -1115,9 +1240,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Graves in Karakol"
+          alt="Altay. Conquering Siberia 2.0 - Graves in Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_190.webp"
+          title="Graves in Karakol"
         />
         <figcaption
           className="image-caption"
@@ -1130,15 +1256,19 @@ exports[`renders correctly 1`] = `
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_191.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Gorno-Altaysk
+          alt="Altay. Conquering Siberia 2.0 - Gorno-Altaysk
 
 The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking. "
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_192.webp"
+          title="Gorno-Altaysk
+
+The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking. "
         />
         <figcaption
           className="image-caption"
@@ -1153,6 +1283,7 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_193.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
@@ -1160,13 +1291,15 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
           alt="Altay. Conquering Siberia 2.0"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_194.webp"
+          title="Altay. Conquering Siberia 2.0"
         />
       </figure>
       <figure>
         <img
-          alt="Tavdinsky Caves"
+          alt="Altay. Conquering Siberia 2.0 - Tavdinsky Caves"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp"
+          title="Tavdinsky Caves"
         />
         <figcaption
           className="image-caption"

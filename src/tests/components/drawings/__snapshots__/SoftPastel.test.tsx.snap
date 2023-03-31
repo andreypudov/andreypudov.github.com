@@ -105,9 +105,10 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="November 01, 2021"
+          alt="Soft Pastel - November 01, 2021"
           className="img-responsive gallery-image"
           src="/drawings/soft-pastel/2021-11-01.webp"
+          title="November 01, 2021"
         />
         <figcaption
           className="image-caption"
@@ -117,9 +118,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="May 17, 2021"
+          alt="Soft Pastel - May 17, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-05-17.webp"
+          title="May 17, 2021"
         />
         <figcaption
           className="image-caption vertical"
@@ -129,9 +131,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="March 22, 2021"
+          alt="Soft Pastel - March 22, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-03-22.webp"
+          title="March 22, 2021"
         />
         <figcaption
           className="image-caption vertical"
@@ -141,9 +144,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="March 21, 2021"
+          alt="Soft Pastel - March 21, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-03-21.webp"
+          title="March 21, 2021"
         />
         <figcaption
           className="image-caption vertical"
@@ -153,9 +157,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="January 30, 2021"
+          alt="Soft Pastel - January 30, 2021"
           className="img-responsive gallery-image"
           src="/drawings/soft-pastel/2021-01-30.webp"
+          title="January 30, 2021"
         />
         <figcaption
           className="image-caption"
@@ -165,9 +170,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="January 29, 2021"
+          alt="Soft Pastel - January 29, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-01-29.webp"
+          title="January 29, 2021"
         />
         <figcaption
           className="image-caption vertical"
@@ -177,9 +183,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="January 07, 2021"
+          alt="Soft Pastel - January 07, 2021"
           className="img-responsive gallery-image vertical"
           src="/drawings/soft-pastel/2021-01-07.webp"
+          title="January 07, 2021"
         />
         <figcaption
           className="image-caption vertical"

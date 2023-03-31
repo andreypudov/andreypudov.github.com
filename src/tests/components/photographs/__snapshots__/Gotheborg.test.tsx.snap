@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_095.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_096.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_097.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -129,6 +132,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_098.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -136,6 +140,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_099.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -143,6 +148,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_100.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -150,6 +156,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_101.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -157,6 +164,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_102.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -164,6 +172,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_103.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -171,6 +180,7 @@ exports[`renders correctly 1`] = `
           alt="Götheborg. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_104.webp"
+          title="Götheborg. Conquering Scandinavia"
         />
       </figure>
     </div>

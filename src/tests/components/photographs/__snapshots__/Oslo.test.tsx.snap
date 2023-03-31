@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_043.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_044.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_045.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -129,6 +132,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_046.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -136,6 +140,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_047.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -143,6 +148,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_048.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -150,6 +156,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_049.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -157,6 +164,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_050.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -164,6 +172,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_051.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -171,6 +180,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_052.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -178,13 +188,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_053.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="Barcode Oslo"
+          alt="Oslo. Conquering Scandinavia - Barcode Oslo"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_054.webp"
+          title="Barcode Oslo"
         />
         <figcaption
           className="image-caption vertical"
@@ -194,9 +206,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Norwegian National Opera and Ballet"
+          alt="Oslo. Conquering Scandinavia - Norwegian National Opera and Ballet"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_055.webp"
+          title="Norwegian National Opera and Ballet"
         />
         <figcaption
           className="image-caption vertical"
@@ -209,13 +222,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_056.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="Vigeland Sculpture Park"
+          alt="Oslo. Conquering Scandinavia - Vigeland Sculpture Park"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_057.webp"
+          title="Vigeland Sculpture Park"
         />
         <figcaption
           className="image-caption"
@@ -228,6 +243,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_058.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -235,6 +251,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_059.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -242,6 +259,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_060.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -249,6 +267,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_061.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -256,6 +275,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_062.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -263,6 +283,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_063.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -270,6 +291,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_064.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -277,6 +299,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_065.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -284,6 +307,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_066.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -291,6 +315,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_067.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -298,6 +323,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_068.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -305,13 +331,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_069.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="Norwegian National Opera and Ballet"
+          alt="Oslo. Conquering Scandinavia - Norwegian National Opera and Ballet"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_070.webp"
+          title="Norwegian National Opera and Ballet"
         />
         <figcaption
           className="image-caption"
@@ -324,13 +352,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_071.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="Munch Museum"
+          alt="Oslo. Conquering Scandinavia - Munch Museum"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp"
+          title="Munch Museum"
         />
         <figcaption
           className="image-caption"
@@ -343,6 +373,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_073.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -350,6 +381,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_074.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -357,6 +389,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_075.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -364,6 +397,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -371,6 +405,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_077.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -378,6 +413,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_078.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -385,6 +421,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_079.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -392,6 +429,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_080.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -399,13 +437,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_081.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="Statoil Office"
+          alt="Oslo. Conquering Scandinavia - Statoil Office"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_082.webp"
+          title="Statoil Office"
         />
         <figcaption
           className="image-caption"
@@ -418,6 +458,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_083.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -425,6 +466,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_084.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -432,6 +474,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_085.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -439,13 +482,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_086.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="City Hall"
+          alt="Oslo. Conquering Scandinavia - City Hall"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_087.webp"
+          title="City Hall"
         />
         <figcaption
           className="image-caption"
@@ -458,6 +503,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_088.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -465,13 +511,15 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_089.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
         <img
-          alt="Akerhus Fortres"
+          alt="Oslo. Conquering Scandinavia - Akerhus Fortres"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_090.webp"
+          title="Akerhus Fortres"
         />
         <figcaption
           className="image-caption vertical"
@@ -484,6 +532,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_091.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -491,6 +540,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_092.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -498,6 +548,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_093.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
       <figure>
@@ -505,6 +556,7 @@ exports[`renders correctly 1`] = `
           alt="Oslo. Conquering Scandinavia"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_094.webp"
+          title="Oslo. Conquering Scandinavia"
         />
       </figure>
     </div>

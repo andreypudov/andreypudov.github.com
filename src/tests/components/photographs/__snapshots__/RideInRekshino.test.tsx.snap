@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_001.webp"
+          title="Ride in Rekshino"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_002.webp"
+          title="Ride in Rekshino"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_003.webp"
+          title="Ride in Rekshino"
         />
       </figure>
       <figure>
@@ -129,6 +132,7 @@ exports[`renders correctly 1`] = `
           alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_004.webp"
+          title="Ride in Rekshino"
         />
       </figure>
       <figure>
@@ -136,6 +140,7 @@ exports[`renders correctly 1`] = `
           alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_005.webp"
+          title="Ride in Rekshino"
         />
       </figure>
       <figure>
@@ -143,6 +148,7 @@ exports[`renders correctly 1`] = `
           alt="Ride in Rekshino"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-28/2017-10-28_006.webp"
+          title="Ride in Rekshino"
         />
       </figure>
     </div>

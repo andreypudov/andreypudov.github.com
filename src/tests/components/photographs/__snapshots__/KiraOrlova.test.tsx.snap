@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_012_large.webp"
+          title="Kira Orlova"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_014_large.webp"
+          title="Kira Orlova"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_016_large.webp"
+          title="Kira Orlova"
         />
       </figure>
     </div>

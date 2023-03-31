@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Irina Domracheva"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-05-11/2020-05-11_018.webp"
+          title="Irina Domracheva"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Irina Domracheva"
           className="img-responsive gallery-image"
           src="/photographs/2020-05-11/2020-05-11_027.webp"
+          title="Irina Domracheva"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Irina Domracheva"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-05-11/2020-05-11_029.webp"
+          title="Irina Domracheva"
         />
       </figure>
     </div>

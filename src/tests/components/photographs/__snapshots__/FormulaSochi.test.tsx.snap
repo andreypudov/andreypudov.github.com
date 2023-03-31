@@ -108,13 +108,15 @@ exports[`renders correctly 1`] = `
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_001_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Construction of the complex in the Imereti Lowlands began in 2007. The Imereti Lowlands was an important bird area protected since 1911, most of which was destroyed during the construction. Most of the venues were completed by 2013. The Olympic Park was until 2019 located in the Adlersky City District of Sochi. However, in 2019 it was transferred into the newly established urban-type settlement of Sirius."
+          alt="2015 Formula 1 Russian Grand Prix - Construction of the complex in the Imereti Lowlands began in 2007. The Imereti Lowlands was an important bird area protected since 1911, most of which was destroyed during the construction. Most of the venues were completed by 2013. The Olympic Park was until 2019 located in the Adlersky City District of Sochi. However, in 2019 it was transferred into the newly established urban-type settlement of Sirius."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_002_large.webp"
+          title="Construction of the complex in the Imereti Lowlands began in 2007. The Imereti Lowlands was an important bird area protected since 1911, most of which was destroyed during the construction. Most of the venues were completed by 2013. The Olympic Park was until 2019 located in the Adlersky City District of Sochi. However, in 2019 it was transferred into the newly established urban-type settlement of Sirius."
         />
         <figcaption
           className="image-caption"
@@ -127,6 +129,7 @@ exports[`renders correctly 1`] = `
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_003_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -134,13 +137,15 @@ exports[`renders correctly 1`] = `
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_004_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="The wall of the Olympic and Paralympic champions opened in a year after the 2014 Winter Olympics."
+          alt="2015 Formula 1 Russian Grand Prix - The wall of the Olympic and Paralympic champions opened in a year after the 2014 Winter Olympics."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_005_large.webp"
+          title="The wall of the Olympic and Paralympic champions opened in a year after the 2014 Winter Olympics."
         />
         <figcaption
           className="image-caption"
@@ -150,11 +155,14 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Sochi Olympic Park
+          alt="2015 Formula 1 Russian Grand Prix - Sochi Olympic Park
 
 Sochi Olympic Park is situated in the urban-type settlement of Sirius in Imeretinsky Valley, on the coast of the Black Sea. The Olympic Park houses the main Olympic Stadium used for the Games' ceremonies, and the venues that were used for indoor sports such as hockey, figure skating, curling, and speed skating. It also houses training facilities, the Olympic Village, the international broadcasting centre, and other amenities. The park was designed so that all of the venues would be accessible within walking distance of each other. The venues are situated around a water basin containing a fountain known as \\"The Waters of the Olympic Park\\""
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_006_large.webp"
+          title="Sochi Olympic Park
+
+Sochi Olympic Park is situated in the urban-type settlement of Sirius in Imeretinsky Valley, on the coast of the Black Sea. The Olympic Park houses the main Olympic Stadium used for the Games' ceremonies, and the venues that were used for indoor sports such as hockey, figure skating, curling, and speed skating. It also houses training facilities, the Olympic Village, the international broadcasting centre, and other amenities. The park was designed so that all of the venues would be accessible within walking distance of each other. The venues are situated around a water basin containing a fountain known as \\"The Waters of the Olympic Park\\""
         />
         <figcaption
           className="image-caption"
@@ -166,11 +174,14 @@ Sochi Olympic Park is situated in the urban-type settlement of Sirius in Imereti
       </figure>
       <figure>
         <img
-          alt="View of the first corner of the Sochi Autodrom
+          alt="2015 Formula 1 Russian Grand Prix - View of the first corner of the Sochi Autodrom
 
 The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, behind Spa-Francorchamps in Belgium, Jeddah Street Circuit in Saudi Arabia, Baku City Circuit in Azerbaijan and Silverstone in the UK."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_007_large.webp"
+          title="View of the first corner of the Sochi Autodrom
+
+The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, behind Spa-Francorchamps in Belgium, Jeddah Street Circuit in Saudi Arabia, Baku City Circuit in Azerbaijan and Silverstone in the UK."
         />
         <figcaption
           className="image-caption"
@@ -185,6 +196,7 @@ The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, b
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_008_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -192,13 +204,15 @@ The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, b
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_009_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Scuderia Ferrari helmets at Autosport Museum"
+          alt="2015 Formula 1 Russian Grand Prix - Scuderia Ferrari helmets at Autosport Museum"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_010_large.webp"
+          title="Scuderia Ferrari helmets at Autosport Museum"
         />
         <figcaption
           className="image-caption"
@@ -208,9 +222,10 @@ The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, b
       </figure>
       <figure>
         <img
-          alt="Scuderia Ferrari racing suits at Autosport Museum in the main tribune of Sochi Autodrom."
+          alt="2015 Formula 1 Russian Grand Prix - Scuderia Ferrari racing suits at Autosport Museum in the main tribune of Sochi Autodrom."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_011_large.webp"
+          title="Scuderia Ferrari racing suits at Autosport Museum in the main tribune of Sochi Autodrom."
         />
         <figcaption
           className="image-caption"
@@ -220,11 +235,14 @@ The 5.848 km circuit is the fifth-longest circuit on the Formula One calendar, b
       </figure>
       <figure>
         <img
-          alt="Mark Webber's Jaguar R5B at Autosport Museum
+          alt="2015 Formula 1 Russian Grand Prix - Mark Webber's Jaguar R5B at Autosport Museum
 
 Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It currently competes in Formula E under the name Jaguar TCS Racing as a result of the partnership with Tata Consultancy Services. It was previously a Formula One constructor that competed in the FIA Formula One World Championship from 2000 to 2004. In addition to single-seaters, the Jaguar brand also has a rich history in various forms of sportscar racing, most notably with the XJR sportscars that enjoyed high success in the FIA World Sportscar Championship and also the IMSA GT Championship during the late 1980s and early 1990s."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_012_large.webp"
+          title="Mark Webber's Jaguar R5B at Autosport Museum
+
+Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It currently competes in Formula E under the name Jaguar TCS Racing as a result of the partnership with Tata Consultancy Services. It was previously a Formula One constructor that competed in the FIA Formula One World Championship from 2000 to 2004. In addition to single-seaters, the Jaguar brand also has a rich history in various forms of sportscar racing, most notably with the XJR sportscars that enjoyed high success in the FIA World Sportscar Championship and also the IMSA GT Championship during the late 1980s and early 1990s."
         />
         <figcaption
           className="image-caption"
@@ -239,6 +257,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_024_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -246,6 +265,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_025_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -253,6 +273,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_013_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -260,13 +281,15 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_014_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Sergey Vorobyev is the Russian Grand Prix promoter and Chief Executive Officer of Rosgonki."
+          alt="2015 Formula 1 Russian Grand Prix - Sergey Vorobyev is the Russian Grand Prix promoter and Chief Executive Officer of Rosgonki."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_015_large.webp"
+          title="Sergey Vorobyev is the Russian Grand Prix promoter and Chief Executive Officer of Rosgonki."
         />
         <figcaption
           className="image-caption"
@@ -279,6 +302,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_016_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -286,6 +310,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_017_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -293,6 +318,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_018_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -300,6 +326,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_019_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -307,6 +334,7 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_020_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -314,17 +342,23 @@ Jaguar Racing is the name given to Jaguar Land Rover's racing interests. It curr
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_021_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Imeretinsky Kurort Railway Station
+          alt="2015 Formula 1 Russian Grand Prix - Imeretinsky Kurort Railway Station
 
 The railway station of the North Caucasus Railway is located in the Adler district of Sochi. The station was built for the 2014 Winter Olympics as Olympic Park and was the main transport hub of Olympic Park, the coastal cluster. During the Olympics, 26 pairs of trains departed daily from the station to Krasnaya Polyana railway station where the remainder of the Olympic events occurred.
 
 On 15 March 2016, the station was renamed Imeretinsky Kurort."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_022_large.webp"
+          title="Imeretinsky Kurort Railway Station
+
+The railway station of the North Caucasus Railway is located in the Adler district of Sochi. The station was built for the 2014 Winter Olympics as Olympic Park and was the main transport hub of Olympic Park, the coastal cluster. During the Olympics, 26 pairs of trains departed daily from the station to Krasnaya Polyana railway station where the remainder of the Olympic events occurred.
+
+On 15 March 2016, the station was renamed Imeretinsky Kurort."
         />
         <figcaption
           className="image-caption"
@@ -341,6 +375,7 @@ On 15 March 2016, the station was renamed Imeretinsky Kurort.
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_023_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -348,11 +383,12 @@ On 15 March 2016, the station was renamed Imeretinsky Kurort.
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_026_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Sochi Medals Plaza
+          alt="2015 Formula 1 Russian Grand Prix - Sochi Medals Plaza
 
 Centrally located within the Sochi Olympic Park sports venues, the Sochi Medals Plaza is located near the Fisht Olympic Stadium, the Black Sea coast, and was the cauldron for the Olympic Flame. It is surrounded by a large water basin.
 
@@ -361,6 +397,13 @@ Every night, the medals of the 2014 Winter Olympics were awarded there. The stag
 The plaza now shapes corners 2-5 of the Sochi Autodrom motor-racing circuit. The entire circuit snakes around other structures in the Sochi Olympic Park."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_027_large.webp"
+          title="Sochi Medals Plaza
+
+Centrally located within the Sochi Olympic Park sports venues, the Sochi Medals Plaza is located near the Fisht Olympic Stadium, the Black Sea coast, and was the cauldron for the Olympic Flame. It is surrounded by a large water basin.
+
+Every night, the medals of the 2014 Winter Olympics were awarded there. The stage will remain with legacy footsteps on it which will permanently record the names of all the medal winners. During the Olympics, the venue temporarily could accommodate 20,000 standing spectators.
+
+The plaza now shapes corners 2-5 of the Sochi Autodrom motor-racing circuit. The entire circuit snakes around other structures in the Sochi Olympic Park."
         />
         <figcaption
           className="image-caption"
@@ -379,15 +422,19 @@ The plaza now shapes corners 2-5 of the Sochi Autodrom motor-racing circuit. The
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_028_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Sauber F1 Team mechanics are hard at work.
+          alt="2015 Formula 1 Russian Grand Prix - Sauber F1 Team mechanics are hard at work.
 
 The Sauber F1 Team is a Swiss Formula One team. Founded in 1970 by Peter Sauber, the team entered F1 in 1993 and experienced a moderate amount of success (but no wins) before being sold to BMW after the 2005 season and being renamed BMW Sauber for 2006, winning a race in 2008. After 2009, BMW decided to end its involvement in the sport and sold the team back to Peter Sauber. The team ran as \\"BMW Sauber\\" in 2010 (using Ferrari engines) for the TV money, before reverting back to \\"Sauber\\" in 2011."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_029_large.webp"
+          title="Sauber F1 Team mechanics are hard at work.
+
+The Sauber F1 Team is a Swiss Formula One team. Founded in 1970 by Peter Sauber, the team entered F1 in 1993 and experienced a moderate amount of success (but no wins) before being sold to BMW after the 2005 season and being renamed BMW Sauber for 2006, winning a race in 2008. After 2009, BMW decided to end its involvement in the sport and sold the team back to Peter Sauber. The team ran as \\"BMW Sauber\\" in 2010 (using Ferrari engines) for the TV money, before reverting back to \\"Sauber\\" in 2011."
         />
         <figcaption
           className="image-caption"
@@ -399,11 +446,14 @@ The Sauber F1 Team is a Swiss Formula One team. Founded in 1970 by Peter Sauber,
       </figure>
       <figure>
         <img
-          alt="The box of the Marussia F1 Team
+          alt="2015 Formula 1 Russian Grand Prix - The box of the Marussia F1 Team
 
 The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructor which was based in Banbury, Oxfordshire, and then later Dinnington, South Yorkshire in the United Kingdom. The team was operated by Manor Motorsport, which was previously a subsidiary of Marussia Motors, a now defunct sports car manufacturer which was based in Moscow. The team originally started racing in 2010 under the \\"Virgin Racing\\" name; the following year Virgin adopted Marussia as a title sponsor becoming \\"Marussia Virgin Racing\\" until being fully rebranded as the \\"Marussia F1 Team\\" for 2012."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_030_large.webp"
+          title="The box of the Marussia F1 Team
+
+The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructor which was based in Banbury, Oxfordshire, and then later Dinnington, South Yorkshire in the United Kingdom. The team was operated by Manor Motorsport, which was previously a subsidiary of Marussia Motors, a now defunct sports car manufacturer which was based in Moscow. The team originally started racing in 2010 under the \\"Virgin Racing\\" name; the following year Virgin adopted Marussia as a title sponsor becoming \\"Marussia Virgin Racing\\" until being fully rebranded as the \\"Marussia F1 Team\\" for 2012."
         />
         <figcaption
           className="image-caption"
@@ -418,6 +468,7 @@ The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructo
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_031_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -425,6 +476,7 @@ The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructo
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_032_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -432,13 +484,15 @@ The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructo
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_033_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Scuderia Ferrari mechanics performing warm-up exercises."
+          alt="2015 Formula 1 Russian Grand Prix - Scuderia Ferrari mechanics performing warm-up exercises."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_034_large.webp"
+          title="Scuderia Ferrari mechanics performing warm-up exercises."
         />
         <figcaption
           className="image-caption"
@@ -448,9 +502,10 @@ The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructo
       </figure>
       <figure>
         <img
-          alt="The Sochi Autodrom, previously known as the Sochi International Street Circuit and the Sochi Olympic Park Circuit, is a 5.848 km (3.634 mi) Formula One permanent race track in the settlement of Sirius next to the Black Sea resort town of Sochi in Krasnodar Krai, Russia."
+          alt="2015 Formula 1 Russian Grand Prix - The Sochi Autodrom, previously known as the Sochi International Street Circuit and the Sochi Olympic Park Circuit, is a 5.848 km (3.634 mi) Formula One permanent race track in the settlement of Sirius next to the Black Sea resort town of Sochi in Krasnodar Krai, Russia."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_035_large.webp"
+          title="The Sochi Autodrom, previously known as the Sochi International Street Circuit and the Sochi Olympic Park Circuit, is a 5.848 km (3.634 mi) Formula One permanent race track in the settlement of Sirius next to the Black Sea resort town of Sochi in Krasnodar Krai, Russia."
         />
         <figcaption
           className="image-caption"
@@ -460,9 +515,10 @@ The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructo
       </figure>
       <figure>
         <img
-          alt="Scuderia Ferrari lead pilot Sebastian Vettel inspecting the track."
+          alt="2015 Formula 1 Russian Grand Prix - Scuderia Ferrari lead pilot Sebastian Vettel inspecting the track."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_036_large.webp"
+          title="Scuderia Ferrari lead pilot Sebastian Vettel inspecting the track."
         />
         <figcaption
           className="image-caption"
@@ -472,11 +528,14 @@ The Marussia F1 Team was an Anglo-Russian Formula One racing team and constructo
       </figure>
       <figure>
         <img
-          alt="The circuit is similar to the Beijing Olympic Green Circuit and the Sydney Olympic Park Circuit in that it runs around a former Olympic complex; in this case, the Sochi Olympic Park site, scene of the 2014 Winter Olympic Games. The inaugural World Championship Russian Grand Prix took place in 2014, beginning a seven-year contract.
+          alt="2015 Formula 1 Russian Grand Prix - The circuit is similar to the Beijing Olympic Green Circuit and the Sydney Olympic Park Circuit in that it runs around a former Olympic complex; in this case, the Sochi Olympic Park site, scene of the 2014 Winter Olympic Games. The inaugural World Championship Russian Grand Prix took place in 2014, beginning a seven-year contract.
 
 Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Russian Series and SMP F4 Championship as support series."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_037_large.webp"
+          title="The circuit is similar to the Beijing Olympic Green Circuit and the Sydney Olympic Park Circuit in that it runs around a former Olympic complex; in this case, the Sochi Olympic Park site, scene of the 2014 Winter Olympic Games. The inaugural World Championship Russian Grand Prix took place in 2014, beginning a seven-year contract.
+
+Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Russian Series and SMP F4 Championship as support series."
         />
         <figcaption
           className="image-caption"
@@ -491,6 +550,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_038_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -498,6 +558,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_039_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -505,6 +566,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_040_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -512,6 +574,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_041_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -519,6 +582,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_042_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -526,13 +590,15 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_043_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Red Bull pilots Daniil Kvyat and Daniel Ricciardo on the autograph session."
+          alt="2015 Formula 1 Russian Grand Prix - Red Bull pilots Daniil Kvyat and Daniel Ricciardo on the autograph session."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_044_large.webp"
+          title="Red Bull pilots Daniil Kvyat and Daniel Ricciardo on the autograph session."
         />
         <figcaption
           className="image-caption"
@@ -545,6 +611,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_045_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -565,9 +632,10 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
       </figure>
       <figure>
         <img
-          alt="Governor of Krasnodar Krai Aleksandr Tkachov (driving) and chief executive of the Formula One Group Bernie Ecclestone on an excursion across the Olympic Pack by the Safety car."
+          alt="2015 Formula 1 Russian Grand Prix - Governor of Krasnodar Krai Aleksandr Tkachov (driving) and chief executive of the Formula One Group Bernie Ecclestone on an excursion across the Olympic Pack by the Safety car."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_046_large.webp"
+          title="Governor of Krasnodar Krai Aleksandr Tkachov (driving) and chief executive of the Formula One Group Bernie Ecclestone on an excursion across the Olympic Pack by the Safety car."
         />
         <figcaption
           className="image-caption"
@@ -580,6 +648,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_047_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -587,6 +656,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_048_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -594,6 +664,7 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_049_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -601,15 +672,19 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_050_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Daniil Kvyat drives Red Bull RB11
+          alt="2015 Formula 1 Russian Grand Prix - Daniil Kvyat drives Red Bull RB11
 
 Daniil Kvyat is a Russian racing driver who competed in Formula One between 2014–2017 and 2019–2020, racing under the Russian flag. He became the second Formula One driver from Russia and is the most successful of the four Russian drivers to date, with three podiums."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_051_large.webp"
+          title="Daniil Kvyat drives Red Bull RB11
+
+Daniil Kvyat is a Russian racing driver who competed in Formula One between 2014–2017 and 2019–2020, racing under the Russian flag. He became the second Formula One driver from Russia and is the most successful of the four Russian drivers to date, with three podiums."
         />
         <figcaption
           className="image-caption"
@@ -624,6 +699,7 @@ Daniil Kvyat is a Russian racing driver who competed in Formula One between 2014
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_052_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -631,6 +707,7 @@ Daniil Kvyat is a Russian racing driver who competed in Formula One between 2014
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_053_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -638,15 +715,19 @@ Daniil Kvyat is a Russian racing driver who competed in Formula One between 2014
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_054_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="The Bolshoy Ice Dome is a multi-purpose indoor arena located in Olympic Park, Sochi, Russia. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.
+          alt="2015 Formula 1 Russian Grand Prix - The Bolshoy Ice Dome is a multi-purpose indoor arena located in Olympic Park, Sochi, Russia. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.
 
 The arena's exterior is distinguished by its LED-illuminated roof, which its designers described as resembling fabergé eggs and frozen water droplets."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_055_large.webp"
+          title="The Bolshoy Ice Dome is a multi-purpose indoor arena located in Olympic Park, Sochi, Russia. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.
+
+The arena's exterior is distinguished by its LED-illuminated roof, which its designers described as resembling fabergé eggs and frozen water droplets."
         />
         <figcaption
           className="image-caption"
@@ -658,13 +739,18 @@ The arena's exterior is distinguished by its LED-illuminated roof, which its des
       </figure>
       <figure>
         <img
-          alt="Iceberg Skating Palace
+          alt="2015 Formula 1 Russian Grand Prix - Iceberg Skating Palace
 
 The Iceberg Skating Palace is a 12,000-seat multi-purpose arena at Sochi Olympic Park. The venue hosted the figure skating and short track speed skating events at the 2014 Winter Olympics. It cost $43.9 million, including the temporary works for the Olympics. 15,000 tonnes of steel were used. The environment was taken into consideration in its construction.
 
 Plans had originally existed for the arena to converted into a cycling velodrome following the Olympics."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_056_large.webp"
+          title="Iceberg Skating Palace
+
+The Iceberg Skating Palace is a 12,000-seat multi-purpose arena at Sochi Olympic Park. The venue hosted the figure skating and short track speed skating events at the 2014 Winter Olympics. It cost $43.9 million, including the temporary works for the Olympics. 15,000 tonnes of steel were used. The environment was taken into consideration in its construction.
+
+Plans had originally existed for the arena to converted into a cycling velodrome following the Olympics."
         />
         <figcaption
           className="image-caption"
@@ -678,9 +764,10 @@ Plans had originally existed for the arena to converted into a cycling velodrome
       </figure>
       <figure>
         <img
-          alt="The photographers who follow Formula 1 have to deal with more factors than snappers in most other sports. First, there's the speed of the cars which travel at more than three hundred kilometers per hour. Then there's the weather as the races are all outdoors. They take place in more than twenty countries over an eight-month period."
+          alt="2015 Formula 1 Russian Grand Prix - The photographers who follow Formula 1 have to deal with more factors than snappers in most other sports. First, there's the speed of the cars which travel at more than three hundred kilometers per hour. Then there's the weather as the races are all outdoors. They take place in more than twenty countries over an eight-month period."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_057_large.webp"
+          title="The photographers who follow Formula 1 have to deal with more factors than snappers in most other sports. First, there's the speed of the cars which travel at more than three hundred kilometers per hour. Then there's the weather as the races are all outdoors. They take place in more than twenty countries over an eight-month period."
         />
         <figcaption
           className="image-caption"
@@ -693,6 +780,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_058_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -700,6 +788,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_059_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -707,6 +796,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_060_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -714,13 +804,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_061_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="The first race of GP2 series."
+          alt="2015 Formula 1 Russian Grand Prix - The first race of GP2 series."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_062_large.webp"
+          title="The first race of GP2 series."
         />
         <figcaption
           className="image-caption"
@@ -733,6 +825,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_063_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -740,6 +833,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_064_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -747,6 +841,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_065_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -754,6 +849,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_066_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -761,6 +857,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_067_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -768,13 +865,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_068_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="The first race of GP2 series."
+          alt="2015 Formula 1 Russian Grand Prix - The first race of GP2 series."
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_069_large.webp"
+          title="The first race of GP2 series."
         />
         <figcaption
           className="image-caption vertical"
@@ -787,6 +886,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_070_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -794,6 +894,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_071_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -801,6 +902,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_072_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -808,13 +910,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_073_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="The night before the race."
+          alt="2015 Formula 1 Russian Grand Prix - The night before the race."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_074_large.webp"
+          title="The night before the race."
         />
         <figcaption
           className="image-caption"
@@ -827,6 +931,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_075_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -834,6 +939,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_076_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -841,6 +947,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_077_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -848,6 +955,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_078_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -855,6 +963,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_079_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -862,6 +971,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_080_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -869,13 +979,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_081_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Pre-race performance of nesting dolls. Matryoshka in a helmet is a logo of the Russian Grand Prix."
+          alt="2015 Formula 1 Russian Grand Prix - Pre-race performance of nesting dolls. Matryoshka in a helmet is a logo of the Russian Grand Prix."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_082_large.webp"
+          title="Pre-race performance of nesting dolls. Matryoshka in a helmet is a logo of the Russian Grand Prix."
         />
         <figcaption
           className="image-caption"
@@ -888,13 +1000,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_083_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Pre-race ballet dancers on the grid."
+          alt="2015 Formula 1 Russian Grand Prix - Pre-race ballet dancers on the grid."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_084_large.webp"
+          title="Pre-race ballet dancers on the grid."
         />
         <figcaption
           className="image-caption"
@@ -907,13 +1021,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_085_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Grid girls prior to the race."
+          alt="2015 Formula 1 Russian Grand Prix - Grid girls prior to the race."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_086_large.webp"
+          title="Grid girls prior to the race."
         />
         <figcaption
           className="image-caption"
@@ -926,6 +1042,7 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_087_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -933,13 +1050,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_088_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Mechanics and engineers on the grid prior to the start of the race."
+          alt="2015 Formula 1 Russian Grand Prix - Mechanics and engineers on the grid prior to the start of the race."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_089_large.webp"
+          title="Mechanics and engineers on the grid prior to the start of the race."
         />
         <figcaption
           className="image-caption"
@@ -952,13 +1071,15 @@ Plans had originally existed for the arena to converted into a cycling velodrome
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_090_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Mechanics prepare cars making final changes that could define a race."
+          alt="2015 Formula 1 Russian Grand Prix - Mechanics prepare cars making final changes that could define a race."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_091_large.webp"
+          title="Mechanics prepare cars making final changes that could define a race."
         />
         <figcaption
           className="image-caption"
@@ -984,9 +1105,10 @@ Plans had originally existed for the arena to converted into a cycling velodrome
       </figure>
       <figure>
         <img
-          alt="His Excellency Vladimir Vladimirovich Putin, President of the Russian Federation. Arriving late at the Sochi Autodrom."
+          alt="2015 Formula 1 Russian Grand Prix - His Excellency Vladimir Vladimirovich Putin, President of the Russian Federation. Arriving late at the Sochi Autodrom."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_092_large.webp"
+          title="His Excellency Vladimir Vladimirovich Putin, President of the Russian Federation. Arriving late at the Sochi Autodrom."
         />
         <figcaption
           className="image-caption"
@@ -996,11 +1118,14 @@ Plans had originally existed for the arena to converted into a cycling velodrome
       </figure>
       <figure>
         <img
-          alt="VIP Luxury Seating at Sochi Autodrom
+          alt="2015 Formula 1 Russian Grand Prix - VIP Luxury Seating at Sochi Autodrom
 
 The Federal Guard Service of the Russian Federation is a federal government agency concerned with the tasks related to the protection of several high-ranking state officials, mandated by the relevant law, including the President of Russia, as well as certain federal properties. It traces its origin to the USSR's Ninth Chief Directorate of the KGB and later Presidential Security Service (SBP) led by KGB general Alexander Korzhakov."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_093_large.webp"
+          title="VIP Luxury Seating at Sochi Autodrom
+
+The Federal Guard Service of the Russian Federation is a federal government agency concerned with the tasks related to the protection of several high-ranking state officials, mandated by the relevant law, including the President of Russia, as well as certain federal properties. It traces its origin to the USSR's Ninth Chief Directorate of the KGB and later Presidential Security Service (SBP) led by KGB general Alexander Korzhakov."
         />
         <figcaption
           className="image-caption"
@@ -1015,6 +1140,7 @@ The Federal Guard Service of the Russian Federation is a federal government agen
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_094_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -1022,13 +1148,15 @@ The Federal Guard Service of the Russian Federation is a federal government agen
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_095_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="The restart of the race after Romain Grosjean suffered an appalling crash."
+          alt="2015 Formula 1 Russian Grand Prix - The restart of the race after Romain Grosjean suffered an appalling crash."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_096_large.webp"
+          title="The restart of the race after Romain Grosjean suffered an appalling crash."
         />
         <figcaption
           className="image-caption"
@@ -1038,9 +1166,10 @@ The Federal Guard Service of the Russian Federation is a federal government agen
       </figure>
       <figure>
         <img
-          alt="The Formula One Paddock Club is the official exclusive VIP hospitality for every Formula One Grand Prix. Guests enjoy the best views of any track from magnificent facilities, gourmet multi-course meals, and open Champagne bars."
+          alt="2015 Formula 1 Russian Grand Prix - The Formula One Paddock Club is the official exclusive VIP hospitality for every Formula One Grand Prix. Guests enjoy the best views of any track from magnificent facilities, gourmet multi-course meals, and open Champagne bars."
           className="img-responsive gallery-image vertical"
           src="/photographs/2015-10-05_11/2015-10-05_11_097_large.webp"
+          title="The Formula One Paddock Club is the official exclusive VIP hospitality for every Formula One Grand Prix. Guests enjoy the best views of any track from magnificent facilities, gourmet multi-course meals, and open Champagne bars."
         />
         <figcaption
           className="image-caption vertical"
@@ -1050,9 +1179,10 @@ The Federal Guard Service of the Russian Federation is a federal government agen
       </figure>
       <figure>
         <img
-          alt="Sebastian Vettel"
+          alt="2015 Formula 1 Russian Grand Prix - Sebastian Vettel"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_098_large.webp"
+          title="Sebastian Vettel"
         />
         <figcaption
           className="image-caption"
@@ -1062,9 +1192,10 @@ The Federal Guard Service of the Russian Federation is a federal government agen
       </figure>
       <figure>
         <img
-          alt="President Vladimir Putin and Bernie Ecclestone, chief executive of the Formula One Group, which manages Formula One motor racing and controls the commercial rights to the sport."
+          alt="2015 Formula 1 Russian Grand Prix - President Vladimir Putin and Bernie Ecclestone, chief executive of the Formula One Group, which manages Formula One motor racing and controls the commercial rights to the sport."
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_099_large.webp"
+          title="President Vladimir Putin and Bernie Ecclestone, chief executive of the Formula One Group, which manages Formula One motor racing and controls the commercial rights to the sport."
         />
         <figcaption
           className="image-caption"
@@ -1077,6 +1208,7 @@ The Federal Guard Service of the Russian Federation is a federal government agen
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_100_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -1084,15 +1216,19 @@ The Federal Guard Service of the Russian Federation is a federal government agen
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_101_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
         <img
-          alt="Podium Ceremony
+          alt="2015 Formula 1 Russian Grand Prix - Podium Ceremony
 
 Lewis Hamilton won the race for the second season in a row, extending his Drivers' Championship lead to 66 points. With Nico Rosberg retiring early in the race, Sebastian Vettel reclaimed second place in the standings for the first time since his round two victory in Malaysia with a second-place finish. Sergio Pérez completed the podium in third for Force India. "
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_102_large.webp"
+          title="Podium Ceremony
+
+Lewis Hamilton won the race for the second season in a row, extending his Drivers' Championship lead to 66 points. With Nico Rosberg retiring early in the race, Sebastian Vettel reclaimed second place in the standings for the first time since his round two victory in Malaysia with a second-place finish. Sergio Pérez completed the podium in third for Force India. "
         />
         <figcaption
           className="image-caption"
@@ -1107,6 +1243,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_103_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
       <figure>
@@ -1114,6 +1251,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
           alt="2015 Formula 1 Russian Grand Prix"
           className="img-responsive gallery-image"
           src="/photographs/2015-10-05_11/2015-10-05_11_104_large.webp"
+          title="2015 Formula 1 Russian Grand Prix"
         />
       </figure>
     </div>

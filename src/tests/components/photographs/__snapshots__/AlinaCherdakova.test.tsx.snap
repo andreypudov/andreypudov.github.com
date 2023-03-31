@@ -108,6 +108,7 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_001.webp"
+          title="Alina Cherdakova"
         />
       </figure>
       <figure>
@@ -115,6 +116,7 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_003.webp"
+          title="Alina Cherdakova"
         />
       </figure>
       <figure>
@@ -122,6 +124,7 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_007.webp"
+          title="Alina Cherdakova"
         />
       </figure>
       <figure>
@@ -129,6 +132,7 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_009.webp"
+          title="Alina Cherdakova"
         />
       </figure>
       <figure>
@@ -136,6 +140,7 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_010.webp"
+          title="Alina Cherdakova"
         />
       </figure>
       <figure>
@@ -143,6 +148,7 @@ exports[`renders correctly 1`] = `
           alt="Alina Cherdakova"
           className="img-responsive gallery-image"
           src="/photographs/2018-08-18/2018-08-18_013.webp"
+          title="Alina Cherdakova"
         />
       </figure>
     </div>

@@ -105,9 +105,10 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split."
+          alt="Puigmal - The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split."
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_001.webp"
+          title="The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split."
         />
         <figcaption
           className="image-caption"
@@ -120,6 +121,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_002.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -127,6 +129,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_003.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -134,6 +137,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_004.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -141,6 +145,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_005.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -148,6 +153,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_006.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -155,6 +161,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_007.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -162,6 +169,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_008.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -169,6 +177,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_009.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -176,6 +185,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_010.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -183,6 +193,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_011.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -190,6 +201,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_012.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -197,6 +209,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_013.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -204,6 +217,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_014.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -211,6 +225,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_015.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -218,6 +233,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_016.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -225,6 +241,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_017.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -232,6 +249,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_018.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -239,6 +257,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_019.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -246,6 +265,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_020.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -253,6 +273,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_021.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -260,6 +281,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_022.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -267,6 +289,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_023.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -274,6 +297,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_024.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -281,6 +305,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_025.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -288,6 +313,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_026.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -295,6 +321,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_027.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -302,6 +329,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_028.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -309,6 +337,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_029.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -316,6 +345,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_030.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -323,6 +353,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_031.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -330,6 +361,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_032.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -337,6 +369,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_033.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -344,6 +377,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_034.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -351,6 +385,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_035.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -358,6 +393,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_036.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -365,6 +401,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_037.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -372,6 +409,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_038.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -379,6 +417,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_039.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -386,6 +425,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_040.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -393,6 +433,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_041.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -400,6 +441,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-15/2022-08-15_042.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -407,6 +449,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_043.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -414,6 +457,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_044.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -421,6 +465,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_045.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -428,6 +473,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_046.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -435,6 +481,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_047.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -442,6 +489,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_048.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -449,6 +497,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_049.webp"
+          title="Puigmal"
         />
       </figure>
       <figure>
@@ -456,6 +505,7 @@ exports[`renders correctly 1`] = `
           alt="Puigmal"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-15/2022-08-15_050.webp"
+          title="Puigmal"
         />
       </figure>
     </div>

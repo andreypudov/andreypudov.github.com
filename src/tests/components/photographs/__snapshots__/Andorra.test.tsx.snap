@@ -108,15 +108,19 @@ exports[`renders correctly 1`] = `
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_001.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
         <img
-          alt="Parc Natural Comunal de les Valls del Comapedrosa
+          alt="Andorra - Parc Natural Comunal de les Valls del Comapedrosa
 
 Protected national park in the western portion of Andorra. It contains the highest point in Andorra, Coma Pedrosa, among other peaks."
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_002.webp"
+          title="Parc Natural Comunal de les Valls del Comapedrosa
+
+Protected national park in the western portion of Andorra. It contains the highest point in Andorra, Coma Pedrosa, among other peaks."
         />
         <figcaption
           className="image-caption vertical"
@@ -131,6 +135,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_003.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -138,6 +143,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_004.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -145,6 +151,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_005.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -152,6 +159,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_006.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -159,6 +167,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_007.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -166,6 +175,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_008.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -173,6 +183,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_009.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -180,6 +191,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_010.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -187,6 +199,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_011.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -194,6 +207,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_012.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -201,6 +215,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_013.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -208,13 +223,15 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_014.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
         <img
-          alt="Mirador Roc Del Quer"
+          alt="Andorra - Mirador Roc Del Quer"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_015.webp"
+          title="Mirador Roc Del Quer"
         />
         <figcaption
           className="image-caption"
@@ -227,6 +244,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_016.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -234,6 +252,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_017.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -241,6 +260,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_018.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -248,13 +268,15 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-10-15_16/2022-10-15_16_019.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
         <img
-          alt="Lake Engolasters"
+          alt="Andorra - Lake Engolasters"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_020.webp"
+          title="Lake Engolasters"
         />
         <figcaption
           className="image-caption"
@@ -267,6 +289,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_021.webp"
+          title="Andorra"
         />
       </figure>
       <figure>
@@ -274,6 +297,7 @@ Protected national park in the western portion of Andorra. It contains the highe
           alt="Andorra"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_022.webp"
+          title="Andorra"
         />
       </figure>
     </div>

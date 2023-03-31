@@ -105,9 +105,10 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="The box of the Scuderia Ferrari"
+          alt="2019 Formula 1 Russian Grand Prix - The box of the Scuderia Ferrari"
           className="img-responsive gallery-image"
           src="/photographs/2019-09-30/2019-09-30_001.webp"
+          title="The box of the Scuderia Ferrari"
         />
         <figcaption
           className="image-caption"
@@ -117,9 +118,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Red Bull mechanics performing warm-up exercises"
+          alt="2019 Formula 1 Russian Grand Prix - Red Bull mechanics performing warm-up exercises"
           className="img-responsive gallery-image"
           src="/photographs/2019-09-30/2019-09-30_002.webp"
+          title="Red Bull mechanics performing warm-up exercises"
         />
         <figcaption
           className="image-caption"
@@ -129,9 +131,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
+          alt="2019 Formula 1 Russian Grand Prix - Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_003.webp"
+          title="Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
         />
         <figcaption
           className="image-caption vertical"
@@ -141,9 +144,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="The start of the Formula 1 race"
+          alt="2019 Formula 1 Russian Grand Prix - The start of the Formula 1 race"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_004.webp"
+          title="The start of the Formula 1 race"
         />
         <figcaption
           className="image-caption vertical"
@@ -153,9 +157,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Robert Kubica drives Williams FW42"
+          alt="2019 Formula 1 Russian Grand Prix - Robert Kubica drives Williams FW42"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_005.webp"
+          title="Robert Kubica drives Williams FW42"
         />
         <figcaption
           className="image-caption vertical"

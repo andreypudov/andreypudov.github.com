@@ -105,9 +105,10 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="The Genoese fortress of Sudak"
+          alt="Crimean Holidays - The Genoese fortress of Sudak"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_001.webp"
+          title="The Genoese fortress of Sudak"
         />
         <figcaption
           className="image-caption"
@@ -120,6 +121,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_002.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -127,6 +129,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_003.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -134,6 +137,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_004.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -141,6 +145,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_005.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -148,6 +153,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_006.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -155,6 +161,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_007.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -162,6 +169,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_008.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -169,6 +177,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_009.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -176,13 +185,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_010.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Klementiev Mountain"
+          alt="Crimean Holidays - Klementiev Mountain"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_011.webp"
+          title="Klementiev Mountain"
         />
         <figcaption
           className="image-caption"
@@ -195,6 +206,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_012.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -202,6 +214,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_015.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -209,6 +222,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_016.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -216,13 +230,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_017.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Cape Meganom"
+          alt="Crimean Holidays - Cape Meganom"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
+          title="Cape Meganom"
         />
         <figcaption
           className="image-caption"
@@ -235,6 +251,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_020.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -242,13 +259,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_021.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Chegem Valley"
+          alt="Crimean Holidays - Chegem Valley"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_023.webp"
+          title="Chegem Valley"
         />
         <figcaption
           className="image-caption"
@@ -261,6 +280,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_025.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -268,6 +288,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_026.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -275,6 +296,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_027.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -282,6 +304,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_028.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -289,6 +312,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_029.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -296,13 +320,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_030.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="City of the Dead (Eltyubu village)"
+          alt="Crimean Holidays - City of the Dead (Eltyubu village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_031.webp"
+          title="City of the Dead (Eltyubu village)"
         />
         <figcaption
           className="image-caption"
@@ -315,6 +341,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_032.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -322,6 +349,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_033.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -329,6 +357,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_034.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -336,6 +365,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_035.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -343,13 +373,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_036.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Bulungu Village"
+          alt="Crimean Holidays - Bulungu Village"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_037.webp"
+          title="Bulungu Village"
         />
         <figcaption
           className="image-caption"
@@ -362,6 +394,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_038.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -369,6 +402,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_039.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -376,6 +410,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_040.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -383,6 +418,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_041.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -390,6 +426,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_042.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -397,6 +434,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_043.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -404,6 +442,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_044.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -411,6 +450,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_045.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -418,6 +458,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_046.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -425,6 +466,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_047.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -432,6 +474,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_048.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -439,6 +482,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_049.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -446,6 +490,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_050.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -453,6 +498,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_051.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -460,6 +506,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_052.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -467,6 +514,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_053.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -474,6 +522,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_054.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -481,6 +530,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_055.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -488,6 +538,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_057.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -495,6 +546,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_058.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -502,6 +554,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_059.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -509,6 +562,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_061.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -516,13 +570,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_062.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Greek stairs (Eltyubu village)"
+          alt="Crimean Holidays - Greek stairs (Eltyubu village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_063.webp"
+          title="Greek stairs (Eltyubu village)"
         />
         <figcaption
           className="image-caption"
@@ -535,6 +591,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_064.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -542,6 +599,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_065.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -549,6 +607,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_066.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -556,6 +615,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_067.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -563,6 +623,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_068.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -570,6 +631,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_069.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -577,6 +639,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_070.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -584,6 +647,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_071.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -591,6 +655,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_072.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -598,6 +663,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_073.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -605,6 +671,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_074.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -612,6 +679,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_075.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -619,6 +687,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_076.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -626,6 +695,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_077.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -633,6 +703,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_078.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -640,13 +711,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image vertical"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_079.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Lake Gizhgit (Bylym village)"
+          alt="Crimean Holidays - Lake Gizhgit (Bylym village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_080.webp"
+          title="Lake Gizhgit (Bylym village)"
         />
         <figcaption
           className="image-caption"
@@ -656,9 +729,10 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Mount Elbrus"
+          alt="Crimean Holidays - Mount Elbrus"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_083.webp"
+          title="Mount Elbrus"
         />
         <figcaption
           className="image-caption"
@@ -671,6 +745,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_084.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -678,6 +753,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_085.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -685,13 +761,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_087.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Mir station - 3500 meters"
+          alt="Crimean Holidays - Mir station - 3500 meters"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_089.webp"
+          title="Mir station - 3500 meters"
         />
         <figcaption
           className="image-caption"
@@ -704,6 +782,7 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_090.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
@@ -711,13 +790,15 @@ exports[`renders correctly 1`] = `
           alt="Crimean Holidays"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_091.webp"
+          title="Crimean Holidays"
         />
       </figure>
       <figure>
         <img
-          alt="Pendulum cableway \\"Elbrus 1\\""
+          alt="Crimean Holidays - Pendulum cableway \\"Elbrus 1\\""
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_092.webp"
+          title="Pendulum cableway \\"Elbrus 1\\""
         />
         <figcaption
           className="image-caption"
