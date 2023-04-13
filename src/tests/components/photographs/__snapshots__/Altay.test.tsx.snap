@@ -672,12 +672,12 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Altay. Conquering Siberia 2.0 - Small Aktru Glacier"
-          className="img-responsive gallery-image"
+          className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp"
           title="Small Aktru Glacier"
         />
         <figcaption
-          className="image-caption"
+          className="image-caption vertical"
         >
           Small Aktru Glacier
         </figcaption>
