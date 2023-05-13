@@ -102,21 +102,23 @@ exports[`renders correctly 1`] = `
       >
         <button
           aria-current="true"
-          aria-label="Slide 1"
           className="active"
           data-bs-slide-to="0"
           data-bs-target="#homeCarousel"
           type="button"
         />
         <button
-          aria-label="Slide 2"
           data-bs-slide-to="1"
           data-bs-target="#homeCarousel"
           type="button"
         />
         <button
-          aria-label="Slide 3"
           data-bs-slide-to="2"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          data-bs-slide-to="3"
           data-bs-target="#homeCarousel"
           type="button"
         />
@@ -144,37 +146,55 @@ exports[`renders correctly 1`] = `
         </a>
         <a
           className="carousel-item"
-          href="/photographs/poblenou-cemetery/"
+          href="/photographs/alina-cherdakova/"
           onClick={[Function]}
         >
           <img
-            alt="Poblenou Cemetery"
+            alt="Alina Cherdakova"
             className="d-block w-100"
-            src="images/carousel/poblenou-cemetery.webp"
+            src="images/carousel/alina-cherdakova.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Poblenou Cemetery
+              Alina Cherdakova
             </h5>
           </div>
         </a>
         <a
           className="carousel-item"
-          href="/photographs/puigmal/"
+          href="/photographs/kira-orlova/"
           onClick={[Function]}
         >
           <img
-            alt="Puigmal"
+            alt="Kira Orlova"
             className="d-block w-100"
-            src="images/carousel/puigmal.webp"
+            src="images/carousel/kira-olrova.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Puigmal
+              Kira Orlova
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item"
+          href="/photographs/ekaterina-malysheva/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Ekaterina Malysheva"
+            className="d-block w-100"
+            src="images/carousel/ekaterina-malysheva.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Ekaterina Malysheva
             </h5>
           </div>
         </a>
@@ -222,6 +242,48 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
+            href="/photographs/montserrat/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Montserrat"
+              className="img-fluid"
+              src="images/marketing/montserrat.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/els-empedrats-del-montseny/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Els Empedrats del Montseny"
+              className="img-fluid"
+              src="images/marketing/els-empedrats-del-montseny.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/andorra/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Andorra"
+              className="img-fluid"
+              src="images/marketing/andorra.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
             href="/photographs/favorite-photographs/"
             onClick={[Function]}
           >
@@ -229,48 +291,6 @@ exports[`renders correctly 1`] = `
               alt="Favorite Photographs"
               className="img-fluid"
               src="images/marketing/formula-sochi-2-0.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/altay/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Altay. Conquering Siberia 2.0"
-              className="img-fluid"
-              src="images/marketing/altay.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/rekshino"
-            onClick={[Function]}
-          >
-            <img
-              alt="Rekshino"
-              className="img-fluid"
-              src="images/marketing/rekshino.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/alina-cherdakova/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Alina Cherdakova"
-              className="img-fluid"
-              src="images/marketing/alina-cherdakova.webp"
             />
           </a>
         </div>
