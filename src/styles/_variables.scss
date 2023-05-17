@@ -1,4 +1,6 @@
-$variable-prefix: bs- !default;
+// Prefix for :root CSS variables
+$variable-prefix: bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix:          $variable-prefix !default;
 
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
@@ -12,7 +14,7 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
-$blue:    #08c !default;
+$blue:    #0088cc !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -55,7 +57,7 @@ $container-max-widths: (
 ) !default;
 
 $font-family-sans-serif: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-$font-family-base:       var(--#{$variable-prefix}font-sans-serif) !default;
+$font-family-base:       var(--#{$prefix}font-sans-serif) !default;
 
 $font-size-base: .9rem !default;
 $font-size-sm:   $font-size-base * .775 !default;
