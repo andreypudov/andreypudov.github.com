@@ -131,11 +131,16 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="LEBL Barcelona El Prat International Airport"
+          alt="LEBL Barcelona El Prat International Airport - TAP Air Portugal is the flag carrier of Portugal, headquartered at Lisbon Airport which also serves as its hub. The airline was established on 14 March 1945 and began commercial services on 19 September 1946. TAP – Transportes Aéreos Portugueses – has been a member of the Star Alliance since 2005 and operates on average 2,500 flights a week to 90 destinations in 34 countries worldwide. The company has a fleet of 100 aircraft, all of which are manufactured by Airbus with the exception of 22 aircraft manufactured by Embraer and ATR, operating on behalf of the regional airline TAP Express."
           className="img-responsive gallery-image vertical"
           src="/photographs/2023-05-17/2023-05-17_003.webp"
-          title="LEBL Barcelona El Prat International Airport"
+          title="TAP Air Portugal is the flag carrier of Portugal, headquartered at Lisbon Airport which also serves as its hub. The airline was established on 14 March 1945 and began commercial services on 19 September 1946. TAP – Transportes Aéreos Portugueses – has been a member of the Star Alliance since 2005 and operates on average 2,500 flights a week to 90 destinations in 34 countries worldwide. The company has a fleet of 100 aircraft, all of which are manufactured by Airbus with the exception of 22 aircraft manufactured by Embraer and ATR, operating on behalf of the regional airline TAP Express."
         />
+        <figcaption
+          className="image-caption vertical"
+        >
+          TAP Air Portugal is the flag carrier of Portugal, headquartered at Lisbon Airport which also serves as its hub. The airline was established on 14 March 1945 and began commercial services on 19 September 1946. TAP – Transportes Aéreos Portugueses – has been a member of the Star Alliance since 2005 and operates on average 2,500 flights a week to 90 destinations in 34 countries worldwide. The company has a fleet of 100 aircraft, all of which are manufactured by Airbus with the exception of 22 aircraft manufactured by Embraer and ATR, operating on behalf of the regional airline TAP Express.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -234,11 +239,16 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="LEBL Barcelona El Prat International Airport"
+          alt="LEBL Barcelona El Prat International Airport - The new control tower is a hyperboloid structure"
           className="img-responsive gallery-image"
           src="/photographs/2023-05-17/2023-05-17_014.webp"
-          title="LEBL Barcelona El Prat International Airport"
+          title="The new control tower is a hyperboloid structure"
         />
+        <figcaption
+          className="image-caption"
+        >
+          The new control tower is a hyperboloid structure
+        </figcaption>
       </figure>
     </div>
   </main>
