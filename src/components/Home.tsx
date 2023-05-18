@@ -49,6 +49,11 @@ const Home = () => {
 
       <div className = 'marketing marketing-image'>
         <div className = 'row'>
+        <div className = 'col-sm-3'>
+            <Link to = '/photographs/barcelona-airport/'>
+              <img src = 'images/marketing/barcelona-airport.webp' className = 'img-fluid' alt = 'LEBL Barcelona El Prat International Airport' />
+            </Link>
+          </div>
           <div className = 'col-sm-3'>
             <Link to = '/photographs/montserrat/'>
               <img src = 'images/marketing/montserrat.webp' className = 'img-fluid' alt = 'Montserrat' />
@@ -57,11 +62,6 @@ const Home = () => {
           <div className = 'col-sm-3'>
             <Link to = '/photographs/els-empedrats-del-montseny/'>
               <img src = 'images/marketing/els-empedrats-del-montseny.webp' className = 'img-fluid' alt = 'Els Empedrats del Montseny' />
-            </Link>
-          </div>
-          <div className = 'col-sm-3'>
-            <Link to = '/photographs/andorra/'>
-              <img src = 'images/marketing/andorra.webp' className = 'img-fluid' alt = 'Andorra' />
             </Link>
           </div>
           <div className = 'col-sm-3'>

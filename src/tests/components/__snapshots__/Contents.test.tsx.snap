@@ -119,6 +119,17 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/photographs/barcelona-airport/"
+            onClick={[Function]}
+          >
+            LEBL Barcelona El Prat International Airport
+            <small>
+              Wednesday, May 17, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/photographs/montserrat/"
             onClick={[Function]}
           >
