@@ -242,6 +242,20 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
+            href="/photographs/barcelona-airport/"
+            onClick={[Function]}
+          >
+            <img
+              alt="LEBL Barcelona El Prat International Airport"
+              className="img-fluid"
+              src="images/marketing/barcelona-airport.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
             href="/photographs/montserrat/"
             onClick={[Function]}
           >
@@ -263,20 +277,6 @@ exports[`renders correctly 1`] = `
               alt="Els Empedrats del Montseny"
               className="img-fluid"
               src="images/marketing/els-empedrats-del-montseny.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/andorra/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Andorra"
-              className="img-fluid"
-              src="images/marketing/andorra.webp"
             />
           </a>
         </div>
