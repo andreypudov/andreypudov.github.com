@@ -16,7 +16,7 @@
         top:              0;
         content:          ' ';
         display:          block;
-        background-image: linear-gradient(#ffffff, #a6a6a6 80%, #ffffff);
+        background-image: linear-gradient(var(--#{$prefix}secondary-bg), var(--#{$prefix}secondary-color), var(--#{$prefix}secondary-bg));
       }
 
       > li {
@@ -27,7 +27,7 @@
 
         > .year {
           width:       10%;
-          background:  #fff;
+          background:  var(--#{$prefix}body-bg);
           padding:     10px;
           font-weight: 700;
           display:     inline-block;
@@ -36,11 +36,12 @@
         > .description {
           width:         87%;
           display:       inline-block;
-          background:    #f2f2f2;
+          color:         var(--#{$prefix}tertiary-bg);
+          background:    var(--#{$prefix}tertiary-color);
           margin-bottom: 10px;
           position:      relative;
           padding:       10px 10px 0 10px;
-          border-bottom: 1px solid #ddd;
+          border-bottom: 1px solid var(--#{$prefix}secondary-bg);
 
           &:after {
             content:  '';
@@ -52,7 +53,7 @@
             width:    0;
             border:   solid transparent;
 
-            border-right-color: #eee;
+            border-right-color: var(--#{$prefix}tertiary-color);
             border-width:       8px;
             pointer-events:     none;
           }
@@ -141,7 +142,7 @@
       overflow:         hidden;
       text-overflow:    ellipsis;
       font-weight:      600;
-      background-image: linear-gradient(to right, #a6a6a6 0%, #ffffff 100%);
+      background-image: linear-gradient(to right, var(--#{$prefix}secondary-color), var(--#{$prefix}secondary-bg));
     }
 
     > .skills-legend {
@@ -155,7 +156,7 @@
         content:       ' ';
         display:       block;
         margin-bottom: -13px;
-        background:    #c6c6c6;
+        background:    var(--#{$prefix}secondary-color);
       }
 
       .legend {
@@ -167,7 +168,7 @@
           display:       block;
           margin:        auto;
           margin-bottom: 2px;
-          background:    #c6c6c6;
+          background:    var(--#{$prefix}secondary-color);
         }
       }
 
@@ -214,7 +215,7 @@
     > .skill {
       margin:         10px 0;
       padding-bottom: 10px;
-      border-bottom:  1px solid #eee;
+      border-bottom:  1px solid var(--#{$prefix}secondary-color);
 
       > .icons {
         width:      111px;
@@ -231,12 +232,12 @@
   }
 
   .hobby {
-    color:         #fff;
+    color:         var(--#{$prefix}secondary-bg);
     display:       inline-block;
     margin-right:  5px;
     margin-bottom: 5px;
     padding:       5px 5px 5px 5px; // 5px 5px 5px 25px;
-    background:    #a6a6a6;
+    background:    var(--#{$prefix}secondary-color);
     position:      relative;
 
     /*

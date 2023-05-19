@@ -4,6 +4,10 @@
   .carousel-inner {
     .carousel-item {
       max-height: max(60vh, 500px);
+
+      .carousel-caption {
+        color: $white;
+      }
     }
   }
 }
