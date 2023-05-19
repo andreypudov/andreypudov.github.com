@@ -11,10 +11,10 @@ $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #1d1d1f !default; // adjusted from #212529
+$gray-900: #212529 !default;
 $black:    #000 !default;
 
-$blue:    #0066cc !default;  // adjusted from #0d6efd
+$blue:    #0088cc !default;  // adjusted from #0d6efd
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -26,7 +26,7 @@ $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 
 $primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$secondary:     #a6a6a6 !default; // adjusted from $gray-600
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -45,6 +45,39 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 
+// scss-docs-start theme-text-variables
+$primary-text-emphasis:   shade-color($primary, 60%) !default;
+$secondary-text-emphasis: shade-color($secondary, 60%) !default;
+$success-text-emphasis:   shade-color($success, 60%) !default;
+$info-text-emphasis:      shade-color($info, 60%) !default;
+$warning-text-emphasis:   shade-color($warning, 60%) !default;
+$danger-text-emphasis:    shade-color($danger, 60%) !default;
+$light-text-emphasis:     $gray-700 !default;
+$dark-text-emphasis:      $gray-700 !default;
+// scss-docs-end theme-text-variables
+
+// scss-docs-start theme-bg-subtle-variables
+$primary-bg-subtle:       tint-color($primary, 80%) !default;
+$secondary-bg-subtle:     tint-color($secondary, 80%) !default;
+$success-bg-subtle:       tint-color($success, 80%) !default;
+$info-bg-subtle:          tint-color($info, 80%) !default;
+$warning-bg-subtle:       tint-color($warning, 80%) !default;
+$danger-bg-subtle:        tint-color($danger, 80%) !default;
+$light-bg-subtle:         mix($gray-100, $white) !default;
+$dark-bg-subtle:          $gray-400 !default;
+// scss-docs-end theme-bg-subtle-variables
+
+// scss-docs-start theme-border-subtle-variables
+$primary-border-subtle:   tint-color($primary, 60%) !default;
+$secondary-border-subtle: tint-color($secondary, 60%) !default;
+$success-border-subtle:   tint-color($success, 60%) !default;
+$info-border-subtle:      tint-color($info, 60%) !default;
+$warning-border-subtle:   tint-color($warning, 60%) !default;
+$danger-border-subtle:    tint-color($danger, 60%) !default;
+$light-border-subtle:     $gray-200 !default;
+$dark-border-subtle:      $gray-500 !default;
+// scss-docs-end theme-border-subtle-variables
+
 $link-decoration:       none !default;
 $link-hover-decoration: underline !default;
 
@@ -56,12 +89,12 @@ $container-max-widths: (
   xxl: 1170px
 ) !default;
 
-// $font-family-sans-serif: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 // $font-family-sans-serif: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-$font-family-sans-serif: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+// $font-family-sans-serif: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-family-sans-serif: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 $font-family-base:       var(--#{$prefix}font-sans-serif) !default;
 
-$font-size-base: 1rem !default;
+$font-size-base: 0.9rem !default;
 $font-size-sm:   $font-size-base * .775 !default;
 
 $h1-font-size:   $font-size-base * 1.65 !default;
@@ -79,3 +112,19 @@ $font-sizes: (
   5: $h5-font-size,
   6: $h6-font-size
 ) !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-text-align:           null !default;
+$body-color:                $gray-900 !default;
+$body-bg:                   $white !default;
+
+$body-secondary-color:      rgba($body-color, .75) !default; // adjusted from rgba($body-color, .75)
+$body-secondary-bg:         $white !default; // adjusted from $gray-200
+
+$body-tertiary-color:       #f2f2f2 !default; // adjusted from rgba($body-color, .5)
+$body-tertiary-bg:          #212529 !default; // adjusted from $gray-100
+
+$body-emphasis-color:       $black !default;

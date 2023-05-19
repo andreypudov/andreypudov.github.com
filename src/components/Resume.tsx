@@ -143,12 +143,6 @@ const Resume = () => {
               <div className = 'box clearfix'>
                 <h2>Contact</h2>
                 <div className = 'contact-item'>
-                  <a href = 'tel:+7 (952) 457 10 55' target = '_blank' rel = 'noreferrer'>
-                    <div className = 'icon pull-left text-center'><span className = 'fa fa-phone fa-fw'></span></div>
-                    <div className = 'title only'>+34 (600) 60 45 46</div>
-                  </a>
-                </div>
-                <div className = 'contact-item'>
                   <a href = 'mailto:mail@andreypudov.com' target = '_blank' rel = 'noreferrer'>
                     <div className = 'icon pull-left text-center'><span className = 'fa fa-envelope fa-fw'></span></div>
                     <div className = 'title only'>mail@andreypudov.com</div>
@@ -186,15 +180,9 @@ const Resume = () => {
                 <div id = 'language-skills'>
                   <div className = 'skill'>
                     Russian
-                    <div className = 'icons pull-right'>
-                      <div style = {{ width: '100%', height: '14px' }} className = 'icons-red' />
-                    </div>
                   </div>
                   <div className = 'skill'>
                     English
-                    <div className = 'icons pull-right'>
-                      <div style = {{ width: '60%', height: '14px' }} className = 'icons-red' />
-                    </div>
                   </div>
                 </div>
               </div>
@@ -202,10 +190,10 @@ const Resume = () => {
               <div className = 'box'>
                 <h2>Hobbies</h2>
 
-                <div className = 'hobby'>Paragliding</div>
+                <div className = 'hobby'>Aviation</div>
+                <div className = 'hobby'>Photography</div>
                 <div className = 'hobby'>Running</div>
                 <div className = 'hobby'>Cycling</div>
-                <div className = 'hobby'>Photography</div>
               </div>
             </div>
           </div>
