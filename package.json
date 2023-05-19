@@ -32,10 +32,10 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "postbuild": "react-snap",
     "predeploy": "npm run build",
+    "postbuild": "react-snap",
     "deploy": "gh-pages -d build",
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -56,6 +56,16 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "reactSnap": {
+    "source": "build",
+    "concurrency": 1,
+    "puppeteer": {
+      "cache": false
+    },
+    "puppeteerArgs": [
+      "--single-process"
     ]
   },
   "resolutions": {
