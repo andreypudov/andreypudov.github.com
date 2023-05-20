@@ -419,28 +419,6 @@ exports[`renders correctly 1`] = `
                 className="contact-item"
               >
                 <a
-                  href="tel:+7 (952) 457 10 55"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    className="icon pull-left text-center"
-                  >
-                    <span
-                      className="fa fa-phone fa-fw"
-                    />
-                  </div>
-                  <div
-                    className="title only"
-                  >
-                    +34 (600) 60 45 46
-                  </div>
-                </a>
-              </div>
-              <div
-                className="contact-item"
-              >
-                <a
                   href="mailto:mail@andreypudov.com"
                   rel="noreferrer"
                   target="_blank"
@@ -604,37 +582,11 @@ exports[`renders correctly 1`] = `
                   className="skill"
                 >
                   Russian
-                  <div
-                    className="icons pull-right"
-                  >
-                    <div
-                      className="icons-red"
-                      style={
-                        Object {
-                          "height": "14px",
-                          "width": "100%",
-                        }
-                      }
-                    />
-                  </div>
                 </div>
                 <div
                   className="skill"
                 >
                   English
-                  <div
-                    className="icons pull-right"
-                  >
-                    <div
-                      className="icons-red"
-                      style={
-                        Object {
-                          "height": "14px",
-                          "width": "60%",
-                        }
-                      }
-                    />
-                  </div>
                 </div>
               </div>
             </div>
@@ -647,7 +599,12 @@ exports[`renders correctly 1`] = `
               <div
                 className="hobby"
               >
-                Paragliding
+                Aviation
+              </div>
+              <div
+                className="hobby"
+              >
+                Photography
               </div>
               <div
                 className="hobby"
@@ -658,11 +615,6 @@ exports[`renders correctly 1`] = `
                 className="hobby"
               >
                 Cycling
-              </div>
-              <div
-                className="hobby"
-              >
-                Photography
               </div>
             </div>
           </div>

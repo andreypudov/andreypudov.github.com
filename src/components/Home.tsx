@@ -6,9 +6,10 @@ const Home = () => {
     <Layout landing = { true }>
       <div id = 'homeCarousel' className = 'carousel slide' data-bs-ride = 'carousel'>
         <ol className = 'carousel-indicators'>
-          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '0' className = 'active' aria-current = 'true' aria-label = 'Slide 1'></button>
-          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '1' aria-label = 'Slide 2'></button>
-          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '2' aria-label = 'Slide 3'></button>
+          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '0' className = 'active' aria-current = 'true'></button>
+          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '1'></button>
+          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '2'></button>
+          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '3'></button>
         </ol>
         <div className = 'carousel-inner'>
           <Link to = '/photographs/ekaterina-domracheva/' className = 'carousel-item active'>
@@ -17,24 +18,24 @@ const Home = () => {
               <h5>Ekaterina Domracheva</h5>
             </div>
           </Link>
-          <Link to = '/photographs/poblenou-cemetery/' className = 'carousel-item'>
-            <img src = 'images/carousel/poblenou-cemetery.webp' alt = 'Poblenou Cemetery' className = 'd-block w-100' />
+          <Link to = '/photographs/alina-cherdakova/' className = 'carousel-item'>
+            <img src = 'images/carousel/alina-cherdakova.webp' alt = 'Alina Cherdakova' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
-              <h5>Poblenou Cemetery</h5>
+              <h5>Alina Cherdakova</h5>
             </div>
           </Link>
-          <Link to = '/photographs/puigmal/' className = 'carousel-item'>
-            <img src = 'images/carousel/puigmal.webp' alt = 'Puigmal' className = 'd-block w-100' />
+          <Link to = '/photographs/kira-orlova/' className = 'carousel-item'>
+            <img src = 'images/carousel/kira-olrova.webp' alt = 'Kira Orlova' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
-              <h5>Puigmal</h5>
+              <h5>Kira Orlova</h5>
             </div>
           </Link>
-          {/* <Link to = '/photographs/crimea/' className = 'carousel-item'>
-            <img src = 'images/carousel/crimea.webp' alt = 'Crimean Holidays' className = 'd-block w-100' />
+          <Link to = '/photographs/ekaterina-malysheva/' className = 'carousel-item'>
+            <img src = 'images/carousel/ekaterina-malysheva.webp' alt = 'Ekaterina Malysheva' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
-              <h5>Crimean Holidays</h5>
+              <h5>Ekaterina Malysheva</h5>
             </div>
-          </Link> */}
+          </Link>
         </div>
         <button className = 'carousel-control-prev' type = 'button' data-bs-target = '#homeCarousel'  data-bs-slide = 'prev'>
           <span className = 'carousel-control-prev-icon' aria-hidden = 'true'></span>
@@ -48,24 +49,24 @@ const Home = () => {
 
       <div className = 'marketing marketing-image'>
         <div className = 'row'>
+        <div className = 'col-sm-3'>
+            <Link to = '/photographs/barcelona-airport/'>
+              <img src = 'images/marketing/barcelona-airport.webp' className = 'img-fluid' alt = 'LEBL Barcelona El Prat International Airport' />
+            </Link>
+          </div>
+          <div className = 'col-sm-3'>
+            <Link to = '/photographs/montserrat/'>
+              <img src = 'images/marketing/montserrat.webp' className = 'img-fluid' alt = 'Montserrat' />
+            </Link>
+          </div>
+          <div className = 'col-sm-3'>
+            <Link to = '/photographs/els-empedrats-del-montseny/'>
+              <img src = 'images/marketing/els-empedrats-del-montseny.webp' className = 'img-fluid' alt = 'Els Empedrats del Montseny' />
+            </Link>
+          </div>
           <div className = 'col-sm-3'>
             <Link to = '/photographs/favorite-photographs/'>
               <img src = 'images/marketing/formula-sochi-2-0.webp' className = 'img-fluid' alt = 'Favorite Photographs' />
-            </Link>
-          </div>
-          <div className = 'col-sm-3'>
-            <Link to = '/photographs/altay/'>
-              <img src = 'images/marketing/altay.webp' className = 'img-fluid' alt = 'Altay. Conquering Siberia 2.0' />
-            </Link>
-          </div>
-          <div className = 'col-sm-3'>
-            <Link to = '/photographs/rekshino'>
-              <img src = 'images/marketing/rekshino.webp' className = 'img-fluid' alt = 'Rekshino' />
-            </Link>
-          </div>
-          <div className = 'col-sm-3'>
-            <Link to = '/photographs/alina-cherdakova/'>
-              <img src = 'images/marketing/alina-cherdakova.webp' className = 'img-fluid' alt = 'Alina Cherdakova' />
             </Link>
           </div>
         </div>
