@@ -8,7 +8,7 @@ const backend = new Backend({
 });
 
 const options = {
-  order: ['path'],
+  order: ['path', 'navigator'],
 };
 
 const supportedLanguages = ['en', 'ru']

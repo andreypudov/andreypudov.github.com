@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
+import LanguageRedirect from './components/utils/LanguageRedirect';
 import Routes from './Routes';
 
 import './i18n';
@@ -22,6 +23,7 @@ const rootElement = document.getElementById("root");
 const app = (<React.StrictMode>
   <BrowserRouter>
     <Analytics />
+    <LanguageRedirect />
     <ScrollToTop />
 
     <HelmetProvider>

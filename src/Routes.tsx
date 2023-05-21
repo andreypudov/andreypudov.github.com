@@ -33,11 +33,11 @@ const drawingAlbumRoute = (page: Page) =>
 const routes = () => {
   return (
     <Routes>
-      <Route path = '/' element = { <Home /> } />
-      <Route path = '/albums/' element = { <Albums /> } />
-      <Route path = '/contents/' element = { <Contents /> } />
-      <Route path = '/resume/' element = { <Resume /> } />
-      <Route path = '/contact/' element = { <Contact /> } />
+      <Route path = '/:lang/' element = { <Home /> } />
+      <Route path = '/:lang/albums/' element = { <Albums /> } />
+      <Route path = '/:lang/contents/' element = { <Contents /> } />
+      <Route path = '/:lang/resume/' element = { <Resume /> } />
+      <Route path = '/:lang/contact/' element = { <Contact /> } />
 
       <Route path = '/photographs/russian-emirates/' element = { <RussianEmirates /> } />
       <Route path = '/photographs/golden-age/' element = { <GoldenAge /> } />
