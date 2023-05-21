@@ -9,10 +9,11 @@ import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
 import Routes from './Routes';
 
+import './i18n';
+
 import 'bootstrap/dist/../js/dist/carousel.js';
 import 'bootstrap/dist/../js/dist/collapse.js';
 import './styles/style.scss';
-
 
 import ReactGA from 'react-ga4';
 ReactGA.initialize('G-E0Y9W77G5B');

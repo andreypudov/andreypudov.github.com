@@ -1,7 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import Layout from './shared/Layout'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <Layout landing = { true }>
       <div id = 'homeCarousel' className = 'carousel slide' data-bs-ride = 'carousel'>
@@ -15,7 +18,7 @@ const Home = () => {
           <Link to = '/photographs/ekaterina-domracheva/' className = 'carousel-item active'>
             <img src = 'images/carousel/ekaterina-domracheva.webp' alt = 'Ekaterina Domracheva' className = 'd-block w-100' />
             <div className = 'carousel-caption d-none d-md-block'>
-              <h5>Ekaterina Domracheva</h5>
+              <h5>{t('Home.EkaterinaDomracheva')}</h5>
             </div>
           </Link>
           <Link to = '/photographs/alina-cherdakova/' className = 'carousel-item'>
