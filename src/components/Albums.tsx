@@ -2,16 +2,16 @@ import Layout from './shared/Layout'
 import Page from '../models/core/page';
 import { Articles, Photographs, Drawings, TimeLapses } from './../models/pages';
 import VideoView from './shared/Video';
-import { Link } from 'react-router-dom';
+import LocalizedLink from './shared/LocalizedLink';
 
 const entry = (page: Page) => {
   return (<div className = 'col-md-4' key = {page.getAlbum().getTitle()}>
-    <Link to = { page.getRoute() } className = 'card bg-dark text-white gallery-image'>
+    <LocalizedLink to = { page.getRoute() } className = 'card bg-dark text-white gallery-image'>
       <img src = { page.getAlbum().getCover().src } className = 'card-img album-cover' alt = '' />
       <div className = 'card-img-overlay'>
         <h6 className = 'card-title'>{ page.getAlbum().getTitle() }</h6>
       </div>
-    </Link>
+    </LocalizedLink>
   </div>);
 };
 
