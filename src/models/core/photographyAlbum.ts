@@ -1,3 +1,4 @@
+import { getLocalizedDate } from '../../utils/date';
 import Media from './media';
 import Social from './social';
 
@@ -22,11 +23,7 @@ class PhotographyAlbum {
   getMedia = () => this.media;
   getSocial = () => this.social;
 
-  getDateString(): string {
-    return this.date.toLocaleDateString(
-      'en-US',
-      { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-  }
+  getDateString = (locale: string) => getLocalizedDate(this.date, locale);
 }
 
 export default PhotographyAlbum;
