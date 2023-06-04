@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import Layout from './shared/Layout'
-import LocalizedLink from './shared/LocalizedLink';
 import Pages from '../models/pages';
 import CarouselItem from './shared/CarouselItem';
+import MarketingItem from './shared/MarketingItem';
 
 
 const Home = () => {
@@ -36,26 +36,10 @@ const Home = () => {
 
       <div className = 'marketing marketing-image'>
         <div className = 'row'>
-          <div className = 'col-sm-3'>
-            <LocalizedLink to = '/photographs/barcelona-airport/'>
-              <img src = '/images/marketing/barcelona-airport.webp' className = 'img-fluid' alt = 'LEBL Barcelona El Prat International Airport' />
-            </LocalizedLink>
-          </div>
-          <div className = 'col-sm-3'>
-            <LocalizedLink to = '/photographs/montserrat/'>
-              <img src = '/images/marketing/montserrat.webp' className = 'img-fluid' alt = 'Montserrat' />
-            </LocalizedLink>
-          </div>
-          <div className = 'col-sm-3'>
-            <LocalizedLink to = '/photographs/els-empedrats-del-montseny/'>
-              <img src = '/images/marketing/els-empedrats-del-montseny.webp' className = 'img-fluid' alt = 'Els Empedrats del Montseny' />
-            </LocalizedLink>
-          </div>
-          <div className = 'col-sm-3'>
-            <LocalizedLink to = '/photographs/favorite-photographs/'>
-              <img src = '/images/marketing/formula-sochi-2-0.webp' className = 'img-fluid' alt = 'Favorite Photographs' />
-            </LocalizedLink>
-          </div>
+          <MarketingItem page = { Pages.BarcelonaAirport } cover = '/images/marketing/barcelona-airport.webp' />
+          <MarketingItem page = { Pages.Montserrat } cover = '/images/marketing/montserrat.webp' />
+          <MarketingItem page = { Pages.ElsEmpedratsDelMontseny } cover = '/images/marketing/els-empedrats-del-montseny.webp' />
+          <MarketingItem page = { Pages.Favorites } cover = '/images/marketing/formula-sochi-2-0.webp' />
         </div>
       </div>
     </Layout>
