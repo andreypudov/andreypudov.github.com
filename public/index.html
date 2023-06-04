@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en' prefix='og: http://ogp.me/ns#'>
+<html prefix='og: http://ogp.me/ns#'>
   <head>
     <title>Andrey Pudov</title>
 
@@ -13,7 +13,32 @@
     <link rel='apple-touch-icon' href='%PUBLIC_URL%/favicon/apple-touch-icon.png' sizes='180x180' type='image/png' >
     <link rel='icon'             href='%PUBLIC_URL%/favicon/favicon-32x32.png'    sizes='32x32'   type='image/png' >
     <link rel='icon'             href='%PUBLIC_URL%/favicon/favicon-16x16.png'    sizes='16x16'   type='image/png' >
-    <link rel='manifest' href='%PUBLIC_URL%/manifest.json' />
+    <link rel='manifest'         href='%PUBLIC_URL%/manifest.json' />
+
+    <script>
+      const supportedLanguagesList = ['en', 'ru'];
+      const defaultLanguage = supportedLanguagesList[0];
+
+      const getPathWithoutLanguage = (pathname) =>
+        (pathname.charAt(3) === '/') ? pathname.substring(3) : pathname;
+
+      const getLanguagesSupportedByBrowser = () =>
+        (navigator.languages.map((language) => language.substring(0, 2)))
+        .filter((item, index, arr) => arr.indexOf(item) === index);
+
+      requestedLanguage = () => location.pathname.split('/')[1] || '';
+      supportedLanguages = () => getLanguagesSupportedByBrowser().filter((language) => supportedLanguagesList.includes(language));
+      applyLanguage = (requestedLanguage, supportedLanguages) => {
+          const requiredLanguage = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : defaultLanguage;
+          const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(location.pathname)}`;
+
+          if (requiredLanguage !== requestedLanguage) {
+            window.location.replace(newPathname);
+          }
+        };
+
+      applyLanguage(requestedLanguage(), supportedLanguages())
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

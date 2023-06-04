@@ -76,7 +76,7 @@ const Altay = new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_098.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_099.webp', false, 'Great Aktru Glacier'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp'),
-    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp', false, 'Small Aktru Glacier'),
+    new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp', true, 'Small Aktru Glacier'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_107.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_108.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_111.webp'),

@@ -1,0 +1,8 @@
+{
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true,
+  "semi": true,
+  "trailingComma": "all",
+  "singleQuote": true
+ }

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import LocalizedLink from './LocalizedLink';
 
 type FooterProps = {
   landing?: boolean;
@@ -11,9 +11,9 @@ const Footer = ({ landing }: FooterProps) => {
         { !landing && <hr className = 'footer-divider' /> }
 
         <ul className = 'piped-links float-end'>
-          <li className = 'first piped-links-short'><Link to = '/resume/'>About</Link></li>
-          <li className = 'first piped-links-long'><Link to = '/resume/'>About Andrey Pudov</Link></li>
-          <li><Link to = '/contact/'>Contact</Link></li>
+          <li className = 'first piped-links-short'><LocalizedLink to = '/resume/'>About</LocalizedLink></li>
+          <li className = 'first piped-links-long'><LocalizedLink to = '/resume/'>About Andrey Pudov</LocalizedLink></li>
+          <li><LocalizedLink to = '/contact/'>Contact</LocalizedLink></li>
         </ul>
 
         <ul className = 'piped-links'>

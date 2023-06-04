@@ -24,35 +24,37 @@ import DrawingAlbum from './components/shared/DrawingAlbum';
 import PhotographyAlbum from './components/shared/PhotographyAlbum';
 import PerformanceAlbum from './components/shared/PerformanceAlbum';
 
+const localizedRoute = (page: Page) => `/:lang${page.getRoute()}`
+
 const photographyRoute = (page: Page) =>
-  <Route path = { page.getRoute() } element = { <PhotographyAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
+  <Route path = { localizedRoute(page) } element = { <PhotographyAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
 
 const drawingAlbumRoute = (page: Page) =>
-  <Route path = { page.getRoute() } element = { <DrawingAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
+  <Route path = { localizedRoute(page) } element = { <DrawingAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
 
 const routes = () => {
   return (
     <Routes>
-      <Route path = '/' element = { <Home /> } />
-      <Route path = '/albums/' element = { <Albums /> } />
-      <Route path = '/contents/' element = { <Contents /> } />
-      <Route path = '/resume/' element = { <Resume /> } />
-      <Route path = '/contact/' element = { <Contact /> } />
+      <Route path = '/:lang/' element = { <Home /> } />
+      <Route path = '/:lang/albums/' element = { <Albums /> } />
+      <Route path = '/:lang/contents/' element = { <Contents /> } />
+      <Route path = '/:lang/resume/' element = { <Resume /> } />
+      <Route path = '/:lang/contact/' element = { <Contact /> } />
 
-      <Route path = '/photographs/russian-emirates/' element = { <RussianEmirates /> } />
-      <Route path = '/photographs/golden-age/' element = { <GoldenAge /> } />
-      <Route path = '/photographs/imperial-town/' element = { <ImperialTown /> } />
+      <Route path = '/:lang/photographs/russian-emirates/' element = { <RussianEmirates /> } />
+      <Route path = '/:lang/photographs/golden-age/' element = { <GoldenAge /> } />
+      <Route path = '/:lang/photographs/imperial-town/' element = { <ImperialTown /> } />
 
       { Photographs.map(photographyRoute) }
       { Drawings.map(drawingAlbumRoute) }
 
-      <Route path = '/performances/gravity-falls/' element = { <PerformanceAlbum album = { GravityFalls } /> } />
-      <Route path = '/performances/cure-for-wellness/' element = { <PerformanceAlbum album = { CureForWellness } /> } />
-      <Route path = '/performances/mia-and-sebastian/' element = { <PerformanceAlbum album = { MiaAndSebastian } /> } />
+      <Route path = '/:lang/performances/gravity-falls/' element = { <PerformanceAlbum album = { GravityFalls } /> } />
+      <Route path = '/:lang/performances/cure-for-wellness/' element = { <PerformanceAlbum album = { CureForWellness } /> } />
+      <Route path = '/:lang/performances/mia-and-sebastian/' element = { <PerformanceAlbum album = { MiaAndSebastian } /> } />
 
       { TimeLapses.map(photographyRoute) }
 
-      <Route path = '/sitemap/' element = { <Sitemap /> } />
+      <Route path = '/:lang/sitemap/' element = { <Sitemap /> } />
       <Route path = '*' element = { <NotFound /> } />
     </Routes>
   );

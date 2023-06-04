@@ -1,14 +1,14 @@
 import Layout from './shared/Layout'
 import Page from './../models/core/page';
 import { Articles, Photographs, Drawings, TimeLapses } from './../models/pages';
-import { Link } from 'react-router-dom';
+import LocalizedLink from './shared/LocalizedLink';
 
 const entry = (page: Page) => {
   return (<li key = {page.getAlbum().getTitle()}>
-    <Link to = {page.getRoute()}>
+    <LocalizedLink to = {page.getRoute()}>
       { page.getAlbum().getTitle() }
       <small>{ page.getAlbum().getDateString() }</small>
-    </Link>
+    </LocalizedLink>
   </li>);
 };
 
@@ -44,22 +44,22 @@ const Contents = () => {
             <h2>Performances</h2>
           </li>
           <li>
-            <Link to = '/performances/gravity-falls/'>
+            <LocalizedLink to = '/performances/gravity-falls/'>
               Gravity Falls
               <small>Monday, January 18, 2021</small>
-            </Link>
+            </LocalizedLink>
           </li>
           <li>
-            <Link to = '/performances/cure-for-wellness/'>
+            <LocalizedLink to = '/performances/cure-for-wellness/'>
               A Cure for Wellness
               <small>Saturday, March 17, 2018</small>
-            </Link>
+            </LocalizedLink>
           </li>
           <li>
-            <Link to = '/performances/mia-and-sebastian/'>
+            <LocalizedLink to = '/performances/mia-and-sebastian/'>
               Mia &amp; Sebastian
               <small>Thursday, September 7, 2017</small>
-            </Link>
+            </LocalizedLink>
           </li>
         </ol>
 
