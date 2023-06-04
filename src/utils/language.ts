@@ -9,11 +9,11 @@ const getLanguagesSupportedByBrowser = () =>
    .filter((item, index, arr) => arr.indexOf(item) === index);
 
 class Language {
-   requestedLanguage = () => location.pathname.split('/')[1] || '';
+   requestedLanguage = () => window.location.pathname.split('/')[1] || '';
    supportedLanguages = () => getLanguagesSupportedByBrowser().filter((language) => supportedLanguages.includes(language));
    applyLanguage = (requestedLanguage: string, supportedLanguages: string[]) => {
       const requiredLanguage = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : defaultLanguage;
-      const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(location.pathname)}`;
+      const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(window.location.pathname)}`;
 
       if (requiredLanguage !== requestedLanguage) {
          window.location.replace(newPathname);

@@ -26,11 +26,11 @@
         (navigator.languages.map((language) => language.substring(0, 2)))
         .filter((item, index, arr) => arr.indexOf(item) === index);
 
-      requestedLanguage = () => location.pathname.split('/')[1] || '';
+      requestedLanguage = () => window.location.pathname.split('/')[1] || '';
       supportedLanguages = () => getLanguagesSupportedByBrowser().filter((language) => supportedLanguagesList.includes(language));
       applyLanguage = (requestedLanguage, supportedLanguages) => {
           const requiredLanguage = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : defaultLanguage;
-          const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(location.pathname)}`;
+          const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(window.location.pathname)}`;
 
           if (requiredLanguage !== requestedLanguage) {
             window.location.replace(newPathname);
