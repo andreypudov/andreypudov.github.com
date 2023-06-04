@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 import ReactGA from 'react-ga4';
 
-export default function Analytics() {
+const Analytics = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -12,3 +12,5 @@ export default function Analytics() {
 
   return null;
 }
+
+export default Analytics;

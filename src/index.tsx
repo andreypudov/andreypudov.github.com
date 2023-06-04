@@ -7,13 +7,13 @@ import reportWebVitals from './reportWebVitals';
 
 import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
-import LanguageRedirect from './components/utils/LanguageRedirect';
+import Language from './utils/language';
 import Routes from './Routes';
 
 import './i18n';
 
-import 'bootstrap/dist/../js/dist/carousel.js';
-import 'bootstrap/dist/../js/dist/collapse.js';
+import 'bootstrap/js/dist/carousel.js';
+import 'bootstrap/js/dist/collapse.js';
 import './styles/style.scss';
 
 import ReactGA from 'react-ga4';
@@ -23,7 +23,6 @@ const rootElement = document.getElementById("root");
 const app = (<React.StrictMode>
   <BrowserRouter>
     <Analytics />
-    <LanguageRedirect />
     <ScrollToTop />
 
     <HelmetProvider>
