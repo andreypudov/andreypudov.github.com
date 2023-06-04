@@ -73,7 +73,8 @@
       "cache": false
     },
     "puppeteerArgs": [
-      "--single-process"
+      "--single-process",
+      "--lang=en,ru"
     ]
   },
   "resolutions": {
