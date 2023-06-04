@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/"
+            href="/en/"
             onClick={[Function]}
           >
             Andrey Pudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/albums/"
+                  href="/en/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contents/"
+                  href="/en/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/resume/"
+                  href="/en/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contact/"
+                  href="/en/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -109,7 +109,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/favorite-photographs/"
+            href="/en/photographs/favorite-photographs/"
             onClick={[Function]}
           >
             <img
@@ -133,7 +133,31 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/barcelona-airport/"
+            href="/en/photographs/set-gorgs/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-06-03/2023-06-03_010.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ruta dels Set Gorgs de Campdevànol
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/barcelona-airport/"
             onClick={[Function]}
           >
             <img
@@ -157,7 +181,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/montserrat/"
+            href="/en/photographs/montserrat/"
             onClick={[Function]}
           >
             <img
@@ -181,7 +205,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/perpignan/"
+            href="/en/photographs/perpignan/"
             onClick={[Function]}
           >
             <img
@@ -205,7 +229,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/els-empedrats-del-montseny/"
+            href="/en/photographs/els-empedrats-del-montseny/"
             onClick={[Function]}
           >
             <img
@@ -229,7 +253,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/andorra/"
+            href="/en/photographs/andorra/"
             onClick={[Function]}
           >
             <img
@@ -253,7 +277,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/gotheborg/"
+            href="/en/photographs/gotheborg/"
             onClick={[Function]}
           >
             <img
@@ -277,7 +301,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/oslo/"
+            href="/en/photographs/oslo/"
             onClick={[Function]}
           >
             <img
@@ -301,7 +325,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/stockholm/"
+            href="/en/photographs/stockholm/"
             onClick={[Function]}
           >
             <img
@@ -325,7 +349,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/puigmal/"
+            href="/en/photographs/puigmal/"
             onClick={[Function]}
           >
             <img
@@ -349,7 +373,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/turo-de-lhome/"
+            href="/en/photographs/turo-de-lhome/"
             onClick={[Function]}
           >
             <img
@@ -373,7 +397,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/castillo-de-mataplana/"
+            href="/en/photographs/castillo-de-mataplana/"
             onClick={[Function]}
           >
             <img
@@ -397,7 +421,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/andrey-pudov/"
+            href="/en/photographs/andrey-pudov/"
             onClick={[Function]}
           >
             <img
@@ -421,7 +445,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/poblenou-cemetery/"
+            href="/en/photographs/poblenou-cemetery/"
             onClick={[Function]}
           >
             <img
@@ -445,7 +469,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/ekaterina-domracheva/"
+            href="/en/photographs/ekaterina-domracheva/"
             onClick={[Function]}
           >
             <img
@@ -469,7 +493,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/crimea/"
+            href="/en/photographs/crimea/"
             onClick={[Function]}
           >
             <img
@@ -493,7 +517,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/altay/"
+            href="/en/photographs/altay/"
             onClick={[Function]}
           >
             <img
@@ -517,7 +541,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/irina-domracheva/"
+            href="/en/photographs/irina-domracheva/"
             onClick={[Function]}
           >
             <img
@@ -541,7 +565,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/united-states-4.0/"
+            href="/en/photographs/united-states-4.0/"
             onClick={[Function]}
           >
             <img
@@ -565,7 +589,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/intel-office/"
+            href="/en/photographs/intel-office/"
             onClick={[Function]}
           >
             <img
@@ -589,7 +613,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/nizhny-novgorod/"
+            href="/en/photographs/nizhny-novgorod/"
             onClick={[Function]}
           >
             <img
@@ -613,7 +637,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/rekshino/"
+            href="/en/photographs/rekshino/"
             onClick={[Function]}
           >
             <img
@@ -637,7 +661,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/formula-sochi-3.0/"
+            href="/en/photographs/formula-sochi-3.0/"
             onClick={[Function]}
           >
             <img
@@ -661,7 +685,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/united-states-3.0/"
+            href="/en/photographs/united-states-3.0/"
             onClick={[Function]}
           >
             <img
@@ -685,7 +709,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/alina-cherdakova/"
+            href="/en/photographs/alina-cherdakova/"
             onClick={[Function]}
           >
             <img
@@ -709,7 +733,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/tatyana-bysheva/"
+            href="/en/photographs/tatyana-bysheva/"
             onClick={[Function]}
           >
             <img
@@ -733,7 +757,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/looking-for-the-wind/"
+            href="/en/photographs/looking-for-the-wind/"
             onClick={[Function]}
           >
             <img
@@ -757,7 +781,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/balloon-festival/"
+            href="/en/photographs/balloon-festival/"
             onClick={[Function]}
           >
             <img
@@ -781,7 +805,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/rome-malta/"
+            href="/en/photographs/rome-malta/"
             onClick={[Function]}
           >
             <img
@@ -805,7 +829,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/ride-in-rekshino/"
+            href="/en/photographs/ride-in-rekshino/"
             onClick={[Function]}
           >
             <img
@@ -829,7 +853,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/kira-orlova/"
+            href="/en/photographs/kira-orlova/"
             onClick={[Function]}
           >
             <img
@@ -853,7 +877,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/ekaterina-malysheva/"
+            href="/en/photographs/ekaterina-malysheva/"
             onClick={[Function]}
           >
             <img
@@ -877,7 +901,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/united-states-2.0/"
+            href="/en/photographs/united-states-2.0/"
             onClick={[Function]}
           >
             <img
@@ -901,7 +925,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/strigino/"
+            href="/en/photographs/strigino/"
             onClick={[Function]}
           >
             <img
@@ -925,7 +949,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/maks/"
+            href="/en/photographs/maks/"
             onClick={[Function]}
           >
             <img
@@ -949,7 +973,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/ramon-palace/"
+            href="/en/photographs/ramon-palace/"
             onClick={[Function]}
           >
             <img
@@ -973,7 +997,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/partners-day/"
+            href="/en/photographs/partners-day/"
             onClick={[Function]}
           >
             <img
@@ -997,7 +1021,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/united-states/"
+            href="/en/photographs/united-states/"
             onClick={[Function]}
           >
             <img
@@ -1021,7 +1045,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/kaliningrad/"
+            href="/en/photographs/kaliningrad/"
             onClick={[Function]}
           >
             <img
@@ -1045,7 +1069,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/formula-sochi-2.0/"
+            href="/en/photographs/formula-sochi-2.0/"
             onClick={[Function]}
           >
             <img
@@ -1069,7 +1093,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/intel-products/"
+            href="/en/photographs/intel-products/"
             onClick={[Function]}
           >
             <img
@@ -1093,7 +1117,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/lolita-rakhmatova/"
+            href="/en/photographs/lolita-rakhmatova/"
             onClick={[Function]}
           >
             <img
@@ -1117,7 +1141,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/formula-sochi/"
+            href="/en/photographs/formula-sochi/"
             onClick={[Function]}
           >
             <img
@@ -1141,7 +1165,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/asia-farakshina/"
+            href="/en/photographs/asia-farakshina/"
             onClick={[Function]}
           >
             <img
@@ -1165,7 +1189,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/lake-baikal/"
+            href="/en/photographs/lake-baikal/"
             onClick={[Function]}
           >
             <img
@@ -1189,7 +1213,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/lake-baikal-team/"
+            href="/en/photographs/lake-baikal-team/"
             onClick={[Function]}
           >
             <img
@@ -1213,7 +1237,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/military-museum/"
+            href="/en/photographs/military-museum/"
             onClick={[Function]}
           >
             <img
@@ -1237,7 +1261,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/ekaterinburg/"
+            href="/en/photographs/ekaterinburg/"
             onClick={[Function]}
           >
             <img
@@ -1261,7 +1285,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/yoshkar-ola/"
+            href="/en/photographs/yoshkar-ola/"
             onClick={[Function]}
           >
             <img
@@ -1285,7 +1309,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/little-russia/"
+            href="/en/photographs/little-russia/"
             onClick={[Function]}
           >
             <img
@@ -1309,7 +1333,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/marina-alekseeva/"
+            href="/en/photographs/marina-alekseeva/"
             onClick={[Function]}
           >
             <img
@@ -1333,7 +1357,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/vera-klemenova/"
+            href="/en/photographs/vera-klemenova/"
             onClick={[Function]}
           >
             <img
@@ -1364,7 +1388,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/drawings/watercolor/"
+            href="/en/drawings/watercolor/"
             onClick={[Function]}
           >
             <img
@@ -1388,7 +1412,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/drawings/soft-pastel/"
+            href="/en/drawings/soft-pastel/"
             onClick={[Function]}
           >
             <img
@@ -1412,7 +1436,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/drawings/pencil-sketches/"
+            href="/en/drawings/pencil-sketches/"
             onClick={[Function]}
           >
             <img
@@ -1540,7 +1564,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/russian-emirates/"
+            href="/en/photographs/russian-emirates/"
             onClick={[Function]}
           >
             <img
@@ -1564,7 +1588,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/golden-age/"
+            href="/en/photographs/golden-age/"
             onClick={[Function]}
           >
             <img
@@ -1588,7 +1612,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/imperial-town/"
+            href="/en/photographs/imperial-town/"
             onClick={[Function]}
           >
             <img
@@ -1624,7 +1648,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/resume/"
+            href="/en/resume/"
             onClick={[Function]}
           >
             About
@@ -1634,7 +1658,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/resume/"
+            href="/en/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -1642,7 +1666,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/contact/"
+            href="/en/contact/"
             onClick={[Function]}
           >
             Contact

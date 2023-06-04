@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/"
+            href="/en/"
             onClick={[Function]}
           >
             Andrey Pudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/albums/"
+                  href="/en/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contents/"
+                  href="/en/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/resume/"
+                  href="/en/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contact/"
+                  href="/en/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -128,31 +128,31 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
-          href="/photographs/ekaterina-domracheva/"
+          href="/en/photographs/ekaterina-domracheva/"
           onClick={[Function]}
         >
           <img
             alt="Ekaterina Domracheva"
             className="d-block w-100"
-            src="images/carousel/ekaterina-domracheva.webp"
+            src="/images/carousel/ekaterina-domracheva.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Ekaterina Domracheva
+              Home.EkaterinaDomracheva
             </h5>
           </div>
         </a>
         <a
           className="carousel-item"
-          href="/photographs/alina-cherdakova/"
+          href="/en/photographs/alina-cherdakova/"
           onClick={[Function]}
         >
           <img
             alt="Alina Cherdakova"
             className="d-block w-100"
-            src="images/carousel/alina-cherdakova.webp"
+            src="/images/carousel/alina-cherdakova.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
@@ -164,13 +164,13 @@ exports[`renders correctly 1`] = `
         </a>
         <a
           className="carousel-item"
-          href="/photographs/kira-orlova/"
+          href="/en/photographs/kira-orlova/"
           onClick={[Function]}
         >
           <img
             alt="Kira Orlova"
             className="d-block w-100"
-            src="images/carousel/kira-olrova.webp"
+            src="/images/carousel/kira-olrova.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
@@ -182,13 +182,13 @@ exports[`renders correctly 1`] = `
         </a>
         <a
           className="carousel-item"
-          href="/photographs/ekaterina-malysheva/"
+          href="/en/photographs/ekaterina-malysheva/"
           onClick={[Function]}
         >
           <img
             alt="Ekaterina Malysheva"
             className="d-block w-100"
-            src="images/carousel/ekaterina-malysheva.webp"
+            src="/images/carousel/ekaterina-malysheva.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
@@ -242,13 +242,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/barcelona-airport/"
+            href="/en/photographs/barcelona-airport/"
             onClick={[Function]}
           >
             <img
               alt="LEBL Barcelona El Prat International Airport"
               className="img-fluid"
-              src="images/marketing/barcelona-airport.webp"
+              src="/images/marketing/barcelona-airport.webp"
             />
           </a>
         </div>
@@ -256,13 +256,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/montserrat/"
+            href="/en/photographs/montserrat/"
             onClick={[Function]}
           >
             <img
               alt="Montserrat"
               className="img-fluid"
-              src="images/marketing/montserrat.webp"
+              src="/images/marketing/montserrat.webp"
             />
           </a>
         </div>
@@ -270,13 +270,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/els-empedrats-del-montseny/"
+            href="/en/photographs/els-empedrats-del-montseny/"
             onClick={[Function]}
           >
             <img
               alt="Els Empedrats del Montseny"
               className="img-fluid"
-              src="images/marketing/els-empedrats-del-montseny.webp"
+              src="/images/marketing/els-empedrats-del-montseny.webp"
             />
           </a>
         </div>
@@ -284,13 +284,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/favorite-photographs/"
+            href="/en/photographs/favorite-photographs/"
             onClick={[Function]}
           >
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="images/marketing/formula-sochi-2-0.webp"
+              src="/images/marketing/formula-sochi-2-0.webp"
             />
           </a>
         </div>
@@ -308,7 +308,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/resume/"
+            href="/en/resume/"
             onClick={[Function]}
           >
             About
@@ -318,7 +318,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/resume/"
+            href="/en/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -326,7 +326,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/contact/"
+            href="/en/contact/"
             onClick={[Function]}
           >
             Contact

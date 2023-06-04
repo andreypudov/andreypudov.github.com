@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/"
+            href="/en/"
             onClick={[Function]}
           >
             Andrey Pudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/albums/"
+                  href="/en/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contents/"
+                  href="/en/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/resume/"
+                  href="/en/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/contact/"
+                  href="/en/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -856,7 +856,7 @@ One of the main attractions of the Barguzin Valley. Picturesque cliffs resemblin
           className="first piped-links-short"
         >
           <a
-            href="/resume/"
+            href="/en/resume/"
             onClick={[Function]}
           >
             About
@@ -866,7 +866,7 @@ One of the main attractions of the Barguzin Valley. Picturesque cliffs resemblin
           className="first piped-links-long"
         >
           <a
-            href="/resume/"
+            href="/en/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -874,7 +874,7 @@ One of the main attractions of the Barguzin Valley. Picturesque cliffs resemblin
         </li>
         <li>
           <a
-            href="/contact/"
+            href="/en/contact/"
             onClick={[Function]}
           >
             Contact

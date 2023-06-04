@@ -96,30 +96,92 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Switzerland Park
+        Ruta dels Set Gorgs de Campdevànol
         <small
           className="text-muted"
         >
-          Friday, April 14, 2017
+          Saturday, June 3, 2023
         </small>
       </h1>
       <figure>
-        <div
-          className="ratio ratio-16x9 gallery-video"
-        >
-          <iframe
-            allowFullScreen={true}
-            src="https://player.vimeo.com/video/517763009"
-            title="Switzerland Park"
-          />
-        </div>
-        <figcaption
-          className="video-caption"
-        >
-          Switzerland Park
-
-Switzerland Park is an enormous green park located on the bank of the Oka River and was founded in 1903. Today, its territory accommodates an amusement park with a panoramic wheel, a zoo, and a bunch of cafes. By the way, Switzerland is not only the name of a country but also a term referring to a landscape of wooded hills. There are at least 190 “Switzerlands” in the world, one of which is in Nizhny Novgorod. The park is 3.5-kilometer long and it makes the location perfect for promenades, sports events, and marathons, often held at the location. The Oka River looks magnificent if viewed from the hills above and adds up to the delightful view gilded by the rays of the falling sun. Sentimentalists hail Nizhny Novgorod as the capital of sunsets not for nothing.
-        </figcaption>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_001.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_003.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_005.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_007.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_009.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_002.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_004.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_006.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-06-03/2023-06-03_008.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ruta dels Set Gorgs de Campdevànol"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-06-03/2023-06-03_010.webp"
+          title="Ruta dels Set Gorgs de Campdevànol"
+        />
       </figure>
     </div>
   </main>
