@@ -7,7 +7,6 @@ import reportWebVitals from './reportWebVitals';
 
 import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
-import Language from './utils/language';
 import Routes from './Routes';
 
 import './i18n';
