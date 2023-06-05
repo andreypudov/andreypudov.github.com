@@ -29,5 +29,6 @@
   "Header.Contents": "Contents",
   "Header.Resume": "Resume",
   "Home.Next": "Next",
-  "Home.Previous": "Previous"
+  "Home.Previous": "Previous",
+  "NotFound.CanNotBeFound": "Hmm, the page you’re looking for can’t be found."
 }
