@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import Layout from './shared/Layout'
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <Layout title = { 'Contact' }>
       <div className = 'container'>

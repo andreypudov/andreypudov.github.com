@@ -60,6 +60,7 @@ const generateSitemap = (timestamp: string, locale: string) => {
 
 const Sitemap = () => {
   const timestamp = (new Date()).toISOString();
+
   return (
     <Layout title = { 'Sitemap' }>
       <div className = 'container'>
