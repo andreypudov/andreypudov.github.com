@@ -1,4 +1,9 @@
 {
+  "Footer.AboutShort": "About",
+  "Footer.AboutLong": "About Andrey Pudov",
+  "Footer.Contact": "Contact",
+  "Footer.CopyrightLong": "Copyright &#169; 2023 Andrey Pudov. All rights reserved.",
+  "Footer.CopyrightShort": "&#169; 2023 Andrey Pudov. All rights reserved.",
   "Header.AndreyPudov": "Andrey Pudov",
   "Header.Albums": "Albums",
   "Header.Contents": "Contents",
