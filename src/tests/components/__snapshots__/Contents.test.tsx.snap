@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
             href="/en/"
             onClick={[Function]}
           >
-            Andrey Pudov
+            Header.AndreyPudov
           </a>
           <button
             aria-controls="navbarMain"
@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Albums
+                  Header.Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Contents
+                  Header.Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Resume
+                  Header.Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Contact
+                  Header.Contact
                 </a>
               </li>
             </ul>
@@ -96,14 +96,14 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Contents
+        Contents.Contents
       </h1>
       <ol
         className="contents"
       >
         <li>
           <h2>
-            Photographs
+            Contents.Photographs
           </h2>
         </li>
         <li>
@@ -695,7 +695,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Drawings
+            Contents.Drawings
           </h2>
         </li>
         <li>
@@ -737,7 +737,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Time Lapses
+            Contents.TimeLapses
           </h2>
         </li>
         <li>
@@ -812,7 +812,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Performances
+            Contents.Performances
           </h2>
         </li>
         <li>
@@ -820,7 +820,7 @@ exports[`renders correctly 1`] = `
             href="/en/performances/gravity-falls/"
             onClick={[Function]}
           >
-            Gravity Falls
+            Contents.GravityFalls
             <small>
               Monday, January 18, 2021
             </small>
@@ -831,7 +831,7 @@ exports[`renders correctly 1`] = `
             href="/en/performances/cure-for-wellness/"
             onClick={[Function]}
           >
-            A Cure for Wellness
+            Contents.ACureForWellness
             <small>
               Saturday, March 17, 2018
             </small>
@@ -842,7 +842,7 @@ exports[`renders correctly 1`] = `
             href="/en/performances/mia-and-sebastian/"
             onClick={[Function]}
           >
-            Mia & Sebastian
+            Contents.MiaAndSebastian
             <small>
               Thursday, September 7, 2017
             </small>
@@ -854,7 +854,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Articles
+            Contents.Articles
           </h2>
         </li>
         <li>
@@ -896,7 +896,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Projects
+            Contents.Projects
           </h2>
         </li>
         <li>
@@ -905,7 +905,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Paragliding Weather
+            Contents.ParaglidingWeather
             <small>
               Wednesday, January 6, 2021
             </small>
@@ -917,7 +917,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Timetable
+            Contents.Timetable
             <small>
               Wednesday, January 6, 2021
             </small>
@@ -929,7 +929,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Laboratory of Algorithms
+            Contents.LaboratoryOfAlgorithms
             <small>
               Tuesday, July 10, 2018
             </small>
@@ -941,7 +941,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            OpenWeatherJS
+            Contents.OpenWeatherJS
             <small>
               Wednesday, October 24, 2018
             </small>
@@ -967,7 +967,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            About
+            Footer.AboutShort
           </a>
         </li>
         <li
@@ -977,7 +977,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            About Andrey Pudov
+            Footer.AboutLong
           </a>
         </li>
         <li>
@@ -985,7 +985,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Contact
+            Footer.Contact
           </a>
         </li>
       </ul>
@@ -995,12 +995,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Copyright © 2023 Andrey Pudov. All rights reserved.
+          Footer.CopyrightLong
         </p>
         <p
           className="piped-links-short"
         >
-          © 2023 Andrey Pudov. All rights reserved.
+          Footer.CopyrightShort
         </p>
       </ul>
     </div>

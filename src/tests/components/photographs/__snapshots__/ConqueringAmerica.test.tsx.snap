@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
             href="/en/"
             onClick={[Function]}
           >
-            Andrey Pudov
+            Header.AndreyPudov
           </a>
           <button
             aria-controls="navbarMain"
@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Albums
+                  Header.Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Contents
+                  Header.Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Resume
+                  Header.Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Contact
+                  Header.Contact
                 </a>
               </li>
             </ul>
@@ -815,7 +815,7 @@ The Hawthorne Bridge is a truss bridge with a vertical lift that spans the Willa
             href="/en/resume/"
             onClick={[Function]}
           >
-            About
+            Footer.AboutShort
           </a>
         </li>
         <li
@@ -825,7 +825,7 @@ The Hawthorne Bridge is a truss bridge with a vertical lift that spans the Willa
             href="/en/resume/"
             onClick={[Function]}
           >
-            About Andrey Pudov
+            Footer.AboutLong
           </a>
         </li>
         <li>
@@ -833,7 +833,7 @@ The Hawthorne Bridge is a truss bridge with a vertical lift that spans the Willa
             href="/en/contact/"
             onClick={[Function]}
           >
-            Contact
+            Footer.Contact
           </a>
         </li>
       </ul>
@@ -843,12 +843,12 @@ The Hawthorne Bridge is a truss bridge with a vertical lift that spans the Willa
         <p
           className="piped-links-long"
         >
-          Copyright © 2023 Andrey Pudov. All rights reserved.
+          Footer.CopyrightLong
         </p>
         <p
           className="piped-links-short"
         >
-          © 2023 Andrey Pudov. All rights reserved.
+          Footer.CopyrightShort
         </p>
       </ul>
     </div>
