@@ -7,6 +7,7 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
+import Ebro from './../models/photographs/ebro';
 import SetGorgs from './../models/photographs/setGorgs';
 import BarcelonaAirport from './../models/photographs/barcelonaAirport';
 import Montserrat from './../models/photographs/montserrat';
@@ -80,6 +81,7 @@ const Pages = {
    ImperialTown: new Page(ImperialTown, PageType.Article, '/photographs/imperial-town/'),
 
    Favorites: new Page(Favorites, PageType.Photographs, '/photographs/favorite-photographs/'),
+   Ebro: new Page(Ebro, PageType.Photographs, '/photographs/ebro/'),
    SetGorgs: new Page(SetGorgs, PageType.Photographs, '/photographs/set-gorgs/'),
    BarcelonaAirport: new Page(BarcelonaAirport, PageType.Photographs, '/photographs/barcelona-airport/'),
    Montserrat: new Page(Montserrat, PageType.Photographs, '/photographs/montserrat/'),
