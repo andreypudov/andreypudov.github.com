@@ -4,7 +4,7 @@ import Photograph from '../core/photograph';
 const FavoritePhotographs = new Album(
   'Favorite Photographs',
   new Date('2089-03-17'),
-  new Photograph('/photographs/2017-01-30/2017-01-30_001.webp', false, 'Pechersky Ascension Monastery\n\nPechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.\n\nIt have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.\n\nThe monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod.'),
+  new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp', false, 'Lake Baikal'),
   [
     new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp', true, 'Rådhuset Station'),
     new Photograph('/photographs/2022-07-08/2022-07-08_001.webp', true, 'The Kiss of Death\n\nThe Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.\n\n"His young heart is thus extinguished. The blood in his veins grows cold. And all strength has gone. Faith has been extolled by his fall into the arms of death. Amen."'),

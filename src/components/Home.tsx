@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Layout from './shared/Layout'
 import Pages from '../models/pages';
 import CarouselItem from './shared/CarouselItem';
-import MarketingItem from './shared/MarketingItem';
+import MarketingView from './shared/MarketingView';
 
 
 const Home = () => {
@@ -34,14 +34,7 @@ const Home = () => {
         </button>
       </div>
 
-      <div className = 'marketing marketing-image'>
-        <div className = 'row'>
-          <MarketingItem page = { Pages.BarcelonaAirport } cover = '/images/marketing/barcelona-airport.webp' />
-          <MarketingItem page = { Pages.Montserrat } cover = '/images/marketing/montserrat.webp' />
-          <MarketingItem page = { Pages.ElsEmpedratsDelMontseny } cover = '/images/marketing/els-empedrats-del-montseny.webp' />
-          <MarketingItem page = { Pages.Favorites } cover = '/images/marketing/formula-sochi-2-0.webp' />
-        </div>
-      </div>
+      <MarketingView />
     </Layout>
   );
 }
