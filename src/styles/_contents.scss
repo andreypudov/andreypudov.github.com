@@ -13,7 +13,7 @@
     }
 
     @include media-breakpoint-up(sm) {
-        border-width: 0 0 1px 0;
+      border-width: 0 0 1px 0;
     }
 
     small {
@@ -21,7 +21,7 @@
       float:   right;
 
       @include media-breakpoint-up(sm) {
-          display: block;
+        display: block;
       }
     }
   }

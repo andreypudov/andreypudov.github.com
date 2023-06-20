@@ -17,6 +17,10 @@
         content:          ' ';
         display:          block;
         background-image: linear-gradient(var(--#{$prefix}secondary-bg), var(--#{$prefix}secondary-color), var(--#{$prefix}secondary-bg));
+
+        @include media-breakpoint-down(lg) {
+          left: 20px;
+        }
       }
 
       > li {
@@ -31,6 +35,14 @@
           padding:     10px;
           font-weight: 700;
           display:     inline-block;
+
+          @include media-breakpoint-down(lg) {
+            position: relative;
+            transform: rotate(-90deg);
+            float: inherit;
+            padding: 0;
+            bottom: -5px;
+          }
         }
 
         > .description {
