@@ -5,7 +5,7 @@ const MarketingView = () => {
   return (
    <div className = 'marketing marketing-image'>
       <div className = 'row'>
-      { Photographs.slice(0, 4).reverse().map(p => <MarketingItem page = { p } />) }
+      { Photographs.slice(0, 4).map(p => <MarketingItem page = { p } />) }
       </div>
    </div>
   );
