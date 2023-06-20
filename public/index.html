@@ -16,6 +16,7 @@
     <link rel='manifest'         href='%PUBLIC_URL%/manifest.json' />
 
     <script>
+      /* configuring the language */
       const supportedLanguagesList = ['en', 'ru'];
       const defaultLanguage = supportedLanguagesList[0];
 
@@ -39,6 +40,13 @@
 
       applyLanguage(requestedLanguage(), supportedLanguages())
     </script>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #000 !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
