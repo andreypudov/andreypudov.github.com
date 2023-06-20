@@ -1,10 +1,10 @@
 const supportedLanguages = ['en', 'ru'];
 const defaultLanguage = supportedLanguages[0];
 
-const getPathWithoutLanguage = (pathname: string) =>
+export const getPathWithoutLanguage = (pathname: string) =>
   (pathname.charAt(3) === '/') ? pathname.substring(3) : pathname;
 
-const getLanguagesSupportedByBrowser = () =>
+export const getLanguagesSupportedByBrowser = () =>
    (navigator.languages.map((language) => language.substring(0, 2)))
    .filter((item, index, arr) => arr.indexOf(item) === index);
 

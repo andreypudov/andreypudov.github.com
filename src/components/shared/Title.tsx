@@ -1,3 +1,4 @@
+import { getPathWithoutLanguage } from '../../utils/language';
 import Social from './../../models/core/social';
 
 import { Helmet } from 'react-helmet-async'
@@ -12,6 +13,7 @@ const Title = (props: TitleProps) => {
   const title = props.title ? `${props.title} - Andrey Pudov` : 'Andrey Pudov';
   const description = props.title ? props.title : 'Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.';
 
+  const domain = 'https://andreypudov.com';
   const theme = (window.matchMedia("(prefers-color-scheme: dark)").matches) ? 'dark' : 'light';
 
   return (
@@ -24,7 +26,7 @@ const Title = (props: TitleProps) => {
         <meta property='og:title' content = { title}  />
         <meta property='og:description' content = { description } />
         <meta property='og:type' content = 'website' />
-        { props.cover && <meta property='og:image' content = { `https://andreypudov.com${props.cover}` } /> }
+        { props.cover && <meta property='og:image' content = { `${domain}${props.cover}` } /> }
         <meta property='og:site_name' content = 'Andrey Pudov' />
 
         { props.social?.getFirstName() && <meta property = 'profile:first_name' content = { props.social.getFirstName() } /> }
@@ -34,6 +36,10 @@ const Title = (props: TitleProps) => {
         { props.social?.getVKUrl() && <meta property = 'og:url' content = { props.social.getVKUrl() } /> }
         { props.social?.getFacebookUrl() && <meta property = 'og:url' content = { props.social.getFacebookUrl() } /> }
         { props.social?.getInstagramUrl() && <meta property = 'og:url' content = { props.social.getInstagramUrl() } /> }
+
+        <link rel='alternate' hrefLang='en'        href={ `${domain}/en${getPathWithoutLanguage(window.location.pathname)}` } />
+        <link rel='alternate' hrefLang='ru'        href={ `${domain}/ru${getPathWithoutLanguage(window.location.pathname)}` } />
+        <link rel='alternate' hrefLang='x-default' href={ `${domain}${getPathWithoutLanguage(window.location.pathname)}` } />
       </Helmet>
     </>
   );
