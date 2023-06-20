@@ -6,8 +6,8 @@
   width:         100%;
 
   &.vertical {
-      margin-bottom: 15px !important;
-      margin:  0 auto;
+    margin-bottom: 15px !important;
+    margin:  0 auto;
   }
 
   @include media-breakpoint-up(md) {
@@ -19,13 +19,6 @@
   .card-title, .card-text {
     text-shadow: 1px 1px 2px #242424;
   }
-}
-
-.gallery-video {
-  box-shadow:    0px 0px 10px 0px var(--#{$prefix}secondary-color);
-  border:        0;
-  margin-bottom: 15px;
-  width:         100%;
 }
 
 .image-caption {
@@ -53,6 +46,14 @@
       width: 45%;
     }
   }
+}
+
+.gallery-video {
+  display:       table;
+  box-shadow:    0px 0px 10px 0px var(--#{$prefix}secondary-color);
+  border:        0;
+  margin-bottom: 15px;
+  width:         100%;
 }
 
 .video-caption {
