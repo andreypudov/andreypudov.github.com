@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Lake Baikal Team - The expedition leader Ivan Schipakin and Olga Poroshina."
+          alt="[object Object] - The expedition leader Ivan Schipakin and Olga Poroshina."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_004.webp"
           title="The expedition leader Ivan Schipakin and Olga Poroshina."
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Evgeny Timofeev is an expedition photographer."
+          alt="[object Object] - Evgeny Timofeev is an expedition photographer."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_001.webp"
           title="Evgeny Timofeev is an expedition photographer."
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Participants of the hike organized by the Ural Tropa tourist club."
+          alt="[object Object] - Participants of the hike organized by the Ural Tropa tourist club."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_003.webp"
           title="Participants of the hike organized by the Ural Tropa tourist club."
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
+          alt="[object Object] - Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_007.webp"
           title="Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
@@ -157,7 +157,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Participants of the hike organized by the Ural Tropa tourist club."
+          alt="[object Object] - Participants of the hike organized by the Ural Tropa tourist club."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp"
           title="Participants of the hike organized by the Ural Tropa tourist club."
@@ -170,7 +170,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Aleksey Gladkih and Olga Yagovitina"
+          alt="[object Object] - Aleksey Gladkih and Olga Yagovitina"
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_005.webp"
           title="Aleksey Gladkih and Olga Yagovitina"
@@ -183,7 +183,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
+          alt="[object Object] - Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_008.webp"
           title="Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
@@ -196,7 +196,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
+          alt="[object Object] - The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_009.webp"
           title="The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
@@ -209,7 +209,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Lake Baikal Team - Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."
+          alt="[object Object] - Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_006.webp"
           title="Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."
@@ -239,7 +239,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -249,7 +249,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -257,7 +257,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -267,12 +267,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

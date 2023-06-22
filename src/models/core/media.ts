@@ -1,7 +1,9 @@
+import Text from './text';
+
 interface Media {
   src: string;
   vertical: boolean;
-  description: string;
+  description?: Text;
 }
 
 export default Media;

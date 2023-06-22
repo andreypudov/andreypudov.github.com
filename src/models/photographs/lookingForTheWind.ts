@@ -1,8 +1,9 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const LookingForTheWind = new Album(
-  'Looking for the Wind',
+  new Text('LookingForTheWind', 'Looking for the Wind'),
   new Date('2018-05-27'),
   new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
   [

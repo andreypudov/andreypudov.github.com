@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="2019 Formula 1 Russian Grand Prix - The box of the Scuderia Ferrari"
+          alt="[object Object] - The box of the Scuderia Ferrari"
           className="img-responsive gallery-image"
           src="/photographs/2019-09-30/2019-09-30_001.webp"
           title="The box of the Scuderia Ferrari"
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="2019 Formula 1 Russian Grand Prix - Red Bull mechanics performing warm-up exercises"
+          alt="[object Object] - Red Bull mechanics performing warm-up exercises"
           className="img-responsive gallery-image"
           src="/photographs/2019-09-30/2019-09-30_002.webp"
           title="Red Bull mechanics performing warm-up exercises"
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="2019 Formula 1 Russian Grand Prix - Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
+          alt="[object Object] - Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_003.webp"
           title="Valtteri Bottas drives Mercedes AMG F1 W10 EQ Power+"
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="2019 Formula 1 Russian Grand Prix - The start of the Formula 1 race"
+          alt="[object Object] - The start of the Formula 1 race"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_004.webp"
           title="The start of the Formula 1 race"
@@ -157,7 +157,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="2019 Formula 1 Russian Grand Prix - Robert Kubica drives Williams FW42"
+          alt="[object Object] - Robert Kubica drives Williams FW42"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-09-30/2019-09-30_005.webp"
           title="Robert Kubica drives Williams FW42"
@@ -187,7 +187,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -197,7 +197,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -205,7 +205,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -215,12 +215,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

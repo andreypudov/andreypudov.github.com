@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Marina Alekseeva - Marina is a former vice president in the Software and Services Group and serves as general manager for the group. Based in Nizhny Novgorod, she managed Intel research and development operations in Russia and was responsible for aligning them with Intel's business strategy. Today she is co-lead of the Women in Big Data program in EMEA."
+          alt="[object Object] - Marina is a former vice president in the Software and Services Group and serves as general manager for the group. Based in Nizhny Novgorod, she managed Intel research and development operations in Russia and was responsible for aligning them with Intel's business strategy. Today she is co-lead of the Women in Big Data program in EMEA."
           className="img-responsive gallery-image vertical"
           src="/photographs/2013-09-10/2013-09-10_001.webp"
           title="Marina is a former vice president in the Software and Services Group and serves as general manager for the group. Based in Nizhny Novgorod, she managed Intel research and development operations in Russia and was responsible for aligning them with Intel's business strategy. Today she is co-lead of the Women in Big Data program in EMEA."
@@ -151,7 +151,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -161,7 +161,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -169,7 +169,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -179,12 +179,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

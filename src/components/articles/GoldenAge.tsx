@@ -8,7 +8,7 @@ const GoldenAge = () => {
   const { i18n } = useTranslation();
 
   return (
-    <Layout title = { Album.getTitle() }>
+    <Layout title = { Album.getTitle().getTranslation() }>
       <div className = 'container'>
         <Headline album = { Album } locale = { i18n.language } />
 

@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
+          alt="[object Object] - Sergey Sidorko, Sergey Khekhnev, and Natalia Muravieva
 Engeneering Managers, Software and Services Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_002.webp"
@@ -129,7 +129,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
+          alt="[object Object] - Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_003.webp"
           title="Jody Pfotenhauer, Brad Benson, Marina Alekseeva, and William Savage"
@@ -198,7 +198,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Marina Alekseeva - Vice President, Software and Services Group"
+          alt="[object Object] - Marina Alekseeva - Vice President, Software and Services Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_011.webp"
           title="Marina Alekseeva - Vice President, Software and Services Group"
@@ -219,7 +219,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
+          alt="[object Object] - William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-11-09/2016-11-09_013.webp"
           title="William Savage - General Manager, Corporate Vice President, One Intel Software & Architecture"
@@ -232,7 +232,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
+          alt="[object Object] - Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_014.webp"
           title="Jody Pfotenhauer - Director of Functional Safety Engineering, Automated Driving Group"
@@ -333,7 +333,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Pavel Egorov - Chief Executive Officer at Dell Technologies"
+          alt="[object Object] - Pavel Egorov - Chief Executive Officer at Dell Technologies"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_026.webp"
           title="Pavel Egorov - Chief Executive Officer at Dell Technologies"
@@ -354,7 +354,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Valentin Anisimov - Principal Software Architect at Harman"
+          alt="[object Object] - Valentin Anisimov - Principal Software Architect at Harman"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_028.webp"
           title="Valentin Anisimov - Principal Software Architect at Harman"
@@ -367,7 +367,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
+          alt="[object Object] - Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_029.webp"
           title="Andrey Vitsenko - Senior Engineering Manager, Product Security Expert"
@@ -380,7 +380,7 @@ Engeneering Managers, Software and Services Group
       </figure>
       <figure>
         <img
-          alt="Intel Partners Day - Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
+          alt="[object Object] - Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
           className="img-responsive gallery-image"
           src="/photographs/2016-11-09/2016-11-09_030.webp"
           title="Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory"
@@ -410,7 +410,7 @@ Engeneering Managers, Software and Services Group
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -420,7 +420,7 @@ Engeneering Managers, Software and Services Group
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -428,7 +428,7 @@ Engeneering Managers, Software and Services Group
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -438,12 +438,12 @@ Engeneering Managers, Software and Services Group
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

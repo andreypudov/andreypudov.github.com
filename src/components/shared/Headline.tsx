@@ -8,7 +8,7 @@ type HeadlineProps = {
 const Headline = (props: HeadlineProps) => {
   return (
     <h1>
-      { props.album.getTitle() }
+      { props.album.getTitle().getTranslation() }
       <small className = 'text-muted'>{ props.album.getDateString(props.locale) }</small>
     </h1>
   );

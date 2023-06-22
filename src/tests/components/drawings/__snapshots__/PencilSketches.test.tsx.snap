@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Pencil Sketches - July 16, 2020"
+          alt="[object Object] - July 16, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-07-16.webp"
           title="July 16, 2020"
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - July 9, 2020"
+          alt="[object Object] - July 9, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-07-09.webp"
           title="July 9, 2020"
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - April 26, 2020"
+          alt="[object Object] - April 26, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-26.webp"
           title="April 26, 2020"
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - April 22, 2020"
+          alt="[object Object] - April 22, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-04-22.webp"
           title="April 22, 2020"
@@ -157,7 +157,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - April 7, 2020"
+          alt="[object Object] - April 7, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-07.webp"
           title="April 7, 2020"
@@ -170,7 +170,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - April 3, 2020"
+          alt="[object Object] - April 3, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-03.webp"
           title="April 3, 2020"
@@ -183,7 +183,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - April 2, 2020"
+          alt="[object Object] - April 2, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-04-02.webp"
           title="April 2, 2020"
@@ -213,7 +213,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -223,7 +223,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -231,7 +231,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -241,12 +241,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

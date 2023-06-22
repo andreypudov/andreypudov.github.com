@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -193,7 +193,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Barcode Oslo"
+          alt="[object Object] - Barcode Oslo"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_054.webp"
           title="Barcode Oslo"
@@ -206,7 +206,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Norwegian National Opera and Ballet"
+          alt="[object Object] - Norwegian National Opera and Ballet"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_055.webp"
           title="Norwegian National Opera and Ballet"
@@ -227,7 +227,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Vigeland Sculpture Park"
+          alt="[object Object] - Vigeland Sculpture Park"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_057.webp"
           title="Vigeland Sculpture Park"
@@ -336,7 +336,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Norwegian National Opera and Ballet"
+          alt="[object Object] - Norwegian National Opera and Ballet"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_070.webp"
           title="Norwegian National Opera and Ballet"
@@ -357,7 +357,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Munch Museum"
+          alt="[object Object] - Munch Museum"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp"
           title="Munch Museum"
@@ -442,7 +442,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Statoil Office"
+          alt="[object Object] - Statoil Office"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_082.webp"
           title="Statoil Office"
@@ -487,7 +487,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - City Hall"
+          alt="[object Object] - City Hall"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_087.webp"
           title="City Hall"
@@ -516,7 +516,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Oslo. Conquering Scandinavia - Akerhus Fortres"
+          alt="[object Object] - Akerhus Fortres"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_090.webp"
           title="Akerhus Fortres"
@@ -578,7 +578,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -588,7 +588,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -596,7 +596,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -606,12 +606,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

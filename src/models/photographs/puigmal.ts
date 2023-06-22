@@ -1,13 +1,14 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const Puigmal = new Album(
-  'Puigmal',
+  new Text('Puigmal', 'Puigmal'),
   new Date('2022-08-15'),
   new Photograph('/photographs/2022-08-15/2022-08-15_009.webp'),
   [
    new Photograph('/photographs/2022-08-15/2022-08-15_001.webp', false,
-      'The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split.'),
+    new Text('Puigmal.', 'The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split.')),
    new Photograph('/photographs/2022-08-15/2022-08-15_002.webp'),
    new Photograph('/photographs/2022-08-15/2022-08-15_003.webp'),
    new Photograph('/photographs/2022-08-15/2022-08-15_004.webp', true),

@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -153,7 +153,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - Monument to Yoshkin сat, the hero of a colloquial expression with a similar sounding. Today Yoshkin cat is an integral part of Yoshkar-Ola brands. The authors of the monument are Anatoly Shirnin, Sergey Yandubaev, and Alexey Shilov."
+          alt="[object Object] - Monument to Yoshkin сat, the hero of a colloquial expression with a similar sounding. Today Yoshkin cat is an integral part of Yoshkar-Ola brands. The authors of the monument are Anatoly Shirnin, Sergey Yandubaev, and Alexey Shilov."
           className="img-responsive gallery-image"
           src="/photographs/2014-05-10/2014-05-10_007_large.webp"
           title="Monument to Yoshkin сat, the hero of a colloquial expression with a similar sounding. Today Yoshkin cat is an integral part of Yoshkar-Ola brands. The authors of the monument are Anatoly Shirnin, Sergey Yandubaev, and Alexey Shilov."
@@ -174,7 +174,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - Monument to Prince Ivan Obolensky-Nogotkov, the founder of the city and the first governor of Tsarevokokshaisk (which literally means - the Tsar's town on Kokshaga River). Ivan Andreevich had a close relationship with the royal court, took an active part in the military and political life of the country. Participated in the suppression of the uprising of the meadow and mountain Mari. The monument was made in 2007 by the Moscow sculptor Andrey Kovalchuk."
+          alt="[object Object] - Monument to Prince Ivan Obolensky-Nogotkov, the founder of the city and the first governor of Tsarevokokshaisk (which literally means - the Tsar's town on Kokshaga River). Ivan Andreevich had a close relationship with the royal court, took an active part in the military and political life of the country. Participated in the suppression of the uprising of the meadow and mountain Mari. The monument was made in 2007 by the Moscow sculptor Andrey Kovalchuk."
           className="img-responsive gallery-image vertical"
           src="/photographs/2014-05-10/2014-05-10_009_large.webp"
           title="Monument to Prince Ivan Obolensky-Nogotkov, the founder of the city and the first governor of Tsarevokokshaisk (which literally means - the Tsar's town on Kokshaga River). Ivan Andreevich had a close relationship with the royal court, took an active part in the military and political life of the country. Participated in the suppression of the uprising of the meadow and mountain Mari. The monument was made in 2007 by the Moscow sculptor Andrey Kovalchuk."
@@ -195,7 +195,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - The national art gallery is a museum of fine arts that opened on November 4, 2007. In addition to the permanent exhibition of paintings by Mari artists, the gallery regularly hosts exhibitions of various Russian and world collections. The building was built in the architectural style of the Renaissance. The dominant feature is the clock tower. In the upper left corner of the clock, there is an opening gate from which the image of Mary, the mother of Jesus appears. In the lower-left corner of the clock, a donkey moves with Mary's image, symbolizing the coming of the Mother of God to the Mari land."
+          alt="[object Object] - The national art gallery is a museum of fine arts that opened on November 4, 2007. In addition to the permanent exhibition of paintings by Mari artists, the gallery regularly hosts exhibitions of various Russian and world collections. The building was built in the architectural style of the Renaissance. The dominant feature is the clock tower. In the upper left corner of the clock, there is an opening gate from which the image of Mary, the mother of Jesus appears. In the lower-left corner of the clock, a donkey moves with Mary's image, symbolizing the coming of the Mother of God to the Mari land."
           className="img-responsive gallery-image"
           src="/photographs/2014-05-10/2014-05-10_011_large.webp"
           title="The national art gallery is a museum of fine arts that opened on November 4, 2007. In addition to the permanent exhibition of paintings by Mari artists, the gallery regularly hosts exhibitions of various Russian and world collections. The building was built in the architectural style of the Renaissance. The dominant feature is the clock tower. In the upper left corner of the clock, there is an opening gate from which the image of Mary, the mother of Jesus appears. In the lower-left corner of the clock, a donkey moves with Mary's image, symbolizing the coming of the Mother of God to the Mari land."
@@ -272,7 +272,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - Bruges Promenade in Yoshkar-Ola. Opened in 2010, the embankment was named after the Belgian city of Bruges due to a certain similarity between the architecture of the buildings and the Flemish architecture of the historical buildings in Bruges. Elements of the embankment are also reflecting Gothic architecture. Houses are built of colored bricks, part of the facades are faced with marble."
+          alt="[object Object] - Bruges Promenade in Yoshkar-Ola. Opened in 2010, the embankment was named after the Belgian city of Bruges due to a certain similarity between the architecture of the buildings and the Flemish architecture of the historical buildings in Bruges. Elements of the embankment are also reflecting Gothic architecture. Houses are built of colored bricks, part of the facades are faced with marble."
           className="img-responsive gallery-image"
           src="/photographs/2014-05-10/2014-05-10_020_large.webp"
           title="Bruges Promenade in Yoshkar-Ola. Opened in 2010, the embankment was named after the Belgian city of Bruges due to a certain similarity between the architecture of the buildings and the Flemish architecture of the historical buildings in Bruges. Elements of the embankment are also reflecting Gothic architecture. Houses are built of colored bricks, part of the facades are faced with marble."
@@ -317,7 +317,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - The Spasskaya Tower is a smaller replica of the main tower on the eastern wall of the Moscow Kremlin which overlooks Red Square. The original tower was built in 1491 by the Italian architect Pietro Antonio Solari."
+          alt="[object Object] - The Spasskaya Tower is a smaller replica of the main tower on the eastern wall of the Moscow Kremlin which overlooks Red Square. The original tower was built in 1491 by the Italian architect Pietro Antonio Solari."
           className="img-responsive gallery-image vertical"
           src="/photographs/2014-05-10/2014-05-10_025_large.webp"
           title="The Spasskaya Tower is a smaller replica of the main tower on the eastern wall of the Moscow Kremlin which overlooks Red Square. The original tower was built in 1491 by the Italian architect Pietro Antonio Solari."
@@ -338,7 +338,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - Voskresenskaya Embankment. Opened on March 27, 2009. On the embankment, there are monuments to Tsar Fyodor Ioannovich, Alexander Pushkin, Nikolai Gogol, as well as an Italian Park designed as a symbol of the revival of the Republic of Mari El, primarily implying the development of arts, and the traditions of patronage."
+          alt="[object Object] - Voskresenskaya Embankment. Opened on March 27, 2009. On the embankment, there are monuments to Tsar Fyodor Ioannovich, Alexander Pushkin, Nikolai Gogol, as well as an Italian Park designed as a symbol of the revival of the Republic of Mari El, primarily implying the development of arts, and the traditions of patronage."
           className="img-responsive gallery-image"
           src="/photographs/2014-05-10/2014-05-10_027_large.webp"
           title="Voskresenskaya Embankment. Opened on March 27, 2009. On the embankment, there are monuments to Tsar Fyodor Ioannovich, Alexander Pushkin, Nikolai Gogol, as well as an Italian Park designed as a symbol of the revival of the Republic of Mari El, primarily implying the development of arts, and the traditions of patronage."
@@ -399,7 +399,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - The Blagoveshchenskaya Tower is another smaller replica of Moscow's Kremlin Spasskaya Tower in Yoshkar-Ola."
+          alt="[object Object] - The Blagoveshchenskaya Tower is another smaller replica of Moscow's Kremlin Spasskaya Tower in Yoshkar-Ola."
           className="img-responsive gallery-image"
           src="/photographs/2014-05-10/2014-05-10_034_large.webp"
           title="The Blagoveshchenskaya Tower is another smaller replica of Moscow's Kremlin Spasskaya Tower in Yoshkar-Ola."
@@ -492,7 +492,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Yoshkar-Ola. Tsar's town on Kokshaga River - Tsarevokokshaisky Kremlin is a modern replica of the historical fortress, built in 1584 by the order of Tsar Feodor I."
+          alt="[object Object] - Tsarevokokshaisky Kremlin is a modern replica of the historical fortress, built in 1584 by the order of Tsar Feodor I."
           className="img-responsive gallery-image"
           src="/photographs/2014-05-10/2014-05-10_048_large.webp"
           title="Tsarevokokshaisky Kremlin is a modern replica of the historical fortress, built in 1584 by the order of Tsar Feodor I."
@@ -594,7 +594,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -604,7 +604,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -612,7 +612,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -622,12 +622,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

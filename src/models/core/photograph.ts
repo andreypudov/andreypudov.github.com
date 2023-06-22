@@ -1,11 +1,12 @@
 import Media from './media';
+import Text from './text';
 
 class Photograph implements Media {
   src: string;
   vertical: boolean;
-  description: string;
+  description?: Text;
 
-  constructor(src: string, vertical: boolean = false, description: string = '') {
+  constructor(src: string, vertical: boolean = false, description?: Text) {
     this.src = src;
     this.vertical = vertical;
     this.description = description;

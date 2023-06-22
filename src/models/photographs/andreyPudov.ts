@@ -1,9 +1,10 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
+import Text from '../core/text';
 
 const AndreyPudov = new Album(
-  'Andrey Pudov',
+  new Text('AndreyPudov', 'Andrey Pudov'),
   new Date('2022-07-09'),
   new Photograph('/photographs/2016-04-16/2016-04-16_002.webp'),
   [

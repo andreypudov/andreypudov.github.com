@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -96,10 +96,10 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Albums.Albums
+        Albums
       </h1>
       <h2>
-        Albums.Photographs
+        Photographs
       </h2>
       <div
         className="row"
@@ -115,7 +115,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2017-01-30/2017-01-30_001.webp"
+              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -124,6 +124,30 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Favorite Photographs
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/ebro/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-06-16_18/2023-06-16_18_011.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Delta of Ebro
               </h6>
             </div>
           </a>
@@ -1378,7 +1402,7 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <h2>
-        Albums.Drawings
+        Drawings
       </h2>
       <div
         className="row"
@@ -1457,7 +1481,7 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <h2>
-        Albums.TimeLapses
+        Time Lapses
       </h2>
       <div
         className="row"
@@ -1554,7 +1578,7 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <h2>
-        Albums.Articles
+        Articles
       </h2>
       <div
         className="row"
@@ -1651,7 +1675,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -1661,7 +1685,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -1669,7 +1693,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -1679,12 +1703,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

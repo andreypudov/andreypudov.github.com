@@ -4,11 +4,14 @@ import { Articles, Photographs, Drawings, TimeLapses } from './../models/pages';
 import LocalizedLink from './shared/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { getLocalizedDate } from '../utils/date';
+import { TFunction } from 'i18next';
 
-const entry = (page: Page, locale: string) => {
-  return (<li key = {page.getAlbum().getTitle()}>
+const entry = (page: Page, locale: string, t: TFunction) => {
+  const text = page.getAlbum().getTitle();
+
+  return (<li key = { text.getKey() }>
     <LocalizedLink to = {page.getRoute()}>
-      { page.getAlbum().getTitle() }
+      { t(text.getKey(), text.getFallback()) }
       <small>{ page.getAlbum().getDateString(locale) }</small>
     </LocalizedLink>
   </li>);
@@ -26,21 +29,21 @@ const Contents = () => {
           <li>
             <h2>{t('Contents.Photographs')}</h2>
           </li>
-          { Photographs.map(p => entry(p, i18n.language)) }
+          { Photographs.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>
           <li>
             <h2>{t('Contents.Drawings')}</h2>
           </li>
-          { Drawings.map(p => entry(p, i18n.language)) }
+          { Drawings.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>
           <li>
             <h2>{t('Contents.TimeLapses')}</h2>
           </li>
-          { TimeLapses.map(p => entry(p, i18n.language)) }
+          { TimeLapses.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>
@@ -71,7 +74,7 @@ const Contents = () => {
           <li>
             <h2>{t('Contents.Articles')}</h2>
           </li>
-          { Articles.map(p => entry(p, i18n.language)) }
+          { Articles.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>

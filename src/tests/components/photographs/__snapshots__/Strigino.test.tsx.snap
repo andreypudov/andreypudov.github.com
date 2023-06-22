@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Strigino International Airport - Gazpromavia RA-89029 / Sukhoi SuperJet 100"
+          alt="[object Object] - Gazpromavia RA-89029 / Sukhoi SuperJet 100"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_001.webp"
           title="Gazpromavia RA-89029 / Sukhoi SuperJet 100"
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Orenburzhie RA-67043 / Let L-410UVP-E20 Turbolet"
+          alt="[object Object] - Orenburzhie RA-67043 / Let L-410UVP-E20 Turbolet"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_002.webp"
           title="Orenburzhie RA-67043 / Let L-410UVP-E20 Turbolet"
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
+          alt="[object Object] - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_003.webp"
           title="Gazpromavia RA-89049 / Sukhoi SuperJet 100"
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
+          alt="[object Object] - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_004.webp"
           title="Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
@@ -165,7 +165,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
+          alt="[object Object] - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_006.webp"
           title="Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
@@ -178,7 +178,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Russia - Flight Checks and Systems RA-26631 \\"Vladimir Titov\\" / Antonov An-26"
+          alt="[object Object] - Russia - Flight Checks and Systems RA-26631 \\"Vladimir Titov\\" / Antonov An-26"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_008.webp"
           title="Russia - Flight Checks and Systems RA-26631 \\"Vladimir Titov\\" / Antonov An-26"
@@ -191,7 +191,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Azur Air VQ-BKB / Boeing 757"
+          alt="[object Object] - Azur Air VQ-BKB / Boeing 757"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_009.webp"
           title="Azur Air VQ-BKB / Boeing 757"
@@ -204,7 +204,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Azur Air VQ-BKB / Boeing 757"
+          alt="[object Object] - Azur Air VQ-BKB / Boeing 757"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_010.webp"
           title="Azur Air VQ-BKB / Boeing 757"
@@ -217,7 +217,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Azur Air VQ-BKB / Boeing 757"
+          alt="[object Object] - Azur Air VQ-BKB / Boeing 757"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_012.webp"
           title="Azur Air VQ-BKB / Boeing 757"
@@ -238,7 +238,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Strigino Airport is the international airport named after the Hero of the Soviet Union Valery Chkalov serving the city of Nizhny Novgorod. Strigino was officially exploited on 23 July 1923, as a domestic airport. Nizhny Novgorod International Airport is one of the oldest airports in Russia. Strigino is one of the top 25 busiest airports in Russia. Its extraordinarily rapid increase in passenger traffic rate (≤+20.0% annually) is speculated to bring it to top 10 busiest airports in Russia by 2020."
+          alt="[object Object] - Strigino Airport is the international airport named after the Hero of the Soviet Union Valery Chkalov serving the city of Nizhny Novgorod. Strigino was officially exploited on 23 July 1923, as a domestic airport. Nizhny Novgorod International Airport is one of the oldest airports in Russia. Strigino is one of the top 25 busiest airports in Russia. Its extraordinarily rapid increase in passenger traffic rate (≤+20.0% annually) is speculated to bring it to top 10 busiest airports in Russia by 2020."
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_014.webp"
           title="Strigino Airport is the international airport named after the Hero of the Soviet Union Valery Chkalov serving the city of Nizhny Novgorod. Strigino was officially exploited on 23 July 1923, as a domestic airport. Nizhny Novgorod International Airport is one of the oldest airports in Russia. Strigino is one of the top 25 busiest airports in Russia. Its extraordinarily rapid increase in passenger traffic rate (≤+20.0% annually) is speculated to bring it to top 10 busiest airports in Russia by 2020."
@@ -251,7 +251,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
+          alt="[object Object] - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_015.webp"
           title="Gazpromavia RA-89049 / Sukhoi SuperJet 100"
@@ -264,7 +264,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
+          alt="[object Object] - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_016.webp"
           title="Gazpromavia RA-89049 / Sukhoi SuperJet 100"
@@ -277,7 +277,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
+          alt="[object Object] - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
           className="img-responsive gallery-image vertical"
           src="/photographs/2017-08-23/2017-08-23_017.webp"
           title="Gazpromavia RA-89049 / Sukhoi SuperJet 100"
@@ -290,7 +290,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
+          alt="[object Object] - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
           className="img-responsive gallery-image vertical"
           src="/photographs/2017-08-23/2017-08-23_019.webp"
           title="Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
@@ -303,7 +303,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Azur Air VQ-BKB / Boeing 757"
+          alt="[object Object] - Azur Air VQ-BKB / Boeing 757"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_021.webp"
           title="Azur Air VQ-BKB / Boeing 757"
@@ -316,7 +316,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
+          alt="[object Object] - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_022.webp"
           title="Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
@@ -329,7 +329,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
+          alt="[object Object] - Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_023.webp"
           title="Rossiya Airlines VP-BOD \\"Belgorod\\" / Boeing 737 NG"
@@ -342,7 +342,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Azur Air VQ-BKB / Boeing 757"
+          alt="[object Object] - Azur Air VQ-BKB / Boeing 757"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_024.webp"
           title="Azur Air VQ-BKB / Boeing 757"
@@ -363,7 +363,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
+          alt="[object Object] - Gazpromavia RA-89049 / Sukhoi SuperJet 100"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_028.webp"
           title="Gazpromavia RA-89049 / Sukhoi SuperJet 100"
@@ -392,7 +392,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Strigino International Airport - Royal Flight VP-BOO / Boeing 757"
+          alt="[object Object] - Royal Flight VP-BOO / Boeing 757"
           className="img-responsive gallery-image"
           src="/photographs/2017-08-23/2017-08-23_031.webp"
           title="Royal Flight VP-BOO / Boeing 757"
@@ -430,7 +430,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -440,7 +440,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -448,7 +448,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -458,12 +458,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

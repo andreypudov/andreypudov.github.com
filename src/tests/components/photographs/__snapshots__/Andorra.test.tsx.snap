@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Andorra - Parc Natural Comunal de les Valls del Comapedrosa
+          alt="[object Object] - Parc Natural Comunal de les Valls del Comapedrosa
 
 Protected national park in the western portion of Andorra. It contains the highest point in Andorra, Coma Pedrosa, among other peaks."
           className="img-responsive gallery-image vertical"
@@ -228,7 +228,7 @@ Protected national park in the western portion of Andorra. It contains the highe
       </figure>
       <figure>
         <img
-          alt="Andorra - Mirador Roc Del Quer"
+          alt="[object Object] - Mirador Roc Del Quer"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_015.webp"
           title="Mirador Roc Del Quer"
@@ -273,7 +273,7 @@ Protected national park in the western portion of Andorra. It contains the highe
       </figure>
       <figure>
         <img
-          alt="Andorra - Lake Engolasters"
+          alt="[object Object] - Lake Engolasters"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_020.webp"
           title="Lake Engolasters"
@@ -319,7 +319,7 @@ Protected national park in the western portion of Andorra. It contains the highe
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -329,7 +329,7 @@ Protected national park in the western portion of Andorra. It contains the highe
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -337,7 +337,7 @@ Protected national park in the western portion of Andorra. It contains the highe
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -347,12 +347,12 @@ Protected national park in the western portion of Andorra. It contains the highe
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

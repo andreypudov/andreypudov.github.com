@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Ramon Palace - Also known as Princess Oldenburg's Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg."
+          alt="[object Object] - Also known as Princess Oldenburg's Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg."
           className="img-responsive gallery-image"
           src="/photographs/2017-01-07/2017-01-07_001.webp"
           title="Also known as Princess Oldenburg's Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg."
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Ramon Palace - In 1879 Tsar Alexander II gave the estate of Ramon to his niece Princess Eugenia and the Duke of Oldenburg as a wedding gift. In 1883 they commissioned construction of the palace, in red brick, in the style of an English Gothic castle with gatehouse. The architect is usually said to have been Christopher Neysler, but some sources attribute the design to Nicholas Benois."
+          alt="[object Object] - In 1879 Tsar Alexander II gave the estate of Ramon to his niece Princess Eugenia and the Duke of Oldenburg as a wedding gift. In 1883 they commissioned construction of the palace, in red brick, in the style of an English Gothic castle with gatehouse. The architect is usually said to have been Christopher Neysler, but some sources attribute the design to Nicholas Benois."
           className="img-responsive gallery-image"
           src="/photographs/2017-01-07/2017-01-07_002.webp"
           title="In 1879 Tsar Alexander II gave the estate of Ramon to his niece Princess Eugenia and the Duke of Oldenburg as a wedding gift. In 1883 they commissioned construction of the palace, in red brick, in the style of an English Gothic castle with gatehouse. The architect is usually said to have been Christopher Neysler, but some sources attribute the design to Nicholas Benois."
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Ramon Palace - The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it."
+          alt="[object Object] - The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it."
           className="img-responsive gallery-image"
           src="/photographs/2017-01-07/2017-01-07_003.webp"
           title="The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it."
@@ -161,7 +161,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -171,7 +171,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -179,7 +179,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -189,12 +189,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

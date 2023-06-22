@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -161,7 +161,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Chkalov Stairs
+          alt="[object Object] - Chkalov Stairs
 
 The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgorod, connecting Minin and Pozharsky Square, the Upper Volga, and the Lower Volga embankments. It was built by the architects Alexander Yakovlev, Lev Rudnev, and Vladimir Munts. It is the longest staircase in Russia. The staircase starts from the monument to Chkalov, near the St. George's Tower of the Kremlin. It is built in the form of a figure of eight and consists of 560 steps, if count it both sides. The number of steps from the bottom to the top is 442 on the right. In the intersections of the side slopes there are two observation platforms. At the bottom of the stairs is a monument to the boat \\"Hero\\", which is located at the Lower-Volga embankment."
           className="img-responsive gallery-image"
@@ -196,7 +196,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Microdistrict Meshchersky Lake"
+          alt="[object Object] - Microdistrict Meshchersky Lake"
           className="img-responsive gallery-image"
           src="/photographs/2017-07-28/2017-07-28_006.webp"
           title="Microdistrict Meshchersky Lake"
@@ -209,7 +209,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Volga River"
+          alt="[object Object] - Volga River"
           className="img-responsive gallery-image"
           src="/photographs/2017-07-01/2017-07-01_001.webp"
           title="Volga River"
@@ -222,7 +222,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Volga River"
+          alt="[object Object] - Volga River"
           className="img-responsive gallery-image"
           src="/photographs/2017-07-01/2017-07-01_002.webp"
           title="Volga River"
@@ -235,7 +235,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Volga River"
+          alt="[object Object] - Volga River"
           className="img-responsive gallery-image"
           src="/photographs/2017-07-01/2017-07-01_003.webp"
           title="Volga River"
@@ -248,7 +248,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Molitovsky Bridge"
+          alt="[object Object] - Molitovsky Bridge"
           className="img-responsive gallery-image"
           src="/photographs/2017-06-12/2017-06-12_001.webp"
           title="Molitovsky Bridge"
@@ -261,7 +261,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Deer Sculpture"
+          alt="[object Object] - Deer Sculpture"
           className="img-responsive gallery-image vertical"
           src="/photographs/2017-01-29/2017-01-29_001.webp"
           title="Deer Sculpture"
@@ -274,7 +274,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Deer Sculpture"
+          alt="[object Object] - Deer Sculpture"
           className="img-responsive gallery-image"
           src="/photographs/2017-01-29/2017-01-29_002.webp"
           title="Deer Sculpture"
@@ -287,7 +287,7 @@ The Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgo
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Pechersky Ascension Monastery
+          alt="[object Object] - Pechersky Ascension Monastery
 
 Pechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.
 
@@ -318,7 +318,7 @@ The monastery soon became an important spiritual and religious center of the Pri
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Nizhny Novgorod TV Tower"
+          alt="[object Object] - Nizhny Novgorod TV Tower"
           className="img-responsive gallery-image"
           src="/photographs/2017-02-02/2017-02-02_001.webp"
           title="Nizhny Novgorod TV Tower"
@@ -331,7 +331,7 @@ The monastery soon became an important spiritual and religious center of the Pri
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Nizhny Novgorod TV Tower"
+          alt="[object Object] - Nizhny Novgorod TV Tower"
           className="img-responsive gallery-image vertical"
           src="/photographs/2017-02-02/2017-02-02_002.webp"
           title="Nizhny Novgorod TV Tower"
@@ -344,7 +344,7 @@ The monastery soon became an important spiritual and religious center of the Pri
       </figure>
       <figure>
         <img
-          alt="Nizhny Novgorod - Nizhny Novgorod from the paragliding launch pad in Switzerland park."
+          alt="[object Object] - Nizhny Novgorod from the paragliding launch pad in Switzerland park."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-21/2015-07-21_001.webp"
           title="Nizhny Novgorod from the paragliding launch pad in Switzerland park."
@@ -398,7 +398,7 @@ The monastery soon became an important spiritual and religious center of the Pri
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -408,7 +408,7 @@ The monastery soon became an important spiritual and religious center of the Pri
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -416,7 +416,7 @@ The monastery soon became an important spiritual and religious center of the Pri
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -426,12 +426,12 @@ The monastery soon became an important spiritual and religious center of the Pri
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

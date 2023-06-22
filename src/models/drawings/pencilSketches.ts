@@ -1,18 +1,19 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const PencilSketches = new Album(
-  'Pencil Sketches',
+  new Text('PencilSketches', 'Pencil Sketches'),
   new Date('2020-07-16'),
-  new Photograph('/drawings/pencil-sketches/2020-04-26.webp', false, 'April 26, 2020'),
+  new Photograph('/drawings/pencil-sketches/2020-04-26.webp', false, new Text('PencilSketches', 'April 26, 2020')),
   [
-    new Photograph('/drawings/pencil-sketches/2020-07-16.webp', true, 'July 16, 2020'),
-    new Photograph('/drawings/pencil-sketches/2020-07-09.webp', true, 'July 9, 2020'),
-    new Photograph('/drawings/pencil-sketches/2020-04-26.webp', false, 'April 26, 2020'),
-    new Photograph('/drawings/pencil-sketches/2020-04-22.webp', true, 'April 22, 2020'),
-    new Photograph('/drawings/pencil-sketches/2020-04-07.webp', false, 'April 7, 2020'),
-    new Photograph('/drawings/pencil-sketches/2020-04-03.webp', false, 'April 3, 2020'),
-    new Photograph('/drawings/pencil-sketches/2020-04-02.webp', true, 'April 2, 2020'),
+    new Photograph('/drawings/pencil-sketches/2020-07-16.webp', true, new Text('PencilSketches', 'July 16, 2020')),
+    new Photograph('/drawings/pencil-sketches/2020-07-09.webp', true, new Text('PencilSketches', 'July 9, 2020')),
+    new Photograph('/drawings/pencil-sketches/2020-04-26.webp', false, new Text('PencilSketches', 'April 26, 2020')),
+    new Photograph('/drawings/pencil-sketches/2020-04-22.webp', true, new Text('PencilSketches', 'April 22, 2020')),
+    new Photograph('/drawings/pencil-sketches/2020-04-07.webp', false, new Text('PencilSketches', 'April 7, 2020')),
+    new Photograph('/drawings/pencil-sketches/2020-04-03.webp', false, new Text('PencilSketches', 'April 3, 2020')),
+    new Photograph('/drawings/pencil-sketches/2020-04-02.webp', true, new Text('PencilSketches', 'April 2, 2020')),
   ]);
 
 export default PencilSketches;

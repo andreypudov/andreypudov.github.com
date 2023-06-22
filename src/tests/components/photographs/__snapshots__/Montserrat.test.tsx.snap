@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Montserrat - Montserrat seen from Monistrol de Montserrat"
+          alt="[object Object] - Montserrat seen from Monistrol de Montserrat"
           className="img-responsive gallery-image vertical"
           src="/photographs/2023-05-07/2023-05-07_001.webp"
           title="Montserrat seen from Monistrol de Montserrat"
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Montserrat - Montserrat is one of the greatest symbols of Catalonia, that from being a religious centre has become a bastion of Catalan identity, without ignoring the natural environment and its characteristic morphology and structure of rounded and abrupt rocks and needles."
+          alt="[object Object] - Montserrat is one of the greatest symbols of Catalonia, that from being a religious centre has become a bastion of Catalan identity, without ignoring the natural environment and its characteristic morphology and structure of rounded and abrupt rocks and needles."
           className="img-responsive gallery-image"
           src="/photographs/2023-05-07/2023-05-07_002.webp"
           title="Montserrat is one of the greatest symbols of Catalonia, that from being a religious centre has become a bastion of Catalan identity, without ignoring the natural environment and its characteristic morphology and structure of rounded and abrupt rocks and needles."
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Montserrat - Pont Gòtic
+          alt="[object Object] - Pont Gòtic
 
 The bridge over the Llobregat river dates from the fourteenth century"
           className="img-responsive gallery-image vertical"
@@ -166,7 +166,7 @@ The bridge over the Llobregat river dates from the fourteenth century
       </figure>
       <figure>
         <img
-          alt="Montserrat - Santa Maria de Montserrat Abbey
+          alt="[object Object] - Santa Maria de Montserrat Abbey
 
 An abbey of the Order of Saint Benedict it is notable for enshrining the image of the Virgin of Montserrat. The monastery was founded in the 11th century and rebuilt between the 19th and 20th centuries, and still functions to this day, with over 70 monks. There have always been roughly 80 monks in residence."
           className="img-responsive gallery-image"
@@ -193,7 +193,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - New facade, work of Francesc Folguera"
+          alt="[object Object] - New facade, work of Francesc Folguera"
           className="img-responsive gallery-image vertical"
           src="/photographs/2023-05-07/2023-05-07_008.webp"
           title="New facade, work of Francesc Folguera"
@@ -206,7 +206,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - Monestir de Montserrat and Roca de St. Jaume"
+          alt="[object Object] - Monestir de Montserrat and Roca de St. Jaume"
           className="img-responsive gallery-image vertical"
           src="/photographs/2023-05-07/2023-05-07_009.webp"
           title="Monestir de Montserrat and Roca de St. Jaume"
@@ -243,7 +243,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - The massif, some 10 kilometres long and 5 kilometres wide, reaches the limits of the regions of Bages, Baix Llobregat and Anoia, and the Natural Park occupies 3,630 hectares of the municipalities of Bruc (Anoia), Marganell and Monistrol de Montserrat (Bages) and Collbató (Baix Llobregat), with almost 2,000 of these hectares as a nature reserve. An additional area of 4,039 hectares is catalogued as a protected zone, with part of the municipalities of Castellbell and El Vilar (Bages), Esparreguera (Baix Llobregat) and Vacarisses (Vallès Occidental)."
+          alt="[object Object] - The massif, some 10 kilometres long and 5 kilometres wide, reaches the limits of the regions of Bages, Baix Llobregat and Anoia, and the Natural Park occupies 3,630 hectares of the municipalities of Bruc (Anoia), Marganell and Monistrol de Montserrat (Bages) and Collbató (Baix Llobregat), with almost 2,000 of these hectares as a nature reserve. An additional area of 4,039 hectares is catalogued as a protected zone, with part of the municipalities of Castellbell and El Vilar (Bages), Esparreguera (Baix Llobregat) and Vacarisses (Vallès Occidental)."
           className="img-responsive gallery-image"
           src="/photographs/2023-05-07/2023-05-07_013.webp"
           title="The massif, some 10 kilometres long and 5 kilometres wide, reaches the limits of the regions of Bages, Baix Llobregat and Anoia, and the Natural Park occupies 3,630 hectares of the municipalities of Bruc (Anoia), Marganell and Monistrol de Montserrat (Bages) and Collbató (Baix Llobregat), with almost 2,000 of these hectares as a nature reserve. An additional area of 4,039 hectares is catalogued as a protected zone, with part of the municipalities of Castellbell and El Vilar (Bages), Esparreguera (Baix Llobregat) and Vacarisses (Vallès Occidental)."
@@ -272,7 +272,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - The highest summit of Montserrat is called Sant Jeroni and stands at 1,236 meters above sea-level. It is accessible by hiking trails which connect from the top entrance to the Sant Joan funicular, the monastery, or the base of the mountain."
+          alt="[object Object] - The highest summit of Montserrat is called Sant Jeroni and stands at 1,236 meters above sea-level. It is accessible by hiking trails which connect from the top entrance to the Sant Joan funicular, the monastery, or the base of the mountain."
           className="img-responsive gallery-image"
           src="/photographs/2023-05-07/2023-05-07_016.webp"
           title="The highest summit of Montserrat is called Sant Jeroni and stands at 1,236 meters above sea-level. It is accessible by hiking trails which connect from the top entrance to the Sant Joan funicular, the monastery, or the base of the mountain."
@@ -301,7 +301,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - Panorama of the view from the Sant Jeroni summit of Montserrat"
+          alt="[object Object] - Panorama of the view from the Sant Jeroni summit of Montserrat"
           className="img-responsive gallery-image"
           src="/photographs/2023-05-07/2023-05-07_019.webp"
           title="Panorama of the view from the Sant Jeroni summit of Montserrat"
@@ -354,7 +354,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - Montserrat does not have a particularly rich fauna due to the human presence, which has led to the disappearance of the larger species, accelerated by the fire of 1986. The animal population on Montserrat is typically Mediterranean, with mammals such as wild boar, squirrels, beech marten, common genet, Spanish ibex (which were introduced in 1995), various species of reptile, numerous rock-dwelling birds (such as the swift, crag martin or the warbler) and forest-dwelling birds (thrush, firecrest, pigeons and Orphean warbler)."
+          alt="[object Object] - Montserrat does not have a particularly rich fauna due to the human presence, which has led to the disappearance of the larger species, accelerated by the fire of 1986. The animal population on Montserrat is typically Mediterranean, with mammals such as wild boar, squirrels, beech marten, common genet, Spanish ibex (which were introduced in 1995), various species of reptile, numerous rock-dwelling birds (such as the swift, crag martin or the warbler) and forest-dwelling birds (thrush, firecrest, pigeons and Orphean warbler)."
           className="img-responsive gallery-image vertical"
           src="/photographs/2023-05-07/2023-05-07_025.webp"
           title="Montserrat does not have a particularly rich fauna due to the human presence, which has led to the disappearance of the larger species, accelerated by the fire of 1986. The animal population on Montserrat is typically Mediterranean, with mammals such as wild boar, squirrels, beech marten, common genet, Spanish ibex (which were introduced in 1995), various species of reptile, numerous rock-dwelling birds (such as the swift, crag martin or the warbler) and forest-dwelling birds (thrush, firecrest, pigeons and Orphean warbler)."
@@ -383,7 +383,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
       </figure>
       <figure>
         <img
-          alt="Montserrat - Rock Formations on Montserrat Mountain"
+          alt="[object Object] - Rock Formations on Montserrat Mountain"
           className="img-responsive gallery-image"
           src="/photographs/2023-05-07/2023-05-07_028.webp"
           title="Rock Formations on Montserrat Mountain"
@@ -461,7 +461,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -471,7 +471,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -479,7 +479,7 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -489,12 +489,12 @@ An abbey of the Order of Saint Benedict it is notable for enshrining the image o
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

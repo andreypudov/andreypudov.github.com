@@ -1,8 +1,9 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const ImperialTown = new Album(
-  'Imperial Town',
+  new Text('ImperialTown', 'Imperial Town'),
   new Date('2012-05-09'),
   new Photograph('/photographs/2012-05-05_09/2012-05-05_09_016_large.webp'),
   [

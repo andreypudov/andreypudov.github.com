@@ -6,7 +6,8 @@ type SheetProps = {
 };
 
 const Sheet = (props: SheetProps) => {
-  let sheet = props.album.getSheets()[props.index];
+  const sheet = props.album.getSheets()[props.index];
+  const description = sheet.description?.getTranslation()
 
   return (
     <figure>
@@ -14,9 +15,9 @@ const Sheet = (props: SheetProps) => {
         alt       = { `Andrey Pudov ${ props.album.getTitle() }` }
         className = {`img-responsive gallery-image${ sheet.vertical ? ' vertical' : '' }`} />
       {
-        sheet.description.length !== 0 &&
+        description?.length !== 0 &&
           <figcaption className = {`image-caption${ sheet.vertical ? ' vertical' : '' }`}>
-            { sheet.description }
+            { description }
           </figcaption>
       }
     </figure>

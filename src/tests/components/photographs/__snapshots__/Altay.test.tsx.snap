@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Mountain Devils Thumb"
+          alt="[object Object] - Mountain Devils Thumb"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_010.webp"
           title="Mountain Devils Thumb"
@@ -134,7 +134,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Katun River"
+          alt="[object Object] - Katun River"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_013.webp"
           title="Katun River"
@@ -155,7 +155,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Puchina Lake"
+          alt="[object Object] - Puchina Lake"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_015.webp"
           title="Puchina Lake"
@@ -168,7 +168,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Chemal Hydroelectric Power Station"
+          alt="[object Object] - Chemal Hydroelectric Power Station"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_019.webp"
           title="Chemal Hydroelectric Power Station"
@@ -181,7 +181,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Monastery in Patmos"
+          alt="[object Object] - Monastery in Patmos"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_020.webp"
           title="Monastery in Patmos"
@@ -210,7 +210,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Ininsky Suspension Bridge"
+          alt="[object Object] - Ininsky Suspension Bridge"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_026.webp"
           title="Ininsky Suspension Bridge"
@@ -279,7 +279,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - The Confluence of Chuya and Katun Rivers"
+          alt="[object Object] - The Confluence of Chuya and Katun Rivers"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_035.webp"
           title="The Confluence of Chuya and Katun Rivers"
@@ -324,7 +324,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Petroglyphs in Kalbak-Tash"
+          alt="[object Object] - Petroglyphs in Kalbak-Tash"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_040.webp"
           title="Petroglyphs in Kalbak-Tash"
@@ -369,7 +369,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Blue Geyser Lake"
+          alt="[object Object] - Blue Geyser Lake"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_045.webp"
           title="Blue Geyser Lake"
@@ -406,7 +406,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - The road to Mount Aktru"
+          alt="[object Object] - The road to Mount Aktru"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp"
           title="The road to Mount Aktru"
@@ -539,7 +539,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Mountain the Foreheads of Rams"
+          alt="[object Object] - Mountain the Foreheads of Rams"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_072.webp"
           title="Mountain the Foreheads of Rams"
@@ -552,7 +552,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Great Aktru Glacier"
+          alt="[object Object] - Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_080.webp"
           title="Great Aktru Glacier"
@@ -565,7 +565,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Blue Lake"
+          alt="[object Object] - Blue Lake"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_081.webp"
           title="Blue Lake"
@@ -650,7 +650,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Great Aktru Glacier"
+          alt="[object Object] - Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_099.webp"
           title="Great Aktru Glacier"
@@ -671,7 +671,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Small Aktru Glacier"
+          alt="[object Object] - Small Aktru Glacier"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_106.webp"
           title="Small Aktru Glacier"
@@ -788,7 +788,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Kosh-Agach"
+          alt="[object Object] - Kosh-Agach"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_126.webp"
           title="Kosh-Agach"
@@ -817,7 +817,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Martian Landscapes. Mountains of Kyzyl-Chin."
+          alt="[object Object] - Martian Landscapes. Mountains of Kyzyl-Chin."
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_129.webp"
           title="Martian Landscapes. Mountains of Kyzyl-Chin."
@@ -958,7 +958,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Kurai Steppe"
+          alt="[object Object] - Kurai Steppe"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_150.webp"
           title="Kurai Steppe"
@@ -1019,7 +1019,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Aktash"
+          alt="[object Object] - Aktash"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_160.webp"
           title="Aktash"
@@ -1080,7 +1080,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Aktash Repeater"
+          alt="[object Object] - Aktash Repeater"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_168.webp"
           title="Aktash Repeater"
@@ -1101,7 +1101,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Waterfall Shirlak"
+          alt="[object Object] - Waterfall Shirlak"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_170.webp"
           title="Waterfall Shirlak"
@@ -1130,7 +1130,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Bom Kur-Kechu"
+          alt="[object Object] - Bom Kur-Kechu"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_173.webp"
           title="Bom Kur-Kechu"
@@ -1143,7 +1143,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Chike-Taman Pass"
+          alt="[object Object] - Chike-Taman Pass"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_174.webp"
           title="Chike-Taman Pass"
@@ -1180,7 +1180,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Karakol"
+          alt="[object Object] - Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_179.webp"
           title="Karakol"
@@ -1201,7 +1201,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Ursul River"
+          alt="[object Object] - Ursul River"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_183.webp"
           title="Ursul River"
@@ -1214,7 +1214,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Karakol"
+          alt="[object Object] - Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_184.webp"
           title="Karakol"
@@ -1227,7 +1227,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Petroglyphs in Karakol"
+          alt="[object Object] - Petroglyphs in Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_189.webp"
           title="Petroglyphs in Karakol"
@@ -1240,7 +1240,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Graves in Karakol"
+          alt="[object Object] - Graves in Karakol"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_190.webp"
           title="Graves in Karakol"
@@ -1261,21 +1261,21 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Gorno-Altaysk
+          alt="[object Object] - Gorno-Altaysk
 
-The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking. "
+The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking."
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_192.webp"
           title="Gorno-Altaysk
 
-The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking. "
+The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking."
         />
         <figcaption
           className="image-caption"
         >
           Gorno-Altaysk
 
-The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking. 
+The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking.
         </figcaption>
       </figure>
       <figure>
@@ -1296,7 +1296,7 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
       </figure>
       <figure>
         <img
-          alt="Altay. Conquering Siberia 2.0 - Tavdinsky Caves"
+          alt="[object Object] - Tavdinsky Caves"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp"
           title="Tavdinsky Caves"
@@ -1326,7 +1326,7 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -1336,7 +1336,7 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -1344,7 +1344,7 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -1354,12 +1354,12 @@ The capital town of the Altai Republic. The selo of Ulala was established in 182
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

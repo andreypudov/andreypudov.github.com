@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -242,55 +242,55 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/barcelona-airport/"
-            onClick={[Function]}
-          >
-            <img
-              alt="LEBL Barcelona El Prat International Airport"
-              className="img-fluid"
-              src="/images/marketing/barcelona-airport.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/en/photographs/montserrat/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Montserrat"
-              className="img-fluid"
-              src="/images/marketing/montserrat.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/en/photographs/els-empedrats-del-montseny/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Els Empedrats del Montseny"
-              className="img-fluid"
-              src="/images/marketing/els-empedrats-del-montseny.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
             href="/en/photographs/favorite-photographs/"
             onClick={[Function]}
           >
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="/images/marketing/formula-sochi-2-0.webp"
+              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/en/photographs/ebro/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Delta of Ebro"
+              className="img-fluid"
+              src="/photographs/2023-06-16_18/2023-06-16_18_011.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/en/photographs/set-gorgs/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Ruta dels Set Gorgs de Campdevànol"
+              className="img-fluid"
+              src="/photographs/2023-06-03/2023-06-03_010.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/en/photographs/barcelona-airport/"
+            onClick={[Function]}
+          >
+            <img
+              alt="LEBL Barcelona El Prat International Airport"
+              className="img-fluid"
+              src="/photographs/2023-05-17/2023-05-17_011.webp"
             />
           </a>
         </div>
@@ -311,7 +311,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -321,7 +321,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -329,7 +329,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -339,12 +339,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

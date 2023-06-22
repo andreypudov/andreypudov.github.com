@@ -7,12 +7,13 @@ type PhotographProps = {
 
 const Photograph = (props: PhotographProps) => {
   const photograph = props.album.getMedia()[props.index];
-  const title = photograph.description.length !== 0
-    ? photograph.description
-    : props.album.getTitle();
-  const alt = photograph.description.length !== 0
-    ? `${props.album.getTitle()} - ${photograph.description}`
-    : props.album.getTitle();
+  const description = photograph.description;
+  const title = description
+    ? description.getTranslation()
+    : props.album.getTitle().getTranslation();
+  const alt = description
+    ? `${props.album.getTitle()} - ${description.getTranslation()}`
+    : props.album.getTitle().getTranslation();
 
   return (
     <figure>
@@ -21,9 +22,9 @@ const Photograph = (props: PhotographProps) => {
         alt       = { alt }
         className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
       {
-        photograph.description.length !== 0 &&
+        description &&
           <figcaption className = {`image-caption${ photograph.vertical ? ' vertical' : '' }`}>
-            { photograph.description }
+            { description.getTranslation() }
           </figcaption>
       }
     </figure>

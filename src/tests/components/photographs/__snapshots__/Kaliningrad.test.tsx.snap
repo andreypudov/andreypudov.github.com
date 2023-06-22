@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Rybnaya Derevnya"
+          alt="[object Object] - Rybnaya Derevnya"
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_001_large.webp"
           title="Rybnaya Derevnya"
@@ -118,26 +118,26 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Königsberg Cathedral is a Brick Gothic-style monument located on Kneiphof island in the Pregel (Pregolya) river. It is the most significant preserved building of the former City of Königsberg, which was largely destroyed in World War II.
+          alt="[object Object] - Königsberg Cathedral is a Brick Gothic-style monument located on Kneiphof island in the Pregel (Pregolya) river. It is the most significant preserved building of the former City of Königsberg, which was largely destroyed in World War II.
 
-Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started in 1992, after the dissolution of the Soviet Union. "
+Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started in 1992, after the dissolution of the Soviet Union."
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-08-24_30/2016-08-24_30_002_large.webp"
           title="Königsberg Cathedral is a Brick Gothic-style monument located on Kneiphof island in the Pregel (Pregolya) river. It is the most significant preserved building of the former City of Königsberg, which was largely destroyed in World War II.
 
-Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started in 1992, after the dissolution of the Soviet Union. "
+Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started in 1992, after the dissolution of the Soviet Union."
         />
         <figcaption
           className="image-caption vertical"
         >
           Königsberg Cathedral is a Brick Gothic-style monument located on Kneiphof island in the Pregel (Pregolya) river. It is the most significant preserved building of the former City of Königsberg, which was largely destroyed in World War II.
 
-Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started in 1992, after the dissolution of the Soviet Union. 
+Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started in 1992, after the dissolution of the Soviet Union.
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - House of Soviets
+          alt="[object Object] - House of Soviets
 
 The House of Soviets is an unfinished building in the center of the city of Kaliningrad. The local people often refer to it as the \\"buried robot\\" because its appearance resembles the head of a giant robot buried in the ground up to the shoulders. Intended as the central administration building of the oblast, it was built on the original site of Königsberg Castle."
           className="img-responsive gallery-image vertical"
@@ -156,18 +156,18 @@ The House of Soviets is an unfinished building in the center of the city of Kali
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Königsberg Cathedral
+          alt="[object Object] - Königsberg Cathedral
 
 A first smaller Catholic cathedral was erected in the Königsberg Altstadt between 1297 and 1302. After the Samland bishop Johann Clare had acquired the eastern part of Kneiphof island from the Teutonic Knights in 1322, he and his cathedral chapter had a new see built at the site and ensured its autonomy by a 1333 treaty with Grand Master Luther von Braunschweig.
 
-The construction is considered to have begun about 1330. The original building in Altstadt was subsequently demolished and materials from it were used to build the new cathedral on Kneiphof. The soil on which the cathedral was built was marshy, and so hundreds of oak poles were put into the ground before the construction of the cathedral could begin. After a relatively short period of almost 50 years, the cathedral was largely completed by 1380, while works on the interior frescoes lasted until the end of the 14th century. "
+The construction is considered to have begun about 1330. The original building in Altstadt was subsequently demolished and materials from it were used to build the new cathedral on Kneiphof. The soil on which the cathedral was built was marshy, and so hundreds of oak poles were put into the ground before the construction of the cathedral could begin. After a relatively short period of almost 50 years, the cathedral was largely completed by 1380, while works on the interior frescoes lasted until the end of the 14th century."
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-08-24_30/2016-08-24_30_004_large.webp"
           title="Königsberg Cathedral
 
 A first smaller Catholic cathedral was erected in the Königsberg Altstadt between 1297 and 1302. After the Samland bishop Johann Clare had acquired the eastern part of Kneiphof island from the Teutonic Knights in 1322, he and his cathedral chapter had a new see built at the site and ensured its autonomy by a 1333 treaty with Grand Master Luther von Braunschweig.
 
-The construction is considered to have begun about 1330. The original building in Altstadt was subsequently demolished and materials from it were used to build the new cathedral on Kneiphof. The soil on which the cathedral was built was marshy, and so hundreds of oak poles were put into the ground before the construction of the cathedral could begin. After a relatively short period of almost 50 years, the cathedral was largely completed by 1380, while works on the interior frescoes lasted until the end of the 14th century. "
+The construction is considered to have begun about 1330. The original building in Altstadt was subsequently demolished and materials from it were used to build the new cathedral on Kneiphof. The soil on which the cathedral was built was marshy, and so hundreds of oak poles were put into the ground before the construction of the cathedral could begin. After a relatively short period of almost 50 years, the cathedral was largely completed by 1380, while works on the interior frescoes lasted until the end of the 14th century."
         />
         <figcaption
           className="image-caption vertical"
@@ -176,31 +176,31 @@ The construction is considered to have begun about 1330. The original building i
 
 A first smaller Catholic cathedral was erected in the Königsberg Altstadt between 1297 and 1302. After the Samland bishop Johann Clare had acquired the eastern part of Kneiphof island from the Teutonic Knights in 1322, he and his cathedral chapter had a new see built at the site and ensured its autonomy by a 1333 treaty with Grand Master Luther von Braunschweig.
 
-The construction is considered to have begun about 1330. The original building in Altstadt was subsequently demolished and materials from it were used to build the new cathedral on Kneiphof. The soil on which the cathedral was built was marshy, and so hundreds of oak poles were put into the ground before the construction of the cathedral could begin. After a relatively short period of almost 50 years, the cathedral was largely completed by 1380, while works on the interior frescoes lasted until the end of the 14th century. 
+The construction is considered to have begun about 1330. The original building in Altstadt was subsequently demolished and materials from it were used to build the new cathedral on Kneiphof. The soil on which the cathedral was built was marshy, and so hundreds of oak poles were put into the ground before the construction of the cathedral could begin. After a relatively short period of almost 50 years, the cathedral was largely completed by 1380, while works on the interior frescoes lasted until the end of the 14th century.
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Kaliningrad Regional Amber Museum
+          alt="[object Object] - Kaliningrad Regional Amber Museum
 
-The Kaliningrad Regional Amber Museum is devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world's second-largest piece of amber and a 4-foot-tall vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard. "
+The Kaliningrad Regional Amber Museum is devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world's second-largest piece of amber and a 4-foot-tall vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_005_large.webp"
           title="Kaliningrad Regional Amber Museum
 
-The Kaliningrad Regional Amber Museum is devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world's second-largest piece of amber and a 4-foot-tall vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard. "
+The Kaliningrad Regional Amber Museum is devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world's second-largest piece of amber and a 4-foot-tall vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard."
         />
         <figcaption
           className="image-caption"
         >
           Kaliningrad Regional Amber Museum
 
-The Kaliningrad Regional Amber Museum is devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world's second-largest piece of amber and a 4-foot-tall vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard. 
+The Kaliningrad Regional Amber Museum is devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world's second-largest piece of amber and a 4-foot-tall vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard.
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - A private house in the historic district of Kaliningrad.
+          alt="[object Object] - A private house in the historic district of Kaliningrad.
 
 Kaliningrad, until 1946 known as Königsberg is situated on the Pregolya River, at the head of the Vistula Lagoon on the Baltic Sea, and is the only ice-free port of Russia and the Baltic states on the Baltic Sea.
 
@@ -225,7 +225,7 @@ Königsberg was the easternmost large city in Germany until World War II. The ci
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Rybnaya Derevnya. Modern riverside complex on Pregolya river, imitating architecture of Kaliningrad Prussian past."
+          alt="[object Object] - Rybnaya Derevnya. Modern riverside complex on Pregolya river, imitating architecture of Kaliningrad Prussian past."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_007_large.webp"
           title="Rybnaya Derevnya. Modern riverside complex on Pregolya river, imitating architecture of Kaliningrad Prussian past."
@@ -238,7 +238,7 @@ Königsberg was the easternmost large city in Germany until World War II. The ci
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Hangers of the abandoned Noytif military airbase.
+          alt="[object Object] - Hangers of the abandoned Noytif military airbase.
 
 Noytif was a military airbase in Baltiysk. It is located on the Vistula Spit, 5 kilometers southwest of Baltiysk center within the city proper, on the opposite side of the Strait of Baltiysk close to the westernmost point of Russia.
 
@@ -263,7 +263,7 @@ Originally constructed in the 1930s by Nazi Germany for the Luftwaffe, it was un
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Vistula Spit
+          alt="[object Object] - Vistula Spit
 
 The Vistula Spit is an aeolian sand spit, or peninsular stretch of land that separates Vistula Lagoon from Gdańsk Bay, in the Baltic Sea, with its tip separated from the mainland by the Strait of Baltiysk. The border between Poland (Pomeranian Voivodeship) and Kaliningrad Oblast, a semi-exclave of Russia, bisects it, politically dividing the spit in half between the two countries. The westernmost geographical point of Russia is located on the Vistula Spit. The Polish part contains a number of tourist resorts, incorporated administratively as the town of Krynica Morska."
           className="img-responsive gallery-image"
@@ -282,7 +282,7 @@ The Vistula Spit is an aeolian sand spit, or peninsular stretch of land that sep
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Abandoned Noytif military airbase."
+          alt="[object Object] - Abandoned Noytif military airbase."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_010_large.webp"
           title="Abandoned Noytif military airbase."
@@ -295,7 +295,7 @@ The Vistula Spit is an aeolian sand spit, or peninsular stretch of land that sep
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Vistula Spit
+          alt="[object Object] - Vistula Spit
 
 Until the 13th century, the spit had navigable straits in the middle, which allowed the city of Elbing, part of the monastic State of the Teutonic Knights, direct access to the Baltic Sea. The natural closing of the straits in the late 13th century reduced Elbing's status as an important trading seaport. This and the Teutonic takeover of Danzig (Gdańsk) and Polish Pomerania in 1308 led to the increased importance of Gdańsk.
 
@@ -320,7 +320,7 @@ During World War II, it became the last holdout of the remaining German soldiers
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - A private house in Zelenogradsk
+          alt="[object Object] - A private house in Zelenogradsk
 
 Zelenogradsk, prior to 1946 known by its German name Cranz, located 34 kilometers north of Kaliningrad, on the Sambian coastline near the Curonian Spit on the Baltic Sea. Population figures: 13,026 (2010 Census).
 
@@ -345,26 +345,26 @@ In its heyday, Zelenogradsk (as Cranz) was a popular seaside resort on Germany's
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Curonian Spit
+          alt="[object Object] - Curonian Spit
 
-The Curonian Spit is a 98-kilometer long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia, and its northern within southwestern Klaipėda County, Lithuania. It is a UNESCO World Heritage Site shared by Lithuania and Russia. "
+The Curonian Spit is a 98-kilometer long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia, and its northern within southwestern Klaipėda County, Lithuania. It is a UNESCO World Heritage Site shared by Lithuania and Russia."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_013_large.webp"
           title="Curonian Spit
 
-The Curonian Spit is a 98-kilometer long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia, and its northern within southwestern Klaipėda County, Lithuania. It is a UNESCO World Heritage Site shared by Lithuania and Russia. "
+The Curonian Spit is a 98-kilometer long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia, and its northern within southwestern Klaipėda County, Lithuania. It is a UNESCO World Heritage Site shared by Lithuania and Russia."
         />
         <figcaption
           className="image-caption"
         >
           Curonian Spit
 
-The Curonian Spit is a 98-kilometer long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia, and its northern within southwestern Klaipėda County, Lithuania. It is a UNESCO World Heritage Site shared by Lithuania and Russia. 
+The Curonian Spit is a 98-kilometer long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia, and its northern within southwestern Klaipėda County, Lithuania. It is a UNESCO World Heritage Site shared by Lithuania and Russia.
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Curonian Spit
+          alt="[object Object] - Curonian Spit
 
 The Curonian Spit was formed about the 3rd millennium BC. A glacial moraine served as its foundation; winds and sea currents later contributed enough sand to raise and keep the formation above sea level.
 
@@ -397,7 +397,7 @@ The existence of this narrow shoal is inherently threatened by the natural proce
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Dancing Forest
+          alt="[object Object] - Dancing Forest
 
 The Dancing Forest is a pine forest on the Curonian Spit in Kaliningrad Oblast, Russia noted for its unusually twisted trees. Unlike drunken forests, the trees in the Dancing Forest are twisted into several patterns, such as rings, hearts, and convoluted spirals bending to the ground. The exact cause of the trees' distortion is unknown. According to one version, the distortion is caused by the activity of the caterpillar of Rhyacionia buoliana. In the folk version, the Dancing Forest follows the movement of the sands."
           className="img-responsive gallery-image vertical"
@@ -424,7 +424,7 @@ The Dancing Forest is a pine forest on the Curonian Spit in Kaliningrad Oblast, 
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Curonian Spit
+          alt="[object Object] - Curonian Spit
 
 The Curonian Spit is home to the highest moving (drifting) sand dunes in Europe. Their average height is 35 meters, but some attain a height of 60 meters. Several ecological communities are present on and near the Spit, from its outer beaches to dune ridges, wetlands, meadows, and forests. Its location on the East Atlantic Flyway means it is frequently visited by migratory waterfowl. Between 10 and 20 million birds fly over the feature during spring and fall migrations, and many pause to rest or breed there."
           className="img-responsive gallery-image"
@@ -443,26 +443,26 @@ The Curonian Spit is home to the highest moving (drifting) sand dunes in Europe.
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Curonian Spit
+          alt="[object Object] - Curonian Spit
 
-According to Baltic mythology, the Curonian Spit was formed by a giantess, Neringa, who was playing on the seashore. This child also appears in other myths (in some of which she is shown as a strong young woman, similar to a female version of the Greek Heracles). "
+According to Baltic mythology, the Curonian Spit was formed by a giantess, Neringa, who was playing on the seashore. This child also appears in other myths (in some of which she is shown as a strong young woman, similar to a female version of the Greek Heracles)."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_019_large.webp"
           title="Curonian Spit
 
-According to Baltic mythology, the Curonian Spit was formed by a giantess, Neringa, who was playing on the seashore. This child also appears in other myths (in some of which she is shown as a strong young woman, similar to a female version of the Greek Heracles). "
+According to Baltic mythology, the Curonian Spit was formed by a giantess, Neringa, who was playing on the seashore. This child also appears in other myths (in some of which she is shown as a strong young woman, similar to a female version of the Greek Heracles)."
         />
         <figcaption
           className="image-caption"
         >
           Curonian Spit
 
-According to Baltic mythology, the Curonian Spit was formed by a giantess, Neringa, who was playing on the seashore. This child also appears in other myths (in some of which she is shown as a strong young woman, similar to a female version of the Greek Heracles). 
+According to Baltic mythology, the Curonian Spit was formed by a giantess, Neringa, who was playing on the seashore. This child also appears in other myths (in some of which she is shown as a strong young woman, similar to a female version of the Greek Heracles).
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Königsberg Cathedral
+          alt="[object Object] - Königsberg Cathedral
 
 Königsberg was the capital of East Prussia from the Late Middle Ages until 1945, and the easternmost large German city until it was conquered by the Soviet Union near the end of World War II.
 
@@ -487,7 +487,7 @@ In late August 1944, British bombers carried out two-night raids on Königsberg.
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Scientific-research vessel \\"Kosmonavt Viktor Patsayev\\".
+          alt="[object Object] - Scientific-research vessel \\"Kosmonavt Viktor Patsayev\\".
 
 The research vessel Kosmonavt Viktor Patsayev witnessed significant milestones in Soviet space exploration. She participated in creating the national nuclear-missile shield and was used in the testing and flight of spacecraft. After the Soviet Union was broken up and a difficult economic situation in the 1990s, the fleet was dissolved.
 
@@ -512,7 +512,7 @@ The vessel was named after Viktor Patsayev, an astronaut, Hero of the Soviet Uni
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Königsberg Cathedral
+          alt="[object Object] - Königsberg Cathedral
 
 After the war, the cathedral remained a burnt-out shell and Kneiphof was made into a park with no other buildings. Before the war, Kneiphof had many buildings. One of the buildings was the first Albertina University building, where Immanuel Kant taught, which was situated next to the east side of the cathedral. New construction nearby includes the House of the Soviets.
 
@@ -537,7 +537,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Rybnaya Derevnya"
+          alt="[object Object] - Rybnaya Derevnya"
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_023_large.webp"
           title="Rybnaya Derevnya"
@@ -558,7 +558,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Fort #5 \\"King Frederick William III of Prussia\\""
+          alt="[object Object] - Fort #5 \\"King Frederick William III of Prussia\\""
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_025_large.webp"
           title="Fort #5 \\"King Frederick William III of Prussia\\""
@@ -571,7 +571,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Fort #5 \\"King Frederick William III of Prussia\\". Photographs of the Second World War."
+          alt="[object Object] - Fort #5 \\"King Frederick William III of Prussia\\". Photographs of the Second World War."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_026_large.webp"
           title="Fort #5 \\"King Frederick William III of Prussia\\". Photographs of the Second World War."
@@ -584,7 +584,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - Fort #5 \\"King Frederick William III of Prussia\\""
+          alt="[object Object] - Fort #5 \\"King Frederick William III of Prussia\\""
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_027_large.webp"
           title="Fort #5 \\"King Frederick William III of Prussia\\""
@@ -613,7 +613,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
       </figure>
       <figure>
         <img
-          alt="Kaliningrad. The amber capital of the World - The sperm whale skeleton in the Museum of the World Ocean."
+          alt="[object Object] - The sperm whale skeleton in the Museum of the World Ocean."
           className="img-responsive gallery-image"
           src="/photographs/2016-08-24_30/2016-08-24_30_030_large.webp"
           title="The sperm whale skeleton in the Museum of the World Ocean."
@@ -643,7 +643,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -653,7 +653,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -661,7 +661,7 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -671,12 +671,12 @@ Shortly after Kaliningrad was opened to foreigners in the early 1990s, work bega
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

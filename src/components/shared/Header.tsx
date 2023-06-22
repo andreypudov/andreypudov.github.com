@@ -16,16 +16,16 @@ const Header = () => {
             <div className = 'collapse navbar-collapse justify-content-sm-center' id = 'navbarMain'>
               <ul className = 'navbar-nav'>
                 <li className = 'nav-item'>
-                  <LocalizedLink to = '/albums/' className = 'nav-link'>{t('Header.Albums')}</LocalizedLink>
+                  <LocalizedLink to = '/albums/' className = 'nav-link'>{t('Header.Albums', 'Albums')}</LocalizedLink>
                 </li>
                 <li className = 'nav-item'>
-                  <LocalizedLink to = '/contents/' className = 'nav-link'>{t('Header.Contents')}</LocalizedLink>
+                  <LocalizedLink to = '/contents/' className = 'nav-link'>{t('Header.Contents', 'Contents')}</LocalizedLink>
                 </li>
                 <li className = 'nav-item'>
-                  <LocalizedLink to = '/resume/' className = 'nav-link'>{t('Header.Resume')}</LocalizedLink>
+                  <LocalizedLink to = '/resume/' className = 'nav-link'>{t('Header.Resume', 'Resume')}</LocalizedLink>
                 </li>
                 <li className = 'nav-item'>
-                  <LocalizedLink to = '/contact/' className = 'nav-link'>{t('Header.Contact')}</LocalizedLink>
+                  <LocalizedLink to = '/contact/' className = 'nav-link'>{t('Header.Contact', 'Contact')}</LocalizedLink>
                 </li>
               </ul>
             </div>

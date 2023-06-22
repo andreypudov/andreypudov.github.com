@@ -1,8 +1,9 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const SetGorgs = new Album(
-  'Ruta dels Set Gorgs de Campdevànol',
+  new Text('SetGorgs', 'Ruta dels Set Gorgs de Campdevànol'),
   new Date('2023-06-03'),
   new Photograph('/photographs/2023-06-03/2023-06-03_010.webp'),
   [

@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Rådhuset Station"
+          alt="[object Object] - Rådhuset Station"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
           title="Rådhuset Station"
@@ -142,7 +142,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - T-Centralen"
+          alt="[object Object] - T-Centralen"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_005.webp"
           title="T-Centralen"
@@ -155,7 +155,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Stadion Centrum"
+          alt="[object Object] - Stadion Centrum"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_006.webp"
           title="Stadion Centrum"
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Colorful Buildings in Old Town"
+          alt="[object Object] - Colorful Buildings in Old Town"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_009.webp"
           title="Colorful Buildings in Old Town"
@@ -197,7 +197,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Museum of Medieval"
+          alt="[object Object] - Museum of Medieval"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_010.webp"
           title="Museum of Medieval"
@@ -210,7 +210,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Brunkeberg Tunnel"
+          alt="[object Object] - Brunkeberg Tunnel"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_011.webp"
           title="Brunkeberg Tunnel"
@@ -231,7 +231,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Vasa Museum "
+          alt="[object Object] - Vasa Museum "
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_013.webp"
           title="Vasa Museum "
@@ -276,7 +276,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Gröna Lund"
+          alt="[object Object] - Gröna Lund"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_018.webp"
           title="Gröna Lund"
@@ -289,7 +289,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Nordiska Museet"
+          alt="[object Object] - Nordiska Museet"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_019.webp"
           title="Nordiska Museet"
@@ -326,7 +326,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Kastellet"
+          alt="[object Object] - Kastellet"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_023.webp"
           title="Kastellet"
@@ -347,7 +347,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Skyview"
+          alt="[object Object] - Skyview"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_025.webp"
           title="Skyview"
@@ -368,7 +368,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Hammarbybacken Topplatå"
+          alt="[object Object] - Hammarbybacken Topplatå"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_027.webp"
           title="Hammarbybacken Topplatå"
@@ -413,7 +413,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Old Town"
+          alt="[object Object] - Old Town"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp"
           title="Old Town"
@@ -450,15 +450,15 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia -  City Hall"
+          alt="[object Object] - City Hall"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_036.webp"
-          title=" City Hall"
+          title="City Hall"
         />
         <figcaption
           className="image-caption vertical"
         >
-           City Hall
+          City Hall
         </figcaption>
       </figure>
       <figure>
@@ -487,7 +487,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Stockholm. Conquering Scandinavia - Uppsala"
+          alt="[object Object] - Uppsala"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_040.webp"
           title="Uppsala"
@@ -533,7 +533,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -543,7 +543,7 @@ exports[`renders correctly 1`] = `
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -551,7 +551,7 @@ exports[`renders correctly 1`] = `
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -561,12 +561,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

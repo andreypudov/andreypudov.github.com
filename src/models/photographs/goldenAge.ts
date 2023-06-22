@@ -1,8 +1,9 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const GoldenAge = new Album(
-  'Golden Age',
+  new Text('GoldenAge', 'Golden Age'),
   new Date('2012-09-15'),
   new Photograph('/photographs/2012-09-14_15/2012-09-14_15_005_large.webp'),
   [

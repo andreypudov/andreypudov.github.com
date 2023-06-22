@@ -1,8 +1,9 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 
 const RussianEmirates = new Album(
-  'Russian Emirates',
+  new Text('RussianEmirates', 'Russian Emirates'),
   new Date('2012-11-21'),
   new Photograph('/photographs/2012-11-09_21/2012-11-09_21_090_large.webp'),
   [

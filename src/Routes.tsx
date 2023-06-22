@@ -27,10 +27,10 @@ import PerformanceAlbum from './components/shared/PerformanceAlbum';
 const localizedRoute = (page: Page) => `/:lang${page.getRoute()}`
 
 const photographyRoute = (page: Page) =>
-  <Route path = { localizedRoute(page) } element = { <PhotographyAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
+  <Route path = { localizedRoute(page) } element = { <PhotographyAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle().getKey()} />;
 
 const drawingAlbumRoute = (page: Page) =>
-  <Route path = { localizedRoute(page) } element = { <DrawingAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle()} />;
+  <Route path = { localizedRoute(page) } element = { <DrawingAlbum album = { page.getAlbum() } /> } key = {page.getAlbum().getTitle().getKey()} />;
 
 const routes = () => {
   return (

@@ -12,7 +12,7 @@ const PhotographyAlbum = ({ album }: React.PropsWithChildren<PhotographyAlbumPro
   const { i18n } = useTranslation();
 
   return (
-    <Layout title = { album.getTitle() } cover = { album.getCover().src } social = { album.getSocial() }>
+    <Layout title = { album.getTitle().getTranslation() } cover = { album.getCover().src } social = { album.getSocial() }>
       <div className = 'container'>
         <Headline album = { album } locale = { i18n.language } />
         <AlbumView album = { album } />

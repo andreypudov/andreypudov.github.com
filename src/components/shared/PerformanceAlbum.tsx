@@ -13,7 +13,7 @@ const PerformanceAlbum = ({ album }: React.PropsWithChildren<PerformanceAlbumPro
   const { i18n } = useTranslation();
 
   return (
-    <Layout title = { album.getTitle() } cover = { album.getCover().src }>
+    <Layout title = { album.getTitle().getTranslation() } cover = { album.getCover().src }>
       <div className = 'container'>
         <Headline album = { album } locale = { i18n.language } />
         <AlbumView album = { album } />

@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="2016 Formula 1 Russian Grand Prix - Formula 1 Pit Marshals
+          alt="[object Object] - Formula 1 Pit Marshals
 
 Marshals play a vital part in allowing motorsport events to take place. Dressed in their unmistakable orange overalls, these volunteers carry out a variety of roles, such as moving damaged cars off the race track, to enable motorsport events to take place successfully and safely."
           className="img-responsive gallery-image"
@@ -124,7 +124,7 @@ Marshals play a vital part in allowing motorsport events to take place. Dressed 
       </figure>
       <figure>
         <img
-          alt="2016 Formula 1 Russian Grand Prix - Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
+          alt="[object Object] - Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
           title="Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
@@ -145,7 +145,7 @@ Marshals play a vital part in allowing motorsport events to take place. Dressed 
       </figure>
       <figure>
         <img
-          alt="2016 Formula 1 Russian Grand Prix - Bolshoy Ice Dome
+          alt="[object Object] - Bolshoy Ice Dome
 
 The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013."
           className="img-responsive gallery-image"
@@ -180,7 +180,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="2016 Formula 1 Russian Grand Prix - Krasnaya Polyana Ski Resort"
+          alt="[object Object] - Krasnaya Polyana Ski Resort"
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_007.webp"
           title="Krasnaya Polyana Ski Resort"
@@ -210,7 +210,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -220,7 +220,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -228,7 +228,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -238,12 +238,12 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

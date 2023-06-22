@@ -1,9 +1,10 @@
 import Album from './../core/performanceAlbum';
 import Photograph from '../core/photograph';
+import Text from '../core/text';
 import Video from '../core/video';
 
 const CureForWellness = new Album(
-  'A Cure for Wellness',
+  new Text('CureForWellness', 'A Cure for Wellness'),
   new Date('2018-03-17'),
   new Video('https://player.vimeo.com/video/517761510'),
   [

@@ -1,15 +1,16 @@
 import { getLocalizedDate } from '../../utils/date';
 import Media from './media';
 import Social from './social';
+import Text from './text';
 
 class PhotographyAlbum {
-  private title: string;
+  private title: Text;
   private date: Date;
   private cover: Media;
   private media: Media[];
   private social?: Social;
 
-  constructor(title: string, date: Date, cover: Media, media: Media[], social?: Social) {
+  constructor(title: Text, date: Date, cover: Media, media: Media[], social?: Social) {
     this.title = title;
     this.date = date;
     this.cover = cover;

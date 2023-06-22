@@ -8,7 +8,7 @@ const supportedLanguages = ['en', 'ru'];
 
 const urlEntry = (page: Page, timestamp: string, locale: string) => `<url>
     <loc>${domain}/${locale}${ page.getRoute() }</loc>
-    ${ page.getAlbum().getMedia().map((media: Media) =>  imageEntry(page.getAlbum().getTitle(), media)).join("").trim() }
+    ${ page.getAlbum().getMedia().map((media: Media) =>  imageEntry(page.getAlbum().getTitle().getFallback(), media)).join("").trim() }
     <lastmod>${ timestamp }</lastmod>
   </url>
   `;
@@ -18,8 +18,8 @@ const imageEntry = (pageTitle: string, media: Media) => `<image:image>
     </image:image>
     `;
 const imageDescription = (pageTitle: string, media: Media) =>
- media.description.length !== 0
-    ? `<image:caption>${encodeXml(media.description.replaceAll('\n', ' '))}</image:caption>`
+  media.description
+    ? `<image:caption>${encodeXml(media.description.getTranslation().replaceAll('\n', ' '))}</image:caption>`
     : `<image:title>${encodeXml(pageTitle)}</image:title>`;
 const encodeXml = (xml: string) => xml
   .replace(/&/g, '&amp;')

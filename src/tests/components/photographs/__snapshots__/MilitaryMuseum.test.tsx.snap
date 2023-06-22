@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
                   href="/en/albums/"
                   onClick={[Function]}
                 >
-                  Header.Albums
+                  Albums
                 </a>
               </li>
               <li
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contents/"
                   onClick={[Function]}
                 >
-                  Header.Contents
+                  Contents
                 </a>
               </li>
               <li
@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
                   href="/en/resume/"
                   onClick={[Function]}
                 >
-                  Header.Resume
+                  Resume
                 </a>
               </li>
               <li
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
                   href="/en/contact/"
                   onClick={[Function]}
                 >
-                  Header.Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The Sukhoi Su-24 is a supersonic, all-weather attack aircraft. The aircraft has a variable-sweep wing, twin-engines, and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system.
+          alt="[object Object] - The Sukhoi Su-24 is a supersonic, all-weather attack aircraft. The aircraft has a variable-sweep wing, twin-engines, and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system.
 
 The Mikoyan MiG-31 is a supersonic interceptor aircraft that was developed for use by the Soviet Air Forces. The aircraft was designed by the Mikoyan design bureau as a replacement for the earlier MiG-25 \\"Foxbat\\". The MiG-31 is among the fastest combat jets in the world.
 
@@ -138,7 +138,7 @@ The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Sovie
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The Yakovlev Yak-9 was a single-engine single-seat multi-purpose fighter aircraft used by the Soviet Union in World War II and after. The Yak-9 started arriving in Soviet fighter aviation regiments in late 1942 and played a major role in retaking air superiority from the Luftwaffe's new Focke-Wulf Fw 190 and Messerschmitt Bf 109G fighters during the grand Battle of Kursk in summer 1943."
+          alt="[object Object] - The Yakovlev Yak-9 was a single-engine single-seat multi-purpose fighter aircraft used by the Soviet Union in World War II and after. The Yak-9 started arriving in Soviet fighter aviation regiments in late 1942 and played a major role in retaking air superiority from the Luftwaffe's new Focke-Wulf Fw 190 and Messerschmitt Bf 109G fighters during the grand Battle of Kursk in summer 1943."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_003_large.webp"
           title="The Yakovlev Yak-9 was a single-engine single-seat multi-purpose fighter aircraft used by the Soviet Union in World War II and after. The Yak-9 started arriving in Soviet fighter aviation regiments in late 1942 and played a major role in retaking air superiority from the Luftwaffe's new Focke-Wulf Fw 190 and Messerschmitt Bf 109G fighters during the grand Battle of Kursk in summer 1943."
@@ -151,7 +151,7 @@ The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Sovie
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The T-54 and T-55 tanks are a series of Soviet main battle tanks introduced in the years following the Second World War. The first T-54 prototype was completed at Nizhny Tagil by the end of 1945. From the late 1950s, the T-54 eventually became the main tank for armoured units of the Soviet Army, armies of the Warsaw Pact countries, and many others. T-54s and T-55s have been involved in many of the world's armed conflicts since their introduction in the last half of the 20th century."
+          alt="[object Object] - The T-54 and T-55 tanks are a series of Soviet main battle tanks introduced in the years following the Second World War. The first T-54 prototype was completed at Nizhny Tagil by the end of 1945. From the late 1950s, the T-54 eventually became the main tank for armoured units of the Soviet Army, armies of the Warsaw Pact countries, and many others. T-54s and T-55s have been involved in many of the world's armed conflicts since their introduction in the last half of the 20th century."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_004_large.webp"
           title="The T-54 and T-55 tanks are a series of Soviet main battle tanks introduced in the years following the Second World War. The first T-54 prototype was completed at Nizhny Tagil by the end of 1945. From the late 1950s, the T-54 eventually became the main tank for armoured units of the Soviet Army, armies of the Warsaw Pact countries, and many others. T-54s and T-55s have been involved in many of the world's armed conflicts since their introduction in the last half of the 20th century."
@@ -164,7 +164,7 @@ The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Sovie
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The Polikarpov R-5 was a Soviet reconnaissance bomber aircraft of the 1930s. It was the standard light bomber and reconnaissance aircraft of the Soviet Air Force for much of the 1930s, while also being used heavily as a civilian light transport, some 7,000 being built in total."
+          alt="[object Object] - The Polikarpov R-5 was a Soviet reconnaissance bomber aircraft of the 1930s. It was the standard light bomber and reconnaissance aircraft of the Soviet Air Force for much of the 1930s, while also being used heavily as a civilian light transport, some 7,000 being built in total."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_005_large.webp"
           title="The Polikarpov R-5 was a Soviet reconnaissance bomber aircraft of the 1930s. It was the standard light bomber and reconnaissance aircraft of the Soviet Air Force for much of the 1930s, while also being used heavily as a civilian light transport, some 7,000 being built in total."
@@ -177,7 +177,7 @@ The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Sovie
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The T-18 light tank was the first Soviet-designed tank. Produced from 1928 to 1931, it was based on the Renault FT, with the addition of a vertically sprung suspension. The T-18 and its derivatives were essentially unsuccessful designs, but they gave Soviet industry its first experiences in designing armored vehicles."
+          alt="[object Object] - The T-18 light tank was the first Soviet-designed tank. Produced from 1928 to 1931, it was based on the Renault FT, with the addition of a vertically sprung suspension. The T-18 and its derivatives were essentially unsuccessful designs, but they gave Soviet industry its first experiences in designing armored vehicles."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_006_large.webp"
           title="The T-18 light tank was the first Soviet-designed tank. Produced from 1928 to 1931, it was based on the Renault FT, with the addition of a vertically sprung suspension. The T-18 and its derivatives were essentially unsuccessful designs, but they gave Soviet industry its first experiences in designing armored vehicles."
@@ -190,7 +190,7 @@ The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Sovie
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The IS-3 is a Soviet heavy tank developed in late 1944. Its semi-hemispherical cast turret became the hallmark of post-war Soviet tanks.
+          alt="[object Object] - The IS-3 is a Soviet heavy tank developed in late 1944. Its semi-hemispherical cast turret became the hallmark of post-war Soviet tanks.
 
 The IS-2 is the first of the IS tank series named after the Soviet leader Joseph Stalin. It was developed and saw combat during World War II, and saw service in other Soviet allied countries after the war.
 
@@ -271,7 +271,7 @@ The KV-2 is a heavy assault tank with the M-10 152 mm howitzer. Few were produce
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The BM-13H \\"Katyusha\\" multiple rocket launcher is a type of rocket artillery first built and fielded by the Soviet Union in World War II. Multiple rocket launchers such as these deliver explosives to a target area more intensively than conventional artillery."
+          alt="[object Object] - The BM-13H \\"Katyusha\\" multiple rocket launcher is a type of rocket artillery first built and fielded by the Soviet Union in World War II. Multiple rocket launchers such as these deliver explosives to a target area more intensively than conventional artillery."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_015_large.webp"
           title="The BM-13H \\"Katyusha\\" multiple rocket launcher is a type of rocket artillery first built and fielded by the Soviet Union in World War II. Multiple rocket launchers such as these deliver explosives to a target area more intensively than conventional artillery."
@@ -284,7 +284,7 @@ The KV-2 is a heavy assault tank with the M-10 152 mm howitzer. Few were produce
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The 9K52 Luna-M is a Soviet short-range artillery rocket system that fires unguided and spin-stabilized 9M21 rockets. It was originally developed in the 1960s to provide divisional artillery support using tactical nuclear weapons but gradually modified for conventional use. The 9K52 was eventually succeeded by the OTR-21 Tochka."
+          alt="[object Object] - The 9K52 Luna-M is a Soviet short-range artillery rocket system that fires unguided and spin-stabilized 9M21 rockets. It was originally developed in the 1960s to provide divisional artillery support using tactical nuclear weapons but gradually modified for conventional use. The 9K52 was eventually succeeded by the OTR-21 Tochka."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_016_large.webp"
           title="The 9K52 Luna-M is a Soviet short-range artillery rocket system that fires unguided and spin-stabilized 9M21 rockets. It was originally developed in the 1960s to provide divisional artillery support using tactical nuclear weapons but gradually modified for conventional use. The 9K52 was eventually succeeded by the OTR-21 Tochka."
@@ -329,7 +329,7 @@ The KV-2 is a heavy assault tank with the M-10 152 mm howitzer. Few were produce
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The S-75 is a Soviet-designed, high-altitude air defence system, built around a surface-to-air missile with command guidance. Following its first deployment in 1957, it became one of the most widely deployed air defence systems in history. It scored the first destruction of an enemy aircraft by a surface-to-air missile, with the shooting down of a Taiwanese Martin RB-57D Canberra over China on 7 October 1959 that was hit by a salvo of three V-750 (1D) missiles at an altitude of 20 km (65,600 ft). This success was credited to Chinese fighter aircraft at the time to keep the S-75 program secret.
+          alt="[object Object] - The S-75 is a Soviet-designed, high-altitude air defence system, built around a surface-to-air missile with command guidance. Following its first deployment in 1957, it became one of the most widely deployed air defence systems in history. It scored the first destruction of an enemy aircraft by a surface-to-air missile, with the shooting down of a Taiwanese Martin RB-57D Canberra over China on 7 October 1959 that was hit by a salvo of three V-750 (1D) missiles at an altitude of 20 km (65,600 ft). This success was credited to Chinese fighter aircraft at the time to keep the S-75 program secret.
 
 The 2K11 Krug is a Soviet and now Russian medium-range, medium-to-high altitude surface-to-air missile (SAM) system. The system was designed by NPO Novator and produced by Kalinin Machine Building Plant. Its GRAU designation is \\"2K11.\\"
 
@@ -386,7 +386,7 @@ The Buk missile is a family of self-propelled, medium-range surface-to-air missi
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The Mil Mi-24 is a large helicopter gunship, attack helicopter, and low-capacity troop transport with room for eight passengers. It is produced by Mil Moscow Helicopter Plant and has been operated since 1972 by the Soviet Air Force and its successors, along with 48 other nations."
+          alt="[object Object] - The Mil Mi-24 is a large helicopter gunship, attack helicopter, and low-capacity troop transport with room for eight passengers. It is produced by Mil Moscow Helicopter Plant and has been operated since 1972 by the Soviet Air Force and its successors, along with 48 other nations."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_026_large.webp"
           title="The Mil Mi-24 is a large helicopter gunship, attack helicopter, and low-capacity troop transport with room for eight passengers. It is produced by Mil Moscow Helicopter Plant and has been operated since 1972 by the Soviet Air Force and its successors, along with 48 other nations."
@@ -407,7 +407,7 @@ The Buk missile is a family of self-propelled, medium-range surface-to-air missi
       </figure>
       <figure>
         <img
-          alt="Battle Glory of the Urals - The 3–15–4 is an anti-aircraft searchlight station based on the ZiS-5. The station was used extensively in defense against nighttime bomber raids during the Second World War. Searchlights could track bombers, indicating targets to anti-aircraft guns and night fighters and dazzling crews."
+          alt="[object Object] - The 3–15–4 is an anti-aircraft searchlight station based on the ZiS-5. The station was used extensively in defense against nighttime bomber raids during the Second World War. Searchlights could track bombers, indicating targets to anti-aircraft guns and night fighters and dazzling crews."
           className="img-responsive gallery-image"
           src="/photographs/2014-12-21_25_museum/2014-12-21_25_028_large.webp"
           title="The 3–15–4 is an anti-aircraft searchlight station based on the ZiS-5. The station was used extensively in defense against nighttime bomber raids during the Second World War. Searchlights could track bombers, indicating targets to anti-aircraft guns and night fighters and dazzling crews."
@@ -653,7 +653,7 @@ The Buk missile is a family of self-propelled, medium-range surface-to-air missi
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutShort
+            About
           </a>
         </li>
         <li
@@ -663,7 +663,7 @@ The Buk missile is a family of self-propelled, medium-range surface-to-air missi
             href="/en/resume/"
             onClick={[Function]}
           >
-            Footer.AboutLong
+            About Andrey Pudov
           </a>
         </li>
         <li>
@@ -671,7 +671,7 @@ The Buk missile is a family of self-propelled, medium-range surface-to-air missi
             href="/en/contact/"
             onClick={[Function]}
           >
-            Footer.Contact
+            Contact
           </a>
         </li>
       </ul>
@@ -681,12 +681,12 @@ The Buk missile is a family of self-propelled, medium-range surface-to-air missi
         <p
           className="piped-links-long"
         >
-          Footer.CopyrightLong
+          Copyright © 2023 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          Footer.CopyrightShort
+          © 2023 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

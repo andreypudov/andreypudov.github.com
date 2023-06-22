@@ -1,9 +1,10 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
+import Text from '../core/text';
 
 const AsiaFarakshina = new Album(
-  'Asia Farakshina',
+  new Text('AsiaFarakshina', 'Asia Farakshina'),
   new Date('2015-08-14'),
   new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),
   [
