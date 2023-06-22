@@ -18,7 +18,6 @@
     <script>
       /* configuring the language */
       const supportedLanguagesList = ['en', 'ru'];
-      const defaultLanguage = supportedLanguagesList[0];
 
       const getPathWithoutLanguage = (pathname) =>
         (pathname.charAt(3) === '/') ? pathname.substring(3) : pathname;
@@ -27,16 +26,21 @@
         (navigator.languages.map((language) => language.substring(0, 2)))
         .filter((item, index, arr) => arr.indexOf(item) === index);
 
+      const getLanguageToUse = (requestedLanguage, supportedLanguages) =>
+        supportedLanguages.includes(requestedLanguage)
+          ? requestedLanguage
+          : supportedLanguages[0];
+
       requestedLanguage = () => window.location.pathname.split('/')[1] || '';
       supportedLanguages = () => getLanguagesSupportedByBrowser().filter((language) => supportedLanguagesList.includes(language));
       applyLanguage = (requestedLanguage, supportedLanguages) => {
-          const requiredLanguage = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : defaultLanguage;
-          const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(window.location.pathname)}`;
+        const requiredLanguage = getLanguageToUse(requestedLanguage, supportedLanguages);
+        const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(window.location.pathname)}`;
 
-          if (requiredLanguage !== requestedLanguage) {
-            window.location.replace(newPathname);
-          }
-        };
+        if (requiredLanguage !== requestedLanguage) {
+          window.location.replace(newPathname);
+        }
+      };
 
       applyLanguage(requestedLanguage(), supportedLanguages())
     </script>

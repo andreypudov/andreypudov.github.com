@@ -2,8 +2,8 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
 
-const Montserrat = new Album(
-  new Text('Montserrat', 'LEBL Barcelona El Prat International Airport'),
+const BarcelonaAirport = new Album(
+  new Text('BarcelonaAirport', 'LEBL Barcelona El Prat International Airport'),
   new Date('2023-05-17'),
   new Photograph('/photographs/2023-05-17/2023-05-17_011.webp'),
   [
@@ -23,4 +23,4 @@ const Montserrat = new Album(
    new Photograph('/photographs/2023-05-17/2023-05-17_014.webp', false, new Text('Montserrat.', 'The new control tower is a hyperboloid structure')),
   ]);
 
-export default Montserrat;
+export default BarcelonaAirport;
