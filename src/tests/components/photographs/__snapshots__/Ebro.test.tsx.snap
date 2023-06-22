@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="[object Object] - La Fontcalda"
+          alt="Delta of Ebro - La Fontcalda"
           className="img-responsive gallery-image"
           src="/photographs/2023-06-16_18/2023-06-16_18_001.webp"
           title="La Fontcalda"
@@ -166,7 +166,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Mirador de Benifallet"
+          alt="Delta of Ebro - Mirador de Benifallet"
           className="img-responsive gallery-image"
           src="/photographs/2023-06-16_18/2023-06-16_18_008.webp"
           title="Mirador de Benifallet"
@@ -211,7 +211,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - El Pinell de Brai"
+          alt="Delta of Ebro - El Pinell de Brai"
           className="img-responsive gallery-image"
           src="/photographs/2023-06-16_18/2023-06-16_18_013.webp"
           title="El Pinell de Brai"
@@ -232,7 +232,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Parc Natural del Delta de l'Ebre"
+          alt="Delta of Ebro - Parc Natural del Delta de l'Ebre"
           className="img-responsive gallery-image"
           src="/photographs/2023-06-16_18/2023-06-16_18_015.webp"
           title="Parc Natural del Delta de l'Ebre"
@@ -285,7 +285,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Cala Forn"
+          alt="Delta of Ebro - Cala Forn"
           className="img-responsive gallery-image"
           src="/photographs/2023-06-16_18/2023-06-16_18_021.webp"
           title="Cala Forn"

@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="[object Object] - The Genoese fortress of Sudak"
+          alt="Crimean Holidays - The Genoese fortress of Sudak"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_001.webp"
           title="The Genoese fortress of Sudak"
@@ -190,7 +190,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Klementiev Mountain"
+          alt="Crimean Holidays - Klementiev Mountain"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_011.webp"
           title="Klementiev Mountain"
@@ -235,7 +235,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Cape Meganom"
+          alt="Crimean Holidays - Cape Meganom"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
           title="Cape Meganom"
@@ -264,7 +264,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Chegem Valley"
+          alt="Crimean Holidays - Chegem Valley"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_023.webp"
           title="Chegem Valley"
@@ -325,7 +325,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - City of the Dead (Eltyubu village)"
+          alt="Crimean Holidays - City of the Dead (Eltyubu village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_031.webp"
           title="City of the Dead (Eltyubu village)"
@@ -378,7 +378,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Bulungu Village"
+          alt="Crimean Holidays - Bulungu Village"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_037.webp"
           title="Bulungu Village"
@@ -575,7 +575,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Greek stairs (Eltyubu village)"
+          alt="Crimean Holidays - Greek stairs (Eltyubu village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_063.webp"
           title="Greek stairs (Eltyubu village)"
@@ -716,7 +716,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Lake Gizhgit (Bylym village)"
+          alt="Crimean Holidays - Lake Gizhgit (Bylym village)"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_080.webp"
           title="Lake Gizhgit (Bylym village)"
@@ -729,7 +729,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Mount Elbrus"
+          alt="Crimean Holidays - Mount Elbrus"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_083.webp"
           title="Mount Elbrus"
@@ -766,7 +766,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Mir station - 3500 meters"
+          alt="Crimean Holidays - Mir station - 3500 meters"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_089.webp"
           title="Mir station - 3500 meters"
@@ -795,7 +795,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Pendulum cableway \\"Elbrus 1\\""
+          alt="Crimean Holidays - Pendulum cableway \\"Elbrus 1\\""
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_092.webp"
           title="Pendulum cableway \\"Elbrus 1\\""

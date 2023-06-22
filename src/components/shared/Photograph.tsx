@@ -12,7 +12,7 @@ const Photograph = (props: PhotographProps) => {
     ? description.getTranslation()
     : props.album.getTitle().getTranslation();
   const alt = description
-    ? `${props.album.getTitle()} - ${description.getTranslation()}`
+    ? `${props.album.getTitle().getFallback()} - ${description.getTranslation()}`
     : props.album.getTitle().getTranslation();
 
   return (

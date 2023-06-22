@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="[object Object] - Alice’ Song
+          alt="Ekaterina Domracheva - Alice’ Song
 
 I am awfully bored, I am simply without strength.
 And thoughts come - tempting, disturbing, -
@@ -386,7 +386,7 @@ Sir! Take Alice with you!
       </figure>
       <figure>
         <img
-          alt="[object Object] - A dream..."
+          alt="Ekaterina Domracheva - A dream..."
           className="img-responsive gallery-image"
           src="/photographs/2020-06-12/2020-06-12_001.webp"
           title="A dream..."
@@ -399,7 +399,7 @@ Sir! Take Alice with you!
       </figure>
       <figure>
         <img
-          alt="[object Object] - The summer evening"
+          alt="Ekaterina Domracheva - The summer evening"
           className="img-responsive gallery-image"
           src="/photographs/2020-06-08/2020-06-08_001.webp"
           title="The summer evening"
@@ -412,7 +412,7 @@ Sir! Take Alice with you!
       </figure>
       <figure>
         <img
-          alt="[object Object] - The first trip"
+          alt="Ekaterina Domracheva - The first trip"
           className="img-responsive gallery-image vertical"
           src="/photographs/2019-06-12/2019-06-12_001.webp"
           title="The first trip"
@@ -425,7 +425,7 @@ Sir! Take Alice with you!
       </figure>
       <figure>
         <img
-          alt="[object Object] - The first time we met"
+          alt="Ekaterina Domracheva - The first time we met"
           className="img-responsive gallery-image"
           src="/photographs/2018-06-23/2018-06-23_001.webp"
           title="The first time we met"

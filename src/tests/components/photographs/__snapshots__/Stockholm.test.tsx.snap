@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="[object Object] - Rådhuset Station"
+          alt="Stockholm. Conquering Scandinavia - Rådhuset Station"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
           title="Rådhuset Station"
@@ -142,7 +142,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - T-Centralen"
+          alt="Stockholm. Conquering Scandinavia - T-Centralen"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_005.webp"
           title="T-Centralen"
@@ -155,7 +155,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Stadion Centrum"
+          alt="Stockholm. Conquering Scandinavia - Stadion Centrum"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_006.webp"
           title="Stadion Centrum"
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Colorful Buildings in Old Town"
+          alt="Stockholm. Conquering Scandinavia - Colorful Buildings in Old Town"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_009.webp"
           title="Colorful Buildings in Old Town"
@@ -197,7 +197,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Museum of Medieval"
+          alt="Stockholm. Conquering Scandinavia - Museum of Medieval"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_010.webp"
           title="Museum of Medieval"
@@ -210,7 +210,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Brunkeberg Tunnel"
+          alt="Stockholm. Conquering Scandinavia - Brunkeberg Tunnel"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_011.webp"
           title="Brunkeberg Tunnel"
@@ -231,7 +231,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Vasa Museum "
+          alt="Stockholm. Conquering Scandinavia - Vasa Museum "
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_013.webp"
           title="Vasa Museum "
@@ -276,7 +276,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Gröna Lund"
+          alt="Stockholm. Conquering Scandinavia - Gröna Lund"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_018.webp"
           title="Gröna Lund"
@@ -289,7 +289,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Nordiska Museet"
+          alt="Stockholm. Conquering Scandinavia - Nordiska Museet"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_019.webp"
           title="Nordiska Museet"
@@ -326,7 +326,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Kastellet"
+          alt="Stockholm. Conquering Scandinavia - Kastellet"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_023.webp"
           title="Kastellet"
@@ -347,7 +347,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Skyview"
+          alt="Stockholm. Conquering Scandinavia - Skyview"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_025.webp"
           title="Skyview"
@@ -368,7 +368,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Hammarbybacken Topplatå"
+          alt="Stockholm. Conquering Scandinavia - Hammarbybacken Topplatå"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_027.webp"
           title="Hammarbybacken Topplatå"
@@ -413,7 +413,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Old Town"
+          alt="Stockholm. Conquering Scandinavia - Old Town"
           className="img-responsive gallery-image"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp"
           title="Old Town"
@@ -450,7 +450,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - City Hall"
+          alt="Stockholm. Conquering Scandinavia - City Hall"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_036.webp"
           title="City Hall"
@@ -487,7 +487,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Uppsala"
+          alt="Stockholm. Conquering Scandinavia - Uppsala"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_040.webp"
           title="Uppsala"

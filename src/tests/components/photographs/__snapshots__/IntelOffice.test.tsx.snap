@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Darya Kiryanova"
+          alt="Intel Office in Nizhny Novgorod - Darya Kiryanova"
           className="img-responsive gallery-image vertical"
           src="/photographs/2020-02-13_14/2020-02-13_14_002.webp"
           title="Darya Kiryanova"
@@ -190,7 +190,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Natalia Muravieva"
+          alt="Intel Office in Nizhny Novgorod - Natalia Muravieva"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_011.webp"
           title="Natalia Muravieva"
@@ -235,7 +235,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Vadim Grishkin"
+          alt="Intel Office in Nizhny Novgorod - Vadim Grishkin"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_016.webp"
           title="Vadim Grishkin"
@@ -312,7 +312,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Anatoly Lubomirov"
+          alt="Intel Office in Nizhny Novgorod - Anatoly Lubomirov"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_025.webp"
           title="Anatoly Lubomirov"
@@ -365,7 +365,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Serge Papkov"
+          alt="Intel Office in Nizhny Novgorod - Serge Papkov"
           className="img-responsive gallery-image"
           src="/photographs/2020-02-13_14/2020-02-13_14_031.webp"
           title="Serge Papkov"

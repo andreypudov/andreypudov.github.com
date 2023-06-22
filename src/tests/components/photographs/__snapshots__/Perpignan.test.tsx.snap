@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Perpignan Cathedral"
+          alt="Perpignan - Perpignan Cathedral"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_004.webp"
           title="Perpignan Cathedral"
@@ -174,7 +174,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Palace of the Kings of Majorca"
+          alt="Perpignan - Palace of the Kings of Majorca"
           className="img-responsive gallery-image"
           src="/photographs/2022-12-06/2022-12-06_009.webp"
           title="Palace of the Kings of Majorca"

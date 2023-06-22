@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="[object Object] - The expedition leader Ivan Schipakin and Olga Poroshina."
+          alt="Lake Baikal Team - The expedition leader Ivan Schipakin and Olga Poroshina."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_004.webp"
           title="The expedition leader Ivan Schipakin and Olga Poroshina."
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Evgeny Timofeev is an expedition photographer."
+          alt="Lake Baikal Team - Evgeny Timofeev is an expedition photographer."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_001.webp"
           title="Evgeny Timofeev is an expedition photographer."
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Participants of the hike organized by the Ural Tropa tourist club."
+          alt="Lake Baikal Team - Participants of the hike organized by the Ural Tropa tourist club."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_003.webp"
           title="Participants of the hike organized by the Ural Tropa tourist club."
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
+          alt="Lake Baikal Team - Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_007.webp"
           title="Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition."
@@ -157,7 +157,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Participants of the hike organized by the Ural Tropa tourist club."
+          alt="Lake Baikal Team - Participants of the hike organized by the Ural Tropa tourist club."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp"
           title="Participants of the hike organized by the Ural Tropa tourist club."
@@ -170,7 +170,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Aleksey Gladkih and Olga Yagovitina"
+          alt="Lake Baikal Team - Aleksey Gladkih and Olga Yagovitina"
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_005.webp"
           title="Aleksey Gladkih and Olga Yagovitina"
@@ -183,7 +183,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
+          alt="Lake Baikal Team - Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_008.webp"
           title="Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants."
@@ -196,7 +196,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
+          alt="Lake Baikal Team - The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_009.webp"
           title="The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula."
@@ -209,7 +209,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."
+          alt="Lake Baikal Team - Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_006.webp"
           title="Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination."

@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - Parc Natural Comunal de les Valls del Comapedrosa
+          alt="Andorra - Parc Natural Comunal de les Valls del Comapedrosa
 
 Protected national park in the western portion of Andorra. It contains the highest point in Andorra, Coma Pedrosa, among other peaks."
           className="img-responsive gallery-image vertical"
@@ -228,7 +228,7 @@ Protected national park in the western portion of Andorra. It contains the highe
       </figure>
       <figure>
         <img
-          alt="[object Object] - Mirador Roc Del Quer"
+          alt="Andorra - Mirador Roc Del Quer"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_015.webp"
           title="Mirador Roc Del Quer"
@@ -273,7 +273,7 @@ Protected national park in the western portion of Andorra. It contains the highe
       </figure>
       <figure>
         <img
-          alt="[object Object] - Lake Engolasters"
+          alt="Andorra - Lake Engolasters"
           className="img-responsive gallery-image"
           src="/photographs/2022-10-15_16/2022-10-15_16_020.webp"
           title="Lake Engolasters"

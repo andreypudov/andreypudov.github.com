@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="[object Object] - Rådhuset Station"
+          alt="Favorite Photographs - Rådhuset Station"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
           title="Rådhuset Station"
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="[object Object] - The Kiss of Death
+          alt="Favorite Photographs - The Kiss of Death
 
 The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.
 
@@ -143,7 +143,7 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="[object Object] - Cape Meganom"
+          alt="Favorite Photographs - Cape Meganom"
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
           title="Cape Meganom"
@@ -156,7 +156,7 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="[object Object] - Ekaterina Domracheva"
+          alt="Favorite Photographs - Ekaterina Domracheva"
           className="img-responsive gallery-image"
           src="/photographs/2020-06-12/2020-06-12_001.webp"
           title="Ekaterina Domracheva"
@@ -169,7 +169,7 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="[object Object] - Ekaterina Domracheva"
+          alt="Favorite Photographs - Ekaterina Domracheva"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp"
           title="Ekaterina Domracheva"
@@ -182,7 +182,7 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="[object Object] - Great Aktru Glacier"
+          alt="Favorite Photographs - Great Aktru Glacier"
           className="img-responsive gallery-image"
           src="/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
           title="Great Aktru Glacier"
@@ -195,7 +195,7 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="[object Object] - Alina Cherdakova"
+          alt="Favorite Photographs - Alina Cherdakova"
           className="img-responsive gallery-image vertical"
           src="/photographs/2018-08-18/2018-08-18_005.webp"
           title="Alina Cherdakova"
@@ -208,7 +208,7 @@ The Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculptu
       </figure>
       <figure>
         <img
-          alt="[object Object] - St. Peter's Basilica
+          alt="Favorite Photographs - St. Peter's Basilica
 
 The Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter's Basilica, is a church built in the Renaissance style located in Vatican City. It was initially planned by Pope Nicholas V and then Pope Julius II to replace the aging Old St. Peter's Basilica, which was built in the fourth century by Roman emperor Constantine the Great. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626.
 
@@ -233,7 +233,7 @@ Designed principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lo
       </figure>
       <figure>
         <img
-          alt="[object Object] - Kira Orlova"
+          alt="Favorite Photographs - Kira Orlova"
           className="img-responsive gallery-image"
           src="/photographs/2017-10-22/2017-10-22_016_large.webp"
           title="Kira Orlova"
@@ -246,7 +246,7 @@ Designed principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lo
       </figure>
       <figure>
         <img
-          alt="[object Object] - Dumbo
+          alt="Favorite Photographs - Dumbo
 
 The area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups."
           className="img-responsive gallery-image vertical"
@@ -265,7 +265,7 @@ The area known as Dumbo used to be known as Gairville. The area was originally a
       </figure>
       <figure>
         <img
-          alt="[object Object] - Oculus / World Trade Center Station
+          alt="Favorite Photographs - Oculus / World Trade Center Station
 
 One of the first decisions that Calatrava had in mind at the time of conceiving the project was the realization of the building at street level, an independent structure along the Wedge of Light Square, by Daniel Libeskind. “Oculus”, the centerpiece of the Transportation Center that presents the new station to the world is a kind of pause in the middle of the dense glass and steel towers that surround it.
 
@@ -290,7 +290,7 @@ The construction, due to constant delays, lasted 12 years and was finally inaugu
       </figure>
       <figure>
         <img
-          alt="[object Object] - Pechersky Ascension Monastery
+          alt="Favorite Photographs - Pechersky Ascension Monastery
 
 Pechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.
 
@@ -321,7 +321,7 @@ The monastery soon became an important spiritual and religious center of the Pri
       </figure>
       <figure>
         <img
-          alt="[object Object] - Metro Bridge over the Oka River"
+          alt="Favorite Photographs - Metro Bridge over the Oka River"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-12-15/2016-12-15_001.webp"
           title="Metro Bridge over the Oka River"
@@ -334,7 +334,7 @@ The monastery soon became an important spiritual and religious center of the Pri
       </figure>
       <figure>
         <img
-          alt="[object Object] - 6th Avenue & West 42nd Street"
+          alt="Favorite Photographs - 6th Avenue & West 42nd Street"
           className="img-responsive gallery-image vertical"
           src="/photographs/2016-10-15_11-05/2016-10-15_11-05_041_large.webp"
           title="6th Avenue & West 42nd Street"
@@ -347,7 +347,7 @@ The monastery soon became an important spiritual and religious center of the Pri
       </figure>
       <figure>
         <img
-          alt="[object Object] - Central Park
+          alt="Favorite Photographs - Central Park
 
 Between 1821 and 1855, New York City's population nearly quadrupled. As the city expanded northward up Manhattan Island, people were drawn to the few existing open spaces, mainly cemeteries, for passive recreation. These were seen as escapes from the noise and chaotic life in the city, which at the time was almost entirely centered on Lower Manhattan. The Commissioners' Plan of 1811, the outline for Manhattan's modern street grid, included several smaller open spaces but not Central Park. As such, John Randel Jr. had surveyed the grounds for the construction of intersections within the modern-day park site.
 
@@ -372,7 +372,7 @@ Today, Central Park is the most visited urban park in the United States and one 
       </figure>
       <figure>
         <img
-          alt="[object Object] - One World Trade Center
+          alt="Favorite Photographs - One World Trade Center
 
 One World Trade Center is the main building of the rebuilt World Trade Center complex in Lower Manhattan. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 6.5 ha World Trade Center site, on the site of the original 6 World Trade Center."
           className="img-responsive gallery-image vertical"
@@ -391,7 +391,7 @@ One World Trade Center is the main building of the rebuilt World Trade Center co
       </figure>
       <figure>
         <img
-          alt="[object Object] - Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
+          alt="Favorite Photographs - Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
           className="img-responsive gallery-image"
           src="/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
           title="Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg's W07 car."
@@ -404,7 +404,7 @@ One World Trade Center is the main building of the rebuilt World Trade Center co
       </figure>
       <figure>
         <img
-          alt="[object Object] - Bolshoy Ice Dome
+          alt="Favorite Photographs - Bolshoy Ice Dome
 
 The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013."
           className="img-responsive gallery-image"
@@ -423,7 +423,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - Meteor Rain"
+          alt="Favorite Photographs - Meteor Rain"
           className="img-responsive gallery-image"
           src="/photographs/2015-08-12/2015-08-12_002.webp"
           title="Meteor Rain"
@@ -436,7 +436,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - Ekaterina Malysheva"
+          alt="Favorite Photographs - Ekaterina Malysheva"
           className="img-responsive gallery-image"
           src="/photographs/2016-04-16/2016-04-16_009.webp"
           title="Ekaterina Malysheva"
@@ -449,7 +449,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - The Holy Nose Peninsula is on fire. Because of strong thunderstorms, since the end of July, violent fires have been raging in the mountains in the Baikal nature reserves. About 25,000 hectares of forest were affected by the fire."
+          alt="Favorite Photographs - The Holy Nose Peninsula is on fire. Because of strong thunderstorms, since the end of July, violent fires have been raging in the mountains in the Baikal nature reserves. About 25,000 hectares of forest were affected by the fire."
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08/2015-07-27_08-08_058_large.webp"
           title="The Holy Nose Peninsula is on fire. Because of strong thunderstorms, since the end of July, violent fires have been raging in the mountains in the Baikal nature reserves. About 25,000 hectares of forest were affected by the fire."
@@ -462,7 +462,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - Lake Baikal"
+          alt="Favorite Photographs - Lake Baikal"
           className="img-responsive gallery-image"
           src="/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
           title="Lake Baikal"
@@ -475,7 +475,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - Maidan Nezalezhnosti is the central square of Kyiv. One of the city's main squares. It has been known under many different names, but often it is called simply Maidan (\\"square\\"). In the 19th century, the square contained buildings of the city council and noble assembly. Since the start of Ukraine's independence movement in 1990, the square has been the traditional place for political rallies, including four large-scale radical protest campaigns: the 1990 student \\"Revolution on Granite\\", the 2001 \\"Ukraine without Kuchma\\", the 2004 Orange Revolution, and the 2013–14 Euromaidan. Maidan is also a regular site for non-political displays and events, however, since 2014 most of them were moved to Sofiyivska Square or elsewhere, because making entertainment in a place where people were killed during Euromaidan was considered inappropriate. Most notably, Christmas Fairs and New Year celebrations were moved to Sofiyivska Square."
+          alt="Favorite Photographs - Maidan Nezalezhnosti is the central square of Kyiv. One of the city's main squares. It has been known under many different names, but often it is called simply Maidan (\\"square\\"). In the 19th century, the square contained buildings of the city council and noble assembly. Since the start of Ukraine's independence movement in 1990, the square has been the traditional place for political rallies, including four large-scale radical protest campaigns: the 1990 student \\"Revolution on Granite\\", the 2001 \\"Ukraine without Kuchma\\", the 2004 Orange Revolution, and the 2013–14 Euromaidan. Maidan is also a regular site for non-political displays and events, however, since 2014 most of them were moved to Sofiyivska Square or elsewhere, because making entertainment in a place where people were killed during Euromaidan was considered inappropriate. Most notably, Christmas Fairs and New Year celebrations were moved to Sofiyivska Square."
           className="img-responsive gallery-image"
           src="/photographs/2013-09-14_27/2013-09-27_108_large.webp"
           title="Maidan Nezalezhnosti is the central square of Kyiv. One of the city's main squares. It has been known under many different names, but often it is called simply Maidan (\\"square\\"). In the 19th century, the square contained buildings of the city council and noble assembly. Since the start of Ukraine's independence movement in 1990, the square has been the traditional place for political rallies, including four large-scale radical protest campaigns: the 1990 student \\"Revolution on Granite\\", the 2001 \\"Ukraine without Kuchma\\", the 2004 Orange Revolution, and the 2013–14 Euromaidan. Maidan is also a regular site for non-political displays and events, however, since 2014 most of them were moved to Sofiyivska Square or elsewhere, because making entertainment in a place where people were killed during Euromaidan was considered inappropriate. Most notably, Christmas Fairs and New Year celebrations were moved to Sofiyivska Square."
@@ -488,7 +488,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - The Vorontsov Lighthouse is a red-and-white, 27.2-meter tall lighthouse in the Black Sea port of Odessa. It is named after Prince Mikhail Semyonovich Vorontsov, one of the governors-general of the Odessa region. It has a one-million-watt signal light that can be seen up to twelve nautical miles (22 km) away. It transmits the Morse Code signal of three dashes, the letter O, for Odessa. It also sounds like a foghorn during severe storms or fog."
+          alt="Favorite Photographs - The Vorontsov Lighthouse is a red-and-white, 27.2-meter tall lighthouse in the Black Sea port of Odessa. It is named after Prince Mikhail Semyonovich Vorontsov, one of the governors-general of the Odessa region. It has a one-million-watt signal light that can be seen up to twelve nautical miles (22 km) away. It transmits the Morse Code signal of three dashes, the letter O, for Odessa. It also sounds like a foghorn during severe storms or fog."
           className="img-responsive gallery-image"
           src="/photographs/2013-09-14_27/2013-09-17_015_large.webp"
           title="The Vorontsov Lighthouse is a red-and-white, 27.2-meter tall lighthouse in the Black Sea port of Odessa. It is named after Prince Mikhail Semyonovich Vorontsov, one of the governors-general of the Odessa region. It has a one-million-watt signal light that can be seen up to twelve nautical miles (22 km) away. It transmits the Morse Code signal of three dashes, the letter O, for Odessa. It also sounds like a foghorn during severe storms or fog."
@@ -501,7 +501,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - A frosty morning near Volga embankment. The early hours of the new year."
+          alt="Favorite Photographs - A frosty morning near Volga embankment. The early hours of the new year."
           className="img-responsive gallery-image vertical"
           src="/photographs/2013-01-01/2013-01-01_001.webp"
           title="A frosty morning near Volga embankment. The early hours of the new year."
@@ -514,7 +514,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. The largest mosque in the country, it is the key place of worship for daily prayers. During Eid, it was visited by more than 41,000 people."
+          alt="Favorite Photographs - The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. The largest mosque in the country, it is the key place of worship for daily prayers. During Eid, it was visited by more than 41,000 people."
           className="img-responsive gallery-image vertical"
           src="/photographs/2012-11-09_21/2012-11-09_21_037_large.webp"
           title="The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. The largest mosque in the country, it is the key place of worship for daily prayers. During Eid, it was visited by more than 41,000 people."
@@ -527,7 +527,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - The Dubai Metro is a rapid transit rail network in the city of Dubai, United Arab Emirates.  It is currently operated by the British company Serco. Until 2016, the Dubai Metro was the world's longest driverless metro network with a route length of 75 kilometres. Planning of the Dubai Metro began under the directive of Dubai's Ruler, Sheikh Mohammed bin Rashid Al Maktoum, who expected other projects to attract 15 million visitors to Dubai by 2010."
+          alt="Favorite Photographs - The Dubai Metro is a rapid transit rail network in the city of Dubai, United Arab Emirates.  It is currently operated by the British company Serco. Until 2016, the Dubai Metro was the world's longest driverless metro network with a route length of 75 kilometres. Planning of the Dubai Metro began under the directive of Dubai's Ruler, Sheikh Mohammed bin Rashid Al Maktoum, who expected other projects to attract 15 million visitors to Dubai by 2010."
           className="img-responsive gallery-image"
           src="/photographs/2012-11-09_21/2012-11-09_21_024_large.webp"
           title="The Dubai Metro is a rapid transit rail network in the city of Dubai, United Arab Emirates.  It is currently operated by the British company Serco. Until 2016, the Dubai Metro was the world's longest driverless metro network with a route length of 75 kilometres. Planning of the Dubai Metro began under the directive of Dubai's Ruler, Sheikh Mohammed bin Rashid Al Maktoum, who expected other projects to attract 15 million visitors to Dubai by 2010."
@@ -540,7 +540,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - Dubai Mall"
+          alt="Favorite Photographs - Dubai Mall"
           className="img-responsive gallery-image"
           src="/photographs/2012-11-09_21/2012-11-09_21_059_large.webp"
           title="Dubai Mall"
@@ -553,7 +553,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
       </figure>
       <figure>
         <img
-          alt="[object Object] - The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000."
+          alt="Favorite Photographs - The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000."
           className="img-responsive gallery-image"
           src="/photographs/2012-09-14_15/2012-09-14_15_016_large.webp"
           title="The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000."
