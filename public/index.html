@@ -23,11 +23,11 @@
       const getPathWithoutLanguage = (pathname) =>
         (pathname.charAt(3) === '/') ? pathname.substring(3) : pathname;
 
-      export const getBrowserLanguages = () =>
+      const getBrowserLanguages = () =>
         (navigator.languages.map((language) => language.substring(0, 2)))
         .filter((item, index, arr) => arr.indexOf(item) === index);
 
-      export const getLanguageToUse = (requestedLanguage, browserLanguages) =>
+      const getLanguageToUse = (requestedLanguage, browserLanguages) =>
         supportedLanguages.includes(requestedLanguage)
           ? requestedLanguage
           : browserLanguages.filter((language) => supportedLanguages.includes(language))[0] || defaultLanguage;
