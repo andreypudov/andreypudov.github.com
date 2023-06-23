@@ -17,24 +17,25 @@
 
     <script>
       /* configuring the language */
-      const supportedLanguagesList = ['en', 'ru'];
+      const supportedLanguages = ['en', 'ru'];
+      const defaultLanguage = supportedLanguages[0];
 
       const getPathWithoutLanguage = (pathname) =>
         (pathname.charAt(3) === '/') ? pathname.substring(3) : pathname;
 
-      const getLanguagesSupportedByBrowser = () =>
+      export const getBrowserLanguages = () =>
         (navigator.languages.map((language) => language.substring(0, 2)))
         .filter((item, index, arr) => arr.indexOf(item) === index);
 
-      const getLanguageToUse = (requestedLanguage, supportedLanguages) =>
+      export const getLanguageToUse = (requestedLanguage, browserLanguages) =>
         supportedLanguages.includes(requestedLanguage)
           ? requestedLanguage
-          : supportedLanguages[0];
+          : browserLanguages.filter((language) => supportedLanguages.includes(language))[0] || defaultLanguage;
 
       requestedLanguage = () => window.location.pathname.split('/')[1] || '';
-      supportedLanguages = () => getLanguagesSupportedByBrowser().filter((language) => supportedLanguagesList.includes(language));
-      applyLanguage = (requestedLanguage, supportedLanguages) => {
-        const requiredLanguage = getLanguageToUse(requestedLanguage, supportedLanguages);
+      browserLanguages = () => getBrowserLanguages().filter((language) => supportedLanguages.includes(language));
+      applyLanguage = (requestedLanguage, browserLanguages) => {
+        const requiredLanguage = getLanguageToUse(requestedLanguage, browserLanguages);
         const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(window.location.pathname)}`;
 
         if (requiredLanguage !== requestedLanguage) {
@@ -42,7 +43,7 @@
         }
       };
 
-      applyLanguage(requestedLanguage(), supportedLanguages())
+      applyLanguage(requestedLanguage(), browserLanguages())
     </script>
     <style>
       @media (prefers-color-scheme: dark) {

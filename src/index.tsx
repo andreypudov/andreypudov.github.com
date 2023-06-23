@@ -21,8 +21,8 @@ ReactGA.initialize('G-E0Y9W77G5B');
 
 const language = new Language();
 const requestedLanguage = language.requestedLanguage();
-const supportedLanguages = language.supportedLanguages();
-language.applyLanguage(requestedLanguage, supportedLanguages);
+const browserLanguages = language.browserLanguages();
+language.applyLanguage(requestedLanguage, browserLanguages);
 
 const rootElement = document.getElementById("root");
 const app = (<React.StrictMode>
