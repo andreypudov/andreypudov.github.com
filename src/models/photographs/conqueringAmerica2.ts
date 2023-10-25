@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const ConqueringAmerica20 = new Album(
-  new Text('ConqueringAmerica20', 'Conquering America 2.0'),
+  new Text('ConqueringAmerica20.Title', 'Conquering America 2.0'),
   new Date('2017-09-24'),
   new Photograph('/photographs/2017-09-09_24/2017-09-09_24_018_large.webp', false, new Text('ConqueringAmerica20.', 'United States Capitol')),
   [

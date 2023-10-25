@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const FormulaSochi3 = new Album(
-  new Text('FormulaSochi3', '2019 Formula 1 Russian Grand Prix'),
+  new Text('FormulaSochi3.Title', '2019 Formula 1 Russian Grand Prix'),
   new Date('2019-09-30'),
   new Photograph('/photographs/2019-09-30/2019-09-30_002.webp'),
   [

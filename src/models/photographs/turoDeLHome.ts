@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const TuroDeLHome = new Album(
-  new Text('TuroDeLHome', 'Turó de l\'Home'),
+  new Text('TuroDeLHome.Title', 'Turó de l\'Home'),
   new Date('2022-08-07'),
   new Photograph('/photographs/2022-08-07/2022-08-07_019.webp'),
   [

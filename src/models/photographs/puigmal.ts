@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Puigmal = new Album(
-  new Text('Puigmal', 'Puigmal'),
+  new Text('Puigmal.Title', 'Puigmal'),
   new Date('2022-08-15'),
   new Photograph('/photographs/2022-08-15/2022-08-15_009.webp'),
   [

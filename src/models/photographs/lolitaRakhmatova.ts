@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const LolitaRakhmatova = new Album(
-  new Text('LolitaRakhmatova', 'Lolita Rakhmatova'),
+  new Text('LolitaRakhmatova.Title', 'Lolita Rakhmatova'),
   new Date('2015-12-12'),
   new Photograph('/photographs/2015-12-12/2015-12-12_002.webp'),
   [

@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const ConqueringRome = new Album(
-  new Text('ConqueringRome', 'Conquering Rome and Order of Malta'),
+  new Text('ConqueringRome.Title', 'Conquering Rome and Order of Malta'),
   new Date('2018-01-05'),
   new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp', false,
     new Text('ConqueringRome.', 'St. Peter\'s Basilica\n\nThe Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter\'s Basilica, is a church built in the Renaissance style located in Vatican City. It was initially planned by Pope Nicholas V and then Pope Julius II to replace the aging Old St. Peter\'s Basilica, which was built in the fourth century by Roman emperor Constantine the Great. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626.\n\nDesigned principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lorenzo Bernini, St. Peter\'s is the most renowned work of Renaissance architecture and the largest church in the world by interior measure. While it is neither the mother church of the Catholic Church nor the cathedral of the Diocese of Rome, St. Peter\'s is regarded as one of the holiest Catholic shrines. It has been described as "holding a unique position in the Christian world" and as "the greatest of all churches of Christendom."')),

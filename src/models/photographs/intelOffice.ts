@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const IntelOffice = new Album(
-  new Text('IntelOffice', 'Intel Office in Nizhny Novgorod'),
+  new Text('IntelOffice.Title', 'Intel Office in Nizhny Novgorod'),
   new Date('2020-02-14'),
   new Photograph('/photographs/2020-02-13_14/2020-02-13_14_013.webp'),
   [

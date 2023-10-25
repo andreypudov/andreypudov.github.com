@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const MarinaAlekseeva = new Album(
-  new Text('MarinaAlekseeva', 'Marina Alekseeva'),
+  new Text('MarinaAlekseeva.Title', 'Marina Alekseeva'),
   new Date('2013-09-10'),
   new Photograph('/photographs/2013-09-10/2013-09-10_002.webp'),
   [

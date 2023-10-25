@@ -102,7 +102,7 @@ exports[`renders correctly 1`] = `
         Photographs
       </h2>
       <div
-        className="row"
+        className="row mb-4"
       >
         <div
           className="col-md-4"
@@ -1011,7 +1011,7 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Ramon Palace
+                Princess Oldenburg's Palace
               </h6>
             </div>
           </a>
@@ -1405,7 +1405,7 @@ exports[`renders correctly 1`] = `
         Drawings
       </h2>
       <div
-        className="row"
+        className="row mb-4"
       >
         <div
           className="col-md-4"
@@ -1484,7 +1484,7 @@ exports[`renders correctly 1`] = `
         Time Lapses
       </h2>
       <div
-        className="row"
+        className="row mb-4"
       >
         <div
           className="col-md-4"

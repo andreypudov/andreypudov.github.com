@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const KiraOrlova = new Album(
-  new Text('KiraOrlova', 'Kira Orlova'),
+  new Text('KiraOrlova.Title', 'Kira Orlova'),
   new Date('2017-10-22'),
   new Photograph('/photographs/2017-10-22/2017-10-22_016_large.webp'),
   [

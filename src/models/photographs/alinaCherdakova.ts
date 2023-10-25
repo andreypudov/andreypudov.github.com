@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const AlinaCherdakova = new Album(
-  new Text('AlinaCherdakova', 'Alina Cherdakova'),
+  new Text('AlinaCherdakova.Title', 'Alina Cherdakova'),
   new Date('2018-08-18'),
   new Photograph('/photographs/2018-08-18/2018-08-18_013.webp'),
   [

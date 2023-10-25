@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const ElsEmpedratsDelMontseny = new Album(
-  new Text('ElsEmpedratsDelMontseny', 'Els Empedrats del Montseny'),
+  new Text('ElsEmpedratsDelMontseny.Title', 'Els Empedrats del Montseny'),
   new Date('2022-11-13'),
   new Photograph('/photographs/2022-11-13/2022-11-13_003.webp'),
   [

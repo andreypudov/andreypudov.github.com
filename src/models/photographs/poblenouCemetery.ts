@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const PoblenouCemetery = new Album(
-  new Text('PoblenouCemetery', 'Poblenou Cemetery'),
+  new Text('PoblenouCemetery.Title', 'Poblenou Cemetery'),
   new Date('2022-07-08'),
   new Photograph('/photographs/2022-07-08/2022-07-08_002.webp'),
   [

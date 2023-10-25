@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Rekshino = new Album(
-  new Text('Rekshino', 'Rekshino'),
+  new Text('Rekshino.Title', 'Rekshino'),
   new Date('2019-10-26'),
   new Photograph('/photographs/2019-10-26/2019-10-26_007.webp'),
   [

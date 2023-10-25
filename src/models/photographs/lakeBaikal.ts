@@ -4,7 +4,7 @@ import Video from '../core/video';
 import Text from '../core/text';
 
 const LakeBaikal = new Album(
-  new Text('LakeBaikal', 'Lake Baikal'),
+  new Text('LakeBaikal.Title', 'Lake Baikal'),
   new Date('2015-08-08'),
   new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp', false, new Text('LakeBaikal.', 'The mouth of the Bolshoy Chivyrkuy river - the first morning on the shore of the lake.')),
   [

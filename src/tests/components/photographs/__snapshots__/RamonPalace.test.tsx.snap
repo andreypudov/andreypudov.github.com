@@ -96,7 +96,7 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Ramon Palace
+        Princess Oldenburg's Palace
         <small
           className="text-muted"
         >
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
-          alt="Ramon Palace - Also known as Princess Oldenburg's Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg."
+          alt="Princess Oldenburg's Palace - Also known as Princess Oldenburg's Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg."
           className="img-responsive gallery-image"
           src="/photographs/2017-01-07/2017-01-07_001.webp"
           title="Also known as Princess Oldenburg's Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg."
@@ -118,7 +118,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Ramon Palace - In 1879 Tsar Alexander II gave the estate of Ramon to his niece Princess Eugenia and the Duke of Oldenburg as a wedding gift. In 1883 they commissioned construction of the palace, in red brick, in the style of an English Gothic castle with gatehouse. The architect is usually said to have been Christopher Neysler, but some sources attribute the design to Nicholas Benois."
+          alt="Princess Oldenburg's Palace - In 1879 Tsar Alexander II gave the estate of Ramon to his niece Princess Eugenia and the Duke of Oldenburg as a wedding gift. In 1883 they commissioned construction of the palace, in red brick, in the style of an English Gothic castle with gatehouse. The architect is usually said to have been Christopher Neysler, but some sources attribute the design to Nicholas Benois."
           className="img-responsive gallery-image"
           src="/photographs/2017-01-07/2017-01-07_002.webp"
           title="In 1879 Tsar Alexander II gave the estate of Ramon to his niece Princess Eugenia and the Duke of Oldenburg as a wedding gift. In 1883 they commissioned construction of the palace, in red brick, in the style of an English Gothic castle with gatehouse. The architect is usually said to have been Christopher Neysler, but some sources attribute the design to Nicholas Benois."
@@ -131,7 +131,7 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Ramon Palace - The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it."
+          alt="Princess Oldenburg's Palace - The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it."
           className="img-responsive gallery-image"
           src="/photographs/2017-01-07/2017-01-07_003.webp"
           title="The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple's only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it."

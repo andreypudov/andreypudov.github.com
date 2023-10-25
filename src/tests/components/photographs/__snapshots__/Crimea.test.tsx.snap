@@ -729,69 +729,106 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Crimean Holidays - Mount Elbrus"
+          alt="Crimean Holidays - Mount Elbrus
+
+The highest and most prominent peak in Russia and Europe. It is situated in the western part of the Caucasus and is the highest peak of the Caucasus Mountains. The dormant volcano rises 5,642m above sea level; it is the highest stratovolcano in Eurasia, as well as the tenth-most prominent peak in the world."
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_083.webp"
-          title="Mount Elbrus"
+          title="Mount Elbrus
+
+The highest and most prominent peak in Russia and Europe. It is situated in the western part of the Caucasus and is the highest peak of the Caucasus Mountains. The dormant volcano rises 5,642m above sea level; it is the highest stratovolcano in Eurasia, as well as the tenth-most prominent peak in the world."
         />
         <figcaption
           className="image-caption"
         >
           Mount Elbrus
+
+The highest and most prominent peak in Russia and Europe. It is situated in the western part of the Caucasus and is the highest peak of the Caucasus Mountains. The dormant volcano rises 5,642m above sea level; it is the highest stratovolcano in Eurasia, as well as the tenth-most prominent peak in the world.
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Crimean Holidays"
+          alt="Crimean Holidays - Elbrus has two summits, both of which are dormant volcanic domes. The taller, western summit is 5,642 meters; the eastern summit is 5,621 meters. The eastern summit was first ascended on 10 July 1829 by a Circassian named Khillar Khashirov, and the western summit in 1874 by a British expedition led by F. Crauford Grove and including Frederick Gardner, Horace Walker, and the Swiss guide Peter Knubel."
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_084.webp"
-          title="Crimean Holidays"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Crimean Holidays"
-          className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_085.webp"
-          title="Crimean Holidays"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Crimean Holidays"
-          className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_087.webp"
-          title="Crimean Holidays"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Crimean Holidays - Mir station - 3500 meters"
-          className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_089.webp"
-          title="Mir station - 3500 meters"
+          title="Elbrus has two summits, both of which are dormant volcanic domes. The taller, western summit is 5,642 meters; the eastern summit is 5,621 meters. The eastern summit was first ascended on 10 July 1829 by a Circassian named Khillar Khashirov, and the western summit in 1874 by a British expedition led by F. Crauford Grove and including Frederick Gardner, Horace Walker, and the Swiss guide Peter Knubel."
         />
         <figcaption
           className="image-caption"
         >
-          Mir station - 3500 meters
+          Elbrus has two summits, both of which are dormant volcanic domes. The taller, western summit is 5,642 meters; the eastern summit is 5,621 meters. The eastern summit was first ascended on 10 July 1829 by a Circassian named Khillar Khashirov, and the western summit in 1874 by a British expedition led by F. Crauford Grove and including Frederick Gardner, Horace Walker, and the Swiss guide Peter Knubel.
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Crimean Holidays"
+          alt="Crimean Holidays - The name Elbrus seems to have a connection with Alborz (also called Elburz), which is also the name of a long mountain range in northern Iran. The name is derived from Avestan Harā Bərəzaitī, a legendary mountain in Iranian mythology. Harā Bərəzaitī reflects Proto-Iranian *Harā Bṛzatī, which was reformed into Middle Persian as Harborz, and into Modern Persian as Alborz. Bṛzatī is the feminine form of the adjective *bṛzant (\\"high\\"), the reconstructed ancestor of Modern Ossetian bærzond (\\"high\\", \\"peak\\"), Modern Persian barz (\\"high\\"), berāzande (\\"elegant\\"), and boland (\\"high\\", \\"tall\\"), and Modern Kurdish barz (\\"high\\"). Harā may be interpreted as \\"watch\\" or \\"guard\\", from Indo-European *ser (\\"protect\\"). Circassians use the name \\"Uash-ha Makhua\\" which means \\"The mountain of happiness\\", The name \\"Mingi Taw\\" used by Karachays and Balkars means \\"Eternal Mountain\\" in Turkic languages."
           className="img-responsive gallery-image"
-          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_090.webp"
-          title="Crimean Holidays"
+          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_085.webp"
+          title="The name Elbrus seems to have a connection with Alborz (also called Elburz), which is also the name of a long mountain range in northern Iran. The name is derived from Avestan Harā Bərəzaitī, a legendary mountain in Iranian mythology. Harā Bərəzaitī reflects Proto-Iranian *Harā Bṛzatī, which was reformed into Middle Persian as Harborz, and into Modern Persian as Alborz. Bṛzatī is the feminine form of the adjective *bṛzant (\\"high\\"), the reconstructed ancestor of Modern Ossetian bærzond (\\"high\\", \\"peak\\"), Modern Persian barz (\\"high\\"), berāzande (\\"elegant\\"), and boland (\\"high\\", \\"tall\\"), and Modern Kurdish barz (\\"high\\"). Harā may be interpreted as \\"watch\\" or \\"guard\\", from Indo-European *ser (\\"protect\\"). Circassians use the name \\"Uash-ha Makhua\\" which means \\"The mountain of happiness\\", The name \\"Mingi Taw\\" used by Karachays and Balkars means \\"Eternal Mountain\\" in Turkic languages."
         />
+        <figcaption
+          className="image-caption"
+        >
+          The name Elbrus seems to have a connection with Alborz (also called Elburz), which is also the name of a long mountain range in northern Iran. The name is derived from Avestan Harā Bərəzaitī, a legendary mountain in Iranian mythology. Harā Bərəzaitī reflects Proto-Iranian *Harā Bṛzatī, which was reformed into Middle Persian as Harborz, and into Modern Persian as Alborz. Bṛzatī is the feminine form of the adjective *bṛzant ("high"), the reconstructed ancestor of Modern Ossetian bærzond ("high", "peak"), Modern Persian barz ("high"), berāzande ("elegant"), and boland ("high", "tall"), and Modern Kurdish barz ("high"). Harā may be interpreted as "watch" or "guard", from Indo-European *ser ("protect"). Circassians use the name "Uash-ha Makhua" which means "The mountain of happiness", The name "Mingi Taw" used by Karachays and Balkars means "Eternal Mountain" in Turkic languages.
+        </figcaption>
       </figure>
       <figure>
         <img
-          alt="Crimean Holidays"
+          alt="Crimean Holidays - Three ski lifts take visitors up to an altitude of 3,847 meters. Until the mid-2000s, the first section was provided by the Elbrus-1 cable car, construction of which began in 1959. Starting from the Azaou road at 2,180 meters above sea level in the valley, it leads to the old viewpoint (Stari Krougozor) at an altitude of 2,970 meters; at the foot of the terminal tongue of the Mali glacier Azaou, which has retreated since the construction of the facility. Its length is 1,740 meters, with a drop of 650 meters."
+          className="img-responsive gallery-image"
+          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_087.webp"
+          title="Three ski lifts take visitors up to an altitude of 3,847 meters. Until the mid-2000s, the first section was provided by the Elbrus-1 cable car, construction of which began in 1959. Starting from the Azaou road at 2,180 meters above sea level in the valley, it leads to the old viewpoint (Stari Krougozor) at an altitude of 2,970 meters; at the foot of the terminal tongue of the Mali glacier Azaou, which has retreated since the construction of the facility. Its length is 1,740 meters, with a drop of 650 meters."
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Three ski lifts take visitors up to an altitude of 3,847 meters. Until the mid-2000s, the first section was provided by the Elbrus-1 cable car, construction of which began in 1959. Starting from the Azaou road at 2,180 meters above sea level in the valley, it leads to the old viewpoint (Stari Krougozor) at an altitude of 2,970 meters; at the foot of the terminal tongue of the Mali glacier Azaou, which has retreated since the construction of the facility. Its length is 1,740 meters, with a drop of 650 meters.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Crimean Holidays - Mir station
+
+The second section, built in 1976, leads to the Mir station at an altitude of 3,470 meters. Its length is 1,800 meters, with a drop of 500 meters. Finally, the last stretch is a chairlift single-seater which then makes it possible to avoid an hour's walk for hikers to the Garabachi huts, at an altitude of 3,847 meters. Built in the late 1970s, it is 1,000 meters long, with a drop of 250 meters."
+          className="img-responsive gallery-image"
+          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_089.webp"
+          title="Mir station
+
+The second section, built in 1976, leads to the Mir station at an altitude of 3,470 meters. Its length is 1,800 meters, with a drop of 500 meters. Finally, the last stretch is a chairlift single-seater which then makes it possible to avoid an hour's walk for hikers to the Garabachi huts, at an altitude of 3,847 meters. Built in the late 1970s, it is 1,000 meters long, with a drop of 250 meters."
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Mir station
+
+The second section, built in 1976, leads to the Mir station at an altitude of 3,470 meters. Its length is 1,800 meters, with a drop of 500 meters. Finally, the last stretch is a chairlift single-seater which then makes it possible to avoid an hour's walk for hikers to the Garabachi huts, at an altitude of 3,847 meters. Built in the late 1970s, it is 1,000 meters long, with a drop of 250 meters.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Crimean Holidays - There are a wide variety of routes up the mountain, but the normal route, which is free of crevasses, continues more or less straight up the slope from the end of the cable car system, which takes passengers up to 3,800 meters. During the summer, it is not uncommon for 100 people to attempt the summit via this route each day. Winter ascents are rare, and are usually undertaken only by very experienced climbers."
+          className="img-responsive gallery-image"
+          src="/photographs/2021-07-24_08-02/2021-07-24_08-02_090.webp"
+          title="There are a wide variety of routes up the mountain, but the normal route, which is free of crevasses, continues more or less straight up the slope from the end of the cable car system, which takes passengers up to 3,800 meters. During the summer, it is not uncommon for 100 people to attempt the summit via this route each day. Winter ascents are rare, and are usually undertaken only by very experienced climbers."
+        />
+        <figcaption
+          className="image-caption"
+        >
+          There are a wide variety of routes up the mountain, but the normal route, which is free of crevasses, continues more or less straight up the slope from the end of the cable car system, which takes passengers up to 3,800 meters. During the summer, it is not uncommon for 100 people to attempt the summit via this route each day. Winter ascents are rare, and are usually undertaken only by very experienced climbers.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Crimean Holidays - Elbrus is notorious for its brutal winter weather, and summit attempts are few and far between. The climb is not technically difficult, but it is physically arduous because of the altitude and the frequent strong winds. The average annual death toll on Elbrus is 15–30, primarily due to \\"many unorganized and poorly equipped\\" attempts to reach the mountain's summit."
           className="img-responsive gallery-image"
           src="/photographs/2021-07-24_08-02/2021-07-24_08-02_091.webp"
-          title="Crimean Holidays"
+          title="Elbrus is notorious for its brutal winter weather, and summit attempts are few and far between. The climb is not technically difficult, but it is physically arduous because of the altitude and the frequent strong winds. The average annual death toll on Elbrus is 15–30, primarily due to \\"many unorganized and poorly equipped\\" attempts to reach the mountain's summit."
         />
+        <figcaption
+          className="image-caption"
+        >
+          Elbrus is notorious for its brutal winter weather, and summit attempts are few and far between. The climb is not technically difficult, but it is physically arduous because of the altitude and the frequent strong winds. The average annual death toll on Elbrus is 15–30, primarily due to "many unorganized and poorly equipped" attempts to reach the mountain's summit.
+        </figcaption>
       </figure>
       <figure>
         <img

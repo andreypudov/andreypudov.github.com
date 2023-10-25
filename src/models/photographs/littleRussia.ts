@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const LittleRussia = new Album(
-  new Text('LittleRussia', 'Little Russia'),
+  new Text('LittleRussia.Title', 'Little Russia'),
   new Date('2013-09-27'),
   new Photograph('/photographs/2013-09-14_27/2013-09-24_084_large.webp'),
   [

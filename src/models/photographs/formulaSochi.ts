@@ -4,7 +4,7 @@ import Video from '../core/video';
 import Text from '../core/text';
 
 const FormulaSochi = new Album(
-  new Text('FormulaSochi', '2015 Formula 1 Russian Grand Prix'),
+  new Text('FormulaSochi.Title', '2015 Formula 1 Russian Grand Prix'),
   new Date('2015-10-11'),
   new Photograph('/photographs/2015-10-05_11/2015-10-05_11_064_large.webp'),
   [

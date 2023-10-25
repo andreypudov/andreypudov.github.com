@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const NizhnyNovgorod = new Album(
-  new Text('NizhnyNovgorod', 'Nizhny Novgorod'),
+  new Text('NizhnyNovgorod.Title', 'Nizhny Novgorod'),
   new Date('2019-11-17'),
   new Photograph('/photographs/2017-01-29/2017-01-29_002.webp'),
   [

@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const MilitaryMuseum = new Album(
-  new Text('MilitaryMuseum', 'Battle Glory of the Urals'),
+  new Text('MilitaryMuseum.Title', 'Battle Glory of the Urals'),
   new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp'),
   [

@@ -30,17 +30,17 @@ const Albums = () => {
         <h1>{t('Albums.Albums', 'Albums')}</h1>
 
         <h2>{t('Albums.Photographs', 'Photographs')}</h2>
-        <div className = 'row'>
+        <div className = 'row mb-4'>
           { Photographs.map(p => entry(p, t)) }
         </div>
 
         <h2>{t('Albums.Drawings', 'Drawings')}</h2>
-        <div className = 'row'>
+        <div className = 'row mb-4'>
           { Drawings.map(d => entry(d, t)) }
         </div>
 
         <h2>{t('Albums.TimeLapses', 'Time Lapses')}</h2>
-        <div className = 'row'>
+        <div className = 'row mb-4'>
           { TimeLapses.map(videoEntry) }
         </div>
 

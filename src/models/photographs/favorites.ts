@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const FavoritePhotographs = new Album(
-  new Text('FavoritePhotographs', 'Favorite Photographs'),
+  new Text('FavoritePhotographs.Title', 'Favorite Photographs'),
   new Date('2089-03-17'),
   new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp', false, new Text('FavoritePhotographs.', 'Lake Baikal')),
   [

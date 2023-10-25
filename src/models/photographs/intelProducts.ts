@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const IntelProducts = new Album(
-  new Text('IntelProducts', 'Intel Software Products'),
+  new Text('IntelProducts.Title', 'Intel Software Products'),
   new Date('2016-04-15'),
   new Photograph('/photographs/2016-04-15/2015-04-12_002.webp'),
   [

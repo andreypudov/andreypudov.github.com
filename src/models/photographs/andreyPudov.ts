@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const AndreyPudov = new Album(
-  new Text('AndreyPudov', 'Andrey Pudov'),
+  new Text('AndreyPudov.Title', 'Andrey Pudov'),
   new Date('2022-07-09'),
   new Photograph('/photographs/2016-04-16/2016-04-16_002.webp'),
   [

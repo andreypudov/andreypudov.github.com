@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const LakeBaikalTeam = new Album(
-  new Text('LakeBaikalTeam', 'Lake Baikal Team'),
+  new Text('LakeBaikalTeam.Title', 'Lake Baikal Team'),
   new Date('2015-08-08'),
   new Photograph('/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp'),
   [

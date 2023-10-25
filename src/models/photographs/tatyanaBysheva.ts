@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const TatyanaBysheva = new Album(
-  new Text('TatyanaBysheva', 'Tatyana Bysheva'),
+  new Text('TatyanaBysheva.Title', 'Tatyana Bysheva'),
   new Date('2018-07-27'),
   new Photograph('/photographs/2017-07-22/2017-07-22_001.webp'),
   [

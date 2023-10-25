@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Kaliningrad = new Album(
-  new Text('Kaliningrad', 'Kaliningrad. The amber capital of the World'),
+  new Text('Kaliningrad.Title', 'Kaliningrad. The amber capital of the World'),
   new Date('2016-08-30'),
   new Photograph('/photographs/2016-08-24_30/2016-08-24_30_023_large.webp', false, new Text('Kaliningrad.', 'Rybnaya Derevnya')),
   [

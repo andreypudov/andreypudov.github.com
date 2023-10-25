@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Andorra = new Album(
-  new Text('Andorra', 'Andorra'),
+  new Text('Andorra.Title', 'Andorra'),
   new Date('2022-10-16'),
   new Photograph('/photographs/2022-10-15_16/2022-10-15_16_006.webp'),
   [

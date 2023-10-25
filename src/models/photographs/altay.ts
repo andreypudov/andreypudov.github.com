@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Altay = new Album(
-  new Text('Altay', 'Altay. Conquering Siberia 2.0'),
+  new Text('Altay.Title', 'Altay. Conquering Siberia 2.0'),
   new Date('2020-08-24'),
   new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp'),
   [

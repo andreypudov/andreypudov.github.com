@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Gotheborg = new Album(
-  new Text('Gotheborg', 'Götheborg. Conquering Scandinavia'),
+  new Text('Gotheborg.Title', 'Götheborg. Conquering Scandinavia'),
   new Date('2022-09-10'),
   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_103.webp'),
   [

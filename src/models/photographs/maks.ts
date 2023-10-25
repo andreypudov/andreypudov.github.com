@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Maks = new Album(
-  new Text('Maks', 'MAKS International Aviation and Space Show'),
+  new Text('Maks.Title', 'MAKS International Aviation and Space Show'),
   new Date('2017-07-22'),
   new Photograph('/photographs/2017-07-22/2017-07-22_013.webp'),
   [

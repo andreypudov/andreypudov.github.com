@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const BalloonFestival = new Album(
-  new Text('BalloonFestival', 'Balloon Festival'),
+  new Text('BalloonFestival.Title', 'Balloon Festival'),
   new Date('2018-02-24'),
   new Photograph('/photographs/2018-02-24/2018-02-24_002.webp'),
   [

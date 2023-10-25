@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Oslo = new Album(
-  new Text('Oslo', 'Oslo. Conquering Scandinavia'),
+  new Text('Oslo.Title', 'Oslo. Conquering Scandinavia'),
   new Date('2022-09-05'),
   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp'),
   [

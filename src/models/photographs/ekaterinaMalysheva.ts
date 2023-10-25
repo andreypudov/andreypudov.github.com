@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const EkaterinaMalysheva = new Album(
-  new Text('EkaterinaMalysheva', 'Ekaterina Malysheva'),
+  new Text('EkaterinaMalysheva.Title', 'Ekaterina Malysheva'),
   new Date('2017-10-07'),
   new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
   [

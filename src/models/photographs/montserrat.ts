@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const Montserrat = new Album(
-  new Text('Montserrat', 'Montserrat'),
+  new Text('Montserrat.Title', 'Montserrat'),
   new Date('2023-05-07'),
   new Photograph('/photographs/2023-05-07/2023-05-07_027.webp'),
   [

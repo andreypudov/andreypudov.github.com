@@ -4,7 +4,7 @@ import Social from '../core/social';
 import Text from '../core/text';
 
 const EkaterinaDomracheva = new Album(
-  new Text('EkaterinaDomracheva', 'Ekaterina Domracheva'),
+  new Text('EkaterinaDomracheva.Title', 'Ekaterina Domracheva'),
   new Date('2021-08-25'),
   new Photograph('/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp'),
   [

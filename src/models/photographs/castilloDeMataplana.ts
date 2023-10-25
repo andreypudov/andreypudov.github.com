@@ -3,7 +3,7 @@ import Photograph from '../core/photograph';
 import Text from '../core/text';
 
 const CastilloDeMataplana = new Album(
-  new Text('CastilloDeMataplana', 'Castillo de Mataplana'),
+  new Text('CastilloDeMataplana.Title', 'Castillo de Mataplana'),
   new Date('2022-07-24'),
   new Photograph('/photographs/2022-07-23_24/2022-07-23_24_008.webp'),
   [
