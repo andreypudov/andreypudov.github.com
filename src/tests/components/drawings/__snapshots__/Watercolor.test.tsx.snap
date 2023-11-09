@@ -100,9 +100,87 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Sunday, September 25, 2022
+          Sunday, October 29, 2023
         </small>
       </h1>
+      <figure>
+        <img
+          alt="Watercolor - November 08, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-11-08.webp"
+          title="November 08, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          November 08, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - November 04, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-11-04.webp"
+          title="November 04, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          November 04, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 29, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-29.webp"
+          title="October 29, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 29, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 26, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-26.webp"
+          title="October 26, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 26, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 25, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-25.webp"
+          title="October 25, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 25, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 14, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-14.webp"
+          title="October 14, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 14, 2023
+        </figcaption>
+      </figure>
       <figure>
         <img
           alt="Watercolor - September 25, 2022"
