@@ -256,6 +256,20 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
+            href="/en/photographs/ordesa/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Ordesa and Monte Perdido National Park"
+              className="img-fluid"
+              src="/photographs/2023-11-18/2023-11-18_002.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
             href="/en/photographs/ebro/"
             onClick={[Function]}
           >
@@ -277,20 +291,6 @@ exports[`renders correctly 1`] = `
               alt="Ruta dels Set Gorgs de Campdevànol"
               className="img-fluid"
               src="/photographs/2023-06-03/2023-06-03_010.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/en/photographs/barcelona-airport/"
-            onClick={[Function]}
-          >
-            <img
-              alt="LEBL Barcelona El Prat International Airport"
-              className="img-fluid"
-              src="/photographs/2023-05-17/2023-05-17_011.webp"
             />
           </a>
         </div>
