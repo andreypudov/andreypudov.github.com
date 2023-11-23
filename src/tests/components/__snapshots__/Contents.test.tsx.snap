@@ -130,6 +130,39 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/en/photographs/madrid/"
+            onClick={[Function]}
+          >
+            Madrid
+            <small>
+              Sunday, October 8, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/grapebusters/"
+            onClick={[Function]}
+          >
+            Grapebusters
+            <small>
+              Monday, September 25, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/barcelona/"
+            onClick={[Function]}
+          >
+            Barcelona
+            <small>
+              Sunday, September 24, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/en/photographs/ebro/"
             onClick={[Function]}
           >
@@ -727,7 +760,7 @@ exports[`renders correctly 1`] = `
           >
             Watercolor
             <small>
-              Sunday, October 29, 2023
+              Thursday, November 16, 2023
             </small>
           </a>
         </li>

@@ -8,6 +8,9 @@ import ImperialTown from './../models/photographs/imperialTown';
 
 import Favorites from './../models/photographs/favorites';
 import Ordesa from './../models/photographs/ordesa';
+import Madrid from './../models/photographs/madrid';
+import Grapebusters from './../models/photographs/grapebusters';
+import Barcelona from './../models/photographs/barcelona';
 import Ebro from './../models/photographs/ebro';
 import SetGorgs from './../models/photographs/setGorgs';
 import BarcelonaAirport from './../models/photographs/barcelonaAirport';
@@ -83,6 +86,9 @@ const Pages = {
 
    Favorites: new Page(Favorites, PageType.Photographs, '/photographs/favorite-photographs/'),
    Ordesa: new Page(Ordesa, PageType.Photographs, '/photographs/ordesa/'),
+   Madrid: new Page(Madrid, PageType.Photographs, '/photographs/madrid/'),
+   Grapebusters: new Page(Grapebusters, PageType.Photographs, '/photographs/grapebusters/'),
+   Barcelona: new Page(Barcelona, PageType.Photographs, '/photographs/barcelona/'),
    Ebro: new Page(Ebro, PageType.Photographs, '/photographs/ebro/'),
    SetGorgs: new Page(SetGorgs, PageType.Photographs, '/photographs/set-gorgs/'),
    BarcelonaAirport: new Page(BarcelonaAirport, PageType.Photographs, '/photographs/barcelona-airport/'),

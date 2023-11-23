@@ -100,9 +100,22 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Sunday, October 29, 2023
+          Thursday, November 16, 2023
         </small>
       </h1>
+      <figure>
+        <img
+          alt="Watercolor - November 16, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-11-16.webp"
+          title="November 16, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          November 16, 2023
+        </figcaption>
+      </figure>
       <figure>
         <img
           alt="Watercolor - November 08, 2023"

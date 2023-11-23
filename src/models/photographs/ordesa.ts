@@ -2,7 +2,7 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
 
-const Oslo = new Album(
+const Ordesa = new Album(
   new Text('Ordesa.Title', 'Ordesa and Monte Perdido National Park'),
   new Date('2023-11-18'),
   new Photograph('/photographs/2023-11-18/2023-11-18_002.webp'),
@@ -64,4 +64,4 @@ const Oslo = new Album(
    new Photograph('/photographs/2023-11-18/2023-11-18_055.webp'),
   ]);
 
-export default Oslo;
+export default Ordesa;

@@ -4,7 +4,7 @@ import Text from '../core/text';
 
 const Watercolor = new Album(
   new Text('Watercolor', 'Watercolor'),
-  new Date('2023-10-29'),
+  new Date('2023-11-16'),
   new Photograph('/drawings/watercolor/2021-05-24.webp', false, new Text('Watercolor.2021-05-05', 'May 05, 2021')),
   [
     new Photograph('/drawings/watercolor/2023-11-16.webp', true, new Text('Watercolor.2023-11-16', 'November 16, 2023')),
