@@ -34,6 +34,8 @@ const encodeXml = (xml: string) => xml
   .replace(/'/g, '&apos;');
 
 const generateSitemap = (timestamp: string, locale: string) => {
+  i18next.changeLanguage(locale);
+
   return `
   <url>
     <loc>https://andreypudov.com/${locale}/</loc>
