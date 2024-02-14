@@ -99,6 +99,85 @@ exports[`renders correctly 1`] = `
         Albums
       </h1>
       <h2>
+        Drawings
+      </h2>
+      <div
+        className="row mb-4"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/drawings/watercolor/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/drawings/watercolor/2021-05-24.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Watercolor
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/drawings/soft-pastel/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/drawings/soft-pastel/2021-01-30.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Soft Pastel
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/drawings/pencil-sketches/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/drawings/pencil-sketches/2020-04-26.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pencil Sketches
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2>
         Photographs
       </h2>
       <div
@@ -1492,85 +1571,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Vera Klemenova
-              </h6>
-            </div>
-          </a>
-        </div>
-      </div>
-      <h2>
-        Drawings
-      </h2>
-      <div
-        className="row mb-4"
-      >
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/drawings/watercolor/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/drawings/watercolor/2021-05-24.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Watercolor
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/drawings/soft-pastel/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/drawings/soft-pastel/2021-01-30.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Soft Pastel
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/drawings/pencil-sketches/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/drawings/pencil-sketches/2020-04-26.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Pencil Sketches
               </h6>
             </div>
           </a>

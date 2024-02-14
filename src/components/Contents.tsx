@@ -27,16 +27,16 @@ const Contents = () => {
 
         <ol className = 'contents'>
           <li>
-            <h2>{t('Contents.Photographs')}</h2>
+            <h2>{t('Contents.Drawings')}</h2>
           </li>
-          { Photographs.map(p => entry(p, i18n.language, t)) }
+          { Drawings.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>
           <li>
-            <h2>{t('Contents.Drawings')}</h2>
+            <h2>{t('Contents.Photographs')}</h2>
           </li>
-          { Drawings.map(p => entry(p, i18n.language, t)) }
+          { Photographs.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>

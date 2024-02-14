@@ -103,6 +103,48 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
+            Contents.Drawings
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/en/drawings/watercolor/"
+            onClick={[Function]}
+          >
+            Watercolor
+            <small>
+              Thursday, November 16, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/drawings/soft-pastel/"
+            onClick={[Function]}
+          >
+            Soft Pastel
+            <small>
+              Monday, November 1, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/drawings/pencil-sketches/"
+            onClick={[Function]}
+          >
+            Pencil Sketches
+            <small>
+              Thursday, July 16, 2020
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
             Contents.Photographs
           </h2>
         </li>
@@ -741,48 +783,6 @@ exports[`renders correctly 1`] = `
             Vera Klemenova
             <small>
               Thursday, July 19, 2012
-            </small>
-          </a>
-        </li>
-      </ol>
-      <ol
-        className="contents"
-      >
-        <li>
-          <h2>
-            Contents.Drawings
-          </h2>
-        </li>
-        <li>
-          <a
-            href="/en/drawings/watercolor/"
-            onClick={[Function]}
-          >
-            Watercolor
-            <small>
-              Thursday, November 16, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/drawings/soft-pastel/"
-            onClick={[Function]}
-          >
-            Soft Pastel
-            <small>
-              Monday, November 1, 2021
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/drawings/pencil-sketches/"
-            onClick={[Function]}
-          >
-            Pencil Sketches
-            <small>
-              Thursday, July 16, 2020
             </small>
           </a>
         </li>
