@@ -15,14 +15,12 @@ const Home = () => {
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '0' className = 'active' aria-current = 'true'></button>
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '1'></button>
           <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '2'></button>
-          <button type = 'button' data-bs-target = '#homeCarousel' data-bs-slide-to = '3'></button>
         </ol>
 
         <div className = 'carousel-inner'>
-          <CarouselItem page = { Pages.EkaterinaDomracheva } cover = '/images/carousel/ekaterina-domracheva.webp' isActive = { true } />
-          <CarouselItem page = { Pages.AlinaCherdakova } cover = '/images/carousel/alina-cherdakova.webp' />
-          <CarouselItem page = { Pages.KiraOrlova } />
-          <CarouselItem page = { Pages.EkaterinaMalysheva } />
+          <CarouselItem page = { Pages.Crimea } cover = '/images/carousel/crimea.webp' isActive = { true } />
+          <CarouselItem page = { Pages.Altay } cover = '/images/carousel/altay.webp' />
+          <CarouselItem page = { Pages.ConqueringRome } cover = '/images/carousel/rome-malta.webp' />
         </div>
         <button className = 'carousel-control-prev' type = 'button' data-bs-target = '#homeCarousel'  data-bs-slide = 'prev'>
           <span className = 'carousel-control-prev-icon' aria-hidden = 'true'></span>
