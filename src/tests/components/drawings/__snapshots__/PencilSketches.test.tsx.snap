@@ -118,28 +118,28 @@ exports[`renders correctly 1`] = `
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - July 9, 2020"
+          alt="Pencil Sketches - Oludeniz / July 9, 2020"
           className="img-responsive gallery-image vertical"
           src="/drawings/pencil-sketches/2020-07-09.webp"
-          title="July 9, 2020"
+          title="Oludeniz / July 9, 2020"
         />
         <figcaption
           className="image-caption vertical"
         >
-          July 9, 2020
+          Oludeniz / July 9, 2020
         </figcaption>
       </figure>
       <figure>
         <img
-          alt="Pencil Sketches - April 26, 2020"
+          alt="Pencil Sketches - Kate / April 26, 2020"
           className="img-responsive gallery-image"
           src="/drawings/pencil-sketches/2020-04-26.webp"
-          title="April 26, 2020"
+          title="Kate / April 26, 2020"
         />
         <figcaption
           className="image-caption"
         >
-          April 26, 2020
+          Kate / April 26, 2020
         </figcaption>
       </figure>
       <figure>

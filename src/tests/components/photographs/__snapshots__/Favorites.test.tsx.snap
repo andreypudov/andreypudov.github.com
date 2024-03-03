@@ -105,6 +105,19 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
+          alt="Favorite Photographs - Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_002.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Ordesa and Monte Perdido National Park
+        </figcaption>
+      </figure>
+      <figure>
+        <img
           alt="Favorite Photographs - Rådhuset Station"
           className="img-responsive gallery-image vertical"
           src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
