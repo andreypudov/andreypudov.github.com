@@ -33,6 +33,6 @@ const PeiPeiChen = new Album(
     new Photograph('/photographs/2024-04-10_30/2024-04-10_30_023.webp', true),
     new Photograph('/photographs/2024-04-10_30/2024-04-10_30_024.webp', true),
   ],
-  new Social('Пейпей', 'Чен', 'Программист из Тайнаня', 'https://www.linkedin.com/in/pei-pei-chen/'));
+  new Social('Пейпей', 'Чен', 'Руководитель машинного обучения в Inditex', 'https://www.linkedin.com/in/pei-pei-chen/'));
 
 export default PeiPeiChen;
