@@ -49,6 +49,7 @@ import Maks from './../models/photographs/maks';
 import TatyanaBysheva from './../models/photographs/tatyanaBysheva';
 import RamonPalace from './../models/photographs/ramonPalace';
 import PartnersDay from './../models/photographs/partnersDay';
+import PeiPeiChen from './photographs/peipeiChen';
 import ConqueringAmerica from './../models/photographs/conqueringAmerica';
 import Kaliningrad from './../models/photographs/kaliningrad';
 import FormulaSochi2 from './../models/photographs/formulaSochi2';
@@ -85,6 +86,7 @@ const Pages = {
    ImperialTown: new Page(ImperialTown, PageType.Article, '/photographs/imperial-town/'),
 
    Favorites: new Page(Favorites, PageType.Photographs, '/photographs/favorite-photographs/'),
+   PeiPeiChen: new Page(PeiPeiChen, PageType.Photographs, '/photographs/pei-pei-chen/'),
    Ordesa: new Page(Ordesa, PageType.Photographs, '/photographs/ordesa/'),
    Madrid: new Page(Madrid, PageType.Photographs, '/photographs/madrid/'),
    Grapebusters: new Page(Grapebusters, PageType.Photographs, '/photographs/grapebusters/'),

@@ -5,7 +5,11 @@ const MarketingView = () => {
   return (
    <div className = 'marketing marketing-image'>
       <div className = 'row'>
-      { Photographs.slice(0, 4).map(p => <MarketingItem page = { p } key = { p.getAlbum().getTitle().getKey() } />) }
+      {
+        Photographs
+          .filter(p => p.getAlbum().getTitle().getKey() !== 'PeiPeiChen.Title')
+          .slice(0, 4).map(p => <MarketingItem page = { p } key = { p.getAlbum().getTitle().getKey() } />)
+      }
       </div>
    </div>
   );
