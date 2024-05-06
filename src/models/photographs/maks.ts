@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Maks = new Album(
   new Text('Maks.Title', 'MAKS International Aviation and Space Show'),
+  Genre.Event,
   new Date('2017-07-22'),
   new Photograph('/photographs/2017-07-22/2017-07-22_013.webp'),
   [

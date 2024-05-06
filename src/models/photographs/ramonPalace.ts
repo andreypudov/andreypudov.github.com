@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const RamonPalace = new Album(
   new Text('RamonPalace.Title', 'Princess Oldenburg\'s Palace'),
+  Genre.Street,
   new Date('2017-01-07'),
   new Photograph('/photographs/2017-01-07/2017-01-07_001.webp', false,
     new Text('RamonPalace.', 'Also known as Princess Oldenburg\'s Palace, is a red-brick neo-Gothic palace in Ramon. It was built in 1883–87 for Princess Eugenia Maximilianovna of Leuchtenberg and her husband Duke Alexander Petrovich of Oldenburg.')),

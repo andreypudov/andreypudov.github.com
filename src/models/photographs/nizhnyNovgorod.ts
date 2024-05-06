@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const NizhnyNovgorod = new Album(
   new Text('NizhnyNovgorod.Title', 'Nizhny Novgorod'),
+  Genre.Street,
   new Date('2019-11-17'),
   new Photograph('/photographs/2017-01-29/2017-01-29_002.webp'),
   [

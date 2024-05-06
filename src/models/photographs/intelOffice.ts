@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const IntelOffice = new Album(
   new Text('IntelOffice.Title', 'Intel Office in Nizhny Novgorod'),
+  Genre.Event,
   new Date('2020-02-14'),
   new Photograph('/photographs/2020-02-13_14/2020-02-13_14_013.webp'),
   [

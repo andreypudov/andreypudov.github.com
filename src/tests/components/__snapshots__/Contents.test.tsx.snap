@@ -103,7 +103,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Contents.Drawings
+            Drawings
           </h2>
         </li>
         <li>
@@ -145,19 +145,8 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Contents.Photographs
+            Portrait Photography
           </h2>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/favorite-photographs/"
-            onClick={[Function]}
-          >
-            Favorite Photographs
-            <small>
-              Thursday, March 17, 2089
-            </small>
-          </a>
         </li>
         <li>
           <a
@@ -167,193 +156,6 @@ exports[`renders correctly 1`] = `
             Pei Pei Chen
             <small>
               Tuesday, April 30, 2024
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/ordesa/"
-            onClick={[Function]}
-          >
-            Ordesa and Monte Perdido National Park
-            <small>
-              Saturday, November 18, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/madrid/"
-            onClick={[Function]}
-          >
-            Madrid
-            <small>
-              Sunday, October 8, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/grapebusters/"
-            onClick={[Function]}
-          >
-            Grapebusters
-            <small>
-              Monday, September 25, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/barcelona/"
-            onClick={[Function]}
-          >
-            Barcelona
-            <small>
-              Sunday, September 24, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/ebro/"
-            onClick={[Function]}
-          >
-            Delta of Ebro
-            <small>
-              Sunday, June 18, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/set-gorgs/"
-            onClick={[Function]}
-          >
-            Ruta dels Set Gorgs de Campdevànol
-            <small>
-              Saturday, June 3, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/barcelona-airport/"
-            onClick={[Function]}
-          >
-            LEBL Barcelona El Prat International Airport
-            <small>
-              Wednesday, May 17, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/montserrat/"
-            onClick={[Function]}
-          >
-            Montserrat
-            <small>
-              Sunday, May 7, 2023
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/perpignan/"
-            onClick={[Function]}
-          >
-            Perpignan
-            <small>
-              Tuesday, December 6, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/els-empedrats-del-montseny/"
-            onClick={[Function]}
-          >
-            Els Empedrats del Montseny
-            <small>
-              Sunday, November 13, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/andorra/"
-            onClick={[Function]}
-          >
-            Andorra
-            <small>
-              Sunday, October 16, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/gotheborg/"
-            onClick={[Function]}
-          >
-            Götheborg. Conquering Scandinavia
-            <small>
-              Saturday, September 10, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/oslo/"
-            onClick={[Function]}
-          >
-            Oslo. Conquering Scandinavia
-            <small>
-              Monday, September 5, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/stockholm/"
-            onClick={[Function]}
-          >
-            Stockholm. Conquering Scandinavia
-            <small>
-              Thursday, September 1, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/puigmal/"
-            onClick={[Function]}
-          >
-            Puigmal
-            <small>
-              Monday, August 15, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/turo-de-lhome/"
-            onClick={[Function]}
-          >
-            Turó de l'Home
-            <small>
-              Sunday, August 7, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/castillo-de-mataplana/"
-            onClick={[Function]}
-          >
-            Castillo de Mataplana
-            <small>
-              Sunday, July 24, 2022
             </small>
           </a>
         </li>
@@ -370,17 +172,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/photographs/poblenou-cemetery/"
-            onClick={[Function]}
-          >
-            Poblenou Cemetery
-            <small>
-              Friday, July 8, 2022
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/en/photographs/ekaterina-domracheva/"
             onClick={[Function]}
           >
@@ -392,100 +183,12 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/photographs/crimea/"
-            onClick={[Function]}
-          >
-            Crimean Holidays
-            <small>
-              Monday, August 2, 2021
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/altay/"
-            onClick={[Function]}
-          >
-            Altay. Conquering Siberia 2.0
-            <small>
-              Monday, August 24, 2020
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/en/photographs/irina-domracheva/"
             onClick={[Function]}
           >
             Irina Domracheva
             <small>
               Monday, May 11, 2020
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/united-states-4.0/"
-            onClick={[Function]}
-          >
-            Conquering America 4.0
-            <small>
-              Wednesday, March 11, 2020
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/intel-office/"
-            onClick={[Function]}
-          >
-            Intel Office in Nizhny Novgorod
-            <small>
-              Friday, February 14, 2020
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/nizhny-novgorod/"
-            onClick={[Function]}
-          >
-            Nizhny Novgorod
-            <small>
-              Sunday, November 17, 2019
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/rekshino/"
-            onClick={[Function]}
-          >
-            Rekshino
-            <small>
-              Saturday, October 26, 2019
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/formula-sochi-3.0/"
-            onClick={[Function]}
-          >
-            2019 Formula 1 Russian Grand Prix
-            <small>
-              Monday, September 30, 2019
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/united-states-3.0/"
-            onClick={[Function]}
-          >
-            Conquering America 3.0
-            <small>
-              Saturday, May 25, 2019
             </small>
           </a>
         </li>
@@ -524,12 +227,208 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/photographs/balloon-festival/"
+            href="/en/photographs/kira-orlova/"
             onClick={[Function]}
           >
-            Balloon Festival
+            Kira Orlova
             <small>
-              Saturday, February 24, 2018
+              Sunday, October 22, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/ekaterina-malysheva/"
+            onClick={[Function]}
+          >
+            Ekaterina Malysheva
+            <small>
+              Saturday, October 7, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/lolita-rakhmatova/"
+            onClick={[Function]}
+          >
+            Lolita Rakhmatova
+            <small>
+              Saturday, December 12, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/asia-farakshina/"
+            onClick={[Function]}
+          >
+            Asia Farakshina
+            <small>
+              Friday, August 14, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/lake-baikal-team/"
+            onClick={[Function]}
+          >
+            Lake Baikal Team
+            <small>
+              Saturday, August 8, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/marina-alekseeva/"
+            onClick={[Function]}
+          >
+            Marina Alekseeva
+            <small>
+              Tuesday, September 10, 2013
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/vera-klemenova/"
+            onClick={[Function]}
+          >
+            Vera Klemenova
+            <small>
+              Thursday, July 19, 2012
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Street Photography
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/madrid/"
+            onClick={[Function]}
+          >
+            Madrid
+            <small>
+              Sunday, October 8, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/barcelona/"
+            onClick={[Function]}
+          >
+            Barcelona
+            <small>
+              Sunday, September 24, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/barcelona-airport/"
+            onClick={[Function]}
+          >
+            LEBL Barcelona El Prat International Airport
+            <small>
+              Wednesday, May 17, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/perpignan/"
+            onClick={[Function]}
+          >
+            Perpignan
+            <small>
+              Tuesday, December 6, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/gotheborg/"
+            onClick={[Function]}
+          >
+            Götheborg. Conquering Scandinavia
+            <small>
+              Saturday, September 10, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/oslo/"
+            onClick={[Function]}
+          >
+            Oslo. Conquering Scandinavia
+            <small>
+              Monday, September 5, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/stockholm/"
+            onClick={[Function]}
+          >
+            Stockholm. Conquering Scandinavia
+            <small>
+              Thursday, September 1, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/poblenou-cemetery/"
+            onClick={[Function]}
+          >
+            Poblenou Cemetery
+            <small>
+              Friday, July 8, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/united-states-4.0/"
+            onClick={[Function]}
+          >
+            Conquering America 4.0
+            <small>
+              Wednesday, March 11, 2020
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/nizhny-novgorod/"
+            onClick={[Function]}
+          >
+            Nizhny Novgorod
+            <small>
+              Sunday, November 17, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/united-states-3.0/"
+            onClick={[Function]}
+          >
+            Conquering America 3.0
+            <small>
+              Saturday, May 25, 2019
             </small>
           </a>
         </li>
@@ -557,28 +456,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/photographs/kira-orlova/"
-            onClick={[Function]}
-          >
-            Kira Orlova
-            <small>
-              Sunday, October 22, 2017
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/ekaterina-malysheva/"
-            onClick={[Function]}
-          >
-            Ekaterina Malysheva
-            <small>
-              Saturday, October 7, 2017
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/en/photographs/united-states-2.0/"
             onClick={[Function]}
           >
@@ -590,45 +467,12 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/photographs/strigino/"
-            onClick={[Function]}
-          >
-            Strigino International Airport
-            <small>
-              Wednesday, August 23, 2017
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/maks/"
-            onClick={[Function]}
-          >
-            MAKS International Aviation and Space Show
-            <small>
-              Saturday, July 22, 2017
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
             href="/en/photographs/ramon-palace/"
             onClick={[Function]}
           >
             Princess Oldenburg's Palace
             <small>
               Saturday, January 7, 2017
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/partners-day/"
-            onClick={[Function]}
-          >
-            Intel Partners Day
-            <small>
-              Wednesday, November 9, 2016
             </small>
           </a>
         </li>
@@ -651,94 +495,6 @@ exports[`renders correctly 1`] = `
             Kaliningrad. The amber capital of the World
             <small>
               Tuesday, August 30, 2016
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/formula-sochi-2.0/"
-            onClick={[Function]}
-          >
-            2016 Formula 1 Russian Grand Prix
-            <small>
-              Wednesday, May 4, 2016
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/intel-products/"
-            onClick={[Function]}
-          >
-            Intel Software Products
-            <small>
-              Friday, April 15, 2016
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/lolita-rakhmatova/"
-            onClick={[Function]}
-          >
-            Lolita Rakhmatova
-            <small>
-              Saturday, December 12, 2015
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/formula-sochi/"
-            onClick={[Function]}
-          >
-            2015 Formula 1 Russian Grand Prix
-            <small>
-              Sunday, October 11, 2015
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/asia-farakshina/"
-            onClick={[Function]}
-          >
-            Asia Farakshina
-            <small>
-              Friday, August 14, 2015
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/lake-baikal/"
-            onClick={[Function]}
-          >
-            Lake Baikal
-            <small>
-              Saturday, August 8, 2015
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/lake-baikal-team/"
-            onClick={[Function]}
-          >
-            Lake Baikal Team
-            <small>
-              Saturday, August 8, 2015
-            </small>
-          </a>
-        </li>
-        <li>
-          <a
-            href="/en/photographs/military-museum/"
-            onClick={[Function]}
-          >
-            Battle Glory of the Urals
-            <small>
-              Thursday, December 25, 2014
             </small>
           </a>
         </li>
@@ -775,25 +531,285 @@ exports[`renders correctly 1`] = `
             </small>
           </a>
         </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Nature Photography
+          </h2>
+        </li>
         <li>
           <a
-            href="/en/photographs/marina-alekseeva/"
+            href="/en/photographs/ordesa/"
             onClick={[Function]}
           >
-            Marina Alekseeva
+            Ordesa and Monte Perdido National Park
             <small>
-              Tuesday, September 10, 2013
+              Saturday, November 18, 2023
             </small>
           </a>
         </li>
         <li>
           <a
-            href="/en/photographs/vera-klemenova/"
+            href="/en/photographs/grapebusters/"
             onClick={[Function]}
           >
-            Vera Klemenova
+            Grapebusters
             <small>
-              Thursday, July 19, 2012
+              Monday, September 25, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/ebro/"
+            onClick={[Function]}
+          >
+            Delta of Ebro
+            <small>
+              Sunday, June 18, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/set-gorgs/"
+            onClick={[Function]}
+          >
+            Ruta dels Set Gorgs de Campdevànol
+            <small>
+              Saturday, June 3, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/montserrat/"
+            onClick={[Function]}
+          >
+            Montserrat
+            <small>
+              Sunday, May 7, 2023
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/els-empedrats-del-montseny/"
+            onClick={[Function]}
+          >
+            Els Empedrats del Montseny
+            <small>
+              Sunday, November 13, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/andorra/"
+            onClick={[Function]}
+          >
+            Andorra
+            <small>
+              Sunday, October 16, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/puigmal/"
+            onClick={[Function]}
+          >
+            Puigmal
+            <small>
+              Monday, August 15, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/turo-de-lhome/"
+            onClick={[Function]}
+          >
+            Turó de l'Home
+            <small>
+              Sunday, August 7, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/castillo-de-mataplana/"
+            onClick={[Function]}
+          >
+            Castillo de Mataplana
+            <small>
+              Sunday, July 24, 2022
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/crimea/"
+            onClick={[Function]}
+          >
+            Crimean Holidays
+            <small>
+              Monday, August 2, 2021
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/altay/"
+            onClick={[Function]}
+          >
+            Altay. Conquering Siberia 2.0
+            <small>
+              Monday, August 24, 2020
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/rekshino/"
+            onClick={[Function]}
+          >
+            Rekshino
+            <small>
+              Saturday, October 26, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/lake-baikal/"
+            onClick={[Function]}
+          >
+            Lake Baikal
+            <small>
+              Saturday, August 8, 2015
+            </small>
+          </a>
+        </li>
+      </ol>
+      <ol
+        className="contents"
+      >
+        <li>
+          <h2>
+            Event Photography
+          </h2>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/intel-office/"
+            onClick={[Function]}
+          >
+            Intel Office in Nizhny Novgorod
+            <small>
+              Friday, February 14, 2020
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/formula-sochi-3.0/"
+            onClick={[Function]}
+          >
+            2019 Formula 1 Russian Grand Prix
+            <small>
+              Monday, September 30, 2019
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/balloon-festival/"
+            onClick={[Function]}
+          >
+            Balloon Festival
+            <small>
+              Saturday, February 24, 2018
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/strigino/"
+            onClick={[Function]}
+          >
+            Strigino International Airport
+            <small>
+              Wednesday, August 23, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/maks/"
+            onClick={[Function]}
+          >
+            MAKS International Aviation and Space Show
+            <small>
+              Saturday, July 22, 2017
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/partners-day/"
+            onClick={[Function]}
+          >
+            Intel Partners Day
+            <small>
+              Wednesday, November 9, 2016
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/formula-sochi-2.0/"
+            onClick={[Function]}
+          >
+            2016 Formula 1 Russian Grand Prix
+            <small>
+              Wednesday, May 4, 2016
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/intel-products/"
+            onClick={[Function]}
+          >
+            Intel Software Products
+            <small>
+              Friday, April 15, 2016
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/formula-sochi/"
+            onClick={[Function]}
+          >
+            2015 Formula 1 Russian Grand Prix
+            <small>
+              Sunday, October 11, 2015
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/military-museum/"
+            onClick={[Function]}
+          >
+            Battle Glory of the Urals
+            <small>
+              Thursday, December 25, 2014
             </small>
           </a>
         </li>

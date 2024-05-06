@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const LookingForTheWind = new Album(
   new Text('LookingForTheWind.Title', 'Looking for the Wind'),
+  Genre.Portrait,
   new Date('2018-05-27'),
   new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
   [

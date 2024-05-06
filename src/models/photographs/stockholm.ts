@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Stockholm = new Album(
   new Text('Stockholm.Title', 'Stockholm. Conquering Scandinavia'),
+  Genre.Street,
   new Date('2022-09-01'),
   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp'),
   [

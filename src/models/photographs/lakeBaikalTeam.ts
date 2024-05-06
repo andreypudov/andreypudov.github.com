@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const LakeBaikalTeam = new Album(
   new Text('LakeBaikalTeam.Title', 'Lake Baikal Team'),
+  Genre.Portrait,
   new Date('2015-08-08'),
   new Photograph('/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp'),
   [

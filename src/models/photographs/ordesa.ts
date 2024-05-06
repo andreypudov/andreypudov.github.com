@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Ordesa = new Album(
   new Text('Ordesa.Title', 'Ordesa and Monte Perdido National Park'),
+  Genre.Nature,
   new Date('2023-11-18'),
   new Photograph('/photographs/2023-11-18/2023-11-18_002.webp'),
   [

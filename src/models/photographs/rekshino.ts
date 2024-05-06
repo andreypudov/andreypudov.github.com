@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Rekshino = new Album(
   new Text('Rekshino.Title', 'Rekshino'),
+  Genre.Nature,
   new Date('2019-10-26'),
   new Photograph('/photographs/2019-10-26/2019-10-26_007.webp'),
   [

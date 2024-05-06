@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Strigino = new Album(
   new Text('Strigino.Title', 'Strigino International Airport'),
+  Genre.Event,
   new Date('2017-08-23'),
   new Photograph('/photographs/2017-08-23/2017-08-23_001.webp'),
   [

@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const PartnersDay = new Album(
   new Text('PartnersDay.Title', 'Intel Partners Day'),
+  Genre.Event,
   new Date('2016-11-09'),
   new Photograph('/photographs/2016-11-09/2016-11-09_010.webp'),
   [

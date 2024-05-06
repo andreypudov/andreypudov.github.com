@@ -2,9 +2,11 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const EkaterinaDomracheva = new Album(
   new Text('EkaterinaDomracheva.Title', 'Ekaterina Domracheva'),
+  Genre.Portrait,
   new Date('2021-08-25'),
   new Photograph('/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp'),
   [

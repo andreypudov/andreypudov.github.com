@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const RussianEmirates = new Album(
   new Text('RussianEmirates.Title', 'Russian Emirates'),
+  Genre.Street,
   new Date('2012-11-21'),
   new Photograph('/photographs/2012-11-09_21/2012-11-09_21_090_large.webp'),
   [

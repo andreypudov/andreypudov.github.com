@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const YoshkarOla = new Album(
   new Text('YoshkarOla.Title', 'Yoshkar-Ola. Tsar\'s town on Kokshaga River'),
+  Genre.Street,
   new Date('2014-05-10'),
   new Photograph('/photographs/2014-05-10/2014-05-10_024_large.webp'),
   [

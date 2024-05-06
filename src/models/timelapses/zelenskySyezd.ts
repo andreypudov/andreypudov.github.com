@@ -1,9 +1,11 @@
 import Album from './../core/photographyAlbum';
 import Text from '../core/text';
 import Video from '../core/video';
+import Genre from '../core/genre';
 
 const ZelenskySyezd = new Album(
   new Text('ZelenskySyezd', 'Zelensky Syezd'),
+  Genre.Street,
   new Date('2017-04-14'),
   new Video('https://player.vimeo.com/video/517762791'),
   [

@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const CrimeanHolidays = new Album(
   new Text('CrimeanHolidays.Title', 'Crimean Holidays'),
+  Genre.Nature,
   new Date('2021-08-02'),
   new Photograph('/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp'),
   [

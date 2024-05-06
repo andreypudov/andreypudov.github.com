@@ -2,9 +2,11 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Video from '../core/video';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const LakeBaikal = new Album(
   new Text('LakeBaikal.Title', 'Lake Baikal'),
+  Genre.Nature,
   new Date('2015-08-08'),
   new Photograph('/photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp', false, new Text('LakeBaikal.', 'The mouth of the Bolshoy Chivyrkuy river - the first morning on the shore of the lake.')),
   [

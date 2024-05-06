@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from '../models/core/page';
-import { Articles, Photographs, Drawings, TimeLapses } from './../models/pages';
+import { Articles, Drawings, TimeLapses, PortraitPhotographs, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
 import VideoView from './shared/Video';
 import LocalizedLink from './shared/LocalizedLink';
 import { useTranslation } from 'react-i18next';
@@ -29,22 +29,37 @@ const Albums = () => {
       <div className = 'container'>
         <h1>{t('Albums.Albums', 'Albums')}</h1>
 
-        <h2>{t('Albums.Drawings', 'Drawings')}</h2>
+        <h2>{t('Contents.Drawings', 'Drawings')}</h2>
         <div className = 'row mb-4'>
           { Drawings.map(d => entry(d, t)) }
         </div>
 
-        <h2>{t('Albums.Photographs', 'Photographs')}</h2>
+        <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
         <div className = 'row mb-4'>
-          { Photographs.map(p => entry(p, t)) }
+          { PortraitPhotographs.map(p => entry(p, t)) }
         </div>
 
-        <h2>{t('Albums.TimeLapses', 'Time Lapses')}</h2>
+        <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
+        <div className = 'row mb-4'>
+          { StreetPhotographs.map(p => entry(p, t)) }
+        </div>
+
+        <h2>{t('Contents.NaturePhotography', 'Nature Photography')}</h2>
+        <div className = 'row mb-4'>
+          { NaturePhotographs.map(p => entry(p, t)) }
+        </div>
+
+        <h2>{t('Contents.EventPhotography', 'Event Photography')}</h2>
+        <div className = 'row mb-4'>
+          { EventPhotographs.map(p => entry(p, t)) }
+        </div>
+
+        <h2>{t('Contents.TimeLapses', 'Time Lapses')}</h2>
         <div className = 'row mb-4'>
           { TimeLapses.map(videoEntry) }
         </div>
 
-        <h2>{t('Albums.Articles', 'Articles')}</h2>
+        <h2>{t('Contents.Articles', 'Articles')}</h2>
         <div className = 'row'>
           { Articles.map(a => entry(a, t)) }
         </div>

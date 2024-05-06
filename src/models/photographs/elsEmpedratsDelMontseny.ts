@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const ElsEmpedratsDelMontseny = new Album(
   new Text('ElsEmpedratsDelMontseny.Title', 'Els Empedrats del Montseny'),
+  Genre.Nature,
   new Date('2022-11-13'),
   new Photograph('/photographs/2022-11-13/2022-11-13_003.webp'),
   [

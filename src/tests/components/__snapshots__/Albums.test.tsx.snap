@@ -178,35 +178,11 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <h2>
-        Photographs
+        Portrait Photography
       </h2>
       <div
         className="row mb-4"
       >
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/favorite-photographs/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Favorite Photographs
-              </h6>
-            </div>
-          </a>
-        </div>
         <div
           className="col-md-4"
         >
@@ -227,414 +203,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Pei Pei Chen
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ordesa/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-11-18/2023-11-18_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Ordesa and Monte Perdido National Park
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/madrid/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-10-06_08/2023-10-06_08_003.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Madrid
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/grapebusters/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-09-25/2023-09-25_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Grapebusters
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/barcelona/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-09-24/2023-09-24_001.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Barcelona
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ebro/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-06-16_18/2023-06-16_18_011.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Delta of Ebro
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/set-gorgs/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-06-03/2023-06-03_010.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Ruta dels Set Gorgs de Campdevànol
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/barcelona-airport/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-05-17/2023-05-17_011.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                LEBL Barcelona El Prat International Airport
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/montserrat/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2023-05-07/2023-05-07_027.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Montserrat
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/perpignan/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-12-06/2022-12-06_004.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Perpignan
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/els-empedrats-del-montseny/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-11-13/2022-11-13_003.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Els Empedrats del Montseny
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/andorra/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-10-15_16/2022-10-15_16_006.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Andorra
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/gotheborg/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-08-27_09-10/2022-08-27_09-10_103.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Götheborg. Conquering Scandinavia
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/oslo/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Oslo. Conquering Scandinavia
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/stockholm/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Stockholm. Conquering Scandinavia
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/puigmal/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-08-15/2022-08-15_009.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Puigmal
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/turo-de-lhome/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-08-07/2022-08-07_019.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Turó de l'Home
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/castillo-de-mataplana/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-07-23_24/2022-07-23_24_008.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Castillo de Mataplana
               </h6>
             </div>
           </a>
@@ -668,30 +236,6 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/poblenou-cemetery/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2022-07-08/2022-07-08_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Poblenou Cemetery
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/en/photographs/ekaterina-domracheva/"
             onClick={[Function]}
           >
@@ -716,54 +260,6 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/crimea/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Crimean Holidays
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/altay/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Altay. Conquering Siberia 2.0
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/en/photographs/irina-domracheva/"
             onClick={[Function]}
           >
@@ -779,150 +275,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Irina Domracheva
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/united-states-4.0/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Conquering America 4.0
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/intel-office/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2020-02-13_14/2020-02-13_14_013.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Intel Office in Nizhny Novgorod
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/nizhny-novgorod/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2017-01-29/2017-01-29_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Nizhny Novgorod
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/rekshino/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2019-10-26/2019-10-26_007.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Rekshino
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/formula-sochi-3.0/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2019-09-30/2019-09-30_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                2019 Formula 1 Russian Grand Prix
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/united-states-3.0/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2019-05-12_05-25/2019-05-12_05-25_001.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Conquering America 3.0
               </h6>
             </div>
           </a>
@@ -1004,13 +356,13 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/balloon-festival/"
+            href="/en/photographs/kira-orlova/"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2018-02-24/2018-02-24_002.webp"
+              src="/photographs/2017-10-22/2017-10-22_016_large.webp"
             />
             <div
               className="card-img-overlay"
@@ -1018,7 +370,422 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Balloon Festival
+                Kira Orlova
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/ekaterina-malysheva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2016-04-16/2016-04-16_009.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ekaterina Malysheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/lolita-rakhmatova/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-12-12/2015-12-12_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lolita Rakhmatova
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/asia-farakshina/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-08-14/2015-08-14_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Asia Farakshina
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/lake-baikal-team/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lake Baikal Team
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/marina-alekseeva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2013-09-10/2013-09-10_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Marina Alekseeva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/vera-klemenova/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2012-07-19/2012-07-19_016_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Vera Klemenova
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2>
+        Street Photography
+      </h2>
+      <div
+        className="row mb-4"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/madrid/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-10-06_08/2023-10-06_08_003.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Madrid
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/barcelona/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-09-24/2023-09-24_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Barcelona
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/barcelona-airport/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-05-17/2023-05-17_011.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                LEBL Barcelona El Prat International Airport
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/perpignan/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-12-06/2022-12-06_004.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Perpignan
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/gotheborg/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-08-27_09-10/2022-08-27_09-10_103.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Götheborg. Conquering Scandinavia
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/oslo/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Oslo. Conquering Scandinavia
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/stockholm/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Stockholm. Conquering Scandinavia
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/poblenou-cemetery/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-07-08/2022-07-08_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Poblenou Cemetery
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/united-states-4.0/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Conquering America 4.0
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/nizhny-novgorod/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2017-01-29/2017-01-29_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Nizhny Novgorod
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/united-states-3.0/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2019-05-12_05-25/2019-05-12_05-25_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Conquering America 3.0
               </h6>
             </div>
           </a>
@@ -1076,54 +843,6 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/kira-orlova/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2017-10-22/2017-10-22_016_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Kira Orlova
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ekaterina-malysheva/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2016-04-16/2016-04-16_009.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Ekaterina Malysheva
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/en/photographs/united-states-2.0/"
             onClick={[Function]}
           >
@@ -1148,54 +867,6 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/strigino/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2017-08-23/2017-08-23_001.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Strigino International Airport
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/maks/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2017-07-22/2017-07-22_013.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                MAKS International Aviation and Space Show
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/en/photographs/ramon-palace/"
             onClick={[Function]}
           >
@@ -1211,30 +882,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Princess Oldenburg's Palace
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/partners-day/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2016-11-09/2016-11-09_010.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Intel Partners Day
               </h6>
             </div>
           </a>
@@ -1283,198 +930,6 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Kaliningrad. The amber capital of the World
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/formula-sochi-2.0/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                2016 Formula 1 Russian Grand Prix
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/intel-products/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2016-04-15/2015-04-12_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Intel Software Products
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/lolita-rakhmatova/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2015-12-12/2015-12-12_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Lolita Rakhmatova
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/formula-sochi/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2015-10-05_11/2015-10-05_11_064_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                2015 Formula 1 Russian Grand Prix
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/asia-farakshina/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2015-08-14/2015-08-14_001.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Asia Farakshina
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/lake-baikal/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Lake Baikal
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/lake-baikal-team/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Lake Baikal Team
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/photographs/military-museum/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Battle Glory of the Urals
               </h6>
             </div>
           </a>
@@ -1551,18 +1006,25 @@ exports[`renders correctly 1`] = `
             </div>
           </a>
         </div>
+      </div>
+      <h2>
+        Nature Photography
+      </h2>
+      <div
+        className="row mb-4"
+      >
         <div
           className="col-md-4"
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/marina-alekseeva/"
+            href="/en/photographs/ordesa/"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2013-09-10/2013-09-10_002.webp"
+              src="/photographs/2023-11-18/2023-11-18_002.webp"
             />
             <div
               className="card-img-overlay"
@@ -1570,7 +1032,7 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Marina Alekseeva
+                Ordesa and Monte Perdido National Park
               </h6>
             </div>
           </a>
@@ -1580,13 +1042,13 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/vera-klemenova/"
+            href="/en/photographs/grapebusters/"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2012-07-19/2012-07-19_016_large.webp"
+              src="/photographs/2023-09-25/2023-09-25_002.webp"
             />
             <div
               className="card-img-overlay"
@@ -1594,7 +1056,542 @@ exports[`renders correctly 1`] = `
               <h6
                 className="card-title"
               >
-                Vera Klemenova
+                Grapebusters
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/ebro/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-06-16_18/2023-06-16_18_011.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Delta of Ebro
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/set-gorgs/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-06-03/2023-06-03_010.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ruta dels Set Gorgs de Campdevànol
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/montserrat/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2023-05-07/2023-05-07_027.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Montserrat
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/els-empedrats-del-montseny/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-11-13/2022-11-13_003.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Els Empedrats del Montseny
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/andorra/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-10-15_16/2022-10-15_16_006.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Andorra
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/puigmal/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-08-15/2022-08-15_009.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Puigmal
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/turo-de-lhome/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-08-07/2022-08-07_019.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Turó de l'Home
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/castillo-de-mataplana/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2022-07-23_24/2022-07-23_24_008.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Castillo de Mataplana
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/crimea/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Crimean Holidays
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/altay/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Altay. Conquering Siberia 2.0
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/rekshino/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2019-10-26/2019-10-26_007.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Rekshino
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/lake-baikal/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_035_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lake Baikal
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2>
+        Event Photography
+      </h2>
+      <div
+        className="row mb-4"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/intel-office/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2020-02-13_14/2020-02-13_14_013.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Intel Office in Nizhny Novgorod
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/formula-sochi-3.0/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2019-09-30/2019-09-30_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                2019 Formula 1 Russian Grand Prix
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/balloon-festival/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2018-02-24/2018-02-24_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Balloon Festival
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/strigino/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2017-08-23/2017-08-23_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Strigino International Airport
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/maks/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2017-07-22/2017-07-22_013.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                MAKS International Aviation and Space Show
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/partners-day/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2016-11-09/2016-11-09_010.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Intel Partners Day
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/formula-sochi-2.0/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                2016 Formula 1 Russian Grand Prix
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/intel-products/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2016-04-15/2015-04-12_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Intel Software Products
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/formula-sochi/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-10-05_11/2015-10-05_11_064_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                2015 Formula 1 Russian Grand Prix
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/en/photographs/military-museum/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Battle Glory of the Urals
               </h6>
             </div>
           </a>

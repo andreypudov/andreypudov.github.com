@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const FormulaSochi3 = new Album(
   new Text('FormulaSochi3.Title', '2019 Formula 1 Russian Grand Prix'),
+  Genre.Event,
   new Date('2019-09-30'),
   new Photograph('/photographs/2019-09-30/2019-09-30_002.webp'),
   [

@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const MilitaryMuseum = new Album(
   new Text('MilitaryMuseum.Title', 'Battle Glory of the Urals'),
+  Genre.Event,
   new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_002_large.webp'),
   [

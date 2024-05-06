@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const PencilSketches = new Album(
   new Text('PencilSketches', 'Pencil Sketches'),
+  Genre.Other,
   new Date('2020-07-16'),
   new Photograph('/drawings/pencil-sketches/2020-04-26.webp', false, new Text('PencilSketches.2020-04-26', 'April 26, 2020')),
   [

@@ -2,9 +2,11 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const PeiPeiChen = new Album(
   new Text('PeiPeiChen.Title', 'Pei Pei Chen'),
+  Genre.Portrait,
   new Date('2024-04-30'),
   new Photograph('/photographs/2024-04-10_30/2024-04-10_30_011.webp'),
   [

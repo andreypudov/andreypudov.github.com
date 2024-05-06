@@ -2,9 +2,11 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Social from '../core/social';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const AlinaCherdakova = new Album(
   new Text('AlinaCherdakova.Title', 'Alina Cherdakova'),
+  Genre.Portrait,
   new Date('2018-08-18'),
   new Photograph('/photographs/2018-08-18/2018-08-18_013.webp'),
   [

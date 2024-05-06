@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const SoftPastel = new Album(
   new Text('SoftPastel', 'Soft Pastel'),
+  Genre.Other,
   new Date('2021-11-01'),
   new Photograph('/drawings/soft-pastel/2021-01-30.webp', false, new Text('SoftPastel.2021-01-30', 'January 30, 2021')),
   [

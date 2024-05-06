@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Altay = new Album(
   new Text('Altay.Title', 'Altay. Conquering Siberia 2.0'),
+  Genre.Nature,
   new Date('2020-08-24'),
   new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp'),
   [

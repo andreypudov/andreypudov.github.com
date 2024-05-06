@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Ebro = new Album(
   new Text('Ebro.Title', 'Delta of Ebro'),
+  Genre.Nature,
   new Date('2023-06-18'),
   new Photograph('/photographs/2023-06-16_18/2023-06-16_18_011.webp'),
   [

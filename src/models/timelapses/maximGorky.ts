@@ -1,9 +1,11 @@
 import Album from './../core/photographyAlbum';
 import Text from '../core/text';
 import Video from '../core/video';
+import Genre from '../core/genre';
 
 const MaximGorky = new Album(
   new Text('MaximGorky', 'Monument to Maxim Gorky'),
+  Genre.Street,
   new Date('2017-04-14'),
   new Video('https://player.vimeo.com/video/517762848'),
   [

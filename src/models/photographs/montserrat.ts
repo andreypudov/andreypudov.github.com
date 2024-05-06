@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Montserrat = new Album(
   new Text('Montserrat.Title', 'Montserrat'),
+  Genre.Nature,
   new Date('2023-05-07'),
   new Photograph('/photographs/2023-05-07/2023-05-07_027.webp'),
   [

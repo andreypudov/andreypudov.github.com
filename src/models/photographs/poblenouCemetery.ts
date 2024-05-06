@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const PoblenouCemetery = new Album(
   new Text('PoblenouCemetery.Title', 'Poblenou Cemetery'),
+  Genre.Street,
   new Date('2022-07-08'),
   new Photograph('/photographs/2022-07-08/2022-07-08_002.webp'),
   [

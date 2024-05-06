@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const ConqueringAmerica = new Album(
   new Text('ConqueringAmerica.Title', 'Conquering America'),
+  Genre.Street,
   new Date('2016-11-05'),
   new Photograph('/photographs/2016-10-15_11-05/2016-10-15_11-05_019_large.webp', false,
   new Text('ConqueringAmerica.', 'National Mall\n\nThe long, grassy National Mall is home to iconic monuments including the Lincoln Memorial and the Washington Monument. At the eastern end is the domed U.S. Capitol, and the White House is to the north. It\'s also flanked by Smithsonian museums, and its lawns and pathways are often crowded with school groups, joggers, and softball teams. Nearby, the Tidal Basin reservoir is known for its blossoming cherry trees.')),

@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const ConqueringAmerica40 = new Album(
   new Text('ConqueringAmerica40.Title', 'Conquering America 4.0'),
+  Genre.Street,
   new Date('2020-03-11'),
   new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp'),
   [

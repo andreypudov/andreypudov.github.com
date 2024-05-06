@@ -2,9 +2,11 @@ import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Video from '../core/video';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const FormulaSochi = new Album(
   new Text('FormulaSochi.Title', '2015 Formula 1 Russian Grand Prix'),
+  Genre.Event,
   new Date('2015-10-11'),
   new Photograph('/photographs/2015-10-05_11/2015-10-05_11_064_large.webp'),
   [

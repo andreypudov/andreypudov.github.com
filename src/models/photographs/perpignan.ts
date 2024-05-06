@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Perpignan = new Album(
   new Text('Perpignan.Title', 'Perpignan'),
+  Genre.Street,
   new Date('2022-12-06'),
   new Photograph('/photographs/2022-12-06/2022-12-06_004.webp'),
   [

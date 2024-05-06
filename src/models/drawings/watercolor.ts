@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Watercolor = new Album(
   new Text('Watercolor', 'Watercolor'),
+  Genre.Other,
   new Date('2024-04-18'),
   new Photograph('/drawings/watercolor/2021-05-24.webp', false, new Text('Watercolor.2021-05-05', 'May 05, 2021')),
   [

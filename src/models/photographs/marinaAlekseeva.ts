@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const MarinaAlekseeva = new Album(
   new Text('MarinaAlekseeva.Title', 'Marina Alekseeva'),
+  Genre.Portrait,
   new Date('2013-09-10'),
   new Photograph('/photographs/2013-09-10/2013-09-10_002.webp'),
   [

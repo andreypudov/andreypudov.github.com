@@ -1,9 +1,11 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
 import Text from '../core/text';
+import Genre from '../core/genre';
 
 const Puigmal = new Album(
   new Text('Puigmal.Title', 'Puigmal'),
+  Genre.Nature,
   new Date('2022-08-15'),
   new Photograph('/photographs/2022-08-15/2022-08-15_009.webp'),
   [

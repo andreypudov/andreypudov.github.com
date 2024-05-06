@@ -79,6 +79,7 @@ import ZelenskySyezd from './../models/timelapses/zelenskySyezd';
 import CureForWellness from './performances/cureForWellness';
 import GravityFalls from './performances/gravityFalls';
 import MiaAndSebastian from './performances/miaAndSebastian';
+import Genre from './core/genre';
 
 const Pages = {
    RussianEmirates: new Page(RussianEmirates, PageType.Article, '/photographs/russian-emirates/'),
@@ -177,9 +178,15 @@ const compareArticles = (p1: Page, p2: Page) => {
 const pagesValues = Object.values(Pages);
 
 export const Articles = pagesValues.filter(p => p.getType() === PageType.Article).sort(compareArticles);
-export const Photographs = pagesValues.filter(p => p.getType() === PageType.Photographs).sort(compareArticles);
 export const Drawings = pagesValues.filter(p => p.getType() === PageType.Drawings).sort(compareArticles);
 export const TimeLapses = pagesValues.filter(p => p.getType() === PageType.TimeLapses).sort(compareArticles);
 export const Performances = pagesValues.filter(p => p.getType() === PageType.Performances).sort(compareArticles);
+
+export const Photographs = pagesValues.filter(p => p.getType() === PageType.Photographs).sort(compareArticles);
+export const EventPhotographs = Photographs.filter(p => p.getAlbum().getGenre() === Genre.Event);
+export const FavoritePhotographs = Photographs.filter(p => p.getAlbum().getGenre() === Genre.Favorites);
+export const NaturePhotographs = Photographs.filter(p => p.getAlbum().getGenre() === Genre.Nature);
+export const PortraitPhotographs = Photographs.filter(p => p.getAlbum().getGenre() === Genre.Portrait);
+export const StreetPhotographs = Photographs.filter(p => p.getAlbum().getGenre() === Genre.Street);
 
 export default Pages;
