@@ -21,7 +21,8 @@ class Language {
     const newPathname = `/${requiredLanguage}${getPathWithoutLanguage(window.location.pathname)}`;
 
     if (requiredLanguage !== requestedLanguage) {
-        window.location.replace(newPathname);
+      console.log('replace the language', requiredLanguage, requestedLanguage, newPathname)
+      window.location.replace(newPathname);
     }
   };
 }
