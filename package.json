@@ -60,21 +60,6 @@
       "last 1 safari version"
     ]
   },
-  "reactSnap": {
-    "source": "build",
-    "include": [
-      "/",
-      "/ru/"
-    ],
-    "concurrency": 1,
-    "puppeteer": {
-      "cache": false
-    },
-    "puppeteerArgs": [
-      "--single-process",
-      "--lang=en,ru"
-    ]
-  },
   "resolutions": {
     "react-scripts/postcss-preset-env/postcss-custom-properties": "^10.0.0"
   },
