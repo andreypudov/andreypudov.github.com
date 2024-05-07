@@ -8,7 +8,8 @@ const MarketingView = () => {
       {
         Photographs
           .filter(p => p.getAlbum().getTitle().getKey() !== 'PeiPeiChen.Title')
-          .slice(0, 4).map(p => <MarketingItem page = { p } key = { p.getAlbum().getTitle().getKey() } />)
+          .slice(0, 4)
+          .map(p => <MarketingItem page = { p } key = { p.getAlbum().getTitle().getKey() } />)
       }
       </div>
    </div>

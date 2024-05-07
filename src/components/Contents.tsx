@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from './../models/core/page';
-import { Articles, FavoritePhotographs, Drawings, TimeLapses, PortraitPhotographs, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
+import { Articles, Drawings, TimeLapses, PortraitPhotographs, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
 import LocalizedLink from './shared/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { getLocalizedDate } from '../utils/date';

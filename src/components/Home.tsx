@@ -19,7 +19,7 @@ const Home = () => {
         </ol>
 
         <div className = 'carousel-inner'>
-        <CarouselItem page = { Pages.PeiPeiChen } cover = '/images/carousel/peipei.webp' isActive = { true } />
+          <CarouselItem page = { Pages.PeiPeiChen } cover = '/images/carousel/peipei.webp' isActive = { true } />
           <CarouselItem page = { Pages.Crimea } cover = '/images/carousel/crimea.webp' />
           <CarouselItem page = { Pages.Altay } cover = '/images/carousel/altay.webp' />
           <CarouselItem page = { Pages.ConqueringRome } cover = '/images/carousel/rome-malta.webp' />
