@@ -1,26 +1,26 @@
-import i18n from 'i18next';
+import i18n from "i18next";
 import Backend from "i18next-http-backend";
-import { initReactI18next } from 'react-i18next';
+import { initReactI18next } from "react-i18next";
 
 const backend = new Backend({
-  loadPath: '/locales/{{lng}}/translation.json'
+  loadPath: "/locales/{{lng}}/translation.json",
 });
 
-const supportedLanguages = ['en']
+const supportedLanguages = ["en"];
 
 i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    lng: 'en',
+    lng: "en",
     backend: backend,
     supportedLngs: supportedLanguages,
-    fallbackLng: 'en',
+    fallbackLng: "en",
     debug: true,
     interpolation: {
-      escapeValue: false
+      escapeValue: false,
     },
-    resources: { en: { }, ru: { } },
+    resources: { en: {}, ru: {} },
   });
 
 export default i18n;

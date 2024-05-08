@@ -1,16 +1,17 @@
-import { MemoryRouter } from 'react-router-dom'
-import Component from './../../../components/articles/GoldenAge';
-import { HelmetProvider } from 'react-helmet-async';
-import renderer from 'react-test-renderer';
+import { MemoryRouter } from "react-router-dom";
+import Component from "./../../../components/articles/GoldenAge";
+import { HelmetProvider } from "react-helmet-async";
+import renderer from "react-test-renderer";
 
-it('renders correctly', () => {
+it("renders correctly", () => {
   const tree = renderer
     .create(
       <HelmetProvider>
         <MemoryRouter>
           <Component />
         </MemoryRouter>
-      </HelmetProvider>)
+      </HelmetProvider>,
+    )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

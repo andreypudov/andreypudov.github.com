@@ -6,8 +6,14 @@ class Social {
   private fbUrl?: string;
   private ingUrl?: string;
 
-  constructor(firstName: string, lastName: string, description: string,
-      vkUrl?: string, fbUrl?: string, ingUrl?: string) {
+  constructor(
+    firstName: string,
+    lastName: string,
+    description: string,
+    vkUrl?: string,
+    fbUrl?: string,
+    ingUrl?: string,
+  ) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.description = description;

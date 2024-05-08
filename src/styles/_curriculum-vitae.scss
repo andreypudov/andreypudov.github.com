@@ -4,19 +4,23 @@
 
     #education {
       margin-top: 20px;
-      position:   relative;
-      padding:    1em 0;
+      position: relative;
+      padding: 1em 0;
       list-style: none;
 
       &:before {
-        width:            2px;
-        height:           100%;
-        position:         absolute;
-        left:             25px;
-        top:              0;
-        content:          ' ';
-        display:          block;
-        background-image: linear-gradient(var(--#{$prefix}secondary-bg), var(--#{$prefix}secondary-color), var(--#{$prefix}secondary-bg));
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        left: 25px;
+        top: 0;
+        content: " ";
+        display: block;
+        background-image: linear-gradient(
+          var(--#{$prefix}secondary-bg),
+          var(--#{$prefix}secondary-color),
+          var(--#{$prefix}secondary-bg)
+        );
 
         @include media-breakpoint-down(lg) {
           left: 20px;
@@ -24,17 +28,17 @@
       }
 
       > li {
-        width:    100%;
-        z-index:  2;
+        width: 100%;
+        z-index: 2;
         position: relative;
-        float:    left;
+        float: left;
 
         > .year {
-          width:       10%;
-          background:  var(--#{$prefix}body-bg);
-          padding:     10px;
+          width: 10%;
+          background: var(--#{$prefix}body-bg);
+          padding: 10px;
           font-weight: 700;
-          display:     inline-block;
+          display: inline-block;
 
           @include media-breakpoint-down(lg) {
             position: relative;
@@ -46,38 +50,38 @@
         }
 
         > .description {
-          width:         87%;
-          display:       inline-block;
-          background:    var(--#{$prefix}tertiary-color);
+          width: 87%;
+          display: inline-block;
+          background: var(--#{$prefix}tertiary-color);
           margin-bottom: 10px;
-          position:      relative;
-          padding:       10px 10px 0 10px;
+          position: relative;
+          padding: 10px 10px 0 10px;
           border-bottom: 1px solid var(--#{$prefix}secondary-bg);
 
           &:after {
-            content:  '';
+            content: "";
             position: absolute;
-            top:      15px;
-            right:    0;
-            left:     -16px;
-            height:   0;
-            width:    0;
-            border:   solid transparent;
+            top: 15px;
+            right: 0;
+            left: -16px;
+            height: 0;
+            width: 0;
+            border: solid transparent;
 
             border-right-color: var(--#{$prefix}tertiary-color);
-            border-width:       8px;
-            pointer-events:     none;
+            border-width: 8px;
+            pointer-events: none;
           }
 
           > h3 {
-            margin:      0;
-            padding:     0;
+            margin: 0;
+            padding: 0;
             font-weight: 700;
           }
 
           > p {
             margin-top: 5px;
-            padding:    0;
+            padding: 0;
           }
         }
       }
@@ -117,8 +121,8 @@
       }
 
       > .icon {
-        padding:       10px;
-        opacity:       0.2;
+        padding: 10px;
+        opacity: 0.2;
 
         > .fa {
           font-size: 1.6em;
@@ -126,18 +130,18 @@
       }
 
       > .title {
-          width:       'calc(100% - 55px)';
-          font-weight: 700;
-          opacity:     0.9;
+        width: "calc(100% - 55px)";
+        font-weight: 700;
+        opacity: 0.9;
 
-          &.only {
-              margin-top: 10px;
-          }
+        &.only {
+          margin-top: 10px;
+        }
       }
 
       > .description {
-        width:       'calc(100% - 55px)';
-        opacity:     0.7;
+        width: "calc(100% - 55px)";
+        opacity: 0.7;
         line-height: 8px;
       }
     }
@@ -145,48 +149,52 @@
 
   .skills {
     > .item-skills {
-      height:           30px;
-      color:          #fff;
-      padding:          5px 10px;
-      margin-bottom:    5px;
-      white-space:      nowrap;
-      overflow:         hidden;
-      text-overflow:    ellipsis;
-      font-weight:      600;
-      background-image: linear-gradient(to right, var(--#{$prefix}secondary-color), var(--#{$prefix}secondary-bg));
+      height: 30px;
+      color: #fff;
+      padding: 5px 10px;
+      margin-bottom: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 600;
+      background-image: linear-gradient(
+        to right,
+        var(--#{$prefix}secondary-color),
+        var(--#{$prefix}secondary-bg)
+      );
     }
 
     > .skills-legend {
       margin-top: 20px;
-      opacity:    0.8;
+      opacity: 0.8;
 
       &:before {
-        width:         100%;
-        height:        1px;
-        position:      relative;
-        content:       ' ';
-        display:       block;
+        width: 100%;
+        height: 1px;
+        position: relative;
+        content: " ";
+        display: block;
         margin-bottom: -13px;
-        background:    var(--#{$prefix}secondary-color);
+        background: var(--#{$prefix}secondary-color);
       }
 
       .legend {
         &:before {
-          width:         1px;
-          height:        12px;
-          position:      relative;
-          content:       ' ';
-          display:       block;
-          margin:        auto;
+          width: 1px;
+          height: 12px;
+          position: relative;
+          content: " ";
+          display: block;
+          margin: auto;
           margin-bottom: 2px;
-          background:    var(--#{$prefix}secondary-color);
+          background: var(--#{$prefix}secondary-color);
         }
       }
 
       > .legend-left {
         &.legend {
           &:before {
-            margin-left:   0;
+            margin-left: 0;
           }
         }
 
@@ -206,7 +214,7 @@
           }
         }
 
-          &:nth-child(3) {
+        &:nth-child(3) {
           > span {
             margin-right: -20px;
           }
@@ -214,28 +222,28 @@
       }
 
       > div {
-        width:   25%;
+        width: 25%;
         display: inline-block;
-        color:   #a9a9a9;
-        float:   left;
+        color: #a9a9a9;
+        float: left;
       }
     }
   }
 
   #language-skills {
     > .skill {
-      margin:         10px 0;
+      margin: 10px 0;
       padding-bottom: 10px;
-      border-bottom:  1px solid var(--#{$prefix}secondary-color);
+      border-bottom: 1px solid var(--#{$prefix}secondary-color);
 
       > .icons {
-        width:      111px;
-        height:     14px;
+        width: 111px;
+        height: 14px;
         // background: url('@{resource-image-path}star-grey.png') no-repeat;
 
         > .icons-red {
-          width:      80%;
-          height:     14px;
+          width: 80%;
+          height: 14px;
           // background: url('@{resource-image-path}star-red.png') no-repeat;
         }
       }
@@ -243,13 +251,13 @@
   }
 
   .hobby {
-    color:         var(--#{$prefix}secondary-bg);
-    display:       inline-block;
-    margin-right:  5px;
+    color: var(--#{$prefix}secondary-bg);
+    display: inline-block;
+    margin-right: 5px;
     margin-bottom: 5px;
-    padding:       5px 5px 5px 5px; // 5px 5px 5px 25px;
-    background:    var(--#{$prefix}secondary-color);
-    position:      relative;
+    padding: 5px 5px 5px 5px; // 5px 5px 5px 25px;
+    background: var(--#{$prefix}secondary-color);
+    position: relative;
 
     /*
     &:before {

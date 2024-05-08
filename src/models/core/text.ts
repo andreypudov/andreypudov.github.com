@@ -1,4 +1,4 @@
-import i18next from '../../i18n';
+import i18next from "../../i18n";
 class Text {
   private key: string;
   private fallback: string;

@@ -1,5 +1,5 @@
-import Album from './photographyAlbum';
-import PageType from './pageType';
+import Album from "./photographyAlbum";
+import PageType from "./pageType";
 
 class Page {
   private album: Album;

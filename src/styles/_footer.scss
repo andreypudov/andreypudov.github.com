@@ -1,5 +1,5 @@
 footer {
-  color:   #6e6e6e;
+  color: #6e6e6e;
   font-size: $font-size-sm;
   -webkit-font-smoothing: antialiased;
 
@@ -7,8 +7,8 @@ footer {
     padding-top: 30px;
 
     > .footer-divider {
-      clear:      both;
-      width:      100%;
+      clear: both;
+      width: 100%;
       border-top: 1px solid #ddd;
     }
 
@@ -16,22 +16,22 @@ footer {
       padding-left: 0px;
 
       > p {
-        float:         left;
+        float: left;
         padding-right: 10px;
       }
 
       > li {
-        float:        none;
-        display:      inline-block;
-        margin-left:  .3em;
-        padding-left: .3em;
-        border-left:  1px solid #ccc;
+        float: none;
+        display: inline-block;
+        margin-left: 0.3em;
+        padding-left: 0.3em;
+        border-left: 1px solid #ccc;
       }
 
       > li.first {
-        margin-left:  0;
+        margin-left: 0;
         padding-left: 0;
-        border-left:  none;
+        border-left: none;
       }
 
       > .piped-links-short {

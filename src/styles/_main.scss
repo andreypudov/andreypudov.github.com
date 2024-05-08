@@ -6,16 +6,16 @@ main {
   margin-top: 100px;
 
   h1 {
-    margin-top:    20px;
+    margin-top: 20px;
     margin-bottom: 30px;
 
     small {
-      display:     block;
+      display: block;
       font-weight: lighter;
-      font-style:  italic;
-      font-size:   70%;
+      font-style: italic;
+      font-size: 70%;
       line-height: 1.4;
-      margin-top:  10px;
+      margin-top: 10px;
     }
   }
 }
@@ -24,7 +24,7 @@ main {
   main {
     margin-top: 64px;
 
-    #homeCarousel{
+    #homeCarousel {
       margin-top: -28px;
     }
   }
@@ -33,7 +33,9 @@ main {
 @include media-breakpoint-down(sm) {
   main {
     .carousel {
-      .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+      .carousel-control-prev,
+      .carousel-control-next,
+      .carousel-indicators {
         display: none;
       }
 

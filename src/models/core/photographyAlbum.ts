@@ -1,8 +1,8 @@
-import { getLocalizedDate } from '../../utils/date';
-import Genre from './genre';
-import Media from './media';
-import Social from './social';
-import Text from './text';
+import { getLocalizedDate } from "../../utils/date";
+import Genre from "./genre";
+import Media from "./media";
+import Social from "./social";
+import Text from "./text";
 
 class PhotographyAlbum {
   private title: Text;
@@ -12,7 +12,14 @@ class PhotographyAlbum {
   private media: Media[];
   private social?: Social;
 
-  constructor(title: Text, genre: Genre, date: Date, cover: Media, media: Media[], social?: Social) {
+  constructor(
+    title: Text,
+    genre: Genre,
+    date: Date,
+    cover: Media,
+    media: Media[],
+    social?: Social,
+  ) {
     this.title = title;
     this.genre = genre;
     this.date = date;
@@ -23,7 +30,7 @@ class PhotographyAlbum {
 
   getTitle = () => this.title;
   getGenre = () => this.genre;
-  getDate  = () => this.date;
+  getDate = () => this.date;
   getCover = () => this.cover;
   getMedia = () => this.media;
   getSocial = () => this.social;

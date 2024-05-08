@@ -1,4 +1,4 @@
-import Album from './../../models/core/photographyAlbum';
+import Album from "./../../models/core/photographyAlbum";
 
 type HeadlineProps = {
   album: Album;
@@ -8,10 +8,12 @@ type HeadlineProps = {
 const Headline = (props: HeadlineProps) => {
   return (
     <h1>
-      { props.album.getTitle().getTranslation() }
-      <small className = 'text-muted'>{ props.album.getDateString(props.locale) }</small>
+      {props.album.getTitle().getTranslation()}
+      <small className="text-muted">
+        {props.album.getDateString(props.locale)}
+      </small>
     </h1>
   );
-}
+};
 
 export default Headline;

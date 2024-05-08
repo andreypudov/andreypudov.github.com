@@ -1,46 +1,75 @@
-import Social from './../../models/core/social';
+import Social from "./../../models/core/social";
 
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from "react-helmet-async";
 
 type TitleProps = {
-   title?: string;
-   cover?: string;
-   social?: Social;
- };
+  title?: string;
+  cover?: string;
+  social?: Social;
+};
 
 const Title = (props: TitleProps) => {
-  const title = props.title ? `${props.title} - Andrey Pudov` : 'Andrey Pudov';
-  const description = props.title ? props.title : 'Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.';
+  const title = props.title ? `${props.title} - Andrey Pudov` : "Andrey Pudov";
+  const description = props.title
+    ? props.title
+    : "Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.";
 
-  const domain = 'https://andreypudov.com';
+  const domain = "https://andreypudov.com";
   const pathname = window.location.pathname;
 
   return (
     <>
       <Helmet>
         <html />
-        <title>{ title }</title>
-        <meta name='description' content = { description } />
+        <title>{title}</title>
+        <meta name="description" content={description} />
 
-        <meta property='og:title' content = { title}  />
-        <meta property='og:description' content = { description } />
-        <meta property='og:type' content = 'website' />
-        { props.cover && <meta property='og:image' content = { `${domain}${props.cover}` } /> }
-        <meta property='og:site_name' content = 'Andrey Pudov' />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        {props.cover && (
+          <meta property="og:image" content={`${domain}${props.cover}`} />
+        )}
+        <meta property="og:site_name" content="Andrey Pudov" />
 
-        { props.social?.getFirstName() && <meta property = 'profile:first_name' content = { props.social.getFirstName() } /> }
-        { props.social?.getLastName() && <meta property = 'profile:last_name' content = { props.social.getLastName() } /> }
-        { props.social?.getDescription() && <meta property = 'og:description' content = { props.social.getDescription() } /> }
+        {props.social?.getFirstName() && (
+          <meta
+            property="profile:first_name"
+            content={props.social.getFirstName()}
+          />
+        )}
+        {props.social?.getLastName() && (
+          <meta
+            property="profile:last_name"
+            content={props.social.getLastName()}
+          />
+        )}
+        {props.social?.getDescription() && (
+          <meta
+            property="og:description"
+            content={props.social.getDescription()}
+          />
+        )}
 
-        { props.social?.getVKUrl() && <meta property = 'og:url' content = { props.social.getVKUrl() } /> }
-        { props.social?.getFacebookUrl() && <meta property = 'og:url' content = { props.social.getFacebookUrl() } /> }
-        { props.social?.getInstagramUrl() && <meta property = 'og:url' content = { props.social.getInstagramUrl() } /> }
+        {props.social?.getVKUrl() && (
+          <meta property="og:url" content={props.social.getVKUrl()} />
+        )}
+        {props.social?.getFacebookUrl() && (
+          <meta property="og:url" content={props.social.getFacebookUrl()} />
+        )}
+        {props.social?.getInstagramUrl() && (
+          <meta property="og:url" content={props.social.getInstagramUrl()} />
+        )}
 
-        <link rel='alternate' hrefLang='en'        href={ `${domain}${pathname}` } />
-        <link rel='alternate' hrefLang='x-default' href={ `${domain}${pathname}` } />
+        <link rel="alternate" hrefLang="en" href={`${domain}${pathname}`} />
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href={`${domain}${pathname}`}
+        />
       </Helmet>
     </>
   );
-}
+};
 
 export default Title;

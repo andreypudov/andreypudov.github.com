@@ -1,11 +1,12 @@
-$font-family-sans-serif: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+$font-family-sans-serif: "Lucida Grande", "Lucida Sans Unicode", Helvetica,
+  Arial, Verdana, sans-serif;
 
 $font-size-base: 0.9rem !default;
-$font-size-sm:   $font-size-base * .775 !default;
+$font-size-sm: $font-size-base * 0.775 !default;
 
-$h1-font-size:   $font-size-base * 1.65 !default;
-$h2-font-size:   $font-size-base * 1.2 !default;
-$h3-font-size:   $font-size-base * 1 !default;
-$h4-font-size:   $font-size-base * 1.5 !default;
-$h5-font-size:   $font-size-base * 1.25 !default;
-$h6-font-size:   $font-size-base !default;
+$h1-font-size: $font-size-base * 1.65 !default;
+$h2-font-size: $font-size-base * 1.2 !default;
+$h3-font-size: $font-size-base * 1 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;

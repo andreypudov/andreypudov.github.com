@@ -5,6 +5,6 @@ enum Genre {
   Portrait,
   Street,
   Other,
-};
+}
 
 export default Genre;

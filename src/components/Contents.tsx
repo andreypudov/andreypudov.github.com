@@ -1,135 +1,196 @@
-import Layout from './shared/Layout'
-import Page from './../models/core/page';
-import { Articles, Drawings, TimeLapses, PortraitPhotographs, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
-import { useTranslation } from 'react-i18next';
-import { getLocalizedDate } from '../utils/date';
-import { TFunction } from 'i18next';
-import { Link } from 'react-router-dom';
+import Layout from "./shared/Layout";
+import Page from "./../models/core/page";
+import {
+  Articles,
+  Drawings,
+  TimeLapses,
+  PortraitPhotographs,
+  StreetPhotographs,
+  NaturePhotographs,
+  EventPhotographs,
+} from "./../models/pages";
+import { useTranslation } from "react-i18next";
+import { getLocalizedDate } from "../utils/date";
+import { TFunction } from "i18next";
+import { Link } from "react-router-dom";
 
 const entry = (page: Page, locale: string, t: TFunction) => {
   const text = page.getAlbum().getTitle();
 
-  return (<li key = { text.getKey() }>
-    <Link to = {page.getRoute()}>
-      { t(text.getKey(), text.getFallback()) }
-      <small>{ page.getAlbum().getDateString(locale) }</small>
-    </Link>
-  </li>);
+  return (
+    <li key={text.getKey()}>
+      <Link to={page.getRoute()}>
+        {t(text.getKey(), text.getFallback())}
+        <small>{page.getAlbum().getDateString(locale)}</small>
+      </Link>
+    </li>
+  );
 };
 
 const Contents = () => {
   const { i18n, t } = useTranslation();
 
   return (
-    <Layout title = { 'Contents' }>
-      <div className = 'container'>
-        <h1>{t('Contents.Contents')}</h1>
+    <Layout title={"Contents"}>
+      <div className="container">
+        <h1>{t("Contents.Contents")}</h1>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.Drawings', 'Drawings')}</h2>
+            <h2>{t("Contents.Drawings", "Drawings")}</h2>
           </li>
-          { Drawings.map(p => entry(p, i18n.language, t)) }
+          {Drawings.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
+            <h2>{t("Contents.PortraitPhotography", "Portrait Photography")}</h2>
           </li>
-          { PortraitPhotographs.map(p => entry(p, i18n.language, t)) }
+          {PortraitPhotographs.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
+            <h2>{t("Contents.StreetPhotography", "Street Photography")}</h2>
           </li>
-          { StreetPhotographs.map(p => entry(p, i18n.language, t)) }
+          {StreetPhotographs.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.NaturePhotography', 'Nature Photography')}</h2>
+            <h2>{t("Contents.NaturePhotography", "Nature Photography")}</h2>
           </li>
-          { NaturePhotographs.map(p => entry(p, i18n.language, t)) }
+          {NaturePhotographs.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.EventPhotography', 'Event Photography')}</h2>
+            <h2>{t("Contents.EventPhotography", "Event Photography")}</h2>
           </li>
-          { EventPhotographs.map(p => entry(p, i18n.language, t)) }
+          {EventPhotographs.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.TimeLapses')}</h2>
+            <h2>{t("Contents.TimeLapses")}</h2>
           </li>
-          { TimeLapses.map(p => entry(p, i18n.language, t)) }
+          {TimeLapses.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.Performances')}</h2>
+            <h2>{t("Contents.Performances")}</h2>
           </li>
           <li>
-            <Link to = '/performances/gravity-falls/'>
-              {t('Contents.GravityFalls')}
-              <small>{getLocalizedDate(new Date('Monday, January 18, 2021'), i18n.language)}</small>
+            <Link to="/performances/gravity-falls/">
+              {t("Contents.GravityFalls")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Monday, January 18, 2021"),
+                  i18n.language,
+                )}
+              </small>
             </Link>
           </li>
           <li>
-            <Link to = '/performances/cure-for-wellness/'>
-              {t('Contents.ACureForWellness')}
-              <small>{getLocalizedDate(new Date('Saturday, March 17, 2018'), i18n.language)}</small>
+            <Link to="/performances/cure-for-wellness/">
+              {t("Contents.ACureForWellness")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Saturday, March 17, 2018"),
+                  i18n.language,
+                )}
+              </small>
             </Link>
           </li>
           <li>
-            <Link to = '/performances/mia-and-sebastian/'>
-              {t('Contents.MiaAndSebastian')}
-              <small>{getLocalizedDate(new Date('Thursday, September 7, 2017'), i18n.language)}</small>
+            <Link to="/performances/mia-and-sebastian/">
+              {t("Contents.MiaAndSebastian")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Thursday, September 7, 2017"),
+                  i18n.language,
+                )}
+              </small>
             </Link>
           </li>
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.Articles')}</h2>
+            <h2>{t("Contents.Articles")}</h2>
           </li>
-          { Articles.map(p => entry(p, i18n.language, t)) }
+          {Articles.map((p) => entry(p, i18n.language, t))}
         </ol>
 
-        <ol className = 'contents'>
+        <ol className="contents">
           <li>
-            <h2>{t('Contents.Projects')}</h2>
+            <h2>{t("Contents.Projects")}</h2>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/paragliding-weather' target = '_blank' rel = 'noreferrer'>
-              {t('Contents.ParaglidingWeather')}
-              <small>{getLocalizedDate(new Date('Wednesday, January 6, 2021'), i18n.language)}</small>
+            <a
+              href="https://github.com/andreypudov/paragliding-weather"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("Contents.ParaglidingWeather")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Wednesday, January 6, 2021"),
+                  i18n.language,
+                )}
+              </small>
             </a>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/timetable' target = '_blank' rel = 'noreferrer'>
-              {t('Contents.Timetable')}
-              <small>{getLocalizedDate(new Date('Wednesday, January 6, 2021'), i18n.language)}</small>
+            <a
+              href="https://github.com/andreypudov/timetable"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("Contents.Timetable")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Wednesday, January 6, 2021"),
+                  i18n.language,
+                )}
+              </small>
             </a>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/algorithms' target = '_blank' rel = 'noreferrer'>
-              {t('Contents.LaboratoryOfAlgorithms')}
-              <small>{getLocalizedDate(new Date('Tuesday, July 10, 2018'), i18n.language)}</small>
+            <a
+              href="https://github.com/andreypudov/algorithms"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("Contents.LaboratoryOfAlgorithms")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Tuesday, July 10, 2018"),
+                  i18n.language,
+                )}
+              </small>
             </a>
           </li>
           <li>
-            <a href = 'https://github.com/andreypudov/openweatherjs' target = '_blank' rel = 'noreferrer'>
-              {t('Contents.OpenWeatherJS')}
-              <small>{getLocalizedDate(new Date('Wednesday, October 24, 2018'), i18n.language)}</small>
+            <a
+              href="https://github.com/andreypudov/openweatherjs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("Contents.OpenWeatherJS")}
+              <small>
+                {getLocalizedDate(
+                  new Date("Wednesday, October 24, 2018"),
+                  i18n.language,
+                )}
+              </small>
             </a>
           </li>
         </ol>
       </div>
     </Layout>
   );
-}
+};
 
 export default Contents;

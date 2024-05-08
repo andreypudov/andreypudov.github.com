@@ -1,4 +1,4 @@
-import Album from '../../models/core/photographyAlbum';
+import Album from "../../models/core/photographyAlbum";
 
 type PhotographProps = {
   album: Album;
@@ -17,18 +17,21 @@ const Photograph = (props: PhotographProps) => {
 
   return (
     <figure>
-      <img src    = { photograph.src }
-        title     = { title }
-        alt       = { alt }
-        className = {`img-responsive gallery-image${ photograph.vertical ? ' vertical' : '' }`} />
-      {
-        description &&
-          <figcaption className = {`image-caption${ photograph.vertical ? ' vertical' : '' }`}>
-            { description.getTranslation() }
-          </figcaption>
-      }
+      <img
+        src={photograph.src}
+        title={title}
+        alt={alt}
+        className={`img-responsive gallery-image${photograph.vertical ? " vertical" : ""}`}
+      />
+      {description && (
+        <figcaption
+          className={`image-caption${photograph.vertical ? " vertical" : ""}`}
+        >
+          {description.getTranslation()}
+        </figcaption>
+      )}
     </figure>
   );
-}
+};
 
 export default Photograph;

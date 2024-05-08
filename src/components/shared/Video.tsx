@@ -1,4 +1,4 @@
-import Album from './../../models/core/photographyAlbum';
+import Album from "./../../models/core/photographyAlbum";
 
 type VideoProps = {
   album: Album;
@@ -15,17 +15,14 @@ const Video = (props: VideoProps) => {
 
   return (
     <figure>
-      <div className = 'ratio ratio-16x9 gallery-video'>
-        <iframe src = { url } title = { title.getTranslation() } allowFullScreen />
+      <div className="ratio ratio-16x9 gallery-video">
+        <iframe src={url} title={title.getTranslation()} allowFullScreen />
       </div>
-      {
-        props.description && description &&
-          <figcaption className = 'video-caption'>
-            { description }
-          </figcaption>
-      }
+      {props.description && description && (
+        <figcaption className="video-caption">{description}</figcaption>
+      )}
     </figure>
   );
-}
+};
 
 export default Video;
