@@ -170,7 +170,7 @@ const Resume = () => {
                   <a
                     href="https://linkedin.com/in/pudov"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <div className="icon pull-left text-center">
                       <span className="fa fa-linkedin fa-fw"></span>
@@ -274,7 +274,7 @@ const Resume = () => {
                   <a
                     href="https://www.linkedin.com/in/viktorya-gvozdeva-154046120/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     {t("Resume.ViktoryaGvozdeva")}
                   </a>
@@ -289,7 +289,7 @@ const Resume = () => {
                   <a
                     href="https://www.linkedin.com/in/tanya-zaslavsky-905aa53/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     {t("Resume.TanyaZaslavsky")}
                   </a>
@@ -304,7 +304,7 @@ const Resume = () => {
                   <a
                     href="https://www.linkedin.com/in/doug-helbling-9151148/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     {t("Resume.DougHelbling")}
                   </a>
@@ -319,7 +319,7 @@ const Resume = () => {
                   <a
                     href="https://www.linkedin.com/in/paul-frumkin/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     {t("Resume.PaulFrumkin")}
                   </a>

@@ -131,7 +131,7 @@ const Contents = () => {
             <a
               href="https://github.com/andreypudov/paragliding-weather"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {t("Contents.ParaglidingWeather")}
               <small>
@@ -146,7 +146,7 @@ const Contents = () => {
             <a
               href="https://github.com/andreypudov/timetable"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {t("Contents.Timetable")}
               <small>
@@ -161,7 +161,7 @@ const Contents = () => {
             <a
               href="https://github.com/andreypudov/algorithms"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {t("Contents.LaboratoryOfAlgorithms")}
               <small>
@@ -176,7 +176,7 @@ const Contents = () => {
             <a
               href="https://github.com/andreypudov/openweatherjs"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {t("Contents.OpenWeatherJS")}
               <small>
