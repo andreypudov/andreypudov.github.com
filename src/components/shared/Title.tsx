@@ -1,4 +1,3 @@
-import { getPathWithoutLanguage } from '../../utils/language';
 import Social from './../../models/core/social';
 
 import { Helmet } from 'react-helmet-async'
@@ -14,13 +13,12 @@ const Title = (props: TitleProps) => {
   const description = props.title ? props.title : 'Official Andrey Pudov website featuring Andrey Pudov news, photo albums and more.';
 
   const domain = 'https://andreypudov.com';
-  const pathname = getPathWithoutLanguage(window.location.pathname);
-  const theme = (window.matchMedia("(prefers-color-scheme: dark)").matches) ? 'dark' : 'light';
+  const pathname = window.location.pathname;
 
   return (
     <>
       <Helmet>
-        <html data-bs-theme = { theme } />
+        <html />
         <title>{ title }</title>
         <meta name='description' content = { description } />
 
@@ -38,8 +36,7 @@ const Title = (props: TitleProps) => {
         { props.social?.getFacebookUrl() && <meta property = 'og:url' content = { props.social.getFacebookUrl() } /> }
         { props.social?.getInstagramUrl() && <meta property = 'og:url' content = { props.social.getInstagramUrl() } /> }
 
-        <link rel='alternate' hrefLang='en'        href={ `${domain}/en${pathname}` } />
-        <link rel='alternate' hrefLang='ru'        href={ `${domain}/ru${pathname}` } />
+        <link rel='alternate' hrefLang='en'        href={ `${domain}${pathname}` } />
         <link rel='alternate' hrefLang='x-default' href={ `${domain}${pathname}` } />
       </Helmet>
     </>

@@ -6,7 +6,7 @@ const backend = new Backend({
   loadPath: '/locales/{{lng}}/translation.json'
 });
 
-const supportedLanguages = ['en', 'ru']
+const supportedLanguages = ['en']
 
 i18n
   .use(Backend)

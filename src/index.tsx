@@ -7,7 +7,6 @@ import { BrowserRouter } from 'react-router-dom';
 import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
 import Routes from './Routes';
-import Language from './utils/language';
 
 import './i18n';
 
@@ -17,11 +16,6 @@ import './styles/style.scss';
 
 import ReactGA from 'react-ga4';
 ReactGA.initialize('G-E0Y9W77G5B');
-
-const language = new Language();
-const requestedLanguage = language.requestedLanguage();
-const browserLanguages = language.browserLanguages();
-language.applyLanguage(requestedLanguage, browserLanguages);
 
 const rootElement = document.getElementById("root");
 const app = (<React.StrictMode>

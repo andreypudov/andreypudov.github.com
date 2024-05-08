@@ -1,5 +1,5 @@
-import LocalizedLink from './LocalizedLink';
 import Page from '../../models/core/page';
+import { Link } from 'react-router-dom';
 
 type MarketingItemProps = {
   page: Page;
@@ -9,11 +9,11 @@ type MarketingItemProps = {
 const MarketingItem = ({ page, cover }: MarketingItemProps) => {
   return (
    <div className = 'col-sm-3'>
-      <LocalizedLink to = { page.getRoute() }>
+      <Link to = { page.getRoute() }>
         <img src = { cover ?? page.getAlbum().getCover().src } 
              alt = { page.getAlbum().getTitle().getTranslation() } 
              className = 'img-fluid' />
-      </LocalizedLink>
+      </Link>
    </div>
   );
 }

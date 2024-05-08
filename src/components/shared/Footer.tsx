@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import LocalizedLink from './LocalizedLink';
+import { Link } from 'react-router-dom';
 
 type FooterProps = {
   landing?: boolean;
@@ -14,9 +14,9 @@ const Footer = ({ landing }: FooterProps) => {
         { !landing && <hr className = 'footer-divider' /> }
 
         <ul className = 'piped-links float-end'>
-          <li className = 'first piped-links-short'><LocalizedLink to = '/resume/'>{t('Footer.AboutShort', 'About')}</LocalizedLink></li>
-          <li className = 'first piped-links-long'><LocalizedLink to = '/resume/'>{t('Footer.AboutLong', 'About Andrey Pudov')}</LocalizedLink></li>
-          <li><LocalizedLink to = '/contact/'>{t('Footer.Contact', 'Contact')}</LocalizedLink></li>
+          <li className = 'first piped-links-short'><Link to = '/resume/'>{t('Footer.AboutShort', 'About')}</Link></li>
+          <li className = 'first piped-links-long'><Link to = '/resume/'>{t('Footer.AboutLong', 'About Andrey Pudov')}</Link></li>
+          <li><Link to = '/contact/'>{t('Footer.Contact', 'Contact')}</Link></li>
         </ul>
 
         <ul className = 'piped-links'>
