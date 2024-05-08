@@ -10,8 +10,6 @@
     "@types/react-router-dom": "^5.3.3",
     "bootstrap": "5.3.3",
     "i18next": "^23.11.3",
-    "i18next-browser-languagedetector": "^7.2.1",
-    "i18next-http-backend": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-ga4": "^2.1.0",
@@ -27,7 +25,6 @@
     "@types/node": "^20.12.10",
     "@types/react-test-renderer": "^18.3.0",
     "gh-pages": "^6.1.1",
-    "postcss-custom-properties": "^13.3.10",
     "prettier": "3.2.5",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^18.3.1",
@@ -60,7 +57,5 @@
       "last 1 safari version"
     ]
   },
-  "resolutions": {
-    "react-scripts/postcss-preset-env/postcss-custom-properties": "^10.0.0"
-  }
+  "packageManager": "yarn@1.22.21"
 }
