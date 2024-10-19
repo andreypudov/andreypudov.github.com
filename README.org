@@ -7,6 +7,10 @@ Driven professional with broad technical skill set. Thrives in environments that
 *** *Combination AB*
   - *Sr. Software Development Engineer* / 2021 - present
 
+    Responsible for the implementation of a comprehensive social platform, with a particular focus on media post functionality. I developed and maintained the frontend representation of video and image posts, ensuring a seamless and engaging user experience. This involved fine-tuning performance and visual consistency across multiple platforms, providing an optimized experience for all users.
+
+    On the backend, I worked extensively on media post encoding, automated moderation processes, and efficient storage solutions to handle high volumes of content. I collaborated closely with thedesign team to translate their vision into a functional interface and worked alongside stakeholders to ensure that the platform met business requirements while delivering a high-quality user experience.
+
 *** *EPAM Systems*
   - *Sr. Software Development Engineer** / 2020 - 2021
 
