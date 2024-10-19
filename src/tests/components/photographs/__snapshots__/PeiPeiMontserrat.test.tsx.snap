@@ -96,35 +96,83 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Pei Pei Chen
+        Pei Pei. Climbing Montserrat
         <small
           className="text-muted"
         >
-          Saturday, March 30, 2024
+          Saturday, June 15, 2024
         </small>
       </h1>
       <figure>
         <img
-          alt="Pei Pei Chen"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2024-06-09/2024-06-09_001.webp"
-          title="Pei Pei Chen"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Pei Pei Chen"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2024-08-25/2024-08-25_001.webp"
-          title="Pei Pei Chen"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Pei Pei Chen"
+          alt="Pei Pei. Climbing Montserrat"
           className="img-responsive gallery-image"
-          src="/photographs/2024-08-25/2024-08-25_002.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2024-06-15/2024-06-15_001.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-06-15/2024-06-15_002.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-06-15/2024-06-15_003.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-06-15/2024-06-15_004.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-06-15/2024-06-15_005.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-06-15/2024-06-15_006.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-06-15/2024-06-15_007.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-06-15/2024-06-15_008.webp"
+          title="Pei Pei. Climbing Montserrat"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Climbing Montserrat"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-06-15/2024-06-15_009.webp"
+          title="Pei Pei. Climbing Montserrat"
         />
       </figure>
     </div>

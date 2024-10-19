@@ -96,35 +96,35 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Pei Pei Chen
+        La Mercè
         <small
           className="text-muted"
         >
-          Saturday, March 30, 2024
+          Friday, September 20, 2024
         </small>
       </h1>
       <figure>
         <img
-          alt="Pei Pei Chen"
+          alt="La Mercè"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2024-06-09/2024-06-09_001.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2024-09-20/2024-09-20_001.webp"
+          title="La Mercè"
         />
       </figure>
       <figure>
         <img
-          alt="Pei Pei Chen"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2024-08-25/2024-08-25_001.webp"
-          title="Pei Pei Chen"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Pei Pei Chen"
+          alt="La Mercè"
           className="img-responsive gallery-image"
-          src="/photographs/2024-08-25/2024-08-25_002.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2024-09-20/2024-09-20_002.webp"
+          title="La Mercè"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="La Mercè"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-09-20/2024-09-20_003.webp"
+          title="La Mercè"
         />
       </figure>
     </div>

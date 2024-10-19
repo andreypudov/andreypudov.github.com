@@ -96,35 +96,83 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Pei Pei Chen
+        Pei Pei. Weekend in Stockholm
         <small
           className="text-muted"
         >
-          Saturday, March 30, 2024
+          Sunday, July 14, 2024
         </small>
       </h1>
       <figure>
         <img
-          alt="Pei Pei Chen"
+          alt="Pei Pei. Weekend in Stockholm"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2024-06-09/2024-06-09_001.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2024-07-04_14/2024-07-04_14_001.webp"
+          title="Pei Pei. Weekend in Stockholm"
         />
       </figure>
       <figure>
         <img
-          alt="Pei Pei Chen"
+          alt="Pei Pei. Weekend in Stockholm"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2024-08-25/2024-08-25_001.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2024-07-04_14/2024-07-04_14_002.webp"
+          title="Pei Pei. Weekend in Stockholm"
         />
       </figure>
       <figure>
         <img
-          alt="Pei Pei Chen"
+          alt="Pei Pei. Weekend in Stockholm"
           className="img-responsive gallery-image"
-          src="/photographs/2024-08-25/2024-08-25_002.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2024-07-04_14/2024-07-04_14_003.webp"
+          title="Pei Pei. Weekend in Stockholm"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Weekend in Stockholm"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-07-04_14/2024-07-04_14_004.webp"
+          title="Pei Pei. Weekend in Stockholm"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Weekend in Stockholm"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-07-04_14/2024-07-04_14_005.webp"
+          title="Pei Pei. Weekend in Stockholm"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Weekend in Stockholm"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-07-04_14/2024-07-04_14_006.webp"
+          title="Pei Pei. Weekend in Stockholm"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Weekend in Stockholm"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-07-04_14/2024-07-04_14_007.webp"
+          title="Pei Pei. Weekend in Stockholm"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Weekend in Stockholm"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-07-04_14/2024-07-04_14_008.webp"
+          title="Pei Pei. Weekend in Stockholm"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei. Weekend in Stockholm"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-07-04_14/2024-07-04_14_009.webp"
+          title="Pei Pei. Weekend in Stockholm"
         />
       </figure>
     </div>

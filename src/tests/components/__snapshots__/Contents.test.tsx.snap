@@ -150,12 +150,56 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
+            href="/en/photographs/pei-pei-rain/"
+            onClick={[Function]}
+          >
+            Pei Pei. Rain in Barcelona
+            <small>
+              Saturday, September 21, 2024
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/pei-pei-stockholm/"
+            onClick={[Function]}
+          >
+            Pei Pei. Weekend in Stockholm
+            <small>
+              Sunday, July 14, 2024
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/pei-pei-montserrat/"
+            onClick={[Function]}
+          >
+            Pei Pei. Climbing Montserrat
+            <small>
+              Saturday, June 15, 2024
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/pei-pei-madrid/"
+            onClick={[Function]}
+          >
+            Pei Pei. Weekend in Madrid
+            <small>
+              Tuesday, April 30, 2024
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
             href="/en/photographs/pei-pei-chen/"
             onClick={[Function]}
           >
             Pei Pei Chen
             <small>
-              Tuesday, April 30, 2024
+              Saturday, March 30, 2024
             </small>
           </a>
         </li>
@@ -310,6 +354,28 @@ exports[`renders correctly 1`] = `
           <h2>
             Street Photography
           </h2>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/la-merce/"
+            onClick={[Function]}
+          >
+            La Mercè
+            <small>
+              Friday, September 20, 2024
+            </small>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/en/photographs/gracia-festivities/"
+            onClick={[Function]}
+          >
+            Castellers de la Vila de Gràcia
+            <small>
+              Sunday, August 18, 2024
+            </small>
+          </a>
         </li>
         <li>
           <a

@@ -256,13 +256,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/ordesa/"
+            href="/en/photographs/pei-pei-rain/"
             onClick={[Function]}
           >
             <img
-              alt="Ordesa and Monte Perdido National Park"
+              alt="Pei Pei. Rain in Barcelona"
               className="img-fluid"
-              src="/photographs/2023-11-18/2023-11-18_002.webp"
+              src="/photographs/2024-09-21/2024-09-21_006.webp"
             />
           </a>
         </div>
@@ -270,13 +270,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/madrid/"
+            href="/en/photographs/la-merce/"
             onClick={[Function]}
           >
             <img
-              alt="Madrid"
+              alt="La Mercè"
               className="img-fluid"
-              src="/photographs/2023-10-06_08/2023-10-06_08_003.webp"
+              src="/photographs/2024-09-20/2024-09-20_002.webp"
             />
           </a>
         </div>
@@ -284,13 +284,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/grapebusters/"
+            href="/en/photographs/gracia-festivities/"
             onClick={[Function]}
           >
             <img
-              alt="Grapebusters"
+              alt="Castellers de la Vila de Gràcia"
               className="img-fluid"
-              src="/photographs/2023-09-25/2023-09-25_002.webp"
+              src="/photographs/2024-08-18/2024-08-18_000.webp"
             />
           </a>
         </div>

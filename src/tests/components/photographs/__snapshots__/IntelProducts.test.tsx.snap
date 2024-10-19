@@ -96,35 +96,64 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Pei Pei Chen
+        Intel Software Products
         <small
           className="text-muted"
         >
-          Saturday, March 30, 2024
+          Friday, April 15, 2016
         </small>
       </h1>
       <figure>
         <img
-          alt="Pei Pei Chen"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2024-06-09/2024-06-09_001.webp"
-          title="Pei Pei Chen"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Pei Pei Chen"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2024-08-25/2024-08-25_001.webp"
-          title="Pei Pei Chen"
-        />
-      </figure>
-      <figure>
-        <img
-          alt="Pei Pei Chen"
+          alt="Intel Software Products - The work on splash screen design for Intel software products."
           className="img-responsive gallery-image"
-          src="/photographs/2024-08-25/2024-08-25_002.webp"
-          title="Pei Pei Chen"
+          src="/photographs/2016-04-15/2015-04-12_001.webp"
+          title="The work on splash screen design for Intel software products."
+        />
+        <figcaption
+          className="image-caption"
+        >
+          The work on splash screen design for Intel software products.
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Intel Software Products"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-04-15/2015-04-12_002.webp"
+          title="Intel Software Products"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Intel Software Products"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-04-15/2015-04-12_003.webp"
+          title="Intel Software Products"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Intel Software Products"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-04-15/2016-01-22_001.webp"
+          title="Intel Software Products"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Intel Software Products"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-04-15/2016-04-13_001.webp"
+          title="Intel Software Products"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Intel Software Products"
+          className="img-responsive gallery-image"
+          src="/photographs/2016-04-15/2016-04-15_001.webp"
+          title="Intel Software Products"
         />
       </figure>
     </div>

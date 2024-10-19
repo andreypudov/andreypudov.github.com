@@ -79,5 +79,6 @@
   },
   "resolutions": {
     "react-scripts/postcss-preset-env/postcss-custom-properties": "^10.0.0"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
