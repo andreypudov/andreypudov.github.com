@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from '../models/core/page';
-import { Articles, Drawings, TimeLapses, PortraitPhotographs, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
+import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
 import VideoView from './shared/Video';
 import LocalizedLink from './shared/LocalizedLink';
 import { useTranslation } from 'react-i18next';
@@ -34,10 +34,10 @@ const Albums = () => {
           { Drawings.map(d => entry(d, t)) }
         </div>
 
-        <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
+        {/* <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
         <div className = 'row mb-4'>
           { PortraitPhotographs.map(p => entry(p, t)) }
-        </div>
+        </div> */}
 
         <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
         <div className = 'row mb-4'>

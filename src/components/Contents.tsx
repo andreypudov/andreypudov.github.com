@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from './../models/core/page';
-import { Articles, Drawings, TimeLapses, PortraitPhotographs, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
+import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
 import LocalizedLink from './shared/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { getLocalizedDate } from '../utils/date';
@@ -32,12 +32,12 @@ const Contents = () => {
           { Drawings.map(p => entry(p, i18n.language, t)) }
         </ol>
 
-        <ol className = 'contents'>
+        {/* <ol className = 'contents'>
           <li>
             <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
           </li>
           { PortraitPhotographs.map(p => entry(p, i18n.language, t)) }
-        </ol>
+        </ol> */}
 
         <ol className = 'contents'>
           <li>

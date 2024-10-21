@@ -6,6 +6,7 @@ import RussianEmirates from './../models/photographs/russianEmirates';
 import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
+/*
 import PeiPeiChen from './photographs/peipeiChen';
 import PeiPeiMadrid from './photographs/peipeiMadrid';
 import PeiPeiMontserrat from './photographs/peipeiMontserrat';
@@ -24,6 +25,7 @@ import AsiaFarakshina from './../models/photographs/asiaFarakshina';
 import LakeBaikalTeam from './../models/photographs/lakeBaikalTeam';
 import MarinaAlekseeva from './../models/photographs/marinaAlekseeva';
 import VeraKlemenova from './../models/photographs/veraKlemenova';
+*/
 
 import Favorites from './../models/photographs/favorites';
 import LaMerce from './../models/photographs/laMerce';
@@ -93,6 +95,7 @@ const Pages = {
    GoldenAge: new Page(GoldenAge, PageType.Article, '/photographs/golden-age/'),
    ImperialTown: new Page(ImperialTown, PageType.Article, '/photographs/imperial-town/'),
 
+   /*
    PeiPeiChen: new Page(PeiPeiChen, PageType.Photographs, '/photographs/pei-pei-chen/'),
    PeiPeiMadrid: new Page(PeiPeiMadrid, PageType.Photographs, '/photographs/pei-pei-madrid/'),
    PeiPeiMontserrat: new Page(PeiPeiMontserrat, PageType.Photographs, '/photographs/pei-pei-montserrat/'),
@@ -111,6 +114,7 @@ const Pages = {
    LakeBaikalTeam: new Page(LakeBaikalTeam, PageType.Photographs, '/photographs/lake-baikal-team/'),
    MarinaAlekseeva: new Page(MarinaAlekseeva, PageType.Photographs, '/photographs/marina-alekseeva/'),
    VeraKlemenova: new Page(VeraKlemenova, PageType.Photographs, '/photographs/vera-klemenova/'),
+   */
 
    Favorites: new Page(Favorites, PageType.Photographs, '/photographs/favorite-photographs/'),
    LaMerce: new Page(LaMerce, PageType.Photographs, '/photographs/la-merce/'),
