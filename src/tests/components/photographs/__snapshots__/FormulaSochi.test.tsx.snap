@@ -615,22 +615,6 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
         />
       </figure>
       <figure>
-        <div
-          className="ratio ratio-16x9 gallery-video"
-        >
-          <iframe
-            allowFullScreen={true}
-            src="https://www.youtube.com/embed/XAYCQjo3m0Y?rel=0"
-            title="2015 Formula 1 Russian Grand Prix"
-          />
-        </div>
-        <figcaption
-          className="video-caption"
-        >
-          The start of the GP2 qualification session.
-        </figcaption>
-      </figure>
-      <figure>
         <img
           alt="2015 Formula 1 Russian Grand Prix - Governor of Krasnodar Krai Aleksandr Tkachov (driving) and chief executive of the Formula One Group Bernie Ecclestone on an excursion across the Olympic Pack by the Safety car."
           className="img-responsive gallery-image"

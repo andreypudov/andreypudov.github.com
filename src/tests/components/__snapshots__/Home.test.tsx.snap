@@ -128,19 +128,19 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
-          href="/en/photographs/pei-pei-chen/"
+          href="/en/photographs/la-merce/"
           onClick={[Function]}
         >
           <img
-            alt="Pei Pei Chen"
+            alt="La Mercè"
             className="d-block w-100"
-            src="/images/carousel/peipei.webp"
+            src="/images/carousel/la-merce.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Pei Pei Chen
+              La Mercè
             </h5>
           </div>
         </a>
@@ -256,20 +256,6 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/pei-pei-rain/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Pei Pei. Rain in Barcelona"
-              className="img-fluid"
-              src="/photographs/2024-09-21/2024-09-21_006.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
             href="/en/photographs/la-merce/"
             onClick={[Function]}
           >
@@ -291,6 +277,20 @@ exports[`renders correctly 1`] = `
               alt="Castellers de la Vila de Gràcia"
               className="img-fluid"
               src="/photographs/2024-08-18/2024-08-18_000.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/en/photographs/ordesa/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Ordesa and Monte Perdido National Park"
+              className="img-fluid"
+              src="/photographs/2023-11-18/2023-11-18_002.webp"
             />
           </a>
         </div>
