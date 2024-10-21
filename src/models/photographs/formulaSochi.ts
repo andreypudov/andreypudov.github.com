@@ -102,7 +102,7 @@ const FormulaSochi = new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_089_large.webp', false, new Text('FormulaSochi.', 'Mechanics and engineers on the grid prior to the start of the race.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_090_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_091_large.webp', false, new Text('FormulaSochi.', 'Mechanics prepare cars making final changes that could define a race.')),
-    //new Video('https://www.youtube.com/embed/cRuuGAEgW64?rel=0', new Text('FormulaSochi.', 'The start of the Formula 1 race.')),
+    new Video('https://www.youtube.com/embed/cRuuGAEgW64?rel=0', new Text('FormulaSochi.', 'The start of the Formula 1 race.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_092_large.webp', false, new Text('FormulaSochi.', 'His Excellency Vladimir Vladimirovich Putin, President of the Russian Federation. Arriving late at the Sochi Autodrom.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_093_large.webp', false, new Text('FormulaSochi.', 'VIP Luxury Seating at Sochi Autodrom\n\nThe Federal Guard Service of the Russian Federation is a federal government agency concerned with the tasks related to the protection of several high-ranking state officials, mandated by the relevant law, including the President of Russia, as well as certain federal properties. It traces its origin to the USSR\'s Ninth Chief Directorate of the KGB and later Presidential Security Service (SBP) led by KGB general Alexander Korzhakov.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_094_large.webp', true),
