@@ -27,13 +27,6 @@ const Contents = () => {
 
         <ol className = 'contents'>
           <li>
-            <h2>{t('Contents.Drawings', 'Drawings')}</h2>
-          </li>
-          { Drawings.map(p => entry(p, i18n.language, t)) }
-        </ol>
-
-        <ol className = 'contents'>
-          <li>
             <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
           </li>
           { StreetPhotographs.map(p => entry(p, i18n.language, t)) }
@@ -58,6 +51,13 @@ const Contents = () => {
             <h2>{t('Contents.EventPhotography', 'Event Photography')}</h2>
           </li>
           { EventPhotographs.map(p => entry(p, i18n.language, t)) }
+        </ol>
+
+        <ol className = 'contents'>
+          <li>
+            <h2>{t('Contents.Drawings', 'Drawings')}</h2>
+          </li>
+          { Drawings.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>

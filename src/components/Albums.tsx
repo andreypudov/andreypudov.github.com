@@ -29,11 +29,6 @@ const Albums = () => {
       <div className = 'container'>
         <h1>{t('Albums.Albums', 'Albums')}</h1>
 
-        <h2>{t('Contents.Drawings', 'Drawings')}</h2>
-        <div className = 'row mb-4'>
-          { Drawings.map(d => entry(d, t)) }
-        </div>
-
         <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
         <div className = 'row mb-4'>
           { StreetPhotographs.map(p => entry(p, t)) }
@@ -52,6 +47,11 @@ const Albums = () => {
         <h2>{t('Contents.EventPhotography', 'Event Photography')}</h2>
         <div className = 'row mb-4'>
           { EventPhotographs.map(p => entry(p, t)) }
+        </div>
+
+        <h2>{t('Contents.Drawings', 'Drawings')}</h2>
+        <div className = 'row mb-4'>
+          { Drawings.map(d => entry(d, t)) }
         </div>
 
         <h2>{t('Contents.TimeLapses', 'Time Lapses')}</h2>
