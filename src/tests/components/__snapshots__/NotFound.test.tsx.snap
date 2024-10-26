@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/en/"
+            href="/"
             onClick={[Function]}
           >
             Header.AndreyPudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/albums/"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contents/"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/resume/"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contact/"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -114,7 +114,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -124,7 +124,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -132,7 +132,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/contact/"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

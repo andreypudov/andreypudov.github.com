@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/en/"
+            href="/"
             onClick={[Function]}
           >
             Header.AndreyPudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/albums/"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contents/"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/resume/"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contact/"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -613,6 +613,22 @@ Also, the TCR International Series raced at Sochi in 2015-2016, with the TCR Rus
           src="/photographs/2015-10-05_11/2015-10-05_11_045_large.webp"
           title="2015 Formula 1 Russian Grand Prix"
         />
+      </figure>
+      <figure>
+        <div
+          className="ratio ratio-16x9 gallery-video"
+        >
+          <iframe
+            allowFullScreen={true}
+            src="https://www.youtube.com/embed/XAYCQjo3m0Y?rel=0"
+            title="2015 Formula 1 Russian Grand Prix"
+          />
+        </div>
+        <figcaption
+          className="video-caption"
+        >
+          The start of the GP2 qualification session.
+        </figcaption>
       </figure>
       <figure>
         <img
@@ -1254,7 +1270,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
           className="first piped-links-short"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -1264,7 +1280,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
           className="first piped-links-long"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -1272,7 +1288,7 @@ Lewis Hamilton won the race for the second season in a row, extending his Driver
         </li>
         <li>
           <a
-            href="/en/contact/"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

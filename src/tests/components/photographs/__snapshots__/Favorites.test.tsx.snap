@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/en/"
+            href="/"
             onClick={[Function]}
           >
             Header.AndreyPudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/albums/"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contents/"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/resume/"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contact/"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -103,6 +103,19 @@ exports[`renders correctly 1`] = `
           Thursday, March 17, 2089
         </small>
       </h1>
+      <figure>
+        <img
+          alt="Favorite Photographs - Pei Pei. Weekend in Madrid"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-04-10_30/2024-04-10_30_011.webp"
+          title="Pei Pei. Weekend in Madrid"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Pei Pei. Weekend in Madrid
+        </figcaption>
+      </figure>
       <figure>
         <img
           alt="Favorite Photographs - Ordesa and Monte Perdido National Park"
@@ -593,7 +606,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
           className="first piped-links-short"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -603,7 +616,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
           className="first piped-links-long"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -611,7 +624,7 @@ The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000
         </li>
         <li>
           <a
-            href="/en/contact/"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

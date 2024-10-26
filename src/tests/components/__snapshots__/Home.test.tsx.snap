@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/en/"
+            href="/"
             onClick={[Function]}
           >
             Header.AndreyPudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/albums/"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contents/"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/resume/"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contact/"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -128,73 +128,73 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
-          href="/en/photographs/la-merce/"
+          href="/photographs/pei-pei-chen/"
           onClick={[Function]}
         >
           <img
-            alt="La Mercè"
+            alt="Pei Pei Chen"
             className="d-block w-100"
-            src="/images/carousel/la-merce.webp"
+            src="/images/carousel/peipei.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              La Mercè
+              Pei Pei Chen
             </h5>
           </div>
         </a>
         <a
           className="carousel-item "
-          href="/en/photographs/crimea/"
+          href="/photographs/oslo/"
           onClick={[Function]}
         >
           <img
-            alt="Crimean Holidays"
+            alt="Oslo. Conquering Scandinavia"
             className="d-block w-100"
-            src="/images/carousel/crimea.webp"
+            src="/images/carousel/oslo.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Crimean Holidays
+              Oslo. Conquering Scandinavia
             </h5>
           </div>
         </a>
         <a
           className="carousel-item "
-          href="/en/photographs/altay/"
+          href="/photographs/stockholm/"
           onClick={[Function]}
         >
           <img
-            alt="Altay. Conquering Siberia 2.0"
+            alt="Stockholm. Conquering Scandinavia"
             className="d-block w-100"
-            src="/images/carousel/altay.webp"
+            src="/images/carousel/stockholm.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Altay. Conquering Siberia 2.0
+              Stockholm. Conquering Scandinavia
             </h5>
           </div>
         </a>
         <a
           className="carousel-item "
-          href="/en/photographs/rome-malta/"
+          href="/photographs/poblenou-cemetery/"
           onClick={[Function]}
         >
           <img
-            alt="Conquering Rome and Order of Malta"
+            alt="Poblenou Cemetery"
             className="d-block w-100"
-            src="/images/carousel/rome-malta.webp"
+            src="/images/carousel/poblenou-cemetery.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Conquering Rome and Order of Malta
+              Poblenou Cemetery
             </h5>
           </div>
         </a>
@@ -242,13 +242,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/favorite-photographs/"
+            href="/photographs/favorite-photographs/"
             onClick={[Function]}
           >
             <img
               alt="Favorite Photographs"
               className="img-fluid"
-              src="/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp"
+              src="/photographs/2023-11-18/2023-11-18_002.webp"
             />
           </a>
         </div>
@@ -256,7 +256,21 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/la-merce/"
+            href="/photographs/pei-pei-rain/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Pei Pei. Rain in Barcelona"
+              className="img-fluid"
+              src="/photographs/2024-09-21/2024-09-21_006.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/la-merce/"
             onClick={[Function]}
           >
             <img
@@ -270,27 +284,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/en/photographs/gracia-festivities/"
+            href="/photographs/gracia-festivities/"
             onClick={[Function]}
           >
             <img
               alt="Castellers de la Vila de Gràcia"
               className="img-fluid"
               src="/photographs/2024-08-18/2024-08-18_000.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/en/photographs/ordesa/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Ordesa and Monte Perdido National Park"
-              className="img-fluid"
-              src="/photographs/2023-11-18/2023-11-18_002.webp"
             />
           </a>
         </div>
@@ -308,7 +308,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -318,7 +318,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -326,7 +326,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/contact/"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

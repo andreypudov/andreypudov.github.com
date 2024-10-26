@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="navbar-brand mx-auto"
-            href="/en/"
+            href="/"
             onClick={[Function]}
           >
             Header.AndreyPudov
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/albums/"
+                  href="/albums/"
                   onClick={[Function]}
                 >
                   Albums
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contents/"
+                  href="/contents/"
                   onClick={[Function]}
                 >
                   Contents
@@ -68,7 +68,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/resume/"
+                  href="/resume/"
                   onClick={[Function]}
                 >
                   Resume
@@ -79,7 +79,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="nav-link"
-                  href="/en/contact/"
+                  href="/contact/"
                   onClick={[Function]}
                 >
                   Contact
@@ -99,85 +99,6 @@ exports[`renders correctly 1`] = `
         Albums
       </h1>
       <h2>
-        Drawings
-      </h2>
-      <div
-        className="row mb-4"
-      >
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/drawings/watercolor/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/drawings/watercolor/2021-05-24.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Watercolor
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/drawings/soft-pastel/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/drawings/soft-pastel/2021-01-30.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Soft Pastel
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/en/drawings/pencil-sketches/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/drawings/pencil-sketches/2020-04-26.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Pencil Sketches
-              </h6>
-            </div>
-          </a>
-        </div>
-      </div>
-      <h2>
         Street Photography
       </h2>
       <div
@@ -188,7 +109,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/la-merce/"
+            href="/photographs/la-merce/"
             onClick={[Function]}
           >
             <img
@@ -212,7 +133,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/gracia-festivities/"
+            href="/photographs/gracia-festivities/"
             onClick={[Function]}
           >
             <img
@@ -236,7 +157,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/madrid/"
+            href="/photographs/madrid/"
             onClick={[Function]}
           >
             <img
@@ -260,7 +181,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/barcelona/"
+            href="/photographs/barcelona/"
             onClick={[Function]}
           >
             <img
@@ -284,7 +205,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/barcelona-airport/"
+            href="/photographs/barcelona-airport/"
             onClick={[Function]}
           >
             <img
@@ -308,7 +229,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/perpignan/"
+            href="/photographs/perpignan/"
             onClick={[Function]}
           >
             <img
@@ -332,7 +253,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/gotheborg/"
+            href="/photographs/gotheborg/"
             onClick={[Function]}
           >
             <img
@@ -356,7 +277,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/oslo/"
+            href="/photographs/oslo/"
             onClick={[Function]}
           >
             <img
@@ -380,7 +301,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/stockholm/"
+            href="/photographs/stockholm/"
             onClick={[Function]}
           >
             <img
@@ -404,7 +325,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/poblenou-cemetery/"
+            href="/photographs/poblenou-cemetery/"
             onClick={[Function]}
           >
             <img
@@ -428,7 +349,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/united-states-4.0/"
+            href="/photographs/united-states-4.0/"
             onClick={[Function]}
           >
             <img
@@ -452,7 +373,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/nizhny-novgorod/"
+            href="/photographs/nizhny-novgorod/"
             onClick={[Function]}
           >
             <img
@@ -476,7 +397,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/united-states-3.0/"
+            href="/photographs/united-states-3.0/"
             onClick={[Function]}
           >
             <img
@@ -500,7 +421,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/rome-malta/"
+            href="/photographs/rome-malta/"
             onClick={[Function]}
           >
             <img
@@ -524,7 +445,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ride-in-rekshino/"
+            href="/photographs/ride-in-rekshino/"
             onClick={[Function]}
           >
             <img
@@ -548,7 +469,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/united-states-2.0/"
+            href="/photographs/united-states-2.0/"
             onClick={[Function]}
           >
             <img
@@ -572,7 +493,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ramon-palace/"
+            href="/photographs/ramon-palace/"
             onClick={[Function]}
           >
             <img
@@ -596,7 +517,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/united-states/"
+            href="/photographs/united-states/"
             onClick={[Function]}
           >
             <img
@@ -620,7 +541,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/kaliningrad/"
+            href="/photographs/kaliningrad/"
             onClick={[Function]}
           >
             <img
@@ -644,7 +565,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ekaterinburg/"
+            href="/photographs/ekaterinburg/"
             onClick={[Function]}
           >
             <img
@@ -668,7 +589,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/yoshkar-ola/"
+            href="/photographs/yoshkar-ola/"
             onClick={[Function]}
           >
             <img
@@ -692,7 +613,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/little-russia/"
+            href="/photographs/little-russia/"
             onClick={[Function]}
           >
             <img
@@ -723,7 +644,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ordesa/"
+            href="/photographs/ordesa/"
             onClick={[Function]}
           >
             <img
@@ -747,7 +668,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/grapebusters/"
+            href="/photographs/grapebusters/"
             onClick={[Function]}
           >
             <img
@@ -771,7 +692,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/ebro/"
+            href="/photographs/ebro/"
             onClick={[Function]}
           >
             <img
@@ -795,7 +716,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/set-gorgs/"
+            href="/photographs/set-gorgs/"
             onClick={[Function]}
           >
             <img
@@ -819,7 +740,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/montserrat/"
+            href="/photographs/montserrat/"
             onClick={[Function]}
           >
             <img
@@ -843,7 +764,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/els-empedrats-del-montseny/"
+            href="/photographs/els-empedrats-del-montseny/"
             onClick={[Function]}
           >
             <img
@@ -867,7 +788,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/andorra/"
+            href="/photographs/andorra/"
             onClick={[Function]}
           >
             <img
@@ -891,7 +812,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/puigmal/"
+            href="/photographs/puigmal/"
             onClick={[Function]}
           >
             <img
@@ -915,7 +836,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/turo-de-lhome/"
+            href="/photographs/turo-de-lhome/"
             onClick={[Function]}
           >
             <img
@@ -939,7 +860,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/castillo-de-mataplana/"
+            href="/photographs/castillo-de-mataplana/"
             onClick={[Function]}
           >
             <img
@@ -963,7 +884,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/crimea/"
+            href="/photographs/crimea/"
             onClick={[Function]}
           >
             <img
@@ -987,7 +908,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/altay/"
+            href="/photographs/altay/"
             onClick={[Function]}
           >
             <img
@@ -1011,7 +932,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/rekshino/"
+            href="/photographs/rekshino/"
             onClick={[Function]}
           >
             <img
@@ -1035,7 +956,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/lake-baikal/"
+            href="/photographs/lake-baikal/"
             onClick={[Function]}
           >
             <img
@@ -1056,6 +977,445 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <h2>
+        Portrait Photography
+      </h2>
+      <div
+        className="row mb-4"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/pei-pei-rain/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2024-09-21/2024-09-21_006.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pei Pei. Rain in Barcelona
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/pei-pei-stockholm/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2024-07-04_14/2024-07-04_14_003.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pei Pei. Weekend in Stockholm
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/pei-pei-montserrat/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2024-06-15/2024-06-15_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pei Pei. Climbing Montserrat
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/pei-pei-madrid/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2024-04-10_30/2024-04-10_30_011.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pei Pei. Weekend in Madrid
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/pei-pei-chen/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2024-08-25/2024-08-25_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pei Pei Chen
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/andrey-pudov/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2016-04-16/2016-04-16_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Andrey Pudov
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/ekaterina-domracheva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ekaterina Domracheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/irina-domracheva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2020-05-11/2020-05-11_027.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Irina Domracheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/alina-cherdakova/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2018-08-18/2018-08-18_013.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Alina Cherdakova
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/tatyana-bysheva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2017-07-22/2017-07-22_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Tatyana Bysheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/looking-for-the-wind/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2018-05-27/2018-05-27_005.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Looking for the Wind
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/kira-orlova/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2017-10-22/2017-10-22_016_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Kira Orlova
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/ekaterina-malysheva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2016-04-16/2016-04-16_009.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Ekaterina Malysheva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/lolita-rakhmatova/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-12-12/2015-12-12_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lolita Rakhmatova
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/asia-farakshina/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-08-14/2015-08-14_001.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Asia Farakshina
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/lake-baikal-team/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Lake Baikal Team
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/marina-alekseeva/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2013-09-10/2013-09-10_002.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Marina Alekseeva
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/photographs/vera-klemenova/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/photographs/2012-07-19/2012-07-19_016_large.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Vera Klemenova
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2>
         Event Photography
       </h2>
       <div
@@ -1066,7 +1426,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/intel-office/"
+            href="/photographs/intel-office/"
             onClick={[Function]}
           >
             <img
@@ -1090,7 +1450,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/formula-sochi-3.0/"
+            href="/photographs/formula-sochi-3.0/"
             onClick={[Function]}
           >
             <img
@@ -1114,7 +1474,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/balloon-festival/"
+            href="/photographs/balloon-festival/"
             onClick={[Function]}
           >
             <img
@@ -1138,7 +1498,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/strigino/"
+            href="/photographs/strigino/"
             onClick={[Function]}
           >
             <img
@@ -1162,7 +1522,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/maks/"
+            href="/photographs/maks/"
             onClick={[Function]}
           >
             <img
@@ -1186,7 +1546,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/partners-day/"
+            href="/photographs/partners-day/"
             onClick={[Function]}
           >
             <img
@@ -1210,7 +1570,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/formula-sochi-2.0/"
+            href="/photographs/formula-sochi-2.0/"
             onClick={[Function]}
           >
             <img
@@ -1234,7 +1594,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/intel-products/"
+            href="/photographs/intel-products/"
             onClick={[Function]}
           >
             <img
@@ -1258,7 +1618,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/formula-sochi/"
+            href="/photographs/formula-sochi/"
             onClick={[Function]}
           >
             <img
@@ -1282,7 +1642,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/military-museum/"
+            href="/photographs/military-museum/"
             onClick={[Function]}
           >
             <img
@@ -1297,6 +1657,85 @@ exports[`renders correctly 1`] = `
                 className="card-title"
               >
                 Battle Glory of the Urals
+              </h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2>
+        Drawings
+      </h2>
+      <div
+        className="row mb-4"
+      >
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/drawings/watercolor/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/drawings/watercolor/2021-05-24.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Watercolor
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/drawings/soft-pastel/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/drawings/soft-pastel/2021-01-30.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Soft Pastel
+              </h6>
+            </div>
+          </a>
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <a
+            className="card bg-dark text-white gallery-image"
+            href="/drawings/pencil-sketches/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="card-img album-cover"
+              src="/drawings/pencil-sketches/2020-04-26.webp"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <h6
+                className="card-title"
+              >
+                Pencil Sketches
               </h6>
             </div>
           </a>
@@ -1410,7 +1849,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/russian-emirates/"
+            href="/photographs/russian-emirates/"
             onClick={[Function]}
           >
             <img
@@ -1434,7 +1873,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/golden-age/"
+            href="/photographs/golden-age/"
             onClick={[Function]}
           >
             <img
@@ -1458,7 +1897,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/en/photographs/imperial-town/"
+            href="/photographs/imperial-town/"
             onClick={[Function]}
           >
             <img
@@ -1494,7 +1933,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-short"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About
@@ -1504,7 +1943,7 @@ exports[`renders correctly 1`] = `
           className="first piped-links-long"
         >
           <a
-            href="/en/resume/"
+            href="/resume/"
             onClick={[Function]}
           >
             About Andrey Pudov
@@ -1512,7 +1951,7 @@ exports[`renders correctly 1`] = `
         </li>
         <li>
           <a
-            href="/en/contact/"
+            href="/contact/"
             onClick={[Function]}
           >
             Contact

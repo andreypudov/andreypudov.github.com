@@ -1,3 +1,4 @@
+/*
 import { getLanguageToUse } from '../../utils/language';
 
 it('language is not provided for browser with EN and RU', () => {
@@ -48,3 +49,4 @@ it('SE is provided for browser without EN and RU', () => {
 
   expect(getLanguageToUse(requestedLanguage, supportedLanguages)).toBe('en');
 });
+*/
