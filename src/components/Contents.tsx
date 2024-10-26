@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from './../models/core/page';
-import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
+import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs, PortraitPhotographs } from './../models/pages';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getLocalizedDate } from '../utils/date';
@@ -32,13 +32,6 @@ const Contents = () => {
           { Drawings.map(p => entry(p, i18n.language, t)) }
         </ol>
 
-        {/* <ol className = 'contents'>
-          <li>
-            <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
-          </li>
-          { PortraitPhotographs.map(p => entry(p, i18n.language, t)) }
-        </ol> */}
-
         <ol className = 'contents'>
           <li>
             <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
@@ -51,6 +44,13 @@ const Contents = () => {
             <h2>{t('Contents.NaturePhotography', 'Nature Photography')}</h2>
           </li>
           { NaturePhotographs.map(p => entry(p, i18n.language, t)) }
+        </ol>
+
+        <ol className = 'contents'>
+          <li>
+            <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
+          </li>
+          { PortraitPhotographs.map(p => entry(p, i18n.language, t)) }
         </ol>
 
         <ol className = 'contents'>

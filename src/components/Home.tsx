@@ -19,10 +19,10 @@ const Home = () => {
         </ol>
 
         <div className = 'carousel-inner'>
-          <CarouselItem page = { Pages.LaMerce } cover = '/images/carousel/la-merce.webp' isActive = { true } />
-          <CarouselItem page = { Pages.Crimea } cover = '/images/carousel/crimea.webp' />
-          <CarouselItem page = { Pages.Altay } cover = '/images/carousel/altay.webp' />
-          <CarouselItem page = { Pages.ConqueringRome } cover = '/images/carousel/rome-malta.webp' />
+          <CarouselItem page = { Pages.PeiPeiChen } cover = '/images/carousel/peipei.webp' isActive = { true } />
+          <CarouselItem page = { Pages.Oslo } cover = '/images/carousel/oslo.webp' />
+          <CarouselItem page = { Pages.Stockholm } cover = '/images/carousel/stockholm.webp' />
+          <CarouselItem page = { Pages.PoblenouCemetery } cover = '/images/carousel/poblenou-cemetery.webp' />
         </div>
         <button className = 'carousel-control-prev' type = 'button' data-bs-target = '#homeCarousel'  data-bs-slide = 'prev'>
           <span className = 'carousel-control-prev-icon' aria-hidden = 'true'></span>

@@ -1,6 +1,6 @@
 import Layout from './shared/Layout'
 import Page from '../models/core/page';
-import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
+import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs, PortraitPhotographs } from './../models/pages';
 import VideoView from './shared/Video';
 import { useTranslation } from 'react-i18next';
 import { TFunction } from 'i18next';
@@ -34,11 +34,6 @@ const Albums = () => {
           { Drawings.map(d => entry(d, t)) }
         </div>
 
-        {/* <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
-        <div className = 'row mb-4'>
-          { PortraitPhotographs.map(p => entry(p, t)) }
-        </div> */}
-
         <h2>{t('Contents.StreetPhotography', 'Street Photography')}</h2>
         <div className = 'row mb-4'>
           { StreetPhotographs.map(p => entry(p, t)) }
@@ -47,6 +42,11 @@ const Albums = () => {
         <h2>{t('Contents.NaturePhotography', 'Nature Photography')}</h2>
         <div className = 'row mb-4'>
           { NaturePhotographs.map(p => entry(p, t)) }
+        </div>
+
+        <h2>{t('Contents.PortraitPhotography', 'Portrait Photography')}</h2>
+        <div className = 'row mb-4'>
+          { PortraitPhotographs.map(p => entry(p, t)) }
         </div>
 
         <h2>{t('Contents.EventPhotography', 'Event Photography')}</h2>
