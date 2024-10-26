@@ -55,7 +55,7 @@ const FormulaSochi = new Album(
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_043_large.webp', true),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_044_large.webp', false, new Text('FormulaSochi.', 'Red Bull pilots Daniil Kvyat and Daniel Ricciardo on the autograph session.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_045_large.webp', true),
-    // new Video('https://www.youtube.com/embed/XAYCQjo3m0Y?rel=0', new Text('FormulaSochi.', 'The start of the GP2 qualification session.')),
+    new Video('https://www.youtube.com/embed/XAYCQjo3m0Y?rel=0', new Text('FormulaSochi.', 'The start of the GP2 qualification session.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_046_large.webp', false, new Text('FormulaSochi.', 'Governor of Krasnodar Krai Aleksandr Tkachov (driving) and chief executive of the Formula One Group Bernie Ecclestone on an excursion across the Olympic Pack by the Safety car.')),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_047_large.webp'),
     new Photograph('/photographs/2015-10-05_11/2015-10-05_11_048_large.webp'),
