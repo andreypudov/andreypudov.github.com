@@ -9,6 +9,7 @@ const Watercolor = new Album(
   new Date('2024-04-18'),
   new Photograph('/drawings/watercolor/2021-05-24.webp', false, new Text('Watercolor.2021-05-05', 'May 05, 2021')),
   [
+    new Photograph('/drawings/watercolor/2024-10-07.webp', true, new Text('Watercolor.2024-10-07', 'The beginning of the journey / October 07, 2024')),
     new Photograph('/drawings/watercolor/2024-04-18.webp', true, new Text('Watercolor.2024-04-18', 'Pei Pei / April 18, 2024')),
     new Photograph('/drawings/watercolor/2024-03-31.webp', true, new Text('Watercolor.2024-03-31', 'Lisbon / March 31, 2024')),
     new Photograph('/drawings/watercolor/2024-03-17.webp', true, new Text('Watercolor.2024-03-17', 'Dary / March 17, 2024')),

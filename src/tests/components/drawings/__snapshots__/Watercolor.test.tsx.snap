@@ -105,6 +105,19 @@ exports[`renders correctly 1`] = `
       </h1>
       <figure>
         <img
+          alt="Watercolor - The beginning of the journey / October 07, 2024"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2024-10-07.webp"
+          title="The beginning of the journey / October 07, 2024"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The beginning of the journey / October 07, 2024
+        </figcaption>
+      </figure>
+      <figure>
+        <img
           alt="Watercolor - Pei Pei / April 18, 2024"
           className="img-responsive gallery-image vertical"
           src="/drawings/watercolor/2024-04-18.webp"
