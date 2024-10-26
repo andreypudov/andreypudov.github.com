@@ -5,13 +5,13 @@ import { Articles, Photographs, Drawings, TimeLapses, Performances } from './../
 import i18next from 'i18next';
 
 const domain = 'https://andreypudov.com';
-const supportedLanguages = ['en', 'ru'];
+const supportedLanguages = ['en'];
 
 const urlEntry = (page: Page, timestamp: string, locale: string) => {
   const t = i18next.getFixedT(locale);
 
   return (`<url>
-    <loc>${domain}/${locale}${ page.getRoute() }</loc>
+    <loc>${domain}/#/${ page.getRoute() }</loc>
     ${ page.getAlbum().getMedia().map((media: Media) =>  imageEntry(t(page.getAlbum().getTitle().getKey()), media)).join("").trim() }
     <lastmod>${ timestamp }</lastmod>
   </url>
@@ -38,23 +38,23 @@ const generateSitemap = (timestamp: string, locale: string) => {
 
   return `
   <url>
-    <loc>https://andreypudov.com/${locale}/</loc>
+    <loc>https://andreypudov.com/</loc>
     <lastmod>${ timestamp }</lastmod>
   </url>
   <url>
-    <loc>https://andreypudov.com/${locale}/albums/</loc>
+    <loc>https://andreypudov.com/#/albums/</loc>
     <lastmod>${ timestamp }</lastmod>
   </url>
   <url>
-    <loc>https://andreypudov.com/${locale}/contents/</loc>
+    <loc>https://andreypudov.com/#/contents/</loc>
     <lastmod>${ timestamp }</lastmod>
   </url>
   <url>
-    <loc>https://andreypudov.com/${locale}/resume/</loc>
+    <loc>https://andreypudov.com/#/resume/</loc>
     <lastmod>${ timestamp }</lastmod>
   </url>
   <url>
-    <loc>https://andreypudov.com/${locale}/contact/</loc>
+    <loc>https://andreypudov.com/#/contact/</loc>
     <lastmod>${ timestamp }</lastmod>
   </url>
   ${ Articles.map((page: Page) => urlEntry(page, timestamp, locale)).join("").trim() }
