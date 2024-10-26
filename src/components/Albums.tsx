@@ -2,18 +2,18 @@ import Layout from './shared/Layout'
 import Page from '../models/core/page';
 import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
 import VideoView from './shared/Video';
-import LocalizedLink from './shared/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { TFunction } from 'i18next';
+import { Link } from 'react-router-dom';
 
 const entry = (page: Page, t: TFunction) =>
   <div className = 'col-md-4' key = {page.getAlbum().getTitle().getKey()}>
-    <LocalizedLink to = { page.getRoute() } className = 'card bg-dark text-white gallery-image'>
+    <Link to = { page.getRoute() } className = 'card bg-dark text-white gallery-image'>
       <img src = { page.getAlbum().getCover().src } className = 'card-img album-cover' alt = '' />
       <div className = 'card-img-overlay'>
         <h6 className = 'card-title'>{t(page.getAlbum().getTitle().getKey(), page.getAlbum().getTitle().getFallback())}</h6>
       </div>
-    </LocalizedLink>
+    </Link>
   </div>;
 
 const videoEntry = (page: Page) =>

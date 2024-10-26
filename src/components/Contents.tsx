@@ -1,7 +1,7 @@
 import Layout from './shared/Layout'
 import Page from './../models/core/page';
 import { Articles, Drawings, TimeLapses, StreetPhotographs, NaturePhotographs, EventPhotographs } from './../models/pages';
-import LocalizedLink from './shared/LocalizedLink';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getLocalizedDate } from '../utils/date';
 import { TFunction } from 'i18next';
@@ -10,10 +10,10 @@ const entry = (page: Page, locale: string, t: TFunction) => {
   const text = page.getAlbum().getTitle();
 
   return (<li key = { text.getKey() }>
-    <LocalizedLink to = {page.getRoute()}>
+    <Link to = {page.getRoute()}>
       { t(text.getKey(), text.getFallback()) }
       <small>{ page.getAlbum().getDateString(locale) }</small>
-    </LocalizedLink>
+    </Link>
   </li>);
 };
 
@@ -72,22 +72,22 @@ const Contents = () => {
             <h2>{t('Contents.Performances')}</h2>
           </li>
           <li>
-            <LocalizedLink to = '/performances/gravity-falls/'>
+            <Link to = '/performances/gravity-falls/'>
               {t('Contents.GravityFalls')}
               <small>{getLocalizedDate(new Date('Monday, January 18, 2021'), i18n.language)}</small>
-            </LocalizedLink>
+            </Link>
           </li>
           <li>
-            <LocalizedLink to = '/performances/cure-for-wellness/'>
+            <Link to = '/performances/cure-for-wellness/'>
               {t('Contents.ACureForWellness')}
               <small>{getLocalizedDate(new Date('Saturday, March 17, 2018'), i18n.language)}</small>
-            </LocalizedLink>
+            </Link>
           </li>
           <li>
-            <LocalizedLink to = '/performances/mia-and-sebastian/'>
+            <Link to = '/performances/mia-and-sebastian/'>
               {t('Contents.MiaAndSebastian')}
               <small>{getLocalizedDate(new Date('Thursday, September 7, 2017'), i18n.language)}</small>
-            </LocalizedLink>
+            </Link>
           </li>
         </ol>
 
