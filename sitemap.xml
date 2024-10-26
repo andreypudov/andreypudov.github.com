@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://andreypudov.com/</loc>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#/albums/</loc>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#/contents/</loc>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#/resume/</loc>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#/contact/</loc>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/russian-emirates/</loc>
@@ -510,7 +510,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-11-09_21/2012-11-09_21_122_large.webp</image:loc>
       <image:title>Russian Emirates</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/golden-age/</loc>
@@ -698,7 +698,7 @@
       <image:loc>https://andreypudov.com/photographs/2012-09-14_15/2012-09-14_15_046_large.webp</image:loc>
       <image:title>Golden Age</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/imperial-town/</loc>
@@ -930,10 +930,14 @@
       <image:loc>https://andreypudov.com/photographs/2012-05-05_09/2012-05-05_09_057_large.webp</image:loc>
       <image:title>Imperial Town</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/favorite-photographs/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_011.webp</image:loc>
+      <image:caption>Pei Pei. Weekend in Madrid</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://andreypudov.com/photographs/2023-11-18/2023-11-18_002.webp</image:loc>
       <image:caption>Ordesa and Monte Perdido National Park</image:caption>
@@ -1054,7 +1058,91 @@
       <image:loc>https://andreypudov.com/photographs/2012-09-14_15/2012-09-14_15_016_large.webp</image:loc>
       <image:caption>The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/pei-pei-rain/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_001.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_002.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_003.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_004.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_005.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_006.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_007.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_008.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_009.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_010.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_011.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_012.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_013.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_014.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_015.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_016.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_017.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_018.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_019.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-09-21/2024-09-21_020.webp</image:loc>
+      <image:title>Pei Pei. Rain in Barcelona</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/la-merce/</loc>
@@ -1070,7 +1158,7 @@
       <image:loc>https://andreypudov.com/photographs/2024-09-20/2024-09-20_003.webp</image:loc>
       <image:title>LaMerce.Title</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/gracia-festivities/</loc>
@@ -1102,7 +1190,203 @@
       <image:loc>https://andreypudov.com/photographs/2024-08-18/2024-08-18_007.webp</image:loc>
       <image:title>GraciaFestivities.Title</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/pei-pei-stockholm/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_001.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_002.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_003.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_004.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_005.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_006.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_007.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_008.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-07-04_14/2024-07-04_14_009.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Stockholm</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/pei-pei-montserrat/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_001.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_002.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_003.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_004.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_005.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_006.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_007.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_008.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-15/2024-06-15_009.webp</image:loc>
+      <image:title>Pei Pei. Conquering Montserrat</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/pei-pei-madrid/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_001.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_002.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_003.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_004.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_005.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_006.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_007.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_008.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_009.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_010.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_011.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_012.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_013.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_014.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_015.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_016.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_017.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_018.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_019.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_020.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_021.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_022.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_023.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-04-10_30/2024-04-10_30_024.webp</image:loc>
+      <image:title>Pei Pei. Weekend in Madrid</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/pei-pei-chen/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-06-09/2024-06-09_001.webp</image:loc>
+      <image:title>Pei Pei Chen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-08-25/2024-08-25_001.webp</image:loc>
+      <image:title>Pei Pei Chen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2024-08-25/2024-08-25_002.webp</image:loc>
+      <image:title>Pei Pei Chen</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/ordesa/</loc>
@@ -1326,7 +1610,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-11-18/2023-11-18_055.webp</image:loc>
       <image:title>Ordesa and Monte Perdido National Park</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/madrid/</loc>
@@ -1346,7 +1630,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-10-06_08/2023-10-06_08_004.webp</image:loc>
       <image:caption>Arganzuela Footbridge</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/grapebusters/</loc>
@@ -1370,7 +1654,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-09-25/2023-09-25_005.webp</image:loc>
       <image:title>Grapebusters</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/barcelona/</loc>
@@ -1378,7 +1662,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-09-24/2023-09-24_001.webp</image:loc>
       <image:caption>Columbus Monument</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/ebro/</loc>
@@ -1478,7 +1762,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-06-16_18/2023-06-16_18_024.webp</image:loc>
       <image:title>Delta of Ebro</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/set-gorgs/</loc>
@@ -1522,7 +1806,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-06-03/2023-06-03_010.webp</image:loc>
       <image:title>Route of the Seven Gorges of Campdevànol</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/barcelona-airport/</loc>
@@ -1582,7 +1866,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-05-17/2023-05-17_014.webp</image:loc>
       <image:caption>The new control tower is a hyperboloid structure</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/montserrat/</loc>
@@ -1722,7 +2006,7 @@
       <image:loc>https://andreypudov.com/photographs/2023-05-07/2023-05-07_034.webp</image:loc>
       <image:title>Montserrat</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/perpignan/</loc>
@@ -1766,7 +2050,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-12-06/2022-12-06_010.webp</image:loc>
       <image:title>Perpignan</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/els-empedrats-del-montseny/</loc>
@@ -1818,7 +2102,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-11-13/2022-11-13_012.webp</image:loc>
       <image:title>Montseny Natural Park</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/andorra/</loc>
@@ -1910,7 +2194,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-10-15_16/2022-10-15_16_022.webp</image:loc>
       <image:title>Andorra</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/gotheborg/</loc>
@@ -1954,7 +2238,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-27_09-10/2022-08-27_09-10_104.webp</image:loc>
       <image:title>Götheborg. Conquering Scandinavia</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/oslo/</loc>
@@ -2166,7 +2450,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-27_09-10/2022-08-27_09-10_094.webp</image:loc>
       <image:title>Oslo. Conquering Scandinavia</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/stockholm/</loc>
@@ -2338,7 +2622,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-27_09-10/2022-08-27_09-10_042.webp</image:loc>
       <image:title>Stockholm. Conquering Scandinavia</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/puigmal/</loc>
@@ -2542,7 +2826,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-15/2022-08-15_050.webp</image:loc>
       <image:title>Puigmal</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/turo-de-lhome/</loc>
@@ -2670,7 +2954,7 @@
       <image:loc>https://andreypudov.com/photographs/2022-08-07/2022-08-07_031.webp</image:loc>
       <image:title>Turo de l&apos;Home</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/castillo-de-mataplana/</loc>
@@ -2874,7 +3158,87 @@
       <image:loc>https://andreypudov.com/photographs/2022-07-23_24/2022-07-23_24_050.webp</image:loc>
       <image:title>Castle of Mataplana</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/andrey-pudov/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_001.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_004.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_007.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_009.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_010.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_011.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_012.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_017.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_022.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_023.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_025.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_026.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_033.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_034.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-09/2022-07-09_037.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2022-07-04/2022-07-04_001.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2016-04-16/2016-04-16_002.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2016-04-16/2016-04-16_004.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2016-04-16/2016-04-16_008.webp</image:loc>
+      <image:title>Andrey Pudov</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/poblenou-cemetery/</loc>
@@ -2926,7 +3290,147 @@
       <image:loc>https://andreypudov.com/photographs/2022-07-08/2022-07-08_012.webp</image:loc>
       <image:title>Poblenou Cemetery</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/ekaterina-domracheva/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2021-08-25/2021-08-25_001.webp</image:loc>
+      <image:caption>Alice’ Song  I am awfully bored, I am simply without strength. And thoughts come - tempting, disturbing, - That somebody somewhere would invite me And there I should see something specific!..  And what exactly - I really do not know. All bet for the wager: &quot;Read for a while&quot;, - I sit down and read, &quot;Play for a while&quot;, - now I play with the kitten, - All the same I’m awfully bored! Sir! Take Alice with you!</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_006.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_002.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2021-07-24_08-02_kate/2021-07-24_08-02_001.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_030.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_028.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_027.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_026.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_025.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_023.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_022.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_021.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_020.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_019.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_018.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_017.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_015.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_014.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_011.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_007.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_006.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_005.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_004.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_003.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_002.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_001.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_006.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_011.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_014.webp</image:loc>
+      <image:title>Ekaterina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-06-12/2020-06-12_001.webp</image:loc>
+      <image:caption>A dream...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-06-08/2020-06-08_001.webp</image:loc>
+      <image:caption>The summer evening</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2019-06-12/2019-06-12_001.webp</image:loc>
+      <image:caption>The first trip</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-06-23/2018-06-23_001.webp</image:loc>
+      <image:caption>The first time we met</image:caption>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/crimea/</loc>
@@ -3254,7 +3758,7 @@
       <image:loc>https://andreypudov.com/photographs/2021-07-24_08-02/2021-07-24_08-02_092.webp</image:loc>
       <image:caption>Pendulum cableway &quot;Elbrus 1&quot;</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/altay/</loc>
@@ -3782,7 +4286,23 @@
       <image:loc>https://andreypudov.com/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp</image:loc>
       <image:caption>Tavdinsky Caves</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/irina-domracheva/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_018.webp</image:loc>
+      <image:title>Irina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_027.webp</image:loc>
+      <image:title>Irina Domracheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2020-05-11/2020-05-11_029.webp</image:loc>
+      <image:title>Irina Domracheva</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/united-states-4.0/</loc>
@@ -3890,7 +4410,7 @@
       <image:loc>https://andreypudov.com/photographs/2020-02-29_03-11/2020-02-29_03-11_026.webp</image:loc>
       <image:title>Conquering America 4.0</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/intel-office/</loc>
@@ -4022,7 +4542,7 @@
       <image:loc>https://andreypudov.com/photographs/2020-02-13_14/2020-02-13_14_032.webp</image:loc>
       <image:title>Intel Office in Nizhny Novgorod</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/nizhny-novgorod/</loc>
@@ -4122,7 +4642,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-10-19/2014-10-19_010_large.webp</image:loc>
       <image:title>Nizhny Novgorod</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/rekshino/</loc>
@@ -4174,7 +4694,7 @@
       <image:loc>https://andreypudov.com/photographs/2019-10-26/2019-10-26_012.webp</image:loc>
       <image:title>Princess Oldenburg&apos;s Palace</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/formula-sochi-3.0/</loc>
@@ -4198,7 +4718,7 @@
       <image:loc>https://andreypudov.com/photographs/2019-09-30/2019-09-30_005.webp</image:loc>
       <image:caption>Robert Kubica drives Williams FW42</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/united-states-3.0/</loc>
@@ -4214,7 +4734,67 @@
       <image:loc>https://andreypudov.com/photographs/2019-05-12_05-25/2019-05-12_05-25_003.webp</image:loc>
       <image:caption>Today, Boston is a center of scientific research; the area&apos;s many colleges and universities, notably Harvard and MIT, make it a world leader in higher education, including law, medicine, engineering, and business, and the city is considered to be a global pioneer in innovation and entrepreneurship, with nearly 5,000 startups.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/alina-cherdakova/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_001.webp</image:loc>
+      <image:title>Alina Cherdakova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_003.webp</image:loc>
+      <image:title>Alina Cherdakova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_007.webp</image:loc>
+      <image:title>Alina Cherdakova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_009.webp</image:loc>
+      <image:title>Alina Cherdakova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_010.webp</image:loc>
+      <image:title>Alina Cherdakova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-08-18/2018-08-18_013.webp</image:loc>
+      <image:title>Alina Cherdakova</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/tatyana-bysheva/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-07-27/2018-07-27_001.webp</image:loc>
+      <image:title>Tatyana Bysheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-07-27/2018-07-27_005.webp</image:loc>
+      <image:title>Tatyana Bysheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-07-22/2017-07-22_005.webp</image:loc>
+      <image:title>Tatyana Bysheva</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/looking-for-the-wind/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-05-27/2018-05-27_005.webp</image:loc>
+      <image:title>Looking for the Wind</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-05-27/2018-05-27_001.webp</image:loc>
+      <image:title>Looking for the Wind</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2018-05-27/2018-05-27_007.webp</image:loc>
+      <image:title>Looking for the Wind</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/balloon-festival/</loc>
@@ -4234,7 +4814,7 @@
       <image:loc>https://andreypudov.com/photographs/2018-02-24/2018-02-24_004.webp</image:loc>
       <image:title>BalloonFestival.Title</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/rome-malta/</loc>
@@ -4606,7 +5186,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_092_large.webp</image:loc>
       <image:caption>Having been paid from the public treasury rather than from the sultan&apos;s war booty, as was done normally, it caused the anger of the ulama, the Muslim jurists. The mosque was built on the site of the palace of the Byzantine emperors, in front of the basilica Hagia Sophia (at that time, the primary imperial mosque in Istanbul) and the hippodrome, a site of significant symbolic meaning as it dominated the city skyline from the south. Big parts of the south shore of the mosque rest on the foundations, the vaults of the old Grand Palace.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/ride-in-rekshino/</loc>
@@ -4634,7 +5214,43 @@
       <image:loc>https://andreypudov.com/photographs/2017-10-28/2017-10-28_006.webp</image:loc>
       <image:title>Ride in Rekshino</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/kira-orlova/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-10-22/2017-10-22_012_large.webp</image:loc>
+      <image:title>Kira Orlova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-10-22/2017-10-22_014_large.webp</image:loc>
+      <image:title>Kira Orlova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-10-22/2017-10-22_016_large.webp</image:loc>
+      <image:title>Kira Orlova</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/ekaterina-malysheva/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-10-28_2/2017-10-28_001.webp</image:loc>
+      <image:title>Ekaterina Malysheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-10-07/2017-10-07_002.webp</image:loc>
+      <image:title>Ekaterina Malysheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2017-10-07/2017-10-07_003.webp</image:loc>
+      <image:title>Ekaterina Malysheva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2016-04-16/2016-04-16_009.webp</image:loc>
+      <image:title>Ekaterina Malysheva</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/united-states-2.0/</loc>
@@ -4758,7 +5374,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-09-09_24/2017-09-09_24_030_large.webp</image:loc>
       <image:caption>Dumbo  The area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/strigino/</loc>
@@ -4866,7 +5482,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-08-23/2017-08-23_032.webp</image:loc>
       <image:title>Strigino International Airport</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/maks/</loc>
@@ -4910,7 +5526,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-07-22/2017-07-22_015.webp</image:loc>
       <image:title>MAKS International Aviation and Space Show</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/ramon-palace/</loc>
@@ -4926,7 +5542,7 @@
       <image:loc>https://andreypudov.com/photographs/2017-01-07/2017-01-07_003.webp</image:loc>
       <image:caption>The palace was completed in 1887. After the marriage of Duke Peter Alexandrovich of Oldenburg, the couple&apos;s only son, to Grand Duchess Olga Alexandrovna, the young couple lived at the palace and then built their own home, Olgino, next to it.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/partners-day/</loc>
@@ -5050,7 +5666,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-11-09/2016-11-09_030.webp</image:loc>
       <image:caption>Maria Stashenko - Director at Design Thinking Center and Co-Founder of Wonderfull Laboratory</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/united-states/</loc>
@@ -5214,7 +5830,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-10-15_11-05/2016-10-15_11-05_040_large.webp</image:loc>
       <image:caption>The Hollywood Sign (originally the Hollywoodland Sign) is a landmark and cultural icon overlooking Hollywood. Spelling out the word Hollywood in 13.7 m-tall white capital letters and 106.7 m long, it was originally created in 1923 as a temporary advertisement for local real estate development, but due to increasing recognition the sign was left up, and replaced in 1978 with a more durable all-steel structure.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/kaliningrad/</loc>
@@ -5338,7 +5954,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-08-24_30/2016-08-24_30_030_large.webp</image:loc>
       <image:caption>The sperm whale skeleton in the Museum of the World Ocean.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/formula-sochi-2.0/</loc>
@@ -5370,7 +5986,7 @@
       <image:loc>https://andreypudov.com/photographs/2016-04-27_05-04/2016-04-27_05-04_007.webp</image:loc>
       <image:caption>Krasnaya Polyana Ski Resort</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/intel-products/</loc>
@@ -5398,7 +6014,23 @@
       <image:loc>https://andreypudov.com/photographs/2016-04-15/2016-04-15_001.webp</image:loc>
       <image:title>Intel Software Products</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/lolita-rakhmatova/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-12-12/2015-12-12_001.webp</image:loc>
+      <image:title>Lolita Rakhmatova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-12-12/2015-12-12_002.webp</image:loc>
+      <image:title>Lolita Rakhmatova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-12-12/2015-12-12_003.webp</image:loc>
+      <image:title>Lolita Rakhmatova</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/formula-sochi/</loc>
@@ -5826,7 +6458,63 @@
       <image:loc>https://andreypudov.com/photographs/2015-10-05_11/2015-10-05_11_104_large.webp</image:loc>
       <image:title>2015 Formula 1 Russian Grand Prix</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/asia-farakshina/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-08-14/2015-08-14_001.webp</image:loc>
+      <image:title>Asia Farakshina</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-08-14/2015-08-14_003.webp</image:loc>
+      <image:title>Asia Farakshina</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-08-14/2015-08-14_006.webp</image:loc>
+      <image:title>Asia Farakshina</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/lake-baikal-team/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_004.webp</image:loc>
+      <image:caption>The expedition leader Ivan Schipakin and Olga Poroshina.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_001.webp</image:loc>
+      <image:caption>Evgeny Timofeev is an expedition photographer.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_003.webp</image:loc>
+      <image:caption>Participants of the hike organized by the Ural Tropa tourist club.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_007.webp</image:loc>
+      <image:caption>Lilia Makhmutova is an expedition medic, experienced surgery, responsible for the physical wellbeing of people during expedition.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_002.webp</image:loc>
+      <image:caption>Participants of the hike organized by the Ural Tropa tourist club.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_005.webp</image:loc>
+      <image:caption>Aleksey Gladkih and Olga Yagovitina</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_008.webp</image:loc>
+      <image:caption>Natalya Agafonova is an experienced naturalist with a comprehensive and meaningful knowledge of plants.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_009.webp</image:loc>
+      <image:caption>The ferry to Zmeevaya Bay on the Svyatoy Nose peninsula.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2015-07-27_08-08_2/2015-07-27_08-08_006.webp</image:loc>
+      <image:caption>Vyacheslav Chukharev is a group sweep, carefully kept a count of the squad, ensuring the entire group makes it safely to the final destination.</image:caption>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/lake-baikal/</loc>
@@ -6126,7 +6814,7 @@
       <image:loc>https://andreypudov.comhttps://www.youtube.com/embed/VlXZW_dqlUE?rel=0</image:loc>
       <image:caption>The video report of the exploring expedition to Lake Baikal.</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/military-museum/</loc>
@@ -6350,7 +7038,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-12-21_25_museum/2014-12-21_25_055_large.webp</image:loc>
       <image:title>Battle Glory of the Urals</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/ekaterinburg/</loc>
@@ -6674,7 +7362,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-12-21_25_city/2014-12-21_080_large.webp</image:loc>
       <image:title>Ekaterinburg. The Picture of City</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/yoshkar-ola/</loc>
@@ -6894,7 +7582,7 @@
       <image:loc>https://andreypudov.com/photographs/2014-05-10/2014-05-10_054_large.webp</image:loc>
       <image:title>Yoshkar-Ola. Tsar&apos;s town on Kokshaga River</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//photographs/little-russia/</loc>
@@ -7350,10 +8038,98 @@
       <image:loc>https://andreypudov.com/photographs/2013-09-14_27/2013-09-27_113_large.webp</image:loc>
       <image:title>Little Russia</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/marina-alekseeva/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2013-09-10/2013-09-10_001.webp</image:loc>
+      <image:caption>Marina is a former vice president in the Software and Services Group and serves as general manager for the group. Based in Nizhny Novgorod, she managed Intel research and development operations in Russia and was responsible for aligning them with Intel&apos;s business strategy. Today she is co-lead of the Women in Big Data program in EMEA.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2013-09-10/2013-09-10_002.webp</image:loc>
+      <image:title>Marina Alekseeva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2013-09-10/2013-09-10_003.webp</image:loc>
+      <image:title>Marina Alekseeva</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/#//photographs/vera-klemenova/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_001_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_002_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_003_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_004_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_005_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_006_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_007_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_008_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_009_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_010_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_011_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_012_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_013_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_014_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_015_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://andreypudov.com/photographs/2012-07-19/2012-07-19_016_large.webp</image:loc>
+      <image:title>Vera Klemenova</image:title>
+    </image:image>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//drawings/watercolor/</loc>
+    <image:image>
+      <image:loc>https://andreypudov.com/drawings/watercolor/2024-10-07.webp</image:loc>
+      <image:caption>The beginning of the journey / October 07, 2024</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://andreypudov.com/drawings/watercolor/2024-04-18.webp</image:loc>
       <image:caption>Pei Pei / April 18, 2024</image:caption>
@@ -7446,7 +8222,7 @@
       <image:loc>https://andreypudov.com/drawings/watercolor/2021-03-30.webp</image:loc>
       <image:caption>March 03, 2021</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//drawings/soft-pastel/</loc>
@@ -7478,7 +8254,7 @@
       <image:loc>https://andreypudov.com/drawings/soft-pastel/2021-01-07.webp</image:loc>
       <image:caption>January 07, 2021</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//drawings/pencil-sketches/</loc>
@@ -7510,7 +8286,7 @@
       <image:loc>https://andreypudov.com/drawings/pencil-sketches/2020-04-02.webp</image:loc>
       <image:caption>April 02, 2020</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//timelapses/bolshaya-pokrovskaya/</loc>
@@ -7518,7 +8294,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762737</image:loc>
       <image:caption>Bolshaya Pokrovskaya</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//timelapses/maxim-gorky/</loc>
@@ -7526,7 +8302,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762848</image:loc>
       <image:caption>Monument to Maxim Gorky</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//timelapses/spit/</loc>
@@ -7534,7 +8310,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762962</image:loc>
       <image:caption>Spirit of Nizhny Novgorod</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//timelapses/state-bank/</loc>
@@ -7542,7 +8318,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762910</image:loc>
       <image:caption>The State Bank of Russia</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//timelapses/switzerland-park/</loc>
@@ -7550,7 +8326,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517763009</image:loc>
       <image:caption>Switzerland Park</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//timelapses/zelensky-syezd/</loc>
@@ -7558,7 +8334,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762791</image:loc>
       <image:caption>Zelensky Syezd</image:caption>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//performances/cure-for-wellness/</loc>
@@ -7566,7 +8342,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517762017</image:loc>
       <image:title>Gravity Falls</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//performances/gravity-falls/</loc>
@@ -7574,7 +8350,7 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517761510</image:loc>
       <image:title>A Cure for Wellness</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   <url>
     <loc>https://andreypudov.com/#//performances/mia-and-sebastian/</loc>
@@ -7582,6 +8358,6 @@
       <image:loc>https://andreypudov.comhttps://player.vimeo.com/video/517760954</image:loc>
       <image:title>Mia &amp; Sebastian</image:title>
     </image:image>
-    <lastmod>2024-10-26T06:40:36.042Z</lastmod>
+    <lastmod>2024-10-26T07:37:29.616Z</lastmod>
   </url>
   </urlset>
