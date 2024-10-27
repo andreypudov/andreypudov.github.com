@@ -987,109 +987,13 @@ exports[`renders correctly 1`] = `
         >
           <a
             className="card bg-dark text-white gallery-image"
-            href="/photographs/pei-pei-rain/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2024-09-21/2024-09-21_006.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Pei Pei. Rain in Barcelona
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/pei-pei-stockholm/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2024-07-04_14/2024-07-04_14_003.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Pei Pei. Weekend in Stockholm
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/pei-pei-montserrat/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2024-06-15/2024-06-15_002.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Pei Pei. Climbing Montserrat
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
-            href="/photographs/pei-pei-madrid/"
-            onClick={[Function]}
-          >
-            <img
-              alt=""
-              className="card-img album-cover"
-              src="/photographs/2024-04-10_30/2024-04-10_30_011.webp"
-            />
-            <div
-              className="card-img-overlay"
-            >
-              <h6
-                className="card-title"
-              >
-                Pei Pei. Weekend in Madrid
-              </h6>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-4"
-        >
-          <a
-            className="card bg-dark text-white gallery-image"
             href="/photographs/pei-pei-chen/"
             onClick={[Function]}
           >
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2024-08-25/2024-08-25_002.webp"
+              src="/photographs/2024-07-04_14/2024-07-04_14_003.webp"
             />
             <div
               className="card-img-overlay"

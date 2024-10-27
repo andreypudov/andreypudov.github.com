@@ -100,14 +100,14 @@ exports[`renders correctly 1`] = `
         <small
           className="text-muted"
         >
-          Saturday, March 30, 2024
+          Saturday, September 21, 2024
         </small>
       </h1>
       <figure>
         <img
           alt="Pei Pei Chen"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2024-06-09/2024-06-09_001.webp"
+          src="/photographs/2024-09-21/2024-09-21_005.webp"
           title="Pei Pei Chen"
         />
       </figure>
@@ -115,7 +115,15 @@ exports[`renders correctly 1`] = `
         <img
           alt="Pei Pei Chen"
           className="img-responsive gallery-image vertical"
-          src="/photographs/2024-08-25/2024-08-25_001.webp"
+          src="/photographs/2024-09-21/2024-09-21_012.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-09-21/2024-09-21_016.webp"
           title="Pei Pei Chen"
         />
       </figure>
@@ -123,7 +131,71 @@ exports[`renders correctly 1`] = `
         <img
           alt="Pei Pei Chen"
           className="img-responsive gallery-image"
-          src="/photographs/2024-08-25/2024-08-25_002.webp"
+          src="/photographs/2024-07-04_14/2024-07-04_14_003.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-07-04_14/2024-07-04_14_005.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-07-04_14/2024-07-04_14_009.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-06-15/2024-06-15_002.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-06-15/2024-06-15_006.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-06-15/2024-06-15_008.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-04-10_30/2024-04-10_30_021.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-04-10_30/2024-04-10_30_017.webp"
+          title="Pei Pei Chen"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Pei Pei Chen"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-04-10_30/2024-04-10_30_011.webp"
           title="Pei Pei Chen"
         />
       </figure>

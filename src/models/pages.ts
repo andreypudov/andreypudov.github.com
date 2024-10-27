@@ -7,10 +7,10 @@ import GoldenAge from './../models/photographs/goldenAge';
 import ImperialTown from './../models/photographs/imperialTown';
 
 import PeiPeiChen from './photographs/peipeiChen';
-import PeiPeiMadrid from './photographs/peipeiMadrid';
-import PeiPeiMontserrat from './photographs/peipeiMontserrat';
-import PeiPeiStockholm from "./photographs/peipeiStockholm";
-import PeiPeiRain from "./photographs/peipeiRain";
+// import PeiPeiMadrid from './photographs/peipeiMadrid';
+// import PeiPeiMontserrat from './photographs/peipeiMontserrat';
+// import PeiPeiStockholm from "./photographs/peipeiStockholm";
+// import PeiPeiRain from "./photographs/peipeiRain";
 import AndreyPudov from './../models/photographs/andreyPudov';
 import EkaterinaDomracheva from './../models/photographs/ekaterinaDomracheva';
 import IrinaDomracheva from './../models/photographs/irinaDomracheva';
@@ -94,10 +94,10 @@ const Pages = {
    ImperialTown: new Page(ImperialTown, PageType.Article, '/photographs/imperial-town/'),
 
    PeiPeiChen: new Page(PeiPeiChen, PageType.Photographs, '/photographs/pei-pei-chen/'),
-   PeiPeiMadrid: new Page(PeiPeiMadrid, PageType.Photographs, '/photographs/pei-pei-madrid/'),
-   PeiPeiMontserrat: new Page(PeiPeiMontserrat, PageType.Photographs, '/photographs/pei-pei-montserrat/'),
-   PeiPeiStockholm: new Page(PeiPeiStockholm, PageType.Photographs, '/photographs/pei-pei-stockholm/'),
-   PeiPeiRain: new Page(PeiPeiRain, PageType.Photographs, '/photographs/pei-pei-rain/'),
+   // PeiPeiMadrid: new Page(PeiPeiMadrid, PageType.Photographs, '/photographs/pei-pei-madrid/'),
+   // PeiPeiMontserrat: new Page(PeiPeiMontserrat, PageType.Photographs, '/photographs/pei-pei-montserrat/'),
+   // PeiPeiStockholm: new Page(PeiPeiStockholm, PageType.Photographs, '/photographs/pei-pei-stockholm/'),
+   // PeiPeiRain: new Page(PeiPeiRain, PageType.Photographs, '/photographs/pei-pei-rain/'),
    AndreyPudov: new Page(AndreyPudov, PageType.Photographs, '/photographs/andrey-pudov/'),
    EkaterinaDomracheva: new Page(EkaterinaDomracheva, PageType.Photographs, '/photographs/ekaterina-domracheva/'),
    IrinaDomracheva: new Page(IrinaDomracheva, PageType.Photographs, '/photographs/irina-domracheva/'),

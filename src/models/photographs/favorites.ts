@@ -7,7 +7,8 @@ const FavoritePhotographs = new Album(
   new Text('FavoritePhotographs.Title', 'Favorite Photographs'),
   Genre.Favorites,
   new Date('2089-03-17'),
-  new Photograph('/photographs/2023-11-18/2023-11-18_002.webp', false, new Text('FavoritePhotographs.', 'Ordesa and Monte Perdido National Park')),
+  new Photograph('/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp', false,
+    new Text('FavoritePhotographs.', 'St. Peter\'s Basilica\n\nThe Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter\'s Basilica, is a church built in the Renaissance style located in Vatican City. It was initially planned by Pope Nicholas V and then Pope Julius II to replace the aging Old St. Peter\'s Basilica, which was built in the fourth century by Roman emperor Constantine the Great. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626.\n\nDesigned principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lorenzo Bernini, St. Peter\'s is the most renowned work of Renaissance architecture and the largest church in the world by interior measure. While it is neither the mother church of the Catholic Church nor the cathedral of the Diocese of Rome, St. Peter\'s is regarded as one of the holiest Catholic shrines. It has been described as "holding a unique position in the Christian world" and as "the greatest of all churches of Christendom."')),
   [
     new Photograph('/photographs/2024-04-10_30/2024-04-10_30_011.webp', false, new Text('PeiPeiMadrid.Title', 'Pei Pei. Weekend in Madrid')),
     new Photograph('/photographs/2023-11-18/2023-11-18_002.webp', false, new Text('FavoritePhotographs.', 'Ordesa and Monte Perdido National Park')),
