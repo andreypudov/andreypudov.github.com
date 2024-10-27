@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot, hydrateRoot } from 'react-dom/client';
 
 import { HelmetProvider } from 'react-helmet-async';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import Analytics from './components/utils/Analytics';
 import ScrollToTop from './components/utils/ScrollToTop';
@@ -26,14 +26,14 @@ language.applyLanguage(requestedLanguage, browserLanguages);
 
 const rootElement = document.getElementById("root");
 const app = (<React.StrictMode>
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Analytics />
     <ScrollToTop />
 
     <HelmetProvider>
       <Routes />
     </HelmetProvider>
-  </BrowserRouter>
+  </HashRouter>
 </React.StrictMode>);
 
 if (rootElement?.hasChildNodes()) {
