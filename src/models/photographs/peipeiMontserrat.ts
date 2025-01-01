@@ -19,7 +19,6 @@ const PeiPeiMontserrat = new Album(
     new Photograph('/photographs/2024-06-15/2024-06-15_007.webp', true),
     new Photograph('/photographs/2024-06-15/2024-06-15_008.webp'),
     new Photograph('/photographs/2024-06-15/2024-06-15_009.webp', true),
-
   ],
   new Social('Пейпей', 'Чен', 'Руководитель машинного обучения в Inditex', 'https://www.linkedin.com/in/pei-pei-chen/'));
 

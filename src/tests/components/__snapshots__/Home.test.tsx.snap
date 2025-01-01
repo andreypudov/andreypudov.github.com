@@ -134,7 +134,7 @@ exports[`renders correctly 1`] = `
           <img
             alt="Pei Pei Chen"
             className="d-block w-100"
-            src="/images/carousel/peipei.webp"
+            src="/images/carousel/peipei-montseny.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"

@@ -993,7 +993,7 @@ exports[`renders correctly 1`] = `
             <img
               alt=""
               className="card-img album-cover"
-              src="/photographs/2024-07-04_14/2024-07-04_14_003.webp"
+              src="/photographs/2024-10-12/2024-10-12_005.webp"
             />
             <div
               className="card-img-overlay"
