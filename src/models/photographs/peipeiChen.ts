@@ -11,8 +11,8 @@ const PeiPeiChen = new Album(
   new Photograph('/photographs/2024-10-12/2024-10-12_005.webp'),
   [
     new Photograph('/photographs/2024-10-12/2024-10-12_005.webp'),
-    new Photograph('/photographs/2024-10-12/2024-10-12_002.webp'),
     new Photograph('/photographs/2024-10-12/2024-10-12_008.webp', true),
+    new Photograph('/photographs/2024-10-12/2024-10-12_002.webp'),
     new Photograph('/photographs/2024-09-21/2024-09-21_005.webp', true),
     new Photograph('/photographs/2024-09-21/2024-09-21_012.webp', true),
     new Photograph('/photographs/2024-09-21/2024-09-21_016.webp', true),
