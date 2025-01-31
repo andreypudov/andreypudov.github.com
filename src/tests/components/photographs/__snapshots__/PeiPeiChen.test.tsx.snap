@@ -114,16 +114,16 @@ exports[`renders correctly 1`] = `
       <figure>
         <img
           alt="Pei Pei Chen"
-          className="img-responsive gallery-image"
-          src="/photographs/2024-10-12/2024-10-12_002.webp"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2024-10-12/2024-10-12_008.webp"
           title="Pei Pei Chen"
         />
       </figure>
       <figure>
         <img
           alt="Pei Pei Chen"
-          className="img-responsive gallery-image vertical"
-          src="/photographs/2024-10-12/2024-10-12_008.webp"
+          className="img-responsive gallery-image"
+          src="/photographs/2024-10-12/2024-10-12_002.webp"
           title="Pei Pei Chen"
         />
       </figure>
@@ -270,12 +270,12 @@ exports[`renders correctly 1`] = `
         <p
           className="piped-links-long"
         >
-          Copyright © 2023 Andrey Pudov. All rights reserved.
+          Copyright © 2025 Andrey Pudov. All rights reserved.
         </p>
         <p
           className="piped-links-short"
         >
-          © 2023 Andrey Pudov. All rights reserved.
+          © 2025 Andrey Pudov. All rights reserved.
         </p>
       </ul>
     </div>

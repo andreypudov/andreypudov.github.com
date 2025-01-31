@@ -20,8 +20,8 @@ const Footer = ({ landing }: FooterProps) => {
         </ul>
 
         <ul className = 'piped-links'>
-          <p className = 'piped-links-long'>{t('Footer.CopyrightLong', 'Copyright © 2023 Andrey Pudov. All rights reserved.')}</p>
-          <p className = 'piped-links-short'>{t('Footer.CopyrightShort', '© 2023 Andrey Pudov. All rights reserved.')}</p>
+          <p className = 'piped-links-long'>{t('Footer.CopyrightLong', 'Copyright © 2025 Andrey Pudov. All rights reserved.')}</p>
+          <p className = 'piped-links-short'>{t('Footer.CopyrightShort', '© 2025 Andrey Pudov. All rights reserved.')}</p>
         </ul>
       </div>
     </footer>
