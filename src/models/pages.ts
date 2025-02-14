@@ -27,6 +27,7 @@ import MarinaAlekseeva from './photographs/marinaAlekseeva';
 import VeraKlemenova from './photographs/veraKlemenova';
 
 import Favorites from './photographs/favorites';
+import NtuCosplay from './photographs/ntuCosplay';
 import LaMerce from './photographs/laMerce';
 import GraciaFestivities from './photographs/graciaFestivities';
 import Ordesa from './photographs/ordesa';
@@ -115,6 +116,7 @@ const Pages = {
    VeraKlemenova: new Page(VeraKlemenova, PageType.Photographs, '/photographs/vera-klemenova/'),
 
    Favorites: new Page(Favorites, PageType.Photographs, '/photographs/favorite-photographs/'),
+   NtuCosplay: new Page(NtuCosplay, PageType.Photographs, '/photographs/ntu-cosplay/'),
    LaMerce: new Page(LaMerce, PageType.Photographs, '/photographs/la-merce/'),
    GraciaFestivities: new Page(GraciaFestivities, PageType.Photographs, '/photographs/gracia-festivities/'),
    Ordesa: new Page(Ordesa, PageType.Photographs, '/photographs/ordesa/'),

@@ -128,19 +128,19 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="carousel-item active"
-          href="/photographs/pei-pei-chen/"
+          href="/photographs/ntu-cosplay/"
           onClick={[Function]}
         >
           <img
-            alt="Pei Pei Chen"
+            alt="NTU Cosplay Festival 2025"
             className="d-block w-100"
-            src="/images/carousel/peipei-montseny.webp"
+            src="/images/carousel/cosplay.webp"
           />
           <div
             className="carousel-caption d-none d-md-block"
           >
             <h5>
-              Pei Pei Chen
+              NTU Cosplay Festival 2025
             </h5>
           </div>
         </a>
@@ -256,6 +256,20 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
+            href="/photographs/ntu-cosplay/"
+            onClick={[Function]}
+          >
+            <img
+              alt="NTU Cosplay Festival 2025"
+              className="img-fluid"
+              src="/photographs/2025-02-08/2025-02-08_001.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
             href="/photographs/la-merce/"
             onClick={[Function]}
           >
@@ -277,20 +291,6 @@ exports[`renders correctly 1`] = `
               alt="Castellers de la Vila de Gràcia"
               className="img-fluid"
               src="/photographs/2024-08-18/2024-08-18_000.webp"
-            />
-          </a>
-        </div>
-        <div
-          className="col-sm-3"
-        >
-          <a
-            href="/photographs/ordesa/"
-            onClick={[Function]}
-          >
-            <img
-              alt="Ordesa and Monte Perdido National Park"
-              className="img-fluid"
-              src="/photographs/2023-11-18/2023-11-18_002.webp"
             />
           </a>
         </div>
