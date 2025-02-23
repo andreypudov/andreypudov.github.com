@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const LaMerce = new Album(
-  new Text('LaMerce.Title', 'La Mercè'),
+  new Text('La Mercè'),
   Genre.Street,
   new Date('2024-09-20'),
   new Photograph('/photographs/2024-09-20/2024-09-20_002.webp'),

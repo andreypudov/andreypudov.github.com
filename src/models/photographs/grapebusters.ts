@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const Grapebusters = new Album(
-  new Text('Grapebusters.Title', 'Grapebusters'),
+  new Text('Grapebusters'),
   Genre.Nature,
   new Date('2023-09-25'),
   new Photograph('/photographs/2023-09-25/2023-09-25_002.webp'),

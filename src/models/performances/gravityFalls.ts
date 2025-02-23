@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Video from '../core/video';
 
 const GravityFalls = new Album(
-  new Text('GravityFalls', 'Gravity Falls'),
+  new Text( 'Gravity Falls'),
   new Date('2021-01-18'),
   new Video('https://player.vimeo.com/video/517762017'),
   [

@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const GoldenAge = new Album(
-  new Text('GoldenAge.Title', 'Golden Age'),
+  new Text('Golden Age'),
   Genre.Street,
   new Date('2012-09-15'),
   new Photograph('/photographs/2012-09-14_15/2012-09-14_15_005_large.webp'),

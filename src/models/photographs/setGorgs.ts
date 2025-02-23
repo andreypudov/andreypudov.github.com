@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const SetGorgs = new Album(
-  new Text('SetGorgs.Title', 'Ruta dels Set Gorgs de Campdevànol'),
+  new Text('Ruta dels Set Gorgs de Campdevànol'),
   Genre.Nature,
   new Date('2023-06-03'),
   new Photograph('/photographs/2023-06-03/2023-06-03_010.webp'),

@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const GraciaFestivities = new Album(
-  new Text('GraciaFestivities.Title', 'Castellers de la Vila de Gràcia'),
+  new Text('Castellers de la Vila de Gràcia'),
   Genre.Street,
   new Date('2024-08-18'),
   new Photograph('/photographs/2024-08-18/2024-08-18_000.webp'),

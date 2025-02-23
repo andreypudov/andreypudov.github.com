@@ -7,7 +7,7 @@ type SheetProps = {
 
 const Sheet = (props: SheetProps) => {
   const sheet = props.album.getSheets()[props.index];
-  const description = sheet.description?.getTranslation()
+  const description = sheet.description?.getValue()
 
   return (
     <figure>

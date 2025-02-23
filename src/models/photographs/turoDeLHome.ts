@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const TuroDeLHome = new Album(
-  new Text('TuroDeLHome.Title', 'Turó de l\'Home'),
+  new Text('Turó de l\'Home'),
   Genre.Nature,
   new Date('2022-08-07'),
   new Photograph('/photographs/2022-08-07/2022-08-07_019.webp'),

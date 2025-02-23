@@ -5,7 +5,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const PeiPeiRain = new Album(
-  new Text('PeiPeiRain.Title', 'Pei Pei. Rain in Barcelona'),
+  new Text('Pei Pei. Rain in Barcelona'),
   Genre.Portrait,
   new Date('2024-09-21'),
   new Photograph('/photographs/2024-09-21/2024-09-21_006.webp'),

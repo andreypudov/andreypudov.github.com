@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
             href="/"
             onClick={[Function]}
           >
-            Header.AndreyPudov
+            Andrey Pudov
           </a>
           <button
             aria-controls="navbarMain"
@@ -212,7 +212,7 @@ exports[`renders correctly 1`] = `
         <span
           className="visually-hidden"
         >
-          Home.Previous
+          Previous
         </span>
       </button>
       <button
@@ -228,7 +228,7 @@ exports[`renders correctly 1`] = `
         <span
           className="visually-hidden"
         >
-          Home.Next
+          Next
         </span>
       </button>
     </div>
@@ -270,13 +270,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/la-merce/"
+            href="/photographs/pei-pei-chen/"
             onClick={[Function]}
           >
             <img
-              alt="La Mercè"
+              alt="Pei Pei Chen"
               className="img-fluid"
-              src="/photographs/2024-09-20/2024-09-20_002.webp"
+              src="/photographs/2024-10-12/2024-10-12_005.webp"
             />
           </a>
         </div>
@@ -284,13 +284,13 @@ exports[`renders correctly 1`] = `
           className="col-sm-3"
         >
           <a
-            href="/photographs/gracia-festivities/"
+            href="/photographs/la-merce/"
             onClick={[Function]}
           >
             <img
-              alt="Castellers de la Vila de Gràcia"
+              alt="La Mercè"
               className="img-fluid"
-              src="/photographs/2024-08-18/2024-08-18_000.webp"
+              src="/photographs/2024-09-20/2024-09-20_002.webp"
             />
           </a>
         </div>

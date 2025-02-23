@@ -8,7 +8,7 @@ type CarouselItemProps = {
 };
 
 const CarouselItem = ({ page, cover, isActive }: CarouselItemProps) => {
-  const title = page.getAlbum().getTitle().getTranslation();
+  const title = page.getAlbum().getTitle().getValue();
 
   return (
     <Link to = { page.getRoute() } className = { `carousel-item ${isActive ? 'active' : '' }` }>

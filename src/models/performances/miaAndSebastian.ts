@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Video from '../core/video';
 
 const MiaAndSebastian = new Album(
-  new Text('MiaAndSebastian', 'Mia & Sebastian'),
+  new Text( 'Mia & Sebastian'),
   new Date('2017-09-07'),
   new Video('https://player.vimeo.com/video/517760954'),
   [

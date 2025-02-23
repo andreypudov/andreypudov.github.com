@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const ImperialTown = new Album(
-  new Text('ImperialTown.Title', 'Imperial Town'),
+  new Text('Imperial Town'),
   Genre.Street,
   new Date('2012-05-09'),
   new Photograph('/photographs/2012-05-05_09/2012-05-05_09_016_large.webp'),

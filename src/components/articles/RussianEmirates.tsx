@@ -2,15 +2,12 @@ import Album from './../../models/photographs/russianEmirates';
 import Headline from './../shared/Headline';
 import Layout from './../shared/Layout';
 import Photograph from '../shared/Photograph';
-import { useTranslation } from 'react-i18next';
 
 const RussianEmirates = () => {
-  const { i18n } = useTranslation();
-
   return (
-    <Layout title = { Album.getTitle().getTranslation() }>
+    <Layout title = { Album.getTitle().getValue() }>
       <div className = 'container'>
-        <Headline album = { Album } locale = { i18n.language } />
+        <Headline album = { Album } locale = { 'en' } />
 
         <p>Скоростной поезд, ничем не выдававший своего ошеломительного движения, бесшумно мчался среди высотных зданий, впечатляющих талантом своих создателей. Восходящее солнце обводило силуэты архитектурных шедевров и городского пейзажа, уносящегося далеко за горизонт. Широкая магистраль, рассекающая спящий мегаполис, несла рой, проносящихся двенадцатью полосами, автомобилей. Такими останутся в воспоминаниях первые минуты, в открывавшем восточный мир, Дубае.</p>
 

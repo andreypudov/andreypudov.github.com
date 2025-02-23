@@ -5,7 +5,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const VeraKlemenova = new Album(
-  new Text('VeraKlemenova.Title', 'Vera Klemenova'),
+  new Text('Vera Klemenova'),
   Genre.Portrait,
   new Date('2012-07-19'),
   new Photograph('/photographs/2012-07-19/2012-07-19_016_large.webp'),

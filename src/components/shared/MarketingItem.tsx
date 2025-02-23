@@ -11,7 +11,7 @@ const MarketingItem = ({ page, cover }: MarketingItemProps) => {
    <div className = 'col-sm-3'>
       <Link to = { page.getRoute() }>
         <img src = { cover ?? page.getAlbum().getCover().src } 
-             alt = { page.getAlbum().getTitle().getTranslation() } 
+             alt = { page.getAlbum().getTitle().getValue() } 
              className = 'img-fluid' />
       </Link>
    </div>

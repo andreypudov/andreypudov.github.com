@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
             href="/"
             onClick={[Function]}
           >
-            Header.AndreyPudov
+            Andrey Pudov
           </a>
           <button
             aria-controls="navbarMain"
@@ -96,7 +96,7 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        NotFound.CanNotBeFound
+        Hmm, the page you’re looking for can’t be found.
       </h1>
     </div>
   </main>

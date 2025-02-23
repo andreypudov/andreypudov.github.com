@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
             href="/"
             onClick={[Function]}
           >
-            Header.AndreyPudov
+            Andrey Pudov
           </a>
           <button
             aria-controls="navbarMain"

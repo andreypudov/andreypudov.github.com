@@ -1,16 +1,12 @@
-import i18next from '../../i18n';
 class Text {
-  private key: string;
-  private fallback: string;
+  private value: string;
 
-  constructor(key: string, fallback: string) {
-    this.key = key;
-    this.fallback = fallback;
+  constructor(value: string) {
+    this.value = value;
   }
 
-  getKey = () => this.key;
-  getFallback = () => this.fallback;
-  getTranslation = () => i18next.t(this.key, this.fallback);
+  getKey = () => this.value;
+  getValue = () => this.value;
 }
 
 export default Text;

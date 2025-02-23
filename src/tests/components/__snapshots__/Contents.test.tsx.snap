@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
             href="/"
             onClick={[Function]}
           >
-            Header.AndreyPudov
+            Andrey Pudov
           </a>
           <button
             aria-controls="navbarMain"
@@ -96,7 +96,7 @@ exports[`renders correctly 1`] = `
       className="container"
     >
       <h1>
-        Contents.Contents
+        Contents
       </h1>
       <ol
         className="contents"
@@ -852,7 +852,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Contents.TimeLapses
+            Time Lapses
           </h2>
         </li>
         <li>
@@ -927,7 +927,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Contents.Performances
+            Performances
           </h2>
         </li>
         <li>
@@ -935,7 +935,7 @@ exports[`renders correctly 1`] = `
             href="/performances/gravity-falls/"
             onClick={[Function]}
           >
-            Contents.GravityFalls
+            Gravity Falls
             <small>
               Monday, January 18, 2021
             </small>
@@ -946,7 +946,7 @@ exports[`renders correctly 1`] = `
             href="/performances/cure-for-wellness/"
             onClick={[Function]}
           >
-            Contents.ACureForWellness
+            A Cure for Wellness
             <small>
               Saturday, March 17, 2018
             </small>
@@ -957,7 +957,7 @@ exports[`renders correctly 1`] = `
             href="/performances/mia-and-sebastian/"
             onClick={[Function]}
           >
-            Contents.MiaAndSebastian
+            Mia & Sebastian
             <small>
               Thursday, September 7, 2017
             </small>
@@ -969,7 +969,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Contents.Articles
+            Articles
           </h2>
         </li>
         <li>
@@ -1011,7 +1011,7 @@ exports[`renders correctly 1`] = `
       >
         <li>
           <h2>
-            Contents.Projects
+            Projects
           </h2>
         </li>
         <li>
@@ -1020,7 +1020,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Contents.ParaglidingWeather
+            ParaglidingWeather
             <small>
               Wednesday, January 6, 2021
             </small>
@@ -1032,7 +1032,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Contents.Timetable
+            Timetable
             <small>
               Wednesday, January 6, 2021
             </small>
@@ -1044,7 +1044,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Contents.LaboratoryOfAlgorithms
+            Laboratory of Algorithms
             <small>
               Tuesday, July 10, 2018
             </small>
@@ -1056,7 +1056,7 @@ exports[`renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Contents.OpenWeatherJS
+            OpenWeatherJS
             <small>
               Wednesday, October 24, 2018
             </small>

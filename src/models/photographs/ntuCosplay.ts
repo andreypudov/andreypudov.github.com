@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const NtuCosplay = new Album(
-  new Text('NtuCosplay.Title', 'NTU Cosplay Festival 2025'),
+  new Text('NTU Cosplay Festival 2025'),
   Genre.Event,
   new Date('2025-02-08'),
   new Photograph('/photographs/2025-02-08/2025-02-08_001.webp'),

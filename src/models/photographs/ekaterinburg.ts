@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const Ekaterinburg = new Album(
-  new Text('Ekaterinburg.Title', 'Ekaterinburg. The Picture of City'),
+  new Text('Ekaterinburg. The Picture of City'),
   Genre.Street,
   new Date('2014-12-25'),
   new Photograph('/photographs/2014-12-21_25_city/2014-12-21_064_large.webp'),

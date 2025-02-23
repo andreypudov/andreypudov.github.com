@@ -5,7 +5,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const TatyanaBysheva = new Album(
-  new Text('TatyanaBysheva.Title', 'Tatyana Bysheva'),
+  new Text('Tatyana Bysheva'),
   Genre.Portrait,
   new Date('2018-07-27'),
   new Photograph('/photographs/2017-07-22/2017-07-22_001.webp'),

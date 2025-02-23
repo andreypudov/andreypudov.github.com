@@ -5,7 +5,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const AndreyPudov = new Album(
-  new Text('AndreyPudov.Title', 'Andrey Pudov'),
+  new Text( 'Andrey Pudov'),
   Genre.Portrait,
   new Date('2022-07-09'),
   new Photograph('/photographs/2016-04-16/2016-04-16_002.webp'),
