@@ -23,7 +23,7 @@ const Albums = () => {
   return (
     <Layout title = { 'Albums' }>
       <div className = 'container'>
-        <h1>'Albums</h1>
+        <h1>Albums</h1>
 
         <h2>Street Photography</h2>
         <div className = 'row mb-4'>
