@@ -5,7 +5,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const AsiaFarakshina = new Album(
-  new Text( 'Asia Farakshina'),
+  new Text('Asia Farakshina'),
   Genre.Portrait,
   new Date('2015-08-14'),
   new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),

@@ -4,7 +4,7 @@ import Text from '../core/text';
 import Genre from '../core/genre';
 
 const CastilloDeMataplana = new Album(
-  new Text( 'Castillo de Mataplana'),
+  new Text('Castillo de Mataplana'),
   Genre.Nature,
   new Date('2022-07-24'),
   new Photograph('/photographs/2022-07-23_24/2022-07-23_24_008.webp'),
