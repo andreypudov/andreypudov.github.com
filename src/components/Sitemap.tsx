@@ -2,17 +2,14 @@ import Layout from './shared/Layout'
 import Media from './../models/core/media';
 import Page from './../models/core/page';
 import { Articles, Photographs, Drawings, TimeLapses, Performances } from './../models/pages';
-import i18next from 'i18next';
 
 const domain = 'https://andreypudov.com';
 const supportedLanguages = ['en'];
 
 const urlEntry = (page: Page, timestamp: string, locale: string) => {
-  const t = i18next.getFixedT(locale);
-
   return (`<url>
     <loc>${domain}/#/${ page.getRoute() }</loc>
-    ${ page.getAlbum().getMedia().map((media: Media) =>  imageEntry(t(page.getAlbum().getTitle().getKey()), media)).join("").trim() }
+    ${ page.getAlbum().getMedia().map((media: Media) =>  imageEntry(page.getAlbum().getTitle().getValue(), media)).join("").trim() }
     <lastmod>${ timestamp }</lastmod>
   </url>
   `);
@@ -34,8 +31,6 @@ const encodeXml = (xml: string) => xml
   .replace(/'/g, '&apos;');
 
 const generateSitemap = (timestamp: string, locale: string) => {
-  i18next.changeLanguage(locale);
-
   return `
   <url>
     <loc>https://andreypudov.com/</loc>
