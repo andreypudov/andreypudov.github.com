@@ -6,6 +6,7 @@ import RussianEmirates from './photographs/russianEmirates';
 import GoldenAge from './photographs/goldenAge';
 import ImperialTown from './photographs/imperialTown';
 
+import AnniversaryInPorto from './photographs/anniversaryInPorto';
 import PeiPeiChen from './photographs/peipeiChen';
 // import PeiPeiMontseny from './photographs/peipeiMentseny';
 // import PeiPeiMadrid from './photographs/peipeiMadrid';
@@ -95,6 +96,7 @@ const Pages = {
    GoldenAge: new Page(GoldenAge, PageType.Article, '/photographs/golden-age/'),
    ImperialTown: new Page(ImperialTown, PageType.Article, '/photographs/imperial-town/'),
 
+   AnniversaryInPorto: new Page(AnniversaryInPorto, PageType.Photographs, '/photographs/anniversary-in-port/'),
    PeiPeiChen: new Page(PeiPeiChen, PageType.Photographs, '/photographs/pei-pei-chen/'),
    // PeiPeiMontseny: new Page(PeiPeiMontseny, PageType.Photographs, '/photographs/pei-pei-montseny/'),
    // PeiPeiMadrid: new Page(PeiPeiMadrid, PageType.Photographs, '/photographs/pei-pei-madrid/'),
