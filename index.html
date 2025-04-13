@@ -1,133 +1,289 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Andrey Pudov</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="media/images/favicon.png" rel="icon" type="image/png">
-    <link href="styles/main.css" rel="stylesheet" />
-    <link href="styles/carousel.css" rel="stylesheet" />
-    <link href="styles/image-grid.css" rel="stylesheet" />
+  <title>Home - Andrey Pudov</title>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Y9W77G5B"></script>
-    <script src="scripts/analytics.js" type="module"></script>
-  </head>
-  <body>
-    <div class="carousel">
-      <div class="overlay">
-        <div class="corners">
-          <div class="left-top"></div>
-          <div class="right-top"></div>
-          <div class="left-bottom"></div>
-          <div class="right-bottom"></div>
-        </div>
-      </div>
+  <link href="media/images/favicon.png?v=1.0" rel="icon" type="image/png">
+  <link href="styles/main.css?v=1.0" rel="stylesheet" />
+  <link href="styles/menu.css?v=1.0" rel="stylesheet" />
+  <link href="styles/carousel.css?v=1.0" rel="stylesheet" />
+  <link href="styles/image-grid.css?v=1.0" rel="stylesheet" />
 
-      <div class="carousel-inner">
-        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-        <div class="carousel-item">
-            <img src="media/photographs/2023-11-18/2023-11-18_002.webp">
-        </div>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Y9W77G5B"></script>
+  <script src="scripts/analytics.js?v=1.0" type="module"></script>
+</head>
 
-        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-        <div class="carousel-item">
-            <img src="media/photographs/2019-10-26/2019-10-26_007.webp">
-        </div>
+<body>
+  <div class="menu">
+    <div class="item">
+      <a href="/">Home</a>
+    </div>
+    <div class="item">
+      <a href="portfolio/">Portfolio</a>
+    </div>
+    <div class="item">
+      <a href="about/">About</a>
+    </div>
+    <div class="item">
+      <a href="contact/">Contact</a>
+    </div>
+  </div>
 
-        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-        <div class="carousel-item">
-            <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_019_large.webp">
-        </div>
-
-        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-        <label for="carousel-2" class="carousel-control next control-1">›</label>
-
-        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-        <label for="carousel-3" class="carousel-control next control-2">›</label>
-
-        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-        <label for="carousel-1" class="carousel-control next control-3">›</label>
-
-        <ol class="carousel-indicators">
-            <li>
-                <label for="carousel-1" class="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label for="carousel-2" class="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label for="carousel-3" class="carousel-bullet">•</label>
-            </li>
-        </ol>
+  <div class="carousel">
+    <div class="overlay">
+      <div class="corners">
+        <div class="left-top"></div>
+        <div class="right-top"></div>
+        <div class="left-bottom"></div>
+        <div class="right-bottom"></div>
       </div>
     </div>
 
-    <div class="image-grid">
-      <div class="row">
-        <div class="column">
-          <img src="media/photographs/2024-04-10_30/2024-04-10_30_011.webp" alt="Pei Pei. Weekend in Madrid" />
-          <img src="media/photographs/2023-06-16_18/2023-06-16_18_011.webp" alt="Delta of Ebro" />
-          <img src="media/photographs/2022-08-27_09-10/2022-08-27_09-10_104.webp" alt="Götheborg. Conquering Scandinavia" />
-          <img src="media/photographs/2020-06-12/2020-06-12_001.webp" alt="Ekaterina Domracheva" />
-          <img src="media/photographs/2019-09-30/2019-09-30_002.webp" alt="2019 Formula 1 Russian Grand Prix" />
-          <img src="media/photographs/2017-10-22/2017-10-22_016_large.webp" alt="Kira Orlova" />
-          <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_041_large.webp" alt="6th Avenue & West 42nd Street" />
-          <img src="media/photographs/2015-08-12/2015-08-12_002.webp" alt="Meteor Rain" />
-          <img src="media/photographs/2013-09-14_27/2013-09-17_015_large.webp" alt="The Vorontsov Lighthouse is a red-and-white, 27.2-meter tall lighthouse in the Black Sea port of Odessa. It is named after Prince Mikhail Semyonovich Vorontsov, one of the governors-general of the Odessa region. It has a one-million-watt signal light that can be seen up to twelve nautical miles (22 km) away. It transmits the Morse Code signal of three dashes, the letter O, for Odessa. It also sounds like a foghorn during severe storms or fog." />
-          <img src="media/photographs/2012-09-14_15/2012-09-14_15_016_large.webp" alt="The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000." />
-        </div>
+    <div class="inner">
+      <input class="open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+      <div class="item">
+        <img src="media/photographs/2023-10-06_08/2023-10-06_08_004.webp" loading="lazy" />
+      </div>
 
-        <div class="column">
-          <img src="media/photographs/2024-08-18/2024-08-18_004.webp" alt="Castellers de la Vila de Gràcia" />
-          <img src="media/photographs/2023-11-18/2023-11-18_002.webp" alt="Ordesa and Monte Perdido National Park" />
-          <img src="media/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp" alt="Munch Museum" />
-          <img src="media/photographs/2022-08-15/2022-08-15_010.webp" alt="Puigmal" />
-          <img src="media/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp" alt="Ekaterina Domracheva" />
-          <img src="media/photographs/2017-09-09_24/2017-09-09_24_030_large.webp" alt="Dumbo\n\nThe area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups." />
-          <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_009_large.webp" alt="Central Park\n\nBetween 1821 and 1855, New York City\'s population nearly quadrupled. As the city expanded northward up Manhattan Island, people were drawn to the few existing open spaces, mainly cemeteries, for passive recreation. These were seen as escapes from the noise and chaotic life in the city, which at the time was almost entirely centered on Lower Manhattan. The Commissioners\' Plan of 1811, the outline for Manhattan\'s modern street grid, included several smaller open spaces but not Central Park. As such, John Randel Jr. had surveyed the grounds for the construction of intersections within the modern-day park site.\n\nToday, Central Park is the most visited urban park in the United States and one of the most visited tourist attractions worldwide, with 42 million visitors in 2016." />
-          <img src="media/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp" alt="2016 Formula 1 Russian Grand Prix" />
-          <img src="media/photographs/2016-04-16/2016-04-16_009.webp" alt="Ekaterina Malysheva" />
-          <img src="media/photographs/2013-01-01/2013-01-01_001.webp" alt="A frosty morning near Volga embankment. The early hours of the new year." />
-        </div>
+      <input class="open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+      <div class="item">
+        <img src="media/photographs/2021-07-24_08-02/2021-07-24_08-02_089.webp" loading="lazy" />
+      </div>
 
-        <div class="column">
-          <img src="media/photographs/2023-10-06_08/2023-10-06_08_004.webp" alt="Arganzuela Footbridge" />
-          <img src="media/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp" alt="Rådhuset Station" />
-          <img src="media/photographs/2022-08-07/2022-08-07_019.webp" alt="Turó de l'Home" />
-          <img src="media/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp" alt="Great Aktru Glacier" />
-          <img src="media/photographs/2019-07-16/2019-07-16_002.webp" alt="Nizhny Novgorod" />
-          <img src="media/photographs/2017-09-09_24/2017-09-09_24_001_large.webp" alt="Oculus / World Trade Center Station\n\nOne of the first decisions that Calatrava had in mind at the time of conceiving the project was the realization of the building at street level, an independent structure along the Wedge of Light Square, by Daniel Libeskind. “Oculus”, the centerpiece of the Transportation Center that presents the new station to the world is a kind of pause in the middle of the dense glass and steel towers that surround it.\n\nThe construction, due to constant delays, lasted 12 years and was finally inaugurated on March 3, 2016, without too many celebrations. The cost of its construction, $ 4 billion, greatly exceeded its original cost, becoming, until the time of its inauguration, the most expensive train station in the world and the third largest transportation center in New York, after Grand Central and Penn Station, both in Midtown Manhattan." />
-          <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_003_large.webp" alt="One World Trade Center\n\nOne World Trade Center is the main building of the rebuilt World Trade Center complex in Lower Manhattan. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 6.5 ha World Trade Center site, on the site of the original 6 World Trade Center." />
-          <img src="media/photographs/2015-07-27_08-08/2015-07-27_08-08_058_large.webp" alt="The Holy Nose Peninsula is on fire. Because of strong thunderstorms, since the end of July, violent fires have been raging in the mountains in the Baikal nature reserves. About 25,000 hectares of forest were affected by the fire." />
-          <img src="media/photographs/2012-11-09_21/2012-11-09_21_037_large.webp" alt="The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. The largest mosque in the country, it is the key place of worship for daily prayers. During Eid, it was visited by more than 41,000 people." />
-        </div>
+      <input class="open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+      <div class="item">
+        <img src="media/photographs/2019-10-26/2019-10-26_007.webp" loading="lazy" />
+      </div>
 
-        <div class="column">
-          <img src="media/photographs/2023-09-24/2023-09-24_001.webp" alt="Columbus Monument" />
-          <img src="media/photographs/2022-07-08/2022-07-08_001.webp" alt="The Kiss of Death\n\nThe Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.\n\n"His young heart is thus extinguished. The blood in his veins grows cold. And all strength has gone. Faith has been extolled by his fall into the arms of death. Amen."" />
-          <img src="media/photographs/2019-10-26/2019-10-26_007.webp" alt="Rekshino" />
-          <img src="media/photographs/2019-05-12_05-25/2019-05-12_05-25_001.webp" alt="Conquering America 3.0" />
-          <img src="media/photographs/2018-08-18/2018-08-18_005.webp" alt="Alina Cherdakova" />
-          <img src="media/photographs/2017-01-30/2017-01-30_001.webp" alt="Pechersky Ascension Monastery\n\nPechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.\n\nIt have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.\n\nThe monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod." />
-          <img src="media/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp" alt="Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg\'s W07 car." />
-          <img src="media/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp" alt="Lake Baikal" />
-          <img src="media/photographs/2012-11-09_21/2012-11-09_21_024_large.webp" alt="The Dubai Metro is a rapid transit rail network in the city of Dubai, United Arab Emirates.  It is currently operated by the British company Serco. Until 2016, the Dubai Metro was the world\'s longest driverless metro network with a route length of 75 kilometres. Planning of the Dubai Metro began under the directive of Dubai\'s Ruler, Sheikh Mohammed bin Rashid Al Maktoum, who expected other projects to attract 15 million visitors to Dubai by 2010." />
-        </div>
+      <input class="open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+      <div class="item">
+        <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_019_large.webp" loading="lazy" />
+      </div>
 
-        <div class="column">
-          <img src="media/photographs/2025-02-08/2025-02-08_003.webp" alt="NTU Cosplay Festival 2025" />
-          <img src="media/photographs/2017-10-28/2017-10-28_005.webp" alt="Ride in Rekshino" />
-          <img src="media/photographs/2023-05-17/2023-05-17_008.webp" alt="LEBL Barcelona El Prat International Airport" />
-          <img src="media/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp" alt="Cape Meganom" />
-          <img src="media/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp" alt="St. Peter\'s Basilica\n\nThe Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter\'s Basilica." />
-          <img src="media/photographs/2016-12-15/2016-12-15_001.webp" alt="Metro Bridge over the Oka River" />
-          <img src="media/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp" alt="Bolshoy Ice Dome\n\nThe Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013." />
-          <img src="media/photographs/2013-09-14_27/2013-09-27_108_large.webp" alt="Maidan Nezalezhnosti is the central square of Kyiv. One of the city\'s main squares. It has been known under many different names, but often it is called simply Maidan." />
-          <img src="media/photographs/2012-11-09_21/2012-11-09_21_059_large.webp" alt="Dubai Mall" />
-        </div>
+      <input class="open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+      <div class="item">
+        <img src="media/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp" loading="lazy" />
+      </div>
+
+      <ol class="indicators">
+        <li>
+          <label for="carousel-1" class="bullet">01</label>
+        </li>
+        <li>
+          <label for="carousel-2" class="bullet">02</label>
+        </li>
+        <li>
+          <label for="carousel-3" class="bullet">03</label>
+        </li>
+        <li>
+          <label for="carousel-4" class="bullet">04</label>
+        </li>
+        <li>
+          <label for="carousel-5" class="bullet">05</label>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="image-grid container">
+    <div class="row">
+      <div class="column">
+        <figure>
+          <img src="media/photographs/2022-07-08/2022-07-08_001.webp"
+            alt="The Kiss of Death\n\nThe Kiss of Death is a marble sculpture, found in Poblenou Cemetery. The sculpture is thought to have been created by Jaume Barba, although others have claimed that its idea was conceived by Joan Fontbernat. The sculpture depicts death, in the form of a winged skeleton, planting a kiss on the forehead of a young man. The sculpture elicits varying responses from viewers concerning the depiction of the young man ranging from ecstasy to resignation.\n\nHis young heart is thus extinguished. The blood in his veins grows cold. And all strength has gone. Faith has been extolled by his fall into the arms of death. Amen."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2025-02-08/2025-02-08_003.webp" alt="NTU Cosplay Festival 2025" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2024-04-10_30/2024-04-10_30_011.webp" alt="Pei Pei. Weekend in Madrid"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2023-09-24/2023-09-24_001.webp" alt="Columbus Monument" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2023-06-16_18/2023-06-16_18_011.webp" alt="Delta of Ebro" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2022-08-27_09-10/2022-08-27_09-10_104.webp"
+            alt="Götheborg. Conquering Scandinavia" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp" alt="Cape Meganom" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2020-06-12/2020-06-12_001.webp" alt="Ekaterina Domracheva" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2019-09-30/2019-09-30_002.webp" alt="2019 Formula 1 Russian Grand Prix"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2019-05-12_05-25/2019-05-12_05-25_001.webp" alt="Conquering America 3.0"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2017-10-22/2017-10-22_016_large.webp" alt="Kira Orlova" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_041_large.webp"
+            alt="6th Avenue & West 42nd Street" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp"
+            alt="Bolshoy Ice Dome\n\nThe Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp"
+            alt="Mechanics of the Mercedes AMG Petronas team working on Nico Rosberg\'s W07 car." loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2015-08-12/2015-08-12_002.webp" alt="Meteor Rain" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2013-09-14_27/2013-09-17_015_large.webp"
+            alt="The Vorontsov Lighthouse is a red-and-white, 27.2-meter tall lighthouse in the Black Sea port of Odessa. It is named after Prince Mikhail Semyonovich Vorontsov, one of the governors-general of the Odessa region. It has a one-million-watt signal light that can be seen up to twelve nautical miles (22 km) away. It transmits the Morse Code signal of three dashes, the letter O, for Odessa. It also sounds like a foghorn during severe storms or fog."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2012-09-14_15/2012-09-14_15_016_large.webp"
+            alt="The Kazan Kremlin is the chief historic citadel of Russia, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000."
+            loading="lazy" />
+        </figure>
+      </div>
+
+      <div class="column">
+        <figure>
+          <img src="media/photographs/2024-08-18/2024-08-18_004.webp" alt="Castellers de la Vila de Gràcia"
+            loading="lazy" />
+          </figure>
+        <figure>
+          <img src="media/photographs/2023-11-18/2023-11-18_002.webp" alt="Ordesa and Monte Perdido National Park"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp" alt="Munch Museum"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2022-08-15/2022-08-15_010.webp" alt="Puigmal" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp" alt="Ekaterina Domracheva"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2018-08-18/2018-08-18_005.webp" alt="Alina Cherdakova" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp"
+            alt="St. Peter\'s Basilica\n\nThe Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter\'s Basilica."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2017-10-28/2017-10-28_005.webp" alt="Ride in Rekshino" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2017-09-09_24/2017-09-09_24_030_large.webp"
+            alt="Dumbo\n\nThe area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_009_large.webp"
+            alt="Central Park\n\nBetween 1821 and 1855, New York City\'s population nearly quadrupled. As the city expanded northward up Manhattan Island, people were drawn to the few existing open spaces, mainly cemeteries, for passive recreation. These were seen as escapes from the noise and chaotic life in the city, which at the time was almost entirely centered on Lower Manhattan. The Commissioners\' Plan of 1811, the outline for Manhattan\'s modern street grid, included several smaller open spaces but not Central Park. As such, John Randel Jr. had surveyed the grounds for the construction of intersections within the modern-day park site.\n\nToday, Central Park is the most visited urban park in the United States and one of the most visited tourist attractions worldwide, with 42 million visitors in 2016."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp"
+            alt="2016 Formula 1 Russian Grand Prix" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-04-16/2016-04-16_009.webp" alt="Ekaterina Malysheva" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp" alt="Lake Baikal"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2013-09-14_27/2013-09-27_108_large.webp"
+            alt="Maidan Nezalezhnosti is the central square of Kyiv. One of the city\'s main squares. It has been known under many different names, but often it is called simply Maidan."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2013-01-01/2013-01-01_001.webp"
+            alt="A frosty morning near Volga embankment. The early hours of the new year." loading="lazy" />
+        </figure>
+      </div>
+
+      <div class="column">
+        <!-- <figure><img src="media/photographs/2023-10-06_08/2023-10-06_08_004.webp" alt="Arganzuela Footbridge" loading="lazy" /></figure> -->
+        <figure>
+          <img src="media/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp" alt="Rådhuset Station"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2023-05-17/2023-05-17_008.webp"
+            alt="LEBL Barcelona El Prat International Airport" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2022-08-07/2022-08-07_019.webp" alt="Turó de l'Home" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp" alt="Great Aktru Glacier"
+            loading="lazy" />
+        </figure>
+        <!-- <figure><img src="media/photographs/2019-10-26/2019-10-26_007.webp" alt="Rekshino" loading="lazy" /></figure> -->
+        <figure>
+          <img src="media/photographs/2019-07-16/2019-07-16_002.webp" alt="Nizhny Novgorod" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2017-09-09_24/2017-09-09_24_001_large.webp"
+            alt="Oculus / World Trade Center Station\n\nOne of the first decisions that Calatrava had in mind at the time of conceiving the project was the realization of the building at street level, an independent structure along the Wedge of Light Square, by Daniel Libeskind. “Oculus”, the centerpiece of the Transportation Center that presents the new station to the world is a kind of pause in the middle of the dense glass and steel towers that surround it.\n\nThe construction, due to constant delays, lasted 12 years and was finally inaugurated on March 3, 2016, without too many celebrations. The cost of its construction, $ 4 billion, greatly exceeded its original cost, becoming, until the time of its inauguration, the most expensive train station in the world and the third largest transportation center in New York, after Grand Central and Penn Station, both in Midtown Manhattan."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2017-01-30/2017-01-30_001.webp"
+            alt="Pechersky Ascension Monastery\n\nPechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.\n\nIt have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.\n\nThe monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-12-15/2016-12-15_001.webp" alt="Metro Bridge over the Oka River"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2016-10-15_11-05/2016-10-15_11-05_003_large.webp"
+            alt="One World Trade Center\n\nOne World Trade Center is the main building of the rebuilt World Trade Center complex in Lower Manhattan. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 6.5 ha World Trade Center site, on the site of the original 6 World Trade Center."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2015-07-27_08-08/2015-07-27_08-08_058_large.webp"
+            alt="The Holy Nose Peninsula is on fire. Because of strong thunderstorms, since the end of July, violent fires have been raging in the mountains in the Baikal nature reserves. About 25,000 hectares of forest were affected by the fire."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2012-11-09_21/2012-11-09_21_059_large.webp" alt="Dubai Mall"
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2012-11-09_21/2012-11-09_21_037_large.webp"
+            alt="The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. The largest mosque in the country, it is the key place of worship for daily prayers. During Eid, it was visited by more than 41,000 people."
+            loading="lazy" />
+        </figure>
+        <figure>
+          <img src="media/photographs/2012-11-09_21/2012-11-09_21_024_large.webp"
+            alt="The Dubai Metro is a rapid transit rail network in the city of Dubai, United Arab Emirates.  It is currently operated by the British company Serco. Until 2016, the Dubai Metro was the world\'s longest driverless metro network with a route length of 75 kilometres. Planning of the Dubai Metro began under the directive of Dubai\'s Ruler, Sheikh Mohammed bin Rashid Al Maktoum, who expected other projects to attract 15 million visitors to Dubai by 2010."
+            loading="lazy" />
+        </figure>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

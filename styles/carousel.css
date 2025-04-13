@@ -1,11 +1,8 @@
 .carousel {
   position: relative;
-
-  // jovanarikalo
   width: 100%;
   height: 100dvh;
   transition: 0.3s;
-  position: relative;
 
   .overlay {
     position: absolute;
@@ -22,142 +19,147 @@
       .left-bottom,
       .right-bottom {
         position: absolute;
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
         background-repeat: no-repeat;
         background-size: cover;
-        transition: 0.3s;
+        // transition: 0.3s;
       }
 
       .left-top {
-        background-image: url("../media/images/corner-left-top-mob.svg");
-        left: 10px;
-        top: 10px;
+        background-image: url("../media/images/corner-left-top.svg");
+        left: 20px;
+        top: 20px;
       }
 
       .right-top {
-        background-image: url("../media/images/corner-right-top-mob.svg");
-        right: 10px;
-        top: 10px;
+        background-image: url("../media/images/corner-right-top.svg");
+        right: 20px;
+        top: 20px;
       }
 
       .left-bottom {
-        background-image: url("../media/images/corner-left-bottom-mob.svg");
-        left: 10px;
-        bottom: 10px;
+        background-image: url("../media/images/corner-left-bottom.svg");
+        left: 20px;
+        bottom: 20px;
       }
 
       .right-bottom {
-        background-image: url("../media/images/corner-right-bottom-mob.svg");
-        right: 10px;
-        bottom: 10px;
+        background-image: url("../media/images/corner-right-bottom.svg");
+        right: 20px;
+        bottom: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .left-top,
+        .right-top,
+        .left-bottom,
+        .right-bottom {
+          width: 10px;
+          height: 10px;
+        }
+
+        .left-top {
+          background-image: url("../media/images/corner-left-top-mob.svg");
+          left: 10px;
+          top: 10px;
+        }
+
+        .right-top {
+          background-image: url("../media/images/corner-right-top-mob.svg");
+          right: 10px;
+          top: 10px;
+        }
+
+        .left-bottom {
+          background-image: url("../media/images/corner-left-bottom-mob.svg");
+          left: 10px;
+          bottom: 10px;
+        }
+
+        .right-bottom {
+          background-image: url("../media/images/corner-right-bottom-mob.svg");
+          right: 10px;
+          bottom: 10px;
+        }
       }
     }
   }
 
-  .carousel-inner {
+  .inner {
     position: relative;
     overflow: hidden;
     width: 100%;
 
-    .carousel-open:checked + .carousel-item {
-      position: static;
-      opacity: 100;
+    .open {
+      &:checked {
+        + .item {
+          position: static;
+          opacity: 1;
+        }
+      }
     }
 
-    .carousel-item {
+    .item {
       position: absolute;
+      width: 100%;
+      height: 100vh;
       opacity: 0;
-      transition: opacity 2.6s ease-out;
+      transition: opacity 0.8s ease-in-out;
 
       img {
-        height: 100vh;
-        width: 100%;
         object-fit: cover;
+        height: calc(100vh + 40px);
+        width: 100%;
       }
     }
 
-    .carousel-control {
-      background: rgba(0, 0, 0, 0.28);
-      border-radius: 50%;
-      color: #fff;
-      cursor: pointer;
-      display: none;
-      font-size: 40px;
-      height: 40px;
-      line-height: 35px;
-      position: absolute;
-      top: 50%;
-      cursor: pointer;
-      transform: translate(0, -50%);
-      text-align: center;
-      width: 40px;
-      z-index: 10;
-
-      &:hover {
-        background: rgba(0, 0, 0, 0.8);
-        color: #aaaaaa;
-      }
-
-      &.prev {
-        left: 2%;
-      }
-
-      &.next {
-        right: 2%;
-      }
-    }
-
-    #carousel-1:checked ~ .control-1,
-    #carousel-2:checked ~ .control-2,
-    #carousel-3:checked ~ .control-3 {
-      display: block;
-    }
-
-    .carousel-indicators {
+    .indicators {
       list-style: none;
       margin: 0;
       padding: 0;
       position: absolute;
-      bottom: 2%;
+      bottom: 30px;
       left: 0;
       right: 0;
       text-align: center;
       z-index: 10;
 
+      ::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 14px;
+        background-image: url("../media/images/ruler.svg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        opacity: 0.2;
+      }
+
       li {
         display: inline-block;
         margin: 0 5px;
+
+        label {
+          &:hover {
+            color: rgba(243, 239, 232, 0.70);
+            transition: 0.3s;
+          }
+        }
       }
     }
 
-    .carousel-bullet {
-      color: #fff;
+    .bullet {
+      color: #f6f3ef;
       cursor: pointer;
       display: block;
-      font-size: 35px;
-
-      &:hover {
-        color: #aaaaaa;
-      }
-    }
-
-    #carousel-1:checked
-      ~ .control-1
-      ~ .carousel-indicators
-      li:nth-child(1)
-      .carousel-bullet,
-    #carousel-2:checked
-      ~ .control-2
-      ~ .carousel-indicators
-      li:nth-child(2)
-      .carousel-bullet,
-    #carousel-3:checked
-      ~ .control-3
-      ~ .carousel-indicators
-      li:nth-child(3)
-      .carousel-bullet {
-      color: #428bca;
+      font-size: 0.76em;
+      font-weight: 300;
+      transition: 0.3s;
     }
   }
 }
