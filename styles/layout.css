@@ -1,0 +1,64 @@
+@import url("header.css?v=1.0");
+@import url("footer.css?v=1.0");
+
+:root {
+  --font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  --font-size: 1rem;
+  --font-weight: 400;
+  --line-height: 1.2;
+
+  --bg-primary: white;
+  --bg-secondary: #F5F5F7;
+  --fg-primary: #212529;
+  --fg-secondary: #6e6e6e;
+  --fg-inverted: white;
+
+  --header-font-size: 0;
+  --subscript-font-size: 0.7rem;
+
+  --layout-section-gap: 16px;
+  --transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+
+  background-color: var(--bg-primary);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}

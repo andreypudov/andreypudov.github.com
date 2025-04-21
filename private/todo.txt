@@ -1,0 +1,11 @@
+- store images outside of the website repo
+  - cloudinary.com
+  - imagekit.io
+- css variables
+- header with color variation
+- adjust carousel media sizes
+- adjust image grid media sizes
+- footer
+- parallax effect for carousel
+- images with like, comment, download and fullscreen buttons
+- contact form to use https://ig.me/m/andrey.pudov

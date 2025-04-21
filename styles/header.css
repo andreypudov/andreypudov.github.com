@@ -1,24 +1,40 @@
-.menu {
+header {
   position: absolute;
   display: flex;
-  top: 40px;
-  left: 0;
+  background: var(--bg-secondary);
+  padding: 40px 0;
   width: 100%;
 
   flex-direction: row;
   align-items: center;
   justify-content: center;
   z-index: 2;
-  transition: 0.3s;
+  transition: var(--transition);
+
+  &.home {
+    background: transparent;
+
+    .item {
+      a {
+        color: var(--fg-inverted);
+
+        &:hover {
+          &:after {
+            background-color: var(--fg-inverted);
+          }
+        }
+      }
+    }
+  }
 
   .item {
     padding: 0 20px;
 
     a {
-      color: #f6f3ef;
-      font-size: 0.8em;
+      color: var(--fg-primary);
+      font-size: calc(var(--font-size) * 0.8);
       line-height: 1;
-      transition: 0.3s;
+      transition: var(--transition);
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 0.15em;
@@ -27,7 +43,7 @@
 
       &:hover {
         &:after {
-          background-color: #f6f3ef;
+          background-color: var(--fg-primary);
           content: '';
           width: 100%;
           height: 1px;

@@ -2,16 +2,23 @@
   .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
   }
 
   .column {
     flex: 1;
     padding: 0 8px;
 
+    &:first-child {
+      padding: 0 8px 0 0;
+    }
+
+    &:last-child {
+      padding: 0 0 0 8px;
+    }
+
     figure {
       border-radius: 10px;
-      margin-top: 16px;
+      margin-top: var(--layout-section-gap);
       vertical-align: middle;
       width: 100%;
 

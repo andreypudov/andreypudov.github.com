@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100dvh;
-  transition: 0.3s;
+  transition: var(--transition);
 
   .overlay {
     position: absolute;
@@ -11,7 +11,7 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    transition: 0.3s;
+    transition: var(--transition);
 
     .corners {
       .left-top,
@@ -23,7 +23,7 @@
         height: 20px;
         background-repeat: no-repeat;
         background-size: cover;
-        // transition: 0.3s;
+        transition: var(--transition);
       }
 
       .left-top {
@@ -147,19 +147,19 @@
         label {
           &:hover {
             color: rgba(243, 239, 232, 0.70);
-            transition: 0.3s;
+            transition: var(--transition);
           }
         }
       }
     }
 
     .bullet {
-      color: #f6f3ef;
+      color: var(--fg-inverted);
       cursor: pointer;
       display: block;
-      font-size: 0.76em;
+      font-size: var(--subscript-font-size);
       font-weight: 300;
-      transition: 0.3s;
+      transition: var(--transition);
     }
   }
 }
