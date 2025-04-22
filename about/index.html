@@ -6,6 +6,24 @@
 
     <title>About - Andrey Pudov</title>
 
+    <style>
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+        z-index: 9999;
+        transition: opacity 0.4s ease, visibility 0.4s ease;
+
+        &.hidden {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    </style>
+
     <link href="../media/images/favicon.png?v=1.0" rel="icon" type="image/png">
 
     <link href="../styles/layout.css?v=1.0" rel="stylesheet" />
@@ -16,6 +34,8 @@
     <script src="../scripts/analytics.js?v=1.0" type="module"></script>
   </head>
   <body>
+    <div class="loader"></div>
+
     <header>
       <div class="item">
         <a href="/">Home</a>
@@ -89,5 +109,12 @@
         Copyright © 2025 Andrey Pudov
       </div>
     </footer>
+
+    <script>
+      window.addEventListener('load', () => {
+        const loader = document.getElementsByClassName('loader')[0];
+        loader.classList.add('hidden');
+      });
+    </script>
   </body>
 </html>
