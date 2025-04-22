@@ -3,9 +3,9 @@
 
 :root {
   --font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  --font-size: 1rem;
+  --font-size: 0.9rem;
   --font-weight: 400;
-  --line-height: 1.2;
+  --line-height: 1.5;
 
   --bg-primary: white;
   --bg-secondary: #F5F5F7;
@@ -39,6 +39,24 @@ body {
   background-color: var(--bg-primary);
   width: 100%;
   overflow-x: hidden;
+}
+
+main {
+  padding-top: var(--layout-section-gap);
+
+  h1 {
+    font-size: calc(var(--font-size) * 1.48);
+    font-weight: 500;
+    margin-top: var(--layout-section-gap);
+    margin-bottom: calc(var(--layout-section-gap) * 1.4);
+  }
+
+  p {
+    font-weight: 400;
+    line-height: calc(var(--line-height) * 1.02);
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 }
 
 .container {

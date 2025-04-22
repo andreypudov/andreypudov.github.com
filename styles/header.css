@@ -1,5 +1,5 @@
 header {
-  position: absolute;
+  position: relative;
   display: flex;
   background: var(--bg-secondary);
   padding: 40px 0;
@@ -12,6 +12,7 @@ header {
   transition: var(--transition);
 
   &.home {
+    position: absolute;
     background: transparent;
 
     .item {
