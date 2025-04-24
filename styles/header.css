@@ -1,4 +1,4 @@
-header {
+menu {
   position: relative;
   display: flex;
   background: var(--bg-secondary);
@@ -29,6 +29,7 @@ header {
   }
 
   .item {
+    list-style: none;
     padding: 0 20px;
 
     a {

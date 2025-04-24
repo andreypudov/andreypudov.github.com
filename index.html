@@ -18,11 +18,6 @@
       z-index: 9999;
       transition: opacity 0.4s ease, visibility 0.4s ease;
 
-      &.hidden {
-        opacity: 0;
-        visibility: hidden;
-      }
-
       .spinner {
         fill: #212529;
         width: 50px;
@@ -74,19 +69,21 @@
     </svg>
   </div>
 
-  <header class="home">
-    <div class="item">
-      <a href="/">Home</a>
-    </div>
-    <div class="item">
-      <a href="portfolio/">Portfolio</a>
-    </div>
-    <div class="item">
-      <a href="about/">About</a>
-    </div>
-    <div class="item">
-      <a href="contact/">Contact</a>
-    </div>
+  <header>
+    <menu class="home">
+      <li class="item">
+        <a href="/">Home</a>
+      </li>
+      <li class="item">
+        <a href="portfolio/">Portfolio</a>
+      </li>
+      <li class="item">
+        <a href="about/">About</a>
+      </li>
+      <li class="item">
+        <a href="contact/">Contact</a>
+      </li>
+    </menu>
   </header>
 
   <main>
@@ -395,12 +392,5 @@
       Copyright © 2025 Andrey Pudov
     </div>
   </footer>
-
-  <script>
-    window.addEventListener('load', () => {
-      const loader = document.getElementsByClassName('loader')[0];
-      loader.classList.add('hidden');
-    });
-  </script>
 </body>
 </html>

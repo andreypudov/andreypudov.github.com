@@ -80,3 +80,7 @@ main {
     max-width: 1140px;
   }
 }
+
+.loader {
+  display: none !important;
+}
