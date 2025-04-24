@@ -2,10 +2,12 @@
   - cloudinary.com
   - imagekit.io
 - css variables
-- header with color variation
-- adjust carousel media sizes
-- adjust image grid media sizes
-- footer
+V header with color variation
+V footer
 - parallax effect for carousel
 - images with like, comment, download and fullscreen buttons
 - contact form to use https://ig.me/m/andrey.pudov
+
+- adjust carousel media sizes
+- adjust image grid media sizes
+- adjust media queries for both image grids

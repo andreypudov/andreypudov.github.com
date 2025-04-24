@@ -8,11 +8,13 @@
   --line-height: 1.5;
 
   --bg-primary: white;
-  --bg-secondary: #F5F5F7;
+  --bg-secondary: #fafafc;
+  --bg-third: #f5f5f7;
   --fg-primary: #212529;
   --fg-secondary: #6e6e6e;
   --fg-inverted: white;
 
+  --menu-font-size: 0.7rem;
   --header-font-size: 0;
   --subscript-font-size: 0.7rem;
 
@@ -79,6 +81,10 @@ main {
   @media (min-width: 1200px) {
     max-width: 1140px;
   }
+}
+
+.container-fluid {
+  margin: 0 var(--layout-section-gap);
 }
 
 .loader {

@@ -9,7 +9,19 @@ menu {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  transition: var(--transition);
+  /* transition: var(--transition); */
+
+  &.secondary {
+    padding: 10px 0;
+    background: var(--bg-third);
+
+    .item {
+      a {
+        font-size: var(--subscript-font-size);
+
+      }
+    }
+  }
 
   &.home {
     position: absolute;
@@ -34,14 +46,14 @@ menu {
 
     a {
       color: var(--fg-primary);
-      font-size: calc(var(--font-size) * 0.8);
+      font-size: var(--menu-font-size);
       line-height: 1;
-      transition: var(--transition);
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 0.15em;
       position: relative;
       text-align: center;
+      /* transition: var(--transition); */
 
       &:hover {
         &:after {

@@ -1,7 +1,7 @@
 footer {
   position: relative;
   overflow: hidden;
-  background: var(--bg-secondary);
+  background: var(--bg-third);
 
   margin-top: calc(var(--layout-section-gap) * 2);
   padding: var(--layout-section-gap);
