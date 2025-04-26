@@ -11,3 +11,5 @@ V footer
 - adjust carousel media sizes
 - adjust image grid media sizes
 - adjust media queries for both image grids
+
+- move Castellers and La Mercè to events

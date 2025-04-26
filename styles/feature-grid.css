@@ -1,8 +1,6 @@
 .feature-grid {
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
 
   .column {
     flex: 1;
@@ -28,8 +26,7 @@
       img {
         display: block;
         width: 100%;
-        margin-bottom: -40px;
-        margin-bottom: -12px;
+        margin-bottom: -12px; /* hides signatures */
         transition: transform 0.9s ease;
 
         &:hover {
