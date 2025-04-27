@@ -1,0 +1,11 @@
+.curriculum-vitae {
+  figcaption {
+    font-weight: bold;
+    margin-bottom: var(--layout-section-gap);
+
+    small {
+      display: block;
+      font-weight: lighter;
+    }
+  }
+}
