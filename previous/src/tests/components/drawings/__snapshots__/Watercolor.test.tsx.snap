@@ -1,0 +1,476 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums/"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents/"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume/"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact/"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Watercolor
+        <small
+          className="text-muted"
+        >
+          Thursday, April 18, 2024
+        </small>
+      </h1>
+      <figure>
+        <img
+          alt="Watercolor - The beginning of the journey / October 07, 2024"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2024-10-07.webp"
+          title="The beginning of the journey / October 07, 2024"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          The beginning of the journey / October 07, 2024
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - Pei Pei / April 18, 2024"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2024-04-18.webp"
+          title="Pei Pei / April 18, 2024"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Pei Pei / April 18, 2024
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - Lisbon / March 31, 2024"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2024-03-31.webp"
+          title="Lisbon / March 31, 2024"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Lisbon / March 31, 2024
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - Dary / March 17, 2024"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2024-03-17.webp"
+          title="Dary / March 17, 2024"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Dary / March 17, 2024
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - Dary / February 14, 2024"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2024-02-14.webp"
+          title="Dary / February 14, 2024"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Dary / February 14, 2024
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - November 16, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-11-16.webp"
+          title="November 16, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          November 16, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - November 08, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-11-08.webp"
+          title="November 08, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          November 08, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - November 04, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-11-04.webp"
+          title="November 04, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          November 04, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 29, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-29.webp"
+          title="October 29, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 29, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 26, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-26.webp"
+          title="October 26, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 26, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 25, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-25.webp"
+          title="October 25, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 25, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - October 14, 2023"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2023-10-14.webp"
+          title="October 14, 2023"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          October 14, 2023
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - September 25, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-09-25.webp"
+          title="September 25, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          September 25, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - July 20, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-07-20.webp"
+          title="July 20, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          July 20, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - July 18, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-07-18.webp"
+          title="July 18, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          July 18, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - Lost Friend / June 28, 2022"
+          className="img-responsive gallery-image"
+          src="/drawings/watercolor/2022-06-28.webp"
+          title="Lost Friend / June 28, 2022"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Lost Friend / June 28, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - Lisa / June 21, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-06-21.webp"
+          title="Lisa / June 21, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Lisa / June 21, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - May 31, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-05-31.webp"
+          title="May 31, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          May 31, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - May 25, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-05-25.webp"
+          title="May 25, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          May 25, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - March 29, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-03-29.webp"
+          title="March 29, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          March 29, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - March 01, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-03-01.webp"
+          title="March 01, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          March 01, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - February 28, 2022"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2022-02-28.webp"
+          title="February 28, 2022"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          February 28, 2022
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - May 05, 2021"
+          className="img-responsive gallery-image"
+          src="/drawings/watercolor/2021-05-24.webp"
+          title="May 05, 2021"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          May 05, 2021
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Watercolor - March 03, 2021"
+          className="img-responsive gallery-image vertical"
+          src="/drawings/watercolor/2021-03-30.webp"
+          title="March 03, 2021"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          March 03, 2021
+        </figcaption>
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact/"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2025 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2025 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

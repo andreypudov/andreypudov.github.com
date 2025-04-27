@@ -1,0 +1,55 @@
+main {
+  // font-synthesis: none;
+  // -moz-font-feature-settings: 'kern';
+  // -moz-osx-font-smoothing: grayscale;
+
+  margin-top: 100px;
+
+  h1 {
+    margin-top:    20px;
+    margin-bottom: 30px;
+
+    small {
+      display:     block;
+      font-weight: lighter;
+      font-style:  italic;
+      font-size:   70%;
+      line-height: 1.4;
+      margin-top:  10px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  main {
+    margin-top: 64px;
+
+    #homeCarousel{
+      margin-top: -28px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  main {
+    .carousel {
+      .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+      }
+
+      .carousel-item {
+        display: block;
+        float: none;
+        transition: none !important;
+
+        .carousel-caption {
+          display: block !important;
+        }
+      }
+    }
+
+    .marketing {
+      display: none;
+    }
+  }
+}

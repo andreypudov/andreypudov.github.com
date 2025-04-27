@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums/"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents/"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume/"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact/"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="carousel slide"
+      data-bs-ride="carousel"
+      id="homeCarousel"
+    >
+      <ol
+        className="carousel-indicators"
+      >
+        <button
+          aria-current="true"
+          className="active"
+          data-bs-slide-to="0"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          data-bs-slide-to="1"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          data-bs-slide-to="2"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+        <button
+          data-bs-slide-to="3"
+          data-bs-target="#homeCarousel"
+          type="button"
+        />
+      </ol>
+      <div
+        className="carousel-inner"
+      >
+        <a
+          className="carousel-item active"
+          href="/photographs/ntu-cosplay/"
+          onClick={[Function]}
+        >
+          <img
+            alt="NTU Cosplay Festival 2025"
+            className="d-block w-100"
+            src="/images/carousel/cosplay.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              NTU Cosplay Festival 2025
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item "
+          href="/photographs/oslo/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Oslo. Conquering Scandinavia"
+            className="d-block w-100"
+            src="/images/carousel/oslo.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Oslo. Conquering Scandinavia
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item "
+          href="/photographs/stockholm/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Stockholm. Conquering Scandinavia"
+            className="d-block w-100"
+            src="/images/carousel/stockholm.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Stockholm. Conquering Scandinavia
+            </h5>
+          </div>
+        </a>
+        <a
+          className="carousel-item "
+          href="/photographs/poblenou-cemetery/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Poblenou Cemetery"
+            className="d-block w-100"
+            src="/images/carousel/poblenou-cemetery.webp"
+          />
+          <div
+            className="carousel-caption d-none d-md-block"
+          >
+            <h5>
+              Poblenou Cemetery
+            </h5>
+          </div>
+        </a>
+      </div>
+      <button
+        className="carousel-control-prev"
+        data-bs-slide="prev"
+        data-bs-target="#homeCarousel"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-prev-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Previous
+        </span>
+      </button>
+      <button
+        className="carousel-control-next"
+        data-bs-slide="next"
+        data-bs-target="#homeCarousel"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-next-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Next
+        </span>
+      </button>
+    </div>
+    <div
+      className="marketing marketing-image"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/favorite-photographs/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Favorite Photographs"
+              className="img-fluid"
+              src="/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/ntu-cosplay/"
+            onClick={[Function]}
+          >
+            <img
+              alt="NTU Cosplay Festival 2025"
+              className="img-fluid"
+              src="/photographs/2025-02-08/2025-02-08_001.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/pei-pei-chen/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Pei Pei Chen"
+              className="img-fluid"
+              src="/photographs/2024-10-12/2024-10-12_005.webp"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="/photographs/la-merce/"
+            onClick={[Function]}
+          >
+            <img
+              alt="La Mercè"
+              className="img-fluid"
+              src="/photographs/2024-09-20/2024-09-20_002.webp"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact/"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2025 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2025 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

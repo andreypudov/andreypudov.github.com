@@ -1,0 +1,58 @@
+import Album from '../core/photographyAlbum';
+import Photograph from '../core/photograph';
+import Text from '../core/text';
+import Genre from '../core/genre';
+
+const ConqueringAmerica40 = new Album(
+  new Text('Conquering America 4.0'),
+  Genre.Street,
+  new Date('2020-03-11'),
+  new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp'),
+  [
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_001.webp', false,
+      new Text('Las Vegas was settled in 1905 and officially incorporated in 1911. At the close of the 20th century, it was the most populated North American city founded within that century. The city bills itself as The Entertainment Capital of the World, and is famous for its luxurious and extremely large casino-hotels together with their associated activities. It is a top three destination in the United States for business conventions and a global leader in the hospitality industry.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_002.webp', false,
+      new Text('Las Vegas Strip\n\nThe Las Vegas Strip is a stretch of Las Vegas Boulevard South in Clark County, Nevada, that is known for its concentration of resort hotels and casinos. The Strip, as it is known, is about 4.2 mi (6.8 km) long, and is immediately south of the Las Vegas city limits in the unincorporated towns of Paradise and Winchester, but is often referred to simply as "Las Vegas".')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_003.webp', false,
+      new Text('Today, Las Vegas annually ranks as one of the world\'s most visited tourist destinations. The city\'s tolerance for numerous forms of adult entertainment earned it the title of "Sin City", and has made Las Vegas a popular setting for literature, films, television programs, and music videos.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_004.webp', true,
+      new Text('The Eiffel Tower\n\nConstruction began on the Paris Las Vegas Resort & Casino and its accompanying tower in 1997, with its completion taking place the following year. The Paris connects to its sister hotel, Bally’s, via tram. Initially, plans included a full-size replica of the famous Eiffel Tower, but due to flight path concerns from McCarran Airport, the tower had to be scaled down. Despite the reduction in its size, the Eiffel Tower in Las Vegas still offers the highest viewpoint of the Las Vegas Strip. At its architectural height, it stands over 12 meters taller than the High Roller Ferris wheel at the nearby LINQ. It’s become a popular place to celebrate Valentine’s Day, host a wedding, and, thanks to the Eiffel Tower Experience, take selfies.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_005.webp', false,
+      new Text('Paris Las Vegas\n\nParis Las Vegas is a casino hotel on the Las Vegas Strip in Paradise. It is owned and operated by Caesars Entertainment and has a 95,263 square-foot casino with over 1,700 slot machines.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_006.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_007.webp', false, new Text('Lou Ruvo Center for Brain Health\n\nCleveland Clinic Lou Ruvo Center was realized by Frank Gehry architect, its unique design and cozy atmosphere are a tribute to patients, families and staff who attends the center. Gehry wanted to create a place that was memorable:”… The mantra is Keep Memory Alive… “he pointed. “…I’m trying to make a building that people want to visit, remember, speak, and enjoy, and ultimately partner with us in the center to help cure brain diseases…')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_008.webp', false, new Text('The ceremonial groundbreaking occurred on February 9, 2007. The center operates as an outpatient treatment and research facility in downtown Las Vegas on land deeded to Keep Memory Alive, the fundraising arm of LRCBH, by the City of Las Vegas as part of its 25 ha Symphony Park. The center is approximately 6,000 m2 and includes 13 examination rooms, offices for health care practitioners and researchers, a "Museum of the Mind", and a community auditorium. The center also serves as the headquarters for Keep Memory Alive, the Las Vegas Alzheimer\'s Association, and the Las Vegas Parkinson\'s Disease Association.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_009.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_010.webp', true),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_011.webp', false,
+      new Text('Treasure Island\n\nWynn\'s Atlandia Design worked with Jon Jerde and Olio Design to create the pirate village and lagoon area, originally known as Buccaneer Bay, and later as Siren\'s Cove. Jerde\'s assistants traveled across Europe, India, and Nepal searching for historic objects such as doors and columns, which were then replicated for Buccaneer Bay. The lagoon is 65 feet deep, and originally contained 2 million gallons of water. It uses wastewater recycled from a water treatment plant located beneath the resort\'s parking garage.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_012.webp', true,
+      new Text('Ice Skating in Central Park')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_013.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_014.webp'),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_015.webp', false,
+      new Text('Central Park')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_016.webp', false,
+      new Text('Jacqueline Kennedy Onassis Reservoir\n\nThe Jacqueline Kennedy Onassis Reservoir, also known as Central Park Reservoir, is a decommissioned reservoir in Central Park in the borough of Manhattan, New York City, stretching from 86th to 96th Streets. It covers 43 ha and holds over 3.785 10⁶ m³ of water.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_017.webp', false,
+      new Text('Croton Aqueduct Board president Nicholas Dean proposed the construction of Central Park around its receiving reservoir (later the Great Lawn and Turtle Pond) in the 1850s. As part of this project, the Central Park Reservoir was completed in 1862. The reservoir was decommissioned in 1993, after it was deemed obsolete, and control was transferred to the Department of Parks and Recreation in 1999. The Central Park Reservoir was renamed in honor of Jacqueline Kennedy Onassis in 1994 to commemorate her contributions to the city and because she enjoyed jogging in the area.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_018.webp', false,
+      new Text('Hudson Yards')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_019.webp', true,
+      new Text('High Line Pedestrian Bridge')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_020.webp', true,
+      new Text('Flatiron Building')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_021.webp', true,
+      new Text('One World Trade Center')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_022.webp', true,
+      new Text('Oculus / World Trade Center Station')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_023.webp', false,
+      new Text('Statue of Liberty')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_024.webp', false,
+      new Text('Manhattan')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_025.webp', true,
+      new Text('St. Patrick\'s Cathedral\n\nThe cathedral was constructed starting in 1858 to accommodate the growing Archdiocese of New York and to replace St. Patrick\'s Old Cathedral. Work was halted in the early 1860s during the American Civil War; the cathedral was completed in 1878 and dedicated on May 25, 1879.')),
+    new Photograph('/photographs/2020-02-29_03-11/2020-02-29_03-11_026.webp'),
+  ]);
+
+export default ConqueringAmerica40;

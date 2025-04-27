@@ -1,0 +1,604 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums/"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents/"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume/"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact/"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Ordesa and Monte Perdido National Park
+        <small
+          className="text-muted"
+        >
+          Saturday, November 18, 2023
+        </small>
+      </h1>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_001.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_002.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_003.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_004.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_005.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_006.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_007.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_008.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_009.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_010.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_011.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_012.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_013.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_014.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_015.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_016.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_017.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_018.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_019.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_020.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_021.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_022.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_023.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_024.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_025.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_026.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_027.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_028.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_029.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_030.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_031.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_032.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_033.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_034.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_035.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_036.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_037.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_038.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_039.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_040.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_041.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_042.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_043.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_044.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_045.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_046.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_047.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_048.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_049.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_050.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_051.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_052.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_053.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2023-11-18/2023-11-18_054.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Ordesa and Monte Perdido National Park"
+          className="img-responsive gallery-image"
+          src="/photographs/2023-11-18/2023-11-18_055.webp"
+          title="Ordesa and Monte Perdido National Park"
+        />
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact/"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2025 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2025 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

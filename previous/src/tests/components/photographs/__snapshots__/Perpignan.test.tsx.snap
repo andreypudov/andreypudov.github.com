@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums/"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents/"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume/"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact/"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Perpignan
+        <small
+          className="text-muted"
+        >
+          Tuesday, December 6, 2022
+        </small>
+      </h1>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_001.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_002.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_003.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan - Perpignan Cathedral"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-12-06/2022-12-06_004.webp"
+          title="Perpignan Cathedral"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Perpignan Cathedral
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_005.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_006.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_007.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-12-06/2022-12-06_008.webp"
+          title="Perpignan"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan - Palace of the Kings of Majorca"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-12-06/2022-12-06_009.webp"
+          title="Palace of the Kings of Majorca"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Palace of the Kings of Majorca
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Perpignan"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-12-06/2022-12-06_010.webp"
+          title="Perpignan"
+        />
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact/"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2025 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2025 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

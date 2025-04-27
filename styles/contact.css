@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  gap: var(--layout-section-gap);
+
+  .text,
+  .image {
+    flex: 1;
+    margin: auto;
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

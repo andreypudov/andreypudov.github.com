@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="navbar navbar-expand-md navbar-dark"
+      >
+        <div
+          className="container-fluid"
+        >
+          <a
+            className="navbar-brand mx-auto"
+            href="/"
+            onClick={[Function]}
+          >
+            Andrey Pudov
+          </a>
+          <button
+            aria-controls="navbarMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#navbarMain"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-sm-center"
+            id="navbarMain"
+          >
+            <ul
+              className="navbar-nav"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/albums/"
+                  onClick={[Function]}
+                >
+                  Albums
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contents/"
+                  onClick={[Function]}
+                >
+                  Contents
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/resume/"
+                  onClick={[Function]}
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  className="nav-link"
+                  href="/contact/"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <h1>
+        Stockholm. Conquering Scandinavia
+        <small
+          className="text-muted"
+        >
+          Thursday, September 1, 2022
+        </small>
+      </h1>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Rådhuset Station"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp"
+          title="Rådhuset Station"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Rådhuset Station
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_002.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_003.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_004.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - T-Centralen"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_005.webp"
+          title="T-Centralen"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          T-Centralen
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Stadion Centrum"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_006.webp"
+          title="Stadion Centrum"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Stadion Centrum
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_007.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_008.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Colorful Buildings in Old Town"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_009.webp"
+          title="Colorful Buildings in Old Town"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Colorful Buildings in Old Town
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Museum of Medieval"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_010.webp"
+          title="Museum of Medieval"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Museum of Medieval
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Brunkeberg Tunnel"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_011.webp"
+          title="Brunkeberg Tunnel"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Brunkeberg Tunnel
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_012.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Vasa Museum "
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_013.webp"
+          title="Vasa Museum "
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Vasa Museum 
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_014.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_015.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_016.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_017.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Gröna Lund"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_018.webp"
+          title="Gröna Lund"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Gröna Lund
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Nordiska Museet"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_019.webp"
+          title="Nordiska Museet"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Nordiska Museet
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_020.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_021.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_022.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Kastellet"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_023.webp"
+          title="Kastellet"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Kastellet
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_024.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Skyview"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_025.webp"
+          title="Skyview"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Skyview
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_026.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Hammarbybacken Topplatå"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_027.webp"
+          title="Hammarbybacken Topplatå"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Hammarbybacken Topplatå
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_028.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_029.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_030.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_031.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Old Town"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp"
+          title="Old Town"
+        />
+        <figcaption
+          className="image-caption"
+        >
+          Old Town
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_033.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_034.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_035.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - City Hall"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_036.webp"
+          title="City Hall"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          City Hall
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_037.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_038.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_039.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia - Uppsala"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_040.webp"
+          title="Uppsala"
+        />
+        <figcaption
+          className="image-caption vertical"
+        >
+          Uppsala
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image vertical"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_041.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+      <figure>
+        <img
+          alt="Stockholm. Conquering Scandinavia"
+          className="img-responsive gallery-image"
+          src="/photographs/2022-08-27_09-10/2022-08-27_09-10_042.webp"
+          title="Stockholm. Conquering Scandinavia"
+        />
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <div
+      className="container"
+    >
+      <hr
+        className="footer-divider"
+      />
+      <ul
+        className="piped-links float-end"
+      >
+        <li
+          className="first piped-links-short"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="first piped-links-long"
+        >
+          <a
+            href="/resume/"
+            onClick={[Function]}
+          >
+            About Andrey Pudov
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact/"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="piped-links"
+      >
+        <p
+          className="piped-links-long"
+        >
+          Copyright © 2025 Andrey Pudov. All rights reserved.
+        </p>
+        <p
+          className="piped-links-short"
+        >
+          © 2025 Andrey Pudov. All rights reserved.
+        </p>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;
