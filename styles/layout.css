@@ -26,8 +26,6 @@
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
   background: transparent;
   scroll-behavior: smooth;
 }
@@ -39,6 +37,7 @@ body {
   line-height: var(--line-height);
 
   background-color: var(--bg-primary);
+  color: var(--fg-primary);
   width: 100%;
   overflow-x: hidden;
 }
