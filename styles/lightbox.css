@@ -84,8 +84,6 @@
 
           small {
             display: block;
-            color: var(--fg-secondary);
-            font-style: italic;
           }
         }
       }
