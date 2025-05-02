@@ -91,13 +91,20 @@
     <main>
       <div class="contact container">
         <div class="text">
-          <h1>It all starts with an interesting conversation</h1>
+          <h1>Let’s start a conversation</h1>
 
           <p>
-            Whether you’re looking for a landscape photographer in Barcelona, interested in collaborating on a project, or simply want to chat about tea, I’d be delighted to hear from you. Feel free to reach out—I’ll get back to you as soon as I can.
+            Whether you’re looking for a landscape photographer, have a creative project in mind, or just want to chat over a cup of tea, I’d love to hear from you. Drop me a message, and I’ll get back to you as soon as possible.
           </p>
 
-          <a href="https://ig.me/m/andrey.pudov" target="_blank">Write a message</a>
+          <form action="mailto:mail@andreypudov.com?subject=Contact Form Submission" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+
+          <!-- <a href="https://ig.me/m/andrey.pudov" target="_blank">Write a message</a> -->
         </div>
 
         <div class="image">
