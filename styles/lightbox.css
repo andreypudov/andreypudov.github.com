@@ -1,18 +1,14 @@
 .lightbox {
   .lightbox-entry {
-    display: flex;
+    display: none;
     position: fixed;
     inset: 0;
     background: white;
     flex-direction: column;
     z-index: 1000;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity var(--transition) ease;
 
     &:target {
-      opacity: 1;
-      pointer-events: auto;
+      display: flex;
     }
 
     .header {
