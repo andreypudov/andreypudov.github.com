@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://andreypudov.com/data/schemas/item.schema.json",
+
+  "title": "Album Item",
+  "description": "A single artwork item in the album.",
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "format": "uri-reference",
+      "description": "The relative path to the artwork image."
+    },
+    "orientation": {
+      "type": "string",
+      "enum": ["portrait", "landscape"],
+      "description": "The orientation of the artwork."
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "The date associated with the artwork, in YYYY-MM-DD format."
+    }
+  },
+  "required": ["path", "orientation", "date"],
+  "additionalProperties": false
+}

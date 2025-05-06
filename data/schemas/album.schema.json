@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://andreypudov.com/data/schemas/album.schema.json",
+
+  "title": "Album",
+  "description": "A schema representing a collection of artwork items in an album.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The title of the album."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the album."
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "The date associated with the album, in YYYY-MM-DD format."
+    },
+    "genre": {
+      "type": "string",
+      "enum": [
+        "Other"
+      ],
+      "description": "The genre of the album."
+    },
+    "cover": {
+      "type": "string",
+      "format": "uri-reference",
+      "description": "The relative path to the artwork image."
+    },
+    "items": {
+      "type": "array",
+      "description": "A list of artwork items included in the album.",
+      "items": {
+        "$ref": "https://andreypudov.com/data/schemas/item.schema.json"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "date",
+    "genre",
+    "cover",
+    "items"
+  ],
+  "additionalProperties": false
+}
