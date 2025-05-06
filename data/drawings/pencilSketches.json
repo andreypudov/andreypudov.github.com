@@ -1,47 +1,52 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://andreypudov.com/data/schemas/album.schema.json",
+  "$schema": "../schemas/album.schema.json",
 
   "name": "Pencil Sketches",
   "description": "A collection of pencil sketches.",
-  "date": "2020-07-16",
   "genre": "Other",
   "cover": "/drawings/pencil-sketches/2020-04-26.webp",
   "items": [
     {
+      "name": "",
       "path": "/drawings/pencil-sketches/2020-07-16.webp",
       "orientation": "portrait",
-      "date": "July 16, 2020"
+      "date": "2020-07-16"
     },
     {
+      "name": "Oludeniz",
       "path": "/drawings/pencil-sketches/2020-07-09.webp",
       "orientation": "portrait",
-      "date": "Oludeniz / July 9, 2020"
+      "date": "2020-07-09"
     },
     {
+      "name": "Kate",
       "path": "/drawings/pencil-sketches/2020-04-26.webp",
       "orientation": "landscape",
-      "date": "Kate / April 26, 2020"
+      "date": "2020-04-26"
     },
     {
+      "name": "",
       "path": "/drawings/pencil-sketches/2020-04-22.webp",
       "orientation": "portrait",
-      "date": "April 22, 2020"
+      "date": "2020-04-22"
     },
     {
+      "name": "",
       "path": "/drawings/pencil-sketches/2020-04-07.webp",
       "orientation": "landscape",
-      "date": "April 7, 2020"
+      "date": "2020-04-07"
     },
     {
+      "name": "",
       "path": "/drawings/pencil-sketches/2020-04-03.webp",
       "orientation": "landscape",
-      "date": "April 3, 2020"
+      "date": "2020-04-03"
     },
     {
+      "name": "",
       "path": "/drawings/pencil-sketches/2020-04-02.webp",
       "orientation": "portrait",
-      "date": "April 2, 2020"
+      "date": "2020-04-02"
     }
   ]
 }
