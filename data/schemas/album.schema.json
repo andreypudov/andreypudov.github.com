@@ -21,6 +21,8 @@
     "genre": {
       "type": "string",
       "enum": [
+        "Portrait",
+        "Street",
         "Other"
       ],
       "description": "The genre of the album."
