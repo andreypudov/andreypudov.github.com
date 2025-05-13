@@ -8,45 +8,59 @@
   "items": [
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-11-01.webp",
       "orientation": "landscape",
-      "date": "2021-11-01"
+      "date": "2021-11-01",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-05-17.webp",
       "orientation": "portrait",
-      "date": "2021-05-17"
+      "date": "2021-05-17",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-03-22.webp",
       "orientation": "portrait",
-      "date": "2021-03-22"
+      "date": "2021-03-22",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-03-21.webp",
       "orientation": "portrait",
-      "date": "2021-03-21"
+      "date": "2021-03-21",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-01-30.webp",
       "orientation": "landscape",
-      "date": "2021-01-30"
+      "date": "2021-01-30",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-01-29.webp",
       "orientation": "portrait",
-      "date": "2021-01-29"
+      "date": "2021-01-29",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/soft-pastel/2021-01-07.webp",
       "orientation": "portrait",
-      "date": "2021-01-07"
+      "date": "2021-01-07",
+      "hidden": false
     }
   ]
 }

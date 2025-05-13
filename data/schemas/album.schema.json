@@ -21,6 +21,7 @@
     "genre": {
       "type": "string",
       "enum": [
+        "Nature",
         "Portrait",
         "Street",
         "Other"

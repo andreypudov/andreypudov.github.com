@@ -8,45 +8,59 @@
   "items": [
     {
       "name": "",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-07-16.webp",
       "orientation": "portrait",
-      "date": "2020-07-16"
+      "date": "2020-07-16",
+      "hidden": false
     },
     {
       "name": "Oludeniz",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-07-09.webp",
       "orientation": "portrait",
-      "date": "2020-07-09"
+      "date": "2020-07-09",
+      "hidden": false
     },
     {
       "name": "Kate",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-04-26.webp",
       "orientation": "landscape",
-      "date": "2020-04-26"
+      "date": "2020-04-26",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-04-22.webp",
       "orientation": "portrait",
-      "date": "2020-04-22"
+      "date": "2020-04-22",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-04-07.webp",
       "orientation": "landscape",
-      "date": "2020-04-07"
+      "date": "2020-04-07",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-04-03.webp",
       "orientation": "landscape",
-      "date": "2020-04-03"
+      "date": "2020-04-03",
+      "hidden": false
     },
     {
       "name": "",
+      "description": "",
       "path": "/drawings/pencil-sketches/2020-04-02.webp",
       "orientation": "portrait",
-      "date": "2020-04-02"
+      "date": "2020-04-02",
+      "hidden": false
     }
   ]
 }

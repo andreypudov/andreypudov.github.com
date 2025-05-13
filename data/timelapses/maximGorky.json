@@ -8,9 +8,11 @@
   "items": [
     {
       "name": "",
+      "description": "",
       "path": "https://player.vimeo.com/video/517762848",
       "orientation": "landscape",
-      "date": "2017-04-14"
+      "date": "2017-04-14",
+      "hidden": false
     }
   ]
 }

@@ -10,6 +10,10 @@
       "type": "string",
       "description": "The name of the artwork. It can be empty if the artwork doesn't have a name."
     },
+    "description": {
+      "type": "string",
+      "description": "A description of the artwork. It can be empty if the artwork doesn't have a description."
+    },
     "path": {
       "type": "string",
       "format": "uri-reference",
@@ -24,8 +28,12 @@
       "type": "string",
       "format": "date",
       "description": "The date associated with the artwork, in YYYY-MM-DD format."
+    },
+    "hidden": {
+      "type": "boolean",
+      "description": "A flag indicating whether the artwork is hidden from the album."
     }
   },
-  "required": ["name", "path", "orientation", "date"],
+  "required": ["name", "description", "path", "orientation", "date", "hidden"],
   "additionalProperties": false
 }
