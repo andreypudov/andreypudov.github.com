@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "Monument to Maxim Gorky",
+  "description": "Alexei Maximovich Peshkov popularly known as Maxim Gorky was a Russian writer and political activist. He was nominated five times for the Nobel Prize in Literature. Before his success as an author, he traveled widely across the Russian Empire changing jobs frequently, experiences which would later influence his writing. Gorky was active in the emerging Marxist communist movement. He publicly opposed the Tsarist regime, and for a time closely associated himself with Lenin and Bogdanov's Bolshevik wing of the party.",
+  "genre": "Street",
+  "cover": "",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "https://player.vimeo.com/video/517762848",
+      "orientation": "landscape",
+      "date": "2017-04-14",
+      "hidden": false
+    }
+  ]
+}

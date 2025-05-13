@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "Bolshaya Pokrovskaya",
+  "description": "Bolshaya Pokrovskaya Street is the high street in the historical center of Nizhny Novgorod and one of its oldest streets. Until 1917 it was considered a street for noblemen. Formed the main street of the city by the end of the 18th century. It is considered an analog of the Arbat in Moscow or 6-7 Lines of Vasilyevsky Island in St. Petersburg.",
+  "genre": "Street",
+  "cover": "",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "https://player.vimeo.com/video/517762737",
+      "orientation": "landscape",
+      "date": "2017-04-14",
+      "hidden": false
+    }
+  ]
+}

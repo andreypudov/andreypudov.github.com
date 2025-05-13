@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "Spit of Nizhny Novgorod",
+  "description": "The Spit is one of the main natural landmarks in the historical center of Nizhny Novgorod. It is located at the confluence of the Oka and Volga rivers. In the times of the Russian Tsardom, the Spit was the center of the Strelitzky camp of Nizhny Novgorod Uyezd, thereby receiving its name. Later the river port began to form here.",
+  "genre": "Street",
+  "cover": "",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "https://player.vimeo.com/video/517762962",
+      "orientation": "landscape",
+      "date": "2017-04-14",
+      "hidden": false
+    }
+  ]
+}

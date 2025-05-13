@@ -11,6 +11,11 @@ menu {
   z-index: 2;
   /* transition: var(--transition); */
 
+  @media (max-width: 576px) {
+    display: inline;
+    text-align: right;
+  }
+
   &.secondary {
     padding: 10px 0;
     background: var(--bg-third);

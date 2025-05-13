@@ -1,0 +1,202 @@
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "Watercolor",
+  "description": "A collection of watercolor drawings.",
+  "genre": "Other",
+  "cover": "/drawings/watercolor/2021-05-24.webp",
+  "items": [
+    {
+      "name": "The beginning of the journey",
+      "description": "",
+      "path": "/drawings/watercolor/2024-10-07.webp",
+      "orientation": "portrait",
+      "date": "2024-10-07",
+      "hidden": false
+    },
+    {
+      "name": "Pei Pei",
+      "description": "",
+      "path": "/drawings/watercolor/2024-04-18.webp",
+      "orientation": "portrait",
+      "date": "2024-04-18",
+      "hidden": false
+    },
+    {
+      "name": "Lisbon",
+      "description": "",
+      "path": "/drawings/watercolor/2024-03-31.webp",
+      "orientation": "portrait",
+      "date": "2024-03-31",
+      "hidden": false
+    },
+    {
+      "name": "Dary",
+      "description": "",
+      "path": "/drawings/watercolor/2024-03-17.webp",
+      "orientation": "portrait",
+      "date": "2024-03-17",
+      "hidden": false
+    },
+    {
+      "name": "Dary",
+      "description": "",
+      "path": "/drawings/watercolor/2024-02-14.webp",
+      "orientation": "portrait",
+      "date": "2024-02-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-11-16.webp",
+      "orientation": "portrait",
+      "date": "2023-11-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-11-08.webp",
+      "orientation": "portrait",
+      "date": "2023-11-08",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-11-04.webp",
+      "orientation": "portrait",
+      "date": "2023-11-04",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-10-29.webp",
+      "orientation": "portrait",
+      "date": "2023-10-29",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-10-26.webp",
+      "orientation": "portrait",
+      "date": "2023-10-26",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-10-25.webp",
+      "orientation": "portrait",
+      "date": "2023-10-25",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2023-10-14.webp",
+      "orientation": "portrait",
+      "date": "2023-10-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-09-25.webp",
+      "orientation": "portrait",
+      "date": "2022-09-25",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-07-20.webp",
+      "orientation": "portrait",
+      "date": "2022-07-20",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-07-18.webp",
+      "orientation": "portrait",
+      "date": "2022-07-18",
+      "hidden": false
+    },
+    {
+      "name": "Lost Friend",
+      "description": "",
+      "path": "/drawings/watercolor/2022-06-28.webp",
+      "orientation": "landscape",
+      "date": "2022-06-28",
+      "hidden": false
+    },
+    {
+      "name": "Lisa",
+      "description": "",
+      "path": "/drawings/watercolor/2022-06-21.webp",
+      "orientation": "portrait",
+      "date": "2022-06-21",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-05-31.webp",
+      "orientation": "portrait",
+      "date": "2022-05-31",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-05-25.webp",
+      "orientation": "portrait",
+      "date": "2022-05-25",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-03-29.webp",
+      "orientation": "portrait",
+      "date": "2022-03-29",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-03-01.webp",
+      "orientation": "portrait",
+      "date": "2022-03-01",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2022-02-28.webp",
+      "orientation": "portrait",
+      "date": "2022-02-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2021-05-24.webp",
+      "orientation": "landscape",
+      "date": "2021-05-24",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/drawings/watercolor/2021-03-30.webp",
+      "orientation": "portrait",
+      "date": "2021-03-30",
+      "hidden": false
+    }
+  ]
+}

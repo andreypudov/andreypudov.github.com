@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://andreypudov.com/data/schemas/item.schema.json",
+
+  "title": "Album Item",
+  "description": "A single artwork item in the album.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the artwork. It can be empty if the artwork doesn't have a name."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the artwork. It can be empty if the artwork doesn't have a description."
+    },
+    "path": {
+      "type": "string",
+      "format": "uri-reference",
+      "description": "The relative path to the artwork image."
+    },
+    "orientation": {
+      "type": "string",
+      "enum": ["portrait", "landscape"],
+      "description": "The orientation of the artwork."
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "The date associated with the artwork, in YYYY-MM-DD format."
+    },
+    "hidden": {
+      "type": "boolean",
+      "description": "A flag indicating whether the artwork is hidden from the album."
+    }
+  },
+  "required": ["name", "description", "path", "orientation", "date", "hidden"],
+  "additionalProperties": false
+}

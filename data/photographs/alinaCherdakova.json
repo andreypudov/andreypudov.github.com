@@ -1,0 +1,178 @@
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "Alina Cherdakova",
+  "description": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2018-08-18/2018-08-18_013.webp",
+  "items": [
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_001.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_002.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_003.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_004.webp",
+      "orientation": "portrait",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_005.webp",
+      "orientation": "portrait",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_006.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_007.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_008.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_009.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_010.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_011.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_012.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_013.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_014.webp",
+      "orientation": "portrait",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_015.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_016.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_017.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_018.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_019.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_020.webp",
+      "orientation": "portrait",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_021.webp",
+      "orientation": "portrait",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_022.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_023.webp",
+      "orientation": "landscape",
+      "date": "2018-08-18",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "path": "/photographs/2018-08-18/2018-08-18_024.webp",
+      "orientation": "portrait",
+      "date": "2018-08-18",
+      "hidden": true
+    }
+  ]
+}

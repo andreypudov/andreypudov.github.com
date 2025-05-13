@@ -4,8 +4,6 @@
     position: fixed;
     inset: 0;
     background: white;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     z-index: 1000;
 
@@ -15,15 +13,11 @@
 
     .header {
       display: flex;
+      flex: 0 0 10%;
       justify-content: center;
       align-items: center;
       color: var(--fg-primary);
       font-size: var(--menu-font-size);
-      margin: var(--layout-section-gap) calc(var(--layout-section-gap) * 2);
-
-      .counter {
-        text-align: center;
-      }
 
       .close {
         position: absolute;
@@ -31,15 +25,11 @@
         color: black;
         text-decoration: none;
         font-size: 1rem;
+        z-index: 1001;
       }
     }
 
     .content {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
       .nav {
         margin: calc(var(--layout-section-gap) * 2);
         height: 100%;
@@ -48,7 +38,6 @@
         text-decoration: none;
         display: flex;
         align-items: center;
-        justify-content: center;
         position: absolute;
         top: 0;
 
@@ -67,25 +56,34 @@
 
       figure {
         margin: 0;
-        width: 100%;
-        padding: 0 calc(var(--layout-section-gap) * 4);
-        text-align: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        height: 100%;
 
-        img {
-          max-width: 100%;
-          max-height: 80vh;
+        .image-wrapper {
+          padding: 0 calc(var(--layout-section-gap) * 4);
+          display: flex;
+          flex: 1;
+          height: 80vh;
+
+          img {
+            display: block;
+            object-fit: contain;
+            width: 100%;
+            height: 80vh;
+          }
         }
 
         figcaption {
-          margin: var(--layout-section-gap);
+          height: 10vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
 
           small {
             display: block;
-            color: var(--fg-secondary);
-            font-style: italic;
+            font-size: 0.8rem;
           }
         }
       }

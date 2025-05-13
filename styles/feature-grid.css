@@ -36,14 +36,14 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     .column {
       flex: 50%;
       max-width: 50%;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 576px) {
     .column {
       flex: 100%;
       max-width: 100%;
