@@ -1,32 +1,138 @@
-import Album from '../core/photographyAlbum';
-import Photograph from '../core/photograph';
-import Social from '../core/social';
-import Text from '../core/text';
-import Genre from '../core/genre';
+{
+  "$schema": "../schemas/album.schema.json",
 
-const VeraKlemenova = new Album(
-  new Text('Vera Klemenova'),
-  Genre.Portrait,
-  new Date('2012-07-19'),
-  new Photograph('/photographs/2012-07-19/2012-07-19_016_large.webp'),
-  [
-    new Photograph('/photographs/2012-07-19/2012-07-19_001_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_002_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_003_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_004_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_005_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_006_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_007_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_008_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_009_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_010_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_011_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_012_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_013_large.webp'),
-    new Photograph('/photographs/2012-07-19/2012-07-19_014_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_015_large.webp', true),
-    new Photograph('/photographs/2012-07-19/2012-07-19_016_large.webp'),
-  ],
-  new Social('Вера', 'Клеменова', 'Экономист в Нижнем Новгороде', 'https://vk.com/id2980398'));
-
-export default VeraKlemenova;
+  "name": "Vera Klemenova",
+  "description": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2012-07-19/2012-07-19_016_large.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_001_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_002_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_003_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_004_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_005_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_006_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_007_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_008_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_009_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_010_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_011_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_012_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_013_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_014_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_015_large.webp",
+      "orientation": "portrait",
+      "date": "2012-07-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-07-19/2012-07-19_016_large.webp",
+      "orientation": "landscape",
+      "date": "2012-07-19",
+      "hidden": false
+    }
+  ]
+}

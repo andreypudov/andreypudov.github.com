@@ -1,8 +1,21 @@
-import Album from '../core/photographyAlbum';
-import Photograph from '../core/photograph';
-import Social from '../core/social';
-import Text from '../core/text';
-import Genre from '../core/genre';
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "",
+  "description": "",
+  "genre": "",
+  "cover": "",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "",
+      "orientation": "landscape",
+      "date": "",
+      "hidden": false
+    },
+  ]
+}
 
 const PeiPeiMadrid = new Album(
   new Text('Pei Pei. Weekend in Madrid'),

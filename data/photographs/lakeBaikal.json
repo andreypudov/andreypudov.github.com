@@ -1,8 +1,21 @@
-import Album from '../core/photographyAlbum';
-import Photograph from '../core/photograph';
-import Video from '../core/video';
-import Text from '../core/text';
-import Genre from '../core/genre';
+{
+  "$schema": "../schemas/album.schema.json",
+
+  "name": "",
+  "description": "",
+  "genre": "",
+  "cover": "",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "",
+      "orientation": "landscape",
+      "date": "",
+      "hidden": false
+    },
+  ]
+}
 
 const LakeBaikal = new Album(
   new Text('Lake Baikal'),
