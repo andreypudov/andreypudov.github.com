@@ -1,3 +1,0 @@
-- Auto Color Enhance
-- Auto White Balance
-- Resolution 2048x1356
