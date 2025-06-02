@@ -1,14 +1,14 @@
-import Album from "./core/photographyAlbum";
-import Genre from "./core/genre";
-import Photograph from "./core/photograph";
-import Page from "./core/page";
+import Album from "./../core/photographyAlbum";
+import Genre from "./../core/genre";
+import Page from "./../core/page";
+import PageType from "./../core/pageType";
+import Photograph from "./../core/photograph";
 
 import { JsonAlbum, JsonAlbumItem, JsonGenre, JsonOrientation } from "./types";
 
-import Pages from "./pages";
+import Pages from "./../pages";
 
 import { writeFileSync } from 'fs';
-import PageType from "./core/pageType";
 
 const mapGenre = (genre: Genre): JsonGenre => {
   switch (genre) {
@@ -121,7 +121,7 @@ const getDirectoryName = (page: Page): string => {
 
 const getFileName = (key: string, page: Page): string => {
   const directory = getDirectoryName(page);
-  return `../${directory}/${key}.json`;
+  return `../../${directory}/${key}.json`;
 };
 
 const lowercaseFirstLetter = (str: string): string =>
