@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "A Cure for Wellness",
+  "description": "",
+  "genre": "Other",
+  "cover": "https://player.vimeo.com/video/517761510",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "https://player.vimeo.com/video/517761510",
+      "orientation": "landscape",
+      "date": "2018-03-17",
+      "hidden": false
+    }
+  ]
+}

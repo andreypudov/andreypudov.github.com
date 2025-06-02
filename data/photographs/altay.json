@@ -1,6 +1,5 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Altay. Conquering Siberia 2.0",
   "description": "",
   "genre": "Nature",
@@ -625,7 +624,7 @@
     {
       "name": "",
       "description": "",
-      "path": "/photographs/2020-07-19_08-04/2020-07-19_08-116.webp",
+      "path": "/photographs/2020-07-19_08-04/2020-07-19_08-04_116.webp",
       "orientation": "landscape",
       "date": "2020-08-04",
       "hidden": false
@@ -649,7 +648,7 @@
     {
       "name": "",
       "description": "",
-      "path": "/photographs/2020-07-19_08-04/2020-07-19_08-119.webp",
+      "path": "/photographs/2020-07-19_08-04/2020-07-19_08-04_119.webp",
       "orientation": "portrait",
       "date": "2020-08-04",
       "hidden": false
@@ -1103,8 +1102,8 @@
       "hidden": false
     },
     {
-      "name": "Gorno-Altaysk",
-      "description": "The capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking.",
+      "name": "Gorno-Altaysk\n\nThe capital town of the Altai Republic. The selo of Ulala was established in 1824 when migrants moved to this area from Biysk. The mountains located within the town's boundaries are a magnet for skiing as well as backpacking.",
+      "description": "",
       "path": "/photographs/2020-07-19_08-04/2020-07-19_08-04_192.webp",
       "orientation": "landscape",
       "date": "2020-08-04",
@@ -1138,7 +1137,7 @@
       "name": "",
       "description": "",
       "path": "/photographs/2020-07-19_08-04/2020-07-19_08-04_199.webp",
-      "orientation": "landscape",
+      "orientation": "portrait",
       "date": "2020-08-04",
       "hidden": true
     }

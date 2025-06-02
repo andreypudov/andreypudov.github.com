@@ -1,70 +1,345 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Stockholm. Conquering Scandinavia",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp",
   "items": [
+    {
+      "name": "Rådhuset Station",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_002.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2022-09-10",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_003.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_004.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "T-Centralen",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_005.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Stadion Centrum",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_006.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_007.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_008.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Colorful Buildings in Old Town",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_009.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Museum of Medieval",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_010.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Brunkeberg Tunnel",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_011.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_012.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Vasa Museum ",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_013.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_014.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_015.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_016.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_017.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Gröna Lund",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_018.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Nordiska Museet",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_019.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_020.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_021.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_022.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Kastellet",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_023.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_024.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Skyview",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_025.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_026.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Hammarbybacken Topplatå",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_027.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_028.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_029.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_030.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_031.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Old Town",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_033.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_034.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_035.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "City Hall",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_036.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_037.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_038.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_039.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Uppsala",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_040.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_041.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_042.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    }
   ]
 }
-
-const Stockholm = new Album(
-  new Text('Stockholm. Conquering Scandinavia'),
-  Genre.Street,
-  new Date('2022-09-01'),
-  new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp'),
-  [
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp', true, new Text('Rådhuset Station')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_002.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_003.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_004.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_005.webp', true, new Text('T-Centralen')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_006.webp', false, new Text('Stadion Centrum')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_007.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_008.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_009.webp', false, new Text('Colorful Buildings in Old Town')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_010.webp', false, new Text('Museum of Medieval')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_011.webp', true, new Text('Brunkeberg Tunnel')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_012.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_013.webp', true, new Text('Vasa Museum ')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_014.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_015.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_016.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_017.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_018.webp', false, new Text('Gröna Lund')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_019.webp', false, new Text('Nordiska Museet')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_020.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_021.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_022.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_023.webp', true, new Text('Kastellet')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_024.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_025.webp', false, new Text('Skyview')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_026.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_027.webp', false, new Text('Hammarbybacken Topplatå')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_028.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_029.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_030.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_031.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_032.webp', false, new Text('Old Town')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_033.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_034.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_035.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_036.webp', true, new Text('City Hall')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_037.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_038.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_039.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_040.webp', true, new Text('Uppsala')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_041.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_042.webp'),
-  ]);
-
-export default Stockholm;

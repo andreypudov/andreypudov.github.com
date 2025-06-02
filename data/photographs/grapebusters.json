@@ -1,33 +1,49 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Grapebusters",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Nature",
+  "cover": "/photographs/2023-09-25/2023-09-25_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2023-09-25/2023-09-25_001.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2023-09-25",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-09-25/2023-09-25_002.webp",
+      "orientation": "landscape",
+      "date": "2023-09-25",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-09-25/2023-09-25_003.webp",
+      "orientation": "landscape",
+      "date": "2023-09-25",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-09-25/2023-09-25_004.webp",
+      "orientation": "landscape",
+      "date": "2023-09-25",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-09-25/2023-09-25_005.webp",
+      "orientation": "landscape",
+      "date": "2023-09-25",
+      "hidden": false
+    }
   ]
 }
-
-const Grapebusters = new Album(
-  new Text('Grapebusters'),
-  Genre.Nature,
-  new Date('2023-09-25'),
-  new Photograph('/photographs/2023-09-25/2023-09-25_002.webp'),
-  [
-    new Photograph('/photographs/2023-09-25/2023-09-25_001.webp'),
-    new Photograph('/photographs/2023-09-25/2023-09-25_002.webp'),
-    new Photograph('/photographs/2023-09-25/2023-09-25_003.webp'),
-    new Photograph('/photographs/2023-09-25/2023-09-25_004.webp'),
-    new Photograph('/photographs/2023-09-25/2023-09-25_005.webp'),
-  ]);
-
-export default Grapebusters;

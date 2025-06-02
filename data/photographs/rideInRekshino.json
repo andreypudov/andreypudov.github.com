@@ -1,34 +1,57 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Ride in Rekshino",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2017-10-28/2017-10-28_005.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2017-10-28/2017-10-28_001.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2017-10-28",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-10-28/2017-10-28_002.webp",
+      "orientation": "landscape",
+      "date": "2017-10-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-10-28/2017-10-28_003.webp",
+      "orientation": "landscape",
+      "date": "2017-10-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-10-28/2017-10-28_004.webp",
+      "orientation": "landscape",
+      "date": "2017-10-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-10-28/2017-10-28_005.webp",
+      "orientation": "landscape",
+      "date": "2017-10-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-10-28/2017-10-28_006.webp",
+      "orientation": "landscape",
+      "date": "2017-10-28",
+      "hidden": false
+    }
   ]
 }
-
-const RideInRekshino = new Album(
-  new Text('Ride in Rekshino'),
-  Genre.Street,
-  new Date('2017-10-28'),
-  new Photograph('/photographs/2017-10-28/2017-10-28_005.webp'),
-  [
-    new Photograph('/photographs/2017-10-28/2017-10-28_001.webp'),
-    new Photograph('/photographs/2017-10-28/2017-10-28_002.webp'),
-    new Photograph('/photographs/2017-10-28/2017-10-28_003.webp'),
-    new Photograph('/photographs/2017-10-28/2017-10-28_004.webp'),
-    new Photograph('/photographs/2017-10-28/2017-10-28_005.webp'),
-    new Photograph('/photographs/2017-10-28/2017-10-28_006.webp'),
-  ]);
-
-export default RideInRekshino;

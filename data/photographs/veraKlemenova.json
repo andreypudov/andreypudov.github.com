@@ -1,6 +1,5 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Vera Klemenova",
   "description": "",
   "genre": "Portrait",

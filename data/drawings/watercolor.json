@@ -1,13 +1,12 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Watercolor",
   "description": "A collection of watercolor drawings.",
   "genre": "Other",
   "cover": "/drawings/watercolor/2021-05-24.webp",
   "items": [
     {
-      "name": "The beginning of the journey",
+      "name": "The beginning of the journey / October 07, 2024",
       "description": "",
       "path": "/drawings/watercolor/2024-10-07.webp",
       "orientation": "portrait",
@@ -15,7 +14,7 @@
       "hidden": false
     },
     {
-      "name": "Pei Pei",
+      "name": "Pei Pei / April 18, 2024",
       "description": "",
       "path": "/drawings/watercolor/2024-04-18.webp",
       "orientation": "portrait",
@@ -23,7 +22,7 @@
       "hidden": false
     },
     {
-      "name": "Lisbon",
+      "name": "Lisbon / March 31, 2024",
       "description": "",
       "path": "/drawings/watercolor/2024-03-31.webp",
       "orientation": "portrait",
@@ -31,7 +30,7 @@
       "hidden": false
     },
     {
-      "name": "Dary",
+      "name": "Dary / March 17, 2024",
       "description": "",
       "path": "/drawings/watercolor/2024-03-17.webp",
       "orientation": "portrait",
@@ -39,7 +38,7 @@
       "hidden": false
     },
     {
-      "name": "Dary",
+      "name": "Dary / February 14, 2024",
       "description": "",
       "path": "/drawings/watercolor/2024-02-14.webp",
       "orientation": "portrait",
@@ -47,7 +46,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "November 16, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-11-16.webp",
       "orientation": "portrait",
@@ -55,7 +54,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "November 08, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-11-08.webp",
       "orientation": "portrait",
@@ -63,7 +62,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "November 04, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-11-04.webp",
       "orientation": "portrait",
@@ -71,7 +70,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "October 29, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-10-29.webp",
       "orientation": "portrait",
@@ -79,7 +78,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "October 26, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-10-26.webp",
       "orientation": "portrait",
@@ -87,7 +86,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "October 25, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-10-25.webp",
       "orientation": "portrait",
@@ -95,7 +94,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "October 14, 2023",
       "description": "",
       "path": "/drawings/watercolor/2023-10-14.webp",
       "orientation": "portrait",
@@ -103,7 +102,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "September 25, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-09-25.webp",
       "orientation": "portrait",
@@ -111,7 +110,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "July 20, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-07-20.webp",
       "orientation": "portrait",
@@ -119,7 +118,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "July 18, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-07-18.webp",
       "orientation": "portrait",
@@ -127,7 +126,7 @@
       "hidden": false
     },
     {
-      "name": "Lost Friend",
+      "name": "Lost Friend / June 28, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-06-28.webp",
       "orientation": "landscape",
@@ -135,7 +134,7 @@
       "hidden": false
     },
     {
-      "name": "Lisa",
+      "name": "Lisa / June 21, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-06-21.webp",
       "orientation": "portrait",
@@ -143,7 +142,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "May 31, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-05-31.webp",
       "orientation": "portrait",
@@ -151,7 +150,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "May 25, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-05-25.webp",
       "orientation": "portrait",
@@ -159,7 +158,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "March 29, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-03-29.webp",
       "orientation": "portrait",
@@ -167,7 +166,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "March 01, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-03-01.webp",
       "orientation": "portrait",
@@ -175,7 +174,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "February 28, 2022",
       "description": "",
       "path": "/drawings/watercolor/2022-02-28.webp",
       "orientation": "portrait",
@@ -183,7 +182,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "May 05, 2021",
       "description": "",
       "path": "/drawings/watercolor/2021-05-24.webp",
       "orientation": "landscape",
@@ -191,7 +190,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "March 03, 2021",
       "description": "",
       "path": "/drawings/watercolor/2021-03-30.webp",
       "orientation": "portrait",

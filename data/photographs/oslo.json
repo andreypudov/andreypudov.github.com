@@ -1,80 +1,425 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Oslo. Conquering Scandinavia",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_043.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2022-09-10",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_044.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_045.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_046.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_047.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_048.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_049.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_050.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_051.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_052.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_053.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Barcode Oslo",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_054.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Norwegian National Opera and Ballet",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_055.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_056.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Vigeland Sculpture Park",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_057.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_058.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_059.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_060.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_061.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_062.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_063.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_064.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_065.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_066.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_067.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_068.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_069.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Norwegian National Opera and Ballet",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_070.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_071.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Munch Museum",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_073.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_074.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_075.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_077.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_078.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_079.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_080.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_081.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Statoil Office",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_082.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_083.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_084.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_085.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_086.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "City Hall",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_087.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_088.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_089.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "Akerhus Fortres",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_090.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_091.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_092.webp",
+      "orientation": "landscape",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_093.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_094.webp",
+      "orientation": "portrait",
+      "date": "2022-09-10",
+      "hidden": false
+    }
   ]
 }
-
-const Oslo = new Album(
-  new Text('Oslo. Conquering Scandinavia'),
-  Genre.Street,
-  new Date('2022-09-05'),
-  new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp'),
-  [
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_043.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_044.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_045.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_046.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_047.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_048.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_049.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_050.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_051.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_052.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_053.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_054.webp', true, new Text('Barcode Oslo')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_055.webp', true, new Text('Norwegian National Opera and Ballet')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_056.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_057.webp', false, new Text('Vigeland Sculpture Park')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_058.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_059.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_060.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_061.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_062.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_063.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_064.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_065.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_066.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_067.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_068.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_069.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_070.webp', false, new Text('Norwegian National Opera and Ballet')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_071.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_072.webp', false, new Text('Munch Museum')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_073.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_074.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_075.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_076.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_077.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_078.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_079.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_080.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_081.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_082.webp', false, new Text('Statoil Office')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_083.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_084.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_085.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_086.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_087.webp', false, new Text('City Hall')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_088.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_089.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_090.webp', true, new Text('Akerhus Fortres')),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_091.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_092.webp'),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_093.webp', true),
-   new Photograph('/photographs/2022-08-27_09-10/2022-08-27_09-10_094.webp', true),
-  ]);
-
-export default Oslo;

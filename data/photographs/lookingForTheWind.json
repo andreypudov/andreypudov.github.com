@@ -1,36 +1,73 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Looking for the Wind",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2018-05-27/2018-05-27_005.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2018-05-27/2018-05-27_003.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2018-05-27",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_002.webp",
+      "orientation": "landscape",
+      "date": "2018-05-27",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_006.webp",
+      "orientation": "landscape",
+      "date": "2018-05-27",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_005.webp",
+      "orientation": "landscape",
+      "date": "2018-05-27",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_001.webp",
+      "orientation": "landscape",
+      "date": "2018-05-27",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_004.webp",
+      "orientation": "landscape",
+      "date": "2018-05-27",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_007.webp",
+      "orientation": "landscape",
+      "date": "2018-05-27",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-05-27/2018-05-27_008.webp",
+      "orientation": "portrait",
+      "date": "2018-05-27",
+      "hidden": true
+    }
   ]
 }
-
-const LookingForTheWind = new Album(
-  new Text('Looking for the Wind'),
-  Genre.Portrait,
-  new Date('2018-05-27'),
-  new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
-  [
-    // new Photograph('/photographs/2018-05-27/2018-05-27_003.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_002.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_006.webp'),
-    new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
-    new Photograph('/photographs/2018-05-27/2018-05-27_001.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_004.webp'),
-    new Photograph('/photographs/2018-05-27/2018-05-27_007.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_008.webp', true),
-  ]);
-
-export default LookingForTheWind;

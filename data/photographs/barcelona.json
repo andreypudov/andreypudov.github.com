@@ -1,29 +1,17 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Barcelona",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2023-09-24/2023-09-24_000.webp",
   "items": [
     {
-      "name": "",
+      "name": "Columbus Monument",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2023-09-24/2023-09-24_001.webp",
+      "orientation": "portrait",
+      "date": "2023-09-24",
       "hidden": false
-    },
+    }
   ]
 }
-
-const Barcelona = new Album(
-  new Text('Barcelona'),
-  Genre.Street,
-  new Date('2023-09-24'),
-  new Photograph('/photographs/2023-09-24/2023-09-24_000.webp', true, new Text('Columbus Monument')),
-  [
-    new Photograph('/photographs/2023-09-24/2023-09-24_001.webp', true, new Text('Columbus Monument')),
-  ]);
-
-export default Barcelona;

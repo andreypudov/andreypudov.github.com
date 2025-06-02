@@ -1,50 +1,185 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Andorra",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Nature",
+  "cover": "/photographs/2022-10-15_16/2022-10-15_16_006.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_001.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
       "hidden": false
     },
+    {
+      "name": "Parc Natural Comunal de les Valls del Comapedrosa\n\nProtected national park in the western portion of Andorra. It contains the highest point in Andorra, Coma Pedrosa, among other peaks.",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_002.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_003.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_004.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_005.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_006.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_007.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_008.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_009.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_010.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_011.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_012.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_013.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_014.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "Mirador Roc Del Quer",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_015.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_016.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_017.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_018.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_019.webp",
+      "orientation": "portrait",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "Lake Engolasters",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_020.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_021.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-10-15_16/2022-10-15_16_022.webp",
+      "orientation": "landscape",
+      "date": "2022-10-16",
+      "hidden": false
+    }
   ]
 }
-
-const Andorra = new Album(
-  new Text('Andorra'),
-  Genre.Nature,
-  new Date('2022-10-16'),
-  new Photograph('/photographs/2022-10-15_16/2022-10-15_16_006.webp'),
-  [
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_001.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_002.webp', true, new Text('Parc Natural Comunal de les Valls del Comapedrosa\n\nProtected national park in the western portion of Andorra. It contains the highest point in Andorra, Coma Pedrosa, among other peaks.')),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_003.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_004.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_005.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_006.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_007.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_008.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_009.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_010.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_011.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_012.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_013.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_014.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_015.webp', false, new Text('Mirador Roc Del Quer')),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_016.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_017.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_018.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_019.webp', true),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_020.webp', false, new Text('Lake Engolasters')),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_021.webp'),
-    new Photograph('/photographs/2022-10-15_16/2022-10-15_16_022.webp'),
-  ]);
-
-export default Andorra;

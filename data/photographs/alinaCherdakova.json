@@ -1,6 +1,5 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Alina Cherdakova",
   "description": "",
   "genre": "Portrait",

@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Mia & Sebastian",
+  "description": "",
+  "genre": "Other",
+  "cover": "https://player.vimeo.com/video/517760954",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "https://player.vimeo.com/video/517760954",
+      "orientation": "landscape",
+      "date": "2017-09-07",
+      "hidden": false
+    }
+  ]
+}

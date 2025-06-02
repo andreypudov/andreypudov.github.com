@@ -1,79 +1,409 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Puigmal",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Nature",
+  "cover": "/photographs/2022-08-15/2022-08-15_009.webp",
   "items": [
+    {
+      "name": "The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split.",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_001.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2022-08-15/2022-08-15_002.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2022-08-15",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_003.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_004.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_005.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_006.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_007.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_008.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_009.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_010.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_011.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_012.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_013.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_014.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_015.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_016.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_017.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_018.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_019.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_020.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_021.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_022.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_023.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_024.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_025.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_026.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_027.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_028.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_029.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_030.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_031.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_032.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_033.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_034.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_035.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_036.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_037.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_038.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_039.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_040.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_041.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_042.webp",
+      "orientation": "portrait",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_043.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_044.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_045.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_046.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_047.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_048.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_049.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-08-15/2022-08-15_050.webp",
+      "orientation": "landscape",
+      "date": "2022-08-15",
+      "hidden": false
+    }
   ]
 }
-
-const Puigmal = new Album(
-  new Text('Puigmal'),
-  Genre.Nature,
-  new Date('2022-08-15'),
-  new Photograph('/photographs/2022-08-15/2022-08-15_009.webp'),
-  [
-   new Photograph('/photographs/2022-08-15/2022-08-15_001.webp', false,
-    new Text('The Peak of Puigmal, is a mountain in the Pyrenees, in the Spanish-French border. Its summit is 2,909.6 metres above sea level, one of the highest peaks in the eastern Pyrenees. Puigmal is near the west end of a fine ridge over 2500m high for 16 km. The west half is composed of friable metasediments (schists) which break down to form smooth slopes, and so give easy walking. The east half is of tougher gneiss and forms spiky alpine scenery with sharp crests and some difficult places. Several excellent circuits can be made from Nuria. The plateau summit of Puigmal is split for several hundred metres by a bold scarp, in places over 20 metres high, with the eastern half having slipped bodily towards Nuria. Several other crests in this range are likewise split.')),
-   new Photograph('/photographs/2022-08-15/2022-08-15_002.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_003.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_004.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_005.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_006.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_007.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_008.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_009.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_010.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_011.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_012.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_013.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_014.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_015.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_016.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_017.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_018.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_019.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_020.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_021.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_022.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_023.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_024.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_025.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_026.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_027.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_028.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_029.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_030.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_031.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_032.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_033.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_034.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_035.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_036.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_037.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_038.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_039.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_040.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_041.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_042.webp', true),
-   new Photograph('/photographs/2022-08-15/2022-08-15_043.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_044.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_045.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_046.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_047.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_048.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_049.webp'),
-   new Photograph('/photographs/2022-08-15/2022-08-15_050.webp'),
-  ]);
-
-export default Puigmal;

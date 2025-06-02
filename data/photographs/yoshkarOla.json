@@ -1,90 +1,441 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Yoshkar-Ola. Tsar's town on Kokshaga River",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2014-05-10/2014-05-10_024_large.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2014-05-10/2014-05-10_001_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_002_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_003_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_004_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_005_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_006_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "Monument to Yoshkin сat, the hero of a colloquial expression with a similar sounding. Today Yoshkin cat is an integral part of Yoshkar-Ola brands. The authors of the monument are Anatoly Shirnin, Sergey Yandubaev, and Alexey Shilov.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_007_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_008_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "Monument to Prince Ivan Obolensky-Nogotkov, the founder of the city and the first governor of Tsarevokokshaisk (which literally means - the Tsar's town on Kokshaga River). Ivan Andreevich had a close relationship with the royal court, took an active part in the military and political life of the country. Participated in the suppression of the uprising of the meadow and mountain Mari. The monument was made in 2007 by the Moscow sculptor Andrey Kovalchuk.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_009_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_010_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "The national art gallery is a museum of fine arts that opened on November 4, 2007. In addition to the permanent exhibition of paintings by Mari artists, the gallery regularly hosts exhibitions of various Russian and world collections. The building was built in the architectural style of the Renaissance. The dominant feature is the clock tower. In the upper left corner of the clock, there is an opening gate from which the image of Mary, the mother of Jesus appears. In the lower-left corner of the clock, a donkey moves with Mary's image, symbolizing the coming of the Mother of God to the Mari land.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_011_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_012_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_013_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_014_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_015_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_016_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_017_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_018_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_019_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "Bruges Promenade in Yoshkar-Ola. Opened in 2010, the embankment was named after the Belgian city of Bruges due to a certain similarity between the architecture of the buildings and the Flemish architecture of the historical buildings in Bruges. Elements of the embankment are also reflecting Gothic architecture. Houses are built of colored bricks, part of the facades are faced with marble.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_020_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_021_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_022_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_023_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_024_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "The Spasskaya Tower is a smaller replica of the main tower on the eastern wall of the Moscow Kremlin which overlooks Red Square. The original tower was built in 1491 by the Italian architect Pietro Antonio Solari.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_025_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_026_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "Voskresenskaya Embankment. Opened on March 27, 2009. On the embankment, there are monuments to Tsar Fyodor Ioannovich, Alexander Pushkin, Nikolai Gogol, as well as an Italian Park designed as a symbol of the revival of the Republic of Mari El, primarily implying the development of arts, and the traditions of patronage.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_027_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_028_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_029_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_030_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_031_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_032_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_033_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "The Blagoveshchenskaya Tower is another smaller replica of Moscow's Kremlin Spasskaya Tower in Yoshkar-Ola.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_034_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_035_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_036_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_037_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_038_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_039_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_040_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_041_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_042_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_043_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_044_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "Tsarevokokshaisky Kremlin is a modern replica of the historical fortress, built in 1584 by the order of Tsar Feodor I.",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_048_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_045_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_046_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_047_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_049_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_050_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_051_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_052_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_053_large.webp",
+      "orientation": "portrait",
+      "date": "2014-05-10",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-05-10/2014-05-10_054_large.webp",
+      "orientation": "landscape",
+      "date": "2014-05-10",
+      "hidden": false
+    }
   ]
 }
-
-const YoshkarOla = new Album(
-  new Text('Yoshkar-Ola. Tsar\'s town on Kokshaga River'),
-  Genre.Street,
-  new Date('2014-05-10'),
-  new Photograph('/photographs/2014-05-10/2014-05-10_024_large.webp'),
-  [
-    new Photograph('/photographs/2014-05-10/2014-05-10_001_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_002_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_003_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_004_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_005_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_006_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_007_large.webp', false, 
-      new Text('Monument to Yoshkin сat, the hero of a colloquial expression with a similar sounding. Today Yoshkin cat is an integral part of Yoshkar-Ola brands. The authors of the monument are Anatoly Shirnin, Sergey Yandubaev, and Alexey Shilov.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_008_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_009_large.webp', true, 
-      new Text('Monument to Prince Ivan Obolensky-Nogotkov, the founder of the city and the first governor of Tsarevokokshaisk (which literally means - the Tsar\'s town on Kokshaga River). Ivan Andreevich had a close relationship with the royal court, took an active part in the military and political life of the country. Participated in the suppression of the uprising of the meadow and mountain Mari. The monument was made in 2007 by the Moscow sculptor Andrey Kovalchuk.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_010_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_011_large.webp', false, 
-      new Text('The national art gallery is a museum of fine arts that opened on November 4, 2007. In addition to the permanent exhibition of paintings by Mari artists, the gallery regularly hosts exhibitions of various Russian and world collections. The building was built in the architectural style of the Renaissance. The dominant feature is the clock tower. In the upper left corner of the clock, there is an opening gate from which the image of Mary, the mother of Jesus appears. In the lower-left corner of the clock, a donkey moves with Mary\'s image, symbolizing the coming of the Mother of God to the Mari land.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_012_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_013_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_014_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_015_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_016_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_017_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_018_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_019_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_020_large.webp', false, 
-      new Text('Bruges Promenade in Yoshkar-Ola. Opened in 2010, the embankment was named after the Belgian city of Bruges due to a certain similarity between the architecture of the buildings and the Flemish architecture of the historical buildings in Bruges. Elements of the embankment are also reflecting Gothic architecture. Houses are built of colored bricks, part of the facades are faced with marble.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_021_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_022_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_023_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_024_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_025_large.webp', true,
-      new Text('The Spasskaya Tower is a smaller replica of the main tower on the eastern wall of the Moscow Kremlin which overlooks Red Square. The original tower was built in 1491 by the Italian architect Pietro Antonio Solari.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_026_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_027_large.webp', false,
-      new Text('Voskresenskaya Embankment. Opened on March 27, 2009. On the embankment, there are monuments to Tsar Fyodor Ioannovich, Alexander Pushkin, Nikolai Gogol, as well as an Italian Park designed as a symbol of the revival of the Republic of Mari El, primarily implying the development of arts, and the traditions of patronage.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_028_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_029_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_030_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_031_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_032_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_033_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_034_large.webp', false,
-      new Text('The Blagoveshchenskaya Tower is another smaller replica of Moscow\'s Kremlin Spasskaya Tower in Yoshkar-Ola.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_035_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_036_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_037_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_038_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_039_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_040_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_041_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_042_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_043_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_044_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_048_large.webp', false,
-      new Text('Tsarevokokshaisky Kremlin is a modern replica of the historical fortress, built in 1584 by the order of Tsar Feodor I.')),
-    new Photograph('/photographs/2014-05-10/2014-05-10_045_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_046_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_047_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_049_large.webp'),
-    new Photograph('/photographs/2014-05-10/2014-05-10_050_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_051_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_052_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_053_large.webp', true),
-    new Photograph('/photographs/2014-05-10/2014-05-10_054_large.webp'),
-  ]);
-
-export default YoshkarOla;

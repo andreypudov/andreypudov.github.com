@@ -1,0 +1,33 @@
+{
+  "name": "andreypudov-data-v2",
+  "version": "1.0.0",
+  "description": "Data migration and processing for AndreyPudov website",
+  "main": "dist/migration.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/migration.js",
+    "dev": "ts-node migration.ts",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "migrate": "npm run build && npm run start"
+  },
+  "keywords": [
+    "migration",
+    "portfolio",
+    "data",
+    "typescript"
+  ],
+  "author": "Andrey Pudov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

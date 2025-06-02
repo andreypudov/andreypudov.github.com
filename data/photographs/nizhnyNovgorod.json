@@ -1,52 +1,201 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Nizhny Novgorod",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2017-01-29/2017-01-29_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2019-11-17/2019-11-17_002.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2019-11-17",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2019-11-17/2019-11-17_001.webp",
+      "orientation": "landscape",
+      "date": "2019-11-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2019-10-06/2019-10-06_001.webp",
+      "orientation": "landscape",
+      "date": "2019-10-06",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2019-07-16/2019-07-16_002.webp",
+      "orientation": "portrait",
+      "date": "2019-07-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2019-07-16/2019-07-16_001.webp",
+      "orientation": "portrait",
+      "date": "2019-07-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-04-19/2018-04-19_002.webp",
+      "orientation": "landscape",
+      "date": "2018-04-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-04-19/2018-04-19_001.webp",
+      "orientation": "landscape",
+      "date": "2018-04-19",
+      "hidden": false
+    },
+    {
+      "name": "Chkalov Stairs\n\nThe Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgorod, connecting Minin and Pozharsky Square, the Upper Volga, and the Lower Volga embankments. It was built by the architects Alexander Yakovlev, Lev Rudnev, and Vladimir Munts. It is the longest staircase in Russia. The staircase starts from the monument to Chkalov, near the St. George's Tower of the Kremlin. It is built in the form of a figure of eight and consists of 560 steps, if count it both sides. The number of steps from the bottom to the top is 442 on the right. In the intersections of the side slopes there are two observation platforms. At the bottom of the stairs is a monument to the boat \"Hero\", which is located at the Lower-Volga embankment.",
+      "description": "",
+      "path": "/photographs/2017-07-28/2017-07-28_003.webp",
+      "orientation": "landscape",
+      "date": "2017-07-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-07-28/2017-07-28_004.webp",
+      "orientation": "landscape",
+      "date": "2017-07-28",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2017-07-28/2017-07-28_005.webp",
+      "orientation": "portrait",
+      "date": "2017-07-28",
+      "hidden": false
+    },
+    {
+      "name": "Microdistrict Meshchersky Lake",
+      "description": "",
+      "path": "/photographs/2017-07-28/2017-07-28_006.webp",
+      "orientation": "landscape",
+      "date": "2017-07-28",
+      "hidden": false
+    },
+    {
+      "name": "Volga River",
+      "description": "",
+      "path": "/photographs/2017-07-01/2017-07-01_001.webp",
+      "orientation": "landscape",
+      "date": "2017-07-01",
+      "hidden": false
+    },
+    {
+      "name": "Volga River",
+      "description": "",
+      "path": "/photographs/2017-07-01/2017-07-01_002.webp",
+      "orientation": "landscape",
+      "date": "2017-07-01",
+      "hidden": false
+    },
+    {
+      "name": "Volga River",
+      "description": "",
+      "path": "/photographs/2017-07-01/2017-07-01_003.webp",
+      "orientation": "landscape",
+      "date": "2017-07-01",
+      "hidden": false
+    },
+    {
+      "name": "Molitovsky Bridge",
+      "description": "",
+      "path": "/photographs/2017-06-12/2017-06-12_001.webp",
+      "orientation": "landscape",
+      "date": "2017-06-12",
+      "hidden": false
+    },
+    {
+      "name": "Deer Sculpture",
+      "description": "",
+      "path": "/photographs/2017-01-29/2017-01-29_001.webp",
+      "orientation": "portrait",
+      "date": "2017-01-29",
+      "hidden": false
+    },
+    {
+      "name": "Deer Sculpture",
+      "description": "",
+      "path": "/photographs/2017-01-29/2017-01-29_002.webp",
+      "orientation": "landscape",
+      "date": "2017-01-29",
+      "hidden": false
+    },
+    {
+      "name": "Pechersky Ascension Monastery\n\nPechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.\n\nIt have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.\n\nThe monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod.",
+      "description": "",
+      "path": "/photographs/2017-01-30/2017-01-30_001.webp",
+      "orientation": "landscape",
+      "date": "2017-01-30",
+      "hidden": false
+    },
+    {
+      "name": "Nizhny Novgorod TV Tower",
+      "description": "",
+      "path": "/photographs/2017-02-02/2017-02-02_001.webp",
+      "orientation": "landscape",
+      "date": "2017-02-02",
+      "hidden": false
+    },
+    {
+      "name": "Nizhny Novgorod TV Tower",
+      "description": "",
+      "path": "/photographs/2017-02-02/2017-02-02_002.webp",
+      "orientation": "portrait",
+      "date": "2017-02-02",
+      "hidden": false
+    },
+    {
+      "name": "Nizhny Novgorod from the paragliding launch pad in Switzerland park.",
+      "description": "",
+      "path": "/photographs/2015-07-21/2015-07-21_001.webp",
+      "orientation": "landscape",
+      "date": "2015-07-21",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-10-19/2014-10-19_012_large.webp",
+      "orientation": "landscape",
+      "date": "2014-10-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-10-19/2014-10-19_011_large.webp",
+      "orientation": "landscape",
+      "date": "2014-10-19",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2014-10-19/2014-10-19_010_large.webp",
+      "orientation": "landscape",
+      "date": "2014-10-19",
+      "hidden": false
+    }
   ]
 }
-
-const NizhnyNovgorod = new Album(
-  new Text('Nizhny Novgorod'),
-  Genre.Street,
-  new Date('2019-11-17'),
-  new Photograph('/photographs/2017-01-29/2017-01-29_002.webp'),
-  [
-    new Photograph('/photographs/2019-11-17/2019-11-17_002.webp'),
-    new Photograph('/photographs/2019-11-17/2019-11-17_001.webp'),
-    new Photograph('/photographs/2019-10-06/2019-10-06_001.webp'),
-    new Photograph('/photographs/2019-07-16/2019-07-16_002.webp', true),
-    new Photograph('/photographs/2019-07-16/2019-07-16_001.webp', true),
-    new Photograph('/photographs/2018-04-19/2018-04-19_002.webp'),
-    new Photograph('/photographs/2018-04-19/2018-04-19_001.webp'),
-    new Photograph('/photographs/2017-07-28/2017-07-28_003.webp', false, new Text('Chkalov Stairs\n\nThe Chkalov Stairs is a monumental flight of steps in the center of Nizhny Novgorod, connecting Minin and Pozharsky Square, the Upper Volga, and the Lower Volga embankments. It was built by the architects Alexander Yakovlev, Lev Rudnev, and Vladimir Munts. It is the longest staircase in Russia. The staircase starts from the monument to Chkalov, near the St. George\'s Tower of the Kremlin. It is built in the form of a figure of eight and consists of 560 steps, if count it both sides. The number of steps from the bottom to the top is 442 on the right. In the intersections of the side slopes there are two observation platforms. At the bottom of the stairs is a monument to the boat "Hero", which is located at the Lower-Volga embankment.')),
-    new Photograph('/photographs/2017-07-28/2017-07-28_004.webp'),
-    new Photograph('/photographs/2017-07-28/2017-07-28_005.webp', true),
-    new Photograph('/photographs/2017-07-28/2017-07-28_006.webp', false, new Text('Microdistrict Meshchersky Lake')),
-    new Photograph('/photographs/2017-07-01/2017-07-01_001.webp', false, new Text('Volga River')),
-    new Photograph('/photographs/2017-07-01/2017-07-01_002.webp', false, new Text('Volga River')),
-    new Photograph('/photographs/2017-07-01/2017-07-01_003.webp', false, new Text('Volga River')),
-    new Photograph('/photographs/2017-06-12/2017-06-12_001.webp', false, new Text('Molitovsky Bridge')),
-    new Photograph('/photographs/2017-01-29/2017-01-29_001.webp', true, new Text('Deer Sculpture')),
-    new Photograph('/photographs/2017-01-29/2017-01-29_002.webp', false, new Text('Deer Sculpture')),
-    new Photograph('/photographs/2017-01-30/2017-01-30_001.webp', false, new Text('Pechersky Ascension Monastery\n\nPechersky Ascension Monastery is the principal monastery of the Nizhny Novgorod Eparchy and the seat of the Bishop of Nizhny Novgorod and Arzamas.\n\nIt have been founded ca. 1328-1330 by St. Dionysius, who came to Nizhny Novgorod from Kiev Pechersk Lavra with several other monks, and dug for himself a cave on the step Volga shore some 3 km southeast of the city. Later on, he founded at that site a monastery with a church of Resurrection of the Lord.\n\nThe monastery soon became an important spiritual and religious center of the Principality of Suzdal and Nizhny Novgorod.')),
-    new Photograph('/photographs/2017-02-02/2017-02-02_001.webp', false, new Text('Nizhny Novgorod TV Tower')),
-    new Photograph('/photographs/2017-02-02/2017-02-02_002.webp', true, new Text('Nizhny Novgorod TV Tower')),
-    new Photograph('/photographs/2015-07-21/2015-07-21_001.webp', false, new Text('Nizhny Novgorod from the paragliding launch pad in Switzerland park.')),
-    new Photograph('/photographs/2014-10-19/2014-10-19_012_large.webp'),
-    new Photograph('/photographs/2014-10-19/2014-10-19_011_large.webp'),
-    new Photograph('/photographs/2014-10-19/2014-10-19_010_large.webp'),
-  ]);
-
-export default NizhnyNovgorod;

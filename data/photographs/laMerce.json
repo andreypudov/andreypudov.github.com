@@ -1,31 +1,33 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "La Mercè",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Street",
+  "cover": "/photographs/2024-09-20/2024-09-20_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2024-09-20/2024-09-20_001.webp",
+      "orientation": "portrait",
+      "date": "2024-09-20",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-09-20/2024-09-20_002.webp",
+      "orientation": "landscape",
+      "date": "2024-09-20",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-09-20/2024-09-20_003.webp",
+      "orientation": "portrait",
+      "date": "2024-09-20",
+      "hidden": false
+    }
   ]
 }
-
-const LaMerce = new Album(
-  new Text('La Mercè'),
-  Genre.Street,
-  new Date('2024-09-20'),
-  new Photograph('/photographs/2024-09-20/2024-09-20_002.webp'),
-  [
-    new Photograph('/photographs/2024-09-20/2024-09-20_001.webp', true),
-    new Photograph('/photographs/2024-09-20/2024-09-20_002.webp'),
-    new Photograph('/photographs/2024-09-20/2024-09-20_003.webp', true),
-  ]);
-
-export default LaMerce;

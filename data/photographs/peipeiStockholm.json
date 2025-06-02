@@ -1,38 +1,81 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Pei Pei. Weekend in Stockholm",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2024-07-04_14/2024-07-04_14_003.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_001.webp",
+      "orientation": "portrait",
+      "date": "2024-07-14",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_002.webp",
+      "orientation": "portrait",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_003.webp",
+      "orientation": "landscape",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_004.webp",
+      "orientation": "landscape",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_005.webp",
+      "orientation": "landscape",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_006.webp",
+      "orientation": "portrait",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_007.webp",
+      "orientation": "landscape",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_008.webp",
+      "orientation": "portrait",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_009.webp",
+      "orientation": "portrait",
+      "date": "2024-07-14",
+      "hidden": false
+    }
   ]
 }
-
-const PeiPeiStockholm = new Album(
-  new Text('Pei Pei. Weekend in Stockholm'),
-  Genre.Portrait,
-  new Date('2024-07-14'),
-  new Photograph('/photographs/2024-07-04_14/2024-07-04_14_003.webp'),
-  [
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_001.webp', true),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_002.webp', true),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_003.webp'),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_004.webp'),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_005.webp'),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_006.webp', true),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_007.webp'),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_008.webp', true),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_009.webp', true),
-  ],
-  new Social('Пейпей', 'Чен', 'Руководитель машинного обучения в Inditex', 'https://www.linkedin.com/in/pei-pei-chen/'));
-
-export default PeiPeiStockholm;

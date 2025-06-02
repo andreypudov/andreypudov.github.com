@@ -1,13 +1,12 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Pencil Sketches",
   "description": "A collection of pencil sketches.",
   "genre": "Other",
   "cover": "/drawings/pencil-sketches/2020-04-26.webp",
   "items": [
     {
-      "name": "",
+      "name": "July 16, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-07-16.webp",
       "orientation": "portrait",
@@ -15,7 +14,7 @@
       "hidden": false
     },
     {
-      "name": "Oludeniz",
+      "name": "Oludeniz / July 9, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-07-09.webp",
       "orientation": "portrait",
@@ -23,7 +22,7 @@
       "hidden": false
     },
     {
-      "name": "Kate",
+      "name": "Kate / April 26, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-04-26.webp",
       "orientation": "landscape",
@@ -31,7 +30,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "April 22, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-04-22.webp",
       "orientation": "portrait",
@@ -39,7 +38,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "April 7, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-04-07.webp",
       "orientation": "landscape",
@@ -47,7 +46,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "April 3, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-04-03.webp",
       "orientation": "landscape",
@@ -55,7 +54,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "April 2, 2020",
       "description": "",
       "path": "/drawings/pencil-sketches/2020-04-02.webp",
       "orientation": "portrait",

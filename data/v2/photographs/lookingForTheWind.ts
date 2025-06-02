@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import HiddenPhotograph from '../core/hiddenPhotograph';
 import Text from '../core/text';
 import Genre from '../core/genre';
 
@@ -9,14 +10,14 @@ const LookingForTheWind = new Album(
   new Date('2018-05-27'),
   new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
   [
-    // new Photograph('/photographs/2018-05-27/2018-05-27_003.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_002.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_006.webp'),
+    new HiddenPhotograph('/photographs/2018-05-27/2018-05-27_003.webp'),
+    new HiddenPhotograph('/photographs/2018-05-27/2018-05-27_002.webp'),
+    new HiddenPhotograph('/photographs/2018-05-27/2018-05-27_006.webp'),
     new Photograph('/photographs/2018-05-27/2018-05-27_005.webp'),
     new Photograph('/photographs/2018-05-27/2018-05-27_001.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_004.webp'),
+    new HiddenPhotograph('/photographs/2018-05-27/2018-05-27_004.webp'),
     new Photograph('/photographs/2018-05-27/2018-05-27_007.webp'),
-    // new Photograph('/photographs/2018-05-27/2018-05-27_008.webp', true),
+    new HiddenPhotograph('/photographs/2018-05-27/2018-05-27_008.webp', true),
   ]);
 
 export default LookingForTheWind;

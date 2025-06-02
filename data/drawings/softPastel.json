@@ -1,13 +1,12 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Soft Pastel",
   "description": "A collection of soft pastel drawings.",
   "genre": "Other",
   "cover": "/drawings/soft-pastel/2021-01-30.webp",
   "items": [
     {
-      "name": "",
+      "name": "November 01, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-11-01.webp",
       "orientation": "landscape",
@@ -15,7 +14,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "May 17, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-05-17.webp",
       "orientation": "portrait",
@@ -23,7 +22,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "March 22, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-03-22.webp",
       "orientation": "portrait",
@@ -31,7 +30,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "March 21, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-03-21.webp",
       "orientation": "portrait",
@@ -39,7 +38,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "January 30, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-01-30.webp",
       "orientation": "landscape",
@@ -47,7 +46,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "January 29, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-01-29.webp",
       "orientation": "portrait",
@@ -55,7 +54,7 @@
       "hidden": false
     },
     {
-      "name": "",
+      "name": "January 07, 2021",
       "description": "",
       "path": "/drawings/soft-pastel/2021-01-07.webp",
       "orientation": "portrait",

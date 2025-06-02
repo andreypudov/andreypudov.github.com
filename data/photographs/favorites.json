@@ -1,6 +1,5 @@
 {
   "$schema": "../schemas/album.schema.json",
-
   "name": "Favorite Photographs",
   "description": "",
   "genre": "Other",
@@ -11,7 +10,7 @@
       "description": "Weekend in Madrid",
       "path": "/photographs/2024-04-10_30/2024-04-10_30_011.webp",
       "orientation": "landscape",
-      "date": "2024-04-10",
+      "date": "2024-04-30",
       "hidden": false
     },
     {
@@ -27,7 +26,7 @@
       "description": "",
       "path": "/photographs/2022-08-27_09-10/2022-08-27_09-10_001.webp",
       "orientation": "portrait",
-      "date": "2022-08-27",
+      "date": "2022-09-10",
       "hidden": false
     },
     {
@@ -43,7 +42,7 @@
       "description": "",
       "path": "/photographs/2021-07-24_08-02/2021-07-24_08-02_018.webp",
       "orientation": "landscape",
-      "date": "2021-07-24",
+      "date": "2021-08-02",
       "hidden": false
     },
     {
@@ -59,7 +58,7 @@
       "description": "",
       "path": "/photographs/2020-07-19_08-04_kate/2020-07-19_08-04_008.webp",
       "orientation": "landscape",
-      "date": "2020-07-19",
+      "date": "2020-08-04",
       "hidden": false
     },
     {
@@ -67,7 +66,7 @@
       "description": "",
       "path": "/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp",
       "orientation": "landscape",
-      "date": "2020-07-19",
+      "date": "2020-08-04",
       "hidden": false
     },
     {
@@ -83,7 +82,7 @@
       "description": "The Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter's Basilica, is a church built in the Renaissance style located in Vatican City. It was initially planned by Pope Nicholas V and then Pope Julius II to replace the aging Old St. Peter's Basilica, which was built in the fourth century by Roman emperor Constantine the Great. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626. Designed principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lorenzo Bernini, St. Peter's is the most renowned work of Renaissance architecture and the largest church in the world by interior measure. While it is neither the mother church of the Catholic Church nor the cathedral of the Diocese of Rome, St. Peter's is regarded as one of the holiest Catholic shrines. It has been described as 'holding a unique position in the Christian world' and as 'the greatest of all churches of Christendom'.",
       "path": "/photographs/2017-12-18_2018-01-05/2017-12-18_2018-01-05_022_large.webp",
       "orientation": "landscape",
-      "date": "2017-12-18",
+      "date": "2017-12-20",
       "hidden": false
     },
     {
@@ -99,7 +98,7 @@
       "description": "The area known as Dumbo used to be known as Gairville. The area was originally a ferry landing, characterized by 19th- and early 20th-century industrial and warehouse buildings, Belgian block streets, and its location on the East River by the imposing anchorage of the Manhattan Bridge. The entirety of Dumbo was bought by developer David Walentas and his company Two Trees Management in the late 20th century, and remade into an upscale residential and commercial community—first becoming a haven for art galleries, and currently a center for technology startups.",
       "path": "/photographs/2017-09-09_24/2017-09-09_24_030_large.webp",
       "orientation": "portrait",
-      "date": "2017-09-09",
+      "date": "2017-09-24",
       "hidden": false
     },
     {
@@ -107,7 +106,7 @@
       "description": "One of the first decisions that Calatrava had in mind at the time of conceiving the project was the realization of the building at street level, an independent structure along the Wedge of Light Square, by Daniel Libeskind. “Oculus”, the centerpiece of the Transportation Center that presents the new station to the world is a kind of pause in the middle of the dense glass and steel towers that surround it.\n\nThe construction, due to constant delays, lasted 12 years and was finally inaugurated on March 3, 2016, without too many celebrations. The cost of its construction, $ 4 billion, greatly exceeded its original cost, becoming, until the time of its inauguration, the most expensive train station in the world and the third largest transportation center in New York, after Grand Central and Penn Station, both in Midtown Manhattan.",
       "path": "/photographs/2017-09-09_24/2017-09-09_24_001_large.webp",
       "orientation": "portrait",
-      "date": "2017-09-09",
+      "date": "2017-09-24",
       "hidden": false
     },
     {
@@ -131,7 +130,7 @@
       "description": "",
       "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_041_large.webp",
       "orientation": "portrait",
-      "date": "2016-10-15",
+      "date": "2016-11-05",
       "hidden": false
     },
     {
@@ -139,7 +138,7 @@
       "description": "Between 1821 and 1855, New York City's population nearly quadrupled. As the city expanded northward up Manhattan Island, people were drawn to the few existing open spaces, mainly cemeteries, for passive recreation. These were seen as escapes from the noise and chaotic life in the city, which at the time was almost entirely centered on Lower Manhattan. The Commissioners' Plan of 1811, the outline for Manhattan's modern street grid, included several smaller open spaces but not Central Park. As such, John Randel Jr. had surveyed the grounds for the construction of intersections within the modern-day park site. Today, Central Park is the most visited urban park in the United States and one of the most visited tourist attractions worldwide, with 42 million visitors in 2016.",
       "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_009_large.webp",
       "orientation": "landscape",
-      "date": "2016-10-15",
+      "date": "2016-11-05",
       "hidden": false
     },
     {
@@ -147,7 +146,7 @@
       "description": "One World Trade Center is the main building of the rebuilt World Trade Center complex in Lower Manhattan. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 6.5 ha World Trade Center site, on the site of the original 6 World Trade Center.",
       "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_003_large.webp",
       "orientation": "portrait",
-      "date": "2016-10-15",
+      "date": "2016-11-05",
       "hidden": false
     },
     {
@@ -155,7 +154,7 @@
       "description": "",
       "path": "/photographs/2016-04-27_05-04/2016-04-27_05-04_002.webp",
       "orientation": "landscape",
-      "date": "2016-04-27",
+      "date": "2016-05-04",
       "hidden": false
     },
     {
@@ -163,7 +162,7 @@
       "description": "The Bolshoy Ice Dome is a multi-purpose indoor arena. Opened in 2012, the 12,000-seat arena was primarily constructed to host hockey competitions during the 2014 Winter Olympics. Following the Games, it became the home arena of HC Sochi, an expansion team of the KHL. The arena has also hosted concerts and other events. Prior to the Games, the arena hosted the IIHF World U18 Championships and Channel One Cup in 2013.",
       "path": "/photographs/2016-04-27_05-04/2016-04-27_05-04_004.webp",
       "orientation": "landscape",
-      "date": "2016-04-27",
+      "date": "2016-05-04",
       "hidden": false
     },
     {
@@ -187,7 +186,7 @@
       "description": "Because of strong thunderstorms, since the end of July, violent fires have been raging in the mountains in the Baikal nature reserves. About 25,000 hectares of forest were affected by the fire.",
       "path": "/photographs/2015-07-27_08-08/2015-07-27_08-08_058_large.webp",
       "orientation": "landscape",
-      "date": "2015-07-27",
+      "date": "2015-08-08",
       "hidden": false
     },
     {
@@ -195,7 +194,7 @@
       "description": "",
       "path": "/photographs/2015-07-27_08-08/2015-07-27_08-08_022_large.webp",
       "orientation": "landscape",
-      "date": "2015-07-27",
+      "date": "2015-08-08",
       "hidden": false
     },
     {
@@ -227,7 +226,7 @@
       "description": "",
       "path": "/photographs/2012-11-09_21/2012-11-09_21_037_large.webp",
       "orientation": "portrait",
-      "date": "2012-11-09",
+      "date": "2012-11-21",
       "hidden": false
     },
     {
@@ -235,7 +234,7 @@
       "description": "",
       "path": "/photographs/2012-11-09_21/2012-11-09_21_024_large.webp",
       "orientation": "landscape",
-      "date": "2012-11-09",
+      "date": "2012-11-21",
       "hidden": false
     },
     {
@@ -243,7 +242,7 @@
       "description": "",
       "path": "/photographs/2012-11-09_21/2012-11-09_21_059_large.webp",
       "orientation": "landscape",
-      "date": "2012-11-09",
+      "date": "2012-11-21",
       "hidden": false
     },
     {
@@ -251,7 +250,7 @@
       "description": "",
       "path": "/photographs/2012-09-14_15/2012-09-14_15_016_large.webp",
       "orientation": "landscape",
-      "date": "2012-09-14",
+      "date": "2012-09-15",
       "hidden": false
     }
   ]

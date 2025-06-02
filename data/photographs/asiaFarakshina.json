@@ -1,43 +1,121 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Asia Farakshina",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2015-08-14/2015-08-14_001.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2015-08-14/2015-08-14_001.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2015-08-14",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_002.webp",
+      "orientation": "portrait",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_003.webp",
+      "orientation": "portrait",
+      "date": "2015-08-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_004.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_005.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_006.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_007.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_008.webp",
+      "orientation": "portrait",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_009.webp",
+      "orientation": "portrait",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_010.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_011.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_012.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_013.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-08-14/2015-08-14_014.webp",
+      "orientation": "landscape",
+      "date": "2015-08-14",
+      "hidden": true
+    }
   ]
 }
-
-const AsiaFarakshina = new Album(
-  new Text('Asia Farakshina'),
-  Genre.Portrait,
-  new Date('2015-08-14'),
-  new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),
-  [
-    new Photograph('/photographs/2015-08-14/2015-08-14_001.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_002.webp', true),
-    new Photograph('/photographs/2015-08-14/2015-08-14_003.webp', true),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_004.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_005.webp'),
-    new Photograph('/photographs/2015-08-14/2015-08-14_006.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_007.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_008.webp', true),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_009.webp', true),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_010.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_011.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_012.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_013.webp'),
-    // new Photograph('/photographs/2015-08-14/2015-08-14_014.webp'),
-  ],
-  new Social('Асия', 'Фаракшина', 'Исламовед в Нижнем Новгороде'));
-
-export default AsiaFarakshina;

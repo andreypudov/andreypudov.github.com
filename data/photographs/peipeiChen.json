@@ -1,47 +1,153 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Pei Pei Chen",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2024-10-12/2024-10-12_005.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2024-10-12/2024-10-12_005.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2024-10-12",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-10-12/2024-10-12_008.webp",
+      "orientation": "portrait",
+      "date": "2024-10-12",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-10-12/2024-10-12_002.webp",
+      "orientation": "landscape",
+      "date": "2024-10-12",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-09-21/2024-09-21_005.webp",
+      "orientation": "portrait",
+      "date": "2024-09-21",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-09-21/2024-09-21_012.webp",
+      "orientation": "portrait",
+      "date": "2024-09-21",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-09-21/2024-09-21_016.webp",
+      "orientation": "portrait",
+      "date": "2024-09-21",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-08-25/2024-08-25_002.webp",
+      "orientation": "landscape",
+      "date": "2024-08-25",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-08-25/2024-08-25_001.webp",
+      "orientation": "portrait",
+      "date": "2024-08-25",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_003.webp",
+      "orientation": "landscape",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_005.webp",
+      "orientation": "landscape",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-07-04_14/2024-07-04_14_009.webp",
+      "orientation": "portrait",
+      "date": "2024-07-14",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-06-15/2024-06-15_002.webp",
+      "orientation": "landscape",
+      "date": "2024-06-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-06-15/2024-06-15_006.webp",
+      "orientation": "portrait",
+      "date": "2024-06-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-06-15/2024-06-15_008.webp",
+      "orientation": "landscape",
+      "date": "2024-06-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-06-09/2024-06-09_001.webp",
+      "orientation": "portrait",
+      "date": "2024-06-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-04-10_30/2024-04-10_30_021.webp",
+      "orientation": "portrait",
+      "date": "2024-04-30",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-04-10_30/2024-04-10_30_017.webp",
+      "orientation": "landscape",
+      "date": "2024-04-30",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2024-04-10_30/2024-04-10_30_011.webp",
+      "orientation": "landscape",
+      "date": "2024-04-30",
+      "hidden": false
+    }
   ]
 }
-
-const PeiPeiChen = new Album(
-  new Text('Pei Pei Chen'),
-  Genre.Portrait,
-  new Date('2024-10-12'),
-  new Photograph('/photographs/2024-10-12/2024-10-12_005.webp'),
-  [
-    new Photograph('/photographs/2024-10-12/2024-10-12_005.webp'),
-    new Photograph('/photographs/2024-10-12/2024-10-12_008.webp', true),
-    new Photograph('/photographs/2024-10-12/2024-10-12_002.webp'),
-    new Photograph('/photographs/2024-09-21/2024-09-21_005.webp', true),
-    new Photograph('/photographs/2024-09-21/2024-09-21_012.webp', true),
-    new Photograph('/photographs/2024-09-21/2024-09-21_016.webp', true),
-    // new Photograph('/photographs/2024-08-25/2024-08-25_002.webp'),
-    // new Photograph('/photographs/2024-08-25/2024-08-25_001.webp', true),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_003.webp'),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_005.webp'),
-    new Photograph('/photographs/2024-07-04_14/2024-07-04_14_009.webp', true),
-    new Photograph('/photographs/2024-06-15/2024-06-15_002.webp'),
-    new Photograph('/photographs/2024-06-15/2024-06-15_006.webp', true),
-    new Photograph('/photographs/2024-06-15/2024-06-15_008.webp'),
-    // new Photograph('/photographs/2024-06-09/2024-06-09_001.webp', true),
-    new Photograph('/photographs/2024-04-10_30/2024-04-10_30_021.webp', true),
-    new Photograph('/photographs/2024-04-10_30/2024-04-10_30_017.webp'),
-    new Photograph('/photographs/2024-04-10_30/2024-04-10_30_011.webp'),
-  ],
-  new Social('Пейпей', 'Чен', 'Руководитель машинного обучения в Inditex', 'https://www.linkedin.com/in/pei-pei-chen/'));
-
-export default PeiPeiChen;

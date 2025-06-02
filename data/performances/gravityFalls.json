@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Gravity Falls",
+  "description": "",
+  "genre": "Other",
+  "cover": "https://player.vimeo.com/video/517762017",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "https://player.vimeo.com/video/517762017",
+      "orientation": "landscape",
+      "date": "2021-01-18",
+      "hidden": false
+    }
+  ]
+}

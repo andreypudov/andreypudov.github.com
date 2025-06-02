@@ -1,0 +1,171 @@
+# AndreyPudov Data V2 - Migration & Processing
+
+A Node.js TypeScript project for migrating and processing portfolio data from the legacy format to the new schema-based structure.
+
+## Overview
+
+This project handles the migration of photography albums, articles, drawings, and other portfolio content from the existing TypeScript object structure to JSON files following the defined schemas in `/data/schemas/`.
+
+## Features
+
+- **Album Migration**: Converts `PhotographyAlbum` objects to JSON following the album schema
+- **Schema Validation**: Ensures output conforms to the defined JSON schemas
+- **Type Safety**: Full TypeScript support with proper type definitions
+- **Flexible Processing**: Can process all pages or filter by specific types
+- **File Management**: Automated JSON file generation with proper naming
+
+## Prerequisites
+
+- Node.js 18.0.0 or higher
+- npm or yarn package manager
+
+## Installation
+
+#+begin_src shell
+# Install dependencies
+npm install
+
+# Install development dependencies (if not already installed)
+npm install --save-dev @types/node ts-node typescript
+#+end_src
+
+## Available Scripts
+
+#+begin_src shell
+# Build the TypeScript project
+npm run build
+
+# Run the migration script (builds first)
+npm run migrate
+
+# Run in development mode with ts-node (no build required)
+npm run dev
+
+# Start the compiled JavaScript
+npm start
+
+# Clean build artifacts
+npm run clean
+
+# Clean and rebuild
+npm run rebuild
+#+end_src
+
+## Usage
+
+### Running the Migration
+
+#+begin_src shell
+# Build and run the migration
+npm run migrate
+
+# Or run directly in development mode
+npm run dev
+#+end_src
+
+### Development
+
+#+begin_src shell
+# For development with automatic TypeScript compilation
+npm run dev
+#+end_src
+
+## Project Structure
+
+#+begin_src
+data/v2/
+├── core/                   # Core TypeScript classes
+│   ├── page.ts            # Base page class
+│   ├── photographyAlbum.ts # Photography album class
+│   ├── text.ts            # Text content handling
+│   └── ...                # Other core classes
+├── photographs/           # Photography data
+├── articles/              # Article data
+├── drawings/              # Drawing data
+├── timelapses/           # Timelapse data
+├── performances/         # Performance data
+├── utils/                # Utility functions
+├── pages.ts              # All pages definitions
+├── migration.ts          # Main migration script
+├── package.json          # Node.js project configuration
+├── tsconfig.json         # TypeScript configuration
+└── README.org           # This file
+#+end_src
+
+## Configuration
+
+### TypeScript Configuration
+
+The project uses a Node.js-optimized TypeScript configuration:
+- Target: ES2020
+- Module: CommonJS
+- Output: `dist/` directory
+- Strict type checking enabled
+
+### Package Configuration
+
+- **Main entry**: `dist/migration.js`
+- **Development**: Uses `ts-node` for direct TypeScript execution
+- **Dependencies**: Node.js filesystem utilities (`fs-extra`)
+
+## Migration Process
+
+The migration script:
+
+1. **Loads** all pages from the TypeScript definitions
+2. **Filters** pages that contain albums (e.g., photography albums)
+3. **Converts** TypeScript objects to JSON schema format
+4. **Validates** against the album and item schemas
+5. **Generates** JSON files with proper naming conventions
+6. **Outputs** files to the designated directory
+
+### Schema Compliance
+
+Generated JSON files follow these schemas:
+- `/data/schemas/album.schema.json` - Album structure
+- `/data/schemas/item.schema.json` - Individual item structure
+
+### Output Format
+
+Generated files are named using the pattern:
+#+begin_src
+YYYY-MM-DD-album-name.json
+#+end_src
+
+## Development Guidelines
+
+### Adding New Page Types
+
+1. Create the page class in `/core/`
+2. Add the page instance to `pages.ts`
+3. Update the migration script if needed
+
+### Modifying Schemas
+
+1. Update the schema files in `/data/schemas/`
+2. Adjust the migration logic accordingly
+3. Test with existing data
+
+## Troubleshooting
+
+### Common Issues
+
+**Build Errors**: Ensure all TypeScript types are properly defined
+#+begin_src shell
+npm run clean && npm run build
+#+end_src
+
+**Missing Dependencies**: Reinstall Node modules
+#+begin_src shell
+rm -rf node_modules package-lock.json
+npm install
+#+end_src
+
+**Type Errors**: Check TypeScript configuration and imports
+#+begin_src shell
+npx tsc --noEmit  # Check types without building
+#+end_src
+
+## License
+
+MIT License - see the main project LICENSE file for details.

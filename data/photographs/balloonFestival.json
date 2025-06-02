@@ -1,32 +1,41 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Balloon Festival",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Event",
+  "cover": "/photographs/2018-02-24/2018-02-24_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2018-02-24/2018-02-24_001.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2018-02-24",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-02-24/2018-02-24_002.webp",
+      "orientation": "landscape",
+      "date": "2018-02-24",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-02-24/2018-02-24_003.webp",
+      "orientation": "landscape",
+      "date": "2018-02-24",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2018-02-24/2018-02-24_004.webp",
+      "orientation": "landscape",
+      "date": "2018-02-24",
+      "hidden": false
+    }
   ]
 }
-
-const BalloonFestival = new Album(
-  new Text('Balloon Festival'),
-  Genre.Event,
-  new Date('2018-02-24'),
-  new Photograph('/photographs/2018-02-24/2018-02-24_002.webp'),
-  [
-    new Photograph('/photographs/2018-02-24/2018-02-24_001.webp'),
-    new Photograph('/photographs/2018-02-24/2018-02-24_002.webp'),
-    new Photograph('/photographs/2018-02-24/2018-02-24_003.webp'),
-    new Photograph('/photographs/2018-02-24/2018-02-24_004.webp'),
-  ]);
-
-export default  BalloonFestival;

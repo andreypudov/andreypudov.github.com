@@ -1,32 +1,33 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Lolita Rakhmatova",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2015-12-12/2015-12-12_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2015-12-12/2015-12-12_001.webp",
+      "orientation": "portrait",
+      "date": "2015-12-12",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-12-12/2015-12-12_002.webp",
+      "orientation": "landscape",
+      "date": "2015-12-12",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2015-12-12/2015-12-12_003.webp",
+      "orientation": "portrait",
+      "date": "2015-12-12",
+      "hidden": false
+    }
   ]
 }
-
-const LolitaRakhmatova = new Album(
-  new Text('Lolita Rakhmatova'),
-  Genre.Portrait,
-  new Date('2015-12-12'),
-  new Photograph('/photographs/2015-12-12/2015-12-12_002.webp'),
-  [
-    new Photograph('/photographs/2015-12-12/2015-12-12_001.webp', true),
-    new Photograph('/photographs/2015-12-12/2015-12-12_002.webp'),
-    new Photograph('/photographs/2015-12-12/2015-12-12_003.webp', true),
-  ],
-  new Social('Лолита', 'Рахматова', 'Домохозяйка в Москве', 'https://vk.com/id112714393'));
-
-export default LolitaRakhmatova;

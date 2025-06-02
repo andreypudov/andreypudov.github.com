@@ -1,83 +1,449 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Ordesa and Monte Perdido National Park",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Nature",
+  "cover": "/photographs/2023-11-18/2023-11-18_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
+      "path": "/photographs/2023-11-18/2023-11-18_001.webp",
       "orientation": "landscape",
-      "date": "",
+      "date": "2023-11-18",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_002.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_003.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_004.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_005.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_006.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_007.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_008.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_009.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_010.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_011.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_012.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_013.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_014.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_015.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_016.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_017.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_018.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_019.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_020.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_021.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_022.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_023.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_024.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_025.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_026.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_027.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_028.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_029.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_030.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_031.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_032.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_033.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_034.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_035.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_036.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_037.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_038.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_039.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_040.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_041.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_042.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_043.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_044.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_045.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_046.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_047.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_048.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_049.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_050.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_051.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_052.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_053.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_054.webp",
+      "orientation": "portrait",
+      "date": "2023-11-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2023-11-18/2023-11-18_055.webp",
+      "orientation": "landscape",
+      "date": "2023-11-18",
+      "hidden": false
+    }
   ]
 }
-
-const Ordesa = new Album(
-  new Text('Ordesa and Monte Perdido National Park'),
-  Genre.Nature,
-  new Date('2023-11-18'),
-  new Photograph('/photographs/2023-11-18/2023-11-18_002.webp'),
-  [
-   new Photograph('/photographs/2023-11-18/2023-11-18_001.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_002.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_003.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_004.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_005.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_006.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_007.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_008.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_009.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_010.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_011.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_012.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_013.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_014.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_015.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_016.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_017.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_018.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_019.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_020.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_021.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_022.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_023.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_024.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_025.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_026.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_027.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_028.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_029.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_030.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_031.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_032.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_033.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_034.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_035.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_036.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_037.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_038.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_039.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_040.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_041.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_042.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_043.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_044.webp'),
-   new Photograph('/photographs/2023-11-18/2023-11-18_045.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_046.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_047.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_048.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_049.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_050.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_051.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_052.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_053.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_054.webp', true),
-   new Photograph('/photographs/2023-11-18/2023-11-18_055.webp'),
-  ]);
-
-export default Ordesa;

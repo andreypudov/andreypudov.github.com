@@ -1,80 +1,409 @@
 {
   "$schema": "../schemas/album.schema.json",
-
-  "name": "",
+  "name": "Andrey Pudov",
   "description": "",
-  "genre": "",
-  "cover": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2016-04-16/2016-04-16_002.webp",
   "items": [
     {
       "name": "",
       "description": "",
-      "path": "",
-      "orientation": "landscape",
-      "date": "",
+      "path": "/photographs/2022-07-09/2022-07-09_001.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
       "hidden": false
     },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_002.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_003.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_004.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_005.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_006.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_007.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_008.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_009.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_010.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_011.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_012.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_013.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_014.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_015.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_016.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_017.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_018.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_019.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_020.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_021.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_022.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_023.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_024.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_025.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_026.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_027.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_028.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_029.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_030.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_031.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_032.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_033.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_034.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_035.webp",
+      "orientation": "landscape",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_036.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_037.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_038.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_039.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-09/2022-07-09_040.webp",
+      "orientation": "portrait",
+      "date": "2022-07-09",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2022-07-04/2022-07-04_001.webp",
+      "orientation": "portrait",
+      "date": "2022-07-04",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_001.webp",
+      "orientation": "landscape",
+      "date": "2016-04-16",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_002.webp",
+      "orientation": "landscape",
+      "date": "2016-04-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_003.webp",
+      "orientation": "portrait",
+      "date": "2016-04-16",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_004.webp",
+      "orientation": "portrait",
+      "date": "2016-04-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_005.webp",
+      "orientation": "portrait",
+      "date": "2016-04-16",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_006.webp",
+      "orientation": "portrait",
+      "date": "2016-04-16",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_007.webp",
+      "orientation": "landscape",
+      "date": "2016-04-16",
+      "hidden": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_008.webp",
+      "orientation": "landscape",
+      "date": "2016-04-16",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2016-04-16/2016-04-16_009.webp",
+      "orientation": "landscape",
+      "date": "2016-04-16",
+      "hidden": true
+    }
   ]
 }
-
-const AndreyPudov = new Album(
-  new Text('Andrey Pudov'),
-  Genre.Portrait,
-  new Date('2022-07-09'),
-  new Photograph('/photographs/2016-04-16/2016-04-16_002.webp'),
-  [
-    new Photograph('/photographs/2022-07-09/2022-07-09_001.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_002.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_003.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_004.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_005.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_006.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_007.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_008.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_009.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_010.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_011.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_012.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_013.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_014.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_015.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_016.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_017.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_018.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_019.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_020.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_021.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_022.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_023.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_024.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_025.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_026.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_027.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_028.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_029.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_030.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_031.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_032.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_033.webp'),
-    new Photograph('/photographs/2022-07-09/2022-07-09_034.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_035.webp'),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_036.webp', true),
-    new Photograph('/photographs/2022-07-09/2022-07-09_037.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_038.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_039.webp', true),
-    // new Photograph('/photographs/2022-07-09/2022-07-09_040.webp', true),
-    new Photograph('/photographs/2022-07-04/2022-07-04_001.webp', true),
-    // new Photograph('/photographs/2016-04-16/2016-04-16_001.webp'),
-    new Photograph('/photographs/2016-04-16/2016-04-16_002.webp'),
-    // new Photograph('/photographs/2016-04-16/2016-04-16_003.webp', true),
-    new Photograph('/photographs/2016-04-16/2016-04-16_004.webp', true),
-    // new Photograph('/photographs/2016-04-16/2016-04-16_005.webp', true),
-    // new Photograph('/photographs/2016-04-16/2016-04-16_006.webp', true),
-    // new Photograph('/photographs/2016-04-16/2016-04-16_007.webp'),
-    new Photograph('/photographs/2016-04-16/2016-04-16_008.webp'),
-    // new Photograph('/photographs/2016-04-16/2016-04-16_009.webp'),
-  ],
-  new Social('Андрей', 'Пудов', 'Программист в Барселоне',
-    'https://vk.com/andreypudov', undefined, 'https://instagram.com/andrey.pudov/'));
-
-export default AndreyPudov;

@@ -1,0 +1,377 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Golden Age",
+  "description": "",
+  "genre": "Street",
+  "cover": "/photographs/2012-09-14_15/2012-09-14_15_005_large.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_001_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_002_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_003_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_004_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_005_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_006_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_007_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_008_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_009_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_010_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_011_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_012_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_013_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_014_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_015_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_016_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_017_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_018_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_019_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_020_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_021_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_022_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_023_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_024_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_025_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_026_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_027_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_028_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_029_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_030_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_031_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_032_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_033_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_034_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_035_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_036_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_037_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_038_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_039_large.webp",
+      "orientation": "portrait",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_040_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_041_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_042_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_043_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_044_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_045_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2012-09-14_15/2012-09-14_15_046_large.webp",
+      "orientation": "landscape",
+      "date": "2012-09-15",
+      "hidden": false
+    }
+  ]
+}

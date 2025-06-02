@@ -1,5 +1,6 @@
 import Album from '../core/photographyAlbum';
 import Photograph from '../core/photograph';
+import HiddenPhotograph from '../core/hiddenPhotograph';
 import Text from '../core/text';
 import Genre from '../core/genre';
 
@@ -9,11 +10,11 @@ const Altay = new Album(
   new Date('2020-08-24'),
   new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_100.webp'),
   [
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_002.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_003.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_004.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_005.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_006.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_002.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_003.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_004.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_005.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_006.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_008.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_010.webp', false, new Text('Mountain Devils Thumb')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_011.webp'),
@@ -46,7 +47,7 @@ const Altay = new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_046.webp', true),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_047.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_048.webp', true),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_049.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_049.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_050.webp', false, new Text('The road to Mount Aktru')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_051.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_052.webp'),
@@ -63,13 +64,13 @@ const Altay = new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_067.webp', true),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_068.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_069.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_070.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_070.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_072.webp', false, new Text('Mountain the Foreheads of Rams')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_080.webp', false, new Text('Great Aktru Glacier')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_081.webp', true, new Text('Blue Lake')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_082.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_083.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_085.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_085.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_087.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_088.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_092.webp'),
@@ -103,7 +104,7 @@ const Altay = new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_134.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_135.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_136.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_138.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_138.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_139.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_140.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_141.webp'),
@@ -140,7 +141,7 @@ const Altay = new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_178.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_179.webp', false, new Text('Karakol')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_180.webp'),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_182.webp'),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_182.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_183.webp', false, new Text('Ursul River')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_184.webp', false, new Text('Karakol')),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_189.webp', false, new Text('Petroglyphs in Karakol')),
@@ -150,7 +151,7 @@ const Altay = new Album(
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_193.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_194.webp'),
     new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_196.webp', false, new Text('Tavdinsky Caves')),
-    // new Photograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_199.webp', true),
+    new HiddenPhotograph('/photographs/2020-07-19_08-04/2020-07-19_08-04_199.webp', true),
   ]);
 
 export default Altay;
