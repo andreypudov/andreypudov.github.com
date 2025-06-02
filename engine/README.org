@@ -1,0 +1,20 @@
+#+title: Web Engine
+#+author: Andrey Pudov
+#+date: <2025-06-02 Mon>
+
+** Configuration
+
+#+begin_src shell
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pre-commit install
+#+end_src
+
+** Development
+
+*** Validate data
+
+#+begin_src shell
+python validate_data.py
+#+end_src
