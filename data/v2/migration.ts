@@ -105,7 +105,7 @@ const createJson = async (album: Album) => {
 const getDirectoryName = (page: Page): string => {
   switch (page.getType()) {
     case PageType.Article:
-      return "articles";
+      return "photographs";
     case PageType.Photographs:
       return "photographs";
     case PageType.Drawings:
