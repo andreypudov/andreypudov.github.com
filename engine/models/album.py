@@ -5,6 +5,7 @@ from models.item import Item
 
 @dataclass
 class Album:
+    schema: str
     name: str
     description: str
     genre: str

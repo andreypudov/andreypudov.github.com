@@ -1,4 +1,4 @@
-from providers.album_reader import AlbumReader
+from providers.data_reader import read_data
 
-print("Hello from validate_data.py")
-print(AlbumReader.read("../data/photographs/alinaCherdakova.json"))
+data = read_data(validate_data=True)
+print(f"Data validation completed. Found {len(data)} albums.")
