@@ -3,7 +3,7 @@ from pathlib import Path
 from datetime import datetime
 from models.album import Album
 from models.item import Item
-from validators.validate_schema import validate_schema
+from validators.validate_album_schema import validate_album_schema
 
 DATE_FORMAT = "%Y-%m-%d"
 
@@ -43,7 +43,7 @@ def read_album(filepath: str | Path, validate_data: bool = False) -> Album:
             data = json.load(file)
 
             if validate_data:
-                validate_schema(data)
+                validate_album_schema(data)
             return __parse_album(data)
     except json.JSONDecodeError as e:
         raise ValueError(f"Invalid JSON format: {e}")
