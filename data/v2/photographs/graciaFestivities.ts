@@ -7,7 +7,7 @@ const GraciaFestivities = new Album(
   new Text('Castellers de la Vila de Gràcia'),
   Genre.Street,
   new Date('2024-08-18'),
-  new Photograph('/photographs/2024-08-18/2024-08-18_000.webp'),
+  new Photograph('/photographs/2024-08-18/2024-08-18_004.webp'),
   [
    new Photograph('/photographs/2024-08-18/2024-08-18_001.webp', true),
    new Photograph('/photographs/2024-08-18/2024-08-18_002.webp', true),
