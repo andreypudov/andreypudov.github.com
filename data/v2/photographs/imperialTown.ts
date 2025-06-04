@@ -41,7 +41,7 @@ const ImperialTown = new Album(
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_030_large.webp'),
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_031_large.webp'),
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_032_large.webp'),
-    new Photograph('/photographs/2012-05-05_09/2012-05-05_09_033_large.webp'),
+    new Photograph('/photographs/2012-05-05_09/2012-05-05_09_033_large.webp', true),
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_034_large.webp'),
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_035_large.webp'),
     new Photograph('/photographs/2012-05-05_09/2012-05-05_09_036_large.webp'),

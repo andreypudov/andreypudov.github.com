@@ -53,7 +53,7 @@ const MilitaryMuseum = new Album(
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_042_large.webp'),
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_043_large.webp'),
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_044_large.webp'),
-    new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_045_large.webp'),
+    new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_045_large.webp', true),
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_046_large.webp'),
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_047_large.webp'),
     new Photograph('/photographs/2014-12-21_25_museum/2014-12-21_25_048_large.webp'),

@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import datetime
 from models.album import Album
 from models.item import Item
+from models.orientation import Orientation
 from validators.validate_album_cover import validate_album_cover
 from validators.validate_album_schema import validate_album_schema
 from validators.validate_media_date import validate_media_date
@@ -18,7 +19,7 @@ def __parse_item(data: dict, validate_data: bool = False) -> Item:
             name=data["name"],
             description=data["description"],
             path=data["path"],
-            orientation=data["orientation"],
+            orientation=Orientation(data["orientation"]),
             date=datetime.strptime(data["date"], DATE_FORMAT).date(),
             hidden=data["hidden"],
         )
