@@ -36,7 +36,7 @@ const GoldenAge = new Album(
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_025_large.webp'),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_026_large.webp'),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_027_large.webp'),
-    new Photograph('/photographs/2012-09-14_15/2012-09-14_15_028_large.webp'),
+    new Photograph('/photographs/2012-09-14_15/2012-09-14_15_028_large.webp', true),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_029_large.webp'),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_030_large.webp'),
     new Photograph('/photographs/2012-09-14_15/2012-09-14_15_031_large.webp', true),
