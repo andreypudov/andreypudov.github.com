@@ -13,13 +13,18 @@ def __compile_validator(schema_path: str):
     return fastjsonschema.compile(schema)
 
 
-def validate_album_schema(album_data: dict) -> None:
+def validate_album_schema(album_data: dict) -> bool:
+    name = album_data.get("name", "<unknown>")
+    print(f"Validating {name} against schema...")
+
     try:
-        name = album_data.get("name", "<unknown>")
-        print(f"Validating {name} against schema...")
         validate_func = __compile_validator(SCHEMA_FILE)
         validate_func(album_data)
     except JsonSchemaException as e:
         print(f"Validation error: {e.message}")
+        return False
     except Exception as e:
         print(f"Error: {str(e)}")
+        return False
+
+    return True

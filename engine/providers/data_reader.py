@@ -11,8 +11,7 @@ def read_data(validate_data: bool = False) -> List[Album]:
     albums = []
     for category in category_list:
         if not category.is_dir():
-            print(f"Category {category} does not exist.")
-            exit(1)
+            raise FileNotFoundError(f"Category {category} does not exist.")
 
         for filepath in category.iterdir():
             if not filepath.is_file():
@@ -20,8 +19,9 @@ def read_data(validate_data: bool = False) -> List[Album]:
 
             album = read_album(str(filepath), validate_data=validate_data)
             if not album:
-                print(f"Album file {filepath} is empty or invalid.")
-                exit(1)
+                raise FileNotFoundError(
+                    "Album file " f"{filepath} is empty or invalid."
+                )
 
             albums.append(album)
 

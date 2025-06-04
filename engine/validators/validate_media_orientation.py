@@ -1,5 +1,5 @@
 from models.item import Item
 
 
-def validate_media_orientation(item: Item) -> None:
-    return None
+def validate_media_orientation(item: Item) -> bool:
+    return True
