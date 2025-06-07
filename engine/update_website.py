@@ -12,9 +12,13 @@ INDEX_FILE = Path("../index.html")
 INDEX_TEMPLATE = Path("./templates/index.html")
 
 
-def __render_template(template_type: str, items: List[str]) -> str:
+def __render_template(
+    template_type: str,
+    items: List[str],
+    data: List[Album],
+) -> str:
     if template_type == "carousel":
-        return __render_carousel(items)
+        return __render_carousel(items, data)
     else:
         raise ValueError(f"Unknown template type: {template_type}")
 
@@ -27,16 +31,20 @@ def __parse_template(template_str: str) -> Tuple[str, List[str]]:
         raise ValueError("No <template> tag found in input")
 
     template_type = template_tag.get("type", "").strip()
-    items = [li.get_text(strip=True) for li in template_tag.find_all("li")]
+    inner_soup = BeautifulSoup(template_tag.decode_contents(), "html.parser")
+    items = [li.get_text(strip=True) for li in inner_soup.find_all("li")]
 
     return template_type, items
 
 
-def __process_template(template_file_content: str) -> str:
+def __process_template(
+    template_file_content: str,
+    data: List[Album],
+) -> str:
     def replacer(match):
         template_str = match.group(0)
         template_type, items = __parse_template(template_str)
-        return __render_template(template_type, items)
+        return __render_template(template_type, items, data)
 
     pattern = re.compile(r"<template[^>]*?>.*?</template>", re.DOTALL)
 
@@ -51,7 +59,7 @@ def __update_file(
     with open(template_path, "r") as template_file:
         template_file_content = template_file.read()
 
-    processed_content = __process_template(template_file_content)
+    processed_content = __process_template(template_file_content, data)
 
     with open(file_path, "w") as output_file:
         output_file.write(processed_content)

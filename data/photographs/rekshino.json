@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/album.schema.json",
-  "name": "Rekshino",
-  "description": "",
+  "name": "A Stroll Through Rekshino",
+  "description": "A quiet walk through the village of Rekshino, where time slows and nature sets the rhythm of life.",
   "genre": "Nature",
   "cover": "/photographs/2019-10-26/2019-10-26_007.webp",
   "items": [
@@ -54,8 +54,8 @@
       "hidden": false
     },
     {
-      "name": "",
-      "description": "",
+      "name": "A Stroll Through Rekshino",
+      "description": "A quiet walk through the village of Rekshino, where time slows and nature sets the rhythm of life.",
       "path": "/photographs/2019-10-26/2019-10-26_007.webp",
       "orientation": "landscape",
       "date": "2019-10-26",
