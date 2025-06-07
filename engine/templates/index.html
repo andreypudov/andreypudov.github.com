@@ -88,13 +88,56 @@
   </header>
 
   <main>
-    <template type="carousel">
-      <li>2023-10-06_08_004.webp</li>
-      <li>2021-07-24_08-02_089.webp</li>
-      <li>2019-10-26_007.webp</li>
-      <li>2016-10-15_11-05_019_large.webp</li>
-      <li>2015-07-27_08-08_022_large.webp</li>
-    </template>
+    <div class="carousel">
+      <div class="overlay">
+        <div class="corners">
+          <div class="left-top"></div>
+          <div class="right-top"></div>
+          <div class="left-bottom"></div>
+          <div class="right-bottom"></div>
+        </div>
+      </div>
+
+      <div class="inner">
+        <template type="list" data="album-item">
+          <thead>
+            <var>2023-10-06_08_004.webp</var>
+            <var>2021-07-24_08-02_089.webp</var>
+            <var>2019-10-26_007.webp</var>
+            <var>2016-10-15_11-05_019_large.webp</var>
+            <var>2015-07-27_08-08_022_large.webp</var>
+          </thead>
+          <tbody>
+            <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index == 0 ? 'checked="checked"' : ''}>
+            <div class="item">
+              <span>
+                ${item.name}
+                <small>${item.description}</small>
+              </span>
+              <img src="media/${item.path}" alt="${item.description}" loading="eager" />
+            </div>
+          </tbody>
+        </template>
+
+        <ol class="indicators">
+          <li>
+            <label for="carousel-1" class="bullet">01</label>
+          </li>
+          <li>
+            <label for="carousel-2" class="bullet">02</label>
+          </li>
+          <li>
+            <label for="carousel-3" class="bullet">03</label>
+          </li>
+          <li>
+            <label for="carousel-4" class="bullet">04</label>
+          </li>
+          <li>
+            <label for="carousel-5" class="bullet">05</label>
+          </li>
+        </ol>
+      </div>
+    </div>
 
     <div class="feature-grid container">
       <div class="column">
