@@ -4,14 +4,15 @@ from argparse import ArgumentParser, Namespace
 from os import path as os_path
 from pathlib import Path
 from providers.dataset_reader import read_dataset
+import sys
 
 
-def __parse_arguments() -> Namespace:
+def parse_arguments() -> Namespace:
     """
-    Parses command-line arguments for the validation script.
+    Parses command-line arguments for the dataset validation script.
 
     Returns:
-        arguments: An object containing the parsed command line-arguments.
+        Namespace: The parsed command-line arguments.
     """
 
     parser = ArgumentParser(
@@ -34,30 +35,29 @@ def __parse_arguments() -> Namespace:
     return parser.parse_args()
 
 
-def __check_arguments(args: Namespace) -> None:
+def check_arguments(args: Namespace) -> None:
     """
-    Check the validity of input and output subtitle files.
+    Validates input paths.
 
-    This function checks if the provided dataset directory and schema file
-    exist. If they do not exist, it exits the program with an error message.
+    Checks whether the provided dataset directory and schema file exist.
+    Exits with an error if they are missing.
     """
     if not os_path.isdir(args.data_set):
-        exit(f"Directory {args.data_set} does not exist")
+        sys.exit(f"Directory {args.data_set} does not exist")
 
     if not os_path.isfile(args.schema):
-        exit(f"File {args.schema} does not exist")
+        sys.exit(f"File {args.schema} does not exist")
 
 
 def main() -> None:
     """
-    Main function for translating subtitles.
+    Main function for dataset validation.
 
-    This function parses command line arguments, checks the arguments,
-    and performs the translation process.
+    Parses command-line arguments, checks them, and validates the dataset.
     """
 
-    args = __parse_arguments()
-    __check_arguments(args)
+    args = parse_arguments()
+    check_arguments(args)
 
     try:
         data = read_dataset(
@@ -68,6 +68,7 @@ def main() -> None:
         print(f"Data validation completed. Found {len(data)} albums.")
     except Exception as e:
         print(f"Data validation failed: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

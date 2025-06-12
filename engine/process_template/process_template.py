@@ -1,73 +1,68 @@
-from pathlib import Path
-from typing import List
-from bs4 import BeautifulSoup
-from typing import Tuple
-import re
+"""Process template"""
 
-from models.album import Album
-from providers.data_reader import read_data
-from renders.render_carousel import __render_carousel
-
-INDEX_FILE = Path("../index.html")
-INDEX_TEMPLATE = Path("../templates/index.html")
+from argparse import ArgumentParser, Namespace
+from os import path as os_path
+import sys
 
 
-def __render_template(
-    template_type: str,
-    items: List[str],
-    data: List[Album],
-) -> str:
-    if template_type == "carousel":
-        return __render_carousel(items, data)
-    else:
-        raise ValueError(f"Unknown template type: {template_type}")
+def parse_arguments() -> Namespace:
+    """
+    Parses command-line arguments for the template script.
+
+    Returns:
+        Namespace: The parsed command-line arguments.
+    """
+
+    parser = ArgumentParser(
+        prog="process_template",
+        description="Process template",
+    )
+
+    parser.add_argument(
+        "--template",
+        help="the location of the template file",
+        required=True,
+    )
+
+    parser.add_argument(
+        "--output",
+        help="the location of the output file",
+        required=True,
+    )
+
+    return parser.parse_args()
 
 
-def __parse_template(template_str: str) -> Tuple[str, List[str]]:
-    soup = BeautifulSoup(template_str, "html.parser")
-    template_tag = soup.find("template")
+def check_arguments(args: Namespace) -> None:
+    """
+    Validates input paths.
 
-    if not template_tag:
-        raise ValueError("No <template> tag found in input")
+    Checks whether the provided template file and output file exist.
+    Exits with an error if they are missing.
+    """
+    if not os_path.isfile(args.template):
+        sys.exit(f"File {args.template} does not exist")
 
-    template_type = template_tag.get("type", "").strip()
-    inner_soup = BeautifulSoup(template_tag.decode_contents(), "html.parser")
-    items = [li.get_text(strip=True) for li in inner_soup.find_all("li")]
-
-    return template_type, items
-
-
-def __process_template(
-    template_file_content: str,
-    data: List[Album],
-) -> str:
-    def replacer(match):
-        template_str = match.group(0)
-        template_type, items = __parse_template(template_str)
-        return __render_template(template_type, items, data)
-
-    pattern = re.compile(r"<template[^>]*?>.*?</template>", re.DOTALL)
-
-    return pattern.sub(replacer, template_file_content)
+    if not os_path.isfile(args.output):
+        sys.exit(f"File {args.output} does not exist")
 
 
-def __update_file(
-    file_path: str,
-    template_path: str,
-    data: List[Album],
-) -> None:
-    with open(template_path, "r") as template_file:
-        template_file_content = template_file.read()
+def main() -> None:
+    """
+    Main function for template processing.
 
-    processed_content = __process_template(template_file_content, data)
+    Parses command-line arguments, checks them, and processes the template.
+    """
 
-    with open(file_path, "w") as output_file:
-        output_file.write(processed_content)
+    args = parse_arguments()
+    check_arguments(args)
+
+    try:
+        print("Template processing completed.")
+    except Exception as e:
+        print(f"Template processing failed: {e}")
+        sys.exit(1)
 
 
-try:
-    data = read_data()
-
-    __update_file(INDEX_FILE, INDEX_TEMPLATE, data)
-except Exception as e:
-    print(f"Failed to update website: {e}")
+if __name__ == "__main__":
+    main()
