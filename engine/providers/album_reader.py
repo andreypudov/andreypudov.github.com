@@ -62,17 +62,18 @@ def __parse_album(data: dict, validate_data: bool = False) -> Album:
         raise ValueError(f"Invalid album data: {e}")
 
 
-def read_album(filepath: str | Path, validate_data: bool = False) -> Album:
+def read_album(
+    album_path: Path, schema_path: Path, validate_data: bool = False
+) -> Album:
     try:
-        path = Path(filepath)
-        with path.open("r", encoding="utf-8") as file:
+        with album_path.open("r", encoding="utf-8") as file:
             data = json.load(file)
 
             if validate_data:
-                if validate_album_schema(data) is False:
+                if validate_album_schema(data, schema_path) is False:
                     raise ValueError("Album data does not conform to schema.")
             return __parse_album(data, validate_data=validate_data)
     except json.JSONDecodeError as e:
         raise ValueError(f"Invalid JSON format: {e}")
     except FileNotFoundError:
-        raise FileNotFoundError(f"Album file not found: {filepath}")
+        raise FileNotFoundError(f"Album file not found: {album_path}")

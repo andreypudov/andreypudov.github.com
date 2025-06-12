@@ -2,6 +2,16 @@
 #+author: Andrey Pudov
 #+date: <2025-06-02 Mon>
 
+* Web Engine
+
+** Validate dataset
+
+#+begin_src shell
+python -m validate_dataset.validate_dataset \
+  --data-set ../data/photographs \
+  --schema ../data/schemas/album.schema.json
+#+end_src
+
 ** Configuration
 
 #+begin_src shell

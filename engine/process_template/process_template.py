@@ -9,7 +9,7 @@ from providers.data_reader import read_data
 from renders.render_carousel import __render_carousel
 
 INDEX_FILE = Path("../index.html")
-INDEX_TEMPLATE = Path("./templates/index.html")
+INDEX_TEMPLATE = Path("../templates/index.html")
 
 
 def __render_template(
