@@ -21,7 +21,7 @@ def parse_arguments() -> Namespace:
     )
 
     parser.add_argument(
-        "--data-set",
+        "--dataset",
         help="the location of the dataset to validate",
         required=True,
     )
@@ -42,8 +42,8 @@ def check_arguments(args: Namespace) -> None:
     Checks whether the provided dataset directory and schema file exist.
     Exits with an error if they are missing.
     """
-    if not os_path.isdir(args.data_set):
-        sys.exit(f"Directory {args.data_set} does not exist")
+    if not os_path.isdir(args.dataset):
+        sys.exit(f"Directory {args.dataset} does not exist")
 
     if not os_path.isfile(args.schema):
         sys.exit(f"File {args.schema} does not exist")
@@ -60,12 +60,12 @@ def main() -> None:
     check_arguments(args)
 
     try:
-        data = read_dataset(
-            Path(args.data_set),
+        dataset = read_dataset(
+            Path(args.dataset),
             Path(args.schema),
             validate_data=True,
         )
-        print(f"Data validation completed. Found {len(data)} albums.")
+        print(f"Data validation completed. Found {len(dataset)} albums.")
     except Exception as e:
         print(f"Data validation failed: {e}")
         sys.exit(1)

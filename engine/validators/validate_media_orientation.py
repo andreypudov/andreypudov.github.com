@@ -1,8 +1,8 @@
 from PIL import Image
 from models.item import Item
 from models.orientation import Orientation
-from utils.is_url import is_url
-from utils.media_path import get_media_path
+from utils.path_utils import is_url
+from utils.path_utils import get_media_path
 
 
 def __get_orientation(height: int, width: int) -> Orientation:

@@ -1,6 +1,5 @@
 from pathlib import Path
 from typing import List
-
 from models.album import Album
 from providers.album_reader import read_album
 

@@ -2,8 +2,8 @@ from typing import List
 from dominate.tags import ol, li, label, div, input_, span, img, small
 from models.item import Item
 from models.album import Album
-from utils.indent_string import indent_string
-from utils.get_item_by_file_name import get_item_by_file_name
+from utils.string_utils import indent_string
+from utils.path_utils import get_item_by_file_name
 
 CAROUSEL_OVERLAY = """
       <div class="overlay">

@@ -100,21 +100,23 @@
 
       <div class="inner">
         <template>
-          <vars name="albumItems" data-source="albumsDb">
-            <var>2023-10-06_08_004.webp</var>
-            <var>2021-07-24_08-02_089.webp</var>
-            <var>2019-10-26_007.webp</var>
-            <var>2016-10-15_11-05_019_large.webp</var>
-            <var>2015-07-27_08-08_022_large.webp</var>
+          <vars>
+            <dataset data-fields="path, name, description">
+              <var>2023-10-06_08_004.webp</var>
+              <var>2021-07-24_08-02_089.webp</var>
+              <var>2019-10-26_007.webp</var>
+              <var>2016-10-15_11-05_019_large.webp</var>
+              <var>2015-07-27_08-08_022_large.webp</var>
+            </dataset>
           </vars>
-          <repeat item="item" index="index" in="albumItems">
+          <repeat item="item" index="index">
             <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index === 0 ? 'checked="checked"' : ''}>
             <div class="item">
               <span>
-                ${item.name}
-                <small>${item.description}</small>
+                ${name}
+                <small>${description}</small>
               </span>
-              <img src="media/${item.path}" alt="${item.description}" loading="${index === 0 && 'eager'}" />
+              <img src="media/${path}" alt="${description}" loading="${index === 0 && 'eager'}" />
             </div>
           </repeat>
         </template>

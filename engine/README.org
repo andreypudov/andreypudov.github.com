@@ -8,15 +8,24 @@
 
 #+begin_src shell
 python -m validate_dataset.validate_dataset \
-  --data-set ../data/photographs \
+  --dataset ../data/photographs \
   --schema ../data/schemas/album.schema.json
+#+end_src
+
+** Process dataset
+
+#+begin_src shell
+python -m process_dataset.process_dataset \
+  --template ../templates/index.html \
+  --dataset ../data/photographs \
+  --output ../index.html
 #+end_src
 
 ** Process templates
 
 #+begin_src shell
 python -m process_template.process_template \
-  --template ../templates/index.html \
+  --template ../index.html \
   --output ../index.html
 #+end_src
 
@@ -27,12 +36,4 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 pre-commit install
-#+end_src
-
-** Development
-
-*** Validate data
-
-#+begin_src shell
-python validate_data.py
 #+end_src

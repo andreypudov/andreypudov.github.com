@@ -1,6 +1,12 @@
+from urllib.parse import urlparse
 from pathlib import Path
 
 MEDIA_DIRECTORY = Path("../media/").resolve()
+
+
+def is_url(path: str) -> bool:
+    parsed = urlparse(path)
+    return parsed.scheme in ("http", "https") and bool(parsed.netloc)
 
 
 def get_media_path(item_path: str) -> Path:

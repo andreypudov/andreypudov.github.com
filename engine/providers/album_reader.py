@@ -13,7 +13,7 @@ from validators.validate_media_orientation import validate_media_orientation
 DATE_FORMAT = "%Y-%m-%d"
 
 
-def __parse_item(data: dict, validate_data: bool = False) -> Item:
+def parse_item(data: dict, validate_data: bool = False) -> Item:
     try:
         item = Item(
             name=data["name"],
@@ -39,7 +39,7 @@ def __parse_item(data: dict, validate_data: bool = False) -> Item:
         raise ValueError(f"Invalid item data: {e}")
 
 
-def __parse_album(data: dict, validate_data: bool = False) -> Album:
+def parse_album(data: dict, validate_data: bool = False) -> Album:
     try:
         album = Album(
             schema=data.get("$schema", ""),
@@ -48,7 +48,10 @@ def __parse_album(data: dict, validate_data: bool = False) -> Album:
             genre=data["genre"],
             cover=data["cover"],
             items=[
-                __parse_item(item, validate_data=validate_data)
+                parse_item(
+                    item,
+                    validate_data=validate_data,
+                )
                 for item in data["items"]
             ],
         )
@@ -72,7 +75,7 @@ def read_album(
             if validate_data:
                 if validate_album_schema(data, schema_path) is False:
                     raise ValueError("Album data does not conform to schema.")
-            return __parse_album(data, validate_data=validate_data)
+            return parse_album(data, validate_data=validate_data)
     except json.JSONDecodeError as e:
         raise ValueError(f"Invalid JSON format: {e}")
     except FileNotFoundError:
