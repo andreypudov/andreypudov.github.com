@@ -1,51 +1,58 @@
 from pathlib import Path
 from typing import List
-from bs4 import BeautifulSoup
-from typing import Tuple
 import re
+
+from bs4 import BeautifulSoup
 
 from models.album import Album
 from providers.query_dataset import query_album_item
 
 
-def render_dataset_values(
-    dataset_fields: str,
-    items: List[str],
-    data: List[Album],
-    indentation: str = "",
-) -> str:
-    rendered_lines: List[str] = []
-    field_names = [field.strip() for field in dataset_fields.split(",")]
-
-    for filename in items:
-        album_item = query_album_item(data, filename)
-
-        if album_item:
-            attributes: List[str] = []
-            for field_name in field_names:
-                field_value = getattr(album_item, field_name, "")
-                attributes.append(f'{field_name}="{str(field_value)}"')
-
-            attr_string = " ".join(attributes)
-
-            rendered_line = f"{indentation}<var {attr_string}>{filename}</var>"
-            rendered_lines.append(rendered_line)
-
-    return "".join(rendered_lines)
-
-
-def parse_dataset_tag(dataset_str: str) -> Tuple[str, List[str]]:
-    soup = BeautifulSoup(dataset_str, "html.parser")
+def parse_dataset_attributes(opening_tag: str) -> str:
+    soup = BeautifulSoup(opening_tag, "html.parser")
     dataset_tag = soup.find("dataset")
 
     if not dataset_tag:
-        raise ValueError("No <dataset> tag found in input")
+        raise ValueError("No <dataset> tag found in opening tag")
 
-    dataset_fields = dataset_tag.get("data-fields", "").strip()
-    inner_soup = BeautifulSoup(dataset_tag.decode_contents(), "html.parser")
-    items = [var.get_text(strip=True) for var in inner_soup.find_all("var")]
+    return dataset_tag.get("data-fields", "").strip()
 
-    return dataset_fields, items
+
+def replace_var_tag(line: str, dataset_fields: str, data: List[Album]) -> str:
+    var_match = re.search(r"<var[^>]*>(.*?)</var>", line)
+    if not var_match:
+        return line
+
+    filename = var_match.group(1).strip()
+    album_item = query_album_item(data, filename)
+
+    if not album_item:
+        return line
+
+    field_names = [field.strip() for field in dataset_fields.split(",")]
+    attributes: List[str] = []
+
+    for field_name in field_names:
+        field_value = getattr(album_item, field_name, "")
+        attributes.append(f'{field_name}="{str(field_value)}"')
+
+    attr_string = " ".join(attributes)
+    new_var_tag = f"<var {attr_string}>{filename}</var>"
+
+    return re.sub(r"<var[^>]*>.*?</var>", new_var_tag, line)
+
+
+def process_dataset_content(
+    content: str, dataset_fields: str, data: List[Album]
+) -> str:
+    lines = content.split("\n")
+    processed_lines = []
+
+    for line in lines:
+        processed_line = replace_var_tag(line, dataset_fields, data)
+        processed_lines.append(processed_line)
+
+    return "\n".join(processed_lines)
 
 
 def process_dataset_tag(
@@ -53,15 +60,16 @@ def process_dataset_tag(
     data: List[Album],
 ) -> str:
     def replacer(match):
-        full_match = match.group(0)
-        indentation_match = re.match(r"(\s*)<dataset", full_match)
-        indentation = indentation_match.group(1) if indentation_match else ""
+        opening_tag = match.group(1)
+        content = match.group(2)
+        closing_tag = match.group(3)
 
-        dataset_str = full_match
-        dataset_fields, items = parse_dataset_tag(dataset_str)
-        return render_dataset_values(dataset_fields, items, data, indentation)
+        dataset_fields = parse_dataset_attributes(opening_tag)
+        new_content = process_dataset_content(content, dataset_fields, data)
 
-    pattern = re.compile(r"(\s*)<dataset[^>]*?>.*?</dataset>", re.DOTALL)
+        return opening_tag + new_content + closing_tag
+
+    pattern = re.compile(r"(\s*<dataset[^>]*?>)(.*?)(</dataset>)", re.DOTALL)
 
     return pattern.sub(replacer, template_file_content)
 

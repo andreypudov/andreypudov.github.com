@@ -51,6 +51,14 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Y9W77G5B"></script>
   <script src="scripts/analytics.js?v=1.0" type="module"></script>
+
+  <dataset data-name="carousel-items" data-fields="path, name, description">
+    <var>2023-10-06_08_004.webp</var>
+    <var>2021-07-24_08-02_089.webp</var>
+    <var>2019-10-26_007.webp</var>
+    <var>2016-10-15_11-05_019_large.webp</var>
+    <var>2015-07-27_08-08_022_large.webp</var>
+  </dataset>
 </head>
 
 <body>
@@ -100,15 +108,6 @@
 
       <div class="inner">
         <template>
-          <vars>
-            <dataset data-fields="path, name, description">
-              <var>2023-10-06_08_004.webp</var>
-              <var>2021-07-24_08-02_089.webp</var>
-              <var>2019-10-26_007.webp</var>
-              <var>2016-10-15_11-05_019_large.webp</var>
-              <var>2015-07-27_08-08_022_large.webp</var>
-            </dataset>
-          </vars>
           <repeat item="item" index="index">
             <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index === 0 ? 'checked="checked"' : ''}>
             <div class="item">
