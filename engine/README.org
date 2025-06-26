@@ -4,7 +4,32 @@
 
 * Web Engine
 
-** Validate dataset
+** Overview
+
+*Web Engine* is a template-based static site generator designed to streamline the creation of websites using structured data. It transforms a set of HTML templates and a dataset (in JSON format) into a fully rendered static website.
+
+The engine performs two main functions:
+
+- *Data Injection* — Inserts content from JSON files into custom ~dataset~ tags within the template files.
+- *Template Rendering* — Processes custom logic tags, such as ~repeat~ tags, to dynamically generate repeated HTML structures based on the dataset.
+
+This architecture promotes a clear separation of content and layout, enabling maintainable and scalable static websites.
+
+** Build Website
+
+To build the complete website using default settings:
+
+#+begin_src shell
+./build_website.sh
+#+end_src
+
+** Manual Step-by-Step Execution
+
+For more granular control, you can run each stage manually:
+
+*** 1. Validate Dataset
+
+Ensure your dataset complies with the schema definition:
 
 #+begin_src shell
 python -m validate_dataset.validate_dataset \
@@ -12,7 +37,9 @@ python -m validate_dataset.validate_dataset \
   --schema ../data/schemas/album.schema.json
 #+end_src
 
-** Process dataset
+*** 2. Process Dataset Tags
+
+Inject data from the dataset into the template:
 
 #+begin_src shell
 python -m process_dataset.process_dataset \
@@ -21,15 +48,19 @@ python -m process_dataset.process_dataset \
   --output ../index.html
 #+end_src
 
-** Process templates
+*** 3. Process Repeat Tags
+
+Render repeatable blocks based on the dataset:
 
 #+begin_src shell
-python -m process_template.process_template \
+python -m process_repeat.process_repeat \
   --template ../index.html \
   --output ../index.html
 #+end_src
 
-** Configuration
+** Environment Setup
+
+Create and activate a virtual environment, install dependencies, and set up pre-commit hooks:
 
 #+begin_src shell
 python3 -m venv venv

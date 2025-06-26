@@ -107,18 +107,16 @@
       </div>
 
       <div class="inner">
-        <template>
-          <repeat item="item" index="index">
-            <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index === 0 ? 'checked="checked"' : ''}>
-            <div class="item">
-              <span>
-                ${name}
-                <small>${description}</small>
-              </span>
-              <img src="media/${path}" alt="${description}" loading="${index === 0 && 'eager'}" />
-            </div>
-          </repeat>
-        </template>
+        <repeat item="item" index="index" data-set="carousel-items">
+          <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index === 0 ? 'checked="checked"' : ''}>
+          <div class="item">
+            <span>
+              ${name}
+              <small>${description}</small>
+            </span>
+            <img src="media/${path}" alt="${description}" loading="${index === 0 && 'eager'}" />
+          </div>
+        </repeat>
 
         <ol class="indicators">
           <li>

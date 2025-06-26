@@ -29,15 +29,15 @@ process_dataset() {
   fi
 }
 
-process_template() {
+process_repeat() {
   template="$1"
   output="$2"
 
-  python3 -m process_template.process_template \
+  python3 -m process_repeat.process_repeat \
   --template "$template" \
   --output "$output" > /dev/null 2>&1
   if [ $? -ne 0 ]; then
-    echo "Template processing failed."
+    echo "Repeat processing failed."
     exit 1
   fi
 }
@@ -48,7 +48,7 @@ echo "Validating dataset..."
 echo "Processing datasets..."
 process_dataset "../templates/index.html" "../data/photographs" "../index.html"
 
-echo "Processing templates..."
-# process_template "../index.html" "../index.html"
+echo "Processing repeats..."
+process_repeat "../index.html" "../index.html"
 
 echo "Website build completed successfully."
