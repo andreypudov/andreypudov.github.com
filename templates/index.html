@@ -51,7 +51,6 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Y9W77G5B"></script>
   <script src="scripts/analytics.js?v=1.0" type="module"></script>
-
   <dataset data-name="carousel-items" data-fields="path, name, description">
     <var>2023-10-06_08_004.webp</var>
     <var>2021-07-24_08-02_089.webp</var>
@@ -107,14 +106,14 @@
       </div>
 
       <div class="inner">
-        <repeat item="item" index="index" data-set="carousel-items">
+        <repeat data-index="index" data-set="carousel-items">
           <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index === 0 ? 'checked="checked"' : ''}>
           <div class="item">
             <span>
               ${name}
               <small>${description}</small>
             </span>
-            <img src="media/${path}" alt="${description}" loading="${index === 0 && 'eager'}" />
+            <img src="media${path}" alt="${description}" loading="${index === 0 ? 'eager' : 'lazy'}" />
           </div>
         </repeat>
 

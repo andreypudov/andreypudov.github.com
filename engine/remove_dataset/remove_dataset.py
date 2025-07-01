@@ -3,21 +3,21 @@
 from argparse import ArgumentParser, Namespace
 from os import path as os_path
 from pathlib import Path
-from process_repeat.render_repeat import render_repeat
+from remove_dataset.render_template import remove_dataset
 import sys
 
 
 def parse_arguments() -> Namespace:
     """
-    Parses command-line arguments for the repeat script.
+    Parses command-line arguments for the remove dataset script.
 
     Returns:
         Namespace: The parsed command-line arguments.
     """
 
     parser = ArgumentParser(
-        prog="process_repeat",
-        description="Process repeat",
+        prog="remove_dataset",
+        description="Remove dataset",
     )
 
     parser.add_argument(
@@ -51,19 +51,19 @@ def check_arguments(args: Namespace) -> None:
 
 def main() -> None:
     """
-    Main function for repeat processing.
+    Main function for dataset removing.
 
-    Parses command-line arguments, checks them, and processes the repeat.
+    Parses command-line arguments, checks them, and removes the dataset.
     """
 
     args = parse_arguments()
     check_arguments(args)
 
     try:
-        render_repeat(Path(args.template), Path(args.output))
-        print("Repeat processing completed.")
+        remove_dataset(Path(args.template), Path(args.output))
+        print("Dataset removing completed.")
     except Exception as e:
-        print(f"Repeat processing failed: {e}")
+        print(f"Dataset removing failed: {e}")
         sys.exit(1)
 
 

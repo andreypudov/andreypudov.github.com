@@ -2,4 +2,3 @@
 max-line-length = 80
 exclude = venv
 extend-ignore = E203
-per-file-ignores = engine/renders/render_carousel.py: E501

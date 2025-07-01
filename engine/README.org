@@ -58,6 +58,15 @@ python -m process_repeat.process_repeat \
   --output ../index.html
 #+end_src
 
+*** 4. Remove Dataset Tags
+
+Remove dataset tags from the final output:
+#+begin_src shell
+python -m remove_dataset.remove_dataset \
+  --template ../index.html \
+  --output ../index.html
+#+end_src
+
 ** Environment Setup
 
 Create and activate a virtual environment, install dependencies, and set up pre-commit hooks:

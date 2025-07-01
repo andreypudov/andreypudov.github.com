@@ -42,6 +42,20 @@ process_repeat() {
   fi
 }
 
+remove_dataset() {
+  template="$1"
+  output="$2"
+
+  python3 -m remove_dataset.remove_dataset \
+  --template "$template" \
+  --output "$output" > /dev/null 2>&1
+  if [ $? -ne 0 ]; then
+    echo "Dataset removing failed."
+    exit 1
+  fi
+}
+
+
 echo "Validating dataset..."
 # validate_dataset "../data/photographs"
 
@@ -50,5 +64,8 @@ process_dataset "../templates/index.html" "../data/photographs" "../index.html"
 
 echo "Processing repeats..."
 process_repeat "../index.html" "../index.html"
+
+echo "Removing dataset tags..."
+remove_dataset "../index.html" "../index.html"
 
 echo "Website build completed successfully."

@@ -14,6 +14,26 @@
         "--output",
         "${workspaceFolder}/../index.html",
       ]
+    },
+
+    {
+      "name": "Debug: process_repeat",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "process_repeat.process_repeat",
+      "args": [
+        "--template",
+        "${workspaceFolder}/../index.html",
+        "--output",
+        "${workspaceFolder}/../index.html",
+      ]
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug: Engine",
+      "configurations": ["Debug: process_dataset", "Debug: process_repeat"],
+      "stopAll": true
     }
   ]
 }

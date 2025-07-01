@@ -59,6 +59,8 @@ def process_dataset_tag(
     template_file_content: str,
     data: List[Album],
 ) -> str:
+    pattern = re.compile(r"(\s*<dataset[^>]*?>)(.*?)(</dataset>)", re.DOTALL)
+
     def replacer(match):
         opening_tag = match.group(1)
         content = match.group(2)
@@ -68,8 +70,6 @@ def process_dataset_tag(
         new_content = process_dataset_content(content, dataset_fields, data)
 
         return opening_tag + new_content + closing_tag
-
-    pattern = re.compile(r"(\s*<dataset[^>]*?>)(.*?)(</dataset>)", re.DOTALL)
 
     return pattern.sub(replacer, template_file_content)
 
