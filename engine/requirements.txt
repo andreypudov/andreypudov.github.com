@@ -4,5 +4,5 @@ dominate==2.9.1
 fastjsonschema==2.21.1
 flake8==7.3.0
 isort==6.0.1
-pillow==11.2.1
+pillow==11.3.0
 pre-commit==4.2.0
