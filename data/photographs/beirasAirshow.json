@@ -1,0 +1,121 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Beiras Airshow",
+  "description": "Held from May 16 to 18 at the Castelo Branco Municipal Aerodrome, the Beiras Airshow 2025 brought together some of the world's top aerobatic talent for a spectacular three-day celebration of aviation. With its mix of high-flying excitement and cultural showcases, the Beiras Airshow 2025 offered an unforgettable experience for aviation enthusiasts and families alike.",
+  "genre": "Event",
+  "cover": "/photographs/2025-05-17_18/2025-05-17_18_001.webp",
+  "items": [
+    {
+      "name": "Yakstars",
+      "description": "The Yakstars are an Iberian aerobatic display team made up of Spanish and Portuguese pilots. Flying six Yak-52 aircraft—Soviet-designed military training planes—they perform synchronized and spectacular maneuvers that captivate audiences at airshows.",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_001.webp",
+      "orientation": "landscape",
+      "date": "2025-05-18",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_002.webp",
+      "orientation": "portrait",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_003.webp",
+      "orientation": "portrait",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_004.webp",
+      "orientation": "portrait",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_005.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_006.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_007.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_008.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "Fly Time Paramotors",
+      "description": "A company specialized in paramotoring, offering unique experiences and training courses. With a team of experienced instructors, Fly Time stands out for the quality of its displays, providing unforgettable adventures.",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_009.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_010.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_011.webp",
+      "orientation": "portrait",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "Mika Brageot",
+      "description": "Mika Brageot is a French aerobatic pilot known for his speed and precision. With multiple medals in top-level competitions, including the Red Bull Air Race, Mika continues to stand out as one of the best aerobatic pilots in the world. He brings us his incredible Beechcraft 55 Baron.",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_012.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_013.webp",
+      "orientation": "landscape",
+      "date": "2025-05-17",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-17_18/2025-05-17_18_014.webp",
+      "orientation": "portrait",
+      "date": "2025-05-17",
+      "hidden": false
+    }
+  ]
+}
