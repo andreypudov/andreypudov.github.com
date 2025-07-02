@@ -76,8 +76,6 @@ def render_repeat_item(template: str, variables: dict) -> str:
             return f"${{{expr}}}"
 
     def process_js_ternary(expr: str) -> str:
-        """Convert JavaScript ternary operator to Python ternary."""
-
         ternary_pattern = r"(.+?)\s*\?\s*(.+?)\s*:\s*(.+)"
         match = re.match(ternary_pattern, expr.strip())
 
@@ -91,7 +89,9 @@ def render_repeat_item(template: str, variables: dict) -> str:
         return expr
 
     def replacer(match):
-        expr = match.group(1).strip()
+        leading = match.group(1) or ""
+        expr = match.group(2).strip()
+        trailing = match.group(3) or ""
 
         if "?" in expr and ":" in expr:
             expr = process_js_ternary(expr)
@@ -104,11 +104,11 @@ def render_repeat_item(template: str, variables: dict) -> str:
         if isinstance(result, bool):
             return str(result).lower()
 
-        if result is None:
+        if result is None or result == "":
             return ""
 
-        return str(result)
+        return f"{leading}{result}{trailing}"
 
-    pattern = r"\$\{([^}]+)\}"
+    pattern = r"([ \t]*)\$\{([^}]+)\}([ \t]*)"
 
     return re.sub(pattern, replacer, template)
