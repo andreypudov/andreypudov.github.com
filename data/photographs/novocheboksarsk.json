@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Novocheboksarsk",
+  "description": "",
+  "genre": "Street",
+  "cover": "/photographs/2013-01-01/2013-01-01_001.webp",
+  "items": [
+    {
+      "name": "A frosty morning near Volga embankment",
+      "description": "Soft light and stillness on a winter morning by the river.",
+      "path": "/photographs/2013-01-01/2013-01-01_001.webp",
+      "orientation": "portrait",
+      "date": "2013-01-01",
+      "hidden": false
+    }
+  ]
+}

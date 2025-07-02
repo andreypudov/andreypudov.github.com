@@ -14,10 +14,12 @@ def parse_repeat_attributes(opening_tag: str) -> Tuple[str, str]:
     if not repeat_tag:
         raise ValueError("No <repeat> tag found in opening tag")
 
-    index = repeat_tag.get("data-index", "").strip()
     dataset = repeat_tag.get("data-set", "").strip()
+    index = repeat_tag.get("data-index", "").strip()
+    start = repeat_tag.get("data-start", "").strip()
+    end = repeat_tag.get("data-end", "").strip()
 
-    return index, dataset
+    return dataset, index, start, end
 
 
 def get_dataset(template_content: str, dataset_name: str) -> List:
@@ -57,16 +59,29 @@ def correct_indentation(content: str, indent: str) -> str:
 def process_repeat_content(
     template_content: str,
     repeat_content: str,
-    index_name: str,
     dataset_name: str,
+    index_name: str,
+    start_index: str,
+    end_index: str,
     indent: str = "",
 ) -> str:
     dataset_items = get_dataset(template_content, dataset_name)
     if not dataset_items:
         raise ValueError(f"No dataset found with name '{dataset_name}'")
 
+    if not start_index:
+        start_index = 0
+    start_index = int(start_index) if start_index else 0
+
+    if not end_index:
+        end_index = len(dataset_items)
+    end_index = min(int(end_index) + 1, len(dataset_items))
+
     repeated_items = []
-    for index, item in enumerate(dataset_items):
+    enumerator = enumerate(
+        dataset_items[start_index:end_index], start=start_index
+    )
+    for index, item in enumerator:
         item_variables = dict(item)
         if index_name:
             item_variables[index_name] = index
@@ -91,10 +106,10 @@ def process_repeat_tag(template_file_content: str) -> str:
         if content.startswith("\n"):
             content = content[1:]
 
-        index, dataset = parse_repeat_attributes(opening_tag)
+        dataset, index, start, end = parse_repeat_attributes(opening_tag)
 
         return process_repeat_content(
-            template_file_content, content, index, dataset, indent
+            template_file_content, content, dataset, index, start, end, indent
         )
 
     return pattern.sub(replacer, template_file_content)

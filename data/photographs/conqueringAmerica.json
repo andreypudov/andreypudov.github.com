@@ -22,8 +22,8 @@
       "hidden": false
     },
     {
-      "name": "One World Trade Center\n\nOne World Trade Center is the main building of the rebuilt World Trade Center complex in Lower Manhattan. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 6.5 ha World Trade Center site, on the site of the original 6 World Trade Center.",
-      "description": "",
+      "name": "One World Trade Center",
+      "description": "A symbol of resilience rising above the streets of Lower Manhattan.",
       "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_003_large.webp",
       "orientation": "portrait",
       "date": "2016-11-05",
@@ -70,8 +70,8 @@
       "hidden": false
     },
     {
-      "name": "Central Park\n\nBetween 1821 and 1855, New York City's population nearly quadrupled. As the city expanded northward up Manhattan Island, people were drawn to the few existing open spaces, mainly cemeteries, for passive recreation. These were seen as escapes from the noise and chaotic life in the city, which at the time was almost entirely centered on Lower Manhattan. The Commissioners' Plan of 1811, the outline for Manhattan's modern street grid, included several smaller open spaces but not Central Park. As such, John Randel Jr. had surveyed the grounds for the construction of intersections within the modern-day park site.\n\nToday, Central Park is the most visited urban park in the United States and one of the most visited tourist attractions worldwide, with 42 million visitors in 2016.",
-      "description": "",
+      "name": "Central Park",
+      "description": "An oasis of greenery framed by the towering skyline of New York City.",
       "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_009_large.webp",
       "orientation": "landscape",
       "date": "2016-11-05",
@@ -322,6 +322,14 @@
       "description": "",
       "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_040_large.webp",
       "orientation": "landscape",
+      "date": "2016-11-05",
+      "hidden": false
+    },
+    {
+      "name": "6th Avenue & West 42nd Street",
+      "description": "",
+      "path": "/photographs/2016-10-15_11-05/2016-10-15_11-05_041_large.webp",
+      "orientation": "portrait",
       "date": "2016-11-05",
       "hidden": false
     }
