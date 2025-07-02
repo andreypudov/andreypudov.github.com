@@ -1,0 +1,33 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Alexis Lahorra",
+  "description": "Enchanting photo series of Alexis Lahorra for KORA | Real Flowers Jewelry — a delicate fusion of beauty, grace, and the timeless charm of real blossoms.",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-05-31/2025-05-31_005.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-31/2025-05-31_004.webp",
+      "orientation": "portrait",
+      "date": "2025-05-31",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-31/2025-05-31_005.webp",
+      "orientation": "portrait",
+      "date": "2025-05-31",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-31/2025-05-31_006.webp",
+      "orientation": "portrait",
+      "date": "2025-05-31",
+      "hidden": false
+    }
+  ]
+}

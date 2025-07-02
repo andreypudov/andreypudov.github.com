@@ -1,0 +1,89 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Oriana Coelho",
+  "description": "A timeless studio series featuring Oriana in a simple and classic look. Clean lines, soft lighting, and natural poses highlight her effortless elegance and poise.",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-05-22/2025-05-22_005.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_001.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_002.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_003.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_004.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_005.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_006.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_007.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_008.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_009.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_010.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    }
+  ]
+}

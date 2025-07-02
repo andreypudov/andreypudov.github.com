@@ -1,0 +1,49 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Jasmine Jhm",
+  "description": "A refined studio portrait series featuring Jasmine in a simple and classic style.",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-05-22/2025-05-22_015.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_011.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_012.webp",
+      "orientation": "landscape",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_013.webp",
+      "orientation": "portrait",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_014.webp",
+      "orientation": "landscape",
+      "date": "2025-05-22",
+      "hidden": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-22/2025-05-22_015.webp",
+      "orientation": "landscape",
+      "date": "2025-05-22",
+      "hidden": false
+    }
+  ]
+}
