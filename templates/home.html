@@ -51,14 +51,14 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Y9W77G5B"></script>
   <script src="scripts/analytics.js?v=1.0" type="module"></script>
-  <dataset data-name="carousel-items" data-fields="path, name, description">
+  <dataset data-name="carousel-ds" data-fields="path, name, description">
     <var>2023-10-06_08_004.webp</var>
     <var>2021-07-24_08-02_089.webp</var>
     <var>2019-10-26_007.webp</var>
     <var>2016-10-15_11-05_019_large.webp</var>
     <var>2015-07-27_08-08_022_large.webp</var>
   </dataset>
-  <dataset data-name="feature-grid" data-fields="path, name, description">
+  <dataset data-name="feature-grid-ds" data-fields="path, name, description">
     <var>2023-11-18_002.webp</var>
     <var>2022-08-15_010.webp</var>
     <var>2023-06-16_18_011.webp</var>
@@ -142,7 +142,7 @@
       </div>
 
       <div class="inner">
-        <repeat data-set="carousel-items" data-index="index">
+        <repeat data-set="carousel-ds" data-index="index">
           <input class="open" type="radio" id="carousel-${index + 1}" name="carousel" aria-hidden="true" hidden="" ${index === 0 ? 'checked="checked"' : ''}>
           <div class="item">
             <span>
@@ -175,7 +175,7 @@
 
     <div class="feature-grid container">
       <div class="column">
-        <repeat data-set="feature-grid" data-index="index" data-start="0" data-end="10">
+        <repeat data-set="feature-grid-ds" data-index="index" data-start="0" data-end="10">
           <figure>
             <a id="feature-grid-${index + 1}" href="#lightbox-${index + 1}">
               <img src="media${path}" alt="${description}" loading="lazy" />
@@ -185,7 +185,7 @@
       </div>
 
       <div class="column">
-        <repeat data-set="feature-grid" data-index="index" data-start="11" data-end="20">
+        <repeat data-set="feature-grid-ds" data-index="index" data-start="11" data-end="20">
           <figure>
             <a id="feature-grid-${index + 1}" href="#lightbox-${index + 1}">
               <img src="media${path}" alt="${description}" loading="lazy" />
@@ -195,7 +195,7 @@
       </div>
 
       <div class="column">
-        <repeat data-set="feature-grid" data-index="index" data-start="21" data-end="31">
+        <repeat data-set="feature-grid-ds" data-index="index" data-start="21" data-end="31">
           <figure>
             <a id="feature-grid-${index + 1}" href="#lightbox-${index + 1}">
               <img src="media${path}" alt="${description}" loading="lazy" />
@@ -260,7 +260,7 @@
   </footer>
 
   <div class="lightbox">
-    <repeat data-set="feature-grid" data-index="index">
+    <repeat data-set="feature-grid-ds" data-index="index">
       <div class="lightbox-entry" id="lightbox-${index + 1}">
         <div class="header">
           <span class="counter">${index + 1} / 32</span>

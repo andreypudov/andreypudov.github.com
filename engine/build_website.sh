@@ -55,17 +55,25 @@ remove_dataset() {
   fi
 }
 
-
 echo "Validating dataset..."
-# validate_dataset "../data/photographs"
+validate_dataset "../data/photographs"
 
 echo "Processing datasets..."
-process_dataset "../templates/index.html" "../data/photographs" "../index.html"
+process_dataset "../templates/home.html" "../data/photographs" "../index.html"
+process_dataset "../templates/about.html" "../data/photographs" "../about/index.html"
+process_dataset "../templates/contact.html" "../data/photographs" "../contact/index.html"
+process_dataset "../templates/portfolio.html" "../data/photographs" "../portfolio/index.html"
 
 echo "Processing repeats..."
 process_repeat "../index.html" "../index.html"
+process_repeat "../about/index.html" "../about/index.html"
+process_repeat "../contact/index.html" "../contact/index.html"
+process_repeat "../portfolio/index.html" "../portfolio/index.html"
 
 echo "Removing dataset tags..."
 remove_dataset "../index.html" "../index.html"
+remove_dataset "../about/index.html" "../about/index.html"
+remove_dataset "../contact/index.html" "../contact/index.html"
+remove_dataset "../portfolio/index.html" "../portfolio/index.html"
 
 echo "Website build completed successfully."
