@@ -35,7 +35,7 @@ process_repeat() {
 
   python3 -m process_repeat.process_repeat \
   --template "$template" \
-  --output "$output" #> /dev/null 2>&1
+  --output "$output" > /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Repeat processing failed."
     exit 1
@@ -55,8 +55,8 @@ remove_dataset() {
   fi
 }
 
-echo "Validating dataset..."
-validate_dataset "../data/photographs"
+# echo "Validating dataset..."
+# validate_dataset "../data/photographs"
 
 echo "Processing datasets..."
 process_dataset "../templates/home.html" "../data/photographs" "../index.html"

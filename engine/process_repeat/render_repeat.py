@@ -16,10 +16,11 @@ def parse_repeat_attributes(opening_tag: str) -> Tuple[str, str]:
 
     dataset = repeat_tag.get("data-set", "").strip()
     index = repeat_tag.get("data-index", "").strip()
+    length = repeat_tag.get("data-length", "").strip()
     start = repeat_tag.get("data-start", "").strip()
     end = repeat_tag.get("data-end", "").strip()
 
-    return dataset, index, start, end
+    return dataset, index, length, start, end
 
 
 def get_dataset(template_content: str, dataset_name: str) -> List:
@@ -61,6 +62,7 @@ def process_repeat_content(
     repeat_content: str,
     dataset_name: str,
     index_name: str,
+    length_name: str,
     start_index: str,
     end_index: str,
     indent: str = "",
@@ -86,6 +88,9 @@ def process_repeat_content(
         if index_name:
             item_variables[index_name] = index
 
+        if length_name:
+            item_variables[length_name] = len(dataset_items)
+
         repeat_content = correct_indentation(repeat_content, indent)
         processed_item = render_repeat_item(repeat_content, item_variables)
         repeated_items.append(processed_item)
@@ -106,10 +111,19 @@ def process_repeat_tag(template_file_content: str) -> str:
         if content.startswith("\n"):
             content = content[1:]
 
-        dataset, index, start, end = parse_repeat_attributes(opening_tag)
+        dataset, index, length, start, end = parse_repeat_attributes(
+            opening_tag
+        )
 
         return process_repeat_content(
-            template_file_content, content, dataset, index, start, end, indent
+            template_file_content,
+            content,
+            dataset,
+            index,
+            length,
+            start,
+            end,
+            indent,
         )
 
     return pattern.sub(replacer, template_file_content)

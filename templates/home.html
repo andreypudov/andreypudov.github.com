@@ -260,14 +260,14 @@
   </footer>
 
   <div class="lightbox">
-    <repeat data-set="feature-grid-ds" data-index="index">
+    <repeat data-set="feature-grid-ds" data-index="index" data-length="length">
       <div class="lightbox-entry" id="lightbox-${index + 1}">
         <div class="header">
-          <span class="counter">${index + 1} / 32</span>
+          <span class="counter">${index + 1} / ${length}</span>
           <a href="#feature-grid-${index + 1}" class="close">&times;</a>
         </div>
         <div class="content">
-          <a href="#lightbox-${index === 0 ? 32 : index}" class="nav prev">&#10094;</a>
+          <a href="#lightbox-${index === 0 ? length : index}" class="nav prev">&#10094;</a>
           <figure>
             <div class="image-wrapper">
               <img src="media${path}" alt="${description}" loading="lazy" />
@@ -277,7 +277,7 @@
               <small>${description}</small>
             </figcaption>
           </figure>
-          <a href="#lightbox-${index === 31 ? 1 : index + 2}" class="nav next">&#10095;</a>
+          <a href="#lightbox-${index === length - 1 ? 1 : index + 2}" class="nav next">&#10095;</a>
         </div>
       </div>
     </repeat>

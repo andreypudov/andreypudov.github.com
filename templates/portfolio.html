@@ -268,14 +268,14 @@
     </footer>
 
     <div class="lightbox travel">
-      <repeat data-set="travel-grid-ds" data-index="index">
+      <repeat data-set="travel-grid-ds" data-index="index" data-length="length">
         <div class="lightbox-entry" id="lightbox-travel-${index + 1}">
           <div class="header">
-            <span class="counter">${index + 1} / 18</span>
+            <span class="counter">${index + 1} / ${length}</span>
             <a href="#travel-grid-${index + 1}" class="close">&times;</a>
           </div>
           <div class="content">
-            <a href="#lightbox-travel-${index === 0 ? 18 : index}" class="nav prev">&#10094;</a>
+            <a href="#lightbox-travel-${index === 0 ? length : index}" class="nav prev">&#10094;</a>
             <figure>
               <div class="image-wrapper">
                 <img src="../media${path}" alt="${description}" loading="lazy" />
@@ -285,21 +285,21 @@
                 <small>${description}</small>
               </figcaption>
             </figure>
-            <a href="#lightbox-travel-${index === 17 ? 1 : index + 2}" class="nav next">&#10095;</a>
+            <a href="#lightbox-travel-${index === length - 1 ? 1 : index + 2}" class="nav next">&#10095;</a>
           </div>
         </div>
       </repeat>
     </div>
 
     <div class="lightbox nature">
-      <repeat data-set="nature-grid-ds" data-index="index">
+      <repeat data-set="nature-grid-ds" data-index="index" data-length="length">
         <div class="lightbox-entry" id="lightbox-nature-${index + 1}">
           <div class="header">
-            <span class="counter">${index + 1} / 17</span>
+            <span class="counter">${index + 1} / ${length}</span>
             <a href="#nature-grid-${index + 1}" class="close">&times;</a>
           </div>
           <div class="content">
-            <a href="#lightbox-nature-${index === 0 ? 17 : index}" class="nav prev">&#10094;</a>
+            <a href="#lightbox-nature-${index === 0 ? length : index}" class="nav prev">&#10094;</a>
             <figure>
               <div class="image-wrapper">
                 <img src="../media${path}" alt="${description}" loading="lazy" />
@@ -309,21 +309,21 @@
                 <small>${description}</small>
               </figcaption>
             </figure>
-            <a href="#lightbox-nature-${index === 16 ? 1 : index + 2}" class="nav next">&#10095;</a>
+            <a href="#lightbox-nature-${index === length - 1 ? 1 : index + 2}" class="nav next">&#10095;</a>
           </div>
         </div>
       </repeat>
     </div>
 
     <div class="lightbox portraits">
-      <repeat data-set="portraits-grid-ds" data-index="index">
+      <repeat data-set="portraits-grid-ds" data-index="index" data-length="length">
         <div class="lightbox-entry" id="lightbox-portraits-${index + 1}">
           <div class="header">
-            <span class="counter">${index + 1} / 9</span>
+            <span class="counter">${index + 1} / ${length}</span>
             <a href="#portraits-grid-${index + 1}" class="close">&times;</a>
           </div>
           <div class="content">
-            <a href="#lightbox-portraits-${index === 0 ? 9 : index}" class="nav prev">&#10094;</a>
+            <a href="#lightbox-portraits-${index === 0 ? length : index}" class="nav prev">&#10094;</a>
             <figure>
               <div class="image-wrapper">
                 <img src="../media${path}" alt="${description}" loading="lazy" />
@@ -333,21 +333,21 @@
                 <small>${description}</small>
               </figcaption>
             </figure>
-            <a href="#lightbox-portraits-${index === 8 ? 1 : index + 2}" class="nav next">&#10095;</a>
+            <a href="#lightbox-portraits-${index === length - 1 ? 1 : index + 2}" class="nav next">&#10095;</a>
           </div>
         </div>
       </repeat>
     </div>
 
     <div class="lightbox events">
-      <repeat data-set="events-grid-ds" data-index="index">
+      <repeat data-set="events-grid-ds" data-index="index" data-length="length">
         <div class="lightbox-entry" id="lightbox-events-${index + 1}">
           <div class="header">
-            <span class="counter">${index + 1} / 8</span>
+            <span class="counter">${index + 1} / ${length}</span>
             <a href="#events-grid-${index + 1}" class="close">&times;</a>
           </div>
           <div class="content">
-            <a href="#lightbox-events-${index === 0 ? 8 : index}" class="nav prev">&#10094;</a>
+            <a href="#lightbox-events-${index === 0 ? length : index}" class="nav prev">&#10094;</a>
             <figure>
               <div class="image-wrapper">
                 <img src="../media${path}" alt="${description}" loading="lazy" />
@@ -357,7 +357,7 @@
                 <small>${description}</small>
               </figcaption>
             </figure>
-            <a href="#lightbox-events-${index === 7 ? 1 : index + 2}" class="nav next">&#10095;</a>
+            <a href="#lightbox-events-${index === length - 1 ? 1 : index + 2}" class="nav next">&#10095;</a>
           </div>
         </div>
       </repeat>
