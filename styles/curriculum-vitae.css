@@ -1,4 +1,8 @@
 .curriculum-vitae {
+  @media (max-width: 576px) {
+    padding: 0 var(--layout-section-gap);
+  }
+
   section {
     &:not(:first-child) {
       margin-top: calc(var(--layout-section-gap) * 2);

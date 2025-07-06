@@ -9,21 +9,24 @@ menu {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  /* transition: var(--transition); */
 
   @media (max-width: 576px) {
-    display: inline;
+    display: block;
     text-align: right;
+    padding: 20px 0;
   }
 
   &.secondary {
     padding: 10px 0;
     background: var(--bg-third);
 
+    @media (max-width: 576px) {
+      display: none;
+    }
+
     .item {
       a {
         font-size: var(--subscript-font-size);
-
       }
     }
   }
@@ -58,7 +61,6 @@ menu {
       letter-spacing: 0.15em;
       position: relative;
       text-align: center;
-      /* transition: var(--transition); */
 
       &:hover {
         &:after {

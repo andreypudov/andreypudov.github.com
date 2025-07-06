@@ -30,6 +30,18 @@ footer {
         aspect-ratio: 1 / 1;
         text-decoration: none;
 
+        &:first-child {
+          @media (max-width: 576px) {
+            display: none;
+          }
+        }
+
+        &:last-child {
+          @media (max-width: 768px) {
+            display: none;
+          }
+        }
+
         img {
           display: block;
           width: 100%;
