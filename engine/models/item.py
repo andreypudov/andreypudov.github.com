@@ -10,4 +10,3 @@ class Item:
     path: str
     orientation: Orientation
     date: date
-    hidden: bool

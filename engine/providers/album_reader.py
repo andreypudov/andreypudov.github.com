@@ -21,7 +21,6 @@ def parse_item(data: dict, validate_data: bool = False) -> Item:
             path=data["path"],
             orientation=Orientation(data["orientation"]),
             date=datetime.strptime(data["date"], DATE_FORMAT).date(),
-            hidden=data["hidden"],
         )
 
         if validate_data:

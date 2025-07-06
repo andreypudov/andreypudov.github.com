@@ -28,12 +28,8 @@
       "type": "string",
       "format": "date",
       "description": "The date associated with the artwork, in YYYY-MM-DD format."
-    },
-    "hidden": {
-      "type": "boolean",
-      "description": "A flag indicating whether the artwork is hidden from the album."
     }
   },
-  "required": ["name", "description", "path", "orientation", "date", "hidden"],
+  "required": ["name", "description", "path", "orientation", "date"],
   "additionalProperties": false
 }

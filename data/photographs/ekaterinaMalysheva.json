@@ -10,56 +10,49 @@
       "description": "",
       "path": "/photographs/2017-10-28_2/2017-10-28_001.webp",
       "orientation": "portrait",
-      "date": "2017-10-28",
-      "hidden": false
+      "date": "2017-10-28"
     },
     {
       "name": "",
       "description": "",
       "path": "/photographs/2017-10-07/2017-10-07_001.webp",
       "orientation": "landscape",
-      "date": "2017-10-07",
-      "hidden": true
+      "date": "2017-10-07"
     },
     {
       "name": "",
       "description": "",
       "path": "/photographs/2017-10-07/2017-10-07_002.webp",
       "orientation": "portrait",
-      "date": "2017-10-07",
-      "hidden": false
+      "date": "2017-10-07"
     },
     {
       "name": "",
       "description": "",
       "path": "/photographs/2017-10-07/2017-10-07_003.webp",
       "orientation": "portrait",
-      "date": "2017-10-07",
-      "hidden": false
+      "date": "2017-10-07"
     },
     {
       "name": "",
       "description": "",
       "path": "/photographs/2017-10-07/2017-10-07_004.webp",
       "orientation": "portrait",
-      "date": "2017-10-07",
-      "hidden": true
+      "date": "2017-10-07"
     },
     {
       "name": "",
       "description": "",
       "path": "/photographs/2017-10-07/2017-10-07_005.webp",
       "orientation": "landscape",
-      "date": "2017-10-07",
-      "hidden": true
+      "date": "2017-10-07"
     },
     {
       "name": "Ekaterina Malysheva",
       "description": "A softly lit portrait that captures both strength and serenity.",
       "path": "/photographs/2016-04-16/2016-04-16_009.webp",
       "orientation": "landscape",
-      "date": "2016-04-16",
-      "hidden": false
+      "date": "2016-04-16"
     }
   ]
 }

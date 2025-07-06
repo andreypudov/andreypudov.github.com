@@ -55,8 +55,8 @@ remove_dataset() {
   fi
 }
 
-# echo "Validating dataset..."
-# validate_dataset "../data/photographs"
+echo "Validating dataset..."
+validate_dataset "../data/photographs"
 
 echo "Processing datasets..."
 process_dataset "../templates/home.html" "../data/photographs" "../index.html"

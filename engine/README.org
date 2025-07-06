@@ -43,7 +43,7 @@ Inject data from the dataset into the template:
 
 #+begin_src shell
 python -m process_dataset.process_dataset \
-  --template ../templates/index.html \
+  --template ../templates/home.html \
   --dataset ../data/photographs \
   --output ../index.html
 #+end_src
