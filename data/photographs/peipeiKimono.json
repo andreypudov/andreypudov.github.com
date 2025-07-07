@@ -1,0 +1,59 @@
+
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Pei Pei. Kimono Weekend in Barcelona",
+  "description": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-05-11/2025-05-11_001.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_001.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_002.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_003.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_004.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_005.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_006.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-11/2025-05-11_007.webp",
+      "orientation": "portrait",
+      "date": "2025-05-11"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Pei Pei. Weekend in Torre Salvana",
+  "description": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-05-10/2025-05-10_001.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_001.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_002.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_003.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_004.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_005.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_006.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_007.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-10/2025-05-10_008.webp",
+      "orientation": "portrait",
+      "date": "2025-05-10"
+    }
+  ]
+}

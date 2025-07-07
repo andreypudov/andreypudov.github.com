@@ -1,0 +1,192 @@
+
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Pei Pei. A Whisper of Flowers",
+  "description": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-05-09/2025-05-09_001.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_001.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_002.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_003.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_004.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_005.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_006.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_007.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_008.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_009.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_010.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_011.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_012.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_013.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_014.webp",
+      "orientation": "portrait",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_015.webp",
+      "orientation": "portrait",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_016.webp",
+      "orientation": "portrait",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_017.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_018.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_019.webp",
+      "orientation": "portrait",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_020.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_021.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_022.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_023.webp",
+      "orientation": "portrait",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_024.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_025.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-05-09/2025-05-09_026.webp",
+      "orientation": "landscape",
+      "date": "2025-05-09"
+    }
+  ]
+}
