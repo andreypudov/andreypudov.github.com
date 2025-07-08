@@ -21,23 +21,27 @@
 
       .close {
         position: absolute;
-        right: calc(var(--layout-section-gap) * 2);
+        right: calc(var(--layout-section-gap) * 1.5);
         color: black;
+        text-align: center;
         text-decoration: none;
         font-size: 1.2rem;
         z-index: 1001;
+        width: 32px;
+        height: 32px;
       }
     }
 
     .content {
       .nav {
-        margin: calc(var(--layout-section-gap) * 2);
+        width: calc(var(--layout-section-gap) * 4);
         height: 100%;
         font-size: 1rem;
         color: var(--fg-primary);
         text-decoration: none;
         display: flex;
         align-items: center;
+        justify-content: center;
         position: absolute;
         top: 0;
 
@@ -63,7 +67,6 @@
             background: #ffffff40;
             height: 32px;
             width: 32px;
-            left: -12px;
             border-radius: 33px;
           }
         }
