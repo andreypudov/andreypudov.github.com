@@ -28,25 +28,25 @@
       }
 
       .left-top {
-        background-image: url("../media/images/corner-left-top.svg");
+        background-image: url("../media/images/corners/corner-left-top.svg");
         left: 20px;
         top: 20px;
       }
 
       .right-top {
-        background-image: url("../media/images/corner-right-top.svg");
+        background-image: url("../media/images/corners/corner-right-top.svg");
         right: 20px;
         top: 20px;
       }
 
       .left-bottom {
-        background-image: url("../media/images/corner-left-bottom.svg");
+        background-image: url("../media/images/corners/corner-left-bottom.svg");
         left: 20px;
         bottom: 20px;
       }
 
       .right-bottom {
-        background-image: url("../media/images/corner-right-bottom.svg");
+        background-image: url("../media/images/corners/corner-right-bottom.svg");
         right: 20px;
         bottom: 20px;
       }

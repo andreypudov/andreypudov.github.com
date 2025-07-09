@@ -8,13 +8,48 @@
       margin-top: calc(var(--layout-section-gap) * 2);
     }
 
-    figcaption {
-      font-weight: bold;
-      margin-bottom: var(--layout-section-gap);
+    figure {
+      margin-bottom: calc(var(--layout-section-gap));
 
-      small {
-        display: block;
-        font-weight: lighter;
+      figcaption {
+        font-weight: bold;
+        margin-bottom: var(--layout-section-gap);
+
+        small {
+          display: block;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+
+  .experience, .education {
+    figure {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.5rem;
+      align-items: start;
+
+      .logo {
+        img {
+          width: 48px;
+        }
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .text {
+        figcaption {
+          font-weight: bold;
+          margin-bottom: var(--layout-section-gap);
+
+          small {
+            display: block;
+            font-weight: lighter;
+          }
+        }
       }
     }
   }
