@@ -14,7 +14,7 @@ Driven professional with broad technical skill set. Thrives in environments that
     On the frontend, I was responsible for performance fine-tuning and ensuring visual consistency across multiple end-user platforms. I collaborated closely with the design team to translate their vision into a functional and intuitive interface. By working alongside stakeholders, I ensured that the platform met business requirements while delivering a seamless, high-quality user experience.
 
 *** *EPAM Systems*
-  - *Sr. Software Development Engineer** / 2020 - 2021
+  - *Sr. Software Development Engineer* / 2020 - 2021
 
     Developed an innovative platform for data-driven facility management decision-making for the United States Golf Association, utilizing a scalable microservice architecture on Microsoft Azure cloud infrastructure. Designed and maintained RESTful API services built on ASP.NET Core, Entity Framework Core, Microsoft SQL Server, Kafka, Autofac, and AutoMapper. Created comprehensive unit and integration tests within a test-driven development environment to ensure system reliability.
 
