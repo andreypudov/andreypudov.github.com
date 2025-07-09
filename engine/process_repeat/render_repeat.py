@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from process_repeat.render_repeat_item import render_repeat_item
 
 
-def parse_repeat_attributes(opening_tag: str) -> Tuple[str, str]:
+def parse_repeat_attributes(opening_tag: str) -> Tuple[str, str, str, str, str]:
     soup = BeautifulSoup(opening_tag, "html.parser")
     repeat_tag = soup.find("repeat")
 

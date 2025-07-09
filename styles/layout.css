@@ -19,6 +19,7 @@
 
   --layout-section-gap: 16px;
   --transition: 0.4s;
+  --scale: 1.04;
 }
 
 * {

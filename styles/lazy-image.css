@@ -1,0 +1,32 @@
+.lazy-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .low-res {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity var(--transition) ease-in-out;
+    z-index: 1;
+  }
+
+  .high-res {
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    animation: lazy-image-fadeIn 1s ease-in-out 0.2s forwards;
+  }
+}
+
+@keyframes lazy-image-fadeIn {
+  to {
+    opacity: 1;
+  }
+}

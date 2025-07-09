@@ -42,6 +42,19 @@ process_repeat() {
   fi
 }
 
+process_image() {
+  template="$1"
+  output="$2"
+
+  python3 -m process_image.process_image \
+  --template "$template" \
+  --output "$output" #> /dev/null 2>&1
+  if [ $? -ne 0 ]; then
+    echo "Image processing failed."
+    exit 1
+  fi
+}
+
 remove_dataset() {
   template="$1"
   output="$2"
@@ -63,17 +76,27 @@ process_dataset "../templates/home.html" "../data/photographs" "../index.html"
 process_dataset "../templates/about.html" "../data/photographs" "../about/index.html"
 process_dataset "../templates/contact.html" "../data/photographs" "../contact/index.html"
 process_dataset "../templates/portfolio.html" "../data/photographs" "../portfolio/index.html"
+process_dataset "../templates/404.html" "../data/photographs" "../404.html"
 
 echo "Processing repeats..."
 process_repeat "../index.html" "../index.html"
 process_repeat "../about/index.html" "../about/index.html"
 process_repeat "../contact/index.html" "../contact/index.html"
 process_repeat "../portfolio/index.html" "../portfolio/index.html"
+process_repeat "../404.html" "../404.html"
+
+echo "Processing images..."
+process_image "../index.html" "../index.html"
+process_image "../about/index.html" "../about/index.html"
+process_image "../contact/index.html" "../contact/index.html"
+process_image "../portfolio/index.html" "../portfolio/index.html"
+process_image "../404.html" "../404.html"
 
 echo "Removing dataset tags..."
 remove_dataset "../index.html" "../index.html"
 remove_dataset "../about/index.html" "../about/index.html"
 remove_dataset "../contact/index.html" "../contact/index.html"
 remove_dataset "../portfolio/index.html" "../portfolio/index.html"
+remove_dataset "../404.html" "../404.html"
 
 echo "Website build completed successfully."

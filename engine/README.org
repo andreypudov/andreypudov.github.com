@@ -58,7 +58,17 @@ python -m process_repeat.process_repeat \
   --output ../index.html
 #+end_src
 
-*** 4. Remove Dataset Tags
+*** 4. Process Image Tags
+
+Render image tags based on the dataset:
+
+#+begin_src shell
+python -m process_image.process_image \
+  --template ../index.html \
+  --output ../index.html
+#+end_src
+
+*** 5. Remove Dataset Tags
 
 Remove dataset tags from the final output:
 #+begin_src shell

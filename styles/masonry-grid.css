@@ -33,7 +33,7 @@
       transition: transform 0.9s ease;
 
       &:hover {
-        transform: scale(1.04);
+        transform: scale(var(--scale));
       }
     }
   }
