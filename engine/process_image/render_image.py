@@ -23,13 +23,14 @@ def parse_image_attributes(opening_tag: str) -> Tuple[str, str, str, str, str]:
 def render_lazy_image(src: str, alt: str, indent: str) -> str:
     inner_indent = indent + "  "
 
-    convert_image(Path(f"../{src}"))
+    thumbnail_src = src.replace("media/photographs", "media/thumbnails")
+    convert_image(Path(f"../{src}"), Path(thumbnail_src))
 
     return (
         f'<div class="lazy-image">\n'
-        f'{inner_indent}<img class="low-res" src="{src}" />\n'
-        f'{inner_indent}<img class="high-res" src="{src}'
-        f' alt="{alt}" loading="lazy" />\n'
+        f'{inner_indent}<img class="low-res" src="{thumbnail_src}" />\n'
+        f'{inner_indent}<img class="high-res" src="{src}" '
+        f'alt="{alt}" loading="lazy" />\n'
         f"{indent}</div>"
     )
 

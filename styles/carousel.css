@@ -61,25 +61,25 @@
         }
 
         .left-top {
-          background-image: url("../media/images/corner-left-top-mob.svg");
+          background-image: url("../media/images/corners/corner-left-top-mob.svg");
           left: 10px;
           top: 10px;
         }
 
         .right-top {
-          background-image: url("../media/images/corner-right-top-mob.svg");
+          background-image: url("../media/images/corners/corner-right-top-mob.svg");
           right: 10px;
           top: 10px;
         }
 
         .left-bottom {
-          background-image: url("../media/images/corner-left-bottom-mob.svg");
+          background-image: url("../media/images/corners/corner-left-bottom-mob.svg");
           left: 10px;
           bottom: 10px;
         }
 
         .right-bottom {
-          background-image: url("../media/images/corner-right-bottom-mob.svg");
+          background-image: url("../media/images/corners/corner-right-bottom-mob.svg");
           right: 10px;
           bottom: 10px;
         }

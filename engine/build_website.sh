@@ -48,7 +48,7 @@ process_image() {
 
   python3 -m process_image.process_image \
   --template "$template" \
-  --output "$output" > /dev/null 2>&1
+  --output "$output"> /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Image processing failed."
     exit 1
