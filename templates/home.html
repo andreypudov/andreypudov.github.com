@@ -179,7 +179,7 @@
         <repeat data-set="feature-grid-ds" data-index="index" data-start="0" data-end="10">
           <figure>
             <a id="feature-grid-${index + 1}" href="#lightbox-${index + 1}">
-              <img src="media${path}" alt="${description}" loading="lazy" decoding="async" fetchpriority="high" />
+              <image src="media${path}" alt="${description}" loading="lazy" fetchpriority="${index === 0 ? 'high' : 'auto'}" />
             </a>
           </figure>
         </repeat>
@@ -189,7 +189,7 @@
         <repeat data-set="feature-grid-ds" data-index="index" data-start="11" data-end="20">
           <figure>
             <a id="feature-grid-${index + 1}" href="#lightbox-${index + 1}">
-              <img src="media${path}" alt="${description}" loading="lazy" decoding="async" fetchpriority="high" />
+              <image src="media${path}" alt="${description}" loading="lazy" fetchpriority="${index === 0 ? 'high' : 'auto'}" />
             </a>
           </figure>
         </repeat>
@@ -199,7 +199,7 @@
         <repeat data-set="feature-grid-ds" data-index="index" data-start="21" data-end="31">
           <figure>
             <a id="feature-grid-${index + 1}" href="#lightbox-${index + 1}">
-              <img src="media${path}" alt="${description}" loading="lazy" decoding="async" fetchpriority="high" />
+              <image src="media${path}" alt="${description}" loading="lazy" fetchpriority="${index === 0 ? 'high' : 'auto'}" />
             </a>
           </figure>
         </repeat>

@@ -5,10 +5,13 @@ from PIL import Image
 def convert_image(
     image_path: Path,
     thumbnail_path: Path,
-    thumbnail_max_size: tuple[int, int] = (200, 200),
+    thumbnail_max_size: tuple[int, int],
 ) -> None:
     if not image_path.is_file():
         raise FileNotFoundError(f"Image not found at: {image_path}")
+
+    if thumbnail_path.is_file():
+        return
 
     thumbnail_path.parent.mkdir(parents=True, exist_ok=True)
 

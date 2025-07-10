@@ -4,7 +4,7 @@ import re
 
 from bs4 import BeautifulSoup
 
-from process_repeat.render_repeat_item import render_repeat_item
+from process_expression.process_expression import process_expression
 
 
 def parse_repeat_attributes(opening_tag: str) -> Tuple[str, str, str, str, str]:
@@ -92,7 +92,7 @@ def process_repeat_content(
             item_variables[length_name] = len(dataset_items)
 
         repeat_content = correct_indentation(repeat_content, indent)
-        processed_item = render_repeat_item(repeat_content, item_variables)
+        processed_item = process_expression(repeat_content, item_variables)
         repeated_items.append(processed_item)
 
     return "\n\n".join(repeated_items)

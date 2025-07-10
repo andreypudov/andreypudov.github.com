@@ -48,7 +48,7 @@ process_image() {
 
   python3 -m process_image.process_image \
   --template "$template" \
-  --output "$output"> /dev/null 2>&1
+  --output "$output" #> /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Image processing failed."
     exit 1
@@ -85,12 +85,12 @@ process_repeat "../contact/index.html" "../contact/index.html"
 process_repeat "../portfolio/index.html" "../portfolio/index.html"
 process_repeat "../404.html" "../404.html"
 
-# echo "Processing images..."
-# process_image "../index.html" "../index.html"
-# process_image "../about/index.html" "../about/index.html"
-# process_image "../contact/index.html" "../contact/index.html"
-# process_image "../portfolio/index.html" "../portfolio/index.html"
-# process_image "../404.html" "../404.html"
+echo "Processing images..."
+process_image "../index.html" "../index.html"
+process_image "../about/index.html" "../about/index.html"
+process_image "../contact/index.html" "../contact/index.html"
+process_image "../portfolio/index.html" "../portfolio/index.html"
+process_image "../404.html" "../404.html"
 
 echo "Removing dataset tags..."
 remove_dataset "../index.html" "../index.html"
