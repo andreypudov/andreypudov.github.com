@@ -83,6 +83,7 @@ def process_repeat_content(
     enumerator = enumerate(
         dataset_items[start_index:end_index], start=start_index
     )
+
     for index, item in enumerator:
         item_variables = dict(item)
         if index_name:

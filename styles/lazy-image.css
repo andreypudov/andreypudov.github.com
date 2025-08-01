@@ -9,19 +9,17 @@
     height: auto;
   }
 
-  .low-res {
+  .low {
     position: absolute;
     top: 0;
     left: 0;
     transition: opacity var(--transition) ease-in-out;
-    z-index: 1;
   }
 
-  .high-res {
+  .high {
     position: relative;
-    z-index: 2;
     opacity: 0;
-    animation: lazy-image-fadeIn 1s ease-in-out 0.2s forwards;
+    animation: lazy-image-fadeIn 0.2s ease-in-out 0.2s forwards;
   }
 }
 

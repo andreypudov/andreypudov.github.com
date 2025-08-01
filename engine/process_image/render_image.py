@@ -4,6 +4,7 @@ import re
 
 from bs4 import BeautifulSoup
 
+from process_image.image_size import image_size
 from process_image.convert_image import convert_image
 
 
@@ -16,46 +17,52 @@ def parse_image_attributes(opening_tag: str) -> Tuple[str, str, str, str]:
 
     src = image_tag.get("src", "").strip()
     alt = image_tag.get("alt", "").strip()
-    loading = image_tag.get("loading", "lazy").strip()
-    fetchpriority = image_tag.get("fetchpriority", "auto").strip()
 
-    return src, alt, loading, fetchpriority
+    return src, alt
 
 
-def render_sourced_image(
-    src: str, alt: str, loading: str, fetchpriority: str
-) -> str:
+def characters_to_remove(content: str, indent: str) -> int:
+    for line in content.splitlines():
+        if line.strip():
+            current_indent = len(line) - len(line.lstrip())
+            return max(current_indent - len(indent), 0)
+    return 0
+
+
+def correct_indentation(content: str, indent: str) -> str:
+    to_remove = characters_to_remove(content, indent)
+    return "\n".join(line[to_remove:] for line in content.splitlines())
+
+
+def render_sourced_image(src: str, alt: str, indent: str) -> str:
     thumbnail_src = src.replace("media/photographs", "media/thumbnails")
-    thumbnail_480 = thumbnail_src.replace(".webp", "_480.webp")
-    thumbnail_980 = thumbnail_src.replace(".webp", "_980.webp")
-    thumbnail_1280 = thumbnail_src.replace(".webp", "_1280.webp")
+    thumbnail_300 = thumbnail_src.replace(".webp", "_300.webp")
 
-    convert_image(Path(f"../{src}"), Path(f"../{thumbnail_480}"), (480, 480))
-    convert_image(Path(f"../{src}"), Path(f"../{thumbnail_980}"), (980, 980))
-    convert_image(Path(f"../{src}"), Path(f"../{thumbnail_1280}"), (1280, 1280))
+    convert_image(Path(f"../{src}"), Path(f"../{thumbnail_300}"), (300, 300))
+    low_size = image_size(Path(f"../{thumbnail_300}"))
+    high_size = image_size(Path(f"../{src}"))
 
-    srcset = (
-        f"{thumbnail_480} 480w, "
-        f"{thumbnail_980} 980w, "
-        f"{thumbnail_1280} 1280w, "
-        f"{src} 2048w"
+    low_res_img = (
+        f'<img src="{thumbnail_300}" '
+        f'class="low" '
+        f'width="{low_size[0]}" '
+        f'height="{low_size[1]}" '
+        f'alt="{alt}" />'
     )
-
-    sizes = (
-        "(max-width: 480px) 100vw, "
-        "(max-width: 980px) 90vw, "
-        "(max-width: 1280px) 80vw, "
-        "100vw"
+    high_res_img = (
+        f'<img src="{src}" '
+        f'class="high" '
+        f'loading="lazy" '
+        f'width="{high_size[0]}" '
+        f'height="{high_size[1]}" '
+        f'alt="{alt}" />'
     )
 
     new_content = (
-        f'<img src="{thumbnail_src}" '
-        f'alt="{alt}" '
-        f'loading="{loading}" '
-        f'fetchpriority="{fetchpriority}" '
-        f'srcset="{srcset}" '
-        f'sizes="{sizes}" '
-        'decoding="async" />'
+        f'<div class="lazy-image">'
+        f"{indent}  {low_res_img}"
+        f"{indent}  {high_res_img}"
+        f"{indent}</div>"
     )
 
     return new_content
@@ -68,8 +75,8 @@ def process_image_tag(template_file_content: str) -> str:
         indent = match.group(1)
         tag_value = match.group(2)
 
-        src, alt, loading, fetchpriority = parse_image_attributes(tag_value)
-        new_content = render_sourced_image(src, alt, loading, fetchpriority)
+        src, alt = parse_image_attributes(tag_value)
+        new_content = render_sourced_image(src, alt, indent)
 
         return f"{indent}{new_content}"
 
