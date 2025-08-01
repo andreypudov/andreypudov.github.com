@@ -21,26 +21,24 @@ def parse_image_attributes(opening_tag: str) -> Tuple[str, str, str, str]:
     return src, alt
 
 
-def characters_to_remove(content: str, indent: str) -> int:
-    for line in content.splitlines():
-        if line.strip():
-            current_indent = len(line) - len(line.lstrip())
-            return max(current_indent - len(indent), 0)
-    return 0
-
-
-def correct_indentation(content: str, indent: str) -> str:
-    to_remove = characters_to_remove(content, indent)
-    return "\n".join(line[to_remove:] for line in content.splitlines())
+def normalize_path(path: str) -> str:
+    normalized = re.sub(r"^(\.\./)+", "", path)
+    return normalized
 
 
 def render_sourced_image(src: str, alt: str, indent: str) -> str:
     thumbnail_src = src.replace("media/photographs", "media/thumbnails")
     thumbnail_300 = thumbnail_src.replace(".webp", "_300.webp")
 
-    convert_image(Path(f"../{src}"), Path(f"../{thumbnail_300}"), (300, 300))
-    low_size = image_size(Path(f"../{thumbnail_300}"))
-    high_size = image_size(Path(f"../{src}"))
+    actual_src = Path(f"../{normalize_path(src)}")
+    actual_thumbnail_src = Path(f"../{normalize_path(thumbnail_300)}")
+
+    print(f"Processing image: {src} {actual_src}")
+    print(f"Thumbnail source: {thumbnail_src} {actual_thumbnail_src}")
+
+    convert_image(actual_src, actual_thumbnail_src, (300, 300))
+    low_size = image_size(actual_thumbnail_src)
+    high_size = image_size(actual_src)
 
     low_res_img = (
         f'<img src="{thumbnail_300}" '

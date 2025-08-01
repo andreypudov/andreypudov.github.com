@@ -48,6 +48,7 @@
 
     <link href="../media/images/favicon.png?v=1.1" rel="icon" type="image/png">
 
+    <link href="../styles/lazy-image.css?v=1.1" rel="stylesheet" />
     <link href="../styles/masonry-grid.css?v=1.1" rel="stylesheet" />
     <link href="../styles/lightbox.css?v=1.1" rel="stylesheet" />
     <link href="../styles/layout.css?v=1.1" rel="stylesheet" />
@@ -189,7 +190,7 @@
         <repeat data-set="travel-grid-ds" data-index="index">
           <figure>
             <a id="travel-grid-${index + 1}" href="#lightbox-travel-${index + 1}">
-              <img src="../media${path}" alt="${description}" loading="lazy" />
+              <image src="../media${path}" alt="${description}" />
             </a>
           </figure>
         </repeat>
@@ -201,7 +202,7 @@
         <repeat data-set="nature-grid-ds" data-index="index">
           <figure>
             <a id="nature-grid-${index + 1}" href="#lightbox-nature-${index + 1}">
-              <img src="../media${path}" alt="${description}" loading="lazy" />
+              <image src="../media${path}" alt="${description}" />
             </a>
           </figure>
         </repeat>
@@ -213,7 +214,7 @@
         <repeat data-set="portraits-grid-ds" data-index="index">
           <figure>
             <a id="portraits-grid-${index + 1}" href="#lightbox-portraits-${index + 1}">
-              <img src="../media${path}" alt="${description}" loading="lazy" />
+              <image src="../media${path}" alt="${description}" />
             </a>
           </figure>
         </repeat>
@@ -225,7 +226,7 @@
         <repeat data-set="events-grid-ds" data-index="index">
             <figure>
               <a id="events-grid-${index + 1}" href="#lightbox-events-${index + 1}">
-                <img src="../media${path}" alt="${description}" loading="lazy" />
+                <image src="../media${path}" alt="${description}" />
               </a>
             </figure>
           </repeat>
