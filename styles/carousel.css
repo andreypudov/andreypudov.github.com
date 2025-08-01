@@ -118,6 +118,7 @@
         text-align: center;
         text-shadow: 0 0 16px var(--fg-primary);
         padding: (calc(--layout-section-gap) / 2);
+        z-index: 1;
 
         small {
           display: block;
