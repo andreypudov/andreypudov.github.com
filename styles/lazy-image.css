@@ -7,6 +7,16 @@
     display: block;
     width: 100%;
     height: auto;
+
+    /* hide the image until it is fully loaded */
+    font-size: 0;
+    color: transparent;
+    text-indent: -9999px;
+    line-height: 0;
+
+    ::before {
+      content: none !important;
+    }
   }
 
   .low {
