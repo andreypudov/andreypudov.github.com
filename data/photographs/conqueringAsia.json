@@ -1,0 +1,303 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Conquering Asia",
+  "description": "",
+  "genre": "Street",
+  "cover": "/photographs/2025-01-15_02-10/2025-01-15_02-10_001.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_001.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_002.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_003.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_004.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_005.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_006.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_007.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "Lunar Glow on Shennong Street",
+      "description": "Lantern-lit Shennong Street glows with festive warmth, celebrating Chinese New Year in timeless, nocturnal elegance.",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_008.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_009.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_010.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_011.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_012.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_013.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_014.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_015.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_016.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_017.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_018.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_019.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_020.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "Whispers of Sunfong Temple",
+      "description": "A serene landscape capturing the timeless elegance of Sunfong Temple beneath a gently fading Taiwanese sky.",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_021.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_022.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_023.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_024.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_025.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_026.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_027.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_028.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_029.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_030.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_031.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_032.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_033.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_034.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_035.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_036.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_037.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_038.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "Moonlight Over Taipei 101",
+      "description": "Taipei 101 rises into the night sky, crowned by the moon in a quiet moment of urban stillness.",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_039.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_040.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_041.webp",
+      "orientation": "portrait",
+      "date": "2025-02-10"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-01-15_02-10/2025-01-15_02-10_042.webp",
+      "orientation": "landscape",
+      "date": "2025-02-10"
+    }
+  ]
+}

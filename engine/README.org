@@ -87,3 +87,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 pre-commit install
 #+end_src
+
+** Titles and Description
+
+Use the following query to generate titles and descriptions:
+
+#+begin_src shell
+Please write a title and description for the photograph in professional photography exhibition style, and requirements (title is title case format, description is a single sentence not exceeding twenty words) for the following: <a landscape photograph of the Sunfong Temple>.
+#+end_src
