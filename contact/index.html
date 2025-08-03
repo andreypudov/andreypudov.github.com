@@ -48,6 +48,7 @@
 
     <link href="../media/images/favicon.png?v=1.2" rel="icon" type="image/png">
 
+    <link href="../styles/lazy-image.css?v=1.2" rel="stylesheet" />
     <link href="../styles/contact.css?v=1.2" rel="stylesheet" />
     <link href="../styles/layout.css?v=1.2" rel="stylesheet" />
 
@@ -108,7 +109,10 @@
         </div>
 
         <div class="image">
-          <img src="../media/photographs/2016-04-16/2016-04-16_002.webp" alt="A contemplative self-portrait capturing the artist’s gaze and presence, offering a personal glimpse into his creative identity." loading="eager" />
+          <div class="lazy-image">
+            <img src="../media/thumbnails/2016-04-16/2016-04-16_002_300.webp" class="low" width="300" height="200" alt="A contemplative self-portrait capturing the artist’s gaze and presence, offering a personal glimpse into his creative identity." />
+            <img src="../media/photographs/2016-04-16/2016-04-16_002.webp" class="high" loading="lazy" width="2048" height="1365" alt="A contemplative self-portrait capturing the artist’s gaze and presence, offering a personal glimpse into his creative identity." />
+          </div>
         </div>
       </div>
     </main>
