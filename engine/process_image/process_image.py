@@ -61,7 +61,6 @@ def main() -> None:
 
     try:
         render_image(Path(args.template), Path(args.output))
-        print("Image processing completed.")
     except Exception as e:
         print(f"Image processing failed: {e}")
         sys.exit(1)
