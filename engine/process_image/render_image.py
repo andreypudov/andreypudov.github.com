@@ -33,9 +33,6 @@ def render_sourced_image(src: str, alt: str, indent: str) -> str:
     actual_src = Path(f"../{normalize_path(src)}")
     actual_thumbnail_src = Path(f"../{normalize_path(thumbnail_300)}")
 
-    print(f"Processing image: {src} {actual_src}")
-    print(f"Thumbnail source: {thumbnail_src} {actual_thumbnail_src}")
-
     convert_image(actual_src, actual_thumbnail_src, (300, 300))
     low_size = image_size(actual_thumbnail_src)
     high_size = image_size(actual_src)
