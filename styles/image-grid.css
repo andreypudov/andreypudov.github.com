@@ -1,0 +1,24 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--layout-section-gap);
+  max-width: 900px;
+  margin: 0 auto;
+
+  a {
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      transition: transform 0.9s ease;
+
+      &:hover {
+        transform: scale(var(--scale));
+      }
+    }
+  }
+}
