@@ -51,6 +51,10 @@ main {
     font-weight: 500;
     margin-top: var(--layout-section-gap);
     margin-bottom: calc(var(--layout-section-gap) * 1.4);
+
+    &:not(:first-child) {
+      margin-top: calc(var(--layout-section-gap) * 2.2);
+    }
   }
 
   p {
