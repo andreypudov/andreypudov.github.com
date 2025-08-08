@@ -40,6 +40,7 @@ def render_sourced_image(src: str, alt: str, indent: str) -> str:
     low_res_img = (
         f'<img src="{thumbnail_300}" '
         f'class="low" '
+        f'loading="lazy" '
         f'width="{low_size[0]}" '
         f'height="{low_size[1]}" '
         f'alt="{alt}" />'
