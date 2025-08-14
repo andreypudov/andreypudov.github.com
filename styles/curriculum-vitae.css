@@ -1,19 +1,19 @@
 .curriculum-vitae {
   @media (max-width: 576px) {
-    padding: 0 var(--layout-section-gap);
+    padding: 0 var(--gap-md);
   }
 
   section {
     &:not(:first-child) {
-      margin-top: calc(var(--layout-section-gap) * 2);
+      margin-top: var(--gap-xl);
     }
 
     figure {
-      margin-bottom: calc(var(--layout-section-gap));
+      margin-bottom: var(--gap-md);
 
       figcaption {
         font-weight: bold;
-        margin-bottom: var(--layout-section-gap);
+        margin-bottom: var(--gap-md);
 
         small {
           display: block;
@@ -44,7 +44,7 @@
       .text {
         figcaption {
           font-weight: bold;
-          margin-bottom: var(--layout-section-gap);
+          margin-bottom: var(--gap-md);
 
           small {
             display: block;

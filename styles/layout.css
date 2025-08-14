@@ -1,23 +1,31 @@
-@import url("header.css?v=1.2");
-@import url("footer.css?v=1.2");
+@import url("header.css?v=1.3");
+@import url("footer.css?v=1.3");
 
 :root {
   --font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  --font-size: 0.9rem;
   --font-weight: 400;
   --line-height: 1.5;
+
+  --font-size-primary: 0.9rem;
+  --font-size-large: 1.8rem;
+  --font-size-header: 1.33rem;
+  --menu-font-size: 0.8rem;
+  --subscript-font-size: 0.74rem;
 
   --bg-primary: white;
   --bg-secondary: #fafafc;
   --bg-third: #f5f5f7;
+
   --fg-primary: #212529;
   --fg-secondary: #6e6e6e;
   --fg-inverted: white;
 
-  --menu-font-size: 0.8rem;
-  --subscript-font-size: 0.74rem;
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+  --gap-xl: 32px;
+  --gap-xxl: 64px;
 
-  --layout-section-gap: 16px;
   --transition: 0.4s;
   --scale: 1.04;
 }
@@ -33,7 +41,7 @@
 
 body {
   font-family: var(--font-family);
-  font-size: var(--font-size);
+  font-size: var(--font-size-primary);
   font-weight: var(--font-weight);
   line-height: var(--line-height);
 
@@ -44,16 +52,16 @@ body {
 }
 
 main {
-  padding-top: var(--layout-section-gap);
+  padding-top: var(--gap-md);
 
   h1 {
-    font-size: calc(var(--font-size) * 1.48);
+    font-size: var(--font-size-header);
     font-weight: 500;
-    margin-top: var(--layout-section-gap);
-    margin-bottom: calc(var(--layout-section-gap) * 1.4);
+    margin-top: var(--gap-md);
+    margin-bottom: calc(var(--gap-md) * 1.4);
 
     &:not(:first-child) {
-      margin-top: calc(var(--layout-section-gap) * 2.2);
+      margin-top: calc(var(--gap-md) * 2.2);
     }
   }
 
@@ -89,7 +97,7 @@ main {
 }
 
 .container-fluid {
-  margin: 0 var(--layout-section-gap);
+  margin: 0 var(--gap-md);
 }
 
 .loader {

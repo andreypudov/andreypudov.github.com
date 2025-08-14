@@ -21,8 +21,8 @@
 
       .close {
         position: absolute;
-        right: calc(var(--layout-section-gap) * 1.5);
-        color: black;
+        right: var(--gap-lg);
+        color: var(--fg-primary);
         text-align: center;
         text-decoration: none;
         font-size: 1.2rem;
@@ -34,7 +34,7 @@
 
     .content {
       .nav {
-        width: calc(var(--layout-section-gap) * 4);
+        width: var(--gap-xxl);
         height: 100%;
         font-size: 1rem;
         color: var(--fg-primary);
@@ -79,7 +79,7 @@
         height: 100%;
 
         .image-wrapper {
-          padding: 0 calc(var(--layout-section-gap) * 4);
+          padding: 0 var(--gap-xxl);
           display: flex;
           flex: 1;
           height: 80vh;
@@ -107,7 +107,7 @@
         }
 
         .video-wrapper {
-          padding: 0 calc(var(--layout-section-gap) * 4);
+          padding: 0 var(--gap-xxl);
           display: flex;
           flex: 1;
           height: 80vh;
@@ -130,7 +130,7 @@
           small {
             display: block;
             font-size: 0.8rem;
-            padding: 0 var(--layout-section-gap);
+            padding: 0 var(--gap-md);
             text-align: center;
           }
         }

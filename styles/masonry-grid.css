@@ -1,6 +1,6 @@
 .masonry-grid {
   column-count: 5;
-  column-gap: var(--layout-section-gap);
+  column-gap: var(--gap-md);
 
   @media (max-width: 1200px) {
     column-count: 4;

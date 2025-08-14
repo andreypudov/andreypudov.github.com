@@ -2,7 +2,7 @@
   position: relative;
   height: 80vh;
   width: 100%;
-  margin: calc(var(--layout-section-gap) * -1) 0 calc(var(--layout-section-gap) * -2) 0;
+  margin: calc(var(--gap-md) * -1) 0 calc(var(--gap-xl) * -1) 0;
   color: var(--fg-inverted);
   overflow: hidden;
 

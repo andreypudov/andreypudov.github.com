@@ -1,7 +1,7 @@
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--layout-section-gap);
+  gap: var(--gap-md);
   max-width: 900px;
   margin: 0 auto;
 
@@ -26,7 +26,7 @@
     grid-template-columns: repeat(1, 1fr);
 
     a {
-        padding: 0 calc(var(--layout-section-gap));
+        padding: 0 calc(var(--gap-md));
     }
   }
 }

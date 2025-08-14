@@ -1,6 +1,6 @@
 .contact {
   display: flex;
-  gap: var(--layout-section-gap);
+  gap: var(--gap-md);
 
   .text,
   .image {
@@ -13,16 +13,16 @@
     form {
       display: flex;
       flex-direction: column;
-      gap: var(--layout-section-gap);
+      gap: var(--gap-md);
 
       input, textarea {
-        font-size: var(--font-size);
+        font-size: var(--font-size-primary);
         width: 100%;
         transition: border var(--transition);
         border-width: 0 0 1px 0;
         border-color: var(--fg-secondary);
         border-style: solid;
-        padding: var(--layout-section-gap) 0;
+        padding: var(--gap-md) 0;
 
         &:focus {
           border-color: var(--fg-primary);
@@ -36,12 +36,12 @@
       }
 
       button {
-        padding: var(--layout-section-gap);
-        margin-top: var(--layout-section-gap);
+        padding: var(--gap-md);
+        margin-top: var(--gap-md);
         background-color: var(--fg-primary);
         color: var(--bg-primary);
         border: none;
-        font-size: var(--font-size);
+        font-size: var(--font-size-primary);
         cursor: pointer;
         transition: background-color var(--transition);
 
@@ -52,7 +52,7 @@
     }
 
     @media (max-width: 576px) {
-      margin: 0 var(--layout-section-gap);
+      margin: 0 var(--gap-md);
     }
   }
 
