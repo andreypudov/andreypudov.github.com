@@ -22,6 +22,7 @@
         border-width: 0 0 1px 0;
         border-color: var(--fg-secondary);
         border-style: solid;
+        border-radius: 0;
         padding: var(--gap-md) 0;
 
         &:focus {
