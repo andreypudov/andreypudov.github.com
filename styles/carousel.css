@@ -2,8 +2,6 @@
   position: relative;
   margin-top: calc(-1 * var(--gap-md));
   width: 100%;
-  height: 100vh;   /* fallback */
-  height: 100svh;
   transition: var(--transition);
 
   .overlay {
