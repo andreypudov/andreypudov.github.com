@@ -2,7 +2,7 @@
   position: relative;
   margin-top: calc(-1 * var(--gap-md));
   width: 100%;
-  transition: var(--transition);
+  height: 100dvh;
 
   .overlay {
     position: absolute;
