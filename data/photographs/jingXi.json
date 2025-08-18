@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "婧溪",
+  "description": "",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-08-17/2025-08-17_002.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-08-17/2025-08-17_001.webp",
+      "orientation": "portrait",
+      "date": "2025-08-17"
+    },
+    {
+      "name": "Jingxi Before the Dance",
+      "description": "Jingxi in traditional Chinese attire moments before her performance at Fiesta Mayor de Gràcia.",
+      "path": "/photographs/2025-08-17/2025-08-17_002.webp",
+      "orientation": "portrait",
+      "date": "2025-08-17"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-08-17/2025-08-17_003.webp",
+      "orientation": "portrait",
+      "date": "2025-08-17"
+    }
+  ]
+}
