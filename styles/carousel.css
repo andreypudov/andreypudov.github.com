@@ -3,7 +3,6 @@
   margin-top: calc(-1 * var(--gap-md));
   width: 100%;
   height: 100vh;
-  height: 100svh;
 
   .overlay {
     position: absolute;

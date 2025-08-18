@@ -20,6 +20,10 @@
     &.timelapse {
       background-image: url('../media/images/sections/timelapse.webp');
     }
+
+    @media (max-width: 768px) {
+      background-attachment: scroll;
+    }
   }
 
   .content {
