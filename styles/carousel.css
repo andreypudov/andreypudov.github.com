@@ -119,6 +119,11 @@
         padding: var(--gap-sm);
         z-index: 1;
 
+        @media (max-width: 576px) {
+          font-size: calc(var(--font-size-large) * 0.8);
+          width: 100%;
+        }
+
         small {
           display: block;
           font-size: var(--font-size-primary);
