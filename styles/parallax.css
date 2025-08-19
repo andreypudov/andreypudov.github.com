@@ -17,10 +17,6 @@
     width: 100%;
     z-index: 0;
 
-    &.timelapse {
-      background-image: url('../media/images/sections/timelapse.webp');
-    }
-
     @media (max-width: 768px) {
       background-attachment: scroll;
     }
@@ -35,7 +31,53 @@
     color: var(--fg-inverted);
     font-size: var(--font-size-large);
     text-shadow: 0 0 16px var(--fg-primary);
-    padding: var(--gap-sm);
+    padding: var(--gap-xl);
     text-align: center;
+  }
+
+  &.timelapse {
+    .background {
+      background-image: url('../media/images/sections/timelapse.webp');
+    }
+  }
+
+  &.about {
+    height: auto;
+
+    .background {
+      background-image: url('../media/images/sections/about.webp');
+    }
+
+    .content {
+      gap: var(--gap-xl);
+      display: flex;
+      align-items: stretch; 
+
+      .text,
+      .image {
+        flex: 1;
+        margin: auto;
+      }
+
+      .image {
+        flex: 0 0 30%;
+        margin: inherit;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .text {
+        flex: 1;
+        font-size: var(--font-size-primary);
+        text-align: left;
+      }
+    }
   }
 }
