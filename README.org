@@ -7,11 +7,11 @@ Driven professional with broad technical skill set. Thrives in environments that
 *** *Derivco Sports*
   - *Sr. Software Development Engineer* / 2021 - present
 
-    Developed and maintained a social platform with a strong focus on media content representation, handling, and user engagement.
+    As a founding member of a newly established R&D team at Derivco, I contributed to the design and development of a next-generation social networking platform focused on video content. The project was fully exploratory, requiring architecture and solutions to be built from the ground up. My responsibilities included leading solution architecture, rapid prototyping, and ensuring the scalability and robustness of the platform to support high-volume user engagement.
 
-    On the backend, I implemented a machine learning-based ranking and recommendation algorithm to optimize content delivery and enhance user experience across the platform. Additionally, I worked extensively on media post encoding, automated AI-based content moderation processes, and efficient storage solutions to handle high volumes of media content.
+    In my role as a full-stack engineer, I worked across both front-end and back-end domains. On the front-end, I implemented social media interfaces, built responsive components, and optimized UI performance for speed and cross-device responsiveness. I also improved the overall user experience by refining interaction flows, enhancing visual consistency, and prototyping key components to validate new ideas and features.
 
-    On the frontend, I was responsible for performance fine-tuning and ensuring visual consistency across multiple end-user platforms. I collaborated closely with the design team to translate their vision into a functional and intuitive interface. By working alongside stakeholders, I ensured that the platform met business requirements while delivering a seamless, high-quality user experience.
+    On the back-end, I was responsible for architecting and implementing high-performance services for media handling, covering ingestion, processing, storage, and retrieval of video content. This work required careful attention to performance, scalability, and cost efficiency, and laid the technical foundation for a product that seamlessly integrated social engagement with large-scale video delivery.
 
 *** *EPAM Systems*
   - *Sr. Software Development Engineer* / 2020 - 2021
