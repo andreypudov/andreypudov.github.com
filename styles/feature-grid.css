@@ -20,12 +20,14 @@
 
     figure {
       border-radius: 10px;
-      margin-top: var(--gap-md);
       vertical-align: middle;
       width: 100%;
-
       display: inline-block;
       overflow: hidden;
+
+      &:not(:first-child) {
+        margin-top: var(--gap-md);
+      }
 
       @media (max-width: 768px) {
         border-radius: 0px;

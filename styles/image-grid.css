@@ -2,8 +2,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap-md);
-  max-width: 900px;
-  margin: 0 auto;
 
   a {
     border-radius: 10px;

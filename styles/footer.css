@@ -2,8 +2,6 @@ footer {
   position: relative;
   overflow: hidden;
   background: var(--bg-third);
-
-  margin-top: var(--gap-xl);
   padding: var(--gap-md);
 
   .social {

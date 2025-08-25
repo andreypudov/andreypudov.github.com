@@ -3,8 +3,7 @@
   height: 400px;
   width: 100%;
   overflow: hidden;
-
-  margin: var(--gap-xl) 0;
+  margin: var(--gap-md) 0;
 
   .background {
     background-size: cover;
