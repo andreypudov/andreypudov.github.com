@@ -6,22 +6,16 @@
     flex: 1;
     padding: 0 var(--gap-md);
 
-    @media (min-width: var(--grid-md)) {
-      padding: 0 var(--gap-sm);
-
-      &:first-child {
-        padding: 0 var(--gap-sm) 0 0;
-      }
-
-      &:last-child {
-        padding: 0 0 0 var(--gap-sm);
+    @media (max-width: 768px) {
+      &:not(:first-child) {
+        margin-top: var(--gap-md);
       }
     }
 
     figure {
       border-radius: 10px;
       vertical-align: middle;
-      width: 100%;
+      width: 100%;  
       display: inline-block;
       overflow: hidden;
 
@@ -30,7 +24,7 @@
       }
 
       @media (max-width: 768px) {
-        border-radius: 0px;
+        border-radius: 0;
       }
 
       img {

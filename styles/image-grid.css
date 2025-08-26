@@ -17,6 +17,10 @@
       &:hover {
         transform: scale(var(--scale));
       }
+
+      @media (max-width: 768px) {
+        border-radius: 0;
+      }
     }
   }
 
