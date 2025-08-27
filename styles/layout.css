@@ -97,3 +97,7 @@ main {
 .container-fluid {
   margin: 0 var(--gap-md);
 }
+
+.loader {
+  display: none !important;
+}
