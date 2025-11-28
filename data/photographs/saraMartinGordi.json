@@ -1,0 +1,65 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Sara Martin Gordi",
+  "description": "A series of elegant portraits of Sara Martin Gordi posing against the architectural backdrop of Museu Nacional d'Art de Catalunya.",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-11-15/2025-11-15_005.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_001.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_002.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_003.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_004.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "Sara Martin Gordi: Garden Poise",
+      "description": "Balancing elegance with Barcelona’s cultural grandeur.",
+      "path": "/photographs/2025-11-15/2025-11-15_005.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_006.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_007.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_008.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Pei Pei. Christmas lights in Barcelona",
+  "description": "Refined portraits set on the sweeping views surrounding Museu Nacional d'Art de Catalunya.",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-11-27/2025-11-27_001.webp",
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-27/2025-11-27_001.webp",
+      "orientation": "portrait",
+      "date": "2025-11-27"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-27/2025-11-27_002.webp",
+      "orientation": "landscape",
+      "date": "2025-11-27"
+    },
+    {
+      "name": "Pei Pei Chen: Luminous Passage",
+      "description": "Glows beneath Passeig de Gràcia’s festive lights, merging holiday warmth with urban elegance.",
+      "path": "/photographs/2025-11-27/2025-11-27_003.webp",
+      "orientation": "landscape",
+      "date": "2025-11-27"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-27/2025-11-27_004.webp",
+      "orientation": "portrait",
+      "date": "2025-11-27"
+    }
+  ]
+}

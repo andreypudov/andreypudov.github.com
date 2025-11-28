@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/album.schema.json",
+  "name": "Sílvia Fernandez Puigdevall",
+  "description": "Refined portraits set on the sweeping views surrounding Museu Nacional d'Art de Catalunya.",
+  "genre": "Portrait",
+  "cover": "/photographs/2025-11-15/2025-11-15_015.webp",
+  "items": [
+    {
+      "name": "Sílvia Fernandez Puigdevall: Rooftop Reverie",
+      "description": "Blending Barcelona's skyline with modern grace.",
+      "path": "/photographs/2025-11-15/2025-11-15_009.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_010.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_011.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_012.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_013.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_014.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_015.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_016.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_017.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_018.webp",
+      "orientation": "landscape",
+      "date": "2025-11-15"
+    },
+    {
+      "name": "",
+      "description": "",
+      "path": "/photographs/2025-11-15/2025-11-15_019.webp",
+      "orientation": "portrait",
+      "date": "2025-11-15"
+    }
+  ]
+}
