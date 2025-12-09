@@ -7,7 +7,7 @@ validate_dataset() {
 
   python3 -m validate_dataset.validate_dataset \
   --dataset "$dataset" \
-  --schema ../data/schemas/album.schema.json
+  --schema ../data/schemas/album.schema.json > /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Dataset validation failed."
     exit 1
@@ -22,7 +22,7 @@ process_dataset() {
   python3 -m process_dataset.process_dataset \
   --template "$template" \
   --dataset "$dataset" \
-  --output "$output"
+  --output "$output" > /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Dataset processing failed."
     exit 1
@@ -35,7 +35,7 @@ process_repeat() {
 
   python3 -m process_repeat.process_repeat \
   --template "$template" \
-  --output "$output"
+  --output "$output" > /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Repeat processing failed."
     exit 1
@@ -48,7 +48,7 @@ process_image() {
 
   python3 -m process_image.process_image \
   --template "$template" \
-  --output "$output"
+  --output "$output" > /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Image processing failed."
     exit 1
@@ -61,7 +61,7 @@ remove_dataset() {
 
   python3 -m remove_dataset.remove_dataset \
   --template "$template" \
-  --output "$output"
+  --output "$output" > /dev/null 2>&1
   if [ $? -ne 0 ]; then
     echo "Dataset removing failed."
     exit 1
@@ -69,7 +69,7 @@ remove_dataset() {
 }
 
 echo "Validating dataset..."
-# validate_dataset "../data/photographs"
+validate_dataset "../data/photographs"
 
 echo "Processing datasets..."
 process_dataset "../templates/home.html" "../data/photographs" "../index.html"
