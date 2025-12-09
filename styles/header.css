@@ -39,10 +39,8 @@ menu {
       a {
         color: var(--fg-inverted);
 
-        &:hover {
-          &:after {
-            background-color: var(--fg-inverted);
-          }
+        &:after {
+          background-color: var(--fg-inverted);
         }
       }
     }
@@ -62,16 +60,24 @@ menu {
       position: relative;
       text-align: center;
 
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 1px;
+        background-color: var(--fg-primary);
+
+        transition: transform var(--transition) ease-out; 
+        transform-origin: center; 
+        transform: scaleX(0);
+      }
+
       &:hover {
         &:after {
-          background-color: var(--fg-primary);
-          content: '';
-          width: 100%;
-          height: 1px;
-          position: absolute;
-          bottom: -3px;
-          left: -1px;
-          opacity: 1;
+          transform: scaleX(1); 
         }
       }
     }
