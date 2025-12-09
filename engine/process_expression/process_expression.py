@@ -19,10 +19,6 @@ def process_expression(template: str, variables: dict) -> str:
         def eval_node(node):
             if isinstance(node, ast.Constant):
                 return node.value
-            elif isinstance(node, ast.Num):
-                return node.n
-            elif isinstance(node, ast.Str):
-                return node.s
             elif isinstance(node, ast.Name):
                 if node.id in context:
                     return context[node.id]
