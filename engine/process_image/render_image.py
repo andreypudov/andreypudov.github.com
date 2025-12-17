@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import Tuple
 import re
+import itertools
 
 from bs4 import BeautifulSoup
 
@@ -26,7 +27,7 @@ def normalize_path(path: str) -> str:
     return normalized
 
 
-def render_sourced_image(src: str, alt: str, indent: str) -> str:
+def render_sourced_image(src: str, alt: str, indent: str, index: int) -> str:
     thumbnail_src = src.replace("media/photographs", "media/thumbnails")
     thumbnail_300 = thumbnail_src.replace(".webp", "_300.webp")
 
@@ -48,7 +49,8 @@ def render_sourced_image(src: str, alt: str, indent: str) -> str:
     high_res_img = (
         f'<img src="{src}" '
         f'class="high" '
-        f'loading="lazy" '
+        f'loading="{"eager" if index == 0 else "lazy"}" '
+        f'{"fetchpriority=\"high\" " if index == 0 else ""}'
         f'width="{high_size[0]}" '
         f'height="{high_size[1]}" '
         f'alt="{alt}" />'
@@ -66,13 +68,15 @@ def render_sourced_image(src: str, alt: str, indent: str) -> str:
 
 def process_image_tag(template_file_content: str) -> str:
     pattern = re.compile(r"(\s*)(<image[^>]*?/>)", re.DOTALL)
+    counter = itertools.count()
 
     def replacer(match):
         indent = match.group(1)
         tag_value = match.group(2)
 
         src, alt = parse_image_attributes(tag_value)
-        new_content = render_sourced_image(src, alt, indent)
+        image_index = next(counter)
+        new_content = render_sourced_image(src, alt, indent, image_index)
 
         return f"{indent}{new_content}"
 

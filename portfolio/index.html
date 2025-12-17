@@ -47,13 +47,15 @@
       }
     </style>
 
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preload" href="/styles/layout.css?v=1.6" as="style">
+
     <link href="/media/images/favicon.png?v=1.6" rel="icon" type="image/png">
 
+    <link href="/styles/layout.css?v=1.6" rel="stylesheet" />
     <link href="/styles/lazy-image.css?v=1.6" rel="stylesheet" />
     <link href="/styles/masonry-grid.css?v=1.6" rel="stylesheet" />
     <link href="/styles/lightbox.css?v=1.6" rel="stylesheet" />
-    <link href="/styles/layout.css?v=1.6" rel="stylesheet" />
-
 
     <script src="/scripts/analytics.js?v=1.6" type="module"></script>
   </head>
@@ -114,7 +116,7 @@
           <a id="travel-grid-1" href="#lightbox-travel-1">
             <div class="lazy-image">
               <img src="/media/thumbnails/2025-05-11/2025-05-11_008_300.webp" class="low" loading="lazy" width="300" height="200" alt="A study of street life in Barcelona through long exposure — capturing motion, light, and fleeting moments in a seemingly still scene." />
-              <img src="/media/photographs/2025-05-11/2025-05-11_008.webp" class="high" loading="lazy" width="2048" height="1365" alt="A study of street life in Barcelona through long exposure — capturing motion, light, and fleeting moments in a seemingly still scene." />
+              <img src="/media/photographs/2025-05-11/2025-05-11_008.webp" class="high" loading="eager" fetchpriority="high" width="2048" height="1365" alt="A study of street life in Barcelona through long exposure — capturing motion, light, and fleeting moments in a seemingly still scene." />
             </div>
           </a>
         </figure>
