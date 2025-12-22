@@ -1,0 +1,26 @@
+section {
+  margin-bottom: var(--gap-md);
+
+  .row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+    align-items: flex-start;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .label {
+      width: 140px;
+      flex-shrink: 0;
+      text-align: left;
+    }
+
+    .value {
+      flex-grow: 1;
+      text-align: left;
+      word-break: break-all;
+    }
+  }
+}
