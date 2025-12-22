@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1;
+    margin: 0;
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section {
+      margin-bottom: var(--gap-md);
+
+      &.time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        white-space: nowrap;
+
+        strong {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-size: min(14vw, 40vh);
+          line-height: 1;
+        }
+      }
+    }
+  }
+}

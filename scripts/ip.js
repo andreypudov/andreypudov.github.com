@@ -31,8 +31,6 @@ getNetworkInfo().then(info => {
   const latitudeElem = document.getElementById('latitude');
   const longitudeElem = document.getElementById('longitude');
 
-  console.log('Network Info:', info);
-
   if (info) {
     ipElem.textContent = info.public_ip || 'N/A';
     userAgentElem.textContent = info.user_agent || 'N/A';
