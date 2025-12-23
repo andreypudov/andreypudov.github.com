@@ -13,7 +13,7 @@
     white-space: nowrap;
     width: 100%;
 
-    strong {
+    pre {
       font-size: min(14vw, 40vh);
     }
   }
