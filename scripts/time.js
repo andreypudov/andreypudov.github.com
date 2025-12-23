@@ -49,7 +49,13 @@ async function getServerOffset() {
 
 async function startClock() {
   const timeElement = document.getElementById('time');
-  if (!timeElement) {
+
+  const newYorkTimeElement = document.getElementById('newyork-time');
+  const barcelonaTimeElement = document.getElementById('barcelona-time');
+  const cheboksaryTimeElement = document.getElementById('cheboksary-time');
+  const tainanTimeElement = document.getElementById('tainan-time');
+
+  if (!timeElement || !newYorkTimeElement || !barcelonaTimeElement || !cheboksaryTimeElement || !tainanTimeElement) {
     return;
   }
 
@@ -58,7 +64,14 @@ async function startClock() {
 
     function render() {
       const now = new Date(Date.now() + offset);
+      const cityOptions = { hour: '2-digit', minute: '2-digit' };
+
       timeElement.textContent = now.toLocaleTimeString().toLowerCase();
+
+      newYorkTimeElement.textContent = now.toLocaleTimeString(undefined, { ...cityOptions, timeZone: 'America/New_York' }).toLowerCase();
+      barcelonaTimeElement.textContent = now.toLocaleTimeString(undefined, { ...cityOptions, timeZone: 'Europe/Madrid' }).toLowerCase();
+      cheboksaryTimeElement.textContent = now.toLocaleTimeString(undefined, { ...cityOptions, timeZone: 'Europe/Moscow' }).toLowerCase();
+      tainanTimeElement.textContent = now.toLocaleTimeString(undefined, { ...cityOptions, timeZone: 'Asia/Taipei' }).toLowerCase();
     }
 
     render();

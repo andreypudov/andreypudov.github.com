@@ -1,13 +1,13 @@
 
-main {
+.times {
   position: relative;
   display: flex;
+  flex-direction: column;
   height: 80vh;
-  width: 100%;
-  margin: auto 0;
 
-  .time {
+  .current-time {
     display: flex;
+    flex: 1 0 auto;
     align-items: center;
     justify-content: center;
     white-space: nowrap;
@@ -15,6 +15,27 @@ main {
 
     strong {
       font-size: min(14vw, 40vh);
+    }
+  }
+
+  .world-times {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--gap-md);
+
+    .city {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--bg-third);
+      flex: 1 1 var(--gap-sm);
+      box-sizing: border-box;
+      padding: calc(var(--gap-sm) / 2) var(--gap-md);
+
+      .name, .time {
+        text-wrap: nowrap;
+      }
     }
   }
 }
