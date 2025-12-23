@@ -48,15 +48,15 @@
     </style>
 
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-    <link rel="preload" href="/styles/layout.css?v=1.7" as="style">
+    <link rel="preload" href="/styles/layout.css?v=1.8" as="style">
 
-    <link href="/media/images/favicon.png?v=1.7" rel="icon" type="image/png">
+    <link href="/media/images/favicon.png?v=1.8" rel="icon" type="image/png">
 
-    <link href="/styles/layout.css?v=1.7" rel="stylesheet" />
-    <link href="/styles/ip.css?v=1.7" rel="stylesheet" />
+    <link href="/styles/layout.css?v=1.8" rel="stylesheet" />
+    <link href="/styles/ip.css?v=1.8" rel="stylesheet" />
 
-    <script src="/scripts/ip.js?v=1.7" type="module"></script>
-    <script src="/scripts/analytics.js?v=1.7" type="module"></script>
+    <script src="/scripts/ip.js?v=1.8" type="module"></script>
+    <script src="/scripts/analytics.js?v=1.8" type="module"></script>
   </head>
   <body>
     <div class="loader">
@@ -92,58 +92,60 @@
       </menu>
     </header>
 
-    <main class="container">
-      <h1>
-        Network Information
-      </h1>
+    <main>
+      <div class="network container">
+        <h1>
+          Network Information
+        </h1>
 
-      <section class="client">
-        <div class="row">
-          <span class="label">
-            <strong>Public IP</strong>
-          </span>
-          <span class="value" id="ip">---</span>
-        </div>
-        <div class="row">
-          <span class="label">
-            <strong>User Agent</strong>
-          </span>
-          <span class="value" id="user-agent">---</span>
-        </div>
-      </section>
+        <section class="client">
+          <div class="row">
+            <span class="label">
+              <strong>Public IP</strong>
+            </span>
+            <span class="value" id="ip">---</span>
+          </div>
+          <div class="row">
+            <span class="label">
+              <strong>User Agent</strong>
+            </span>
+            <span class="value" id="user-agent">---</span>
+          </div>
+        </section>
 
-      <section class="location">
-        <div class="row">
-          <span class="label">
-            <strong>City</strong>
-          </span>
-          <span class="value" id="city">---</span>
-        </div>
-        <div class="row">
-          <span class="label">
-            <strong>Region</strong>
-          </span>
-          <span class="value" id="region">---</span>
-        </div>
-        <div class="row">
-          <span class="label">
-            <strong>Country</strong>
-          </span>
-          <span class="value" id="country">---</span>
-        </div>
-        <div class="row">
-          <span class="label">
-            <strong>Latitude</strong>
-          </span>
-          <span class="value" id="latitude">---</span>
-        </div>
-        <div class="row">
-          <span class="label">
-            <strong>Longitude</strong>
-          </span>
-          <span class="value" id="longitude">---</span>
-        </div>
-      </section>
+        <section class="location">
+          <div class="row">
+            <span class="label">
+              <strong>City</strong>
+            </span>
+            <span class="value" id="city">---</span>
+          </div>
+          <div class="row">
+            <span class="label">
+              <strong>Region</strong>
+            </span>
+            <span class="value" id="region">---</span>
+          </div>
+          <div class="row">
+            <span class="label">
+              <strong>Country</strong>
+            </span>
+            <span class="value" id="country">---</span>
+          </div>
+          <div class="row">
+            <span class="label">
+              <strong>Latitude</strong>
+            </span>
+            <span class="value" id="latitude">---</span>
+          </div>
+          <div class="row">
+            <span class="label">
+              <strong>Longitude</strong>
+            </span>
+            <span class="value" id="longitude">---</span>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>

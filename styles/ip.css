@@ -1,26 +1,32 @@
-section {
-  margin-bottom: var(--gap-md);
+.network {
+  @media (max-width: 576px) {
+    padding: 0 var(--gap-md);
+  }
 
-  .row {
-    display: flex;
-    border-bottom: 1px solid #eee;
-    padding: 12px 0;
-    align-items: flex-start;
+  section {
+    margin-bottom: var(--gap-md);
 
-    &:last-child {
-      border-bottom: none;
-    }
+    .row {
+      display: flex;
+      border-bottom: 1px solid #eee;
+      padding: 12px 0;
+      align-items: flex-start;
 
-    .label {
-      width: 140px;
-      flex-shrink: 0;
-      text-align: left;
-    }
+      &:last-child {
+        border-bottom: none;
+      }
 
-    .value {
-      flex-grow: 1;
-      text-align: left;
-      word-break: break-all;
+      .label {
+        width: 140px;
+        flex-shrink: 0;
+        text-align: left;
+      }
+
+      .value {
+        flex-grow: 1;
+        text-align: left;
+        word-break: break-all;
+      }
     }
   }
 }
