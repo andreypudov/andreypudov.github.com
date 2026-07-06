@@ -1,8 +1,8 @@
 {
-  "name": "andreypudov-portfolio",
-  "version": "2.0.0",
-  "private": true,
-  "description": "Photography portfolio of Andrey Pudov, statically generated with Next.js",
+  "name": "andreypudov",
+  "author": "Andrey Pudov",
+  "description": "The official portfolio of photographer Andrey Pudov, featuring signature photo series, personal projects, and documentary‑style visual storytelling.",
+  "version": "4.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

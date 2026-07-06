@@ -1,12 +1,9 @@
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
 
 export default function NotFoundPage() {
   return (
     <>
-      <Stylesheet name="not-found" />
-
       <Header />
 
       <main>

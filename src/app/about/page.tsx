@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
 
 export const metadata: Metadata = {
   title: 'About - Andrey Pudov',
@@ -11,8 +10,6 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <Stylesheet name="curriculum-vitae" />
-
       <Header />
 
       <main>

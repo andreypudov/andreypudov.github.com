@@ -3,9 +3,6 @@ import path from 'node:path';
 
 import { webpDimensions, type ImageDimensions } from './webp';
 
-/** Cache-busting version appended to static asset URLs. */
-export const ASSET_VERSION = '1.8';
-
 const DATA_DIRECTORY = path.join(process.cwd(), 'data', 'photographs');
 const PUBLIC_DIRECTORY = path.join(process.cwd(), 'public');
 

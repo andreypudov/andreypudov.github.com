@@ -1,6 +1,5 @@
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
 import Carousel from '@/components/ui/Carousel';
 import FeatureGrid from '@/components/ui/FeatureGrid';
 import ImageGrid from '@/components/ui/ImageGrid';
@@ -126,12 +125,6 @@ export default function HomePage() {
 
   return (
     <>
-      <Stylesheet name="carousel" />
-      <Stylesheet name="feature-grid" />
-      <Stylesheet name="lightbox" />
-      <Stylesheet name="parallax" />
-      <Stylesheet name="image-grid" />
-
       <Header variant="home" />
 
       <main>

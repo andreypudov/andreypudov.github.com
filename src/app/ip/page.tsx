@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
-import { ASSET_VERSION } from '@/lib/photographs';
 
 export const metadata: Metadata = {
   title: 'Network - Andrey Pudov',
@@ -40,9 +38,7 @@ function Rows({ rows }: { rows: Array<{ id: string; label: string }> }) {
 export default function NetworkPage() {
   return (
     <>
-      <Stylesheet name="ip" />
-
-      <script src={`/scripts/ip.js?v=${ASSET_VERSION}`} type="module"></script>
+      <script src="/scripts/ip.js" type="module"></script>
 
       <Header />
 

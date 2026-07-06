@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
-import { ASSET_VERSION } from '@/lib/photographs';
 
 export const metadata: Metadata = {
   title: 'Time - Andrey Pudov',
@@ -19,9 +17,7 @@ const CITIES = [
 export default function TimePage() {
   return (
     <>
-      <Stylesheet name="time" />
-
-      <script src={`/scripts/time.js?v=${ASSET_VERSION}`} type="module"></script>
+      <script src="/scripts/time.js" type="module"></script>
 
       <Header />
 

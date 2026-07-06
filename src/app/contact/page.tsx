@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
 import LazyImage from '@/components/ui/LazyImage';
 import { getImage } from '@/lib/photographs';
 
@@ -42,8 +41,6 @@ export default function ContactPage() {
 
   return (
     <>
-      <Stylesheet name="contact" />
-
       <Header />
 
       <main>

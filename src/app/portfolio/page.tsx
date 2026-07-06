@@ -3,7 +3,6 @@ import { Fragment } from 'react';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Stylesheet from '@/components/layout/Stylesheet';
 import Lightbox from '@/components/ui/Lightbox';
 import MasonryGrid from '@/components/ui/MasonryGrid';
 import { getPhotographs } from '@/lib/photographs';
@@ -127,9 +126,6 @@ export default function PortfolioPage() {
 
   return (
     <>
-      <Stylesheet name="masonry-grid" />
-      <Stylesheet name="lightbox" />
-
       <Header
         secondaryItems={sections.map((section) => ({
           href: `#${section.id}`,
