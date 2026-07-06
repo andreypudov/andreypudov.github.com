@@ -2,60 +2,19 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
+import NetworkInformation from '@/components/ui/NetworkInformation';
 
 export const metadata: Metadata = {
   title: 'Network - Andrey Pudov',
 };
 
-const CLIENT_ROWS = [
-  { id: 'ip', label: 'Public IP' },
-  { id: 'user-agent', label: 'User Agent' },
-];
-
-const LOCATION_ROWS = [
-  { id: 'city', label: 'City' },
-  { id: 'region', label: 'Region' },
-  { id: 'country', label: 'Country' },
-  { id: 'latitude', label: 'Latitude' },
-  { id: 'longitude', label: 'Longitude' },
-];
-
-function Rows({ rows }: { rows: Array<{ id: string; label: string }> }) {
-  return (
-    <>
-      {rows.map((row) => (
-        <div className="row" key={row.id}>
-          <span className="label">
-            <strong>{row.label}</strong>
-          </span>
-          <span className="value" id={row.id}>---</span>
-        </div>
-      ))}
-    </>
-  );
-}
-
 export default function NetworkPage() {
   return (
     <>
-      <script src="/scripts/ip.js" type="module"></script>
-
       <Header />
 
       <main>
-        <div className="network container">
-          <h1>
-            Network Information
-          </h1>
-
-          <section className="client">
-            <Rows rows={CLIENT_ROWS} />
-          </section>
-
-          <section className="location">
-            <Rows rows={LOCATION_ROWS} />
-          </section>
-        </div>
+        <NetworkInformation />
       </main>
 
       <Footer priority />
