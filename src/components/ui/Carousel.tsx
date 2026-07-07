@@ -45,12 +45,16 @@ export default function Carousel({ photographs }: { photographs: Photograph[] })
         ))}
 
         <ol className="indicators">
+          {/* Indicators are laid out as inline blocks, so the whitespace
+              between them is part of the design and must be emitted. */}
           {Array.from({ length: INDICATOR_COUNT }, (_, index) => (
-            <li key={index}>
-              <label htmlFor={`carousel-${index + 1}`} className="bullet">
-                {String(index + 1).padStart(2, '0')}
-              </label>
-            </li>
+            <Fragment key={index}>
+              <li>
+                <label htmlFor={`carousel-${index + 1}`} className="bullet">
+                  {String(index + 1).padStart(2, '0')}
+                </label>
+              </li>{' '}
+            </Fragment>
           ))}
         </ol>
       </div>
